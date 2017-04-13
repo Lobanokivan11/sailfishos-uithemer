@@ -1,0 +1,55 @@
+TARGET = sailfishos-uithemer
+
+MY_FILES = \
+other/apply.sh \
+other/restore.sh \
+other/apply_font.sh \
+other/homescreen.sh \
+other/restore_fonts.sh
+
+OTHER_SOURCES += $$MY_FILES
+
+my_resources.path = $$PREFIX/share/$$TARGET
+my_resources.files = $$MY_FILES
+
+INSTALLS += my_resources
+
+CONFIG += sailfishapp
+
+SOURCES += src/sailfishos-uithemer.cpp
+
+OTHER_FILES += qml/sailfishos-uithemer.qml \
+    qml/cover/CoverPage.qml \
+    rpm/sailfishos-uithemer.changes.in \
+    rpm/sailfishos-uithemer.spec \
+    rpm/sailfishos-uithemer.yaml \
+    sailfishos-uithemer.desktop \
+    qml/js/*.js \
+    qml/components/Button.qml
+
+SAILFISHAPP_ICONS = 86x86
+
+CONFIG += sailfishapp_i18n
+
+TRANSLATIONS +=  translations/sailfishos-uithemer-it.ts
+
+HEADERS += \
+    exec.h \
+    iconpack.h
+
+DISTFILES += \
+    qml/pages/MainPage.qml \
+    qml/pages/Confirm.qml \
+    qml/pages/Restore.qml \
+    qml/pages/About.qml \
+    qml/components/Placeholder.qml \
+    qml/components/FLabel.qml \
+    qml/pages/Uninstall.qml \
+    translations/*.ts \
+    translations/sailfishos-uithemer-it.ts \
+    translations/sailfishos-uithemer.ts \
+    qml/pages/DprPage.qml \
+    qml/pages/HomePage.qml \
+    qml/pages/Restart.qml
+
+
