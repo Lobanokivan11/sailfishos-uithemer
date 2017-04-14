@@ -31,13 +31,13 @@ Dialog {
             width: parent.width
             DialogHeader {
                 id: header
-                acceptText: qsTr("Yes")
-                cancelText: qsTr("No")
+                acceptText: qsTr("Ok")
+                cancelText: qsTr("Cancel")
             }
             Label {
                 width: parent.width - Theme.paddingLarge * 2
                 x: Theme.paddingLarge
-                text: qsTr("Do you want to apply <b>%1</b>?<br><br>Remember to restart the homescreen right after.").arg(name)
+                text: qsTr("Do you want to apply <b>%1</b>? The UI may not respond for a while, do NOT close the app.<br><br>Remember to restart the homescreen right after.").arg(name)
                 textFormat: Text.RichText
                 wrapMode: Text.Wrap
             }
@@ -50,9 +50,9 @@ Dialog {
                 onClicked: {
                     icons = include_icons.checked
                     if(!include_fonts.checked && !include_icons.checked) {
-                        header.acceptText = qsTr("No");
+                        header.acceptText = qsTr("Cancel");
                     } else {
-                        header.acceptText = qsTr("Yes");
+                        header.acceptText = qsTr("Ok");
                     }
                 }
             }
@@ -66,9 +66,9 @@ Dialog {
                 onClicked: {
                     fonts = include_fonts.checked
                     if(!include_fonts.checked && !include_icons.checked) {
-                        header.acceptText = qsTr("No");
+                        header.acceptText = qsTr("Cancel");
                     } else {
-                        header.acceptText = qsTr("Yes");
+                        header.acceptText = qsTr("Ok");
                     }
                 }
             }
@@ -150,9 +150,9 @@ Dialog {
                 }
 
                 if(!include_fonts.checked && !include_icons.checked) {
-                    header.acceptText = qsTr("No");
+                    header.acceptText = qsTr("Cancel");
                 } else {
-                    header.acceptText = qsTr("Yes");
+                    header.acceptText = qsTr("Ok");
                 }
             }
         }

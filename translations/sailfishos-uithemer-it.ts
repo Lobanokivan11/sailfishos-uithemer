@@ -79,21 +79,21 @@
         <location filename="../qml/pages/Confirm.qml" line="55"/>
         <location filename="../qml/pages/Confirm.qml" line="71"/>
         <location filename="../qml/pages/Confirm.qml" line="155"/>
-        <source>Yes</source>
-        <translation>Sì</translation>
+        <source>Ok</source>
+        <translation>Ok</translation>
     </message>
     <message>
         <location filename="../qml/pages/Confirm.qml" line="35"/>
         <location filename="../qml/pages/Confirm.qml" line="53"/>
         <location filename="../qml/pages/Confirm.qml" line="69"/>
         <location filename="../qml/pages/Confirm.qml" line="153"/>
-        <source>No</source>
-        <translation>No</translation>
+        <source>Cancel</source>
+        <translation>Annulla</translation>
     </message>
     <message>
         <location filename="../qml/pages/Confirm.qml" line="40"/>
-        <source>Do you want to apply &lt;b&gt;%1&lt;/b&gt;?&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
-        <translation>Vuoi applicare &lt;b&gt;%1&lt;/b&gt;?&lt;br&gt;&lt;br&gt;Ricorda di riavviare la homescreen subito dopo.</translation>
+        <source>Do you want to apply &lt;b&gt;%1&lt;/b&gt;? The UI may not respond for a while, do NOT close the app.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
+        <translation>Vuoi applicare &lt;b&gt;%1&lt;/b&gt;? La UI potrebbe non rispondere per un po&apos;, NON chiudere l&apos;app.&lt;br&gt;&lt;br&gt;Ricorda di riavviare la homescreen subito dopo.</translation>
     </message>
     <message>
         <location filename="../qml/pages/Confirm.qml" line="47"/>
@@ -227,8 +227,8 @@
     </message>
     <message>
         <location filename="../qml/pages/Restore.qml" line="35"/>
-        <source>What do you want to restore?&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
-        <translation>Cosa vuoi ripristinare?&lt;br&gt;&lt;br&gt;Ricorda di riavviare la homescreen subito dopo.</translation>
+        <source>What do you want to restore? The UI may not respond for a while, do NOT close the app.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
+        <translation>Cosa vuoi ripristinare? La UI potrebbe non rispondere per un po&apos;, NON chiudere l&apos;app.&lt;br&gt;&lt;br&gt;Ricorda di riavviare la homescreen subito dopo.</translation>
     </message>
     <message>
         <location filename="../qml/pages/Restore.qml" line="43"/>
