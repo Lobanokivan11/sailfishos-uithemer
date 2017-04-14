@@ -14,7 +14,7 @@ Name:       sailfishos-uithemer
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:    UI themer
 Version:    0.5
-Release:    22
+Release:    29
 Group:      Qt/Qt
 License:    GPLv3
 URL:        https://github.com/fravaccaro/sailfishos-uithemer
@@ -37,18 +37,15 @@ Enables customization of icons, fonts and pixel density in Sailfish OS.
 # >> setup
 # << setup
 
-%post
-/usr/share/sailfishos-uithemer/postin_dpr.sh
-
 %preun
-/usr/share/sailfishos-uithemer/restore_dpr.sh
-/usr/share/sailfishos-uithemer/preun_dpr.sh
 # /usr/share/harbour-themepacksupport/icon-restore.sh
 # /usr/share/harbour-themepacksupport/graphic-restore.sh
 # /usr/share/harbour-themepacksupport/font-restore.sh
 # /usr/share/harbour-themepacksupport/sound-restore.sh
 
 if [ "$1" = "0" ]; then
+    /usr/share/sailfishos-uithemer/restore_dpr.sh
+    /usr/share/sailfishos-uithemer/preun_dpr.sh
     rm -rf /home/nemo/.local/share/sailfishos-uithemer
     filepath="/usr/share/applications/harbour-themepacksupport.desktop"
     if [ -e "$filepath" ]; then
@@ -93,3 +90,8 @@ desktop-file-install --delete-original       \
 %{_datadir}/icons/hicolor/*/apps/%{name}.png
 # >> files
 # << files
+
+%post
+ if [ "$1" = "1" ]; then
+    /usr/share/sailfishos-uithemer/postin_dpr.sh
+ fi

@@ -9,3 +9,5 @@ if [ -f /usr/share/sailfishos-uithemer/backup/ui-configs.txt.bk ]; then
 fi
 
 dconf update
+
+exit 0
