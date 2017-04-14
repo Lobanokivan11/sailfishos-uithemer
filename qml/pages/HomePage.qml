@@ -26,7 +26,7 @@ Page {
         }
         ListElement {
             page: "DprPage.qml"
-            title: qsTr("Device pixel ratio")
+            title: qsTr("Display density")
         }
     }
     SilicaListView {
