@@ -25,8 +25,19 @@ Page {
 
             Placeholder { }
 
-            PageHeader {
-                  title: qsTr("Advanced users")
+            Button {
+                x: Theme.paddingLarge
+                width: parent.width - 2 * Theme.paddingLarge
+                text: qsTr("Page on OpenRepos")
+                onClicked: {
+                    Qt.openUrlExternally("https://openrepos.net/content/fravaccaro/ui-themer")
+                }
+            }
+
+            Placeholder { }
+
+            FLabel {
+                  text: qsTr("CLI tool")
               }
               Label {
                   x: Theme.paddingLarge
@@ -37,14 +48,17 @@ Page {
 
               Placeholder { }
 
-              Button {
-                  x: Theme.paddingLarge
-                  width: parent.width - 2 * Theme.paddingLarge
-                  text: qsTr("Page on OpenRepos")
-                  onClicked: {
-                      Qt.openUrlExternally("https://openrepos.net/content/fravaccaro/ui-themer")
-                  }
+              FLabel {
+                  text: qsTr("Developers")
               }
+              Label {
+                  x: Theme.paddingLarge
+                  width: parent.width - Theme.paddingLarge * 2
+                  wrapMode: Text.Wrap
+                  textFormat: Text.RichText
+                  onLinkActivated: Qt.openUrlExternally(link)
+                  text: qsTr("The source code of this app is hosted on <a href='https://github.com/fravaccaro/sailfishos-uithemer'>GitHub</a>.<br>If you want to create your theme compatible with it, please <a href='https://github.com/fravaccaro/themepacksupport-sailfishos/wiki/Get-started'>read the wiki</a>.")
+               }
 
               Placeholder { }
 
@@ -78,8 +92,10 @@ Page {
                   x: Theme.paddingLarge
                   width: parent.width - Theme.paddingLarge * 2
                   wrapMode: Text.Wrap
-                  text: qsTr("This app is based on the Icon pack support GUI by RikudouSennin.\n \nThanks to Dax89 for help and patience.")
-              }
+                  textFormat: Text.RichText
+                  onLinkActivated: Qt.openUrlExternally(link)
+                  text: qsTr("Part of this app is based on the <a href='https://github.com/RikudouSage/sailfish-iconpacksupport-gui'>Icon pack support GUI</a> by RikudouSennin.<br>Icon design by <a href='http://www.freepik.com/free-photo/blue-paint-roller_959191.htm'>Freepik</a>.<br>Thanks to Dax89 for help and patience.")
+               }
 
               Placeholder { }
 

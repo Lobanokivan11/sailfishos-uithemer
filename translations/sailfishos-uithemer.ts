@@ -43,13 +43,19 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>This app is based on the Icon pack support GUI by RikudouSennin.
- 
-Thanks to Dax89 for help and patience.</source>
+        <source>CLI tool</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Advanced users</source>
+        <source>Developers</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The source code of this app is hosted on &lt;a href=&apos;https://github.com/fravaccaro/sailfishos-uithemer&apos;&gt;GitHub&lt;/a&gt;.&lt;br&gt;If you want to create your theme compatible with it, please &lt;a href=&apos;https://github.com/fravaccaro/themepacksupport-sailfishos/wiki/Get-started&apos;&gt;read the wiki&lt;/a&gt;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Part of this app is based on the &lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon pack support GUI&lt;/a&gt; by RikudouSennin.&lt;br&gt;Icon design by &lt;a href=&apos;http://www.freepik.com/free-photo/blue-paint-roller_959191.htm&apos;&gt;Freepik&lt;/a&gt;.&lt;br&gt;Thanks to Dax89 for help and patience.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -102,11 +108,11 @@ Thanks to Dax89 for help and patience.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Device pixel ratio</source>
+        <source>Restart homescreen</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Restart homescreen</source>
+        <source>Display density</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -163,10 +169,6 @@ Thanks to Dax89 for help and patience.</source>
 <context>
     <name>Restore</name>
     <message>
-        <source>No</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Restore default icons</source>
         <translation type="unfinished"></translation>
     </message>
@@ -180,6 +182,10 @@ Thanks to Dax89 for help and patience.</source>
     </message>
     <message>
         <source>Ok</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cancel</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

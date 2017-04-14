@@ -36,7 +36,7 @@ CoverBackground {
     Image {
         anchors.fill: parent
         fillMode: Image.PreserveAspectFit
-        source: "image://theme/icon-m-file-image"
+        source: "../../coverbg.png"
         opacity: 0.3
         horizontalAlignment: Image.AlignHCenter
         verticalAlignment: Image.AlignVCenter

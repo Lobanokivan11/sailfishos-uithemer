@@ -22,48 +22,54 @@
         <translation>Con UI themer puoi personalizzare le icone, i font e la densità di pixel in Sailfish OS. Ricorda di ripristinare il tema predefinito prima degli aggiornamenti di sistema.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="29"/>
-        <source>Advanced users</source>
-        <translation>Utenti avanzati</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/About.qml" line="35"/>
+        <location filename="../qml/pages/About.qml" line="46"/>
         <source>If anything goes wrong or you want to manage themes via terminal, you can recall the CLI tool by typing &lt;i&gt;themepacksupport&lt;/i&gt; as root.</source>
         <translation>Se qualcosa va storto o vuoi gestire i temi via terminale, puoi richiamare il tool a riga di comando digitando &lt;i&gt;themepacksupport&lt;/i&gt; da utente root.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="43"/>
+        <location filename="../qml/pages/About.qml" line="31"/>
         <source>Page on OpenRepos</source>
         <translation>Pagina su OpenRepos</translation>
     </message>
     <message>
+        <location filename="../qml/pages/About.qml" line="40"/>
+        <source>CLI tool</source>
+        <translation>Tool CLI</translation>
+    </message>
+    <message>
         <location filename="../qml/pages/About.qml" line="52"/>
+        <source>Developers</source>
+        <translation>Sviluppatori</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/About.qml" line="60"/>
+        <source>The source code of this app is hosted on &lt;a href=&apos;https://github.com/fravaccaro/sailfishos-uithemer&apos;&gt;GitHub&lt;/a&gt;.&lt;br&gt;If you want to create your theme compatible with it, please &lt;a href=&apos;https://github.com/fravaccaro/themepacksupport-sailfishos/wiki/Get-started&apos;&gt;read the wiki&lt;/a&gt;.</source>
+        <translation>Il codice sorgente di quest&apos;app è disponibile su &lt;a href=&apos;https://github.com/fravaccaro/sailfishos-uithemer&apos;&gt;GitHub&lt;/a&gt;.&lt;br&gt;Se vuoi creare un tema compatibile &lt;a href=&apos;https://github.com/fravaccaro/themepacksupport-sailfishos/wiki/Get-started&apos;&gt;leggi la wiki&lt;/a&gt;.</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/About.qml" line="66"/>
         <source>Support</source>
         <translation>Supporta</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="58"/>
+        <location filename="../qml/pages/About.qml" line="72"/>
         <source>If you like my Theme pack support and want to buy me a beer, feel free to do it!</source>
         <translation>Se ti piace il mio Theme pack support sentiti libero di offrirmi una birra!</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="66"/>
+        <location filename="../qml/pages/About.qml" line="80"/>
         <source>Donate</source>
         <translation>Dona</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="75"/>
+        <location filename="../qml/pages/About.qml" line="89"/>
         <source>Credits</source>
         <translation>Crediti</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="81"/>
-        <source>This app is based on the Icon pack support GUI by RikudouSennin.
- 
-Thanks to Dax89 for help and patience.</source>
-        <translation>Parte di quest&apos;app è basata su Icon pack support GUI di RikudouSennin.
-
-Grazie a Dax89 per l&apos;aiuto e la pazienza.</translation>
+        <location filename="../qml/pages/About.qml" line="97"/>
+        <source>Part of this app is based on the &lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon pack support GUI&lt;/a&gt; by RikudouSennin.&lt;br&gt;Icon design by &lt;a href=&apos;http://www.freepik.com/free-photo/blue-paint-roller_959191.htm&apos;&gt;Freepik&lt;/a&gt;.&lt;br&gt;Thanks to Dax89 for help and patience.</source>
+        <translation>Parte di quest&apos;app è basata su &lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon pack support GUI&lt;/a&gt; di RikudouSennin.&lt;br&gt;Icona da &lt;a href=&apos;http://www.freepik.com/free-photo/blue-paint-roller_959191.htm&apos;&gt;Freepik&lt;/a&gt;.&lt;br&gt;Grazie a Dax89 per l&apos;aiuto e la pazienza.</translation>
     </message>
 </context>
 <context>
@@ -133,8 +139,8 @@ Grazie a Dax89 per l&apos;aiuto e la pazienza.</translation>
     </message>
     <message>
         <location filename="../qml/pages/HomePage.qml" line="29"/>
-        <source>Device pixel ratio</source>
-        <translation>Device pixel ratio</translation>
+        <source>Display density</source>
+        <translation>Densità display</translation>
     </message>
     <message>
         <location filename="../qml/pages/HomePage.qml" line="45"/>
@@ -206,18 +212,18 @@ Grazie a Dax89 per l&apos;aiuto e la pazienza.</translation>
 <context>
     <name>Restore</name>
     <message>
-        <location filename="../qml/pages/Restore.qml" line="30"/>
-        <location filename="../qml/pages/Restore.qml" line="50"/>
-        <location filename="../qml/pages/Restore.qml" line="67"/>
-        <source>No</source>
-        <translation>No</translation>
-    </message>
-    <message>
         <location filename="../qml/pages/Restore.qml" line="29"/>
         <location filename="../qml/pages/Restore.qml" line="52"/>
         <location filename="../qml/pages/Restore.qml" line="69"/>
         <source>Ok</source>
         <translation>Ok</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Restore.qml" line="30"/>
+        <location filename="../qml/pages/Restore.qml" line="50"/>
+        <location filename="../qml/pages/Restore.qml" line="67"/>
+        <source>Cancel</source>
+        <translation>Annulla</translation>
     </message>
     <message>
         <location filename="../qml/pages/Restore.qml" line="35"/>

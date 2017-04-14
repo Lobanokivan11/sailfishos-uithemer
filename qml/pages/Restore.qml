@@ -27,7 +27,7 @@ Dialog {
             DialogHeader {
                 id: header
                 acceptText: qsTr("Ok")
-                cancelText: qsTr("No")
+                cancelText: qsTr("Cancel")
             }
             Label {
                 width: parent.width - Theme.paddingLarge * 2
@@ -47,7 +47,7 @@ Dialog {
                     icons = restore_icons.checked;
                     console.log(icons);
                     if(!restore_icons.checked && !restore_fonts.checked) {
-                        header.acceptText = qsTr("No");
+                        header.acceptText = qsTr("Cancel");
                     } else {
                         header.acceptText = qsTr("Ok");
                     }
@@ -64,7 +64,7 @@ Dialog {
                     fonts = restore_fonts.checked;
                     console.log(fonts);
                     if(!restore_icons.checked && !restore_fonts.checked) {
-                        header.acceptText = qsTr("No");
+                        header.acceptText = qsTr("Cancel");
                     } else {
                         header.acceptText = qsTr("Ok");
                     }

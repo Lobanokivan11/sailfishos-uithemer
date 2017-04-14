@@ -14,7 +14,7 @@ Name:       sailfishos-uithemer
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:    UI themer
 Version:    0.5
-Release:    18
+Release:    21
 Group:      Qt/Qt
 License:    GPLv3
 URL:        https://github.com/fravaccaro/sailfishos-uithemer

@@ -6,7 +6,8 @@ other/restore.sh \
 other/apply_font.sh \
 other/homescreen.sh \
 other/restore_fonts.sh \
-other/restore_dpr.sh
+other/restore_dpr.sh \
+other/coverbg.png
 
 OTHER_SOURCES += $$MY_FILES
 
@@ -51,6 +52,5 @@ DISTFILES += \
     translations/sailfishos-uithemer.ts \
     qml/pages/DprPage.qml \
     qml/pages/HomePage.qml \
-    qml/pages/Restart.qml \
-
+    qml/pages/Restart.qml
 
