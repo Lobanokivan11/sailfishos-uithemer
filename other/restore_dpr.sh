@@ -1,4 +1,3 @@
 #!/bin/bash
 
-su - nemo -c "dconf reset /desktop/jolla/theme/font/sizeMultiplier"
-su - nemo -c "dconf reset /desktop/jolla/theme/font/sizeThreshold"
+su - nemo -c "dconf reset /desktop/sailfish/silica/theme_pixel_ratio"
