@@ -28,7 +28,7 @@ Dialog {
             Label {
                 width: parent.width - Theme.paddingLarge * 2
                 x: Theme.paddingLarge
-                text: qsTr("Do you want to restore theme pack?<br>If you restore, the app may stop responding for a while and your homescreen will be restarted, which will result in closing all of your open apps.")
+                text: qsTr("Do you want to restart the homescreen?")
                 textFormat: Text.RichText
                 wrapMode: Text.Wrap
             }

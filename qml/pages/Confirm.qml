@@ -37,7 +37,7 @@ Dialog {
             Label {
                 width: parent.width - Theme.paddingLarge * 2
                 x: Theme.paddingLarge
-                text: qsTr("Do you want to apply <b>%1</b> theme pack?<br>If you apply it, the app may stop responding for a while and your homescreen will be restarted, which will result in closing all of your open apps.").arg(name)
+                text: qsTr("Do you want to apply <b>%1</b>?<br><br>Remember to restart the homescreen right after.").arg(name)
                 textFormat: Text.RichText
                 wrapMode: Text.Wrap
             }
@@ -81,17 +81,13 @@ Dialog {
                 Placeholder { }
 
                 PageHeader {
-                    title: qsTr("Font options")
+                    title: qsTr("Font weight")
                 }
 
                 ListModel { // weight model, sailfish
                     id: wmodels
                 }
 
-
-                FLabel {
-                    text: qsTr("Sailfish regular font weight")
-                }
                 Repeater {
                     id: views
                     model: wmodels

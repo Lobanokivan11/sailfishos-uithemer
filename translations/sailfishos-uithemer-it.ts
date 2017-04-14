@@ -3,8 +3,8 @@
 <TS version="2.1" language="it_IT">
 <context>
     <name></name>
-    <message id="UI themer">
-        <location filename="../qml/pages/DprPage.qml" line="27"/>
+    <message id="Device pixel ratio">
+        <location filename="../qml/pages/DprPage.qml" line="28"/>
         <source></source>
         <translation></translation>
     </message>
@@ -18,38 +18,52 @@
     </message>
     <message>
         <location filename="../qml/pages/About.qml" line="23"/>
-        <source>This app is a GUI for theme pack support by &lt;b&gt;fravaccaro&lt;/b&gt;. The core functionality is implemented by him in separate app - this app just calls the core functions from more user friendly interface. If you have problems with core funcionality (fonts or icons not applying etc.), contact him via button below.&lt;br&gt;&lt;br&gt;If you have problem with the GUI, you can contact me in comments on OpenRepos (via button below).</source>
-        <translation></translation>
+        <source>With UI themer you can customize icons, fonts and pixel density in Sailfish OS. Remember to unapply themes before system updates.</source>
+        <translation>Con UI themer puoi personalizzare le icone, i font e la densità di pixel in Sailfish OS. Ricorda di ripristinare il tema predefinito prima degli aggiornamenti di sistema.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="31"/>
-        <source>Contact fravaccaro</source>
-        <translation></translation>
+        <location filename="../qml/pages/About.qml" line="29"/>
+        <source>Advanced users</source>
+        <translation>Utenti avanzati</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/About.qml" line="35"/>
+        <source>If anything goes wrong or you want to manage themes via terminal, you can recall the CLI tool by typing &lt;i&gt;themepacksupport&lt;/i&gt; as root.</source>
+        <translation>Se qualcosa va storto o vuoi gestire i temi via terminale, puoi richiamare il tool a riga di comando digitando &lt;i&gt;themepacksupport&lt;/i&gt; da utente root.</translation>
     </message>
     <message>
         <location filename="../qml/pages/About.qml" line="43"/>
-        <source>Contact me</source>
-        <translation></translation>
+        <source>Page on OpenRepos</source>
+        <translation>Pagina su OpenRepos</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="50"/>
-        <source>Translators</source>
-        <translation></translation>
+        <location filename="../qml/pages/About.qml" line="52"/>
+        <source>Support</source>
+        <translation>Supporta</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="56"/>
-        <source>Swedish</source>
-        <translation></translation>
+        <location filename="../qml/pages/About.qml" line="58"/>
+        <source>If you like my Theme pack support and want to buy me a beer, feel free to do it!</source>
+        <translation>Se ti piace il mio Theme pack support sentiti libero di offrirmi una birra!</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="56"/>
-        <source>Finnish</source>
-        <translation></translation>
+        <location filename="../qml/pages/About.qml" line="66"/>
+        <source>Donate</source>
+        <translation>Dona</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="56"/>
-        <source>Czech</source>
-        <translation></translation>
+        <location filename="../qml/pages/About.qml" line="75"/>
+        <source>Credits</source>
+        <translation>Crediti</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/About.qml" line="81"/>
+        <source>This app is based on the Icon pack support GUI by RikudouSennin.
+ 
+Thanks to Dax89 for help and patience.</source>
+        <translation>Parte di quest&apos;app è basata su Icon pack support GUI di RikudouSennin.
+
+Grazie a Dax89 per l&apos;aiuto e la pazienza.</translation>
     </message>
 </context>
 <context>
@@ -58,63 +72,57 @@
         <location filename="../qml/pages/Confirm.qml" line="34"/>
         <location filename="../qml/pages/Confirm.qml" line="55"/>
         <location filename="../qml/pages/Confirm.qml" line="71"/>
-        <location filename="../qml/pages/Confirm.qml" line="159"/>
+        <location filename="../qml/pages/Confirm.qml" line="155"/>
         <source>Yes</source>
-        <translation></translation>
+        <translation>Sì</translation>
     </message>
     <message>
         <location filename="../qml/pages/Confirm.qml" line="35"/>
         <location filename="../qml/pages/Confirm.qml" line="53"/>
         <location filename="../qml/pages/Confirm.qml" line="69"/>
-        <location filename="../qml/pages/Confirm.qml" line="157"/>
+        <location filename="../qml/pages/Confirm.qml" line="153"/>
         <source>No</source>
-        <translation></translation>
+        <translation>No</translation>
     </message>
     <message>
         <location filename="../qml/pages/Confirm.qml" line="40"/>
-        <source>Do you want to apply &lt;b&gt;%1&lt;/b&gt; theme pack?&lt;br&gt;If you apply it, the app may stop responding for a while and your homescreen will be restarted, which will result in closing all of your open apps.</source>
-        <translation></translation>
+        <source>Do you want to apply &lt;b&gt;%1&lt;/b&gt;?&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
+        <translation>Vuoi applicare &lt;b&gt;%1&lt;/b&gt;?&lt;br&gt;&lt;br&gt;Ricorda di riavviare la homescreen subito dopo.</translation>
     </message>
     <message>
         <location filename="../qml/pages/Confirm.qml" line="47"/>
         <source>Install icons from theme</source>
-        <translation></translation>
+        <translation>Installa icone dal tema</translation>
     </message>
     <message>
         <location filename="../qml/pages/Confirm.qml" line="63"/>
         <source>Install fonts from theme</source>
-        <translation></translation>
+        <translation>Installa font dal tema</translation>
     </message>
     <message>
         <location filename="../qml/pages/Confirm.qml" line="84"/>
-        <source>Font options</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/Confirm.qml" line="93"/>
-        <source>Sailfish regular font weight</source>
-        <translation></translation>
+        <source>Font weight</source>
+        <translation>Stile font</translation>
     </message>
 </context>
 <context>
     <name>DprPage</name>
     <message>
-        <location filename="../qml/pages/DprPage.qml" line="32"/>
-        <location filename="../qml/pages/DprPage.qml" line="45"/>
+        <location filename="../qml/pages/DprPage.qml" line="34"/>
         <source>Device pixel ratio</source>
-        <translation></translation>
+        <translation>Device pixel ratio</translation>
     </message>
     <message>
-        <location filename="../qml/pages/DprPage.qml" line="56"/>
-        <source>Change display pixel ratio. To a smaller value corresponds an higher density.</source>
-        <translation></translation>
+        <location filename="../qml/pages/DprPage.qml" line="49"/>
+        <source>Change the display pixel ratio. To a smaller value corresponds an higher density.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
+        <translation>Cambia il display pixel ratio. A un valore minore corrisponde una maggiore densità.&lt;br&gt;&lt;br&gt;Ricorda di riavviare la homescreen subito dopo.</translation>
     </message>
 </context>
 <context>
     <name>HomePage</name>
     <message>
         <location filename="../qml/pages/HomePage.qml" line="12"/>
-        <location filename="../qml/pages/HomePage.qml" line="41"/>
+        <location filename="../qml/pages/HomePage.qml" line="39"/>
         <source>About</source>
         <translation>Info</translation>
     </message>
@@ -124,57 +132,57 @@
         <translation>Temi</translation>
     </message>
     <message>
-        <location filename="../qml/pages/HomePage.qml" line="30"/>
+        <location filename="../qml/pages/HomePage.qml" line="29"/>
         <source>Device pixel ratio</source>
-        <translation></translation>
+        <translation>Device pixel ratio</translation>
     </message>
     <message>
-        <location filename="../qml/pages/HomePage.qml" line="47"/>
+        <location filename="../qml/pages/HomePage.qml" line="45"/>
         <source>Restart homescreen</source>
-        <translation></translation>
+        <translation>Riavvia homescreen</translation>
     </message>
 </context>
 <context>
     <name>MainPage</name>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="26"/>
-        <source>Uninstall theme pack</source>
-        <translation></translation>
+        <location filename="../qml/pages/MainPage.qml" line="31"/>
+        <source>Uninstall theme</source>
+        <translation>Disinstalla tema</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="41"/>
+        <location filename="../qml/pages/MainPage.qml" line="46"/>
         <source>Restore</source>
-        <translation></translation>
+        <translation>Ripristina</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="95"/>
+        <location filename="../qml/pages/MainPage.qml" line="101"/>
         <source>Themes</source>
         <translation>Temi</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="105"/>
+        <location filename="../qml/pages/MainPage.qml" line="111"/>
         <source>Loading...</source>
-        <translation></translation>
+        <translation>Caricamento...</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="190"/>
+        <location filename="../qml/pages/MainPage.qml" line="193"/>
         <source>This icon pack is already active.</source>
-        <translation></translation>
+        <translation>Questo pacchetto di icone è già attivo.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="236"/>
+        <location filename="../qml/pages/MainPage.qml" line="240"/>
         <source>icons</source>
-        <translation></translation>
+        <translation>icone</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="237"/>
+        <location filename="../qml/pages/MainPage.qml" line="241"/>
         <source>fonts</source>
-        <translation></translation>
+        <translation>font</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="314"/>
-        <source>It looks like you don&apos;t have any theme pack installed :(</source>
-        <translation></translation>
+        <location filename="../qml/pages/MainPage.qml" line="318"/>
+        <source>No themes installed</source>
+        <translation>Nessun tema installato</translation>
     </message>
 </context>
 <context>
@@ -182,49 +190,49 @@
     <message>
         <location filename="../qml/pages/Restart.qml" line="25"/>
         <source>Yes</source>
-        <translation></translation>
+        <translation>Sì</translation>
     </message>
     <message>
         <location filename="../qml/pages/Restart.qml" line="26"/>
         <source>No</source>
-        <translation></translation>
+        <translation>No</translation>
     </message>
     <message>
         <location filename="../qml/pages/Restart.qml" line="31"/>
-        <source>Do you want to restore theme pack?&lt;br&gt;If you restore, the app may stop responding for a while and your homescreen will be restarted, which will result in closing all of your open apps.</source>
-        <translation></translation>
+        <source>Do you want to restart the homescreen?</source>
+        <translation>Vuoi riavviare la homescreen?</translation>
     </message>
 </context>
 <context>
     <name>Restore</name>
     <message>
-        <location filename="../qml/pages/Restore.qml" line="29"/>
-        <location filename="../qml/pages/Restore.qml" line="52"/>
-        <location filename="../qml/pages/Restore.qml" line="69"/>
-        <source>Yes</source>
-        <translation></translation>
-    </message>
-    <message>
         <location filename="../qml/pages/Restore.qml" line="30"/>
         <location filename="../qml/pages/Restore.qml" line="50"/>
         <location filename="../qml/pages/Restore.qml" line="67"/>
         <source>No</source>
-        <translation></translation>
+        <translation>No</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Restore.qml" line="29"/>
+        <location filename="../qml/pages/Restore.qml" line="52"/>
+        <location filename="../qml/pages/Restore.qml" line="69"/>
+        <source>Ok</source>
+        <translation>Ok</translation>
     </message>
     <message>
         <location filename="../qml/pages/Restore.qml" line="35"/>
-        <source>Do you want to restore theme pack?&lt;br&gt;If you restore, the app may stop responding for a while and your homescreen will be restarted, which will result in closing all of your open apps.</source>
-        <translation></translation>
+        <source>What do you want to restore?&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
+        <translation>Cosa vuoi ripristinare?&lt;br&gt;&lt;br&gt;Ricorda di riavviare la homescreen subito dopo.</translation>
     </message>
     <message>
         <location filename="../qml/pages/Restore.qml" line="43"/>
         <source>Restore default icons</source>
-        <translation></translation>
+        <translation>Ripristina icone predefinite</translation>
     </message>
     <message>
         <location filename="../qml/pages/Restore.qml" line="60"/>
         <source>Restore default fonts</source>
-        <translation></translation>
+        <translation>Ripristina font predefiniti</translation>
     </message>
 </context>
 <context>
@@ -232,12 +240,12 @@
     <message>
         <location filename="../qml/pages/Uninstall.qml" line="22"/>
         <source>Uninstall</source>
-        <translation></translation>
+        <translation>Disinstalla</translation>
     </message>
     <message>
         <location filename="../qml/pages/Uninstall.qml" line="23"/>
         <source>Cancel</source>
-        <translation></translation>
+        <translation>Annulla</translation>
     </message>
 </context>
 </TS>

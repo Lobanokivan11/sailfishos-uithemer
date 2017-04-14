@@ -1,5 +1,6 @@
 import QtQuick 2.0
 import Sailfish.Silica 1.0
+import "../components"
 import org.nemomobile.configuration 1.0
 
 Page {
@@ -24,21 +25,9 @@ Page {
             spacing: Theme.paddingLarge
 
                 PageHeader {
-	            title: qsTrId("UI themer")
+                title: qsTrId("Device pixel ratio")
     	        }
 
-                Label {
-	            width: parent.width
-	            text: qsTr("Device pixel ratio")
-		    wrapMode: Text.Wrap
-
-	            anchors {
-        		left: parent.left
-    		        leftMargin: Theme.horizontalPageMargin
-		        right: parent.right
-    		        rightMargin: Theme.horizontalPageMargin        
-		    }
-		}
                     Slider {
                         id: dpr_slider
                         width: parent.width
@@ -51,21 +40,14 @@ Page {
                         onReleased: silica.theme_pixel_ratio = value
                         onPressAndHold: cancel()
                     }
-	            Label {
-    		        width: parent.width
-            		text: qsTr("Change display pixel ratio. To a smaller value corresponds an higher density.")
-    		        color: Theme.highlightColor
-			font.pixelSize: Theme.fontSizeSmall
-		        wrapMode: Text.Wrap
 
-		            anchors {
-    			        left: parent.left
-			        leftMargin: Theme.horizontalPageMargin
-		                right: parent.right
-		                rightMargin: Theme.horizontalPageMargin        
-    			    }
-        	    }
-
+                Label {
+                    x: Theme.paddingLarge
+                    width: parent.width - 2 * Theme.paddingLarge
+                    wrapMode: Text.Wrap
+                    textFormat: Text.RichText
+                    text: qsTr("Change the display pixel ratio. To a smaller value corresponds an higher density.<br><br>Remember to restart the homescreen right after.")
+                }
 
             }
     }

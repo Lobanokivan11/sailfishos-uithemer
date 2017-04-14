@@ -23,12 +23,10 @@ Page {
         ListElement {
             page: "MainPage.qml"
             title: qsTr("Themes")
-            subtitle: "Assorted Button variants"
         }
         ListElement {
             page: "DprPage.qml"
             title: qsTr("Device pixel ratio")
-            subtitle: "ComboBox component"
         }
     }
     SilicaListView {

@@ -26,13 +26,13 @@ Dialog {
             width: parent.width
             DialogHeader {
                 id: header
-                acceptText: qsTr("Yes")
+                acceptText: qsTr("Ok")
                 cancelText: qsTr("No")
             }
             Label {
                 width: parent.width - Theme.paddingLarge * 2
                 x: Theme.paddingLarge
-                text: qsTr("Do you want to restore theme pack?<br>If you restore, the app may stop responding for a while and your homescreen will be restarted, which will result in closing all of your open apps.")
+                text: qsTr("What do you want to restore?<br><br>Remember to restart the homescreen right after.")
                 textFormat: Text.RichText
                 wrapMode: Text.Wrap
             }
@@ -49,7 +49,7 @@ Dialog {
                     if(!restore_icons.checked && !restore_fonts.checked) {
                         header.acceptText = qsTr("No");
                     } else {
-                        header.acceptText = qsTr("Yes");
+                        header.acceptText = qsTr("Ok");
                     }
                 }
             }
@@ -66,7 +66,7 @@ Dialog {
                     if(!restore_icons.checked && !restore_fonts.checked) {
                         header.acceptText = qsTr("No");
                     } else {
-                        header.acceptText = qsTr("Yes");
+                        header.acceptText = qsTr("Ok");
                     }
                 }
             }

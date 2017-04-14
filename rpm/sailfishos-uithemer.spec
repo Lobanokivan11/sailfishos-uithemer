@@ -13,14 +13,14 @@ Name:       sailfishos-uithemer
 %{!?qtc_make:%define qtc_make make}
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:    UI themer
-Version:    0.6
-Release:    7
+Version:    0.5
+Release:    18
 Group:      Qt/Qt
-License:    LICENSE
-URL:        http://example.org/
+License:    GPLv3
+URL:        https://github.com/fravaccaro/sailfishos-uithemer
 Source0:    %{name}-%{version}.tar.bz2
 Source100:  sailfishos-uithemer.yaml
-# Requires:   sailfishsilica-qt5 >= 0.10.9, expect, harbour-themepacksupport >= 0.0.8-1
+# Requires:   sailfishsilica-qt5 >= 0.10.9, harbour-themepacksupport >= 0.3.1-5
 BuildRequires:  pkgconfig(sailfishapp) >= 1.0.2
 BuildRequires:  pkgconfig(Qt5Core)
 BuildRequires:  pkgconfig(Qt5Qml)
@@ -28,7 +28,7 @@ BuildRequires:  pkgconfig(Qt5Quick)
 BuildRequires:  desktop-file-utils
 
 %description
-Short description of my SailfishOS Application
+Enables customization of icons, fonts and pixel density in Sailfish OS.
 
 
 %prep
@@ -38,6 +38,12 @@ Short description of my SailfishOS Application
 # << setup
 
 %preun
+# /usr/share/sailfishos-uithemer/restore_dpr.sh
+# /usr/share/harbour-themepacksupport/icon-restore.sh
+# /usr/share/harbour-themepacksupport/graphic-restore.sh
+# /usr/share/harbour-themepacksupport/font-restore.sh
+# /usr/share/harbour-themepacksupport/sound-restore.sh
+
 if [ "$1" = "0" ]; then
     rm -rf /home/nemo/.local/share/sailfishos-uithemer
     filepath="/usr/share/applications/harbour-themepacksupport.desktop"

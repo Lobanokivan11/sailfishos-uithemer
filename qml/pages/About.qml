@@ -20,43 +20,82 @@ Page {
                 width: parent.width - 2 * Theme.paddingLarge
                 wrapMode: Text.Wrap
                 textFormat: Text.RichText
-                text: qsTr("This app is a GUI for theme pack support by <b>fravaccaro</b>. The core functionality is implemented by him in separate app - this app just calls the core functions from more user friendly interface. If you have problems with core funcionality (fonts or icons not applying etc.), contact him via button below.<br><br>If you have problem with the GUI, you can contact me in comments on OpenRepos (via button below).")
+                text: qsTr("With UI themer you can customize icons, fonts and pixel density in Sailfish OS. Remember to unapply themes before system updates.")
             }
 
             Placeholder { }
-
-            Button {
-                x: Theme.paddingLarge
-                width: parent.width - 2 * Theme.paddingLarge
-                text: qsTr("Contact fravaccaro")
-                onClicked: {
-                    Qt.openUrlExternally("https://openrepos.net/content/fravaccaro/theme-pack-support-sailfish-os")
-                }
-            }
-
-            Placeholder { }
-
-            Button {
-                y: Theme.paddingLarge
-                x: Theme.paddingLarge
-                width: parent.width - 2 * Theme.paddingLarge
-                text: qsTr("Contact me")
-                onClicked: {
-                    Qt.openUrlExternally("https://openrepos.net/content/rikudousennin/gui-theme-pack-support-sailfish-os")
-                }
-            }
 
             PageHeader {
-                title: qsTr("Translators")
-            }
-            Label {
-                x: Theme.paddingLarge
-                width: parent.width - Theme.paddingLarge * 2
-                wrapMode: Text.Wrap
-                text: qsTr("Swedish")+": eson\n"+qsTr("Finnish")+": Vivaldo\n"+qsTr("Czech")+": Rikudou_Sennin"
-            }
+                  title: qsTr("Advanced users")
+              }
+              Label {
+                  x: Theme.paddingLarge
+                  width: parent.width - Theme.paddingLarge * 2
+                  wrapMode: Text.Wrap
+                  text: qsTr("If anything goes wrong or you want to manage themes via terminal, you can recall the CLI tool by typing <i>themepacksupport</i> as root.")
+              }
 
-            Placeholder { }
+              Placeholder { }
+
+              Button {
+                  x: Theme.paddingLarge
+                  width: parent.width - 2 * Theme.paddingLarge
+                  text: qsTr("Page on OpenRepos")
+                  onClicked: {
+                      Qt.openUrlExternally("https://openrepos.net/content/fravaccaro/ui-themer")
+                  }
+              }
+
+              Placeholder { }
+
+              PageHeader {
+                  title: qsTr("Support")
+              }
+              Label {
+                  x: Theme.paddingLarge
+                  width: parent.width - Theme.paddingLarge * 2
+                  wrapMode: Text.Wrap
+                  text: qsTr("If you like my Theme pack support and want to buy me a beer, feel free to do it!")
+              }
+
+              Placeholder { }
+
+              Button {
+                  x: Theme.paddingLarge
+                  width: parent.width - 2 * Theme.paddingLarge
+                  text: qsTr("Donate")
+                  onClicked: {
+                      Qt.openUrlExternally("https://www.paypal.com/uk/cgi-bin/webscr?cmd=_flow&SESSION=J9ZVe14oAcscIob-zDF-fwGrn8AKrFh8qOFH9EZf_NFudLbFYNBmx1Ru66G&dispatch=5885d80a13c0db1f8e263663d3faee8d94717bd303200c3af9aadd01a5f55080")
+                  }
+              }
+
+              Placeholder { }
+
+              PageHeader {
+                  title: qsTr("Credits")
+              }
+              Label {
+                  x: Theme.paddingLarge
+                  width: parent.width - Theme.paddingLarge * 2
+                  wrapMode: Text.Wrap
+                  text: qsTr("This app is based on the Icon pack support GUI by RikudouSennin.\n \nThanks to Dax89 for help and patience.")
+              }
+
+              Placeholder { }
+
+              /*
+              PageHeader {
+                  title: qsTr("Translators")
+              }
+              Label {
+                  x: Theme.paddingLarge
+                  width: parent.width - Theme.paddingLarge * 2
+                  wrapMode: Text.Wrap
+                  text: qsTr("English")+": fravaccaro\n"+qsTr("Italian")+": fravaccaro"
+              }
+
+              Placeholder { }
+              */
         }
     }
 }

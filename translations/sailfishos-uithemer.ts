@@ -3,7 +3,7 @@
 <TS version="2.1">
 <context>
     <name></name>
-    <message id="UI themer">
+    <message id="Device pixel ratio">
         <source></source>
         <translation type="unfinished"></translation>
     </message>
@@ -15,31 +15,41 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Translators</source>
+        <source>With UI themer you can customize icons, fonts and pixel density in Sailfish OS. Remember to unapply themes before system updates.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Swedish</source>
+        <source>If anything goes wrong or you want to manage themes via terminal, you can recall the CLI tool by typing &lt;i&gt;themepacksupport&lt;/i&gt; as root.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Finnish</source>
+        <source>Page on OpenRepos</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Czech</source>
+        <source>Support</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>This app is a GUI for theme pack support by &lt;b&gt;fravaccaro&lt;/b&gt;. The core functionality is implemented by him in separate app - this app just calls the core functions from more user friendly interface. If you have problems with core funcionality (fonts or icons not applying etc.), contact him via button below.&lt;br&gt;&lt;br&gt;If you have problem with the GUI, you can contact me in comments on OpenRepos (via button below).</source>
+        <source>If you like my Theme pack support and want to buy me a beer, feel free to do it!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Contact fravaccaro</source>
+        <source>Donate</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Contact me</source>
+        <source>Credits</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This app is based on the Icon pack support GUI by RikudouSennin.
+ 
+Thanks to Dax89 for help and patience.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Advanced users</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -62,15 +72,11 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Do you want to apply &lt;b&gt;%1&lt;/b&gt; theme pack?&lt;br&gt;If you apply it, the app may stop responding for a while and your homescreen will be restarted, which will result in closing all of your open apps.</source>
+        <source>Font weight</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Sailfish regular font weight</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Font options</source>
+        <source>Do you want to apply &lt;b&gt;%1&lt;/b&gt;?&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -81,7 +87,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Change display pixel ratio. To a smaller value corresponds an higher density.</source>
+        <source>Change the display pixel ratio. To a smaller value corresponds an higher density.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -131,11 +137,11 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Uninstall theme pack</source>
+        <source>Uninstall theme</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>It looks like you don&apos;t have any theme pack installed :(</source>
+        <source>No themes installed</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -150,22 +156,14 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Do you want to restore theme pack?&lt;br&gt;If you restore, the app may stop responding for a while and your homescreen will be restarted, which will result in closing all of your open apps.</source>
+        <source>Do you want to restart the homescreen?</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>Restore</name>
     <message>
-        <source>Yes</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>No</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Do you want to restore theme pack?&lt;br&gt;If you restore, the app may stop responding for a while and your homescreen will be restarted, which will result in closing all of your open apps.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -174,6 +172,14 @@
     </message>
     <message>
         <source>Restore default fonts</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>What do you want to restore?&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Ok</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

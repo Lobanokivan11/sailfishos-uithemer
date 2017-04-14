@@ -14,6 +14,11 @@ Page {
     property int active_id: -1 // index of active item, needed for unassigning active property from previously active icon pack
     property int active_id_fonts: -1
     property var labels
+    BusyIndicator {
+        size: BusyIndicatorSize.Large
+        anchors.centerIn: parent
+        running: model.status == Model.Loading
+    }
 
     SilicaFlickable {
         anchors.fill: parent
@@ -23,7 +28,7 @@ Page {
 
             MenuItem {
                 id: uninstall
-                text: qsTr("Uninstall theme pack")
+                text: qsTr("Uninstall theme")
                 onClicked: {
                     var dialog = pageStack.push("Uninstall.qml",{icons: active_iconpack, fonts: active_fontpack});
                     dialog.accepted.connect(function() {
@@ -81,6 +86,7 @@ Page {
                             tx.executeSql("UPDATE active_iconpack SET active='none' WHERE type='"+type+"'");
                         }
 
+//                        iconpack.restart_homescreen();
                     });
                 }
             }
@@ -163,16 +169,13 @@ Page {
                                     active_fontpack = m_text;
                                     active_id_fonts = m_index;
                                     var font = {};
-                                    font.android = dialog.font_active_android;
-                                    font.android_light = dialog.font_active_android_light;
                                     font.sailfish = dialog.font_active_sailfish;
-                                    font.sailfish_light = dialog.font_active_sailfish_light;
 
                                     Console.log(font);
 
                                     console.log("Fonts applying, "+(homescreen?"restarting homescreen":"not restarting homescreen"));
 
-                                    iconpack.apply_fonts(m_text, font.android, font.android_light, font.sailfish, font.sailfish_light);
+                                    iconpack.apply_fonts(m_text, font.sailfish);
                                 }
 
                                 var type = "";
@@ -216,6 +219,7 @@ Page {
                                 tx.executeSql("UPDATE active_iconpack SET active='"+text+"' WHERE type='"+type+"'");
                             }
 
+//                            iconpack.restart_homescreen();
                         });
                     }
                 }
@@ -311,7 +315,7 @@ Page {
                     if(packs.length) { // if there are any, hide the text "Loading..."
                         infotext.visible = false;
                     } else { // else show this string
-                        infotext.text = qsTr("It looks like you don't have any theme pack installed :(");
+                        infotext.text = qsTr("No themes installed");
                         uninstall.enabled = false;
                     }
 
