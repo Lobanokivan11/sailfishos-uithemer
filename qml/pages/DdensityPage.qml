@@ -77,7 +77,6 @@ Page {
         }
                Label {
                     x: Theme.paddingLarge
-                    bottom: Theme
                     width: parent.width - 2 * Theme.paddingLarge
                     wrapMode: Text.Wrap
                     textFormat: Text.RichText

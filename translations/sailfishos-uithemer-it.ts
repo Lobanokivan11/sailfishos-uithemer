@@ -153,7 +153,7 @@
         <translation>Impostazione DPI Android...</translation>
     </message>
     <message>
-        <location filename="../qml/pages/DdensityPage.qml" line="84"/>
+        <location filename="../qml/pages/DdensityPage.qml" line="83"/>
         <source>Change the Android DPI value. To a smaller value corresponds an higher density.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
         <translation>Cambia il valore del DPI Android. A un valore minore corrisponde una maggiore densità.&lt;br&gt;&lt;br&gt;Ricorda di riavviare la homescreen subito dopo.</translation>
     </message>
