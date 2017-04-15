@@ -32,7 +32,7 @@ Dialog {
             Label {
                 width: parent.width - Theme.paddingLarge * 2
                 x: Theme.paddingLarge
-                text: qsTr("What do you want to restore? The UI may not respond for a while, do NOT close the app.<br><br>Remember to restart the homescreen right after.")
+                text: qsTr("What do you want to restore? The UI may not respond for a while, do NOT close the app.<br><br>Remember to restart the homescreen right after.<br>")
                 textFormat: Text.RichText
                 wrapMode: Text.Wrap
             }

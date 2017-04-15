@@ -1,5 +1,3 @@
 #!/bin/bash
 
-su - nemo -c "dconf reset /desktop/sailfish/silica/theme_pixel_ratio"
-
-exit 0
+/usr/share/harbour-themepacksupport/restore_dpr.sh

@@ -68,8 +68,8 @@
     </message>
     <message>
         <location filename="../qml/pages/About.qml" line="97"/>
-        <source>Part of this app is based on the &lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon pack support GUI&lt;/a&gt; by RikudouSennin.&lt;br&gt;Icon design by &lt;a href=&apos;http://www.freepik.com/free-photo/blue-paint-roller_959191.htm&apos;&gt;Freepik&lt;/a&gt;.&lt;br&gt;Thanks to Dax89 for help and patience.</source>
-        <translation>Parte di quest&apos;app è basata su &lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon pack support GUI&lt;/a&gt; di RikudouSennin.&lt;br&gt;Icona da &lt;a href=&apos;http://www.freepik.com/free-photo/blue-paint-roller_959191.htm&apos;&gt;Freepik&lt;/a&gt;.&lt;br&gt;Grazie a Dax89 per l&apos;aiuto e la pazienza.</translation>
+        <source>Part of this app is based on the &lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon pack support GUI&lt;/a&gt; by RikudouSennin.&lt;br&gt;Icon design by &lt;a href=&apos;http://www.freepik.com/free-photo/blue-paint-roller_959191.htm&apos;&gt;Freepik&lt;/a&gt;.&lt;br&gt;Thanks to Dax89 and all the testers for help and patience.</source>
+        <translation>Parte di quest&apos;app è basata su &lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon pack support GUI&lt;/a&gt; di RikudouSennin.&lt;br&gt;Icona da &lt;a href=&apos;http://www.freepik.com/free-photo/blue-paint-roller_959191.htm&apos;&gt;Freepik&lt;/a&gt;.&lt;br&gt;Grazie a Dax89 e ai tester per l&apos;aiuto e la pazienza.</translation>
     </message>
 </context>
 <context>
@@ -92,8 +92,8 @@
     </message>
     <message>
         <location filename="../qml/pages/Confirm.qml" line="40"/>
-        <source>Do you want to apply &lt;b&gt;%1&lt;/b&gt;? The UI may not respond for a while, do NOT close the app.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
-        <translation>Vuoi applicare &lt;b&gt;%1&lt;/b&gt;? La UI potrebbe non rispondere per un po&apos;, NON chiudere l&apos;app.&lt;br&gt;&lt;br&gt;Ricorda di riavviare la homescreen subito dopo.</translation>
+        <source>Do you want to apply &lt;b&gt;%1&lt;/b&gt;? The UI may not respond for a while, do NOT close the app.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.&lt;br&gt;</source>
+        <translation>Vuoi applicare &lt;b&gt;%1&lt;/b&gt;? La UI potrebbe non rispondere per un po&apos;, NON chiudere l&apos;app.&lt;br&gt;&lt;br&gt;Ricorda di riavviare la homescreen subito dopo.&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../qml/pages/Confirm.qml" line="47"/>
@@ -114,12 +114,22 @@
 <context>
     <name>DprPage</name>
     <message>
-        <location filename="../qml/pages/DprPage.qml" line="34"/>
+        <location filename="../qml/pages/DprPage.qml" line="19"/>
+        <source>Restore device pixel ratio</source>
+        <translation>Ripristina device pixel ratio</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/DprPage.qml" line="20"/>
+        <source>Restoring device pixel ratio...</source>
+        <translation>Ripristino device pixel ratio...</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/DprPage.qml" line="32"/>
         <source>Device pixel ratio</source>
         <translation>Device pixel ratio</translation>
     </message>
     <message>
-        <location filename="../qml/pages/DprPage.qml" line="49"/>
+        <location filename="../qml/pages/DprPage.qml" line="47"/>
         <source>Change the display pixel ratio. To a smaller value corresponds an higher density.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
         <translation>Cambia il display pixel ratio. A un valore minore corrisponde una maggiore densità.&lt;br&gt;&lt;br&gt;Ricorda di riavviare la homescreen subito dopo.</translation>
     </message>
@@ -127,86 +137,72 @@
 <context>
     <name>HomePage</name>
     <message>
-        <location filename="../qml/pages/HomePage.qml" line="12"/>
-        <location filename="../qml/pages/HomePage.qml" line="39"/>
-        <source>About</source>
-        <translation>Info</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/HomePage.qml" line="25"/>
+        <location filename="../qml/pages/HomePage.qml" line="15"/>
         <source>Themes</source>
         <translation>Temi</translation>
     </message>
     <message>
-        <location filename="../qml/pages/HomePage.qml" line="29"/>
+        <location filename="../qml/pages/HomePage.qml" line="19"/>
         <source>Display density</source>
         <translation>Densità display</translation>
     </message>
     <message>
-        <location filename="../qml/pages/HomePage.qml" line="45"/>
+        <location filename="../qml/pages/HomePage.qml" line="30"/>
+        <source>About</source>
+        <translation>Info</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/HomePage.qml" line="36"/>
         <source>Restart homescreen</source>
         <translation>Riavvia homescreen</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/HomePage.qml" line="37"/>
+        <source>Restarting homescreen...</source>
+        <translation>Riavvio homescreen...</translation>
     </message>
 </context>
 <context>
     <name>MainPage</name>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="31"/>
+        <location filename="../qml/pages/MainPage.qml" line="26"/>
         <source>Uninstall theme</source>
         <translation>Disinstalla tema</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="46"/>
+        <location filename="../qml/pages/MainPage.qml" line="41"/>
         <source>Restore</source>
         <translation>Ripristina</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="101"/>
+        <location filename="../qml/pages/MainPage.qml" line="96"/>
         <source>Themes</source>
         <translation>Temi</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="111"/>
+        <location filename="../qml/pages/MainPage.qml" line="106"/>
         <source>Loading...</source>
         <translation>Caricamento...</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="193"/>
+        <location filename="../qml/pages/MainPage.qml" line="188"/>
         <source>This icon pack is already active.</source>
         <translation>Questo pacchetto di icone è già attivo.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="240"/>
+        <location filename="../qml/pages/MainPage.qml" line="235"/>
         <source>icons</source>
         <translation>icone</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="241"/>
+        <location filename="../qml/pages/MainPage.qml" line="236"/>
         <source>fonts</source>
         <translation>font</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="318"/>
+        <location filename="../qml/pages/MainPage.qml" line="313"/>
         <source>No themes installed</source>
         <translation>Nessun tema installato</translation>
-    </message>
-</context>
-<context>
-    <name>Restart</name>
-    <message>
-        <location filename="../qml/pages/Restart.qml" line="25"/>
-        <source>Yes</source>
-        <translation>Sì</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/Restart.qml" line="26"/>
-        <source>No</source>
-        <translation>No</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/Restart.qml" line="31"/>
-        <source>Do you want to restart the homescreen?</source>
-        <translation>Vuoi riavviare la homescreen?</translation>
     </message>
 </context>
 <context>
@@ -227,8 +223,8 @@
     </message>
     <message>
         <location filename="../qml/pages/Restore.qml" line="35"/>
-        <source>What do you want to restore? The UI may not respond for a while, do NOT close the app.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
-        <translation>Cosa vuoi ripristinare? La UI potrebbe non rispondere per un po&apos;, NON chiudere l&apos;app.&lt;br&gt;&lt;br&gt;Ricorda di riavviare la homescreen subito dopo.</translation>
+        <source>What do you want to restore? The UI may not respond for a while, do NOT close the app.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.&lt;br&gt;</source>
+        <translation>Cosa vuoi ripristinare? La UI potrebbe non rispondere per un po&apos;, NON chiudere l&apos;app.&lt;br&gt;&lt;br&gt;Ricorda di riavviare la homescreen subito dopo.&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../qml/pages/Restore.qml" line="43"/>

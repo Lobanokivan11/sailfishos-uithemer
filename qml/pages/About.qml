@@ -94,7 +94,7 @@ Page {
                   wrapMode: Text.Wrap
                   textFormat: Text.RichText
                   onLinkActivated: Qt.openUrlExternally(link)
-                  text: qsTr("Part of this app is based on the <a href='https://github.com/RikudouSage/sailfish-iconpacksupport-gui'>Icon pack support GUI</a> by RikudouSennin.<br>Icon design by <a href='http://www.freepik.com/free-photo/blue-paint-roller_959191.htm'>Freepik</a>.<br>Thanks to Dax89 for help and patience.")
+                  text: qsTr("Part of this app is based on the <a href='https://github.com/RikudouSage/sailfish-iconpacksupport-gui'>Icon pack support GUI</a> by RikudouSennin.<br>Icon design by <a href='http://www.freepik.com/free-photo/blue-paint-roller_959191.htm'>Freepik</a>.<br>Thanks to Dax89 and all the testers for help and patience.")
                }
 
               Placeholder { }

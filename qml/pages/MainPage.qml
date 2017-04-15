@@ -14,11 +14,6 @@ Page {
     property int active_id: -1 // index of active item, needed for unassigning active property from previously active icon pack
     property int active_id_fonts: -1
     property var labels
-    BusyIndicator {
-        size: BusyIndicatorSize.Large
-        anchors.centerIn: parent
-        running: model.status == Model.Loading
-    }
 
     SilicaFlickable {
         anchors.fill: parent

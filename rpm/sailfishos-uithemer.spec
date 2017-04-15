@@ -12,15 +12,16 @@ Name:       sailfishos-uithemer
 %{!?qtc_qmake5:%define qtc_qmake5 %qmake5}
 %{!?qtc_make:%define qtc_make make}
 %{?qtc_builddir:%define _builddir %qtc_builddir}
-Summary:    UI themer
-Version:    0.5
-Release:    32
-Group:      Qt/Qt
-License:    GPLv3
-URL:        https://github.com/fravaccaro/sailfishos-uithemer
-Source0:    %{name}-%{version}.tar.bz2
-Source100:  sailfishos-uithemer.yaml
-Requires:   sailfish-version >= 2.1.0, harbour-themepacksupport >= 0.3.1-5
+Summary:        UI themer
+Version:        0.5.1
+Release:        5
+Group:          Qt/Qt
+License:        GPLv3
+Packager:       fravaccaro <fravaccaro@jollacommunit
+URL:            https://github.com/fravaccaro/sailfishos-uithemer
+Source0:        %{name}-%{version}.tar.bz2
+Source100:      sailfishos-uithemer.yaml
+Requires:       sailfish-version >= 2.1.0, harbour-themepacksupport >= 0.3.2-2
 BuildRequires:  pkgconfig(sailfishapp) >= 1.0.2
 BuildRequires:  pkgconfig(Qt5Core)
 BuildRequires:  pkgconfig(Qt5Qml)
@@ -38,14 +39,7 @@ Enables customization of icons, fonts and pixel density in Sailfish OS.
 # << setup
 
 %preun
-# /usr/share/harbour-themepacksupport/icon-restore.sh
-# /usr/share/harbour-themepacksupport/graphic-restore.sh
-# /usr/share/harbour-themepacksupport/font-restore.sh
-# /usr/share/harbour-themepacksupport/sound-restore.sh
-
 if [ "$1" = "0" ]; then
-    /usr/share/sailfishos-uithemer/restore_dpr.sh
-    /usr/share/sailfishos-uithemer/preun_dpr.sh
     rm -rf /home/nemo/.local/share/sailfishos-uithemer
     filepath="/usr/share/applications/harbour-themepacksupport.desktop"
     if [ -e "$filepath" ]; then
@@ -91,7 +85,7 @@ desktop-file-install --delete-original       \
 # >> files
 # << files
 
-%post
- if [ "$1" = "1" ]; then
-    /usr/share/sailfishos-uithemer/postin_dpr.sh
- fi
+%changelog
+* Sat Apr 15 2017 0.5.1
+- Bug fix.
+- Compatibility with Theme pack support 0.3.2

@@ -6,16 +6,6 @@ import "../components"
 
 Page {
     id: mainPage
-    PullDownMenu {
-
-        MenuItem {
-            text: qsTr("About")
-            onClicked: {
-                pageStack.push("About.qml");
-            }
-        }
-
-    }
 
     ListModel {
         id: pagesModel
@@ -34,18 +24,17 @@ Page {
         anchors.fill: parent
         model: pagesModel
         header: PageHeader { title: "UI themer" }
+        RemorsePopup { id: remorsehs; onTriggered: iconpack.restart_homescreen() }
         PullDownMenu {
             MenuItem {
                 text: qsTr("About")
                 onClicked: {
-                    pageStack.push("About.qml");
-                }
+                   pageStack.push("About.qml");
+               }
             }
             MenuItem {
                 text: qsTr("Restart homescreen")
-                onClicked: {
-                    pageStack.push("Restart.qml");
-                }
+                onClicked: remorsehs.execute(qsTr("Restarting homescreen..."))
             }
         }
         delegate: BackgroundItem {

@@ -55,7 +55,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Part of this app is based on the &lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon pack support GUI&lt;/a&gt; by RikudouSennin.&lt;br&gt;Icon design by &lt;a href=&apos;http://www.freepik.com/free-photo/blue-paint-roller_959191.htm&apos;&gt;Freepik&lt;/a&gt;.&lt;br&gt;Thanks to Dax89 for help and patience.</source>
+        <source>Part of this app is based on the &lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon pack support GUI&lt;/a&gt; by RikudouSennin.&lt;br&gt;Icon design by &lt;a href=&apos;http://www.freepik.com/free-photo/blue-paint-roller_959191.htm&apos;&gt;Freepik&lt;/a&gt;.&lt;br&gt;Thanks to Dax89 and all the testers for help and patience.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -74,15 +74,15 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Do you want to apply &lt;b&gt;%1&lt;/b&gt;? The UI may not respond for a while, do NOT close the app.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Ok</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Cancel</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Do you want to apply &lt;b&gt;%1&lt;/b&gt;? The UI may not respond for a while, do NOT close the app.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.&lt;br&gt;</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -96,15 +96,27 @@
         <source>Change the display pixel ratio. To a smaller value corresponds an higher density.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Restore device pixel ratio</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Restoring device pixel ratio...</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>HomePage</name>
     <message>
-        <source>About</source>
+        <source>Themes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Themes</source>
+        <source>Display density</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>About</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -112,7 +124,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Display density</source>
+        <source>Restarting homescreen...</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -152,21 +164,6 @@
     </message>
 </context>
 <context>
-    <name>Restart</name>
-    <message>
-        <source>Yes</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>No</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Do you want to restart the homescreen?</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
     <name>Restore</name>
     <message>
         <source>Restore default icons</source>
@@ -185,7 +182,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>What do you want to restore? The UI may not respond for a while, do NOT close the app.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
+        <source>What do you want to restore? The UI may not respond for a while, do NOT close the app.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.&lt;br&gt;</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

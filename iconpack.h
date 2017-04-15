@@ -39,9 +39,16 @@ public:
         return true;
     }
 
-Q_INVOKABLE QString restart_homescreen() const { // function to test what user runs app
+Q_INVOKABLE bool restart_homescreen() const { // function to test what user runs app
     setuid(0);
     system("/usr/share/sailfishos-uithemer/homescreen.sh");
+    return true;
+}
+
+Q_INVOKABLE bool restore_dpr() const { // function to test what user runs app
+    setuid(0);
+    system("/usr/share/sailfishos-uithemer/restore_dpr.sh");
+    return true;
 }
 
     Q_INVOKABLE QStringList weights(const QString packname) const {

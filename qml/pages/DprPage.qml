@@ -10,24 +10,22 @@ Page {
 	path: "/desktop/sailfish/silica"
 	property real theme_pixel_ratio
     }
-    property bool dpr_toggle: false
-    property bool tabui_toggle: false
-    property bool forcecover_toggle: false
 
     SilicaFlickable {
-	anchors.fill: parent
-	contentHeight: content.height
-	interactive: contentHeight > height
+    anchors.fill: parent
+    RemorsePopup { id: remorsedpr; onTriggered: iconpack.restore_dpr() }
+    PullDownMenu {
+        MenuItem {
+            text: qsTr("Restore device pixel ratio")
+            onClicked: remorsedpr.execute(qsTr("Restoring device pixel ratio..."))
+        }
+    }
 
-	Column {
+    Column {
 	    id: content
             width: parent.width
             spacing: Theme.paddingLarge
-
-                PageHeader {
-                title: qsTrId("Device pixel ratio")
-    	        }
-
+            PageHeader { title: qsTrId("Device pixel ratio") }
                     Slider {
                         id: dpr_slider
                         width: parent.width
