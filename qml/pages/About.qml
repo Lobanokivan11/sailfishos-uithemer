@@ -113,5 +113,6 @@ Page {
               Placeholder { }
               */
         }
+		VerticalScrollDecorator {}
     }
 }

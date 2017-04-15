@@ -13,8 +13,23 @@ Page {
 
     SilicaFlickable {
     anchors.fill: parent
+    VerticalScrollDecorator { }
+    contentHeight: content.height
     RemorsePopup { id: remorsedpr; onTriggered: iconpack.restore_dpr() }
+    RemorsePopup {
+        id: remorseadpi;
+        onTriggered: {
+            iconpack.apply_adpi(adpivalue.text);
+            adpivalue.focus = false;
+            adpivalue.text = "";
+        }
+   }
+    RemorsePopup { id: remorseradpi; onTriggered: iconpack.restore_adpi() }
     PullDownMenu {
+        MenuItem {
+            text: qsTr("Restore Android DPI")
+            onClicked: remorseradpi.execute(qsTr("Restoring Android DPI..."))
+        }
         MenuItem {
             text: qsTr("Restore device pixel ratio")
             onClicked: remorsedpr.execute(qsTr("Restoring device pixel ratio..."))
@@ -25,7 +40,7 @@ Page {
 	    id: content
             width: parent.width
             spacing: Theme.paddingLarge
-            PageHeader { title: qsTrId("Device pixel ratio") }
+            PageHeader { title: qsTr("Device pixel ratio") }
                     Slider {
                         id: dpr_slider
                         width: parent.width
@@ -47,6 +62,27 @@ Page {
                     text: qsTr("Change the display pixel ratio. To a smaller value corresponds an higher density.<br><br>Remember to restart the homescreen right after.")
                 }
 
+            PageHeader { title: qsTr("Android DPI") }
+		TextField {
+		    width: parent.width
+		    id: adpivalue
+		    placeholderText: qsTr("Android DPI value")
+		    label: qsTr("Android DPI value")
+		    validator: RegExpValidator { regExp: /^[0-9\ ]{3,}$/ }
+		    color: errorHighlight? Theme.secondaryColor : Theme.primaryColor
+		    inputMethodHints: Qt.ImhDigitsOnly
+		    EnterKey.enabled: text.length > 2
+            EnterKey.iconSource: "image://theme/icon-m-enter-accept"
+            EnterKey.onClicked: { remorseadpi.execute(qsTr("Applying Android DPI...")) }
+        }
+               Label {
+                    x: Theme.paddingLarge
+                    bottom: Theme
+                    width: parent.width - 2 * Theme.paddingLarge
+                    wrapMode: Text.Wrap
+                    textFormat: Text.RichText
+                    text: qsTr("Change the Android DPI value. To a smaller value corresponds an higher density.<br><br>Remember to restart the homescreen right after.")
+                }
             }
     }
 }

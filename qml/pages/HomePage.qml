@@ -15,7 +15,7 @@ Page {
             title: qsTr("Themes")
         }
         ListElement {
-            page: "DprPage.qml"
+            page: "DdensityPage.qml"
             title: qsTr("Display density")
         }
     }

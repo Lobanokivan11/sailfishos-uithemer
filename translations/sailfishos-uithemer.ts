@@ -2,13 +2,6 @@
 <!DOCTYPE TS>
 <TS version="2.1">
 <context>
-    <name></name>
-    <message id="Device pixel ratio">
-        <source></source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
     <name>About</name>
     <message>
         <source>About</source>
@@ -87,7 +80,23 @@
     </message>
 </context>
 <context>
-    <name>DprPage</name>
+    <name>DdensityPage</name>
+    <message>
+        <source>Restore Android DPI</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Restoring Android DPI...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Restore device pixel ratio</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Restoring device pixel ratio...</source>
+        <translation type="unfinished"></translation>
+    </message>
     <message>
         <source>Device pixel ratio</source>
         <translation type="unfinished"></translation>
@@ -97,11 +106,19 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Restore device pixel ratio</source>
+        <source>Android DPI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Restoring device pixel ratio...</source>
+        <source>Android DPI value</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Applying Android DPI...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Change the Android DPI value. To a smaller value corresponds an higher density.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

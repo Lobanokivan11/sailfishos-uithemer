@@ -4,8 +4,10 @@ MY_FILES = \
 other/apply.sh \
 other/restore.sh \
 other/apply_font.sh \
-other/homescreen.sh \
 other/restore_fonts.sh \
+other/homescreen.sh \
+other/apply_adpi.sh \
+other/restore_adpi.sh \
 other/restore_dpr.sh \
 other/coverbg.png
 
@@ -47,9 +49,8 @@ DISTFILES += \
     qml/components/Placeholder.qml \
     qml/components/FLabel.qml \
     qml/pages/Uninstall.qml \
-    translations/*.ts \
     translations/sailfishos-uithemer-it.ts \
     translations/sailfishos-uithemer.ts \
-    qml/pages/DprPage.qml \
-    qml/pages/HomePage.qml
+    qml/pages/HomePage.qml \
+    qml/pages/DdensityPage.qml
 

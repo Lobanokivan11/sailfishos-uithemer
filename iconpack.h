@@ -39,12 +39,24 @@ public:
         return true;
     }
 
-Q_INVOKABLE bool restart_homescreen() const { // function to test what user runs app
+Q_INVOKABLE bool restart_homescreen() const {
     setuid(0);
     system("/usr/share/sailfishos-uithemer/homescreen.sh");
     return true;
 }
 
+    Q_INVOKABLE bool apply_adpi(const QString adpi) const {
+        std::string c_adpi = adpi.toStdString();
+        std::string command = "/usr/share/sailfishos-uithemer/apply_adpi.sh "+c_adpi;
+        system(command.c_str());
+        return true;
+}
+
+Q_INVOKABLE bool restore_adpi() const {
+    setuid(0);
+    system("/usr/share/sailfishos-uithemer/restore_adpi.sh");
+    return true;
+}
 Q_INVOKABLE bool restore_dpr() const { // function to test what user runs app
     setuid(0);
     system("/usr/share/sailfishos-uithemer/restore_dpr.sh");

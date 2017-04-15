@@ -2,14 +2,6 @@
 <!DOCTYPE TS>
 <TS version="2.1" language="it_IT">
 <context>
-    <name></name>
-    <message id="Device pixel ratio">
-        <location filename="../qml/pages/DprPage.qml" line="28"/>
-        <source></source>
-        <translation></translation>
-    </message>
-</context>
-<context>
     <name>About</name>
     <message>
         <location filename="../qml/pages/About.qml" line="16"/>
@@ -112,26 +104,58 @@
     </message>
 </context>
 <context>
-    <name>DprPage</name>
+    <name>DdensityPage</name>
     <message>
-        <location filename="../qml/pages/DprPage.qml" line="19"/>
+        <location filename="../qml/pages/DdensityPage.qml" line="30"/>
+        <source>Restore Android DPI</source>
+        <translation>Ripristina DPI Android</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/DdensityPage.qml" line="31"/>
+        <source>Restoring Android DPI...</source>
+        <translation>Ripristino DPI Android...</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/DdensityPage.qml" line="34"/>
         <source>Restore device pixel ratio</source>
         <translation>Ripristina device pixel ratio</translation>
     </message>
     <message>
-        <location filename="../qml/pages/DprPage.qml" line="20"/>
+        <location filename="../qml/pages/DdensityPage.qml" line="35"/>
         <source>Restoring device pixel ratio...</source>
         <translation>Ripristino device pixel ratio...</translation>
     </message>
     <message>
-        <location filename="../qml/pages/DprPage.qml" line="32"/>
+        <location filename="../qml/pages/DdensityPage.qml" line="43"/>
+        <location filename="../qml/pages/DdensityPage.qml" line="47"/>
         <source>Device pixel ratio</source>
         <translation>Device pixel ratio</translation>
     </message>
     <message>
-        <location filename="../qml/pages/DprPage.qml" line="47"/>
+        <location filename="../qml/pages/DdensityPage.qml" line="62"/>
         <source>Change the display pixel ratio. To a smaller value corresponds an higher density.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
         <translation>Cambia il display pixel ratio. A un valore minore corrisponde una maggiore densità.&lt;br&gt;&lt;br&gt;Ricorda di riavviare la homescreen subito dopo.</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/DdensityPage.qml" line="65"/>
+        <source>Android DPI</source>
+        <translation>DPI Android</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/DdensityPage.qml" line="69"/>
+        <location filename="../qml/pages/DdensityPage.qml" line="70"/>
+        <source>Android DPI value</source>
+        <translation>Valore DPI Android</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/DdensityPage.qml" line="76"/>
+        <source>Applying Android DPI...</source>
+        <translation>Impostazione DPI Android...</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/DdensityPage.qml" line="84"/>
+        <source>Change the Android DPI value. To a smaller value corresponds an higher density.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
+        <translation>Cambia il valore del DPI Android. A un valore minore corrisponde una maggiore densità.&lt;br&gt;&lt;br&gt;Ricorda di riavviare la homescreen subito dopo.</translation>
     </message>
 </context>
 <context>

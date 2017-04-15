@@ -330,6 +330,7 @@ Page {
                 });
             }
         }
+		VerticalScrollDecorator {}
     }
 }
 

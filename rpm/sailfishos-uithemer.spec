@@ -13,8 +13,8 @@ Name:       sailfishos-uithemer
 %{!?qtc_make:%define qtc_make make}
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:        UI themer
-Version:        0.5.1
-Release:        5
+Version:        0.5.2
+Release:        4
 Group:          Qt/Qt
 License:        GPLv3
 Packager:       fravaccaro <fravaccaro@jollacommunit
@@ -86,6 +86,10 @@ desktop-file-install --delete-original       \
 # << files
 
 %changelog
+* Sat Apr 15 2017 0.5.2
+- Android DPI settings.
+- Compatibility with Theme pack support 0.3.3
+
 * Sat Apr 15 2017 0.5.1
 - Bug fix.
 - Compatibility with Theme pack support 0.3.2
