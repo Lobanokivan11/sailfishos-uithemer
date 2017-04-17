@@ -31,7 +31,7 @@ Dialog {
             width: parent.width
             DialogHeader {
                 id: header
-                acceptText: qsTr("Ok")
+                acceptText: qsTr("Apply")
                 cancelText: qsTr("Cancel")
             }
             Label {
@@ -52,7 +52,7 @@ Dialog {
                     if(!include_fonts.checked && !include_icons.checked) {
                         header.acceptText = qsTr("Cancel");
                     } else {
-                        header.acceptText = qsTr("Ok");
+                        header.acceptText = qsTr("Apply");
                     }
                 }
             }
@@ -68,7 +68,7 @@ Dialog {
                     if(!include_fonts.checked && !include_icons.checked) {
                         header.acceptText = qsTr("Cancel");
                     } else {
-                        header.acceptText = qsTr("Ok");
+                        header.acceptText = qsTr("Apply");
                     }
                 }
             }
@@ -152,7 +152,7 @@ Dialog {
                 if(!include_fonts.checked && !include_icons.checked) {
                     header.acceptText = qsTr("Cancel");
                 } else {
-                    header.acceptText = qsTr("Ok");
+                    header.acceptText = qsTr("Apply");
                 }
             }
         }

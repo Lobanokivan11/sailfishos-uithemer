@@ -13,15 +13,15 @@ Name:       sailfishos-uithemer
 %{!?qtc_make:%define qtc_make make}
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:        UI themer
-Version:        0.5.2
-Release:        6
+Version:        0.5.3
+Release:        5
 Group:          Qt/Qt
 License:        GPLv3
 Packager:       fravaccaro <fravaccaro@jollacommunit
 URL:            https://github.com/fravaccaro/sailfishos-uithemer
 Source0:        %{name}-%{version}.tar.bz2
 Source100:      sailfishos-uithemer.yaml
-Requires:       sailfish-version >= 2.1.0, harbour-themepacksupport >= 0.3.3
+Requires:       sailfish-version >= 2.1.0, harbour-themepacksupport >= 0.3.3-5
 BuildRequires:  pkgconfig(sailfishapp) >= 1.0.2
 BuildRequires:  pkgconfig(Qt5Core)
 BuildRequires:  pkgconfig(Qt5Qml)
@@ -86,10 +86,13 @@ desktop-file-install --delete-original       \
 # << files
 
 %changelog
+* Sat Apr 15 2017 0.5.3
+- Minor fixes.
+
 * Sat Apr 15 2017 0.5.2
 - Android DPI settings.
-- Compatibility with Theme pack support 0.3.3
+- Compatibility with Theme pack support 0.3.3.
 
 * Sat Apr 15 2017 0.5.1
 - Bug fix.
-- Compatibility with Theme pack support 0.3.2
+- Compatibility with Theme pack support 0.3.2.

@@ -26,7 +26,7 @@ Dialog {
             width: parent.width
             DialogHeader {
                 id: header
-                acceptText: qsTr("Ok")
+                acceptText: qsTr("Restore")
                 cancelText: qsTr("Cancel")
             }
             Label {
@@ -49,7 +49,7 @@ Dialog {
                     if(!restore_icons.checked && !restore_fonts.checked) {
                         header.acceptText = qsTr("Cancel");
                     } else {
-                        header.acceptText = qsTr("Ok");
+                        header.acceptText = qsTr("Restore");
                     }
                 }
             }
@@ -66,7 +66,7 @@ Dialog {
                     if(!restore_icons.checked && !restore_fonts.checked) {
                         header.acceptText = qsTr("Cancel");
                     } else {
-                        header.acceptText = qsTr("Ok");
+                        header.acceptText = qsTr("Restore");
                     }
                 }
             }

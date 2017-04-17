@@ -80,7 +80,7 @@ Page {
                     width: parent.width - 2 * Theme.paddingLarge
                     wrapMode: Text.Wrap
                     textFormat: Text.RichText
-                    text: qsTr("Change the Android DPI value. To a smaller value corresponds an higher density.<br><br>Remember to restart the homescreen right after.")
+                    text: qsTr("Change the Android DPI value. To a smaller value corresponds an higher density.<br><br>Remember to restart the Android support or the homescreen right after.")
                 }
             }
     }

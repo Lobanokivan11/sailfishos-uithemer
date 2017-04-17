@@ -26,8 +26,8 @@ Page {
             Placeholder { }
 
             Button {
-                x: Theme.paddingLarge
-                width: parent.width - 2 * Theme.paddingLarge
+                width: Theme.buttonWidthLarge
+                anchors.horizontalCenter: parent.horizontalCenter
                 text: qsTr("Page on OpenRepos")
                 onClicked: {
                     Qt.openUrlExternally("https://openrepos.net/content/fravaccaro/ui-themer")
@@ -43,7 +43,7 @@ Page {
                   x: Theme.paddingLarge
                   width: parent.width - Theme.paddingLarge * 2
                   wrapMode: Text.Wrap
-                  text: qsTr("If anything goes wrong or you want to manage themes via terminal, you can recall the CLI tool by typing <i>themepacksupport</i> as root.")
+                  text: qsTr("If anything goes wrong or you want to manage all the options via terminal, you can recall the CLI tool by typing <b>themepacksupport</b> as root.")
               }
 
               Placeholder { }
@@ -57,8 +57,44 @@ Page {
                   wrapMode: Text.Wrap
                   textFormat: Text.RichText
                   onLinkActivated: Qt.openUrlExternally(link)
-                  text: qsTr("The source code of this app is hosted on <a href='https://github.com/fravaccaro/sailfishos-uithemer'>GitHub</a>.<br>If you want to create your theme compatible with it, please <a href='https://github.com/fravaccaro/themepacksupport-sailfishos/wiki/Get-started'>read the wiki</a>.")
+                  text: qsTr("The source code of this app is hosted on <a href='https://github.com/fravaccaro/sailfishos-uithemer'>GitHub</a>.<br>If you want to create your theme compatible with it, please read the wiki.")
                }
+
+              Placeholder { }
+
+              Button {
+                  width: Theme.buttonWidthLarge
+                  anchors.horizontalCenter: parent.horizontalCenter
+                  text: qsTr("Documentation")
+                  onClicked: {
+                      Qt.openUrlExternally("https://github.com/fravaccaro/themepacksupport-sailfishos/wiki/Get-started")
+                  }
+              }
+
+              Placeholder { }
+
+              FLabel {
+                  text: qsTr("Feedback")
+              }
+              Label {
+                  x: Theme.paddingLarge
+                  width: parent.width - Theme.paddingLarge * 2
+                  wrapMode: Text.Wrap
+                  textFormat: Text.RichText
+                  onLinkActivated: Qt.openUrlExternally(link)
+                  text: qsTr("If you want to provide feedback or report an issue, please use GitHub.")
+               }
+
+              Placeholder { }
+
+              Button {
+                  width: Theme.buttonWidthLarge
+                  anchors.horizontalCenter: parent.horizontalCenter
+                  text: qsTr("Issues on GitHub")
+                  onClicked: {
+                      Qt.openUrlExternally("https://github.com/fravaccaro/sailfishos-uithemer/issues")
+                  }
+              }
 
               Placeholder { }
 
@@ -69,17 +105,17 @@ Page {
                   x: Theme.paddingLarge
                   width: parent.width - Theme.paddingLarge * 2
                   wrapMode: Text.Wrap
-                  text: qsTr("If you like my Theme pack support and want to buy me a beer, feel free to do it!")
+                  text: qsTr("If you like my work and want to buy me a beer, feel free to do it!")
               }
 
               Placeholder { }
 
               Button {
-                  x: Theme.paddingLarge
-                  width: parent.width - 2 * Theme.paddingLarge
+                  width: Theme.buttonWidthLarge
+                  anchors.horizontalCenter: parent.horizontalCenter
                   text: qsTr("Donate")
                   onClicked: {
-                      Qt.openUrlExternally("https://www.paypal.com/uk/cgi-bin/webscr?cmd=_flow&SESSION=J9ZVe14oAcscIob-zDF-fwGrn8AKrFh8qOFH9EZf_NFudLbFYNBmx1Ru66G&dispatch=5885d80a13c0db1f8e263663d3faee8d94717bd303200c3af9aadd01a5f55080")
+                      Qt.openUrlExternally("https://www.paypal.me/fravaccaro")
                   }
               }
 
@@ -94,16 +130,15 @@ Page {
                   wrapMode: Text.Wrap
                   textFormat: Text.RichText
                   onLinkActivated: Qt.openUrlExternally(link)
-                  text: qsTr("Part of this app is based on the <a href='https://github.com/RikudouSage/sailfish-iconpacksupport-gui'>Icon pack support GUI</a> by RikudouSennin.<br>Icon design by <a href='http://www.freepik.com/free-photo/blue-paint-roller_959191.htm'>Freepik</a>.<br>Thanks to Dax89 and all the testers for help and patience.")
+                  text: qsTr("Part of this app is based on the <a href='https://github.com/RikudouSage/sailfish-iconpacksupport-gui'>Icon pack support GUI</a> by RikudouSennin.<br>App icon design by <a href='http://www.freepik.com/free-photo/blue-paint-roller_959191.htm'>Freepik</a>.<br>Thanks to Dax89 and all the testers for help and patience.")
                }
 
               Placeholder { }
 
-              /*
               PageHeader {
-                  title: qsTr("Translators")
+                  title: qsTr("Translations")
               }
-              Label {
+  /*            Label {
                   x: Theme.paddingLarge
                   width: parent.width - Theme.paddingLarge * 2
                   wrapMode: Text.Wrap
@@ -111,7 +146,29 @@ Page {
               }
 
               Placeholder { }
-              */
+*/
+              Label {
+                  x: Theme.paddingLarge
+                  width: parent.width - Theme.paddingLarge * 2
+                  wrapMode: Text.Wrap
+                  textFormat: Text.RichText
+                  onLinkActivated: Qt.openUrlExternally(link)
+                  text: qsTr("Request a new language or contribute to existing languages on the Transifex project page.")
+               }
+
+              Placeholder { }
+
+              Button {
+                  width: Theme.buttonWidthLarge
+                  anchors.horizontalCenter: parent.horizontalCenter
+                  text: qsTr("Transifex")
+                  onClicked: {
+                      Qt.openUrlExternally("https://www.transifex.com/fravaccaro/ui-themer")
+                  }
+              }
+
+              Placeholder { }
+
         }
 		VerticalScrollDecorator {}
     }
