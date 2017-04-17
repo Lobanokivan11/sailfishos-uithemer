@@ -28,11 +28,11 @@ Page {
     PullDownMenu {
         MenuItem {
             text: qsTr("Restore Android DPI")
-            onClicked: remorseradpi.execute(qsTr("Restoring Android DPI..."))
+            onClicked: remorseradpi.execute(qsTr("Restoring Android DPI"))
         }
         MenuItem {
             text: qsTr("Restore device pixel ratio")
-            onClicked: remorsedpr.execute(qsTr("Restoring device pixel ratio..."))
+            onClicked: remorsedpr.execute(qsTr("Restoring device pixel ratio"))
         }
     }
 
@@ -62,6 +62,8 @@ Page {
                     text: qsTr("Change the display pixel ratio. To a smaller value corresponds an higher density.<br><br>Remember to restart the homescreen right after.")
                 }
 
+                Placeholder { }
+
             PageHeader { title: qsTr("Android DPI") }
 		TextField {
 		    width: parent.width
@@ -82,6 +84,8 @@ Page {
                     textFormat: Text.RichText
                     text: qsTr("Change the Android DPI value. To a smaller value corresponds an higher density.<br><br>Remember to restart the Android support or the homescreen right after.")
                 }
+
+               Placeholder { }
             }
     }
 }

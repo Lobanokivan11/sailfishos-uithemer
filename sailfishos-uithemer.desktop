@@ -3,4 +3,4 @@ Type=Application
 X-Nemo-Application-Type=silica-qt5
 Icon=sailfishos-uithemer
 Exec=invoker --type=generic -s /usr/bin/sailfishos-uithemer
-Name=UI themer
+Name=UI Themer

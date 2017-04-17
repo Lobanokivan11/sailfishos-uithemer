@@ -20,7 +20,7 @@ Page {
                 width: parent.width - 2 * Theme.paddingLarge
                 wrapMode: Text.Wrap
                 textFormat: Text.RichText
-                text: qsTr("With UI themer you can customize icons, fonts and pixel density in Sailfish OS. Remember to unapply themes before system updates.")
+                text: qsTr("With UI Themer you can customize icons, fonts and pixel density in Sailfish OS. Remember to unapply themes before system updates.")
             }
 
             Placeholder { }
@@ -31,6 +31,27 @@ Page {
                 text: qsTr("Page on OpenRepos")
                 onClicked: {
                     Qt.openUrlExternally("https://openrepos.net/content/fravaccaro/ui-themer")
+                }
+            }
+
+            Placeholder { }
+
+            Label {
+                x: Theme.paddingLarge
+                width: parent.width - 2 * Theme.paddingLarge
+                wrapMode: Text.Wrap
+                textFormat: Text.RichText
+                text: qsTr("Released under the GNU GPv3 license.")
+            }
+
+            Placeholder { }
+
+            Button {
+                width: Theme.buttonWidthLarge
+                anchors.horizontalCenter: parent.horizontalCenter
+                text: qsTr("Sources on GitHub")
+                onClicked: {
+                    Qt.openUrlExternally("https://github.com/fravaccaro/sailfishos-uithemer")
                 }
             }
 
@@ -57,7 +78,7 @@ Page {
                   wrapMode: Text.Wrap
                   textFormat: Text.RichText
                   onLinkActivated: Qt.openUrlExternally(link)
-                  text: qsTr("The source code of this app is hosted on <a href='https://github.com/fravaccaro/sailfishos-uithemer'>GitHub</a>.<br>If you want to create your theme compatible with it, please read the wiki.")
+                  text: qsTr("If you want to create a theme compatible with UI Themer, please read the documentation.")
                }
 
               Placeholder { }

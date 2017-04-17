@@ -9,92 +9,102 @@
         <translation>Info</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="23"/>
-        <source>With UI themer you can customize icons, fonts and pixel density in Sailfish OS. Remember to unapply themes before system updates.</source>
-        <translation>Con UI themer puoi personalizzare le icone, i font e la densità di pixel in Sailfish OS. Ricorda di ripristinare il tema predefinito prima degli aggiornamenti di sistema.</translation>
-    </message>
-    <message>
         <location filename="../qml/pages/About.qml" line="31"/>
         <source>Page on OpenRepos</source>
         <translation>Pagina su OpenRepos</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="40"/>
+        <location filename="../qml/pages/About.qml" line="44"/>
+        <source>Released under the GNU GPv3 license.</source>
+        <translation>Rilasciato sotto licenza GNU GPLv3.</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/About.qml" line="52"/>
+        <source>Sources on GitHub</source>
+        <translation>Sorgenti su GitHub</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/About.qml" line="61"/>
         <source>CLI tool</source>
         <translation>Tool CLI</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="46"/>
+        <location filename="../qml/pages/About.qml" line="67"/>
         <source>If anything goes wrong or you want to manage all the options via terminal, you can recall the CLI tool by typing &lt;b&gt;themepacksupport&lt;/b&gt; as root.</source>
         <translation>Se qualcosa va storto o vuoi gestire le opzioni via terminale, puoi richiamare il tool a riga di comando digitando &lt;b&gt;themepacksupport&lt;/b&gt; come utente root.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="52"/>
+        <location filename="../qml/pages/About.qml" line="73"/>
         <source>Developers</source>
         <translation>Sviluppatori</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="60"/>
-        <source>The source code of this app is hosted on &lt;a href=&apos;https://github.com/fravaccaro/sailfishos-uithemer&apos;&gt;GitHub&lt;/a&gt;.&lt;br&gt;If you want to create your theme compatible with it, please read the wiki.</source>
-        <translation>I sorgenti di quest&apos;app sono disponibili su &lt;a href=&apos;https://github.com/fravaccaro/sailfishos-uithemer&apos;&gt;GitHub&lt;/a&gt;.&lt;br&gt;Se vuoi creare un tema compatibile, leggi la wiki.</translation>
+        <location filename="../qml/pages/About.qml" line="23"/>
+        <source>With UI Themer you can customize icons, fonts and pixel density in Sailfish OS. Remember to unapply themes before system updates.</source>
+        <translation>Con UI Themer puoi personalizzare le icone, i font e la densità di pixel in Sailfish OS. Ricorda di ripristinare il tema predefinito prima degli aggiornamenti di sistema.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="68"/>
+        <location filename="../qml/pages/About.qml" line="81"/>
+        <source>If you want to create a theme compatible with UI Themer, please read the documentation.</source>
+        <translation>Se vuoi creare un tema compatibile con UI Themer, leggi la documentazione.</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/About.qml" line="89"/>
         <source>Documentation</source>
         <translation>Documentazione</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="77"/>
+        <location filename="../qml/pages/About.qml" line="98"/>
         <source>Feedback</source>
         <translation>Feedback</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="85"/>
+        <location filename="../qml/pages/About.qml" line="106"/>
         <source>If you want to provide feedback or report an issue, please use GitHub.</source>
         <translation>Se vuoi fornire feedback o segnalare un problema, usa GitHub.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="93"/>
+        <location filename="../qml/pages/About.qml" line="114"/>
         <source>Issues on GitHub</source>
         <translation>Issues su GitHub</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="102"/>
+        <location filename="../qml/pages/About.qml" line="123"/>
         <source>Support</source>
         <translation>Supporta</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="108"/>
+        <location filename="../qml/pages/About.qml" line="129"/>
         <source>If you like my work and want to buy me a beer, feel free to do it!</source>
         <translation>Se ti piace il mio lavoro, sentiti libero di offrirmi una birra!</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="116"/>
+        <location filename="../qml/pages/About.qml" line="137"/>
         <source>Donate</source>
         <translation>Dona</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="125"/>
+        <location filename="../qml/pages/About.qml" line="146"/>
         <source>Credits</source>
         <translation>Crediti</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="133"/>
+        <location filename="../qml/pages/About.qml" line="154"/>
         <source>Part of this app is based on the &lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon pack support GUI&lt;/a&gt; by RikudouSennin.&lt;br&gt;App icon design by &lt;a href=&apos;http://www.freepik.com/free-photo/blue-paint-roller_959191.htm&apos;&gt;Freepik&lt;/a&gt;.&lt;br&gt;Thanks to Dax89 and all the testers for help and patience.</source>
         <translation>Parte di quest&apos;app è basata su &lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon pack support GUI&lt;/a&gt; di RikudouSennin.&lt;br&gt;Design icona app di &lt;a href=&apos;http://www.freepik.com/free-photo/blue-paint-roller_959191.htm&apos;&gt;Freepik&lt;/a&gt;.&lt;br&gt;Grazie a Dax89 e a tutti i tester per l&apos;aiuto e la pazienza.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="139"/>
+        <location filename="../qml/pages/About.qml" line="160"/>
         <source>Translations</source>
         <translation>Traduzioni</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="156"/>
+        <location filename="../qml/pages/About.qml" line="177"/>
         <source>Request a new language or contribute to existing languages on the Transifex project page.</source>
         <translation>Richiedi una nuova lingua o contribuisci a quelle esistenti sulla pagina del progetto di Transifex.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="164"/>
+        <location filename="../qml/pages/About.qml" line="185"/>
         <source>Transifex</source>
         <translation>Transifex</translation>
     </message>
@@ -146,19 +156,19 @@
         <translation>Ripristina DPI Android</translation>
     </message>
     <message>
-        <location filename="../qml/pages/DdensityPage.qml" line="31"/>
-        <source>Restoring Android DPI...</source>
-        <translation>Ripristino DPI Android...</translation>
-    </message>
-    <message>
         <location filename="../qml/pages/DdensityPage.qml" line="34"/>
         <source>Restore device pixel ratio</source>
         <translation>Ripristina device pixel ratio</translation>
     </message>
     <message>
+        <location filename="../qml/pages/DdensityPage.qml" line="31"/>
+        <source>Restoring Android DPI</source>
+        <translation>Ripristino DPI Android</translation>
+    </message>
+    <message>
         <location filename="../qml/pages/DdensityPage.qml" line="35"/>
-        <source>Restoring device pixel ratio...</source>
-        <translation>Ripristino device pixel ratio...</translation>
+        <source>Restoring device pixel ratio</source>
+        <translation>Ripristino device pixel ratio</translation>
     </message>
     <message>
         <location filename="../qml/pages/DdensityPage.qml" line="43"/>
@@ -172,23 +182,23 @@
         <translation>Cambia il display pixel ratio. A un valore minore corrisponde una maggiore densità.&lt;br&gt;&lt;br&gt;Ricorda di riavviare la homescreen subito dopo.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/DdensityPage.qml" line="65"/>
+        <location filename="../qml/pages/DdensityPage.qml" line="67"/>
         <source>Android DPI</source>
         <translation>DPI Android</translation>
     </message>
     <message>
-        <location filename="../qml/pages/DdensityPage.qml" line="69"/>
-        <location filename="../qml/pages/DdensityPage.qml" line="70"/>
+        <location filename="../qml/pages/DdensityPage.qml" line="71"/>
+        <location filename="../qml/pages/DdensityPage.qml" line="72"/>
         <source>Android DPI value</source>
         <translation>Valore DPI Android</translation>
     </message>
     <message>
-        <location filename="../qml/pages/DdensityPage.qml" line="76"/>
+        <location filename="../qml/pages/DdensityPage.qml" line="78"/>
         <source>Applying Android DPI...</source>
         <translation>Impostazione DPI Android...</translation>
     </message>
     <message>
-        <location filename="../qml/pages/DdensityPage.qml" line="83"/>
+        <location filename="../qml/pages/DdensityPage.qml" line="85"/>
         <source>Change the Android DPI value. To a smaller value corresponds an higher density.&lt;br&gt;&lt;br&gt;Remember to restart the Android support or the homescreen right after.</source>
         <translation>Cambia il DPI Android. A un valore minore corrisponde una maggiore densità.&lt;br&gt;&lt;br&gt;Ricorda di riavviare il supporto Android o la homescreen subito dopo.</translation>
     </message>
@@ -217,8 +227,8 @@
     </message>
     <message>
         <location filename="../qml/pages/HomePage.qml" line="37"/>
-        <source>Restarting homescreen...</source>
-        <translation>Riavvio homescreen...</translation>
+        <source>Restarting homescreen</source>
+        <translation>Riavvio homescreen</translation>
     </message>
 </context>
 <context>

@@ -1,4 +1,4 @@
-# UI themer
+# UI Themer
 
 Graphical User Interface for [Theme pack support](https://fravaccaro.github.io/themepacksupport-sailfishos/).
 

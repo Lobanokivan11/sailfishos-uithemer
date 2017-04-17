@@ -8,10 +8,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>With UI themer you can customize icons, fonts and pixel density in Sailfish OS. Remember to unapply themes before system updates.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Page on OpenRepos</source>
         <translation type="unfinished"></translation>
     </message>
@@ -33,10 +29,6 @@
     </message>
     <message>
         <source>Developers</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>The source code of this app is hosted on &lt;a href=&apos;https://github.com/fravaccaro/sailfishos-uithemer&apos;&gt;GitHub&lt;/a&gt;.&lt;br&gt;If you want to create your theme compatible with it, please read the wiki.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -79,6 +71,22 @@
         <source>If you like my work and want to buy me a beer, feel free to do it!</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Released under the GNU GPv3 license.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sources on GitHub</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>With UI Themer you can customize icons, fonts and pixel density in Sailfish OS. Remember to unapply themes before system updates.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>If you want to create a theme compatible with UI Themer, please read the documentation.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>Confirm</name>
@@ -114,15 +122,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Restoring Android DPI...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Restore device pixel ratio</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Restoring device pixel ratio...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -149,6 +149,14 @@
         <source>Change the Android DPI value. To a smaller value corresponds an higher density.&lt;br&gt;&lt;br&gt;Remember to restart the Android support or the homescreen right after.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Restoring Android DPI</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Restoring device pixel ratio</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>HomePage</name>
@@ -169,7 +177,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Restarting homescreen...</source>
+        <source>Restarting homescreen</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

@@ -23,7 +23,7 @@ Page {
         id: listView
         anchors.fill: parent
         model: pagesModel
-        header: PageHeader { title: "UI themer" }
+        header: PageHeader { title: "UI Themer" }
         RemorsePopup { id: remorsehs; onTriggered: iconpack.restart_homescreen() }
         PullDownMenu {
             MenuItem {
@@ -34,7 +34,7 @@ Page {
             }
             MenuItem {
                 text: qsTr("Restart homescreen")
-                onClicked: remorsehs.execute(qsTr("Restarting homescreen..."))
+                onClicked: remorsehs.execute(qsTr("Restarting homescreen"))
             }
         }
         delegate: BackgroundItem {
