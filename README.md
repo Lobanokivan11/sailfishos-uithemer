@@ -1,6 +1,6 @@
 # UI themer
 
-Graphical User Interface for [Theme pack support](https://github.com/fravaccaro/themepacksupport-sailfishos).
+Graphical User Interface for [Theme pack support](https://fravaccaro.github.io/themepacksupport-sailfishos/).
 
 ## Features
 
@@ -11,7 +11,7 @@ Graphical User Interface for [Theme pack support](https://github.com/fravaccaro/
 
 ## Create custom theme packs
 
-Documentation on how to create theme packs available [here](https://github.com/fravaccaro/themepacksupport-sailfishos/wiki/Get-started).
+Documentation on how to create theme packs available [here](https://fravaccaro.github.io/themepacksupport-sailfishos/docs/getstarted.html).
 
 ## Builds
 
