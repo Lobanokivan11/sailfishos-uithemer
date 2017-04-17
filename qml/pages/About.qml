@@ -67,7 +67,7 @@ Page {
                   anchors.horizontalCenter: parent.horizontalCenter
                   text: qsTr("Documentation")
                   onClicked: {
-                      Qt.openUrlExternally("https://github.com/fravaccaro/themepacksupport-sailfishos/wiki/Get-started")
+                      Qt.openUrlExternally("https://fravaccaro.github.io/themepacksupport-sailfishos/docs/getstarted.html")
                   }
               }
 
