@@ -57,7 +57,7 @@ Page {
                   wrapMode: Text.Wrap
                   textFormat: Text.RichText
                   onLinkActivated: Qt.openUrlExternally(link)
-                  text: qsTr("The source code of this app is hosted on <a href='https://github.com/fravaccaro/sailfishos-uithemer'>GitHub</a>.<br>If you want to create your theme compatible with it, please read the wiki.")
+                  text: qsTr("The source code of this app is hosted on <a href='https://fravaccaro.github.io/sailfishos-uithemer'>GitHub</a>.<br>If you want to create your theme compatible with it, please read the wiki.")
                }
 
               Placeholder { }
