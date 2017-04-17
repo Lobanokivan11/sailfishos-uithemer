@@ -5,7 +5,7 @@ Graphical User Interface for [Theme pack support](https://fravaccaro.github.io/t
 ## Features
 
 <img width="33%" style="float: left;" src="docs/screenshot1.png" /> <img width="33%" style="float: left;" src="docs/screenshot2.png" /> <img width="33%" style="float: left;" src="docs/screenshot3.png" />
-<hr />
+<br style="clear: both" />
 
 - Icon theming.
 - Font theming.
