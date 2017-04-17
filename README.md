@@ -4,6 +4,9 @@ Graphical User Interface for [Theme pack support](https://fravaccaro.github.io/t
 
 ## Features
 
+<img style="float: left;" src="docs/screenshot1.jpg" /> <img style="float: left;" src="docs/screenshot2.jpg" /> <img style="float: left;" src="docs/screenshot3.jpg" />
+<hr />
+
 - Icon theming.
 - Font theming.
 - Change device pixel ratio.
