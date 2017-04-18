@@ -16,6 +16,10 @@ Graphical User Interface for [Theme pack support](https://fravaccaro.github.io/t
 
 Documentation on how to create theme packs available [here](https://fravaccaro.github.io/themepacksupport-sailfishos/docs/getstarted.html).
 
+## Translate
+
+Request a new language or contribute to existing languages on the [Transifex project page](https://www.transifex.com/fravaccaro/ui-themer).
+
 ## Builds
 
 Builds for armv7hl and i486 available on [OpenRepos](https://openrepos.net/content/fravaccaro/ui-themer).
