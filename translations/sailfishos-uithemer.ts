@@ -87,6 +87,14 @@
         <source>If you want to create a theme compatible with UI Themer, please read the documentation.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Italian</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Polish</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>Confirm</name>

@@ -159,15 +159,15 @@ Page {
               PageHeader {
                   title: qsTr("Translations")
               }
-  /*            Label {
+              Label {
                   x: Theme.paddingLarge
                   width: parent.width - Theme.paddingLarge * 2
                   wrapMode: Text.Wrap
-                  text: qsTr("English")+": fravaccaro\n"+qsTr("Italian")+": fravaccaro"
+                  text: qsTr("Italian")+": fravaccaro\n"+qsTr("Polish")+": fravaccaro"
               }
 
               Placeholder { }
-*/
+
               Label {
                   x: Theme.paddingLarge
                   width: parent.width - Theme.paddingLarge * 2

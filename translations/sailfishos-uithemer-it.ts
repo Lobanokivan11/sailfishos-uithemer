@@ -99,6 +99,16 @@
         <translation>Traduzioni</translation>
     </message>
     <message>
+        <location filename="../qml/pages/About.qml" line="166"/>
+        <source>Italian</source>
+        <translation>Italiano</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/About.qml" line="166"/>
+        <source>Polish</source>
+        <translation>Polacco</translation>
+    </message>
+    <message>
         <location filename="../qml/pages/About.qml" line="177"/>
         <source>Request a new language or contribute to existing languages on the Transifex project page.</source>
         <translation>Richiedi una nuova lingua o contribuisci a quelle esistenti sulla pagina del progetto di Transifex.</translation>
