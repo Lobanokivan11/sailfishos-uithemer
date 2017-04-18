@@ -254,22 +254,22 @@
         <translation>Caricamento...</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="190"/>
+        <location filename="../qml/pages/MainPage.qml" line="196"/>
         <source>This icon pack is already active.</source>
         <translation>Questo pacchetto di icone è già attivo.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="237"/>
+        <location filename="../qml/pages/MainPage.qml" line="243"/>
         <source>icons</source>
         <translation>icone</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="238"/>
+        <location filename="../qml/pages/MainPage.qml" line="244"/>
         <source>fonts</source>
         <translation>font</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="315"/>
+        <location filename="../qml/pages/MainPage.qml" line="115"/>
         <source>No themes installed</source>
         <translation>Nessun tema installato</translation>
     </message>

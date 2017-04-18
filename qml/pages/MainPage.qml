@@ -109,6 +109,12 @@ Page {
                 wrapMode: Text.Wrap
             }
 
+            ViewPlaceholder {
+                id: placeholder
+                enabled: false
+                text: qsTr("No themes installed")
+            }
+
             Repeater {
                 id: listview
                 model: lmodel
@@ -129,13 +135,13 @@ Page {
                                 iconpack: m_text
                             };
 
-                            if(active_id == m_index) {
-                                opts.input_icons = false;
-                            }
+//                            if(active_id == m_index) {
+//                                opts.input_icons = false;
+//                            }
 
-                            if(active_id_fonts == m_index) {
-                                opts.input_fonts = false;
-                            }
+//                            if(active_id_fonts == m_index) {
+//                                opts.input_fonts = false;
+//                            }
 
                             var dialog = pageStack.push("Confirm.qml",opts);
                             dialog.accepted.connect(function() {
@@ -312,7 +318,8 @@ Page {
                     if(packs.length) { // if there are any, hide the text "Loading..."
                         infotext.visible = false;
                     } else { // else show this string
-                        infotext.text = qsTr("No themes installed");
+                        infotext.visible = false;
+                        placeholder.enabled = true;
                         uninstall.enabled = false;
                     }
 

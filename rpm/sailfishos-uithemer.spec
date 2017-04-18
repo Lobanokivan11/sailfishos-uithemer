@@ -13,8 +13,8 @@ Name:       sailfishos-uithemer
 %{!?qtc_make:%define qtc_make make}
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:        UI Themer
-Version:        0.5.3
-Release:        7
+Version:        0.5.4
+Release:        1
 Group:          Qt/Qt
 License:        GPLv3
 Packager:       fravaccaro <fravaccaro@jollacommunit
@@ -86,6 +86,9 @@ desktop-file-install --delete-original       \
 # << files
 
 %changelog
+* Thu Apr 18 2017 0.5.4
+- Minor fixes.
+
 * Sat Apr 15 2017 0.5.3
 - Minor fixes.
 
