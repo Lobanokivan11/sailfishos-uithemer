@@ -4,7 +4,7 @@ Graphical User Interface for [Theme pack support](https://fravaccaro.github.io/t
 
 ## Features
 
-<img width="33%" style="float: left;" src="docs/screenshot1.png" /> <img width="33%" style="float: left;" src="docs/screenshot2.png" /> <img width="33%" style="float: left;" src="docs/screenshot3.png" />
+<a href="docs/screenshot1.png"><img width="33%" style="float: left;" src="docs/screenshot1.png" /></a> <a href="docs/screenshot2.png"><img width="33%" style="float: left;" src="docs/screenshot2.png" /></a> <a href="docs/screenshot3.png"><img width="33%" style="float: left;" src="docs/screenshot3.png" /></a>
 <br style="clear: both; height:5px;" />
 
 - Icon theming.
@@ -15,6 +15,10 @@ Graphical User Interface for [Theme pack support](https://fravaccaro.github.io/t
 ## Create custom theme packs
 
 Documentation on how to create theme packs available [here](https://fravaccaro.github.io/themepacksupport-sailfishos/docs/getstarted.html).
+
+## Translate
+
+Request a new language or contribute to existing languages on the [Transifex project page](https://www.transifex.com/fravaccaro/ui-themer).
 
 ## Builds
 
