@@ -14,11 +14,6 @@
         <translation>Pagina su OpenRepos</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="44"/>
-        <source>Released under the GNU GPv3 license.</source>
-        <translation>Rilasciato sotto licenza GNU GPLv3.</translation>
-    </message>
-    <message>
         <location filename="../qml/pages/About.qml" line="52"/>
         <source>Sources on GitHub</source>
         <translation>Sorgenti su GitHub</translation>
@@ -42,6 +37,11 @@
         <location filename="../qml/pages/About.qml" line="23"/>
         <source>With UI Themer you can customize icons, fonts and pixel density in Sailfish OS. Remember to unapply themes before system updates.</source>
         <translation>Con UI Themer puoi personalizzare le icone, i font e la densità di pixel in Sailfish OS. Ricorda di ripristinare il tema predefinito prima degli aggiornamenti di sistema.</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/About.qml" line="44"/>
+        <source>Released under the GNU GPLv3 license.</source>
+        <translation>Rilasciato sotto licenza GNU GPLv3.</translation>
     </message>
     <message>
         <location filename="../qml/pages/About.qml" line="81"/>

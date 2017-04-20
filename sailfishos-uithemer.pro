@@ -35,7 +35,7 @@ SAILFISHAPP_ICONS = 86x86
 
 CONFIG += sailfishapp_i18n
 
-TRANSLATIONS +=  translations/sailfishos-uithemer-it.ts
+TRANSLATIONS +=  translations/*.ts
 
 HEADERS += \
     exec.h \
@@ -49,8 +49,6 @@ DISTFILES += \
     qml/components/Placeholder.qml \
     qml/components/FLabel.qml \
     qml/pages/Uninstall.qml \
-    translations/sailfishos-uithemer-it.ts \
-    translations/sailfishos-uithemer.ts \
     qml/pages/HomePage.qml \
     qml/pages/DdensityPage.qml
 

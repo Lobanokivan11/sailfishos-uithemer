@@ -41,7 +41,7 @@ Page {
                 width: parent.width - 2 * Theme.paddingLarge
                 wrapMode: Text.Wrap
                 textFormat: Text.RichText
-                text: qsTr("Released under the GNU GPv3 license.")
+                text: qsTr("Released under the GNU GPLv3 license.")
             }
 
             Placeholder { }
@@ -163,7 +163,7 @@ Page {
                   x: Theme.paddingLarge
                   width: parent.width - Theme.paddingLarge * 2
                   wrapMode: Text.Wrap
-                  text: qsTr("Italian")+": fravaccaro\n"+qsTr("Polish")+": fravaccaro"
+                  text: qsTr("Italian")+": fravaccaro\n"+qsTr("Polish")+": Tomasz Amborski"
               }
 
               Placeholder { }
