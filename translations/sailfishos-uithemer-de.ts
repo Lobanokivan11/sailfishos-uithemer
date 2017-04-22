@@ -1,59 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="pl">
+<TS version="2.1" language="de">
 <context>
     <name>About</name>
     <message>
         <source>About</source>
-        <translation>O</translation>
+        <translation>Über</translation>
     </message>
     <message>
         <source>Page on OpenRepos</source>
-        <translation>Strona w OpenRepos</translation>
+        <translation>Weiteres auf OpenRepos</translation>
     </message>
     <message>
         <source>Support</source>
-        <translation>Wsparcie</translation>
+        <translation>Unterstütze mich</translation>
     </message>
     <message>
         <source>Donate</source>
-        <translation>Donacje pieniężne</translation>
+        <translation>Mein Bier</translation>
     </message>
     <message>
         <source>Credits</source>
-        <translation>Credits</translation>
+        <translation>Danksagung</translation>
     </message>
     <message>
         <source>CLI tool</source>
-        <translation>Narzędzie CLI</translation>
+        <translation>CLI Tool</translation>
     </message>
     <message>
         <source>Developers</source>
-        <translation>Deweloperzy</translation>
+        <translation>Entwickler</translation>
     </message>
     <message>
         <source>Documentation</source>
-        <translation>Dokumentacja</translation>
+        <translation>Documentation</translation>
     </message>
     <message>
         <source>Feedback</source>
-        <translation>Opinia zwrotna</translation>
+        <translation>Feedback</translation>
     </message>
     <message>
         <source>If you want to provide feedback or report an issue, please use GitHub.</source>
-        <translation>Jeśli chcesz wyrazić opinię lub zgłosić problem, proszę użyj  GitHub&apos;a.</translation>
+        <translation>Wenn du Anregungen hast oder einen Fehler findest, melde dich bitte auf GitHub!</translation>
     </message>
     <message>
         <source>Issues on GitHub</source>
-        <translation>Problemy w GitHub&apos;ie</translation>
+        <translation>Bekannte Probleme auf GitHub</translation>
     </message>
     <message>
         <source>Part of this app is based on the &lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon pack support GUI&lt;/a&gt; by RikudouSennin.&lt;br&gt;App icon design by &lt;a href=&apos;http://www.freepik.com/free-photo/blue-paint-roller_959191.htm&apos;&gt;Freepik&lt;/a&gt;.&lt;br&gt;Thanks to Dax89 and all the testers for help and patience.</source>
-        <translation>Część tej aplikacji bazuje na  &lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Paczka ikon wsparcia GUI&lt;/a&gt; autorstwa RikudouSennin.&lt;br&gt;Projekt ikon aplikacji autorstwa&lt;a href=&apos;http://www.freepik.com/free-photo/blue-paint-roller_959191.htm&apos;&gt;Freepik&lt;/a&gt;.&lt;br&gt;Podziękowania dla  Dax89 i wszystkich testerów za pomoc i cierpliwość.</translation>
+        <translation>Teile dieser App basieren auf &lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon pack support Gui&lt;/a&gt; von RikudouSennin.&lt;br&gt; App Icon von &lt;a href=&apos;http://www.freepik.com/free-photo/blue-paint-roller_959191.htm&apos;&gt;Freepik&lt;/a&gt;.&lt;br&gt;Danke an Dax89 sowie an alle Tester für ihre Hilfe und Geduld.</translation>
     </message>
     <message>
         <source>Request a new language or contribute to existing languages on the Transifex project page.</source>
-        <translation>Poproś o nową wersję językową lub wnieś wkład własny do istniejących wersji językowych na stronie projektu w Transifex. </translation>
+        <translation>Übersetze diese App oder bessere Fehler aus! Besuche dazu einfach die Transifex Project Seite!</translation>
     </message>
     <message>
         <source>Transifex</source>
@@ -61,209 +61,213 @@
     </message>
     <message>
         <source>Translations</source>
-        <translation>Tłumaczenia</translation>
+        <translation>Übersetzung</translation>
     </message>
     <message>
         <source>If anything goes wrong or you want to manage all the options via terminal, you can recall the CLI tool by typing &lt;b&gt;themepacksupport&lt;/b&gt; as root.</source>
-        <translation>Jeśli coś pójdzie nie tak lub chcesz zarządzać wszystkimi opcjami za pośrednictwem terminala, możesz wywołać narzędzie CLI wpisując &lt;b&gt;themepacksupport&lt;/b&gt; jako root.</translation>
+        <translation>Wenn bei dir etwas nicht klappt oder du ein Terminal Fanboy bist, benutze das CLI tool. Starte &lt;b&gt;themepacksupport&lt;/b&gt; als root.</translation>
     </message>
     <message>
         <source>If you like my work and want to buy me a beer, feel free to do it!</source>
-        <translation>Jeśli podoba Ci się moje praca i chcesz kupić mi piwo, nie krępuj się tego zrobić! </translation>
+        <translation>Auch ich muss von etwas leben! Zögere nicht, und zahl mir ein Bier!</translation>
     </message>
     <message>
         <source>Sources on GitHub</source>
-        <translation>Źródła w GitHub&apos;ie</translation>
+        <translation>Quellcode auf GitHub</translation>
     </message>
     <message>
         <source>With UI Themer you can customize icons, fonts and pixel density in Sailfish OS. Remember to unapply themes before system updates.</source>
-        <translation>Z oprogramowaniem UI Themer możesz w Sailfish OS dostosować ikony, czcionki i gęstości pikseli. Pamiętaj, aby wycofać zastosowane kompozycje tematyczne przed aktualizacjami systemu. </translation>
+        <translation>Mithilfe des UI Themer kannst du deine Icon und Schrift Themes  sowie die Pixeldichte ändern. Bitte setze vor System Updates alles auf die Standardeinstellungen zurück.</translation>
     </message>
     <message>
         <source>If you want to create a theme compatible with UI Themer, please read the documentation.</source>
-        <translation>Jeśli chcesz utworzyć kompozycję tematyczną zgodną z UI Themer, proszę zapoznaj się z dokumentacją.</translation>
+        <translation>Wenn du ein eigenes Theme erstellen möchtest, dass mit UI Themer kompitabel ist, lies bitte die Documentation. </translation>
     </message>
     <message>
         <source>Italian</source>
-        <translation>Włoski</translation>
+        <translation>Italienisch</translation>
     </message>
     <message>
         <source>Polish</source>
-        <translation>Polski</translation>
+        <translation>Polnisch</translation>
     </message>
     <message>
         <source>Released under the GNU GPLv3 license.</source>
-        <translation>Wypuszczono na licencji GNU GPLv3.</translation>
+        <translation>Unter der GNU GPLv3 Lizenz veröffentlicht.</translation>
     </message>
     <message>
         <source>Dutch</source>
-        <translation>Niderlandzki</translation>
+        <translation>Niederländisch</translation>
     </message>
     <message>
         <source>German</source>
-        <translation>Niemiecki</translation>
+        <translation>Deutsch</translation>
     </message>
 </context>
 <context>
     <name>Confirm</name>
     <message>
         <source>Install icons from theme</source>
-        <translation>Zainstaluj czcionki z motywu tematycznego</translation>
+        <translation>Icons von diesem Themepack übernehmen</translation>
     </message>
     <message>
         <source>Install fonts from theme</source>
-        <translation>Zainstaluj czcionki z motywu tematycznego</translation>
+        <translation>Schriftart von diesem Themepack übernehmen</translation>
     </message>
     <message>
         <source>Font weight</source>
-        <translation>Waga czcionki</translation>
+        <translation>Schriftstärke</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Anuluj</translation>
+        <translation>Abbrechen</translation>
     </message>
     <message>
         <source>Do you want to apply &lt;b&gt;%1&lt;/b&gt;? The UI may not respond for a while, do NOT close the app.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.&lt;br&gt;</source>
-        <translation>Czy chcesz zastosować &lt;b&gt;%1&lt;/b&gt;? Interfejs Użytkownika może przez jakiś czas nie odpowiadać, NIE zamykaj wtedy aplikacji.&lt;br&gt;&lt;br&gt;Pamiętaj aby zaraz potem uruchomić ponownie ekran główny.&lt;br&gt;</translation>
+        <translation>Möchtest du wirklich &lt;b&gt;%1&lt;/b&gt; anwenden? Das Programm wird möglicherweise für eine kurze Zeit keine Rückmeldung mehr geben, dann heißt es ABWARTEN!
+&lt;br&gt;&lt;br&gt;Dein Startbildschirm muss neu gestartet werden, damit deine Änderungen übernommen werden.&lt;br&gt;</translation>
     </message>
     <message>
         <source>Apply</source>
-        <translation>Zastosuj</translation>
+        <translation>Übernehmen</translation>
     </message>
 </context>
 <context>
     <name>DdensityPage</name>
     <message>
         <source>Restore Android DPI</source>
-        <translation>Przywróć Android&apos;owe DPI</translation>
+        <translation>Setze die Android DPI zurück</translation>
     </message>
     <message>
         <source>Restore device pixel ratio</source>
-        <translation>Przywróć proporcje pikseli urządzenia</translation>
+        <translation>Setze die Pixeldichte zurück</translation>
     </message>
     <message>
         <source>Device pixel ratio</source>
-        <translation>Proporcja pikseli urządzenia</translation>
+        <translation>Verhältnis der Pixeldichte</translation>
     </message>
     <message>
         <source>Change the display pixel ratio. To a smaller value corresponds an higher density.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
-        <translation>Zmień proporcję pikseli wyświetlacza. Mniejszej wartości odpowiada większa gęstość.&lt;br&gt;&lt;br&gt;Pamiętaj, aby potem od razu uruchomić ponownie ekran główny.</translation>
+        <translation>Ändere deine Pixeldichte. Ein kleiner Wert entspricht einer höheren Dichte.&lt;br&gt;
+&lt;br&gt;Dein Startbildschirm muss neu gestartet werden, damit deine Änderungen übernommen werden. </translation>
     </message>
     <message>
         <source>Android DPI</source>
-        <translation>Android&apos;owe DPI</translation>
+        <translation>Android DPI</translation>
     </message>
     <message>
         <source>Android DPI value</source>
-        <translation>Wartość Android&apos;owego DPI</translation>
+        <translation>Android DPI</translation>
     </message>
     <message>
         <source>Applying Android DPI...</source>
-        <translation>Zastosowanie Android&apos;owego DPI...</translation>
+        <translation>Übernehme Android DPI...</translation>
     </message>
     <message>
         <source>Change the Android DPI value. To a smaller value corresponds an higher density.&lt;br&gt;&lt;br&gt;Remember to restart the Android support or the homescreen right after.</source>
-        <translation>Zmień wartość Android&apos;owego DPI. Mniejszej wartości odpowiada większa gęstość.&lt;br&gt;&lt;br&gt;Pamiętaj, aby potem od razu uruchomić ponownie emulację Androida lub ekran główny. </translation>
+        <translation>Ändere deine Pixeldichte für die Androidapps. Ein kleiner Wert entspricht einer höheren Dichte.&lt;br&gt;
+&lt;br&gt;Dein Startbildschirm muss neu gestartet werden, damit deine Änderungen übernommen werden. </translation>
     </message>
     <message>
         <source>Restoring Android DPI</source>
-        <translation>Przywracanie Android&apos;owego DPI</translation>
+        <translation>Setze Android DPI zurück</translation>
     </message>
     <message>
         <source>Restoring device pixel ratio</source>
-        <translation>Przywracanie proporcji pikseli urządzenia</translation>
+        <translation>Setze die Pixeldichte zurück</translation>
     </message>
 </context>
 <context>
     <name>HomePage</name>
     <message>
         <source>Themes</source>
-        <translation>Motywy tematyczne</translation>
+        <translation>Themes</translation>
     </message>
     <message>
         <source>Display density</source>
-        <translation>Gęstość wyświetlacza</translation>
+        <translation>Pixeldichte</translation>
     </message>
     <message>
         <source>About</source>
-        <translation>O</translation>
+        <translation>Über</translation>
     </message>
     <message>
         <source>Restart homescreen</source>
-        <translation>Uruchom ponownie ekran główny</translation>
+        <translation>Starte den Startbildschirm neu</translation>
     </message>
     <message>
         <source>Restarting homescreen</source>
-        <translation>Ponowne uruchamianie ekranu głównego</translation>
+        <translation>Der Startbildschirm wird neu gestartet</translation>
     </message>
 </context>
 <context>
     <name>MainPage</name>
     <message>
         <source>Loading...</source>
-        <translation>Ładowanie...</translation>
+        <translation>Lade...</translation>
     </message>
     <message>
         <source>This icon pack is already active.</source>
-        <translation>Ta paczka ikon jest już aktywna.</translation>
+        <translation>Dieses Icon Pack verwendest du schon.</translation>
     </message>
     <message>
         <source>Restore</source>
-        <translation>Przywróć</translation>
+        <translation>Zurücksetzen</translation>
     </message>
     <message>
         <source>icons</source>
-        <translation>ikony</translation>
+        <translation>Icons</translation>
     </message>
     <message>
         <source>fonts</source>
-        <translation>czcionki</translation>
+        <translation>Schriftarten</translation>
     </message>
     <message>
         <source>Themes</source>
-        <translation>Motywy tematyczne</translation>
+        <translation>Themes</translation>
     </message>
     <message>
         <source>Uninstall theme</source>
-        <translation>Odinstaluj motyw tematyczny</translation>
+        <translation>Lösche Themes</translation>
     </message>
     <message>
         <source>No themes installed</source>
-        <translation>Żaden motyw tematyczny nie jest zainstalowany</translation>
+        <translation>Du hast noch keine Themes installiert</translation>
     </message>
 </context>
 <context>
     <name>Restore</name>
     <message>
         <source>Restore default icons</source>
-        <translation>Przywróć domyślne ikony</translation>
+        <translation>Zu den Default-Icons zurückkehren</translation>
     </message>
     <message>
         <source>Restore default fonts</source>
-        <translation>Przywróć domyślne czcionki</translation>
+        <translation>Zur Default-Schriftart zurückkehren</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Anuluj</translation>
+        <translation>Abbrechen</translation>
     </message>
     <message>
         <source>What do you want to restore? The UI may not respond for a while, do NOT close the app.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.&lt;br&gt;</source>
-        <translation>Co chcesz przywrócić? Interfejs Użytkownika może przez jakiś czas nie odpowiadać, NIE zamykaj wtedy aplikacji.&lt;br&gt;&lt;br&gt;Pamiętaj aby zaraz potem uruchomić ponownie ekran główny.&lt;br&gt;</translation>
+        <translation>Was möchtest du zurücksetzen? Das Programm wird möglicherweise für kurze Zeit stecken, warte ab und schließe nicht die App. 
+&lt;br&gt;&lt;br&gt;Dein Startbildschirm muss neu gestartet werden, damit deine Änderungen übernommen werden.&lt;br&gt;</translation>
     </message>
     <message>
         <source>Restore</source>
-        <translation>Przywróć</translation>
+        <translation>Zurücksetzen</translation>
     </message>
 </context>
 <context>
     <name>Uninstall</name>
     <message>
         <source>Uninstall</source>
-        <translation>Odinstaluj</translation>
+        <translation>Löschen</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Anuluj</translation>
+        <translation>Abbrechen</translation>
     </message>
 </context>
 </TS>

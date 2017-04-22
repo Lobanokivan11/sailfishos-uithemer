@@ -163,7 +163,7 @@ Page {
                   x: Theme.paddingLarge
                   width: parent.width - Theme.paddingLarge * 2
                   wrapMode: Text.Wrap
-                  text: qsTr("Italian")+": fravaccaro\n"+qsTr("Polish")+": Tomasz Amborski"
+                  text: qsTr("Dutch")+": Nathan Follens\n"+qsTr("German")+": Sailfishman\n"+qsTr("Italian")+": Francesco Vaccaro\n"+qsTr("Polish")+": Tomasz Amborski"
               }
 
               Placeholder { }

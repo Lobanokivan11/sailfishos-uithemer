@@ -13,8 +13,8 @@ Name:       sailfishos-uithemer
 %{!?qtc_make:%define qtc_make make}
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:        UI Themer
-Version:        0.5.5
-Release:        1
+Version:        0.5.6
+Release:        5
 Group:          Qt/Qt
 License:        GPLv3
 Packager:       fravaccaro <fravaccaro@jollacommunit
@@ -86,6 +86,10 @@ desktop-file-install --delete-original       \
 # << files
 
 %changelog
+* Sat Apr 22 2017 0.5.6
+- Added Dutch translation (thanks to Nathan Follens).
+- Added German translation (thanks to Sailfishman).
+
 * Thu Apr 18 2017 0.5.5
 - Added Polish translation (thanks to Tomasz Amborski).
 
