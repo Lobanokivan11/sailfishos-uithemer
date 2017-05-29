@@ -173,6 +173,10 @@
         <source>Restoring device pixel ratio</source>
         <translation>Pixelverhouding van apparaat wordt hersteld</translation>
     </message>
+    <message>
+        <source>Settings applied.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>HomePage</name>
@@ -200,36 +204,40 @@
 <context>
     <name>MainPage</name>
     <message>
-        <source>Loading...</source>
-        <translation>Laden...</translation>
-    </message>
-    <message>
-        <source>This icon pack is already active.</source>
-        <translation>Dit pictogrampakket is al in gebruik.</translation>
+        <source>Uninstall theme</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Restore</source>
-        <translation>Herstellen</translation>
-    </message>
-    <message>
-        <source>icons</source>
-        <translation>pictogrammen</translation>
-    </message>
-    <message>
-        <source>fonts</source>
-        <translation>lettertypen</translation>
+        <translation type="unfinished">Herstellen</translation>
     </message>
     <message>
         <source>Themes</source>
-        <translation>Thema&apos;s</translation>
+        <translation type="unfinished">Thema&apos;s</translation>
     </message>
     <message>
-        <source>Uninstall theme</source>
-        <translation>Thema verwijderen</translation>
+        <source>Loading...</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>No themes installed</source>
-        <translation>Geen thema&apos;s geïnstalleerd</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This icon pack is already active.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>icons</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>fonts</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Settings applied.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

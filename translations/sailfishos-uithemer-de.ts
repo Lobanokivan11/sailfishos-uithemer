@@ -176,6 +176,10 @@
         <source>Restoring device pixel ratio</source>
         <translation>Setze die Pixeldichte zurück</translation>
     </message>
+    <message>
+        <source>Settings applied.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>HomePage</name>
@@ -203,36 +207,40 @@
 <context>
     <name>MainPage</name>
     <message>
-        <source>Loading...</source>
-        <translation>Lade...</translation>
-    </message>
-    <message>
-        <source>This icon pack is already active.</source>
-        <translation>Dieses Icon Pack verwendest du schon.</translation>
+        <source>Uninstall theme</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Restore</source>
-        <translation>Zurücksetzen</translation>
-    </message>
-    <message>
-        <source>icons</source>
-        <translation>Icons</translation>
-    </message>
-    <message>
-        <source>fonts</source>
-        <translation>Schriftarten</translation>
+        <translation type="unfinished">Zurücksetzen</translation>
     </message>
     <message>
         <source>Themes</source>
-        <translation>Themes</translation>
+        <translation type="unfinished">Themes</translation>
     </message>
     <message>
-        <source>Uninstall theme</source>
-        <translation>Lösche Themes</translation>
+        <source>Loading...</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>No themes installed</source>
-        <translation>Du hast noch keine Themes installiert</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This icon pack is already active.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>icons</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>fonts</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Settings applied.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

@@ -13,11 +13,11 @@ Name:       sailfishos-uithemer
 %{!?qtc_make:%define qtc_make make}
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:        UI Themer
-Version:        0.5.6
-Release:        5
+Version:        0.5.8
+Release:        1
 Group:          Qt/Qt
 License:        GPLv3
-Packager:       fravaccaro <fravaccaro@jollacommunit
+Packager:       fravaccaro <fravaccaro@jollacommunity.it>
 URL:            https://github.com/fravaccaro/sailfishos-uithemer
 Source0:        %{name}-%{version}.tar.bz2
 Source100:      sailfishos-uithemer.yaml

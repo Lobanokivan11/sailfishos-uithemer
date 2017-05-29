@@ -171,54 +171,59 @@
 <context>
     <name>DdensityPage</name>
     <message>
-        <location filename="../qml/pages/DdensityPage.qml" line="30"/>
+        <location filename="../qml/pages/DdensityPage.qml" line="56"/>
         <source>Restore Android DPI</source>
         <translation>Ripristina DPI Android</translation>
     </message>
     <message>
-        <location filename="../qml/pages/DdensityPage.qml" line="34"/>
+        <location filename="../qml/pages/DdensityPage.qml" line="60"/>
         <source>Restore device pixel ratio</source>
         <translation>Ripristina device pixel ratio</translation>
     </message>
     <message>
-        <location filename="../qml/pages/DdensityPage.qml" line="31"/>
+        <location filename="../qml/pages/DdensityPage.qml" line="57"/>
         <source>Restoring Android DPI</source>
         <translation>Ripristino DPI Android</translation>
     </message>
     <message>
-        <location filename="../qml/pages/DdensityPage.qml" line="35"/>
+        <location filename="../qml/pages/DdensityPage.qml" line="20"/>
+        <source>Settings applied.</source>
+        <translation>Impostazioni applicate.</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/DdensityPage.qml" line="61"/>
         <source>Restoring device pixel ratio</source>
         <translation>Ripristino device pixel ratio</translation>
     </message>
     <message>
-        <location filename="../qml/pages/DdensityPage.qml" line="43"/>
-        <location filename="../qml/pages/DdensityPage.qml" line="47"/>
+        <location filename="../qml/pages/DdensityPage.qml" line="69"/>
+        <location filename="../qml/pages/DdensityPage.qml" line="73"/>
         <source>Device pixel ratio</source>
         <translation>Device pixel ratio</translation>
     </message>
     <message>
-        <location filename="../qml/pages/DdensityPage.qml" line="62"/>
+        <location filename="../qml/pages/DdensityPage.qml" line="88"/>
         <source>Change the display pixel ratio. To a smaller value corresponds an higher density.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
         <translation>Cambia il display pixel ratio. A un valore minore corrisponde una maggiore densità.&lt;br&gt;&lt;br&gt;Ricorda di riavviare la homescreen subito dopo.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/DdensityPage.qml" line="67"/>
+        <location filename="../qml/pages/DdensityPage.qml" line="93"/>
         <source>Android DPI</source>
         <translation>DPI Android</translation>
     </message>
     <message>
-        <location filename="../qml/pages/DdensityPage.qml" line="71"/>
-        <location filename="../qml/pages/DdensityPage.qml" line="72"/>
+        <location filename="../qml/pages/DdensityPage.qml" line="97"/>
+        <location filename="../qml/pages/DdensityPage.qml" line="98"/>
         <source>Android DPI value</source>
         <translation>Valore DPI Android</translation>
     </message>
     <message>
-        <location filename="../qml/pages/DdensityPage.qml" line="78"/>
+        <location filename="../qml/pages/DdensityPage.qml" line="104"/>
         <source>Applying Android DPI...</source>
         <translation>Impostazione DPI Android...</translation>
     </message>
     <message>
-        <location filename="../qml/pages/DdensityPage.qml" line="85"/>
+        <location filename="../qml/pages/DdensityPage.qml" line="111"/>
         <source>Change the Android DPI value. To a smaller value corresponds an higher density.&lt;br&gt;&lt;br&gt;Remember to restart the Android support or the homescreen right after.</source>
         <translation>Cambia il DPI Android. A un valore minore corrisponde una maggiore densità.&lt;br&gt;&lt;br&gt;Ricorda di riavviare il supporto Android o la homescreen subito dopo.</translation>
     </message>
@@ -254,44 +259,49 @@
 <context>
     <name>MainPage</name>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="26"/>
+        <location filename="../qml/pages/MainPage.qml" line="24"/>
+        <source>Settings applied.</source>
+        <translation>Impostazioni applicate.</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/MainPage.qml" line="44"/>
         <source>Uninstall theme</source>
         <translation>Disinstalla tema</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="41"/>
+        <location filename="../qml/pages/MainPage.qml" line="59"/>
         <source>Restore</source>
         <translation>Ripristina</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="96"/>
+        <location filename="../qml/pages/MainPage.qml" line="114"/>
         <source>Themes</source>
         <translation>Temi</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="106"/>
+        <location filename="../qml/pages/MainPage.qml" line="124"/>
         <source>Loading...</source>
         <translation>Caricamento...</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="196"/>
+        <location filename="../qml/pages/MainPage.qml" line="133"/>
+        <source>No themes installed</source>
+        <translation>Nessun tema</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/MainPage.qml" line="214"/>
         <source>This icon pack is already active.</source>
         <translation>Questo pacchetto di icone è già attivo.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="243"/>
+        <location filename="../qml/pages/MainPage.qml" line="261"/>
         <source>icons</source>
         <translation>icone</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="244"/>
+        <location filename="../qml/pages/MainPage.qml" line="262"/>
         <source>fonts</source>
         <translation>font</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/MainPage.qml" line="115"/>
-        <source>No themes installed</source>
-        <translation>Nessun tema installato</translation>
     </message>
 </context>
 <context>

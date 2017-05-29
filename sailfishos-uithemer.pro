@@ -50,5 +50,6 @@ DISTFILES += \
     qml/components/FLabel.qml \
     qml/pages/Uninstall.qml \
     qml/pages/HomePage.qml \
-    qml/pages/DdensityPage.qml
+    qml/pages/DdensityPage.qml \
+    qml/components/UITnotifier.qml
 

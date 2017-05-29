@@ -173,6 +173,10 @@
         <source>Restoring device pixel ratio</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Settings applied.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>HomePage</name>
@@ -200,15 +204,27 @@
 <context>
     <name>MainPage</name>
     <message>
-        <source>Loading...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>This icon pack is already active.</source>
+        <source>Uninstall theme</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Restore</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Themes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Loading...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No themes installed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This icon pack is already active.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -220,15 +236,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Themes</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Uninstall theme</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>No themes installed</source>
+        <source>Settings applied.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
