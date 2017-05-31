@@ -26,8 +26,7 @@ Builds for armv7hl and i486 available on [OpenRepos](https://openrepos.net/conte
 
 ## Roadmap
 
-- Fix GUI freezes.
-- Include recovery options from Theme pack support.
+Roadmap and features will be tracked down on the [Trello dashboard](https://trello.com/b/WwLwj2eu/ui-themer).
 
 ## Credits
 
