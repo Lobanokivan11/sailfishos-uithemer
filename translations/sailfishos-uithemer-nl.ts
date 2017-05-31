@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="nl">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="nl" version="2.1">
 <context>
     <name>About</name>
     <message>
@@ -175,7 +173,7 @@
     </message>
     <message>
         <source>Settings applied.</source>
-        <translation type="unfinished"></translation>
+        <translation>Instellingen toegepast.</translation>
     </message>
 </context>
 <context>
@@ -205,39 +203,39 @@
     <name>MainPage</name>
     <message>
         <source>Uninstall theme</source>
-        <translation type="unfinished"></translation>
+        <translation>Thema verwijderen</translation>
     </message>
     <message>
         <source>Restore</source>
-        <translation type="unfinished">Herstellen</translation>
+        <translation>Herstellen</translation>
     </message>
     <message>
         <source>Themes</source>
-        <translation type="unfinished">Thema&apos;s</translation>
+        <translation>Thema&apos;s</translation>
     </message>
     <message>
         <source>Loading...</source>
-        <translation type="unfinished"></translation>
+        <translation>Laden...</translation>
     </message>
     <message>
         <source>No themes installed</source>
-        <translation type="unfinished"></translation>
+        <translation>Geen thema&apos;s geïnstalleerd</translation>
     </message>
     <message>
         <source>This icon pack is already active.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dit pictogrampakket is al in gebruik.</translation>
     </message>
     <message>
         <source>icons</source>
-        <translation type="unfinished"></translation>
+        <translation>pictogrammen</translation>
     </message>
     <message>
         <source>fonts</source>
-        <translation type="unfinished"></translation>
+        <translation>lettertypen</translation>
     </message>
     <message>
         <source>Settings applied.</source>
-        <translation type="unfinished"></translation>
+        <translation>Instellingen toegepast.</translation>
     </message>
 </context>
 <context>
