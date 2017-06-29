@@ -33,6 +33,10 @@ Page {
                }
             }
             MenuItem {
+                text: qsTr("Tools")
+                onClicked: pageStack.push("Tools.qml")
+            }
+            MenuItem {
                 text: qsTr("Restart homescreen")
                 onClicked: remorsehs.execute(qsTr("Restarting homescreen"))
             }

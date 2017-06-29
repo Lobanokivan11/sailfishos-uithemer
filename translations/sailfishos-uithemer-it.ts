@@ -6,7 +6,7 @@
     <message>
         <location filename="../qml/pages/About.qml" line="16"/>
         <source>About</source>
-        <translation>Info</translation>
+        <translation>Info su</translation>
     </message>
     <message>
         <location filename="../qml/pages/About.qml" line="31"/>
@@ -247,11 +247,16 @@
     </message>
     <message>
         <location filename="../qml/pages/HomePage.qml" line="36"/>
+        <source>Tools</source>
+        <translation>Strumenti</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/HomePage.qml" line="40"/>
         <source>Restart homescreen</source>
         <translation>Riavvia homescreen</translation>
     </message>
     <message>
-        <location filename="../qml/pages/HomePage.qml" line="37"/>
+        <location filename="../qml/pages/HomePage.qml" line="41"/>
         <source>Restarting homescreen</source>
         <translation>Riavvio homescreen</translation>
     </message>
@@ -334,6 +339,64 @@
         <location filename="../qml/pages/Restore.qml" line="60"/>
         <source>Restore default fonts</source>
         <translation>Ripristina font predefiniti</translation>
+    </message>
+</context>
+<context>
+    <name>Tools</name>
+    <message>
+        <location filename="../qml/pages/Tools.qml" line="18"/>
+        <source>Settings applied.</source>
+        <translation>Impostazioni applicate.</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Tools.qml" line="45"/>
+        <source>Tools</source>
+        <translation>Strumenti</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Tools.qml" line="52"/>
+        <source>Here you can find some recovery tools in case anything goes wrong (eg if you forget to restore the default theme before performing a system update). The UI may not respond for a while, do NOT close the app.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
+        <translation>Qui puoi trovare alcuni strumenti di recupero in caso di errore (ad esempio, se dimentichi di ripristinare il tema predefinito prima di un aggiornamento di sistema). La UI potrebbe non rispondere per un po&apos;, NON chiudere l&apos;app.&lt;br&gt;&lt;br&gt;Ricorda di riavviare la homescreen subito dopo.</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Tools.qml" line="58"/>
+        <source>Icons</source>
+        <translation>Icone</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Tools.qml" line="65"/>
+        <source>If any error occurs during themes applying/restoring, you can end up with messed up icons. From here, you can reinstall default Jolla app icons while, for thirdy party apps, you may need to reinstall/update apps to restore the default look.</source>
+        <translation>Se si verifica un errore durante l&apos;applicazione o il ripristino di temi, è possibile che alcune icone siano in disordine. Da qui puoi reinstallare le icone predefinite delle app Jolla mentre, per le applicazioni di terze parti, è necessario reinstallare o aggiornare le app per ripristinare l&apos;aspetto predefinito.</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Tools.qml" line="73"/>
+        <source>Reinstall icons</source>
+        <translation>Reinstalla icone</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Tools.qml" line="75"/>
+        <source>Reinstalling icons</source>
+        <translation>Reinstallazione icone</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Tools.qml" line="82"/>
+        <source>Fonts</source>
+        <translation>Font</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Tools.qml" line="89"/>
+        <source>Reinstall default fonts, if font applying/restoring fails.</source>
+        <translation>Reinstalla i font predefiniti, se l&apos;applicazione o il ripristino dei font fallisce.</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Tools.qml" line="97"/>
+        <source>Reinstall fonts</source>
+        <translation>Reinstalla font</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Tools.qml" line="99"/>
+        <source>Reinstalling fonts</source>
+        <translation>Reinstallazione font</translation>
     </message>
 </context>
 <context>

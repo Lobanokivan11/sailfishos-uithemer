@@ -45,6 +45,18 @@ Q_INVOKABLE bool restart_homescreen() const {
     return true;
 }
 
+ Q_INVOKABLE bool reinstall_icons() const {
+     setuid(0);
+     system("/usr/share/sailfishos-uithemer/reinstall_icons.sh");
+     return true;
+ }
+
+ Q_INVOKABLE bool reinstall_fonts() const {
+     setuid(0);
+     system("/usr/share/sailfishos-uithemer/reinstall_fonts.sh");
+     return true;
+ }
+
     Q_INVOKABLE bool apply_adpi(const QString adpi) const {
         std::string c_adpi = adpi.toStdString();
         std::string command = "/usr/share/sailfishos-uithemer/apply_adpi.sh "+c_adpi;

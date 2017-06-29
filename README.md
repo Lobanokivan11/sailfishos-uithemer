@@ -11,6 +11,7 @@ Graphical User Interface for [Theme pack support](https://fravaccaro.github.io/t
 - Font theming.
 - Change device pixel ratio.
 - Change DPI for Alien Dalvik.
+- Recovery tools.
 
 ## Create custom theme packs
 

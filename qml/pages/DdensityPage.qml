@@ -33,7 +33,7 @@ Page {
     VerticalScrollDecorator { }
     contentHeight: content.height
     RemorsePopup { id: remorsedpr; onTriggered: {
-            iconpack.restore_dpr()
+            iconpack.restore_dpr();
             notification.publish();
         }
     }

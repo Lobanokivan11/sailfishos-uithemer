@@ -9,6 +9,8 @@ other/homescreen.sh \
 other/apply_adpi.sh \
 other/restore_adpi.sh \
 other/restore_dpr.sh \
+other/reinstall_fonts.sh \
+other/reinstall_icons.sh \
 other/coverbg.png
 
 OTHER_SOURCES += $$MY_FILES
@@ -51,5 +53,6 @@ DISTFILES += \
     qml/pages/Uninstall.qml \
     qml/pages/HomePage.qml \
     qml/pages/DdensityPage.qml \
-    qml/components/UITnotifier.qml
+    qml/components/UITnotifier.qml \
+    qml/pages/Tools.qml \
 

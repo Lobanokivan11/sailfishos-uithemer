@@ -13,15 +13,15 @@ Name:       sailfishos-uithemer
 %{!?qtc_make:%define qtc_make make}
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:        UI Themer
-Version:        0.5.9
-Release:        1
+Version:        0.6.0
+Release:        4
 Group:          Qt/Qt
 License:        GPLv3
 Packager:       fravaccaro <fravaccaro@jollacommunity.it>
 URL:            https://github.com/fravaccaro/sailfishos-uithemer
 Source0:        %{name}-%{version}.tar.bz2
 Source100:      sailfishos-uithemer.yaml
-Requires:       sailfish-version >= 2.1.0, harbour-themepacksupport >= 0.3.3-5
+Requires:       sailfish-version >= 2.1.0, harbour-themepacksupport >= 0.4.0-4
 BuildRequires:  pkgconfig(sailfishapp) >= 1.0.2
 BuildRequires:  pkgconfig(Qt5Core)
 BuildRequires:  pkgconfig(Qt5Qml)
@@ -86,6 +86,9 @@ desktop-file-install --delete-original       \
 # << files
 
 %changelog
+* Thu Jun 29 2017 0.6.0
+- Recovery tools added.
+
 * Sat Apr 22 2017 0.5.9
 - Notifications added
 - Dutch translation updated.
