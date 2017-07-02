@@ -108,43 +108,43 @@
     <name>AutoUpdPage</name>
     <message>
         <source>Settings applied.</source>
-        <translation type="unfinished">Instellingen toegepast.</translation>
-    </message>
-    <message>
-        <source>Icon updater</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. The Icon updater will automate this process, enabling automatic update of icons at a given time.&lt;br&gt;&lt;br&gt;You can set the hours of your choice in the form below. Type them in the format hh:mm separated by a comma, eg &lt;i&gt;06:00,18:20&lt;/i&gt; and press enter.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Hours</source>
-        <translation type="unfinished"></translation>
+        <translation>Instellingen toegepast.</translation>
     </message>
     <message>
         <source>Insert hours</source>
-        <translation type="unfinished"></translation>
+        <translation>Voer tijdstippen in</translation>
+    </message>
+    <message>
+        <source>Hours</source>
+        <translation>Tijdstippen</translation>
     </message>
     <message>
         <source>Updating timer...</source>
-        <translation type="unfinished"></translation>
+        <translation>Timer wordt bijgewerkt...</translation>
+    </message>
+    <message>
+        <source>Icon updater</source>
+        <translation>Pictogrambijwerker</translation>
     </message>
     <message>
         <source>Enable Icon updater</source>
-        <translation type="unfinished"></translation>
+        <translation>Pictogrambijwerker inschakelen</translation>
     </message>
     <message>
         <source>Enabling Icon updater...</source>
-        <translation type="unfinished"></translation>
+        <translation>Pictogrambijwerker wordt ingeschakeld...</translation>
     </message>
     <message>
         <source>Disable Icon updater</source>
-        <translation type="unfinished"></translation>
+        <translation>Pictogrambijwerker uitschakelen</translation>
     </message>
     <message>
         <source>Disabling Icon updater...</source>
-        <translation type="unfinished"></translation>
+        <translation>Pictogrambijwerker wordt uitgeschakeld...</translation>
+    </message>
+    <message>
+        <source>Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. The Icon updater will automate this process, enabling automatic update of icons at a given time.&lt;br&gt;&lt;br&gt;You can set the hours of your choice in the form below. Type them in the format hh:mm separated by a comma, eg &lt;i&gt;06:00,18:20&lt;/i&gt; and press enter.</source>
+        <translation>Telkens een app wordt bijgewerkt moet je het thema opnieuw toepassen om het aangepaste pictogram terug te krijgen. De pictogrambijwerker automatiseert dit proces en laat je toe je pictogrammen op een gegeven tijdstip automatisch bij te werken.&lt;br&gt;&lt;br&gt;Je kan hieronder de tijdstippen naar keuze invoeren, in het formaat uu:mm, gescheiden door een komma, bv. &lt;i&gt;06:00,18:20&lt;/i&gt;. Tik vervolgens op enter.</translation>
     </message>
 </context>
 <context>
@@ -288,7 +288,7 @@
     </message>
     <message>
         <source>Icon updater</source>
-        <translation type="unfinished"></translation>
+        <translation>Pictogrambijwerker</translation>
     </message>
 </context>
 <context>

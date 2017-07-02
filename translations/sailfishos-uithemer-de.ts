@@ -5,7 +5,7 @@
     <name>About</name>
     <message>
         <source>About</source>
-        <translation>Über</translation>
+        <translation>Über UI Themer</translation>
     </message>
     <message>
         <source>Page on OpenRepos</source>
@@ -81,7 +81,7 @@
     </message>
     <message>
         <source>If you want to create a theme compatible with UI Themer, please read the documentation.</source>
-        <translation>Wenn du ein eigenes Theme erstellen möchtest, dass mit UI Themer kompitabel ist, lies bitte die Documentation. </translation>
+        <translation>Wenn du ein eigenes Theme erstellen möchtest, das mit UI Themer kompitabel ist, lies bitte die Documentation. </translation>
     </message>
     <message>
         <source>Italian</source>
@@ -108,7 +108,7 @@
     <name>AutoUpdPage</name>
     <message>
         <source>Settings applied.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Einstellungen angewendet.</translation>
     </message>
     <message>
         <source>Insert hours</source>
@@ -167,8 +167,7 @@
     </message>
     <message>
         <source>Do you want to apply &lt;b&gt;%1&lt;/b&gt;? The UI may not respond for a while, do NOT close the app.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.&lt;br&gt;</source>
-        <translation>Möchtest du wirklich &lt;b&gt;%1&lt;/b&gt; anwenden? Das Programm wird möglicherweise für eine kurze Zeit keine Rückmeldung mehr geben, dann heißt es ABWARTEN!
-&lt;br&gt;&lt;br&gt;Dein Startbildschirm muss neu gestartet werden, damit deine Änderungen übernommen werden.&lt;br&gt;</translation>
+        <translation>Möchtest du wirklich &lt;b&gt;%1&lt;/b&gt; anwenden? Das Programm wird möglicherweise für eine kurze Zeit keine Rückmeldung mehr geben, das heißt für dich ABWARTEN!&lt;br&gt;&lt;br&gt;Dein Startbildschirm muss neu gestartet werden, damit deine Änderungen übernommen werden.&lt;br&gt;</translation>
     </message>
     <message>
         <source>Apply</source>
@@ -183,16 +182,15 @@
     </message>
     <message>
         <source>Restore device pixel ratio</source>
-        <translation>Setze die Pixeldichte zurück</translation>
+        <translation>DPR zurücksetzen</translation>
     </message>
     <message>
         <source>Device pixel ratio</source>
-        <translation>Verhältnis der Pixeldichte</translation>
+        <translation>Device Pixel Ratio (DPR)</translation>
     </message>
     <message>
         <source>Change the display pixel ratio. To a smaller value corresponds an higher density.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
-        <translation>Ändere deine Pixeldichte. Ein kleiner Wert entspricht einer höheren Dichte.&lt;br&gt;
-&lt;br&gt;Dein Startbildschirm muss neu gestartet werden, damit deine Änderungen übernommen werden. </translation>
+        <translation>Ändere deine DPR. Ein kleiner Wert entspricht einer höheren Dichte.&lt;br&gt;&lt;br&gt;Dein Startbildschirm muss neu gestartet werden, damit deine Änderungen übernommen werden. </translation>
     </message>
     <message>
         <source>Android DPI</source>
@@ -200,7 +198,7 @@
     </message>
     <message>
         <source>Android DPI value</source>
-        <translation>Android DPI</translation>
+        <translation>Wert für Android DPI</translation>
     </message>
     <message>
         <source>Applying Android DPI...</source>
@@ -208,8 +206,7 @@
     </message>
     <message>
         <source>Change the Android DPI value. To a smaller value corresponds an higher density.&lt;br&gt;&lt;br&gt;Remember to restart the Android support or the homescreen right after.</source>
-        <translation>Ändere deine Pixeldichte für die Androidapps. Ein kleiner Wert entspricht einer höheren Dichte.&lt;br&gt;
-&lt;br&gt;Dein Startbildschirm muss neu gestartet werden, damit deine Änderungen übernommen werden. </translation>
+        <translation>Ändere deine Pixeldichte für die Androidapps. Ein kleiner Wert entspricht einer höheren Dichte.&lt;br&gt;&lt;br&gt;Dein Startbildschirm oder AlienDalvik muss neu gestartet werden, damit deine Änderungen übernommen werden. </translation>
     </message>
     <message>
         <source>Restoring Android DPI</source>
@@ -217,11 +214,11 @@
     </message>
     <message>
         <source>Restoring device pixel ratio</source>
-        <translation>Setze die Pixeldichte zurück</translation>
+        <translation>DPR wird zurückgesetzt</translation>
     </message>
     <message>
         <source>Settings applied.</source>
-        <translation type="unfinished"></translation>
+        <translation>Einstellungen angewendet.</translation>
     </message>
 </context>
 <context>
@@ -236,7 +233,7 @@
     </message>
     <message>
         <source>About</source>
-        <translation>Über</translation>
+        <translation>Über UI Themer</translation>
     </message>
     <message>
         <source>Restart homescreen</source>
@@ -244,7 +241,7 @@
     </message>
     <message>
         <source>Restarting homescreen</source>
-        <translation>Der Startbildschirm wird neu gestartet</translation>
+        <translation>Startbildschirm wird neu gestartet</translation>
     </message>
     <message>
         <source>Tools</source>
@@ -255,39 +252,39 @@
     <name>MainPage</name>
     <message>
         <source>Uninstall theme</source>
-        <translation type="unfinished"></translation>
+        <translation>Lösche Themes</translation>
     </message>
     <message>
         <source>Restore</source>
-        <translation type="unfinished">Zurücksetzen</translation>
+        <translation>Zurücksetzen</translation>
     </message>
     <message>
         <source>Themes</source>
-        <translation type="unfinished">Themes</translation>
+        <translation>Themes</translation>
     </message>
     <message>
         <source>Loading...</source>
-        <translation type="unfinished"></translation>
+        <translation>Lade...</translation>
     </message>
     <message>
         <source>No themes installed</source>
-        <translation type="unfinished"></translation>
+        <translation>Du hast noch keine Themes installiert</translation>
     </message>
     <message>
         <source>This icon pack is already active.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dieses Icon Pack verwendest du zurzeit.</translation>
     </message>
     <message>
         <source>icons</source>
-        <translation type="unfinished"></translation>
+        <translation>Icons</translation>
     </message>
     <message>
         <source>fonts</source>
-        <translation type="unfinished"></translation>
+        <translation>Schrift</translation>
     </message>
     <message>
         <source>Settings applied.</source>
-        <translation type="unfinished"></translation>
+        <translation>Einstellungen angewendet.</translation>
     </message>
     <message>
         <source>Icon updater</source>
@@ -298,11 +295,11 @@
     <name>Restore</name>
     <message>
         <source>Restore default icons</source>
-        <translation>Zu den Default-Icons zurückkehren</translation>
+        <translation>Default-Icons verwenden</translation>
     </message>
     <message>
         <source>Restore default fonts</source>
-        <translation>Zur Default-Schriftart zurückkehren</translation>
+        <translation>Default-Schriftart verwenden</translation>
     </message>
     <message>
         <source>Cancel</source>
@@ -310,8 +307,7 @@
     </message>
     <message>
         <source>What do you want to restore? The UI may not respond for a while, do NOT close the app.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.&lt;br&gt;</source>
-        <translation>Was möchtest du zurücksetzen? Das Programm wird möglicherweise für kurze Zeit stecken, warte ab und schließe nicht die App. 
-&lt;br&gt;&lt;br&gt;Dein Startbildschirm muss neu gestartet werden, damit deine Änderungen übernommen werden.&lt;br&gt;</translation>
+        <translation>Was möchtest du zurücksetzen? Die App wird möglicherweise für eine kurze Zeit keine Rückmeldung mehr geben, das heißt für dich ABWARTEN! &lt;br&gt;&lt;br&gt;Dein Startbildschirm muss neu gestartet werden, damit deine Änderungen übernommen werden.&lt;br&gt;</translation>
     </message>
     <message>
         <source>Restore</source>
@@ -354,7 +350,7 @@
     </message>
     <message>
         <source>Settings applied.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Einstellungen angewendet.</translation>
     </message>
     <message>
         <source>If any error occurs during themes applying/restoring, you can end up with messed up icons. From here, you can reinstall default Jolla app icons while, for thirdy party apps, you may need to reinstall/update apps to restore the default look.</source>
