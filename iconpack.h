@@ -94,6 +94,33 @@ Q_INVOKABLE bool restore_dpr() const { // function to test what user runs app
         return true;
     }
 
+    Q_INVOKABLE QString getDroidDPI() const { // gets hours from timer
+        return QString::fromStdString(exec("cat /usr/share/harbour-themepacksupport/droiddpi-current"));
+    }
+
+    Q_INVOKABLE bool enable_service() const {
+        setuid(0);
+        system("/usr/share/sailfishos-uithemer/enable_service.sh");
+        return true;
+    }
+
+    Q_INVOKABLE bool disable_service() const {
+        setuid(0);
+        system("/usr/share/sailfishos-uithemer/disable_service.sh");
+        return true;
+    }
+
+    Q_INVOKABLE QString getTimer() const { // gets hours from timer
+        return QString::fromStdString(exec("cat /usr/share/harbour-themepacksupport/service/hours"));
+    }
+
+    Q_INVOKABLE bool apply_hours(const QString hours) const {
+        std::string c_hours = hours.toStdString();
+        std::string command = "/usr/share/sailfishos-uithemer/apply_hours.sh "+c_hours;
+        system(command.c_str());
+        return true;
+    }
+
     Q_INVOKABLE QStringList capabilities(const QString packname) const {
         QStringList ret;
         QDir icon1("/usr/share/harbour-themepack-"+packname+"/jolla");

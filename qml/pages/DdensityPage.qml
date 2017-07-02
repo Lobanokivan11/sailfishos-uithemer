@@ -95,6 +95,7 @@ Page {
             width: parent.width
             id: adpivalue
             placeholderText: qsTr("Android DPI value")
+            text: iconpack.getDroidDPI()
             label: qsTr("Android DPI value")
             validator: RegExpValidator { regExp: /^[0-9\ ]{3,}$/ }
             color: errorHighlight? Theme.secondaryColor : Theme.primaryColor

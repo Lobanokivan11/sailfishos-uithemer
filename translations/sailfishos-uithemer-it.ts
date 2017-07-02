@@ -130,6 +130,59 @@
     </message>
 </context>
 <context>
+    <name>AutoUpdPage</name>
+    <message>
+        <location filename="../qml/pages/AutoUpdPage.qml" line="15"/>
+        <source>Settings applied.</source>
+        <translation type="unfinished">Impostazioni applicate.</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AutoUpdPage.qml" line="61"/>
+        <source>Icon updater</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AutoUpdPage.qml" line="68"/>
+        <source>When an app is updated, you will need to re-apply the theme in order to get the custom icon back. The Icon updater will automate this process, enabling automatic update of icons at a given time.&lt;br&gt;&lt;br&gt;Note: You can set the hours of your choice in the form below. Type them in the format hh:mm separated by a comma, eg &lt;i&gt;06:00,18:20&lt;/i&gt; and press enter.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AutoUpdPage.qml" line="76"/>
+        <source>Hours</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AutoUpdPage.qml" line="78"/>
+        <source>Insert hours</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AutoUpdPage.qml" line="83"/>
+        <source>Updating timer...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AutoUpdPage.qml" line="89"/>
+        <source>Enable Icon updater</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AutoUpdPage.qml" line="90"/>
+        <source>Enabling Icon updater...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AutoUpdPage.qml" line="95"/>
+        <source>Disable Icon updater</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AutoUpdPage.qml" line="96"/>
+        <source>Disabling Icon updater...</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>Confirm</name>
     <message>
         <location filename="../qml/pages/Confirm.qml" line="34"/>
@@ -213,17 +266,17 @@
     </message>
     <message>
         <location filename="../qml/pages/DdensityPage.qml" line="97"/>
-        <location filename="../qml/pages/DdensityPage.qml" line="98"/>
+        <location filename="../qml/pages/DdensityPage.qml" line="99"/>
         <source>Android DPI value</source>
         <translation>Valore DPI Android</translation>
     </message>
     <message>
-        <location filename="../qml/pages/DdensityPage.qml" line="104"/>
+        <location filename="../qml/pages/DdensityPage.qml" line="105"/>
         <source>Applying Android DPI...</source>
         <translation>Impostazione DPI Android...</translation>
     </message>
     <message>
-        <location filename="../qml/pages/DdensityPage.qml" line="111"/>
+        <location filename="../qml/pages/DdensityPage.qml" line="112"/>
         <source>Change the Android DPI value. To a smaller value corresponds an higher density.&lt;br&gt;&lt;br&gt;Remember to restart the Android support or the homescreen right after.</source>
         <translation>Cambia il DPI Android. A un valore minore corrisponde una maggiore densità.&lt;br&gt;&lt;br&gt;Ricorda di riavviare il supporto Android o la homescreen subito dopo.</translation>
     </message>
@@ -274,37 +327,42 @@
         <translation>Disinstalla tema</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="59"/>
+        <location filename="../qml/pages/MainPage.qml" line="58"/>
+        <source>Icon updater</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/MainPage.qml" line="62"/>
         <source>Restore</source>
         <translation>Ripristina</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="114"/>
+        <location filename="../qml/pages/MainPage.qml" line="117"/>
         <source>Themes</source>
         <translation>Temi</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="124"/>
+        <location filename="../qml/pages/MainPage.qml" line="127"/>
         <source>Loading...</source>
         <translation>Caricamento...</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="133"/>
+        <location filename="../qml/pages/MainPage.qml" line="136"/>
         <source>No themes installed</source>
         <translation>Nessun tema</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="214"/>
+        <location filename="../qml/pages/MainPage.qml" line="217"/>
         <source>This icon pack is already active.</source>
         <translation>Questo pacchetto di icone è già attivo.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="261"/>
+        <location filename="../qml/pages/MainPage.qml" line="264"/>
         <source>icons</source>
         <translation>icone</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="262"/>
+        <location filename="../qml/pages/MainPage.qml" line="265"/>
         <source>fonts</source>
         <translation>font</translation>
     </message>
