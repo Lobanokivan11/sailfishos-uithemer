@@ -134,52 +134,52 @@
     <message>
         <location filename="../qml/pages/AutoUpdPage.qml" line="15"/>
         <source>Settings applied.</source>
-        <translation type="unfinished">Impostazioni applicate.</translation>
+        <translation>Impostazioni applicate.</translation>
     </message>
     <message>
         <location filename="../qml/pages/AutoUpdPage.qml" line="61"/>
         <source>Icon updater</source>
-        <translation type="unfinished"></translation>
+        <translation>Icon updater</translation>
     </message>
     <message>
         <location filename="../qml/pages/AutoUpdPage.qml" line="68"/>
-        <source>When an app is updated, you will need to re-apply the theme in order to get the custom icon back. The Icon updater will automate this process, enabling automatic update of icons at a given time.&lt;br&gt;&lt;br&gt;Note: You can set the hours of your choice in the form below. Type them in the format hh:mm separated by a comma, eg &lt;i&gt;06:00,18:20&lt;/i&gt; and press enter.</source>
-        <translation type="unfinished"></translation>
+        <source>Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. The Icon updater will automate this process, enabling automatic update of icons at a given time.&lt;br&gt;&lt;br&gt;You can set the hours of your choice in the form below. Type them in the format hh:mm separated by a comma, eg &lt;i&gt;06:00,18:20&lt;/i&gt; and press enter.</source>
+        <translation>Ogni volta che un&apos;app viene aggiornata, devi applicare di nuovo il tema per ripristinare l&apos;icona personalizzata. Icon updater automatizzerà questo processo, consentendo l&apos;aggiornamento automatico delle icone in un dato momento.&lt;br&gt;&lt;br&gt;Puoi impostare le ore le preferisci nel campo sottostante. Digitale nel formato hh: mm separate da una virgola, ad esempio &lt;i&gt; 06:00,18:20&lt;/i&gt; e premi invio.</translation>
     </message>
     <message>
         <location filename="../qml/pages/AutoUpdPage.qml" line="76"/>
         <source>Hours</source>
-        <translation type="unfinished"></translation>
+        <translation>Ore</translation>
     </message>
     <message>
         <location filename="../qml/pages/AutoUpdPage.qml" line="78"/>
         <source>Insert hours</source>
-        <translation type="unfinished"></translation>
+        <translation>Inserisci ore</translation>
     </message>
     <message>
         <location filename="../qml/pages/AutoUpdPage.qml" line="83"/>
         <source>Updating timer...</source>
-        <translation type="unfinished"></translation>
+        <translation>Aggiornamento timer...</translation>
     </message>
     <message>
         <location filename="../qml/pages/AutoUpdPage.qml" line="89"/>
         <source>Enable Icon updater</source>
-        <translation type="unfinished"></translation>
+        <translation>Attiva Icon updater</translation>
     </message>
     <message>
         <location filename="../qml/pages/AutoUpdPage.qml" line="90"/>
         <source>Enabling Icon updater...</source>
-        <translation type="unfinished"></translation>
+        <translation>Attivazione Icon updater...</translation>
     </message>
     <message>
         <location filename="../qml/pages/AutoUpdPage.qml" line="95"/>
         <source>Disable Icon updater</source>
-        <translation type="unfinished"></translation>
+        <translation>Disattiva Icon updater</translation>
     </message>
     <message>
         <location filename="../qml/pages/AutoUpdPage.qml" line="96"/>
         <source>Disabling Icon updater...</source>
-        <translation type="unfinished"></translation>
+        <translation>Disattivazione Icon updater...</translation>
     </message>
 </context>
 <context>
@@ -329,7 +329,7 @@
     <message>
         <location filename="../qml/pages/MainPage.qml" line="58"/>
         <source>Icon updater</source>
-        <translation type="unfinished"></translation>
+        <translation>Icon updater</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="62"/>

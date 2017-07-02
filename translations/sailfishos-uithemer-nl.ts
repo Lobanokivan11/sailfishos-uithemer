@@ -111,7 +111,11 @@
         <translation type="unfinished">Instellingen toegepast.</translation>
     </message>
     <message>
-        <source>Insert hours</source>
+        <source>Icon updater</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. The Icon updater will automate this process, enabling automatic update of icons at a given time.&lt;br&gt;&lt;br&gt;You can set the hours of your choice in the form below. Type them in the format hh:mm separated by a comma, eg &lt;i&gt;06:00,18:20&lt;/i&gt; and press enter.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -119,15 +123,11 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>Insert hours</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Updating timer...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Icon updater</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>When an app is updated, you will need to re-apply the theme in order to get the custom icon back. The Icon updater will automate this process, enabling automatic update of icons at a given time.&lt;br&gt;&lt;br&gt;Note: You can set the hours of your choice in the form below. Type them in the format hh:mm separated by a comma, eg &lt;i&gt;06:00,18:20&lt;/i&gt; and press enter.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -245,7 +245,7 @@
     </message>
     <message>
         <source>Tools</source>
-        <translation type="unfinished"></translation>
+        <translation>Gereedschap</translation>
     </message>
 </context>
 <context>
@@ -318,47 +318,47 @@
     <name>Tools</name>
     <message>
         <source>Tools</source>
-        <translation type="unfinished"></translation>
+        <translation>Gereedschap</translation>
     </message>
     <message>
         <source>Icons</source>
-        <translation type="unfinished"></translation>
+        <translation>Pictogrammen</translation>
     </message>
     <message>
         <source>Reinstall icons</source>
-        <translation type="unfinished"></translation>
+        <translation>Pictogrammen opnieuw installeren</translation>
     </message>
     <message>
         <source>Reinstalling icons</source>
-        <translation type="unfinished"></translation>
+        <translation>Pictogrammen worden opnieuw geïnstalleerd</translation>
     </message>
     <message>
         <source>Fonts</source>
-        <translation type="unfinished"></translation>
+        <translation>Lettertypen</translation>
     </message>
     <message>
         <source>Reinstall fonts</source>
-        <translation type="unfinished"></translation>
+        <translation>Lettertypen opnieuw installeren</translation>
     </message>
     <message>
         <source>Reinstalling fonts</source>
-        <translation type="unfinished"></translation>
+        <translation>Lettertypen worden opnieuw geïnstalleerd</translation>
     </message>
     <message>
         <source>Reinstall default fonts, if font applying/restoring fails.</source>
-        <translation type="unfinished"></translation>
+        <translation>Installeer standaardlettertypen opnieuw indien toepassen/herstellen van lettertypen mislukt.</translation>
     </message>
     <message>
         <source>Settings applied.</source>
-        <translation type="unfinished">Instellingen toegepast.</translation>
+        <translation>Instellingen toegepast.</translation>
     </message>
     <message>
         <source>If any error occurs during themes applying/restoring, you can end up with messed up icons. From here, you can reinstall default Jolla app icons while, for thirdy party apps, you may need to reinstall/update apps to restore the default look.</source>
-        <translation type="unfinished"></translation>
+        <translation>Indien er een fout optreedt bij het toepassen/herstellen van thema&apos;s kunnen je pictogrammen verprutst worden. Van hieruit kan je de standaardpictogrammen van Jolla opnieuw installeren. Voor apps van derde partijen moet je mogelijk de apps bijwerken of opnieuw installeren om de standaardpictogrammen te herstellen.</translation>
     </message>
     <message>
         <source>Here you can find some recovery tools in case anything goes wrong (eg if you forget to restore the default theme before performing a system update). The UI may not respond for a while, do NOT close the app.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hier vind je gereedschap voor herstellen indien er iets verkeerd gaat (bv. als je het standaardthema vergeten herstellen bent vooraleer een systeemupdate te installeren). De gebruikersinterface kan even blijven haperen, maar sluit de app NIET.&lt;br&gt;&lt;br&gt;Vergeet niet om het startscherm nadien te herstarten.</translation>
     </message>
 </context>
 <context>
