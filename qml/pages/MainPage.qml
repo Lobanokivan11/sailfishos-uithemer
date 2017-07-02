@@ -54,7 +54,10 @@ Page {
                     });
                 }
             }
-
+            MenuItem {
+                text: qsTr("Icon updater")
+                onClicked: pageStack.push("AutoUpdPage.qml")
+            }
             MenuItem {
                 text: qsTr("Restore")
                 enabled: active_iconpack != "none" || active_fontpack != "none"

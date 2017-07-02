@@ -105,6 +105,49 @@
     </message>
 </context>
 <context>
+    <name>AutoUpdPage</name>
+    <message>
+        <source>Settings applied.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Insert hours</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Hours</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Updating timer...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Icon updater</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>When an app is updated, you will need to re-apply the theme in order to get the custom icon back. The Icon updater will automate this process, enabling automatic update of icons at a given time.&lt;br&gt;&lt;br&gt;Note: You can set the hours of your choice in the form below. Type them in the format hh:mm separated by a comma, eg &lt;i&gt;06:00,18:20&lt;/i&gt; and press enter.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enable Icon updater</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enabling Icon updater...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Disable Icon updater</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Disabling Icon updater...</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>Confirm</name>
     <message>
         <source>Install icons from theme</source>
@@ -241,6 +284,10 @@
     </message>
     <message>
         <source>Settings applied.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Icon updater</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

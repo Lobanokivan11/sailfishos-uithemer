@@ -9,6 +9,9 @@ other/homescreen.sh \
 other/apply_adpi.sh \
 other/restore_adpi.sh \
 other/restore_dpr.sh \
+other/apply_hours.sh \
+other/disable_service.sh \
+other/enable_service.sh \
 other/reinstall_fonts.sh \
 other/reinstall_icons.sh \
 other/coverbg.png
@@ -55,4 +58,5 @@ DISTFILES += \
     qml/pages/DdensityPage.qml \
     qml/components/UITnotifier.qml \
     qml/pages/Tools.qml \
+    qml/pages/AutoUpdPage.qml
 
