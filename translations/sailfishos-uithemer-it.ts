@@ -243,7 +243,7 @@
     <message>
         <location filename="../qml/pages/HomePage.qml" line="30"/>
         <source>About</source>
-        <translation>Info</translation>
+        <translation>Info su</translation>
     </message>
     <message>
         <location filename="../qml/pages/HomePage.qml" line="36"/>
