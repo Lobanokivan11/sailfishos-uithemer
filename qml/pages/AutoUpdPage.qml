@@ -49,7 +49,7 @@ Page {
         onTriggered: {
             iconpack.apply_hours(hoursvalue.text);
             hoursvalue.focus = false;
-            hoursvalue.text = "";
+            hoursvalue.text = iconpack.getTimer();
             notification.publish();
         }
    }
@@ -65,7 +65,7 @@ Page {
                  width: parent.width - 2 * Theme.paddingLarge
                  wrapMode: Text.Wrap
                  textFormat: Text.RichText
-                 text: qsTr("Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. The Icon updater will automate this process, enabling automatic update of icons at a given time.<br><br>You can set the hours of your choice in the form below. Type them in the format hh:mm separated by a comma, eg <i>06:00,18:20</i> and press enter.")
+                 text: qsTr("Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. The Icon updater will automate this process, enabling automatic update of icons at a given time.<br><br>You can set the hour of your choice in the form below. Type it in the format hh:mm eg <i>18:20</i> and press enter.")
              }
 
             Placeholder { }
@@ -73,12 +73,12 @@ Page {
         TextField {
             width: parent.width
             id: hoursvalue
-            placeholderText: qsTr("Hours")
+            placeholderText: qsTr("Hour")
             text: iconpack.getTimer()
-            label: qsTr("Insert hours")
-//            validator: RegExpValidator { regExp: /(\d{2})([,:]\d{2})?$/ }
+            label: qsTr("Insert hour")
+            validator: RegExpValidator { regExp: /(\d{2})([:]\d{2})?$/ }
             color: errorHighlight? Theme.secondaryColor : Theme.primaryColor
-            EnterKey.enabled: text.length > 4
+            EnterKey.enabled: text.length == 5
             EnterKey.iconSource: "image://theme/icon-m-enter-accept"
             EnterKey.onClicked: remorsehours.execute(qsTr("Updating timer..."))
         }

@@ -42,7 +42,7 @@ Page {
         onTriggered: {
             iconpack.apply_adpi(adpivalue.text);
             adpivalue.focus = false;
-            adpivalue.text = "";
+            adpivalue.text = iconpack.getDroidDPI();
             notification.publish();
         }
    }
@@ -100,7 +100,7 @@ Page {
             validator: RegExpValidator { regExp: /^[0-9\ ]{3,}$/ }
             color: errorHighlight? Theme.secondaryColor : Theme.primaryColor
             inputMethodHints: Qt.ImhDigitsOnly
-            EnterKey.enabled: text.length > 2
+            EnterKey.enabled: text.length == 3
             EnterKey.iconSource: "image://theme/icon-m-enter-accept"
             EnterKey.onClicked: remorseadpi.execute(qsTr("Applying Android DPI..."))
         }

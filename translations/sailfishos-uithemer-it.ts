@@ -143,18 +143,18 @@
     </message>
     <message>
         <location filename="../qml/pages/AutoUpdPage.qml" line="68"/>
-        <source>Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. The Icon updater will automate this process, enabling automatic update of icons at a given time.&lt;br&gt;&lt;br&gt;You can set the hours of your choice in the form below. Type them in the format hh:mm separated by a comma, eg &lt;i&gt;06:00,18:20&lt;/i&gt; and press enter.</source>
-        <translation>Ogni volta che un&apos;app viene aggiornata, devi applicare di nuovo il tema per ripristinare l&apos;icona personalizzata. Icon updater automatizzerà questo processo, consentendo l&apos;aggiornamento automatico delle icone in un dato momento.&lt;br&gt;&lt;br&gt;Puoi impostare le ore le preferisci nel campo sottostante. Digitale nel formato hh:mm separate da una virgola, ad esempio &lt;i&gt; 06:00,18:20&lt;/i&gt; e premi invio.</translation>
+        <source>Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. The Icon updater will automate this process, enabling automatic update of icons at a given time.&lt;br&gt;&lt;br&gt;You can set the hour of your choice in the form below. Type it in the format hh:mm eg &lt;i&gt;18:20&lt;/i&gt; and press enter.</source>
+        <translation>Ogni volta che un&apos;app viene aggiornata, devi applicare di nuovo il tema per ripristinare l&apos;icona personalizzata. Icon updater automatizzerà questo processo, consentendo l&apos;aggiornamento automatico delle icone in un dato momento.&lt;br&gt;&lt;br&gt;Puoi impostare l&apos;ora che preferisci nel campo sottostante. Digitala nel formato hh:mm, ad esempio &lt;i&gt;18:20&lt;/i&gt; e premi invio.</translation>
     </message>
     <message>
         <location filename="../qml/pages/AutoUpdPage.qml" line="76"/>
-        <source>Hours</source>
-        <translation>Ore</translation>
+        <source>Hour</source>
+        <translation>Ora</translation>
     </message>
     <message>
         <location filename="../qml/pages/AutoUpdPage.qml" line="78"/>
-        <source>Insert hours</source>
-        <translation>Inserisci ore</translation>
+        <source>Insert hour</source>
+        <translation>Inserisci ora</translation>
     </message>
     <message>
         <location filename="../qml/pages/AutoUpdPage.qml" line="83"/>

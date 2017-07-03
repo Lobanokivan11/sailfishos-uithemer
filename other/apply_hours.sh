@@ -15,6 +15,4 @@ Persistent=true
 [Install]
 WantedBy=timers.target' > /etc/systemd/system/harbour-themepacksupport.timer
 
-if [[ "$(sed -n 2p $main/themepacksupport.cfg)" =~ "1" ]]; then
-	systemctl daemon-reload
-fi		
+systemctl daemon-reload
