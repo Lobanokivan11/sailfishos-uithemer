@@ -148,13 +148,9 @@
     </message>
     <message>
         <location filename="../qml/pages/AutoUpdPage.qml" line="76"/>
+        <location filename="../qml/pages/AutoUpdPage.qml" line="78"/>
         <source>Hour</source>
         <translation>Ora</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/AutoUpdPage.qml" line="78"/>
-        <source>Insert hour</source>
-        <translation>Inserisci ora</translation>
     </message>
     <message>
         <location filename="../qml/pages/AutoUpdPage.qml" line="83"/>

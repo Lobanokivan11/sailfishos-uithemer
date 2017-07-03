@@ -142,10 +142,6 @@
         <source>Hour</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
-        <source>Insert hour</source>
-        <translation type="unfinished"></translation>
-    </message>
 </context>
 <context>
     <name>Confirm</name>

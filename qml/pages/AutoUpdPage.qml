@@ -75,7 +75,7 @@ Page {
             id: hoursvalue
             placeholderText: qsTr("Hour")
             text: iconpack.getTimer()
-            label: qsTr("Insert hour")
+            label: qsTr("Hour")
             validator: RegExpValidator { regExp: /(\d{2})([:]\d{2})?$/ }
             color: errorHighlight? Theme.secondaryColor : Theme.primaryColor
             EnterKey.enabled: text.length == 5

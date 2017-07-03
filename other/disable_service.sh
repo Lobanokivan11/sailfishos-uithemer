@@ -1,5 +1,7 @@
 #!/bin/bash
 
+main=/usr/share/harbour-themepacksupport
+
 systemctl disable harbour-themepacksupport.timer
 systemctl stop harbour-themepacksupport.timer
 systemctl disable harbour-themepacksupport.service
