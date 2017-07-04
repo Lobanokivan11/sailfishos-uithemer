@@ -37,15 +37,6 @@ Page {
             notification.publish();
         }
     }
-    RemorsePopup {
-        id: remorseadpi;
-        onTriggered: {
-            iconpack.apply_adpi(adpivalue.text);
-            adpivalue.focus = false;
-            adpivalue.text = iconpack.getDroidDPI();
-            notification.publish();
-        }
-   }
     RemorsePopup { id: remorseradpi; onTriggered: {
             iconpack.restore_adpi()
             notification.publish();
@@ -91,19 +82,19 @@ Page {
                 Placeholder { }
 
             PageHeader { title: qsTr("Android DPI") }
-        TextField {
-            width: parent.width
-            id: adpivalue
-            placeholderText: qsTr("Android DPI value")
-            text: iconpack.getDroidDPI()
-            label: qsTr("Android DPI value")
-            validator: RegExpValidator { regExp: /^[0-9\ ]{3,}$/ }
-            color: errorHighlight? Theme.secondaryColor : Theme.primaryColor
-            inputMethodHints: Qt.ImhDigitsOnly
-            EnterKey.enabled: text.length == 3
-            EnterKey.iconSource: "image://theme/icon-m-enter-accept"
-            EnterKey.onClicked: remorseadpi.execute(qsTr("Applying Android DPI..."))
-        }
+            Slider {
+                id: adpi_slider
+                width: parent.width
+                label: qsTr("Android DPI value")
+                maximumValue: 360
+                minimumValue: 180
+                stepSize: 20
+                value: iconpack.getDroidDPI()
+                valueText: value
+                onReleased: iconpack.apply_adpi(value)
+                onPressAndHold: cancel()
+            }
+
                Label {
                     x: Theme.paddingLarge
                     width: parent.width - 2 * Theme.paddingLarge

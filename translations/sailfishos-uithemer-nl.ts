@@ -111,20 +111,8 @@
         <translation>Instellingen toegepast.</translation>
     </message>
     <message>
-        <source>Updating timer...</source>
-        <translation>Timer wordt bijgewerkt...</translation>
-    </message>
-    <message>
         <source>Icon updater</source>
         <translation>Pictogrambijwerker</translation>
-    </message>
-    <message>
-        <source>Enable Icon updater</source>
-        <translation>Pictogrambijwerker inschakelen</translation>
-    </message>
-    <message>
-        <source>Enabling Icon updater...</source>
-        <translation>Pictogrambijwerker wordt ingeschakeld...</translation>
     </message>
     <message>
         <source>Disable Icon updater</source>
@@ -135,11 +123,11 @@
         <translation>Pictogrambijwerker wordt uitgeschakeld...</translation>
     </message>
     <message>
-        <source>Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. The Icon updater will automate this process, enabling automatic update of icons at a given time.&lt;br&gt;&lt;br&gt;You can set the hour of your choice in the form below. Type it in the format hh:mm eg &lt;i&gt;18:20&lt;/i&gt; and press enter.</source>
+        <source>Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. The Icon updater will automate this process, enabling automatic update of icons at a given time.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Hour</source>
+        <source>Set Icon updater</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -195,10 +183,6 @@
     <message>
         <source>Android DPI value</source>
         <translation>Android-DPI-waarde</translation>
-    </message>
-    <message>
-        <source>Applying Android DPI...</source>
-        <translation>Android-DPI wordt toegepast...</translation>
     </message>
     <message>
         <source>Change the Android DPI value. To a smaller value corresponds an higher density.&lt;br&gt;&lt;br&gt;Remember to restart the Android support or the homescreen right after.</source>

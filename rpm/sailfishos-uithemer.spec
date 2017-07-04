@@ -13,8 +13,8 @@ Name:       sailfishos-uithemer
 %{!?qtc_make:%define qtc_make make}
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:        UI Themer
-Version:        0.6.1
-Release:        14
+Version:        0.6.2
+Release:        1
 Group:          Qt/Qt
 License:        GPLv3
 Packager:       fravaccaro <fravaccaro@jollacommunity.it>
@@ -86,6 +86,10 @@ desktop-file-install --delete-original       \
 # << files
 
 %changelog
+* Tue Jul 4 2017 0.6.2
+- Display density page polished.
+- Icon updater page polished.
+
 * Sat Jul 1 2017 0.6.1
 - Added auto-update icons option.
 

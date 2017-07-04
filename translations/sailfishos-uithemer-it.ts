@@ -137,43 +137,27 @@
         <translation>Impostazioni applicate.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AutoUpdPage.qml" line="61"/>
+        <location filename="../qml/pages/AutoUpdPage.qml" line="43"/>
         <source>Icon updater</source>
         <translation>Icon updater</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AutoUpdPage.qml" line="68"/>
-        <source>Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. The Icon updater will automate this process, enabling automatic update of icons at a given time.&lt;br&gt;&lt;br&gt;You can set the hour of your choice in the form below. Type it in the format hh:mm eg &lt;i&gt;18:20&lt;/i&gt; and press enter.</source>
-        <translation>Ogni volta che un&apos;app viene aggiornata, devi applicare di nuovo il tema per ripristinare l&apos;icona personalizzata. Icon updater automatizzerà questo processo, consentendo l&apos;aggiornamento automatico delle icone in un dato momento.&lt;br&gt;&lt;br&gt;Puoi impostare l&apos;ora che preferisci nel campo sottostante. Digitala nel formato hh:mm, ad esempio &lt;i&gt;18:20&lt;/i&gt; e premi invio.</translation>
+        <location filename="../qml/pages/AutoUpdPage.qml" line="50"/>
+        <source>Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. The Icon updater will automate this process, enabling automatic update of icons at a given time.</source>
+        <translation>Ogni volta che un&apos;app viene aggiornata, devi applicare di nuovo il tema per ripristinare l&apos;icona personalizzata. Icon updater automatizzerà questo processo, consentendo l&apos;aggiornamento automatico delle icone in un dato momento.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AutoUpdPage.qml" line="76"/>
-        <location filename="../qml/pages/AutoUpdPage.qml" line="78"/>
-        <source>Hour</source>
-        <translation>Ora</translation>
+        <location filename="../qml/pages/AutoUpdPage.qml" line="58"/>
+        <source>Set Icon updater</source>
+        <translation>Imposta Icon updater</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AutoUpdPage.qml" line="83"/>
-        <source>Updating timer...</source>
-        <translation>Aggiornamento timer...</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/AutoUpdPage.qml" line="89"/>
-        <source>Enable Icon updater</source>
-        <translation>Attiva Icon updater</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/AutoUpdPage.qml" line="90"/>
-        <source>Enabling Icon updater...</source>
-        <translation>Attivazione Icon updater...</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/AutoUpdPage.qml" line="95"/>
+        <location filename="../qml/pages/AutoUpdPage.qml" line="73"/>
         <source>Disable Icon updater</source>
         <translation>Disattiva Icon updater</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AutoUpdPage.qml" line="96"/>
+        <location filename="../qml/pages/AutoUpdPage.qml" line="74"/>
         <source>Disabling Icon updater...</source>
         <translation>Disattivazione Icon updater...</translation>
     </message>
@@ -220,17 +204,17 @@
 <context>
     <name>DdensityPage</name>
     <message>
-        <location filename="../qml/pages/DdensityPage.qml" line="56"/>
+        <location filename="../qml/pages/DdensityPage.qml" line="47"/>
         <source>Restore Android DPI</source>
         <translation>Ripristina DPI Android</translation>
     </message>
     <message>
-        <location filename="../qml/pages/DdensityPage.qml" line="60"/>
+        <location filename="../qml/pages/DdensityPage.qml" line="51"/>
         <source>Restore device pixel ratio</source>
         <translation>Ripristina device pixel ratio</translation>
     </message>
     <message>
-        <location filename="../qml/pages/DdensityPage.qml" line="57"/>
+        <location filename="../qml/pages/DdensityPage.qml" line="48"/>
         <source>Restoring Android DPI</source>
         <translation>Ripristino DPI Android</translation>
     </message>
@@ -240,39 +224,33 @@
         <translation>Impostazioni applicate.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/DdensityPage.qml" line="61"/>
+        <location filename="../qml/pages/DdensityPage.qml" line="52"/>
         <source>Restoring device pixel ratio</source>
         <translation>Ripristino device pixel ratio</translation>
     </message>
     <message>
-        <location filename="../qml/pages/DdensityPage.qml" line="69"/>
-        <location filename="../qml/pages/DdensityPage.qml" line="73"/>
+        <location filename="../qml/pages/DdensityPage.qml" line="60"/>
+        <location filename="../qml/pages/DdensityPage.qml" line="64"/>
         <source>Device pixel ratio</source>
         <translation>Device pixel ratio</translation>
     </message>
     <message>
-        <location filename="../qml/pages/DdensityPage.qml" line="88"/>
+        <location filename="../qml/pages/DdensityPage.qml" line="79"/>
         <source>Change the display pixel ratio. To a smaller value corresponds an higher density.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
         <translation>Cambia il display pixel ratio. A un valore minore corrisponde una maggiore densità.&lt;br&gt;&lt;br&gt;Ricorda di riavviare la homescreen subito dopo.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/DdensityPage.qml" line="93"/>
+        <location filename="../qml/pages/DdensityPage.qml" line="84"/>
         <source>Android DPI</source>
         <translation>DPI Android</translation>
     </message>
     <message>
-        <location filename="../qml/pages/DdensityPage.qml" line="97"/>
-        <location filename="../qml/pages/DdensityPage.qml" line="99"/>
+        <location filename="../qml/pages/DdensityPage.qml" line="88"/>
         <source>Android DPI value</source>
         <translation>Valore DPI Android</translation>
     </message>
     <message>
-        <location filename="../qml/pages/DdensityPage.qml" line="105"/>
-        <source>Applying Android DPI...</source>
-        <translation>Impostazione DPI Android...</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/DdensityPage.qml" line="112"/>
+        <location filename="../qml/pages/DdensityPage.qml" line="103"/>
         <source>Change the Android DPI value. To a smaller value corresponds an higher density.&lt;br&gt;&lt;br&gt;Remember to restart the Android support or the homescreen right after.</source>
         <translation>Cambia il DPI Android. A un valore minore corrisponde una maggiore densità.&lt;br&gt;&lt;br&gt;Ricorda di riavviare il supporto Android o la homescreen subito dopo.</translation>
     </message>
