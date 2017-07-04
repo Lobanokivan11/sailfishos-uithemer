@@ -89,6 +89,7 @@ desktop-file-install --delete-original       \
 * Tue Jul 4 2017 0.6.2
 - Display density page polished.
 - Icon updater page polished.
+- Translations updated.
 
 * Sat Jul 1 2017 0.6.1
 - Added auto-update icons option.
