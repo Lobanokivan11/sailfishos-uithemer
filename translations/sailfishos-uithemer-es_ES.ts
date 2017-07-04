@@ -84,24 +84,8 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Italian</source>
-        <translation>Italiano</translation>
-    </message>
-    <message>
-        <source>Polish</source>
-        <translation>Polaco</translation>
-    </message>
-    <message>
         <source>Released under the GNU GPLv3 license.</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Dutch</source>
-        <translation>Holandés</translation>
-    </message>
-    <message>
-        <source>German</source>
-        <translation>Alemán</translation>
     </message>
 </context>
 <context>

@@ -84,24 +84,8 @@
         <translation>Lees de documentatie om te weten te komen hoe je een thema kan maken dat compatibel is met UI Themer.</translation>
     </message>
     <message>
-        <source>Italian</source>
-        <translation>Italiaans</translation>
-    </message>
-    <message>
-        <source>Polish</source>
-        <translation>Pools</translation>
-    </message>
-    <message>
         <source>Released under the GNU GPLv3 license.</source>
         <translation>Gelicentieerd onder de GNU GPLv3.</translation>
-    </message>
-    <message>
-        <source>Dutch</source>
-        <translation>Nederlands</translation>
-    </message>
-    <message>
-        <source>German</source>
-        <translation>Duits</translation>
     </message>
 </context>
 <context>
@@ -124,11 +108,11 @@
     </message>
     <message>
         <source>Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. The Icon updater will automate this process, enabling automatic update of icons at a given time.</source>
-        <translation type="unfinished"></translation>
+        <translation>Telkens een app wordt bijgewerkt moet je het thema opnieuw toepassen om het aangepaste pictogram terug te krijgen. De pictogrambijwerker automatiseert dit proces en laat je toe je pictogrammen op een gegeven tijdstip automatisch bij te werken.</translation>
     </message>
     <message>
         <source>Set Icon updater</source>
-        <translation type="unfinished"></translation>
+        <translation>Pictogrambijwerker instellen</translation>
     </message>
 </context>
 <context>

@@ -84,24 +84,8 @@
         <translation>Wenn du ein eigenes Theme erstellen möchtest, das mit UI Themer kompitabel ist, lies bitte die Documentation. </translation>
     </message>
     <message>
-        <source>Italian</source>
-        <translation>Italienisch</translation>
-    </message>
-    <message>
-        <source>Polish</source>
-        <translation>Polnisch</translation>
-    </message>
-    <message>
         <source>Released under the GNU GPLv3 license.</source>
         <translation>Unter der GNU GPLv3 Lizenz veröffentlicht.</translation>
-    </message>
-    <message>
-        <source>Dutch</source>
-        <translation>Niederländisch</translation>
-    </message>
-    <message>
-        <source>German</source>
-        <translation>Deutsch</translation>
     </message>
 </context>
 <context>

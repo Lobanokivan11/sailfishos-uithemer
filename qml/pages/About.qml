@@ -163,7 +163,7 @@ Page {
                   x: Theme.paddingLarge
                   width: parent.width - Theme.paddingLarge * 2
                   wrapMode: Text.Wrap
-                  text: qsTr("Dutch")+": Nathan Follens\n"+qsTr("German")+": Sailfishman\n"+qsTr("Italian")+": Francesco Vaccaro\n"+qsTr("Polish")+": Tomasz Amborski"
+                  text: "Deutsch: Sailfishman\n"+"Español: mad_soft\n"+"Italiano: Francesco Vaccaro\n"+"Nederlands: Nathan Follens\n"+"Polski: Tomasz Amborski"
               }
 
               Placeholder { }
@@ -191,6 +191,6 @@ Page {
               Placeholder { }
 
         }
-		VerticalScrollDecorator {}
+        VerticalScrollDecorator {}
     }
 }

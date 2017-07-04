@@ -8,19 +8,19 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>With UI Themer you can customize icons, fonts and pixel density in Sailfish OS. Remember to unapply themes before system updates.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Page on OpenRepos</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Support</source>
+        <source>Released under the GNU GPLv3 license.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Donate</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Credits</source>
+        <source>Sources on GitHub</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -28,7 +28,15 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>If anything goes wrong or you want to manage all the options via terminal, you can recall the CLI tool by typing &lt;b&gt;themepacksupport&lt;/b&gt; as root.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Developers</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>If you want to create a theme compatible with UI Themer, please read the documentation.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -48,7 +56,27 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>Support</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>If you like my work and want to buy me a beer, feel free to do it!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Donate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Credits</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Part of this app is based on the &lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon pack support GUI&lt;/a&gt; by RikudouSennin.&lt;br&gt;App icon design by &lt;a href=&apos;http://www.freepik.com/free-photo/blue-paint-roller_959191.htm&apos;&gt;Freepik&lt;/a&gt;.&lt;br&gt;Thanks to Dax89 and all the testers for help and patience.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Translations</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -57,50 +85,6 @@
     </message>
     <message>
         <source>Transifex</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Translations</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>If anything goes wrong or you want to manage all the options via terminal, you can recall the CLI tool by typing &lt;b&gt;themepacksupport&lt;/b&gt; as root.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>If you like my work and want to buy me a beer, feel free to do it!</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Sources on GitHub</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>With UI Themer you can customize icons, fonts and pixel density in Sailfish OS. Remember to unapply themes before system updates.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>If you want to create a theme compatible with UI Themer, please read the documentation.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Italian</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Polish</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Released under the GNU GPLv3 license.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Dutch</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>German</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

@@ -84,24 +84,8 @@
         <translation>Jeśli chcesz utworzyć kompozycję tematyczną zgodną z UI Themer, proszę zapoznaj się z dokumentacją.</translation>
     </message>
     <message>
-        <source>Italian</source>
-        <translation>Włoski</translation>
-    </message>
-    <message>
-        <source>Polish</source>
-        <translation>Polski</translation>
-    </message>
-    <message>
         <source>Released under the GNU GPLv3 license.</source>
         <translation>Wypuszczono na licencji GNU GPLv3.</translation>
-    </message>
-    <message>
-        <source>Dutch</source>
-        <translation>Niderlandzki</translation>
-    </message>
-    <message>
-        <source>German</source>
-        <translation>Niemiecki</translation>
     </message>
 </context>
 <context>
