@@ -31,7 +31,7 @@ Page {
     RemorsePopup {
         id: remorsedisable;
         onTriggered: {
-            iconpack.disable_service()
+            iconpack.disable_service();
             notification.publish();
         }
    }
@@ -62,7 +62,8 @@ Page {
                     hourMode: DateTime.TwentyFourHours
                 })
                 dialog.accepted.connect(function() {
-                    iconpack.apply_hours(dialog.timeText)
+                    iconpack.apply_hours(dialog.timeText);
+                    notification.publish();
                 })
             }
         }
