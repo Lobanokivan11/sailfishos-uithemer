@@ -27,8 +27,6 @@ Page {
                 }
             }
 
-            Placeholder { }
-
             Label {
                 anchors.horizontalCenter: parent.horizontalCenter
                 color: Theme.highlightColor
