@@ -80,8 +80,8 @@ Dialog {
 
                 Placeholder { }
 
-                PageHeader {
-                    title: qsTr("Font weight")
+                SectionHeader {
+                    text: qsTr("Font weight")
                 }
 
                 ListModel { // weight model, sailfish

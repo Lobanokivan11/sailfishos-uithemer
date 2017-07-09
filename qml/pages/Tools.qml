@@ -54,8 +54,8 @@ Page {
 
             Placeholder { }
 
-            PageHeader {
-                title: qsTr("Icons")
+            SectionHeader {
+                text: qsTr("Icons")
             }
             Label {
                 x: Theme.paddingLarge
@@ -78,8 +78,8 @@ Page {
 
             Placeholder { }
 
-                  PageHeader {
-                      title: qsTr("Fonts")
+                  SectionHeader {
+                      text: qsTr("Fonts")
                   }
             Label {
                 x: Theme.paddingLarge

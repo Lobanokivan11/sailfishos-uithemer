@@ -36,6 +36,7 @@ OTHER_FILES += qml/sailfishos-uithemer.qml \
     sailfishos-uithemer.desktop \
     qml/js/*.js \
     qml/components/Button.qml \
+    qml/components/SLabel.qml \
     qml/components/AboutLanguage.qml \
     qml/components/AboutTranslator.qml
 

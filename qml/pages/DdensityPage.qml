@@ -64,7 +64,9 @@ Page {
         id: content
             width: parent.width
             spacing: Theme.paddingLarge
-            PageHeader { title: qsTr("Device pixel ratio") }
+            PageHeader { title: qsTr("Display density") }
+
+            SectionHeader { text: qsTr("Device pixel ratio") }
                     Slider {
                         id: dpr_slider
                         width: parent.width
@@ -88,7 +90,7 @@ Page {
 
                 Placeholder { }
 
-            PageHeader { title: qsTr("Android DPI") }
+            SectionHeader { text: qsTr("Android DPI") }
             Slider {
                 id: adpi_slider
                 width: parent.width

@@ -180,6 +180,10 @@
         <source>Settings applied.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Display density</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>HomePage</name>

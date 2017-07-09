@@ -180,6 +180,10 @@
         <source>Settings applied.</source>
         <translation>Einstellungen angewendet.</translation>
     </message>
+    <message>
+        <source>Display density</source>
+        <translation type="unfinished">Pixeldichte</translation>
+    </message>
 </context>
 <context>
     <name>HomePage</name>

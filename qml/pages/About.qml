@@ -66,7 +66,7 @@ Page {
 
             Placeholder { }
 
-            FLabel {
+            SectionHeader {
                   text: qsTr("CLI tool")
               }
               Label {
@@ -78,7 +78,7 @@ Page {
 
               Placeholder { }
 
-              FLabel {
+              SectionHeader {
                   text: qsTr("Developers")
               }
               Label {
@@ -103,7 +103,7 @@ Page {
 
               Placeholder { }
 
-              FLabel {
+              SectionHeader {
                   text: qsTr("Feedback")
               }
               Label {
@@ -128,8 +128,8 @@ Page {
 
               Placeholder { }
 
-              PageHeader {
-                  title: qsTr("Support")
+              SectionHeader {
+                  text: qsTr("Support")
               }
               Label {
                   x: Theme.paddingLarge
@@ -151,8 +151,8 @@ Page {
 
               Placeholder { }
 
-              PageHeader {
-                  title: qsTr("Credits")
+              SectionHeader {
+                  text: qsTr("Credits")
               }
               Label {
                   x: Theme.paddingLarge
@@ -165,8 +165,8 @@ Page {
 
               Placeholder { }
 
-              PageHeader {
-                  title: qsTr("Translations")
+              SectionHeader {
+                  text: qsTr("Translations")
               }
 
               AboutLanguage {

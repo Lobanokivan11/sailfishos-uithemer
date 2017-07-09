@@ -180,6 +180,10 @@
         <source>Settings applied.</source>
         <translation>Impostazioni applicate.</translation>
     </message>
+    <message>
+        <source>Display density</source>
+        <translation>Densità display</translation>
+    </message>
 </context>
 <context>
     <name>HomePage</name>
