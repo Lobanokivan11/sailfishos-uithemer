@@ -40,10 +40,6 @@
         <translation>Bekannte Probleme auf GitHub</translation>
     </message>
     <message>
-        <source>Part of this app is based on the &lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon pack support GUI&lt;/a&gt; by RikudouSennin.&lt;br&gt;App icon design by &lt;a href=&apos;http://www.freepik.com/free-photo/blue-paint-roller_959191.htm&apos;&gt;Freepik&lt;/a&gt;.&lt;br&gt;Thanks to Dax89 and all the testers for help and patience.</source>
-        <translation>Teile dieser App basieren auf &lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon pack support Gui&lt;/a&gt; von RikudouSennin.&lt;br&gt; App Icon von &lt;a href=&apos;http://www.freepik.com/free-photo/blue-paint-roller_959191.htm&apos;&gt;Freepik&lt;/a&gt;.&lt;br&gt;Danke an Dax89 sowie an alle Tester für ihre Hilfe und Geduld.</translation>
-    </message>
-    <message>
         <source>Request a new language or contribute to existing languages on the Transifex project page.</source>
         <translation>Übersetze diese App oder bessere Fehler aus! Besuche dazu einfach die Transifex Project Seite!</translation>
     </message>
@@ -81,6 +77,10 @@
     </message>
     <message>
         <source>About UI Themer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Part of this app is based on the &lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon pack support GUI&lt;/a&gt; by RikudouSennin.&lt;br&gt;App icon designed by &lt;a href=&apos;http://www.freepik.com/free-photo/blue-paint-roller_959191.htm&apos;&gt;D3Images/Freepik&lt;/a&gt;.&lt;br&gt;Thanks to Dax89 and all the testers for help and patience.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

@@ -40,10 +40,6 @@
         <translation>&apos;Issues&apos; op GitHub</translation>
     </message>
     <message>
-        <source>Part of this app is based on the &lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon pack support GUI&lt;/a&gt; by RikudouSennin.&lt;br&gt;App icon design by &lt;a href=&apos;http://www.freepik.com/free-photo/blue-paint-roller_959191.htm&apos;&gt;Freepik&lt;/a&gt;.&lt;br&gt;Thanks to Dax89 and all the testers for help and patience.</source>
-        <translation>Deze app is deels gebaseerd op &lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon pack support GUI&lt;/a&gt; van RikudouSennin.&lt;br&gt;App-pictogramdesign door &lt;a href=&apos;http://www.freepik.com/free-photo/blue-paint-roller_959191.htm&apos;&gt;Freepik&lt;/a&gt;.&lt;br&gt;Dank aan Dax89 en alle testers voor hun hulp en geduld.</translation>
-    </message>
-    <message>
         <source>Request a new language or contribute to existing languages on the Transifex project page.</source>
         <translation>Vraag een nieuwe vertaling aan of draag bij aan bestaande vertalingen op Transifex.</translation>
     </message>
@@ -81,6 +77,10 @@
     </message>
     <message>
         <source>About UI Themer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Part of this app is based on the &lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon pack support GUI&lt;/a&gt; by RikudouSennin.&lt;br&gt;App icon designed by &lt;a href=&apos;http://www.freepik.com/free-photo/blue-paint-roller_959191.htm&apos;&gt;D3Images/Freepik&lt;/a&gt;.&lt;br&gt;Thanks to Dax89 and all the testers for help and patience.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

@@ -63,7 +63,12 @@ Page {
         horizontalAlignment: Qt.AlignHCenter
         font.pixelSize: Theme.fontSizeExtraSmall
         font.italic: true
+        color: Theme.secondaryHighlightColor
         anchors {
+            left: parent.left
+            leftMargin: Theme.horizontalPageMargin
+            right: parent.right
+            rightMargin: Theme.horizontalPageMargin
             bottom: mainPage.bottom
             bottomMargin:Theme.paddingMedium
         }

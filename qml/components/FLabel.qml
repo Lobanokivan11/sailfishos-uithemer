@@ -12,7 +12,7 @@ Item {
         width: parent.width - 2 * Theme.paddingLarge
         font.pixelSize: Theme.fontSizeMedium
         font.bold: true
-        color: Theme.secondaryHighlightColor
+        color: Theme.secondaryColor
         
         anchors {
             left: parent.left
