@@ -33,6 +33,12 @@ Page {
          } ]
      }
 
+    onStatusChanged: {
+        if (status === PageStatus.Active && pageStack.depth === 1) {
+            pageStack.pushAttached("HomePage.qml", {});
+        }
+    }
+
     SilicaFlickable {
         anchors.fill: parent
         contentHeight: column.height

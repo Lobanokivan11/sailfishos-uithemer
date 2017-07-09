@@ -4,14 +4,6 @@
 <context>
     <name>About</name>
     <message>
-        <source>About</source>
-        <translation>Info su</translation>
-    </message>
-    <message>
-        <source>Page on OpenRepos</source>
-        <translation>Pagina su OpenRepos</translation>
-    </message>
-    <message>
         <source>Support</source>
         <translation>Supporta</translation>
     </message>
@@ -76,16 +68,20 @@
         <translation>Sorgenti su GitHub</translation>
     </message>
     <message>
-        <source>With UI Themer you can customize icons, fonts and pixel density in Sailfish OS. Remember to unapply themes before system updates.</source>
-        <translation>Con UI Themer puoi personalizzare le icone, i font e la densità di pixel in Sailfish OS. Ricorda di ripristinare il tema predefinito prima degli aggiornamenti di sistema.</translation>
-    </message>
-    <message>
         <source>If you want to create a theme compatible with UI Themer, please read the documentation.</source>
         <translation>Se vuoi creare un tema compatibile con UI Themer, leggi la documentazione.</translation>
     </message>
     <message>
         <source>Released under the GNU GPLv3 license.</source>
         <translation>Rilasciato sotto licenza GNU GPLv3.</translation>
+    </message>
+    <message>
+        <source>UI Themer lets you customize icons, fonts and pixel density in Sailfish OS.</source>
+        <translation>UI Themer ti permette di personalizzare le icone, i font e la densità di pixel in Sailfish OS.</translation>
+    </message>
+    <message>
+        <source>About UI Themer</source>
+        <translation>Info su UI Themer</translation>
     </message>
 </context>
 <context>
@@ -196,10 +192,6 @@
         <translation>Densità display</translation>
     </message>
     <message>
-        <source>About</source>
-        <translation>Info su</translation>
-    </message>
-    <message>
         <source>Restart homescreen</source>
         <translation>Riavvia homescreen</translation>
     </message>
@@ -210,6 +202,14 @@
     <message>
         <source>Tools</source>
         <translation>Strumenti</translation>
+    </message>
+    <message>
+        <source>About UI Themer</source>
+        <translation>Info su UI Themer</translation>
+    </message>
+    <message>
+        <source>Remember to unapply themes before system updates.</source>
+        <translation>Ricorda di ripristinare il tema predefinito prima degli aggiornamenti di sistema.</translation>
     </message>
 </context>
 <context>

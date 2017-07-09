@@ -12,6 +12,14 @@ Item {
         width: parent.width - 2 * Theme.paddingLarge
         font.pixelSize: Theme.fontSizeMedium
         font.bold: true
-        color: Theme.highlightColor
+        color: Theme.secondaryHighlightColor
+        
+        anchors {
+            left: parent.left
+            leftMargin: Theme.horizontalPageMargin
+            right: parent.right
+            rightMargin: Theme.horizontalPageMargin
+            verticalCenter: parent.verticalCenter
+        }
     }
 }

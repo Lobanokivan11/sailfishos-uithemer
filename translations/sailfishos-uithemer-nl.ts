@@ -4,14 +4,6 @@
 <context>
     <name>About</name>
     <message>
-        <source>About</source>
-        <translation>Over</translation>
-    </message>
-    <message>
-        <source>Page on OpenRepos</source>
-        <translation>Pagina op OpenRepos</translation>
-    </message>
-    <message>
         <source>Support</source>
         <translation>Hulp</translation>
     </message>
@@ -76,16 +68,20 @@
         <translation>Broncode op GitHub</translation>
     </message>
     <message>
-        <source>With UI Themer you can customize icons, fonts and pixel density in Sailfish OS. Remember to unapply themes before system updates.</source>
-        <translation>Met UI Themer kan je pictogrammen, lettertypen en pixeldichtheid in Sailfish OS aanpassen. Vergeet niet de aanpassingen aan de thema&apos;s ongedaan te maken vooraleer je een update voor het besturingssysteem installeert.</translation>
-    </message>
-    <message>
         <source>If you want to create a theme compatible with UI Themer, please read the documentation.</source>
         <translation>Lees de documentatie om te weten te komen hoe je een thema kan maken dat compatibel is met UI Themer.</translation>
     </message>
     <message>
         <source>Released under the GNU GPLv3 license.</source>
         <translation>Gelicentieerd onder de GNU GPLv3.</translation>
+    </message>
+    <message>
+        <source>UI Themer lets you customize icons, fonts and pixel density in Sailfish OS.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>About UI Themer</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -196,10 +192,6 @@
         <translation>Pixeldichtheid</translation>
     </message>
     <message>
-        <source>About</source>
-        <translation>Over</translation>
-    </message>
-    <message>
         <source>Restart homescreen</source>
         <translation>Startscherm herstarten</translation>
     </message>
@@ -210,6 +202,14 @@
     <message>
         <source>Tools</source>
         <translation>Gereedschap</translation>
+    </message>
+    <message>
+        <source>About UI Themer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remember to unapply themes before system updates.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

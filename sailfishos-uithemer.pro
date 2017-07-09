@@ -14,7 +14,8 @@ other/disable_service.sh \
 other/enable_service.sh \
 other/reinstall_fonts.sh \
 other/reinstall_icons.sh \
-other/coverbg.png
+other/coverbg.png\
+other/appinfo.png
 
 OTHER_SOURCES += $$MY_FILES
 
@@ -34,7 +35,9 @@ OTHER_FILES += qml/sailfishos-uithemer.qml \
     rpm/sailfishos-uithemer.yaml \
     sailfishos-uithemer.desktop \
     qml/js/*.js \
-    qml/components/Button.qml
+    qml/components/Button.qml \
+    qml/components/AboutLanguage.qml \
+    qml/components/AboutTranslator.qml
 
 SAILFISHAPP_ICONS = 86x86
 

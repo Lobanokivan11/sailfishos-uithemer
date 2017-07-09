@@ -13,25 +13,36 @@ Page {
             id: column
             width: parent.width
             PageHeader {
-                title: qsTr("About")
+                title: qsTr("About UI Themer")
             }
+            
+            Item {
+                height: appicon.height + Theme.paddingMedium
+                width: parent.width
+
+                Image {
+                    id: appicon
+                    anchors.horizontalCenter: parent.horizontalCenter
+                    source: "../../appinfo.png"
+                }
+            }
+
+            Placeholder { }
+
+            Label {
+                anchors.horizontalCenter: parent.horizontalCenter
+                color: Theme.highlightColor
+                text: "UI Themer 0.6.3"
+            }
+
+            Placeholder { }
+
             Label {
                 x: Theme.paddingLarge
                 width: parent.width - 2 * Theme.paddingLarge
                 wrapMode: Text.Wrap
                 textFormat: Text.RichText
-                text: qsTr("With UI Themer you can customize icons, fonts and pixel density in Sailfish OS. Remember to unapply themes before system updates.")
-            }
-
-            Placeholder { }
-
-            Button {
-                width: Theme.buttonWidthLarge
-                anchors.horizontalCenter: parent.horizontalCenter
-                text: qsTr("Page on OpenRepos")
-                onClicked: {
-                    Qt.openUrlExternally("https://openrepos.net/content/fravaccaro/ui-themer")
-                }
+                text: qsTr("UI Themer lets you customize icons, fonts and pixel density in Sailfish OS.")
             }
 
             Placeholder { }
@@ -159,14 +170,56 @@ Page {
               PageHeader {
                   title: qsTr("Translations")
               }
-              Label {
-                  x: Theme.paddingLarge
-                  width: parent.width - Theme.paddingLarge * 2
-                  wrapMode: Text.Wrap
-                  text: "Deutsch: Sailfishman\n"+"Español: mad_soft\n"+"Italiano: Francesco Vaccaro\n"+"Nederlands: Nathan Follens\n"+"Polski: Tomasz Amborski"
+
+              AboutLanguage {
+	              text: "Deutsch"
               }
 
-              Placeholder { }
+              AboutTranslator {
+              	text: "Sailfishman"
+              }
+
+              Placeholder {}
+
+              AboutLanguage {
+	              text: "Español"
+              }
+
+              AboutTranslator {
+              	text: "mad_soft"
+              }
+
+              Placeholder {}
+
+              AboutLanguage {
+	              text: "Italiano"
+              }
+
+              AboutTranslator {
+              	text: "Francesco Vaccaro"
+              }
+
+              Placeholder {}
+
+              AboutLanguage {
+	              text: "Nederlands"
+              }
+
+              AboutTranslator {
+              	text: "Nathan Follens"
+              }
+
+              Placeholder {}
+
+              AboutLanguage {
+	              text: "Polski"
+              }
+
+              AboutTranslator {
+	              text: "Tomasz Amborski"
+              }
+
+              Placeholder {}
 
               Label {
                   x: Theme.paddingLarge

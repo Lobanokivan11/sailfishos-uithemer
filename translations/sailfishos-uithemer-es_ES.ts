@@ -4,14 +4,6 @@
 <context>
     <name>About</name>
     <message>
-        <source>About</source>
-        <translation>Acerca de</translation>
-    </message>
-    <message>
-        <source>Page on OpenRepos</source>
-        <translation>Página en OpenRepos</translation>
-    </message>
-    <message>
         <source>Support</source>
         <translation>Soporte</translation>
     </message>
@@ -76,15 +68,19 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>With UI Themer you can customize icons, fonts and pixel density in Sailfish OS. Remember to unapply themes before system updates.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>If you want to create a theme compatible with UI Themer, please read the documentation.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Released under the GNU GPLv3 license.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>UI Themer lets you customize icons, fonts and pixel density in Sailfish OS.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>About UI Themer</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -196,10 +192,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>About</source>
-        <translation>Acerca de</translation>
-    </message>
-    <message>
         <source>Restart homescreen</source>
         <translation>Reiniciar pantalla de inicio</translation>
     </message>
@@ -210,6 +202,14 @@
     <message>
         <source>Tools</source>
         <translation>Herramientas</translation>
+    </message>
+    <message>
+        <source>About UI Themer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remember to unapply themes before system updates.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

@@ -27,7 +27,7 @@ Page {
         RemorsePopup { id: remorsehs; onTriggered: iconpack.restart_homescreen() }
         PullDownMenu {
             MenuItem {
-                text: qsTr("About")
+                text: qsTr("About UI Themer")
                 onClicked: {
                    pageStack.push("About.qml");
                }
@@ -50,8 +50,23 @@ Page {
                 anchors.verticalCenter: parent.verticalCenter
                 x: Theme.horizontalPageMargin
             }
-            onClicked: pageStack.push(Qt.resolvedUrl(page))
+            onClicked: pageStack.replaceAbove(null,Qt.resolvedUrl(page))
         }
+
         VerticalScrollDecorator {}
+    }
+
+    Label {
+        id: disclaimer
+        width: parent.width
+        wrapMode: Text.Wrap
+        horizontalAlignment: Qt.AlignHCenter
+        font.pixelSize: Theme.fontSizeExtraSmall
+        font.italic: true
+        anchors {
+            bottom: mainPage.bottom
+            bottomMargin:Theme.paddingMedium
+        }
+        text: qsTr("Remember to unapply themes before system updates.")
     }
 }

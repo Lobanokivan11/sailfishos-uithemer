@@ -4,18 +4,6 @@
 <context>
     <name>About</name>
     <message>
-        <source>About</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>With UI Themer you can customize icons, fonts and pixel density in Sailfish OS. Remember to unapply themes before system updates.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Page on OpenRepos</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Released under the GNU GPLv3 license.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -85,6 +73,14 @@
     </message>
     <message>
         <source>Transifex</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>UI Themer lets you customize icons, fonts and pixel density in Sailfish OS.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>About UI Themer</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -196,10 +192,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>About</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Restart homescreen</source>
         <translation type="unfinished"></translation>
     </message>
@@ -209,6 +201,14 @@
     </message>
     <message>
         <source>Tools</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>About UI Themer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remember to unapply themes before system updates.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

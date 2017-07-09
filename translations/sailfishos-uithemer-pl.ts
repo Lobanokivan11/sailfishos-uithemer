@@ -4,14 +4,6 @@
 <context>
     <name>About</name>
     <message>
-        <source>About</source>
-        <translation>O</translation>
-    </message>
-    <message>
-        <source>Page on OpenRepos</source>
-        <translation>Strona w OpenRepos</translation>
-    </message>
-    <message>
         <source>Support</source>
         <translation>Wsparcie</translation>
     </message>
@@ -76,16 +68,20 @@
         <translation>Źródła w GitHub&apos;ie</translation>
     </message>
     <message>
-        <source>With UI Themer you can customize icons, fonts and pixel density in Sailfish OS. Remember to unapply themes before system updates.</source>
-        <translation>Z oprogramowaniem UI Themer możesz w Sailfish OS dostosować ikony, czcionki i gęstości pikseli. Pamiętaj, aby wycofać zastosowane kompozycje tematyczne przed aktualizacjami systemu. </translation>
-    </message>
-    <message>
         <source>If you want to create a theme compatible with UI Themer, please read the documentation.</source>
         <translation>Jeśli chcesz utworzyć kompozycję tematyczną zgodną z UI Themer, proszę zapoznaj się z dokumentacją.</translation>
     </message>
     <message>
         <source>Released under the GNU GPLv3 license.</source>
         <translation>Wypuszczono na licencji GNU GPLv3.</translation>
+    </message>
+    <message>
+        <source>UI Themer lets you customize icons, fonts and pixel density in Sailfish OS.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>About UI Themer</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -196,10 +192,6 @@
         <translation>Gęstość wyświetlacza</translation>
     </message>
     <message>
-        <source>About</source>
-        <translation>O</translation>
-    </message>
-    <message>
         <source>Restart homescreen</source>
         <translation>Uruchom ponownie ekran główny</translation>
     </message>
@@ -209,6 +201,14 @@
     </message>
     <message>
         <source>Tools</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>About UI Themer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remember to unapply themes before system updates.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
