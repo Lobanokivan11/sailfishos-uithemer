@@ -86,6 +86,9 @@ desktop-file-install --delete-original       \
 # << files
 
 %changelog
+* Sun Jul 8 2017 0.6.3
+- Partial UI redesign.
+
 * Tue Jul 4 2017 0.6.2
 - Display density page polished.
 - Icon updater page polished.
