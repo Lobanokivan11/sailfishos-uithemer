@@ -77,11 +77,11 @@
     </message>
     <message>
         <source>Sources</source>
-        <translation>Broncode</translation>
+        <translation>Bronnen</translation>
     </message>
     <message>
         <source>Issues</source>
-        <translation>Issues</translation>
+        <translation>Problemen</translation>
     </message>
 </context>
 <context>
@@ -139,11 +139,11 @@
     </message>
     <message>
         <source>Hide font preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Voorbeeldweergave van lettertypen verbergen</translation>
     </message>
     <message>
         <source>Show font preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Voorbeeldweergave van lettertypen weergeven</translation>
     </message>
 </context>
 <context>
