@@ -36,10 +36,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Issues on GitHub</source>
-        <translation>Errores en GitHub</translation>
-    </message>
-    <message>
         <source>Request a new language or contribute to existing languages on the Transifex project page.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -60,10 +56,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Sources on GitHub</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>If you want to create a theme compatible with UI Themer, please read the documentation.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -81,6 +73,14 @@
     </message>
     <message>
         <source>Part of this app is based on the &lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon pack support GUI&lt;/a&gt; by RikudouSennin.&lt;br&gt;App icon designed by &lt;a href=&apos;http://www.freepik.com/free-photo/blue-paint-roller_959191.htm&apos;&gt;D3Images/Freepik&lt;/a&gt;.&lt;br&gt;Thanks to Dax89 and all the testers for help and patience.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sources</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Issues</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

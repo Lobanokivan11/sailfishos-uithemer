@@ -36,10 +36,6 @@
         <translation>Jeśli chcesz wyrazić opinię lub zgłosić problem, proszę użyj  GitHub&apos;a.</translation>
     </message>
     <message>
-        <source>Issues on GitHub</source>
-        <translation>Problemy w GitHub&apos;ie</translation>
-    </message>
-    <message>
         <source>Request a new language or contribute to existing languages on the Transifex project page.</source>
         <translation>Poproś o nową wersję językową lub wnieś wkład własny do istniejących wersji językowych na stronie projektu w Transifex. </translation>
     </message>
@@ -60,10 +56,6 @@
         <translation>Jeśli podoba Ci się moje praca i chcesz kupić mi piwo, nie krępuj się tego zrobić! </translation>
     </message>
     <message>
-        <source>Sources on GitHub</source>
-        <translation>Źródła w GitHub&apos;ie</translation>
-    </message>
-    <message>
         <source>If you want to create a theme compatible with UI Themer, please read the documentation.</source>
         <translation>Jeśli chcesz utworzyć kompozycję tematyczną zgodną z UI Themer, proszę zapoznaj się z dokumentacją.</translation>
     </message>
@@ -81,6 +73,14 @@
     </message>
     <message>
         <source>Part of this app is based on the &lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon pack support GUI&lt;/a&gt; by RikudouSennin.&lt;br&gt;App icon designed by &lt;a href=&apos;http://www.freepik.com/free-photo/blue-paint-roller_959191.htm&apos;&gt;D3Images/Freepik&lt;/a&gt;.&lt;br&gt;Thanks to Dax89 and all the testers for help and patience.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sources</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Issues</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

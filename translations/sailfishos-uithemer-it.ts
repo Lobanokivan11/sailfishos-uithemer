@@ -17,7 +17,7 @@
     </message>
     <message>
         <source>CLI tool</source>
-        <translation>Tool CLI</translation>
+        <translation>Strumento CLI</translation>
     </message>
     <message>
         <source>Developers</source>
@@ -36,10 +36,6 @@
         <translation>Se vuoi fornire feedback o segnalare un problema, usa GitHub.</translation>
     </message>
     <message>
-        <source>Issues on GitHub</source>
-        <translation>Issues su GitHub</translation>
-    </message>
-    <message>
         <source>Request a new language or contribute to existing languages on the Transifex project page.</source>
         <translation>Richiedi una nuova lingua o contribuisci a quelle esistenti sulla pagina del progetto di Transifex.</translation>
     </message>
@@ -53,15 +49,11 @@
     </message>
     <message>
         <source>If anything goes wrong or you want to manage all the options via terminal, you can recall the CLI tool by typing &lt;b&gt;themepacksupport&lt;/b&gt; as root.</source>
-        <translation>Se qualcosa va storto o vuoi gestire le opzioni via terminale, puoi richiamare il tool a riga di comando digitando &lt;b&gt;themepacksupport&lt;/b&gt; come utente root.</translation>
+        <translation>Se qualcosa va storto o vuoi gestire le opzioni via terminale, puoi richiamare lo strumento a riga di comando digitando &lt;b&gt;themepacksupport&lt;/b&gt; come utente root.</translation>
     </message>
     <message>
         <source>If you like my work and want to buy me a beer, feel free to do it!</source>
         <translation>Se ti piace il mio lavoro, sentiti libero di offrirmi una birra!</translation>
-    </message>
-    <message>
-        <source>Sources on GitHub</source>
-        <translation>Sorgenti su GitHub</translation>
     </message>
     <message>
         <source>If you want to create a theme compatible with UI Themer, please read the documentation.</source>
@@ -82,6 +74,14 @@
     <message>
         <source>Part of this app is based on the &lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon pack support GUI&lt;/a&gt; by RikudouSennin.&lt;br&gt;App icon designed by &lt;a href=&apos;http://www.freepik.com/free-photo/blue-paint-roller_959191.htm&apos;&gt;D3Images/Freepik&lt;/a&gt;.&lt;br&gt;Thanks to Dax89 and all the testers for help and patience.</source>
         <translation>Parte di quest&apos;app è basata su &lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon pack support GUI&lt;/a&gt; di RikudouSennin.&lt;br&gt;Design icona app di &lt;a href=&apos;http://www.freepik.com/free-photo/blue-paint-roller_959191.htm&apos;&gt;D3Images/Freepik&lt;/a&gt;.&lt;br&gt;Grazie a Dax89 e a tutti i tester per l&apos;aiuto e la pazienza.</translation>
+    </message>
+    <message>
+        <source>Sources</source>
+        <translation>Sorgenti</translation>
+    </message>
+    <message>
+        <source>Issues</source>
+        <translation>Issue</translation>
     </message>
 </context>
 <context>

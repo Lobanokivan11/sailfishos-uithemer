@@ -56,9 +56,8 @@ Page {
             Placeholder { }
 
             Button {
-                width: Theme.buttonWidthLarge
                 anchors.horizontalCenter: parent.horizontalCenter
-                text: qsTr("Sources on GitHub")
+                text: qsTr("Sources")
                 onClicked: {
                     Qt.openUrlExternally("https://github.com/fravaccaro/sailfishos-uithemer")
                 }
@@ -93,7 +92,6 @@ Page {
               Placeholder { }
 
               Button {
-                  width: Theme.buttonWidthLarge
                   anchors.horizontalCenter: parent.horizontalCenter
                   text: qsTr("Documentation")
                   onClicked: {
@@ -118,9 +116,8 @@ Page {
               Placeholder { }
 
               Button {
-                  width: Theme.buttonWidthLarge
                   anchors.horizontalCenter: parent.horizontalCenter
-                  text: qsTr("Issues on GitHub")
+                  text: qsTr("Issues")
                   onClicked: {
                       Qt.openUrlExternally("https://github.com/fravaccaro/sailfishos-uithemer/issues")
                   }
@@ -141,7 +138,6 @@ Page {
               Placeholder { }
 
               Button {
-                  width: Theme.buttonWidthLarge
                   anchors.horizontalCenter: parent.horizontalCenter
                   text: qsTr("Donate")
                   onClicked: {
@@ -231,7 +227,6 @@ Page {
               Placeholder { }
 
               Button {
-                  width: Theme.buttonWidthLarge
                   anchors.horizontalCenter: parent.horizontalCenter
                   text: qsTr("Transifex")
                   onClicked: {

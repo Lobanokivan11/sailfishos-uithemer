@@ -68,7 +68,6 @@ Page {
             Placeholder { }
 
             Button {
-                width: Theme.buttonWidthLarge
                 anchors.horizontalCenter: parent.horizontalCenter
                 text: qsTr("Reinstall icons")
                 onClicked: {
@@ -92,7 +91,6 @@ Page {
             Placeholder { }
 
             Button {
-                width: Theme.buttonWidthLarge
                 anchors.horizontalCenter: parent.horizontalCenter
                 text: qsTr("Reinstall fonts")
                 onClicked: {

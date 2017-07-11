@@ -4,24 +4,24 @@
 <context>
     <name>About</name>
     <message>
-        <source>Support</source>
-        <translation>Hulp</translation>
-    </message>
-    <message>
-        <source>Donate</source>
-        <translation>Doneren</translation>
-    </message>
-    <message>
-        <source>Credits</source>
-        <translation>Met dank aan</translation>
+        <source>Released under the GNU GPLv3 license.</source>
+        <translation>Gelicentieerd onder de GNU GPLv3.</translation>
     </message>
     <message>
         <source>CLI tool</source>
         <translation>CLI-programma</translation>
     </message>
     <message>
+        <source>If anything goes wrong or you want to manage all the options via terminal, you can recall the CLI tool by typing &lt;b&gt;themepacksupport&lt;/b&gt; as root.</source>
+        <translation>Als er iets fout gaat of als je alle functies via de terminal wil beheren kan je het CLI-programma oproepen door als root &lt;b&gt;themepacksupport&lt;/b&gt; in te geven.</translation>
+    </message>
+    <message>
         <source>Developers</source>
         <translation>Ontwikkelaars</translation>
+    </message>
+    <message>
+        <source>If you want to create a theme compatible with UI Themer, please read the documentation.</source>
+        <translation>Lees de documentatie om te weten te komen hoe je een thema kan maken dat compatibel is met UI Themer.</translation>
     </message>
     <message>
         <source>Documentation</source>
@@ -36,8 +36,24 @@
         <translation>Gebruik GitHub om terugkoppeling te geven of een probleem te melden.</translation>
     </message>
     <message>
-        <source>Issues on GitHub</source>
-        <translation>&apos;Issues&apos; op GitHub</translation>
+        <source>Support</source>
+        <translation>Hulp</translation>
+    </message>
+    <message>
+        <source>If you like my work and want to buy me a beer, feel free to do it!</source>
+        <translation>Als je fan bent van mijn werk en me wil trakteren op een drankje, ga je gang!</translation>
+    </message>
+    <message>
+        <source>Donate</source>
+        <translation>Doneren</translation>
+    </message>
+    <message>
+        <source>Credits</source>
+        <translation>Met dank aan</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Vertalingen</translation>
     </message>
     <message>
         <source>Request a new language or contribute to existing languages on the Transifex project page.</source>
@@ -48,40 +64,24 @@
         <translation>Transifex</translation>
     </message>
     <message>
-        <source>Translations</source>
-        <translation>Vertalingen</translation>
-    </message>
-    <message>
-        <source>If anything goes wrong or you want to manage all the options via terminal, you can recall the CLI tool by typing &lt;b&gt;themepacksupport&lt;/b&gt; as root.</source>
-        <translation>Als er iets fout gaat of als je alle functies via de terminal wil beheren kan je het CLI-programma oproepen door als root &lt;b&gt;themepacksupport&lt;/b&gt; in te geven.</translation>
-    </message>
-    <message>
-        <source>If you like my work and want to buy me a beer, feel free to do it!</source>
-        <translation>Als je fan bent van mijn werk en me wil trakteren op een drankje, ga je gang!</translation>
-    </message>
-    <message>
-        <source>Sources on GitHub</source>
-        <translation>Broncode op GitHub</translation>
-    </message>
-    <message>
-        <source>If you want to create a theme compatible with UI Themer, please read the documentation.</source>
-        <translation>Lees de documentatie om te weten te komen hoe je een thema kan maken dat compatibel is met UI Themer.</translation>
-    </message>
-    <message>
-        <source>Released under the GNU GPLv3 license.</source>
-        <translation>Gelicentieerd onder de GNU GPLv3.</translation>
-    </message>
-    <message>
         <source>UI Themer lets you customize icons, fonts and pixel density in Sailfish OS.</source>
-        <translation type="unfinished"></translation>
+        <translation>Met UI Themer kan je pictogrammen, lettertypen en pixeldichtheid in Sailfish OS aanpassen.</translation>
     </message>
     <message>
         <source>About UI Themer</source>
-        <translation type="unfinished"></translation>
+        <translation>Over UI Themer</translation>
     </message>
     <message>
         <source>Part of this app is based on the &lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon pack support GUI&lt;/a&gt; by RikudouSennin.&lt;br&gt;App icon designed by &lt;a href=&apos;http://www.freepik.com/free-photo/blue-paint-roller_959191.htm&apos;&gt;D3Images/Freepik&lt;/a&gt;.&lt;br&gt;Thanks to Dax89 and all the testers for help and patience.</source>
-        <translation type="unfinished"></translation>
+        <translation>Deze app is deels gebaseerd op &lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon pack support GUI&lt;/a&gt; van RikudouSennin.&lt;br&gt;App-pictogram ontworpen door &lt;a href=&apos;http://www.freepik.com/free-photo/blue-paint-roller_959191.htm&apos;&gt;D3Images/Freepik&lt;/a&gt;.&lt;br&gt;Dank aan Dax89 en alle testers voor hun hulp en geduld.</translation>
+    </message>
+    <message>
+        <source>Sources</source>
+        <translation>Broncode</translation>
+    </message>
+    <message>
+        <source>Issues</source>
+        <translation>Issues</translation>
     </message>
 </context>
 <context>
@@ -182,7 +182,7 @@
     </message>
     <message>
         <source>Display density</source>
-        <translation type="unfinished">Pixeldichtheid</translation>
+        <translation>Pixeldichtheid</translation>
     </message>
 </context>
 <context>
@@ -209,11 +209,11 @@
     </message>
     <message>
         <source>About UI Themer</source>
-        <translation type="unfinished"></translation>
+        <translation>Over UI Themer</translation>
     </message>
     <message>
         <source>Remember to unapply themes before system updates.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vergeet niet de aanpassingen aan de thema&apos;s ongedaan te maken vooraleer je een update voor het besturingssysteem installeert. </translation>
     </message>
 </context>
 <context>
