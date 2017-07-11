@@ -39,7 +39,6 @@ Page {
     Column {
         id: content
             width: parent.width
-            spacing: Theme.paddingLarge
             PageHeader { title: qsTr("Icon updater") }
 
             Label {

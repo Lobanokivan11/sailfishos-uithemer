@@ -117,7 +117,6 @@ Page {
         Column {
             id: column
             width: page.width
-            spacing: Theme.paddingLarge
 
             PageHeader {
                 title: qsTr("Themes")

@@ -137,6 +137,14 @@
         <source>Apply</source>
         <translation>Zastosuj</translation>
     </message>
+    <message>
+        <source>Hide font preview</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show font preview</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>DdensityPage</name>

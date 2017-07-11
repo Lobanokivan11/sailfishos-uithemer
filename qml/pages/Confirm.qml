@@ -80,6 +80,39 @@ Dialog {
 
                 Placeholder { }
 
+                Button {
+                    text: preview.visible?qsTr("Hide font preview"):qsTr("Show font preview")
+                    x: parent.width / 2 - width / 2
+                    onClicked: {
+                        preview.visible = !preview.visible
+                    }
+                }
+
+                FontLoader {
+                    id: previewfont
+                    source: "/usr/share/harbour-themepack-"+iconpack+"/font/"+ip.weights(iconpack)[0];
+                    Component.onCompleted: {
+                        console.log(source);
+                    }
+                }
+
+                Placeholder {
+                    visible: preview.visible
+                }
+
+                Label {
+                    id: preview
+                    visible: false
+                    font.family: previewfont.name
+                    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non convallis lectus, vitae."
+                    horizontalAlignment: Text.AlignHCenter
+                    width: parent.width - Theme.paddingLarge * 2
+                    x: Theme.paddingLarge
+                    wrapMode: Text.WordWrap
+                }
+
+                Placeholder { }
+
                 SectionHeader {
                     text: qsTr("Font weight")
                 }

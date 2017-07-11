@@ -14,7 +14,7 @@ Name:       sailfishos-uithemer
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:        UI Themer
 Version:        0.6.3
-Release:        17
+Release:        18
 Group:          Qt/Qt
 License:        GPLv3
 Packager:       fravaccaro <fravaccaro@jollacommunity.it>
@@ -87,6 +87,7 @@ desktop-file-install --delete-original       \
 
 %changelog
 * Sun Jul 8 2017 0.6.3
+- Font preview.
 - About page redesign.
 - Display density page redesign.
 - Tools page redesign.
