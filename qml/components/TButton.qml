@@ -44,15 +44,21 @@ MouseArea {
             topMargin: (button.height-Theme.itemSizeExtraSmall)/2
             bottomMargin: anchors.topMargin
         }
-        radius: Theme.paddingSmall
         color: _showPress ? Theme.rgba(button.highlightBackgroundColor, Theme.highlightBackgroundOpacity)
-                          : Theme.rgba(button.color, 0.2)
+                          : "transparent"
 
         opacity: button.enabled ? 1.0 : 0.4
 
         Label {
             id: buttonText
-            anchors.centerIn: parent
+            width: parent.width - 2 * Theme.paddingLarge
+            horizontalAlignment: Text.AlignLeft
+            anchors {
+                centerIn: parent
+                left: parent.left
+                right: parent.right
+            }
+
             color: _showPress ? button.highlightColor : button.color
         }
         Component.onCompleted: {

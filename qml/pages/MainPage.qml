@@ -144,12 +144,10 @@ Page {
             Repeater {
                 id: listview
                 model: lmodel
-                Button {
+                TButton {
+                    width: parent.width
                     property string packstring: m_text
-                    width: Theme.buttonWidthLarge
                     anchors.horizontalCenter: parent.horizontalCenter
-                //    width: page.width - 2 * Theme.paddingLarge
-                //    x: Theme.paddingLarge
                     signal rejected(string orig)
                     signal accepted(string type, string text)
                     text: iconpack.getName(m_text)

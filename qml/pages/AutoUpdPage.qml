@@ -49,10 +49,10 @@ Page {
                  text: qsTr("Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. The Icon updater will automate this process, enabling automatic update of icons at a given time.")
              }
 
-            Placeholder { }
+            Placeholder { height: 60 }
 
+            ButtonLayout {
         Button {
-            anchors.horizontalCenter: parent.horizontalCenter
             text: qsTr("Set")
 
             onClicked: {
@@ -67,11 +67,10 @@ Page {
         }
 
         Button {
-            anchors.horizontalCenter: parent.horizontalCenter
             text: qsTr("Disable")
             onClicked: remorsedisable.execute(qsTr("Disabling Icon updater..."))
         }
-
+}
         Placeholder { }
 
     }
