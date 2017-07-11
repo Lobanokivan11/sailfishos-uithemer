@@ -81,7 +81,7 @@
     </message>
     <message>
         <source>Issues</source>
-        <translation>Issue</translation>
+        <translation>Issues</translation>
     </message>
 </context>
 <context>
@@ -95,10 +95,6 @@
         <translation>Icon updater</translation>
     </message>
     <message>
-        <source>Disable Icon updater</source>
-        <translation>Disattiva Icon updater</translation>
-    </message>
-    <message>
         <source>Disabling Icon updater...</source>
         <translation>Disattivazione Icon updater...</translation>
     </message>
@@ -107,8 +103,12 @@
         <translation>Ogni volta che un&apos;app viene aggiornata, devi applicare di nuovo il tema per ripristinare l&apos;icona personalizzata. Icon updater automatizzerà questo processo, consentendo l&apos;aggiornamento automatico delle icone in un dato momento.</translation>
     </message>
     <message>
-        <source>Set Icon updater</source>
-        <translation>Imposta Icon updater</translation>
+        <source>Set</source>
+        <translation>Imposta</translation>
+    </message>
+    <message>
+        <source>Disable</source>
+        <translation>Disattiva</translation>
     </message>
 </context>
 <context>

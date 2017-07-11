@@ -95,10 +95,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Disable Icon updater</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Disabling Icon updater...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -107,7 +103,11 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Set Icon updater</source>
+        <source>Set</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Disable</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

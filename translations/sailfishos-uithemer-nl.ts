@@ -95,10 +95,6 @@
         <translation>Pictogrambijwerker</translation>
     </message>
     <message>
-        <source>Disable Icon updater</source>
-        <translation>Pictogrambijwerker uitschakelen</translation>
-    </message>
-    <message>
         <source>Disabling Icon updater...</source>
         <translation>Pictogrambijwerker wordt uitgeschakeld...</translation>
     </message>
@@ -107,8 +103,12 @@
         <translation>Telkens een app wordt bijgewerkt moet je het thema opnieuw toepassen om het aangepaste pictogram terug te krijgen. De pictogrambijwerker automatiseert dit proces en laat je toe je pictogrammen op een gegeven tijdstip automatisch bij te werken.</translation>
     </message>
     <message>
-        <source>Set Icon updater</source>
-        <translation>Pictogrambijwerker instellen</translation>
+        <source>Set</source>
+        <translation>Instellen</translation>
+    </message>
+    <message>
+        <source>Disable</source>
+        <translation>Uitschakelen</translation>
     </message>
 </context>
 <context>

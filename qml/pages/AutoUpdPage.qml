@@ -53,9 +53,8 @@ Page {
             Placeholder { }
 
         Button {
-            width: Theme.buttonWidthLarge
             anchors.horizontalCenter: parent.horizontalCenter
-            text: qsTr("Set Icon updater")
+            text: qsTr("Set")
 
             onClicked: {
                 var dialog = pageStack.push("Sailfish.Silica.TimePickerDialog", {
@@ -69,9 +68,8 @@ Page {
         }
 
         Button {
-            width: Theme.buttonWidthLarge
             anchors.horizontalCenter: parent.horizontalCenter
-            text: qsTr("Disable Icon updater")
+            text: qsTr("Disable")
             onClicked: remorsedisable.execute(qsTr("Disabling Icon updater..."))
         }
 
