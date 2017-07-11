@@ -72,16 +72,16 @@
         <translation>Info su UI Themer</translation>
     </message>
     <message>
-        <source>Part of this app is based on the &lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon pack support GUI&lt;/a&gt; by RikudouSennin.&lt;br&gt;App icon designed by &lt;a href=&apos;http://www.freepik.com/free-photo/blue-paint-roller_959191.htm&apos;&gt;D3Images/Freepik&lt;/a&gt;.&lt;br&gt;Thanks to Dax89 and all the testers for help and patience.</source>
-        <translation>Parte di quest&apos;app è basata su &lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon pack support GUI&lt;/a&gt; di RikudouSennin.&lt;br&gt;Design icona app di &lt;a href=&apos;http://www.freepik.com/free-photo/blue-paint-roller_959191.htm&apos;&gt;D3Images/Freepik&lt;/a&gt;.&lt;br&gt;Grazie a Dax89 e a tutti i tester per l&apos;aiuto e la pazienza.</translation>
-    </message>
-    <message>
         <source>Sources</source>
         <translation>Sorgenti</translation>
     </message>
     <message>
         <source>Issues</source>
         <translation>Issues</translation>
+    </message>
+    <message>
+        <source>Part of this app is based on the &lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon pack support GUI&lt;/a&gt; by RikudouSennin.&lt;br&gt;&lt;br&gt;App icon designed by &lt;a href=&apos;http://www.freepik.com/free-photo/blue-paint-roller_959191.htm&apos;&gt;D3Images/Freepik&lt;/a&gt;.&lt;br&gt;&lt;br&gt;Thanks to Dax89 and all the testers for help and patience.</source>
+        <translation>Parte di quest&apos;app è basata su &lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon pack support GUI&lt;/a&gt; di RikudouSennin.&lt;br&gt;&lt;br&gt;Design icona app di &lt;a href=&apos;http://www.freepik.com/free-photo/blue-paint-roller_959191.htm&apos;&gt;D3Images/Freepik&lt;/a&gt;.&lt;br&gt;&lt;br&gt;Grazie a Dax89 e a tutti i tester per l&apos;aiuto e la pazienza.</translation>
     </message>
 </context>
 <context>

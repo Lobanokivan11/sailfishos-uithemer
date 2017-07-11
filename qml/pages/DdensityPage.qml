@@ -15,7 +15,7 @@ Page {
          id: notification
          category: "x-nemo.uithemer"
          appName: "UI Themer"
-         appIcon: "/usr/share/icons/hicolor/86x86/apps/sailfishos-uithemer.png"
+         appIcon: "image://theme/icon-s-installed"
          previewSummary: "UI Themer"
          previewBody: qsTr("Settings applied.")
          itemCount: 1

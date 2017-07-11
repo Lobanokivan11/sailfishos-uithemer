@@ -4,24 +4,24 @@
 <context>
     <name>About</name>
     <message>
-        <source>Support</source>
-        <translation>Soporte</translation>
-    </message>
-    <message>
-        <source>Donate</source>
-        <translation>Donar</translation>
-    </message>
-    <message>
-        <source>Credits</source>
-        <translation>Créditos</translation>
+        <source>Released under the GNU GPLv3 license.</source>
+        <translation>Lanzado bajo la licencia GNU GPLv3</translation>
     </message>
     <message>
         <source>CLI tool</source>
-        <translation type="unfinished"></translation>
+        <translation>Herramienta CLI</translation>
+    </message>
+    <message>
+        <source>If anything goes wrong or you want to manage all the options via terminal, you can recall the CLI tool by typing &lt;b&gt;themepacksupport&lt;/b&gt; as root.</source>
+        <translation>Si algo sale mal o quieres controlar todas las opciones a través del terminal, puedes recuperar la herramienta CLI tecleando&lt;b&gt;themepacksupport&lt;/b&gt; como root.</translation>
     </message>
     <message>
         <source>Developers</source>
         <translation>Desarrolladores</translation>
+    </message>
+    <message>
+        <source>If you want to create a theme compatible with UI Themer, please read the documentation.</source>
+        <translation>Si quieres crear un tema compatible con UI Themer, por favor lee la documentación.</translation>
     </message>
     <message>
         <source>Documentation</source>
@@ -33,82 +33,82 @@
     </message>
     <message>
         <source>If you want to provide feedback or report an issue, please use GitHub.</source>
-        <translation type="unfinished"></translation>
+        <translation>Si quieres dar información o reportar un error, por favor usa GitHub.</translation>
     </message>
     <message>
-        <source>Request a new language or contribute to existing languages on the Transifex project page.</source>
-        <translation type="unfinished"></translation>
+        <source>Support</source>
+        <translation>Soporte</translation>
     </message>
     <message>
-        <source>Transifex</source>
-        <translation>Transifex</translation>
+        <source>If you like my work and want to buy me a beer, feel free to do it!</source>
+        <translation>Si te gusta mi trabajo y quieres comprarme una cerveza, ¡siente libre de hacerlo!</translation>
+    </message>
+    <message>
+        <source>Donate</source>
+        <translation>Donar</translation>
+    </message>
+    <message>
+        <source>Credits</source>
+        <translation>Créditos</translation>
     </message>
     <message>
         <source>Translations</source>
         <translation>Traducciones</translation>
     </message>
     <message>
-        <source>If anything goes wrong or you want to manage all the options via terminal, you can recall the CLI tool by typing &lt;b&gt;themepacksupport&lt;/b&gt; as root.</source>
-        <translation type="unfinished"></translation>
+        <source>Request a new language or contribute to existing languages on the Transifex project page.</source>
+        <translation>Solicita un nuevo idioma o contribuye en los existentes en la página del proyecto en Transifex.</translation>
     </message>
     <message>
-        <source>If you like my work and want to buy me a beer, feel free to do it!</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>If you want to create a theme compatible with UI Themer, please read the documentation.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Released under the GNU GPLv3 license.</source>
-        <translation type="unfinished"></translation>
+        <source>Transifex</source>
+        <translation>Transifex</translation>
     </message>
     <message>
         <source>UI Themer lets you customize icons, fonts and pixel density in Sailfish OS.</source>
-        <translation type="unfinished"></translation>
+        <translation>UI Themer permite configurar iconos, fuentes y densidad del pixel en Sailfish OS.</translation>
     </message>
     <message>
         <source>About UI Themer</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Part of this app is based on the &lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon pack support GUI&lt;/a&gt; by RikudouSennin.&lt;br&gt;App icon designed by &lt;a href=&apos;http://www.freepik.com/free-photo/blue-paint-roller_959191.htm&apos;&gt;D3Images/Freepik&lt;/a&gt;.&lt;br&gt;Thanks to Dax89 and all the testers for help and patience.</source>
-        <translation type="unfinished"></translation>
+        <translation>Acerca de UI Themer</translation>
     </message>
     <message>
         <source>Sources</source>
-        <translation type="unfinished"></translation>
+        <translation>Fuentes</translation>
     </message>
     <message>
         <source>Issues</source>
-        <translation type="unfinished"></translation>
+        <translation>Errores</translation>
+    </message>
+    <message>
+        <source>Part of this app is based on the &lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon pack support GUI&lt;/a&gt; by RikudouSennin.&lt;br&gt;&lt;br&gt;App icon designed by &lt;a href=&apos;http://www.freepik.com/free-photo/blue-paint-roller_959191.htm&apos;&gt;D3Images/Freepik&lt;/a&gt;.&lt;br&gt;&lt;br&gt;Thanks to Dax89 and all the testers for help and patience.</source>
+        <translation>Partes de esta app está basada en el &lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon pack support GUI&lt;/a&gt; de RikudouSennin. &lt;br&gt;&lt;br&gt; Icono de la aplicación diseñado por &lt;a href=&apos;http://www.freepik.com/free-photo/blue-paint-roller_959191.htm&apos;&gt; D3Images/Freepik&lt;/a&gt;. &lt;br&gt;&lt;br&gt;Gracias a Dax89 y a todos los probadores por la ayuda y paciencia.</translation>
     </message>
 </context>
 <context>
     <name>AutoUpdPage</name>
     <message>
         <source>Settings applied.</source>
-        <translation type="unfinished"></translation>
+        <translation>Opciones aplicadas</translation>
     </message>
     <message>
         <source>Icon updater</source>
-        <translation type="unfinished"></translation>
+        <translation>Actualizador de iconos</translation>
     </message>
     <message>
         <source>Disabling Icon updater...</source>
-        <translation type="unfinished"></translation>
+        <translation>Deshabilitando actualizador de icono...</translation>
     </message>
     <message>
         <source>Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. The Icon updater will automate this process, enabling automatic update of icons at a given time.</source>
-        <translation type="unfinished"></translation>
+        <translation>Cada vez que se actualiza una aplicación, necesitas volver a aplicar el tema para obtener el icono personalizado de nuevo. El actualizador de iconos automatizará este proceso, permitiendo la actualización automática de los iconos en un momento dado.</translation>
     </message>
     <message>
         <source>Set</source>
-        <translation type="unfinished"></translation>
+        <translation>Establecer</translation>
     </message>
     <message>
         <source>Disable</source>
-        <translation type="unfinished"></translation>
+        <translation>Deshabilitar</translation>
     </message>
 </context>
 <context>
@@ -131,7 +131,7 @@
     </message>
     <message>
         <source>Do you want to apply &lt;b&gt;%1&lt;/b&gt;? The UI may not respond for a while, do NOT close the app.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.&lt;br&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>¿Quieres aplicar &lt;b&gt;%1&lt;/b&gt;? La interfaz de usuario puede no responder durante un tiempo, NO cierre la aplicación. &lt;br&gt;&lt;br&gt;Recuerde que debe reiniciar la pantalla de inicio justo después.&lt;br&gt;</translation>
     </message>
     <message>
         <source>Apply</source>
@@ -139,50 +139,50 @@
     </message>
     <message>
         <source>Hide font preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Ocultar vista previa de la fuente</translation>
     </message>
     <message>
         <source>Show font preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostrar vista previa de la fuente</translation>
     </message>
 </context>
 <context>
     <name>DdensityPage</name>
     <message>
         <source>Restore Android DPI</source>
-        <translation type="unfinished"></translation>
+        <translation>Restaurar Android DPI</translation>
     </message>
     <message>
         <source>Restore device pixel ratio</source>
-        <translation type="unfinished"></translation>
+        <translation>Restaurar la relación de píxel del dispositivo</translation>
     </message>
     <message>
         <source>Device pixel ratio</source>
-        <translation type="unfinished"></translation>
+        <translation>Relación de píxel del dispositivo</translation>
     </message>
     <message>
         <source>Change the display pixel ratio. To a smaller value corresponds an higher density.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
-        <translation type="unfinished"></translation>
+        <translation>Cambie la relación de píxeles de la pantalla. Un valor menor corresponde una densidad más alta. &lt;br&gt; &lt;br&gt;Recuerde reiniciar la pantalla de inicio justo después.</translation>
     </message>
     <message>
         <source>Android DPI</source>
-        <translation type="unfinished"></translation>
+        <translation>Android DPI</translation>
     </message>
     <message>
         <source>Android DPI value</source>
-        <translation type="unfinished"></translation>
+        <translation>Valor Android DPI</translation>
     </message>
     <message>
         <source>Change the Android DPI value. To a smaller value corresponds an higher density.&lt;br&gt;&lt;br&gt;Remember to restart the Android support or the homescreen right after.</source>
-        <translation type="unfinished"></translation>
+        <translation>Cambie el valor Android DPI. Un valor menor corresponde una densidad más alta. &lt;br&gt; &lt;br&gt;Recuerde reiniciar el soporte Android justo después.</translation>
     </message>
     <message>
         <source>Restoring Android DPI</source>
-        <translation type="unfinished"></translation>
+        <translation>Restaurar Android DPI</translation>
     </message>
     <message>
         <source>Restoring device pixel ratio</source>
-        <translation type="unfinished"></translation>
+        <translation>Restaurar la relación de píxel del dispositivo</translation>
     </message>
     <message>
         <source>Settings applied.</source>
@@ -190,7 +190,7 @@
     </message>
     <message>
         <source>Display density</source>
-        <translation type="unfinished"></translation>
+        <translation>Densidad de pantalla</translation>
     </message>
 </context>
 <context>
@@ -201,7 +201,7 @@
     </message>
     <message>
         <source>Display density</source>
-        <translation type="unfinished"></translation>
+        <translation>Densidad de pantalla</translation>
     </message>
     <message>
         <source>Restart homescreen</source>
@@ -217,11 +217,11 @@
     </message>
     <message>
         <source>About UI Themer</source>
-        <translation type="unfinished"></translation>
+        <translation>Acerca de UI Themer</translation>
     </message>
     <message>
         <source>Remember to unapply themes before system updates.</source>
-        <translation type="unfinished"></translation>
+        <translation>Recuerde que debe deshabilitar los temas antes de las actualizaciones del sistema.</translation>
     </message>
 </context>
 <context>
@@ -264,7 +264,7 @@
     </message>
     <message>
         <source>Icon updater</source>
-        <translation type="unfinished"></translation>
+        <translation>Actualizador de iconos</translation>
     </message>
 </context>
 <context>
@@ -283,7 +283,7 @@
     </message>
     <message>
         <source>What do you want to restore? The UI may not respond for a while, do NOT close the app.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.&lt;br&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>¿Que es lo que quieres restaurar? La interfaz de usuario puede no responder durante un tiempo, NO cierre la aplicación. &lt;br&gt;&lt;br&gt;Recuerde que debe reiniciar la pantalla de inicio justo después.&lt;br&gt;</translation>
     </message>
     <message>
         <source>Restore</source>
@@ -330,11 +330,11 @@
     </message>
     <message>
         <source>If any error occurs during themes applying/restoring, you can end up with messed up icons. From here, you can reinstall default Jolla app icons while, for thirdy party apps, you may need to reinstall/update apps to restore the default look.</source>
-        <translation type="unfinished"></translation>
+        <translation>Si se produce algún error durante la aplicación/restauración de los temas, puede terminar con iconos desordenado. Desde aquí, puede reinstalar los iconos predeterminados de Jolla, para aplicaciones de terceros, es posible que deba reinstalar/actualizar las para restaurar el aspecto predeterminado.</translation>
     </message>
     <message>
         <source>Here you can find some recovery tools in case anything goes wrong (eg if you forget to restore the default theme before performing a system update). The UI may not respond for a while, do NOT close the app.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aquí puede encontrar algunas herramientas de recuperación en caso de que algo salga mal (por ejemplo, si se olvida de restaurar el tema predeterminado antes de realizar una actualización del sistema). La interfaz de usuario puede no responder durante un tiempo, NO cierre la aplicación. &lt;br&gt; &lt;br&gt;Recuerde que debe reiniciar la pantalla de inicio justo después.</translation>
     </message>
 </context>
 <context>
