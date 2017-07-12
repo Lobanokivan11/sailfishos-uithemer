@@ -2,6 +2,7 @@ import QtQuick 2.0
 import Sailfish.Silica 1.0
 import org.nemomobile.notifications 1.0
 import QtQuick.LocalStorage 2.0
+import org.nemomobile.configuration 1.0
 import "../js/db.js" as DB
 import "../js/functions.js" as Func
 import "../components"
@@ -15,6 +16,13 @@ Page {
     property int active_id: -1 // index of active item, needed for unassigning active property from previously active icon pack
     property int active_id_fonts: -1
     property var labels
+
+    ConfigurationValue {
+        id: homerefresh
+        key: "/desktop/lipstick/sailfishos-uithemer/homerefresh"
+        defaultValue: false
+    }
+
     Notification {
          id: notification
          category: "x-nemo.uithemer"
@@ -108,8 +116,13 @@ Page {
                             tx.executeSql("UPDATE active_iconpack SET active='none' WHERE type='"+type+"'");
                         }
                     });
-                          notification.publish();
-//                        iconpack.restart_homescreen();
+                    if(homerefresh.value == true) {
+                        iconpack.restart_homescreen();
+                        console.log("homescreen restart");
+                    } else {
+                        console.log("no homescreen restart");
+                    }
+                    notification.publish();
                 }
             }
         }
@@ -246,8 +259,14 @@ Page {
                                 tx.executeSql("UPDATE active_iconpack SET active='"+text+"' WHERE type='"+type+"'");
                             }
                         });
+                        if(homerefresh.value == true) {
+                            iconpack.restart_homescreen();
+                            console.log("homescreen restart");
+                        } else {
+                            console.log("no homescreen restart");
+                        }
                         notification.publish();
-//                            iconpack.restart_homescreen();
+
                     }
                 }
             }

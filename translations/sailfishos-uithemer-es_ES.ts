@@ -145,6 +145,10 @@
         <source>Show font preview</source>
         <translation>Mostrar vista previa de la fuente</translation>
     </message>
+    <message>
+        <source>Restart homescreen</source>
+        <translation>Reiniciar pantalla de inicio</translation>
+    </message>
 </context>
 <context>
     <name>DdensityPage</name>
@@ -288,6 +292,10 @@
     <message>
         <source>Restore</source>
         <translation>Restaurar</translation>
+    </message>
+    <message>
+        <source>Restart homescreen</source>
+        <translation>Reiniciar pantalla de inicio</translation>
     </message>
 </context>
 <context>

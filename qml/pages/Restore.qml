@@ -1,6 +1,7 @@
 import QtQuick 2.0
 import Sailfish.Silica 1.0
 import QtQuick.LocalStorage 2.0
+import org.nemomobile.configuration 1.0
 import "../js/db.js" as DB
 import "../js/functions.js" as Func
 import "../components"
@@ -16,6 +17,19 @@ Dialog {
 
     property bool icons: false
     property bool fonts: false
+
+    ConfigurationGroup {
+        id: dconfsettings
+        path: "/desktop/lipstick/sailfishos-uithemer"
+        property bool homerefresh
+    }
+
+    ConfigurationValue {
+        id: homerefresh_enabled
+        key: "/desktop/lipstick/sailfishos-uithemer/homerefresh"
+        defaultValue: false
+    }
+
     SilicaFlickable {
         id: flickable
         anchors.fill: parent
@@ -36,6 +50,20 @@ Dialog {
                 textFormat: Text.RichText
                 wrapMode: Text.Wrap
             }
+            TextSwitch {
+                id: homescreenrefresh
+                automaticCheck: true
+                text: qsTr("Restart homescreen")
+                checked: homerefresh_enabled.value
+                onCheckedChanged: {
+                    if(checked)
+                        dconfsettings.homerefresh = true
+                    else
+                        dconfsettings.homerefresh = false
+                }
+            }
+
+            Placeholder { }
 
             IconTextSwitch {
                 id: restore_icons

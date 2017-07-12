@@ -145,6 +145,10 @@
         <source>Show font preview</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Restart homescreen</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>DdensityPage</name>
@@ -287,6 +291,10 @@
     </message>
     <message>
         <source>Restore</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Restart homescreen</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

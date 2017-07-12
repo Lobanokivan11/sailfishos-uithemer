@@ -7,10 +7,16 @@ import "../components"
 Page {
     id: page
     ConfigurationGroup {
-    id: silica
-    path: "/desktop/sailfish/silica"
-    property real theme_pixel_ratio
+        id: silica
+        path: "/desktop/sailfish/silica"
+        property real theme_pixel_ratio
     }
+
+    ConfigurationValue {
+        id: themepixelratiovalue
+        key: "/desktop/sailfish/silica/theme_pixel_ratio"
+    }
+
     Notification {
          id: notification
          category: "x-nemo.uithemer"
@@ -42,10 +48,14 @@ Page {
     RemorsePopup { id: remorsedpr; onTriggered: {
             iconpack.restore_dpr();
             notification.publish();
+            dpr_slider.value = themepixelratiovalue.value
+            dpr_slider.valueText = dpr_slider.value
         }
     }
     RemorsePopup { id: remorseradpi; onTriggered: {
             iconpack.restore_adpi()
+            adpi_slider.value = iconpack.getDroidDPI()
+            adpi_slider.valueText = adpi_slider.value
             notification.publish();
         }
     }

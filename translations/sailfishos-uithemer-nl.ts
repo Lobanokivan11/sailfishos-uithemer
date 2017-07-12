@@ -145,6 +145,10 @@
         <source>Show font preview</source>
         <translation>Voorbeeldweergave van lettertypen weergeven</translation>
     </message>
+    <message>
+        <source>Restart homescreen</source>
+        <translation>Startscherm herstarten</translation>
+    </message>
 </context>
 <context>
     <name>DdensityPage</name>
@@ -288,6 +292,10 @@
     <message>
         <source>Restore</source>
         <translation>Herstellen</translation>
+    </message>
+    <message>
+        <source>Restart homescreen</source>
+        <translation>Startscherm herstarten</translation>
     </message>
 </context>
 <context>

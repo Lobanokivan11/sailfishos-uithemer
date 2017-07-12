@@ -145,6 +145,10 @@
         <source>Show font preview</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Restart homescreen</source>
+        <translation type="unfinished">Starte den Startbildschirm neu</translation>
+    </message>
 </context>
 <context>
     <name>DdensityPage</name>
@@ -288,6 +292,10 @@
     <message>
         <source>Restore</source>
         <translation>Zurücksetzen</translation>
+    </message>
+    <message>
+        <source>Restart homescreen</source>
+        <translation type="unfinished">Starte den Startbildschirm neu</translation>
     </message>
 </context>
 <context>
