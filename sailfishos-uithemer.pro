@@ -39,6 +39,7 @@ OTHER_FILES += qml/sailfishos-uithemer.qml \
     qml/components/SLabel.qml \
     qml/components/AboutLanguage.qml \
     qml/components/AboutTranslator.qml \
+    qml/common/Settings.qml \
     qml/pages/MainPage.qml \
     qml/pages/Confirm.qml \
     qml/pages/Restore.qml \
@@ -47,7 +48,6 @@ OTHER_FILES += qml/sailfishos-uithemer.qml \
     qml/pages/Uninstall.qml \
     qml/pages/HomePage.qml \
     qml/pages/DdensityPage.qml \
-    qml/components/UITnotifier.qml \
     qml/pages/Tools.qml \
     qml/pages/AutoUpdPage.qml
 

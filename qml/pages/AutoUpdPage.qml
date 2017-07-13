@@ -1,23 +1,10 @@
 import QtQuick 2.0
 import Sailfish.Silica 1.0
 import org.nemomobile.notifications 1.0
-import org.nemomobile.configuration 1.0
 import "../components"
 
 Page {
     id: page
-
-    ConfigurationGroup {
-        id: dconfsettings
-        path: "/desktop/lipstick/sailfishos-uithemer"
-        property bool autoupd
-    }
-
-    ConfigurationValue {
-        id: autoupd_enabled
-        key: "/desktop/lipstick/sailfishos-uithemer/autoupd"
-        defaultValue: false
-    }
 
     Notification {
          id: notification
@@ -45,8 +32,8 @@ Page {
         id: remorsedisable;
         onTriggered: {
             iconpack.disable_service();
-            autoupd_enabled.value = false;
-            disabletimer.enabled = autoupd_enabled.value;
+            settings.autoupd = false;
+            disabletimer.enabled = settings.autoupd;
             notification.publish();
         }
    }
@@ -76,8 +63,8 @@ Page {
                 })
                 dialog.accepted.connect(function() {
                     iconpack.apply_hours(dialog.timeText);
-                    autoupd_enabled.value = true;
-                    disabletimer.enabled = autoupd_enabled.value;
+                    settings.autoupd = true;
+                    disabletimer.enabled = settings.autoupd;
                     notification.publish();
                 })
             }
@@ -86,7 +73,7 @@ Page {
         Button {
             id: disabletimer
             text: qsTr("Disable")
-            enabled: autoupd_enabled.value
+            enabled: settings.autoupd
             onClicked: remorsedisable.execute(qsTr("Disabling Icon updater..."))
         }
 }

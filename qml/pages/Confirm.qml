@@ -1,7 +1,6 @@
 import QtQuick 2.0
 import Sailfish.Silica 1.0
 import QtQuick.LocalStorage 2.0
-import org.nemomobile.configuration 1.0
 import "../js/db.js" as DB
 import "../js/functions.js" as Func
 import "../components"
@@ -18,18 +17,6 @@ Dialog {
     property var fonts: capabilities.fonts
     property bool icons: capabilities.icons
     property string font_active_sailfish
-
-    ConfigurationGroup {
-        id: dconfsettings
-        path: "/desktop/lipstick/sailfishos-uithemer"
-        property bool homerefresh
-    }
-
-    ConfigurationValue {
-        id: homerefresh_enabled
-        key: "/desktop/lipstick/sailfishos-uithemer/homerefresh"
-        defaultValue: false
-    }
 
     // these properties are handed from MainPage, at default state they copy the capabilities, but when changed, they overwrite capabilities
     property bool input_fonts: capabilities.fonts
@@ -56,14 +43,13 @@ Dialog {
             }
             TextSwitch {
                 id: homescreenrefresh
-                automaticCheck: true
                 text: qsTr("Restart homescreen")
-                checked: homerefresh_enabled.value
+                checked: settings.homerefresh
                 onCheckedChanged: {
                     if(checked)
-                        dconfsettings.homerefresh = true
+                        settings.homerefresh = true
                     else
-                        dconfsettings.homerefresh = false
+                        settings.homerefresh = false
                 }
             }
 

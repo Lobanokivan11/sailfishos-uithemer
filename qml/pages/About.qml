@@ -172,6 +172,9 @@ Page {
               AboutTranslator {
               	text: "Sailfishman"
               }
+              AboutTranslator {
+              	text: "mosen"
+              }
 
               Placeholder {}
 
