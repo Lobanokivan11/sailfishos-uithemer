@@ -9,48 +9,60 @@ echo $timer > $main/service/hours
 Description=Timer for updating icon theme via Theme pack support.
 [Timer]
 OnBootSec=0
-OnCalendar=*:0/30
+OnCalendar=*-*-* *:0/30
 Persistent=true
+OnActiveSec=30m
+
 [Install]
 WantedBy=timers.target' > /etc/systemd/system/harbour-themepacksupport.timer ;;
     "1")  echo '[Unit]
 Description=Timer for updating icon theme via Theme pack support.
 [Timer]
 OnBootSec=0
-OnCalendar=1hr
+OnCalendar=hourly
 Persistent=true
+OnActiveSec=1h
+
 [Install]
 WantedBy=timers.target' > /etc/systemd/system/harbour-themepacksupport.timer ;;
     "2")  echo '[Unit]
 Description=Timer for updating icon theme via Theme pack support.
 [Timer]
 OnBootSec=0
-OnCalendar=2hr
+OnCalendar=00:00
 Persistent=true
+OnActiveSec=2h
+
 [Install]
 WantedBy=timers.target' > /etc/systemd/system/harbour-themepacksupport.timer ;;
     "3")  echo '[Unit]
 Description=Timer for updating icon theme via Theme pack support.
 [Timer]
 OnBootSec=0
-OnCalendar=3hr
+OnCalendar=00:00
 Persistent=true
+OnActiveSec=3h
+
 [Install]
 WantedBy=timers.target' > /etc/systemd/system/harbour-themepacksupport.timer ;;
     "6")  echo '[Unit]
 Description=Timer for updating icon theme via Theme pack support.
 [Timer]
 OnBootSec=0
-OnCalendar=6hr
+OnCalendar=00:00
 Persistent=true
+OnActiveSec=6h
+
 [Install]
 WantedBy=timers.target' > /etc/systemd/system/harbour-themepacksupport.timer ;;
     "12")  echo '[Unit]
 Description=Timer for updating icon theme via Theme pack support.
 [Timer]
 OnBootSec=0
-OnCalendar=12hr
+OnCalendar=00:00
 Persistent=true
+OnActiveSec=12h
+
 [Install]
 WantedBy=timers.target' > /etc/systemd/system/harbour-themepacksupport.timer ;;
 
@@ -62,6 +74,8 @@ Description=Timer for updating icon theme via Theme pack support.
 OnBootSec=0
 OnCalendar=*-*-* '$timer'
 Persistent=true
+OnActiveSec=24h
+
 [Install]
 WantedBy=timers.target' > /etc/systemd/system/harbour-themepacksupport.timer ;;
 		esac

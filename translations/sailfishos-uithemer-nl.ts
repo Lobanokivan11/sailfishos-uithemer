@@ -96,39 +96,39 @@
     </message>
     <message>
         <source>Update icons</source>
-        <translation type="unfinished"></translation>
+        <translation>Pictogrammen bijwerken</translation>
     </message>
     <message>
         <source>Disabled</source>
-        <translation type="unfinished"></translation>
+        <translation>Uitgeschakeld</translation>
     </message>
     <message>
         <source>30 minutes</source>
-        <translation type="unfinished"></translation>
+        <translation>30 minuten</translation>
     </message>
     <message>
         <source>1 hour</source>
-        <translation type="unfinished"></translation>
+        <translation>1 uur</translation>
     </message>
     <message>
         <source>2 hours</source>
-        <translation type="unfinished"></translation>
+        <translation>2 uur</translation>
     </message>
     <message>
         <source>3 hours</source>
-        <translation type="unfinished"></translation>
+        <translation>3 uur</translation>
     </message>
     <message>
         <source>6 hours</source>
-        <translation type="unfinished"></translation>
+        <translation>6 uur</translation>
     </message>
     <message>
         <source>12 hours</source>
-        <translation type="unfinished"></translation>
+        <translation>12 uur</translation>
     </message>
     <message>
         <source>Daily</source>
-        <translation type="unfinished"></translation>
+        <translation>Dagelijks</translation>
     </message>
 </context>
 <context>
