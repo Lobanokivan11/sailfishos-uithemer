@@ -1,42 +1,14 @@
 import QtQuick 2.0
 import Sailfish.Silica 1.0
-import org.nemomobile.notifications 1.0
 import "../components"
 
 Page {
     id: page
 
-    Notification {
-         id: notification
-         category: "x-nemo.uithemer"
-         appName: "UI Themer"
-         appIcon: "image://theme/icon-s-installed"
-         previewSummary: "UI Themer"
-         previewBody: qsTr("Settings applied.")
-         itemCount: 1
-         expireTimeout: 5000
-         remoteActions: [ {
-             "name": "default",
-             "service": "org.nemomobile.uithemer",
-             "path": "/done",
-             "iface": "org.nemomobile.uithemer",
-             "method": "themeApplied"
-         } ]
-     }
     SilicaFlickable {
     anchors.fill: parent
     VerticalScrollDecorator { }
     contentHeight: content.height
-
-    RemorsePopup {
-        id: remorsedisable;
-        onTriggered: {
-            iconpack.disable_service();
-            settings.autoupd = false;
-            disabletimer.enabled = settings.autoupd;
-            notification.publish();
-        }
-   }
 
     Column {
         id: content
@@ -53,32 +25,75 @@ Page {
 
             Placeholder { height: 60 }
 
-            ButtonLayout {
-        Button {
-            id: settimer
-            text: qsTr("Set")
-            onClicked: {
-                var dialog = pageStack.push("Sailfish.Silica.TimePickerDialog", {
-                    hourMode: DateTime.TwentyFourHours
-                })
-                dialog.accepted.connect(function() {
-                    iconpack.apply_hours(dialog.timeText);
-                    settings.autoupd = true;
-                    disabletimer.enabled = settings.autoupd;
-                    notification.publish();
-                })
+            ComboBox {
+                width: parent.width
+                label: qsTr("Update icons")
+                currentIndex: settings.autoupd
+                menu: ContextMenu {
+                    MenuItem {
+                        text: qsTr("Disabled")
+                        onClicked: {
+                            settings.autoupd = 0;
+                            iconpack.disable_service();
+                        }
+                    }
+                    MenuItem {
+                        text: qsTr("30 minutes")
+                        onClicked: {
+                            settings.autoupd = 1;
+                            iconpack.apply_hours(30);
+                        }
+                    }
+                    MenuItem {
+                        text: qsTr("1 hour")
+                        onClicked: {
+                            settings.autoupd = 2;
+                            iconpack.apply_hours(1);
+                        }
+                    }
+                    MenuItem {
+                        text: qsTr("2 hours")
+                        onClicked: {
+                            settings.autoupd = 3;
+                            iconpack.apply_hours(2);
+                        }
+                    }
+                    MenuItem {
+                        text: qsTr("3 hours")
+                        onClicked: {
+                            settings.autoupd = 4;
+                            iconpack.apply_hours(3);
+                        }
+                    }
+                    MenuItem {
+                        text: qsTr("6 hours")
+                        onClicked: {
+                            settings.autoupd = 5;
+                            iconpack.apply_hours(6);
+                        }
+                    }
+                    MenuItem {
+                        text: qsTr("12 hours")
+                        onClicked: {
+                            settings.autoupd = 6;
+                            iconpack.apply_hours(12);
+                        }
+                    }
+                    MenuItem {
+                        text: qsTr("Daily")
+                        onClicked: {
+                            var dialog = pageStack.push("Sailfish.Silica.TimePickerDialog", {
+                                                            hourMode: DateTime.TwentyFourHours
+                                                        })
+                            dialog.accepted.connect(function() {
+                                iconpack.apply_hours(dialog.timeText);
+                                settings.autoupd = 7;
+                            })
+                        }
+                    }
+                }
             }
-        }
-
-        Button {
-            id: disabletimer
-            text: qsTr("Disable")
-            enabled: settings.autoupd
-            onClicked: remorsedisable.execute(qsTr("Disabling Icon updater..."))
-        }
-}
-        Placeholder { }
-
+            Placeholder { }
     }
-}
+    }
 }

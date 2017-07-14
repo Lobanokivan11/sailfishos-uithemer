@@ -24,9 +24,10 @@ my_resources.files = $$MY_FILES
 
 INSTALLS += my_resources
 
-CONFIG += sailfishapp
+CONFIG += sailfishapp c++11
 
-SOURCES += src/sailfishos-uithemer.cpp
+SOURCES += src/sailfishos-uithemer.cpp \
+           src/iconpack.cpp
 
 OTHER_FILES += qml/sailfishos-uithemer.qml \
     qml/cover/CoverPage.qml \

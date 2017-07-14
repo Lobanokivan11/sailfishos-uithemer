@@ -87,28 +87,48 @@
 <context>
     <name>AutoUpdPage</name>
     <message>
-        <source>Settings applied.</source>
-        <translation>Instellingen toegepast.</translation>
-    </message>
-    <message>
         <source>Icon updater</source>
         <translation>Pictogrambijwerker</translation>
-    </message>
-    <message>
-        <source>Disabling Icon updater...</source>
-        <translation>Pictogrambijwerker wordt uitgeschakeld...</translation>
     </message>
     <message>
         <source>Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. The Icon updater will automate this process, enabling automatic update of icons at a given time.</source>
         <translation>Telkens een app wordt bijgewerkt moet je het thema opnieuw toepassen om het aangepaste pictogram terug te krijgen. De pictogrambijwerker automatiseert dit proces en laat je toe je pictogrammen op een gegeven tijdstip automatisch bij te werken.</translation>
     </message>
     <message>
-        <source>Set</source>
-        <translation>Instellen</translation>
+        <source>Update icons</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Disable</source>
-        <translation>Uitschakelen</translation>
+        <source>Disabled</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>30 minutes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>1 hour</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>2 hours</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>3 hours</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>6 hours</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>12 hours</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Daily</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

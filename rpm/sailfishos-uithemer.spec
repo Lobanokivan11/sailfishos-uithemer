@@ -14,7 +14,7 @@ Name:       sailfishos-uithemer
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:        UI Themer
 Version:        0.6.5
-Release:        2
+Release:        7
 Group:          Qt/Qt
 License:        GPLv3
 Packager:       fravaccaro <fravaccaro@jollacommunity.it>
@@ -88,6 +88,8 @@ desktop-file-install --delete-original       \
 %changelog
 * Thu Jul 13 2017 0.6.5
 - Fixed restart homescreen toggle.
+- Performance improvements.
+- More Icon updater options.
 
 * Wed Jul 12 2017 0.6.4
 - Dynamic UI elements.

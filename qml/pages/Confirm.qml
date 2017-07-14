@@ -42,7 +42,6 @@ Dialog {
                 wrapMode: Text.Wrap
             }
             TextSwitch {
-                id: homescreenrefresh
                 text: qsTr("Restart homescreen")
                 checked: settings.homerefresh
                 onCheckedChanged: {

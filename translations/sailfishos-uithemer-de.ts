@@ -87,15 +87,7 @@
 <context>
     <name>AutoUpdPage</name>
     <message>
-        <source>Settings applied.</source>
-        <translation type="unfinished">Einstellungen angewendet.</translation>
-    </message>
-    <message>
         <source>Icon updater</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Disabling Icon updater...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -103,11 +95,39 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Set</source>
+        <source>Update icons</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Disable</source>
+        <source>Disabled</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>30 minutes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>1 hour</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>2 hours</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>3 hours</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>6 hours</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>12 hours</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Daily</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

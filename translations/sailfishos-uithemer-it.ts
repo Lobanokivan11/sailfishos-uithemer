@@ -87,28 +87,48 @@
 <context>
     <name>AutoUpdPage</name>
     <message>
-        <source>Settings applied.</source>
-        <translation>Impostazioni applicate.</translation>
-    </message>
-    <message>
         <source>Icon updater</source>
         <translation>Icon updater</translation>
-    </message>
-    <message>
-        <source>Disabling Icon updater...</source>
-        <translation>Disattivazione Icon updater...</translation>
     </message>
     <message>
         <source>Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. The Icon updater will automate this process, enabling automatic update of icons at a given time.</source>
         <translation>Ogni volta che un&apos;app viene aggiornata, devi applicare di nuovo il tema per ripristinare l&apos;icona personalizzata. Icon updater automatizzerà questo processo, consentendo l&apos;aggiornamento automatico delle icone in un dato momento.</translation>
     </message>
     <message>
-        <source>Set</source>
-        <translation>Imposta</translation>
+        <source>Update icons</source>
+        <translation>Aggiorna icone</translation>
     </message>
     <message>
-        <source>Disable</source>
-        <translation>Disattiva</translation>
+        <source>Disabled</source>
+        <translation>Disattivato</translation>
+    </message>
+    <message>
+        <source>30 minutes</source>
+        <translation>30 minuti</translation>
+    </message>
+    <message>
+        <source>1 hour</source>
+        <translation>1 ora</translation>
+    </message>
+    <message>
+        <source>2 hours</source>
+        <translation>2 ore</translation>
+    </message>
+    <message>
+        <source>3 hours</source>
+        <translation>3 ore</translation>
+    </message>
+    <message>
+        <source>6 hours</source>
+        <translation>6 ore</translation>
+    </message>
+    <message>
+        <source>12 hours</source>
+        <translation>12 ore</translation>
+    </message>
+    <message>
+        <source>Daily</source>
+        <translation>Ogni giorno</translation>
     </message>
 </context>
 <context>

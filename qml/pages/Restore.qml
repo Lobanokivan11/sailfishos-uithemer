@@ -18,18 +18,6 @@ Dialog {
     property bool icons: false
     property bool fonts: false
 
-    ConfigurationGroup {
-        id: dconfsettings
-        path: "/desktop/lipstick/sailfishos-uithemer"
-        property bool homerefresh
-    }
-
-    ConfigurationValue {
-        id: homerefresh_enabled
-        key: "/desktop/lipstick/sailfishos-uithemer/homerefresh"
-        defaultValue: false
-    }
-
     SilicaFlickable {
         id: flickable
         anchors.fill: parent
@@ -51,15 +39,13 @@ Dialog {
                 wrapMode: Text.Wrap
             }
             TextSwitch {
-                id: homescreenrefresh
-                automaticCheck: true
                 text: qsTr("Restart homescreen")
-                checked: homerefresh_enabled.value
+                checked: settings.homerefresh
                 onCheckedChanged: {
                     if(checked)
-                        dconfsettings.homerefresh = true
+                        settings.homerefresh = true
                     else
-                        dconfsettings.homerefresh = false
+                        settings.homerefresh = false
                 }
             }
 
