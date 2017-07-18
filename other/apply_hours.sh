@@ -29,7 +29,7 @@ WantedBy=timers.target' > /etc/systemd/system/harbour-themepacksupport.timer ;;
 Description=Timer for updating icon theme via Theme pack support.
 [Timer]
 OnBootSec=0
-OnCalendar=00:00
+OnCalendar=2h
 Persistent=true
 OnActiveSec=2h
 
@@ -39,7 +39,7 @@ WantedBy=timers.target' > /etc/systemd/system/harbour-themepacksupport.timer ;;
 Description=Timer for updating icon theme via Theme pack support.
 [Timer]
 OnBootSec=0
-OnCalendar=00:00
+OnCalendar=3h
 Persistent=true
 OnActiveSec=3h
 
@@ -49,7 +49,7 @@ WantedBy=timers.target' > /etc/systemd/system/harbour-themepacksupport.timer ;;
 Description=Timer for updating icon theme via Theme pack support.
 [Timer]
 OnBootSec=0
-OnCalendar=00:00
+OnCalendar=6h
 Persistent=true
 OnActiveSec=6h
 
@@ -59,7 +59,7 @@ WantedBy=timers.target' > /etc/systemd/system/harbour-themepacksupport.timer ;;
 Description=Timer for updating icon theme via Theme pack support.
 [Timer]
 OnBootSec=0
-OnCalendar=00:00
+OnCalendar=12h
 Persistent=true
 OnActiveSec=12h
 
@@ -72,7 +72,7 @@ WantedBy=timers.target' > /etc/systemd/system/harbour-themepacksupport.timer ;;
 Description=Timer for updating icon theme via Theme pack support.
 [Timer]
 OnBootSec=0
-OnCalendar=*-*-* '$timer'
+OnCalendar='$timer'
 Persistent=true
 OnActiveSec=24h
 

@@ -30,7 +30,7 @@ Page {
             Label {
                 anchors.horizontalCenter: parent.horizontalCenter
                 color: Theme.highlightColor
-                text: "UI Themer 0.6.3"
+                text: "UI Themer 0.6.5"
             }
 
             Placeholder { }
