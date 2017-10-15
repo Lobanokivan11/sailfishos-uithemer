@@ -2,11 +2,13 @@
 #include <QDebug>
 #include <sys/types.h>
 #include <unistd.h>
+#include "spawner.h"
 #include "exec.h"
 #include <QFileInfo>
 #include <QDir>
 
-#define setuid_ex(x) (void)setuid(x)
+#define setuid_ex(x) if(setuid(x)) { }
+#define system_ex(x) if(system(x)) { }
 
 IconPack::IconPack(QObject* parent): QObject(parent)
 {
@@ -24,45 +26,35 @@ QString IconPack::listIconPacks() const
     return QString::fromStdString(exec("cd /usr/share/; ls -d harbour-themepack-* | cut -c19-"));
 }
 
-bool IconPack::apply_icons(const QString& name, bool homescreen) const
+void IconPack::apply_icons(const QString& name, QJSValue done) const
 {
-    std::string c_name = name.toStdString();
-    std::string command = "/usr/share/sailfishos-uithemer/apply.sh "+c_name;
-    system(command.c_str());
-
-    if(homescreen)
-        system("/usr/share/sailfishos-uithemer/homescreen.sh");
-
-    return true;
+    Spawner::execute("/usr/share/sailfishos-uithemer/apply.sh", SPAWN_ARGS(name), done);
 }
 
-bool IconPack::apply_fonts(const QString& name, const QString& font_s) const
+bool IconPack::apply_fonts(const QString& name, const QString& font_s, QJSValue done) const
 {
-    std::string c_name = name.toStdString();
-    std::string c_font_s = font_s.toStdString();
-    std::string command = "/usr/share/sailfishos-uithemer/apply_font.sh "+c_name+" "+c_font_s;
-    system(command.c_str());
+    Spawner::execute("/usr/share/sailfishos-uithemer/apply_font.sh", SPAWN_ARGS(name << font_s), done);
     return true;
 }
 
 bool IconPack::restart_homescreen() const
 {
     setuid_ex(0);
-    system("/usr/share/sailfishos-uithemer/homescreen.sh");
+    system_ex("/usr/share/sailfishos-uithemer/homescreen.sh");
     return true;
 }
 
-bool IconPack::reinstall_icons() const
+bool IconPack::reinstall_icons(QJSValue done) const
 {
      setuid_ex(0);
-     system("/usr/share/sailfishos-uithemer/reinstall_icons.sh");
+     Spawner::execute("/usr/share/sailfishos-uithemer/reinstall_icons.sh", done);
      return true;
 }
 
-bool IconPack::reinstall_fonts() const
+bool IconPack::reinstall_fonts(QJSValue done) const
 {
      setuid_ex(0);
-     system("/usr/share/sailfishos-uithemer/reinstall_fonts.sh");
+     Spawner::execute("/usr/share/sailfishos-uithemer/reinstall_fonts.sh", done);
      return true;
 }
 
@@ -70,21 +62,21 @@ bool IconPack::apply_adpi(const QString& adpi) const
 {
     std::string c_adpi = adpi.toStdString();
     std::string command = "/usr/share/sailfishos-uithemer/apply_adpi.sh "+c_adpi;
-    system(command.c_str());
+    system_ex(command.c_str());
     return true;
 }
 
 bool IconPack::restore_adpi() const
 {
     setuid_ex(0);
-    system("/usr/share/sailfishos-uithemer/restore_adpi.sh");
+    system_ex("/usr/share/sailfishos-uithemer/restore_adpi.sh");
     return true;
 }
 
 bool IconPack::restore_dpr() const
 {
     setuid_ex(0);
-    system("/usr/share/sailfishos-uithemer/restore_dpr.sh");
+    system_ex("/usr/share/sailfishos-uithemer/restore_dpr.sh");
     return true;
 }
 
@@ -98,13 +90,13 @@ QStringList IconPack::weights(const QString& packname) const
     return ret;
 }
 
-bool IconPack::restore(bool icons, bool fonts) const
+bool IconPack::restore(bool icons, bool fonts, QJSValue done) const
 {
     if(icons)
-      system("/usr/share/sailfishos-uithemer/restore.sh");
+      Spawner::execute("/usr/share/sailfishos-uithemer/restore.sh", fonts ? QJSValue() : done);
 
     if(fonts)
-      system("/usr/share/sailfishos-uithemer/restore_fonts.sh");
+      Spawner::execute("/usr/share/sailfishos-uithemer/restore_fonts.sh", done);
         
     return true;
 }
@@ -117,14 +109,14 @@ QString IconPack::getDroidDPI() const
 bool IconPack::enable_service() const
 {
     setuid_ex(0);
-    system("/usr/share/sailfishos-uithemer/enable_service.sh");
+    system_ex("/usr/share/sailfishos-uithemer/enable_service.sh");
     return true;
 }
 
 bool IconPack::disable_service() const
 {
     setuid_ex(0);
-    system("/usr/share/sailfishos-uithemer/disable_service.sh");
+    system_ex("/usr/share/sailfishos-uithemer/disable_service.sh");
     return true;
 }
 
@@ -137,7 +129,7 @@ bool IconPack::apply_hours(const QString& hours) const
 {
     std::string c_hours = hours.toStdString();
     std::string command = "/usr/share/sailfishos-uithemer/apply_hours.sh "+c_hours;
-    system(command.c_str());
+    system_ex(command.c_str());
     return true;
 }
  
@@ -187,8 +179,8 @@ QStringList IconPack::capabilities(const QString& packname) const
 bool IconPack::hideIcon() const
 {
     setuid_ex(0);
-    system("echo \"NoDisplay=true\" >> /usr/share/applications/harbour-iconpacksupport.desktop");
-    system("echo \"NoDisplay=true\" >> /usr/share/applications/harbour-themepacksupport.desktop");
+    system_ex("echo \"NoDisplay=true\" >> /usr/share/applications/harbour-iconpacksupport.desktop");
+    system_ex("echo \"NoDisplay=true\" >> /usr/share/applications/harbour-themepacksupport.desktop");
     return true;
 }
 
@@ -199,12 +191,12 @@ QString IconPack::getName(const QString& packname) const
     return QString::fromStdString(exec(command.c_str())).trimmed();
 }
 
-bool IconPack::uninstall(const QString& packname) const
+bool IconPack::uninstall(const QString& packname, QJSValue done) const
 {
     std::string c_packname = packname.toStdString();
     std::string cmd = "rpm -qf /usr/share/harbour-themepack-"+c_packname+"/ --queryformat '%{NAME}\n'";
     std::string package = exec(cmd.c_str());
-    std::string command = "pkcon remove "+package;
-    system(command.c_str());
+
+    Spawner::execute("pkcon", SPAWN_ARGS("remove" << QString::fromStdString(package)), done);
     return true;
 }

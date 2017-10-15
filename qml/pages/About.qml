@@ -30,7 +30,7 @@ Page {
             Label {
                 anchors.horizontalCenter: parent.horizontalCenter
                 color: Theme.highlightColor
-                text: "UI Themer 0.6.5"
+                text: "UI Themer 0.6.6"
             }
 
             Placeholder { }
@@ -194,6 +194,19 @@ Page {
 
               AboutTranslator {
                 text: "mad_soft"
+              }
+
+              Placeholder {}
+
+              AboutLanguage {
+                  text: "Français"
+              }
+
+              AboutTranslator {
+                text: "Ohaneje Emeka"
+              }
+              AboutTranslator {
+                text: "Cédric Heintz"
               }
 
               Placeholder {}

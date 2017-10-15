@@ -5,10 +5,22 @@ import "../components"
 
 Page {
     id: page
+    backNavigation: !busyindicator.running
+    showNavigationIndicator: !busyindicator.running
+
+    BusyIndicator {
+        id: busyindicator
+        running: false
+        size: BusyIndicatorSize.Large
+        anchors.centerIn: parent
+    }
+
     SilicaFlickable {
         id: flickable
         anchors.fill: parent
         contentHeight: column.height
+        enabled: !busyindicator.running
+        opacity: busyindicator.running ? 0.2 : 1.0
         Notification {
              id: notification
              category: "x-nemo.uithemer"
@@ -28,13 +40,21 @@ Page {
          }
 
     RemorsePopup { id: reicons; onTriggered: {
-            iconpack.reinstall_icons();
-            notification.publish();
+            busyindicator.running = true;
+
+            iconpack.reinstall_icons(function() {
+                busyindicator.running = false;
+                notification.publish();
+            });
         }
     }
     RemorsePopup { id: refonts; onTriggered: {
-            iconpack.reinstall_fonts();
-            notification.publish();
+            busyindicator.running = true;
+
+            iconpack.reinstall_fonts(function() {
+                busyindicator.running = false;
+                notification.publish();
+            });
         }
     }
 

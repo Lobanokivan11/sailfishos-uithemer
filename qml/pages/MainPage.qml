@@ -10,11 +10,20 @@ import "../js/console.js" as Console
 
 Page {
     id: page
+    forwardNavigation: !busyindicator.running
+    showNavigationIndicator: !busyindicator.running
     property string active_iconpack: "none" // holds name of active icon pack
     property string active_fontpack: "none"
     property int active_id: -1 // index of active item, needed for unassigning active property from previously active icon pack
     property int active_id_fonts: -1
     property var labels
+
+    BusyIndicator {
+        id: busyindicator
+        running: false
+        size: BusyIndicatorSize.Large
+        anchors.centerIn: parent
+    }
 
     Notification {
          id: notification
@@ -43,6 +52,8 @@ Page {
     SilicaFlickable {
         anchors.fill: parent
         contentHeight: column.height
+        enabled: !busyindicator.running
+        opacity: busyindicator.running ? 0.2 : 1.0
 
         PullDownMenu {
 
@@ -53,10 +64,18 @@ Page {
                     var dialog = pageStack.push("Uninstall.qml",{icons: active_iconpack, fonts: active_fontpack});
                     dialog.accepted.connect(function() {
                         var removed = dialog.removed;
+
+                        busyindicator.running = true;
+
                         for(var i = 0; i < removed.length; i++) {
                             var packname = listview.itemAt(removed[i]).packstring;
-                            ip.uninstall(packname);
-                            listview.itemAt(removed[i]).visible = false;
+
+                            ip.uninstall(packname, function() {
+                                listview.itemAt(removed[i]).visible = false;
+
+                                if(i == (removed.length - 1))
+                                    busyindicator.running = false;
+                            });
                         }
                     });
                 }
@@ -89,16 +108,24 @@ Page {
                         active_fontpack = "none";
                         active_id = -1; // sets active_id to -1 (which means there's no active icon pack)
                         active_id_fonts = -1;
-                        iconpack.restore(dialog.icons,dialog.fonts);
-                        var type;
-                        if(dialog.fonts && dialog.icons) {
-                            type = "both";
-                        } else if(dialog.icons) {
-                            type = "icons";
-                        } else if(dialog.fonts) {
-                            type = "fonts";
-                        }
-                        accepted(type);
+
+                        busyindicator.running = true;
+
+                        iconpack.restore(dialog.icons,dialog.fonts, function() {
+                            var type = "";
+
+                            if(dialog.fonts && dialog.icons) {
+                                type = "both";
+                            } else if(dialog.icons) {
+                                type = "icons";
+                            } else if(dialog.fonts) {
+                                type = "fonts";
+                            }
+
+                            busyindicator.running = false;
+                            accepted(type);
+                        });
+
                     });
                 }
                 onAccepted: {
@@ -151,6 +178,20 @@ Page {
                 id: listview
                 model: lmodel
                 TButton {
+                    function updateList(dialog) {
+                        var type = "";
+
+                        if(dialog.fonts && dialog.icons)
+                            type = "both";
+                        else if(dialog.icons)
+                            type = "icons";
+                        else if(dialog.fonts)
+                            type = "fonts";
+
+                        console.log("Type: "+type);
+                        accepted(type, m_text);
+                    }
+
                     width: parent.width
                     property string packstring: m_text
                     anchors.horizontalCenter: parent.horizontalCenter
@@ -165,62 +206,45 @@ Page {
                                 iconpack: m_text
                             };
 
-//                            if(active_id == m_index) {
-//                                opts.input_icons = false;
-//                            }
-
-//                            if(active_id_fonts == m_index) {
-//                                opts.input_fonts = false;
-//                            }
-
                             var dialog = pageStack.push("Confirm.qml",opts);
                             dialog.accepted.connect(function() {
-                                if(!dialog.fonts && !dialog.icons) {
+                                if(!dialog.fonts && !dialog.icons)
                                     return false;
-                                }
 
-                                if(active_id > -1) {
+                                if(active_id > -1)
                                     listview.itemAt(active_id).active = false;
-                                }
-                                if(active_id_fonts > -1) {
-                                    listview.itemAt(active_id_fonts).active = false;
-                                }
 
-                                var homescreen = false;
-                                if(dialog.icons || dialog.fonts) {
-                                    active = true;
-                                }
+                                if(active_id_fonts > -1)
+                                    listview.itemAt(active_id_fonts).active = false;
+
+                                busyindicator.running = true;
+                                active = true;
 
                                 if(dialog.icons) {
-
                                     active_iconpack = m_text;
                                     active_id = m_index;
 
-                                    iconpack.apply_icons(m_text, homescreen);
+                                    iconpack.apply_icons(m_text, function() {
+                                        if(dialog.fonts)
+                                            return;
+
+                                        busyindicator.running = false;
+                                        updateList(dialog, m_text);
+                                    });
                                 }
+
                                 if(dialog.fonts) {
                                     active_fontpack = m_text;
                                     active_id_fonts = m_index;
-                                    var font = {};
-                                    font.sailfish = dialog.font_active_sailfish;
 
-                                    Console.log(font);
+                                    var font = { sailfish: dialog.font_active_sailfish };
+                                    console.log(font);
 
-                                    console.log("Fonts applying, "+(homescreen?"restarting homescreen":"not restarting homescreen"));
-
-                                    iconpack.apply_fonts(m_text, font.sailfish);
+                                    iconpack.apply_fonts(m_text, font.sailfish, function() {
+                                        busyindicator.running = false;
+                                        updateList(dialog, m_text);
+                                    });
                                 }
-
-                                var type = "";
-                                if(dialog.fonts && dialog.icons) {
-                                    type = "both";
-                                } else if(dialog.icons) {
-                                    type = "icons";
-                                } else if(dialog.fonts) {
-                                    type = "fonts";
-                                }
-                                console.log("Type: "+type);
-                                accepted(type, m_text);
                             });
                         } else {
                             infotext.text = qsTr("This icon pack is already active.");
@@ -375,7 +399,7 @@ Page {
                 });
             }
         }
-		VerticalScrollDecorator {}
+        VerticalScrollDecorator {}
     }
 }
 

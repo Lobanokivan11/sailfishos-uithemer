@@ -27,7 +27,9 @@ INSTALLS += my_resources
 CONFIG += sailfishapp c++11
 
 SOURCES += src/sailfishos-uithemer.cpp \
-           src/iconpack.cpp
+           src/iconpack.cpp \
+    src/exec.cpp \
+    src/spawner.cpp
 
 OTHER_FILES += qml/sailfishos-uithemer.qml \
     qml/cover/CoverPage.qml \
@@ -60,7 +62,8 @@ TRANSLATIONS +=  translations/*.ts
 
 HEADERS += \
     exec.h \
-    iconpack.h
+    spawner.h \
+    src/iconpack.h
 
 DISTFILES += \
 

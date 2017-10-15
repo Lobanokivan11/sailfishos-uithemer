@@ -29,12 +29,12 @@ class IconPack : public QObject
         bool apply_adpi(const QString& adpi) const;
         bool restore_adpi() const;
         bool restore_dpr() const;                                             // function to test what user runs app
-        bool restore(bool icons, bool fonts) const;                           // calls restore script, which runs original application and restores original icon pack
+        bool restore(bool icons, bool fonts, QJSValue done) const;                           // calls restore script, which runs original application and restores original icon pack
         bool enable_service() const;
         bool disable_service() const;
         bool apply_hours(const QString& hours) const;
         bool hideIcon() const;                                                // hides icon of original app, so user does not have to have two same icons on home screen
-        bool uninstall(const QString& packname) const;
+        bool uninstall(const QString& packname, QJSValue done) const;
 };
 
 #endif // ICONPACK_H
