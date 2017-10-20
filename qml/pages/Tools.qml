@@ -92,7 +92,7 @@ Page {
                 width: parent.width - 2 * Theme.paddingLarge
                 wrapMode: Text.Wrap
                 textFormat: Text.RichText
-                text: qsTr("Refresh the homescreen, to make your modifications effective. Your currently opened apps will be closed.")
+                text: qsTr("Restart the homescreen, to make your modifications effective. Your currently opened apps will be closed.")
             }
 
             Placeholder { }

@@ -416,10 +416,6 @@
         <translation type="unfinished">Starte den Startbildschirm neu</translation>
     </message>
     <message>
-        <source>Refresh the homescreen, to make your modifications effective. Your currently opened apps will be closed.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Restart</source>
         <translation type="unfinished"></translation>
     </message>
@@ -429,6 +425,10 @@
     </message>
     <message>
         <source>Here you can find some recovery tools in case anything goes wrong (eg if you forget to restore the default theme before performing a system update).&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Restart the homescreen, to make your modifications effective. Your currently opened apps will be closed.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

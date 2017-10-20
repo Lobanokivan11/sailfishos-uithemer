@@ -284,39 +284,39 @@
     <name>MainPage</name>
     <message>
         <source>Settings applied.</source>
-        <translation type="unfinished">Impostazioni applicate.</translation>
+        <translation>Impostazioni applicate.</translation>
     </message>
     <message>
         <source>Uninstall theme</source>
-        <translation type="unfinished"></translation>
+        <translation>Disinstalla tema</translation>
     </message>
     <message>
         <source>Restore</source>
-        <translation type="unfinished">Ripristina</translation>
+        <translation>Ripristina</translation>
     </message>
     <message>
         <source>Themes</source>
-        <translation type="unfinished">Temi</translation>
+        <translation>Temi</translation>
     </message>
     <message>
         <source>Loading...</source>
-        <translation type="unfinished"></translation>
+        <translation>Caricamento...</translation>
     </message>
     <message>
         <source>No themes installed</source>
-        <translation type="unfinished"></translation>
+        <translation>Nessun tema installato</translation>
     </message>
     <message>
         <source>This icon pack is already active.</source>
-        <translation type="unfinished"></translation>
+        <translation>Questo pacchetto di icone è già attivo.</translation>
     </message>
     <message>
         <source>icons</source>
-        <translation type="unfinished"></translation>
+        <translation>icone</translation>
     </message>
     <message>
         <source>fonts</source>
-        <translation type="unfinished"></translation>
+        <translation>font</translation>
     </message>
 </context>
 <context>
@@ -416,10 +416,6 @@
         <translation>Riavvia homescreen</translation>
     </message>
     <message>
-        <source>Refresh the homescreen, to make your modifications effective. Your currently opened apps will be closed.</source>
-        <translation>Riavvia la homescreen, per rendere effettive le modifiche. Le app aperte verranno chiuse.</translation>
-    </message>
-    <message>
         <source>Restart</source>
         <translation>Riavvia</translation>
     </message>
@@ -430,6 +426,10 @@
     <message>
         <source>Here you can find some recovery tools in case anything goes wrong (eg if you forget to restore the default theme before performing a system update).&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
         <translation>Qui puoi trovare alcuni strumenti di recupero in caso di errore (ad esempio, se dimentichi di ripristinare il tema predefinito prima di un aggiornamento di sistema).&lt;br&gt;&lt;br&gt;Ricorda di riavviare la homescreen subito dopo.</translation>
+    </message>
+    <message>
+        <source>Restart the homescreen, to make your modifications effective. Your currently opened apps will be closed.</source>
+        <translation>Riavvia la homescreen, per rendere effettive le modifiche. Le app aperte verranno chiuse.</translation>
     </message>
 </context>
 <context>
