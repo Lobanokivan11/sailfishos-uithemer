@@ -150,10 +150,6 @@
         <translation>Annulla</translation>
     </message>
     <message>
-        <source>Do you want to apply &lt;b&gt;%1&lt;/b&gt;? The UI may not respond for a while, do NOT close the app.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.&lt;br&gt;</source>
-        <translation>Vuoi applicare &lt;b&gt;%1&lt;/b&gt;? La UI potrebbe non rispondere per un po&apos;, NON chiudere l&apos;app.&lt;br&gt;&lt;br&gt;Ricorda di riavviare la homescreen subito dopo.&lt;br&gt;</translation>
-    </message>
-    <message>
         <source>Apply</source>
         <translation>Applica</translation>
     </message>
@@ -168,6 +164,10 @@
     <message>
         <source>Restart homescreen</source>
         <translation>Riavvia homescreen</translation>
+    </message>
+    <message>
+        <source>Do you want to apply &lt;b&gt;%1&lt;/b&gt;?&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.&lt;br&gt;</source>
+        <translation>Vuoi applicare &lt;b&gt;%1&lt;/b&gt;?&lt;br&gt;&lt;br&gt;Ricorda di riavviare la homescreen subito dopo.&lt;br&gt;</translation>
     </message>
 </context>
 <context>
@@ -218,7 +218,15 @@
     </message>
 </context>
 <context>
-    <name>HomePage</name>
+    <name>Guide</name>
+    <message>
+        <source>UI Themer lets you customize icons, fonts and pixel density in Sailfish OS.</source>
+        <translation>UI Themer ti permette di personalizzare le icone, i font e la densità di pixel in Sailfish OS.</translation>
+    </message>
+    <message>
+        <source>Usage guide</source>
+        <translation>Manuale d&apos;uso</translation>
+    </message>
     <message>
         <source>Themes</source>
         <translation>Temi</translation>
@@ -228,24 +236,48 @@
         <translation>Densità display</translation>
     </message>
     <message>
-        <source>Restart homescreen</source>
-        <translation>Riavvia homescreen</translation>
+        <source>Icon updater</source>
+        <translation>Icon updater</translation>
     </message>
     <message>
-        <source>Restarting homescreen</source>
-        <translation>Riavvio homescreen</translation>
+        <source>Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. The Icon updater will automate this process, enabling automatic update of icons at a given time. You can choose between a pre-defined set of hours or a custom hour of the day.</source>
+        <translation>Ogni volta che un&apos;app viene aggiornata, devi applicare di nuovo il tema per ripristinare l&apos;icona personalizzata. Icon updater automatizzerà questo processo, consentendo l&apos;aggiornamento automatico delle icone in un dato momento. Puoi scegliere tra una serie di orari predefiniti o un&apos;ora personalizzata.</translation>
     </message>
     <message>
         <source>Tools</source>
         <translation>Strumenti</translation>
     </message>
     <message>
-        <source>About UI Themer</source>
-        <translation>Info su UI Themer</translation>
+        <source>Here you can find advanced settings for UI Themer, e.g. reinstall default icons or fonts if you forget to revert to default theme before a system update or if the applying fails.</source>
+        <translation>Qui puoi trovare impostazioni avanzate per UI Themer, ad esempio la reinstallazione delle icone o dei font di default se dimentichi di ritornare al tema di default prima di un aggiornamento di sistema o se l&apos;applicazione di un tema fallisce.</translation>
     </message>
     <message>
-        <source>Remember to unapply themes before system updates.</source>
-        <translation>Ricorda di ripristinare il tema predefinito prima degli aggiornamenti di sistema.</translation>
+        <source>Further help</source>
+        <translation>Ulteriore aiuto</translation>
+    </message>
+    <message>
+        <source>If you still can&apos;t get the help you need, you can open an issue on &lt;a href=&apos;https://github.com/fravaccaro/sailfishos-uithemer/issues&apos;&gt;GitHub&lt;/a&gt;.</source>
+        <translation>Se non riesci comunque a trovare l&apos;aiuto di cui hai bisogno, puoi aprire un issue su &lt;a href=&apos;https://github.com/fravaccaro/sailfishos-uithemer/issues&apos;&gt;GitHub&lt;/a&gt;.</translation>
+    </message>
+    <message>
+        <source>Remember to unapply themes and display density customizations before updating your system. In case you forgot, you may need to use the options provided in the &lt;i&gt;Tools&lt;/i&gt; page or uninstall and reinstall UI Themer.</source>
+        <translation>Ricorda di ripristinare le personalizzazioni dei temi e della densità del display prima di aggiornare il sistema. In caso lo abbia dimenticato, dovresti poter utilizzare le opzioni fornite nella pagina &lt;i&gt;Strumenti&lt;/i&gt; o disinstallare e reinstallare UI Themer.</translation>
+    </message>
+    <message>
+        <source>An homescreen restart may be needed to apply your settings. You can do that through the dialog or from the &lt;i&gt;Tools&lt;/i&gt; page.</source>
+        <translation>Un riavvio della homescreen potrebbe essere necessario per applicare le impostazioni. Puoi farlo attraverso la finestra di conferma o dalla pagina &lt;i&gt;Strumenti&lt;/i&gt;.</translation>
+    </message>
+    <message>
+        <source>UI Themer is divided into three main sections, which provide you icons, fonts and display density customization, alongside additional options.</source>
+        <translation>UI Themer è suddiviso in tre sezioni principali che permettono la personalizzaione di icone, font e densità del display, oltre a ulteriori opzioni.</translation>
+    </message>
+    <message>
+        <source>The &lt;i&gt;Themes&lt;/i&gt; page lets you customize icons and fonts via thirdy party themes. The page lists the themes you have currently installed (e.g. from OpenRepos). To apply them, tap on a theme of your choice and then select what you want to use from that theme - if the theme contains different font weights, you can choose the default one to use for the UI. You can also combine different themes, so for example you can use icons from a theme and fonts from another. To revert to the default settings, you can use the restore option from the pulley menu.</source>
+        <translation>La pagina &lt;i&gt;Temi&lt;/i&gt; ti permette di personalizzare le icone e i font attraverso temi di terze parti. La pagina mostra i temi installati (ad esempio attraverso OpenRepos). Per applicarli, tappa su un tema a tua scelta e seleziona quello che vuoi utilizzare di quel tema - se il tema contiene stili di font differenti, puoi scegliere quello che vuoi utilizzare come predefinito per la UI. Puoi anche combinare temi differenti, ad esempio utilizzando le icone da un tema e i font da un altro. Per ripristinare le impostazioni predefinite, puoi utilizzare il pulley menu.</translation>
+    </message>
+    <message>
+        <source>By increasing the display density, you can display more content on your screen - or less, if you prefer to have bigger UI elements. Android apps use a different setting than Sailfish OS ones. To revert to the default settings, you can use the restore options from the pulley menu.</source>
+        <translation>Aumentando la densità del display, puoi mostrare più informazioni sullo schermo - o di meno, se preferisci avere gli elementi della UI più grandi. Le app Android utilizzano un&apos;impostazione differente da quelle di Sailfish OS. Per ripristinare le impostazioni predefinite, puoi utilizzare il pulley menu.</translation>
     </message>
 </context>
 <context>
@@ -286,9 +318,28 @@
         <source>Settings applied.</source>
         <translation>Impostazioni applicate.</translation>
     </message>
+</context>
+<context>
+    <name>MenuPage</name>
     <message>
         <source>Icon updater</source>
         <translation>Icon updater</translation>
+    </message>
+    <message>
+        <source>Tools</source>
+        <translation>Strumenti</translation>
+    </message>
+    <message>
+        <source>Usage guide</source>
+        <translation>Manuale d&apos;uso</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Altro</translation>
+    </message>
+    <message>
+        <source>About UI Themer</source>
+        <translation>Info su UI Themer</translation>
     </message>
 </context>
 <context>
@@ -306,16 +357,16 @@
         <translation>Annulla</translation>
     </message>
     <message>
-        <source>What do you want to restore? The UI may not respond for a while, do NOT close the app.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.&lt;br&gt;</source>
-        <translation>Cosa vuoi ripristinare? La UI potrebbe non rispondere per un po&apos;, NON chiudere l&apos;app.&lt;br&gt;&lt;br&gt;Ricorda di riavviare la homescreen subito dopo.&lt;br&gt;</translation>
-    </message>
-    <message>
         <source>Restore</source>
         <translation>Ripristina</translation>
     </message>
     <message>
         <source>Restart homescreen</source>
         <translation>Riavvia homescreen</translation>
+    </message>
+    <message>
+        <source>What do you want to restore?&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.&lt;br&gt;</source>
+        <translation>Cosa vuoi ripristinare?&lt;br&gt;&lt;br&gt;Ricorda di riavviare la homescreen subito dopo.&lt;br&gt;</translation>
     </message>
 </context>
 <context>
@@ -363,6 +414,22 @@
     <message>
         <source>Here you can find some recovery tools in case anything goes wrong (eg if you forget to restore the default theme before performing a system update). The UI may not respond for a while, do NOT close the app.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
         <translation>Qui puoi trovare alcuni strumenti di recupero in caso di errore (ad esempio, se dimentichi di ripristinare il tema predefinito prima di un aggiornamento di sistema). La UI potrebbe non rispondere per un po&apos;, NON chiudere l&apos;app.&lt;br&gt;&lt;br&gt;Ricorda di riavviare la homescreen subito dopo.</translation>
+    </message>
+    <message>
+        <source>Restart homescreen</source>
+        <translation>Riavvia homescreen</translation>
+    </message>
+    <message>
+        <source>Refresh the homescreen, to make your modifications effective. Your currently opened apps will be closed.</source>
+        <translation>Riavvia la homescreen, per rendere effettive le modifiche. Le app aperte verranno chiuse.</translation>
+    </message>
+    <message>
+        <source>Restart</source>
+        <translation>Riavvia</translation>
+    </message>
+    <message>
+        <source>Restarting homescreen</source>
+        <translation>Riavvio homescreen</translation>
     </message>
 </context>
 <context>

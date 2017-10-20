@@ -30,7 +30,7 @@ Page {
             Label {
                 anchors.horizontalCenter: parent.horizontalCenter
                 color: Theme.highlightColor
-                text: "UI Themer 0.6.6"
+                text: "UI Themer 0.7.0"
             }
 
             Placeholder { }
@@ -85,7 +85,6 @@ Page {
                   width: parent.width - Theme.paddingLarge * 2
                   wrapMode: Text.Wrap
                   textFormat: Text.RichText
-                  onLinkActivated: Qt.openUrlExternally(link)
                   text: qsTr("If you want to create a theme compatible with UI Themer, please read the documentation.")
                }
 

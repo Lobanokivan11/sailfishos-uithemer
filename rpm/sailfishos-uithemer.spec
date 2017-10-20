@@ -13,8 +13,8 @@ Name:       sailfishos-uithemer
 %{!?qtc_make:%define qtc_make make}
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:        UI Themer
-Version:        0.6.6
-Release:        15
+Version:        0.7.0
+Release:        1
 Group:          Qt/Qt
 License:        GPLv3
 Packager:       fravaccaro <fravaccaro@jollacommunity.it>
@@ -85,6 +85,9 @@ desktop-file-install --delete-original       \
 # << files
 
 %changelog
+* Fri Oct 20 2017 0.7.0
+- UI overhaul.
+
 * Sun Oct 15 2017 0.6.6
 - Fixed UI freezes.
 - Translations updated.

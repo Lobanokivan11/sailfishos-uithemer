@@ -10,13 +10,58 @@ import "../js/console.js" as Console
 
 Page {
     id: page
-    forwardNavigation: !busyindicator.running
-    showNavigationIndicator: !busyindicator.running
     property string active_iconpack: "none" // holds name of active icon pack
     property string active_fontpack: "none"
     property int active_id: -1 // index of active item, needed for unassigning active property from previously active icon pack
     property int active_id_fonts: -1
     property var labels
+
+    DockedPanel {
+        id: panel
+        enabled: !busyindicator.running
+        opacity: busyindicator.running ? 0.0 : 1.0
+        open: true
+        animationDuration: 0
+        onOpenChanged: if (!open) show()
+        width: page.isPortrait ? parent.width : Theme.itemSizeLarge
+        height: page.isPortrait ? Theme.itemSizeLarge : parent.height
+        dock: page.isPortrait ? Dock.Bottom : Dock.Right
+
+            IconButton {
+                anchors {
+                    left: page.isPortrait ? parent.left : undefined
+                    top: page.isPortrait ? undefined : parent.top
+                    horizontalCenter: page.isPortrait ? undefined : parent.horizontalCenter
+                    verticalCenter: page.isPortrait ? parent.verticalCenter : undefined
+                    margins: Theme.paddingLarge
+                }
+                icon.source: "image://theme/icon-m-file-image"
+                onClicked: pageStack.replace("MainPage.qml",{},PageStackAction.Immediate)
+                enabled: false
+            }
+            IconButton {
+                anchors {
+                    centerIn: parent
+                    verticalCenter: parent.verticalCenter
+                    margins: Theme.paddingLarge
+                }
+                icon.source: "image://theme/icon-m-display"
+                onClicked: pageStack.replace("DdensityPage.qml",{},PageStackAction.Immediate)
+                enabled: true
+            }
+            IconButton {
+                anchors {
+                    right: page.isPortrait ? parent.right : undefined
+                    bottom: page.isPortrait ? undefined : parent.bottom
+                    horizontalCenter: page.isPortrait ? undefined : parent.horizontalCenter
+                    verticalCenter: page.isPortrait ? parent.verticalCenter : undefined
+                    margins: Theme.paddingLarge
+                }
+                icon.source: "image://theme/icon-m-menu"
+                onClicked: pageStack.replace("MenuPage.qml",{},PageStackAction.Immediate)
+                enabled: true
+            }
+    }
 
     BusyIndicator {
         id: busyindicator
@@ -43,17 +88,60 @@ Page {
          } ]
      }
 
-    onStatusChanged: {
-        if (status === PageStatus.Active && pageStack.depth === 1) {
-            pageStack.pushAttached("HomePage.qml", {});
+    Connections
+    {
+        target: iconpack
+
+        onIconApplied: {
+            busyindicator.running = false;
+            notification.publish();
+            if(settings.homerefresh == true) {
+                iconpack.restart_homescreen();
+                console.log("homescreen restart");
+            } else {
+                console.log("no homescreen restart");
+            }
+        }
+
+        onFontsApplied: {
+            busyindicator.running = false;
+            notification.publish();
+            if(settings.homerefresh == true) {
+                iconpack.restart_homescreen();
+                console.log("homescreen restart");
+            } else {
+                console.log("no homescreen restart");
+            }
+        }
+
+        onRestoreCompleted: {
+            busyindicator.running = false;
+            notification.publish();
+            mnurestore.accepted(type);
+            if(settings.homerefresh == true) {
+                iconpack.restart_homescreen();
+                console.log("homescreen restart");
+            } else {
+                console.log("no homescreen restart");
+            }
+        }
+
+        onUninstallCompleted: {
+            busyindicator.running = false;
         }
     }
 
+
     SilicaFlickable {
-        anchors.fill: parent
+        anchors {
+            fill: parent
+            bottomMargin: page.isPortrait ? panel._visibleSize() : 0
+            rightMargin: page.isPortrait ? 0 : panel._visibleSize()
+        }
+        clip: panel.expanded
         contentHeight: column.height
         enabled: !busyindicator.running
-        opacity: busyindicator.running ? 0.2 : 1.0
+        opacity: busyindicator.running ? 0.0 : 1.0
 
         PullDownMenu {
 
@@ -70,21 +158,14 @@ Page {
                         for(var i = 0; i < removed.length; i++) {
                             var packname = listview.itemAt(removed[i]).packstring;
 
-                            ip.uninstall(packname, function() {
-                                listview.itemAt(removed[i]).visible = false;
-
-                                if(i == (removed.length - 1))
-                                    busyindicator.running = false;
-                            });
+                            ip.uninstall(packname, (i === (removed.length - 1)));
+                            listview.itemAt(removed[i]).visible = false;
                         }
                     });
                 }
             }
             MenuItem {
-                text: qsTr("Icon updater")
-                onClicked: pageStack.push("AutoUpdPage.qml")
-            }
-            MenuItem {
+                id: mnurestore
                 text: qsTr("Restore")
                 enabled: active_iconpack != "none" || active_fontpack != "none"
                 signal accepted(string type)
@@ -111,21 +192,17 @@ Page {
 
                         busyindicator.running = true;
 
-                        iconpack.restore(dialog.icons,dialog.fonts, function() {
-                            var type = "";
+                        var type = "";
 
-                            if(dialog.fonts && dialog.icons) {
-                                type = "both";
-                            } else if(dialog.icons) {
-                                type = "icons";
-                            } else if(dialog.fonts) {
-                                type = "fonts";
-                            }
+                        if(dialog.fonts && dialog.icons) {
+                            type = "both";
+                        } else if(dialog.icons) {
+                            type = "icons";
+                        } else if(dialog.fonts) {
+                            type = "fonts";
+                        }
 
-                            busyindicator.running = false;
-                            accepted(type);
-                        });
-
+                        iconpack.restore(dialog.icons,dialog.fonts, type);
                     });
                 }
                 onAccepted: {
@@ -136,20 +213,42 @@ Page {
                             tx.executeSql("UPDATE active_iconpack SET active='none' WHERE type='"+type+"'");
                         }
                     });
-                    if(settings.homerefresh == true) {
-                        iconpack.restart_homescreen();
-                        console.log("homescreen restart");
-                    } else {
-                        console.log("no homescreen restart");
-                    }
-                    notification.publish();
                 }
             }
         }
 
         Column {
+            function populateList() {
+                var packs = Func.getIconPacks(); //gets list of icon packs
+
+                if(packs.length) { // if there are any, hide the text "Loading..."
+                    infotext.visible = false;
+                } else { // else show this string
+                    infotext.visible = false;
+                    placeholder.enabled = true;
+                    uninstall.enabled = false;
+                }
+
+                // NOTE: It's ugly, but it works
+                lmodel.clear();
+
+                for(var i = 0; i < packs.length; i++) { // if there are any texts, add them to lmodel, which is used by Repeater and will show all of the iconpacks as buttons
+                    var active = false;
+                    if(packs[i] == active_iconpack) {
+                        active_id = i;
+                        active = true;
+                    }
+                    if(packs[i] == active_fontpack) {
+                        active_id_fonts = i;
+                        active = true;
+                    }
+
+                    lmodel.append({m_text: packs[i], m_active: active, m_index: i});
+                }
+            }
+
             id: column
-            width: page.width
+            width: page.isPortrait ? page.width : page.width - panel._visibleSize()
 
             PageHeader {
                 title: qsTr("Themes")
@@ -178,20 +277,6 @@ Page {
                 id: listview
                 model: lmodel
                 TButton {
-                    function updateList(dialog) {
-                        var type = "";
-
-                        if(dialog.fonts && dialog.icons)
-                            type = "both";
-                        else if(dialog.icons)
-                            type = "icons";
-                        else if(dialog.fonts)
-                            type = "fonts";
-
-                        console.log("Type: "+type);
-                        accepted(type, m_text);
-                    }
-
                     width: parent.width
                     property string packstring: m_text
                     anchors.horizontalCenter: parent.horizontalCenter
@@ -217,20 +302,16 @@ Page {
                                 if(active_id_fonts > -1)
                                     listview.itemAt(active_id_fonts).active = false;
 
+                                if(dialog.icons || dialog.fonts)
+                                    active = true;
+
                                 busyindicator.running = true;
-                                active = true;
 
                                 if(dialog.icons) {
                                     active_iconpack = m_text;
                                     active_id = m_index;
 
-                                    iconpack.apply_icons(m_text, function() {
-                                        if(dialog.fonts)
-                                            return;
-
-                                        busyindicator.running = false;
-                                        updateList(dialog, m_text);
-                                    });
+                                    iconpack.apply_icons(m_text, dialog.fonts);
                                 }
 
                                 if(dialog.fonts) {
@@ -240,11 +321,20 @@ Page {
                                     var font = { sailfish: dialog.font_active_sailfish };
                                     console.log(font);
 
-                                    iconpack.apply_fonts(m_text, font.sailfish, function() {
-                                        busyindicator.running = false;
-                                        updateList(dialog, m_text);
-                                    });
+                                    iconpack.apply_fonts(m_text, font.sailfish);
                                 }
+
+                                var type = "";
+
+                                if(dialog.fonts && dialog.icons)
+                                    type = "both";
+                                else if(dialog.icons)
+                                    type = "icons";
+                                else if(dialog.fonts)
+                                    type = "fonts";
+
+                                console.log("Type: "+type);
+                                accepted(type, m_text);
                             });
                         } else {
                             infotext.text = qsTr("This icon pack is already active.");
@@ -276,14 +366,8 @@ Page {
                                 tx.executeSql("UPDATE active_iconpack SET active='"+text+"' WHERE type='"+type+"'");
                             }
                         });
-                        if(settings.homerefresh == true) {
-                            iconpack.restart_homescreen();
-                            console.log("homescreen restart");
-                        } else {
-                            console.log("no homescreen restart");
-                        }
-                        notification.publish();
 
+                        column.populateList();
                     }
                 }
             }
@@ -373,29 +457,7 @@ Page {
                         }
                     }
 
-                    var packs = Func.getIconPacks(); //gets list of icon packs
-
-                    if(packs.length) { // if there are any, hide the text "Loading..."
-                        infotext.visible = false;
-                    } else { // else show this string
-                        infotext.visible = false;
-                        placeholder.enabled = true;
-                        uninstall.enabled = false;
-                    }
-
-                    for(var i = 0; i < packs.length; i++) { // if there are any texts, add them to lmodel, which is used by Repeater and will show all of the iconpacks as buttons
-                        var active = false;
-                        if(packs[i] == active_iconpack) {
-                            active_id = i;
-                            active = true;
-                        }
-                        if(packs[i] == active_fontpack) {
-                            active_id_fonts = i;
-                            active = true;
-                        }
-
-                        lmodel.append({m_text: packs[i], m_active: active, m_index: i});
-                    }
+                    populateList();
                 });
             }
         }

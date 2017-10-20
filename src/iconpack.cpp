@@ -26,14 +26,22 @@ QString IconPack::listIconPacks() const
     return QString::fromStdString(exec("cd /usr/share/; ls -d harbour-themepack-* | cut -c19-"));
 }
 
-void IconPack::apply_icons(const QString& name, QJSValue done) const
+void IconPack::apply_icons(const QString& name, bool hasfonts) const
 {
-    Spawner::execute("/usr/share/sailfishos-uithemer/apply.sh", SPAWN_ARGS(name), done);
+    Spawner::execute("/usr/share/sailfishos-uithemer/apply.sh", SPAWN_ARGS(name), [this, hasfonts]() {
+        if(hasfonts)
+            return;
+
+        emit iconApplied();
+    });
 }
 
-bool IconPack::apply_fonts(const QString& name, const QString& font_s, QJSValue done) const
+bool IconPack::apply_fonts(const QString& name, const QString& font_s) const
 {
-    Spawner::execute("/usr/share/sailfishos-uithemer/apply_font.sh", SPAWN_ARGS(name << font_s), done);
+    Spawner::execute("/usr/share/sailfishos-uithemer/apply_font.sh", SPAWN_ARGS(name << font_s), [this]() {
+        emit fontsApplied();
+    });
+
     return true;
 }
 
@@ -44,17 +52,17 @@ bool IconPack::restart_homescreen() const
     return true;
 }
 
-bool IconPack::reinstall_icons(QJSValue done) const
+bool IconPack::reinstall_icons() const
 {
      setuid_ex(0);
-     Spawner::execute("/usr/share/sailfishos-uithemer/reinstall_icons.sh", done);
+     Spawner::execute("/usr/share/sailfishos-uithemer/reinstall_icons.sh", [this]() { emit iconsRestored(); });
      return true;
 }
 
-bool IconPack::reinstall_fonts(QJSValue done) const
+bool IconPack::reinstall_fonts() const
 {
      setuid_ex(0);
-     Spawner::execute("/usr/share/sailfishos-uithemer/reinstall_fonts.sh", done);
+     Spawner::execute("/usr/share/sailfishos-uithemer/reinstall_fonts.sh", [this]() { emit fontsRestored(); });
      return true;
 }
 
@@ -90,13 +98,20 @@ QStringList IconPack::weights(const QString& packname) const
     return ret;
 }
 
-bool IconPack::restore(bool icons, bool fonts, QJSValue done) const
+bool IconPack::restore(bool icons, bool fonts, const QString &type) const
 {
     if(icons)
-      Spawner::execute("/usr/share/sailfishos-uithemer/restore.sh", fonts ? QJSValue() : done);
+    {
+        Spawner::execute("/usr/share/sailfishos-uithemer/restore.sh", [this, fonts, type]() {
+            if(fonts)
+                return;
+
+            emit restoreCompleted(type);
+        });
+    }
 
     if(fonts)
-      Spawner::execute("/usr/share/sailfishos-uithemer/restore_fonts.sh", done);
+        Spawner::execute("/usr/share/sailfishos-uithemer/restore_fonts.sh", [this, fonts, type]() { emit restoreCompleted(type); });
         
     return true;
 }
@@ -191,12 +206,18 @@ QString IconPack::getName(const QString& packname) const
     return QString::fromStdString(exec(command.c_str())).trimmed();
 }
 
-bool IconPack::uninstall(const QString& packname, QJSValue done) const
+bool IconPack::uninstall(const QString& packname, bool notify) const
 {
     std::string c_packname = packname.toStdString();
     std::string cmd = "rpm -qf /usr/share/harbour-themepack-"+c_packname+"/ --queryformat '%{NAME}\n'";
     std::string package = exec(cmd.c_str());
 
-    Spawner::execute("pkcon", SPAWN_ARGS("remove" << QString::fromStdString(package)), done);
+    Spawner::execute("pkcon", SPAWN_ARGS("remove" << QString::fromStdString(package)), [this, notify]() {
+        if(!notify)
+            return;
+
+        emit uninstallCompleted();
+    });
+
     return true;
 }

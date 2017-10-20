@@ -49,10 +49,11 @@ OTHER_FILES += qml/sailfishos-uithemer.qml \
     qml/pages/About.qml \
     qml/components/Placeholder.qml \
     qml/pages/Uninstall.qml \
-    qml/pages/HomePage.qml \
     qml/pages/DdensityPage.qml \
     qml/pages/Tools.qml \
-    qml/pages/AutoUpdPage.qml
+    qml/pages/AutoUpdPage.qml \
+    qml/pages/MenuPage.qml \
+    qml/pages/Guide.qml
 
 SAILFISHAPP_ICONS = 86x86
 
@@ -62,8 +63,5 @@ TRANSLATIONS +=  translations/*.ts
 
 HEADERS += \
     exec.h \
-    spawner.h \
-    src/iconpack.h
-
-DISTFILES += \
-
+    src/iconpack.h \
+    src/spawner.h

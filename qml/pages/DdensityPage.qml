@@ -6,6 +6,51 @@ import "../components"
 
 Page {
     id: page
+
+    DockedPanel {
+        id: panel
+        open: true
+        animationDuration: 0
+        onOpenChanged: if (!open) show()
+        width: page.isPortrait ? parent.width : Theme.itemSizeLarge
+        height: page.isPortrait ? Theme.itemSizeLarge : parent.height
+        dock: page.isPortrait ? Dock.Bottom : Dock.Right
+
+            IconButton {
+                anchors {
+                    left: page.isPortrait ? parent.left : undefined
+                    top: page.isPortrait ? undefined : parent.top
+                    horizontalCenter: page.isPortrait ? undefined : parent.horizontalCenter
+                    verticalCenter: page.isPortrait ? parent.verticalCenter : undefined
+                    margins: Theme.paddingLarge
+                }
+                icon.source: "image://theme/icon-m-file-image"
+                onClicked: pageStack.replace("MainPage.qml",{},PageStackAction.Immediate)
+                enabled: true
+            }
+            IconButton {
+                anchors {
+                    centerIn: parent
+                    verticalCenter: parent.verticalCenter
+                    margins: Theme.paddingLarge
+                }
+                icon.source: "image://theme/icon-m-display"
+                onClicked: pageStack.replace("DdensityPage.qml",{},PageStackAction.Immediate)
+                enabled: false
+            }
+            IconButton {
+                anchors {
+                    right: page.isPortrait ? parent.right : undefined
+                    bottom: page.isPortrait ? undefined : parent.bottom
+                    horizontalCenter: page.isPortrait ? undefined : parent.horizontalCenter
+                    verticalCenter: page.isPortrait ? parent.verticalCenter : undefined
+                    margins: Theme.paddingLarge
+                }
+                icon.source: "image://theme/icon-m-menu"
+                onClicked: pageStack.replace("MenuPage.qml",{},PageStackAction.Immediate)
+                enabled: true
+            }
+    }
     ConfigurationGroup {
         id: silica
         path: "/desktop/sailfish/silica"
@@ -35,27 +80,26 @@ Page {
          } ]
      }
 
-    onStatusChanged: {
-        if (status === PageStatus.Active && pageStack.depth === 1) {
-            pageStack.pushAttached("HomePage.qml", {});
-        }
-    }
-
     SilicaFlickable {
-    anchors.fill: parent
+        anchors {
+            fill: parent
+            bottomMargin: page.isPortrait ? panel._visibleSize() : 0
+            rightMargin: page.isPortrait ? 0 : panel._visibleSize()
+        }
+        clip: panel.expanded
     VerticalScrollDecorator { }
     contentHeight: content.height
     RemorsePopup { id: remorsedpr; onTriggered: {
             iconpack.restore_dpr();
             notification.publish();
             dpr_slider.value = themepixelratiovalue.value
-            dpr_slider.valueText = dpr_slider.value
+            dpr_slider.valueText = value
         }
     }
     RemorsePopup { id: remorseradpi; onTriggered: {
             iconpack.restore_adpi()
             adpi_slider.value = iconpack.getDroidDPI()
-            adpi_slider.valueText = adpi_slider.value
+            adpi_slider.valueText = value
             notification.publish();
         }
     }
@@ -104,7 +148,7 @@ Page {
                 id: adpi_slider
                 width: parent.width
                 label: qsTr("Android DPI value")
-                maximumValue: 360
+                maximumValue: 600
                 minimumValue: 180
                 stepSize: 20
                 value: iconpack.getDroidDPI()

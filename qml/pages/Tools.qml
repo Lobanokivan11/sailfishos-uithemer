@@ -15,12 +15,28 @@ Page {
         anchors.centerIn: parent
     }
 
+    Connections
+    {
+        target: iconpack
+
+        onIconsRestored: {
+            busyindicator.running = false;
+            notification.publish();
+        }
+
+        onFontsRestored: {
+            busyindicator.running = false;
+            notification.publish();
+        }
+    }
+
     SilicaFlickable {
         id: flickable
         anchors.fill: parent
         contentHeight: column.height
         enabled: !busyindicator.running
-        opacity: busyindicator.running ? 0.2 : 1.0
+        opacity: busyindicator.running ? 0.0 : 1.0
+
         Notification {
              id: notification
              category: "x-nemo.uithemer"
@@ -39,22 +55,16 @@ Page {
              } ]
          }
 
+    RemorsePopup { id: remorsehs; onTriggered: iconpack.restart_homescreen() }
+
     RemorsePopup { id: reicons; onTriggered: {
             busyindicator.running = true;
-
-            iconpack.reinstall_icons(function() {
-                busyindicator.running = false;
-                notification.publish();
-            });
+            iconpack.reinstall_icons();
         }
     }
     RemorsePopup { id: refonts; onTriggered: {
             busyindicator.running = true;
-
-            iconpack.reinstall_fonts(function() {
-                busyindicator.running = false;
-                notification.publish();
-            });
+            iconpack.reinstall_fonts();
         }
     }
 
@@ -70,6 +80,29 @@ Page {
                 wrapMode: Text.Wrap
                 textFormat: Text.RichText
                 text: qsTr("Here you can find some recovery tools in case anything goes wrong (eg if you forget to restore the default theme before performing a system update). The UI may not respond for a while, do NOT close the app.<br><br>Remember to restart the homescreen right after.")
+            }
+
+            Placeholder { }
+
+            SectionHeader {
+                text: qsTr("Restart homescreen")
+            }
+            Label {
+                x: Theme.paddingLarge
+                width: parent.width - 2 * Theme.paddingLarge
+                wrapMode: Text.Wrap
+                textFormat: Text.RichText
+                text: qsTr("Refresh the homescreen, to make your modifications effective. Your currently opened apps will be closed.")
+            }
+
+            Placeholder { }
+
+            Button {
+                anchors.horizontalCenter: parent.horizontalCenter
+                text: qsTr("Restart")
+                onClicked: {
+                    remorsehs.execute(qsTr("Restarting homescreen"))
+                }
             }
 
             Placeholder { }
