@@ -283,6 +283,10 @@
 <context>
     <name>MainPage</name>
     <message>
+        <source>Settings applied.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Uninstall theme</source>
         <translation type="unfinished"></translation>
     </message>
@@ -312,10 +316,6 @@
     </message>
     <message>
         <source>fonts</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Settings applied.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

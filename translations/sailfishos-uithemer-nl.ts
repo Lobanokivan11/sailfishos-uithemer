@@ -283,40 +283,40 @@
 <context>
     <name>MainPage</name>
     <message>
+        <source>Settings applied.</source>
+        <translation type="unfinished">Instellingen toegepast.</translation>
+    </message>
+    <message>
         <source>Uninstall theme</source>
-        <translation>Thema verwijderen</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Restore</source>
-        <translation>Herstellen</translation>
+        <translation type="unfinished">Herstellen</translation>
     </message>
     <message>
         <source>Themes</source>
-        <translation>Thema&apos;s</translation>
+        <translation type="unfinished">Thema&apos;s</translation>
     </message>
     <message>
         <source>Loading...</source>
-        <translation>Laden...</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>No themes installed</source>
-        <translation>Geen thema&apos;s geïnstalleerd</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>This icon pack is already active.</source>
-        <translation>Dit pictogrampakket is al in gebruik.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>icons</source>
-        <translation>pictogrammen</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>fonts</source>
-        <translation>lettertypen</translation>
-    </message>
-    <message>
-        <source>Settings applied.</source>
-        <translation>Instellingen toegepast.</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

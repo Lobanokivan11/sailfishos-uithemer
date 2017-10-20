@@ -30,7 +30,7 @@ Page {
             IconButton {
                 anchors {
                     left: page.isPortrait ? parent.left : undefined
-                    top: page.isPortrait ? undefined : parent.top
+                    bottom: page.isPortrait ? undefined : parent.bottom
                     horizontalCenter: page.isPortrait ? undefined : parent.horizontalCenter
                     verticalCenter: page.isPortrait ? parent.verticalCenter : undefined
                     margins: Theme.paddingLarge
@@ -52,7 +52,7 @@ Page {
             IconButton {
                 anchors {
                     right: page.isPortrait ? parent.right : undefined
-                    bottom: page.isPortrait ? undefined : parent.bottom
+                    top: page.isPortrait ? undefined : parent.top
                     horizontalCenter: page.isPortrait ? undefined : parent.horizontalCenter
                     verticalCenter: page.isPortrait ? parent.verticalCenter : undefined
                     margins: Theme.paddingLarge
@@ -423,10 +423,10 @@ Page {
                         if(!res2.rows.length) { // first run
                             tx.executeSql("INSERT INTO firstrun (firstrun) VALUES (1)");
                         }
-                        if(res2.rows.length < 2) { // hides icon
-                            tx.executeSql("INSERT INTO firstrun (firstrun) VALUES (2)");
-                            iconpack.hideIcon(); // hides icon of original app, so user doesn't have to have two same apps on homescreen
-                        }
+//                        if(res2.rows.length < 2) { // hides icon
+//                            tx.executeSql("INSERT INTO firstrun (firstrun) VALUES (2)");
+//                            iconpack.hideIcon(); // hides icon of original app, so user doesn't have to have two same apps on homescreen
+//                        }
 
                         if(res2.rows.length < 3) { // alters table to include multiple values
                             var r = tx.executeSql("PRAGMA table_info(active_iconpack)");

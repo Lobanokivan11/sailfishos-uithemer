@@ -19,7 +19,7 @@ Page {
             IconButton {
                 anchors {
                     left: page.isPortrait ? parent.left : undefined
-                    top: page.isPortrait ? undefined : parent.top
+                    bottom: page.isPortrait ? undefined : parent.bottom
                     horizontalCenter: page.isPortrait ? undefined : parent.horizontalCenter
                     verticalCenter: page.isPortrait ? parent.verticalCenter : undefined
                     margins: Theme.paddingLarge
@@ -41,7 +41,7 @@ Page {
             IconButton {
                 anchors {
                     right: page.isPortrait ? parent.right : undefined
-                    bottom: page.isPortrait ? undefined : parent.bottom
+                    top: page.isPortrait ? undefined : parent.top
                     horizontalCenter: page.isPortrait ? undefined : parent.horizontalCenter
                     verticalCenter: page.isPortrait ? parent.verticalCenter : undefined
                     margins: Theme.paddingLarge

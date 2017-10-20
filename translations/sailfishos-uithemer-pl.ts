@@ -283,39 +283,39 @@
 <context>
     <name>MainPage</name>
     <message>
+        <source>Settings applied.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Uninstall theme</source>
-        <translation>Odinstaluj motyw tematyczny</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Restore</source>
-        <translation>Przywróć</translation>
+        <translation type="unfinished">Przywróć</translation>
     </message>
     <message>
         <source>Themes</source>
-        <translation>Motywy tematyczne</translation>
+        <translation type="unfinished">Motywy tematyczne</translation>
     </message>
     <message>
         <source>Loading...</source>
-        <translation>Ładowanie...</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>No themes installed</source>
-        <translation>Żaden motyw tematyczny nie jest zainstalowany</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>This icon pack is already active.</source>
-        <translation>Ta paczka ikon jest już aktywna.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>icons</source>
-        <translation>ikony</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>fonts</source>
-        <translation>czcionki</translation>
-    </message>
-    <message>
-        <source>Settings applied.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

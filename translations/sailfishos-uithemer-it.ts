@@ -283,40 +283,40 @@
 <context>
     <name>MainPage</name>
     <message>
+        <source>Settings applied.</source>
+        <translation type="unfinished">Impostazioni applicate.</translation>
+    </message>
+    <message>
         <source>Uninstall theme</source>
-        <translation>Disinstalla tema</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Restore</source>
-        <translation>Ripristina</translation>
+        <translation type="unfinished">Ripristina</translation>
     </message>
     <message>
         <source>Themes</source>
-        <translation>Temi</translation>
+        <translation type="unfinished">Temi</translation>
     </message>
     <message>
         <source>Loading...</source>
-        <translation>Caricamento...</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>No themes installed</source>
-        <translation>Nessun tema</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>This icon pack is already active.</source>
-        <translation>Questo pacchetto di icone è già attivo.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>icons</source>
-        <translation>icone</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>fonts</source>
-        <translation>font</translation>
-    </message>
-    <message>
-        <source>Settings applied.</source>
-        <translation>Impostazioni applicate.</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
