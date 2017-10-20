@@ -26,9 +26,13 @@ Request a new language or contribute to existing languages on the [Transifex pro
 
 Builds for armv7hl and i486 available on [OpenRepos](https://openrepos.net/content/fravaccaro/ui-themer).
 
+## Usage guide
+
+A usage guide is available [here](docs/guide.md).
+
 ## Roadmap
 
-Roadmap and features will be tracked down on the [Trello dashboard](https://trello.com/b/WwLwj2eu/ui-themer).
+Roadmap and features will be tracked on the [Trello dashboard](https://trello.com/b/WwLwj2eu/ui-themer).
 
 ## Credits
 
