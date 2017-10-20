@@ -412,10 +412,6 @@
         <translation>Si se produce algún error durante la aplicación/restauración de los temas, puede terminar con iconos desordenado. Desde aquí, puede reinstalar los iconos predeterminados de Jolla, para aplicaciones de terceros, es posible que deba reinstalar/actualizar las para restaurar el aspecto predeterminado.</translation>
     </message>
     <message>
-        <source>Here you can find some recovery tools in case anything goes wrong (eg if you forget to restore the default theme before performing a system update). The UI may not respond for a while, do NOT close the app.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
-        <translation>Aquí puede encontrar algunas herramientas de recuperación en caso de que algo salga mal (por ejemplo, si se olvida de restaurar el tema predeterminado antes de realizar una actualización del sistema). La interfaz de usuario puede no responder durante un tiempo, NO cierre la aplicación. &lt;br&gt; &lt;br&gt;Recuerde que debe reiniciar la pantalla de inicio justo después.</translation>
-    </message>
-    <message>
         <source>Restart homescreen</source>
         <translation type="unfinished">Reiniciar pantalla de inicio</translation>
     </message>
@@ -430,6 +426,10 @@
     <message>
         <source>Restarting homescreen</source>
         <translation type="unfinished">Reiniciando pantalla de inicio</translation>
+    </message>
+    <message>
+        <source>Here you can find some recovery tools in case anything goes wrong (eg if you forget to restore the default theme before performing a system update).&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

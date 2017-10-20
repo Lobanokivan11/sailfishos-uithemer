@@ -412,10 +412,6 @@
         <translation>Se si verifica un errore durante l&apos;applicazione o il ripristino di temi, è possibile che alcune icone siano in disordine. Da qui puoi reinstallare le icone predefinite delle app Jolla mentre, per le applicazioni di terze parti, è necessario reinstallare o aggiornare le app per ripristinare l&apos;aspetto predefinito.</translation>
     </message>
     <message>
-        <source>Here you can find some recovery tools in case anything goes wrong (eg if you forget to restore the default theme before performing a system update). The UI may not respond for a while, do NOT close the app.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
-        <translation>Qui puoi trovare alcuni strumenti di recupero in caso di errore (ad esempio, se dimentichi di ripristinare il tema predefinito prima di un aggiornamento di sistema). La UI potrebbe non rispondere per un po&apos;, NON chiudere l&apos;app.&lt;br&gt;&lt;br&gt;Ricorda di riavviare la homescreen subito dopo.</translation>
-    </message>
-    <message>
         <source>Restart homescreen</source>
         <translation>Riavvia homescreen</translation>
     </message>
@@ -430,6 +426,10 @@
     <message>
         <source>Restarting homescreen</source>
         <translation>Riavvio homescreen</translation>
+    </message>
+    <message>
+        <source>Here you can find some recovery tools in case anything goes wrong (eg if you forget to restore the default theme before performing a system update).&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
+        <translation>Qui puoi trovare alcuni strumenti di recupero in caso di errore (ad esempio, se dimentichi di ripristinare il tema predefinito prima di un aggiornamento di sistema).&lt;br&gt;&lt;br&gt;Ricorda di riavviare la homescreen subito dopo.</translation>
     </message>
 </context>
 <context>

@@ -412,10 +412,6 @@
         <translation>Indien er een fout optreedt bij het toepassen/herstellen van thema&apos;s kunnen je pictogrammen verprutst worden. Van hieruit kan je de standaardpictogrammen van Jolla opnieuw installeren. Voor apps van derde partijen moet je mogelijk de apps bijwerken of opnieuw installeren om de standaardpictogrammen te herstellen.</translation>
     </message>
     <message>
-        <source>Here you can find some recovery tools in case anything goes wrong (eg if you forget to restore the default theme before performing a system update). The UI may not respond for a while, do NOT close the app.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
-        <translation>Hier vind je gereedschap voor herstellen indien er iets verkeerd gaat (bv. als je het standaardthema vergeten herstellen bent vooraleer een systeemupdate te installeren). De gebruikersinterface kan even blijven haperen, maar sluit de app NIET.&lt;br&gt;&lt;br&gt;Vergeet niet om het startscherm nadien te herstarten.</translation>
-    </message>
-    <message>
         <source>Restart homescreen</source>
         <translation type="unfinished">Startscherm herstarten</translation>
     </message>
@@ -430,6 +426,10 @@
     <message>
         <source>Restarting homescreen</source>
         <translation type="unfinished">Startscherm wordt herstart</translation>
+    </message>
+    <message>
+        <source>Here you can find some recovery tools in case anything goes wrong (eg if you forget to restore the default theme before performing a system update).&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

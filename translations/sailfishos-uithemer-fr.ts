@@ -412,10 +412,6 @@
         <translation>Si une quelconque erreur se produise pendant l&apos;appliquage/restauration des thèmes, vous pourriez avoir des îcones endommagés. De là vous pouvez reinstaller les îcones Jolla d&apos;origine, et pour les applications de tierce partie vous pourriez reinstaller/mettre à jour ces applications pour restaurer l&apos;apparence initiale</translation>
     </message>
     <message>
-        <source>Here you can find some recovery tools in case anything goes wrong (eg if you forget to restore the default theme before performing a system update). The UI may not respond for a while, do NOT close the app.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
-        <translation>Ici vous pouvez trouver des outils de rêcuperation en cas d&apos;erreur (ex. si vous oubliez de restaurer les thèmes d&apos;origine avant une mise à du logiciel). Le UI pourrait devenir irresponsif pour un moment, ne PAS fermer l&apos;application.&lt;br&gt;&lt;br&gt;Rappelez-vous de redemmarer l&apos;ecran d&apos;acceuil juste après</translation>
-    </message>
-    <message>
         <source>Restart homescreen</source>
         <translation type="unfinished"></translation>
     </message>
@@ -430,6 +426,10 @@
     <message>
         <source>Restarting homescreen</source>
         <translation type="unfinished">Redemarrage de l&apos;ecran d&apos;acceuil</translation>
+    </message>
+    <message>
+        <source>Here you can find some recovery tools in case anything goes wrong (eg if you forget to restore the default theme before performing a system update).&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
