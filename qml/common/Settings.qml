@@ -1,8 +1,26 @@
 import QtQuick 2.0
-import org.nemomobile.configuration 1.0
+import "../js/Database.js" as Database
 
-ConfigurationGroup {
-    path: "/desktop/lipstick/sailfishos-uithemer"
-    property bool homerefresh: false
-    property int autoupd: 0
+Item
+{
+    property string activeFontPack
+    property string activeIconPack
+
+    property bool homeRefresh: true
+    property int autoUpdate: 0
+
+    function deactivateFont() { activeFontPack = "none"; }
+    function deactivateIcon() { activeIconPack = "none"; }
+
+    id: settings
+
+    onActiveFontPackChanged: Database.activateFont(activeFontPack)
+    onActiveIconPackChanged: Database.activateIcon(activeIconPack)
+
+    Component.onCompleted: {
+        Database.load();
+
+        activeFontPack = Database.getActiveFont();
+        activeIconPack = Database.getActiveIcon();
+    }
 }

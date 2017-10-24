@@ -12,16 +12,22 @@
 #include <QQmlContext>
 #include <QGuiApplication>
 #include <QFileSystemWatcher>
-#include "iconpack.h"
+#include "themepack.h"
+#include "themepackmodel.h"
+#include "fontweightmodel.h"
 
-int main(int argc, char *argv[]) {
+int main(int argc, char *argv[])
+{
     qDebug() << setuid(0);
-    IconPack iconpack;
+
     QGuiApplication *app = SailfishApp::application(argc,argv);
     QQuickView *view = SailfishApp::createView();
     QString qml = QString("qml/sailfishos-uithemer.qml");
-    view->rootContext()->setContextProperty("ip",&iconpack);
-    view->rootContext()->setContextProperty("iconpack",&iconpack);
+
+    qmlRegisterType<ThemePack>("harbour.uithemer", 1, 0, "ThemePack");
+    qmlRegisterType<ThemePackModel>("harbour.uithemer", 1, 0, "ThemePackModel");
+    qmlRegisterType<FontWeightModel>("harbour.uithemer", 1, 0, "FontWeightModel");
+
     view->setSource(SailfishApp::pathTo(qml));
     view->show();
     return app->exec();

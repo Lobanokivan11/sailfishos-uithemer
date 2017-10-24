@@ -10,10 +10,5 @@ ApplicationWindow
     allowedOrientations: defaultAllowedOrientations
     _defaultPageOrientations: defaultAllowedOrientations
 
-    Settings {
-        id: settings
-    }
-
+    Settings { id: settings }
 }
-
-

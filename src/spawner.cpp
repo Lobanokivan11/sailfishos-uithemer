@@ -1,11 +1,29 @@
 #include "spawner.h"
 #include <QProcess>
+#include <cstdio>
+#include <string>
 
 QHash< QProcess*, std::function<void()> > Spawner::_callbackmap;
 
 Spawner::Spawner(QObject *parent) : QObject(parent)
 {
 
+}
+
+QString Spawner::executeSync(const QString &cmd)
+{
+    FILE* pipe = popen(cmd.toUtf8().constData(), "r");
+    if (!pipe) return "ERROR";
+    char buffer[128];
+    std::string result = "";
+
+    while(!feof(pipe)) {
+        if(fgets(buffer, 128, pipe) != NULL)
+            result += buffer;
+    }
+
+    pclose(pipe);
+    return QString::fromStdString(result).simplified();
 }
 
 void Spawner::execute(const QString &command, const QStringList &arguments, std::function<void ()> done)

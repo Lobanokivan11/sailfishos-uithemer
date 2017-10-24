@@ -27,9 +27,10 @@ INSTALLS += my_resources
 CONFIG += sailfishapp c++11
 
 SOURCES += src/sailfishos-uithemer.cpp \
-           src/iconpack.cpp \
-    src/exec.cpp \
-    src/spawner.cpp
+    src/spawner.cpp \
+    src/themepackmodel.cpp \
+    src/fontweightmodel.cpp \
+    src/themepack.cpp
 
 OTHER_FILES += qml/sailfishos-uithemer.qml \
     qml/cover/CoverPage.qml \
@@ -38,22 +39,10 @@ OTHER_FILES += qml/sailfishos-uithemer.qml \
     rpm/sailfishos-uithemer.yaml \
     sailfishos-uithemer.desktop \
     qml/js/*.js \
-    qml/components/TButton.qml \
-    qml/components/SLabel.qml \
     qml/components/AboutLanguage.qml \
     qml/components/AboutTranslator.qml \
     qml/common/Settings.qml \
-    qml/pages/MainPage.qml \
-    qml/pages/Confirm.qml \
-    qml/pages/Restore.qml \
-    qml/pages/About.qml \
-    qml/components/Placeholder.qml \
-    qml/pages/Uninstall.qml \
-    qml/pages/DdensityPage.qml \
-    qml/pages/Tools.qml \
-    qml/pages/AutoUpdPage.qml \
-    qml/pages/MenuPage.qml \
-    qml/pages/Guide.qml
+    qml/pages/MainPage.qml
 
 SAILFISHAPP_ICONS = 86x86
 
@@ -62,6 +51,22 @@ CONFIG += sailfishapp_i18n
 TRANSLATIONS +=  translations/*.ts
 
 HEADERS += \
-    exec.h \
-    src/iconpack.h \
-    src/spawner.h
+    src/spawner.h \
+    src/themepackmodel.h \
+    src/fontweightmodel.h \
+    src/themepack.h
+
+DISTFILES += \
+    qml/components/themepacklistview/ThemePackListView.qml \
+    qml/components/dockedbar/DockedBar.qml \
+    qml/components/BackgroundRectangle.qml \
+    qml/components/themepacklistview/ThemePackItem.qml \
+    qml/pages/ConfirmPage.qml \
+    qml/pages/RestorePage.qml \
+    qml/views/DensityView.qml \
+    qml/views/MenuView.qml \
+    qml/pages/menu/ToolsPage.qml \
+    qml/pages/menu/AboutPage.qml \
+    qml/pages/menu/GuidePage.qml \
+    qml/pages/menu/IconUpdaterPage.qml \
+    qml/js/Database.js
