@@ -348,7 +348,7 @@
     </message>
     <message>
         <source>Uninstalling %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 wordt verwijderd</translation>
     </message>
     <message>
         <source>Restore</source>
@@ -356,7 +356,7 @@
     </message>
     <message>
         <source>Refresh</source>
-        <translation type="unfinished"></translation>
+        <translation>Verversen</translation>
     </message>
 </context>
 <context>

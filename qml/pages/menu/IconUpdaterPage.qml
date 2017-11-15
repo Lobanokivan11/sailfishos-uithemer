@@ -33,7 +33,7 @@ Page
 
             ComboBox {
                 function applyUpdater(setting, hours) {
-                    settings.autoupd = setting;
+                    settings.autoUpdate = setting;
 
                     if(setting === 0)
                         themePack.disableService();
@@ -49,7 +49,7 @@ Page
                 id: cbxupdate
                 width: parent.width
                 label: qsTr("Update icons")
-                currentIndex: settings.autoupd
+                currentIndex: settings.autoUpdate
 
                 menu: ContextMenu {
                     MenuItem { text: qsTr("Disabled"); onClicked: cbxupdate.applyUpdater(0) }
