@@ -2,12 +2,20 @@ import QtQuick 2.0
 import Sailfish.Silica 1.0
 import harbour.uithemer 1.0
 import "../../components"
+import org.nemomobile.configuration 1.0
 
 Page
 {
     property ThemePack themePack
 
     id: iconupdaterpage
+
+    ConfigurationGroup {
+        id: autoupd
+        path: "/desktop/lipstick/sailfishos-uithemer"
+        property bool homeRefresh: true
+        property int autoUpdate: 0
+    }
 
     SilicaFlickable
     {
@@ -33,7 +41,7 @@ Page
 
             ComboBox {
                 function applyUpdater(setting, hours) {
-                    settings.autoUpdate = setting;
+                    autoupd.autoUpdate = setting;
 
                     if(setting === 0)
                         themePack.disableService();
@@ -49,7 +57,7 @@ Page
                 id: cbxupdate
                 width: parent.width
                 label: qsTr("Update icons")
-                currentIndex: settings.autoUpdate
+                currentIndex: autoupd.autoUpdate
 
                 menu: ContextMenu {
                     MenuItem { text: qsTr("Disabled"); onClicked: cbxupdate.applyUpdater(0) }
