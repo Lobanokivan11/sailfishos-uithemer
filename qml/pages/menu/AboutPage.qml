@@ -27,7 +27,7 @@ Page
                 Image { id: appicon; anchors.horizontalCenter: parent.horizontalCenter; source: "../../../appinfo.png" }
             }
 
-            Label { anchors.horizontalCenter: parent.horizontalCenter; color: Theme.highlightColor; text: "UI Themer 1.0.1" }
+            Label { anchors.horizontalCenter: parent.horizontalCenter; color: Theme.highlightColor; text: "UI Themer 1.0.2" }
 
             Label {
                 x: Theme.paddingLarge
@@ -141,6 +141,10 @@ Page
 
               AboutLanguage { text: "Italiano" }
               AboutTranslator { text: "Francesco Vaccaro" }
+              Item { width: parent.width; height: Theme.paddingLarge }
+
+              AboutLanguage { text: "Magyar" }
+              AboutTranslator { text: "Szabó G." }
               Item { width: parent.width; height: Theme.paddingLarge }
 
               AboutLanguage { text: "Nederlands" }

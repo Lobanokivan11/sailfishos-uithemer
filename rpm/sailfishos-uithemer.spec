@@ -13,8 +13,8 @@ Name:       sailfishos-uithemer
 %{!?qtc_make:%define qtc_make make}
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:        UI Themer
-Version:        1.0.1
-Release:        2
+Version:        1.0.2
+Release:        1
 Group:          Qt/Qt
 License:        GPLv3
 Packager:       fravaccaro <fravaccaro@jollacommunity.it>
@@ -91,6 +91,9 @@ if [ "$1" = "1" ]; then
 fi
 
 %changelog
+* Mon Feb 19 2018 1.0.2
+- Translations updated.
+
 * Wed Nov 15 2017 1.0.1
 - Auto-updater fixed.
 
