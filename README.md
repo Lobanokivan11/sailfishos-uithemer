@@ -22,7 +22,11 @@ Documentation on how to create theme packs available [here](https://fravaccaro.g
 
 ## Translate
 
-Request a new language or contribute to existing languages on the [Transifex project page](https://www.transifex.com/fravaccaro/ui-themer).
+Languages supported:
+
+[![Languages supported](https://www.transifex.com/_/charts/redirects/fravaccaro/ui-themer/image_png/sailfishos-uithemerts)](https://www.transifex.com/fravaccaro/ui-themer/dashboard/)
+
+Request a new language or contribute to existing languages on the [Transifex project page](https://www.transifex.com/fravaccaro/ui-themer/dashboard/).
 
 ## Builds
 
