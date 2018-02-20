@@ -2,8 +2,7 @@
 
 UI Themer lets customize icons, fonts and pixel density in Sailfish OS. Graphical User Interface for [Theme pack support](https://fravaccaro.github.io/themepacksupport-sailfishos/).
 
-[![GitHub license](https://img.shields.io/github/license/fravaccaro/sailfishos-uithemer.svg)](https://github.com/fravaccaro/sailfishos-uithemer/blob/master/LICENSE) [![GitHub issues](https://img.shields.io/github/issues/fravaccaro/sailfishos-uithemer.svg)](https://github.com/fravaccaro/sailfishos-uithemer/issues) [![GitHub releases](https://img.shields.io/github/release/fravaccaro/themepacksupport-sailfishos.svg)](https://github.com/fravaccaro/themepacksupport-sailfishos/releases/latest)
-
+[![GitHub license](https://img.shields.io/github/license/fravaccaro/sailfishos-uithemer.svg)](https://github.com/fravaccaro/sailfishos-uithemer/blob/master/LICENSE) [![GitHub issues](https://img.shields.io/github/issues/fravaccaro/sailfishos-uithemer.svg)](https://github.com/fravaccaro/sailfishos-uithemer/issues) [![GitHub releases](https://img.shields.io/github/release/fravaccaro/themepacksupport-sailfishos.svg)](https://github.com/fravaccaro/themepacksupport-sailfishos/releases/latest) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/fravaccaro)
 
 ## Features
 
