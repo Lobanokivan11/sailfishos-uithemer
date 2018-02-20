@@ -32,7 +32,7 @@ A usage guide is available [here](docs/guide.md).
 
 ## Roadmap
 
-Roadmap and features will be tracked on the [Trello dashboard](https://trello.com/b/WwLwj2eu/ui-themer).
+Roadmap and features will be tracked on the [Trello dashboard](https://trello.com/b/WwLwj2eu).
 
 ## Credits
 
