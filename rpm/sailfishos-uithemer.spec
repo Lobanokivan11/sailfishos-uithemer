@@ -13,14 +13,15 @@ Name:       sailfishos-uithemer
 %{!?qtc_make:%define qtc_make make}
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:        UI Themer
-Version:        1.0.2
-Release:        1
+Version:        1.0.3
+Release:        8
 Group:          Qt/Qt
 License:        GPLv3
 Packager:       fravaccaro <fravaccaro@jollacommunity.it>
 URL:            https://github.com/fravaccaro/sailfishos-uithemer
 Source0:        %{name}-%{version}.tar.bz2
 Source100:      sailfishos-uithemer.yaml
+Requires:       sailfish-version >= 2.1.0, harbour-themepacksupport >= 0.5.6-2
 BuildRequires:  pkgconfig(sailfishapp) >= 1.0.2
 BuildRequires:  pkgconfig(Qt5Core)
 BuildRequires:  pkgconfig(Qt5Qml)
@@ -91,6 +92,10 @@ if [ "$1" = "1" ]; then
 fi
 
 %changelog
+* Wed Feb 21 2018 1.0.3
+- Preliminary icon size for Sailfish X (needs further testing).
+- One-click restore.
+
 * Mon Feb 19 2018 1.0.2
 - Translations updated.
 

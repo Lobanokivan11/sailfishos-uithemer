@@ -28,4 +28,4 @@ Here you can find advanced settings for UI Themer, e.g. reinstall default icons 
 
 ## Further help
 
-If you still can't get the help you need, you can open an issue on [GitHub](a href='https://github.com/fravaccaro/sailfishos-uithemer/issues).
+If you still can't get the help you need, you can open an [issue on GitHub](https://github.com/fravaccaro/sailfishos-uithemer/issues).

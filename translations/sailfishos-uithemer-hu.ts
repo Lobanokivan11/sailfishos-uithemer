@@ -165,6 +165,22 @@
         <source>Change the Android DPI value. To a smaller value corresponds an higher density.&lt;br&gt;&lt;br&gt;Remember to restart the Android support or the homescreen right after.</source>
         <translation>Android DPI érték megváltoztatása. Kissebb érték nagyobb sűrűségnek felel meg.&lt;br&gt;&lt;br&gt;Ne felejtsd újraindítani az Android támogatást, vagy a kezdőképernyőt utána.</translation>
     </message>
+    <message>
+        <source>Restore icon size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Restoring icon size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Icon size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Change the size of UI icons. To a greater value corresponds an huger size.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>GuidePage</name>
@@ -286,10 +302,6 @@
 <context>
     <name>MenuView</name>
     <message>
-        <source>More</source>
-        <translation>Több</translation>
-    </message>
-    <message>
         <source>Icon updater</source>
         <translation>Ikon frissítő</translation>
     </message>
@@ -304,6 +316,18 @@
     <message>
         <source>About UI Themer</source>
         <translation>Az UI Themer-ről</translation>
+    </message>
+    <message>
+        <source>UI Themer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Utility</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -416,6 +440,22 @@
     <message>
         <source>Reinstalling fonts</source>
         <translation>Betűk újratelepítése</translation>
+    </message>
+    <message>
+        <source>One-click restore</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation type="unfinished">Visszaállítás</translation>
+    </message>
+    <message>
+        <source>Restoring</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>UI Themer customizations must be reverted before performing a system update. With One-click restore you can automate this process and restore icons, fonts and display density settings with just one click.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

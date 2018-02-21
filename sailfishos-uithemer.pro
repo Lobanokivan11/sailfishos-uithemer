@@ -6,9 +6,11 @@ other/restore.sh \
 other/apply_font.sh \
 other/restore_fonts.sh \
 other/homescreen.sh \
+other/ocr.sh \
 other/apply_adpi.sh \
 other/restore_adpi.sh \
 other/restore_dpr.sh \
+other/restore_iz.sh \
 other/apply_hours.sh \
 other/disable_service.sh \
 other/enable_service.sh \
@@ -65,8 +67,8 @@ DISTFILES += \
     qml/pages/RestorePage.qml \
     qml/views/DensityView.qml \
     qml/views/MenuView.qml \
-    qml/pages/menu/ToolsPage.qml \
     qml/pages/menu/AboutPage.qml \
     qml/pages/menu/GuidePage.qml \
     qml/pages/menu/IconUpdaterPage.qml \
-    qml/js/Database.js
+    qml/js/Database.js \
+    qml/pages/menu/ToolsPage.qml

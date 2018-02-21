@@ -165,6 +165,22 @@
         <source>Change the Android DPI value. To a smaller value corresponds an higher density.&lt;br&gt;&lt;br&gt;Remember to restart the Android support or the homescreen right after.</source>
         <translation type="unfinished">Ändere deine Pixeldichte für die Androidapps. Ein kleiner Wert entspricht einer höheren Dichte.&lt;br&gt;&lt;br&gt;Dein Startbildschirm oder AlienDalvik muss neu gestartet werden, damit deine Änderungen übernommen werden. </translation>
     </message>
+    <message>
+        <source>Restore icon size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Restoring icon size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Icon size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Change the size of UI icons. To a greater value corresponds an huger size.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>GuidePage</name>
@@ -286,10 +302,6 @@
 <context>
     <name>MenuView</name>
     <message>
-        <source>More</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Icon updater</source>
         <translation type="unfinished"></translation>
     </message>
@@ -303,6 +315,18 @@
     </message>
     <message>
         <source>About UI Themer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>UI Themer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Utility</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Help</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -415,6 +439,22 @@
     </message>
     <message>
         <source>Reinstalling fonts</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>One-click restore</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation type="unfinished">Zurücksetzen</translation>
+    </message>
+    <message>
+        <source>Restoring</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>UI Themer customizations must be reverted before performing a system update. With One-click restore you can automate this process and restore icons, fonts and display density settings with just one click.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

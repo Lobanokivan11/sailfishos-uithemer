@@ -13,11 +13,17 @@ SilicaFlickable
         id: silica
         path: "/desktop/sailfish/silica"
         property real theme_pixel_ratio
+        property real theme_icon_subdir
     }
 
     ConfigurationValue {
         id: themepixelratio
         key: "/desktop/sailfish/silica/theme_pixel_ratio"
+    }
+
+    ConfigurationValue {
+        id: themeiconsubdir
+        key: "/desktop/sailfish/silica/theme_icon_subdir"
     }
 
     PullDownMenu
@@ -32,6 +38,20 @@ SilicaFlickable
                     notification.publish();
 
                     sladpi.value = themepack.droidDPI;
+                });
+            }
+        }
+
+        MenuItem {
+            text: qsTr("Restore icon size")
+            visible: themepack.getFileSize("harbour-themepacksupport/icon-z") > 0
+
+            onClicked: {
+                remorsepopup.execute(qsTr("Restoring icon size"), function() {
+                    themepack.restoreIZ();
+                    notification.publish();
+
+                    sliz.value = themeiconsubdir.value;
                 });
             }
         }
@@ -86,6 +106,37 @@ SilicaFlickable
                 wrapMode: Text.Wrap
                 textFormat: Text.RichText
                 text: qsTr("Change the display pixel ratio. To a smaller value corresponds an higher density.<br><br>Remember to restart the homescreen right after.")
+            }
+        }
+
+        Column
+        {
+            id: coliz
+            width: parent.width
+            visible: themepack.getFileSize("harbour-themepacksupport/icon-z") > 0
+
+            Slider {
+                id: sliz
+                width: parent.width
+                label: qsTr("Icon size")
+                maximumValue: 2.0
+                minimumValue: 1.0
+                stepSize: 0.25
+                value: silica.theme_icon_subdir
+                valueText: value
+                onPressAndHold: cancel()
+
+                onReleased: {
+                    silica.theme_icon_subdir = value;
+                }
+            }
+
+            Label {
+                x: Theme.paddingLarge
+                width: parent.width - 2 * Theme.paddingLarge
+                wrapMode: Text.Wrap
+                textFormat: Text.RichText
+                text: qsTr("Change the size of UI icons. To a greater value corresponds an huger size.<br><br>Remember to restart the homescreen right after.")
             }
         }
 

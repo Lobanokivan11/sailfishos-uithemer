@@ -69,6 +69,27 @@ Page
                 onClicked: remorsepopup.execute(qsTr("Restarting homescreen"), function() { themePack.restartHomescreen(); });
             }
 
+            SectionHeader { text: qsTr("One-click restore") }
+
+            Label {
+                x: Theme.paddingLarge
+                width: parent.width - (x * 2)
+                wrapMode: Text.Wrap
+                textFormat: Text.RichText
+                text: qsTr("UI Themer customizations must be reverted before performing a system update. With One-click restore you can automate this process and restore icons, fonts and display density settings with just one click.")
+            }
+
+            Button {
+                anchors.horizontalCenter: parent.horizontalCenter
+                text: qsTr("Restore")
+                onClicked: {
+                    remorsepopup.execute(qsTr("Restoring"), function() {
+                        busyindicator.running = true;
+                        themePack.ocr();
+                    });
+                }
+            }
+
             SectionHeader { text: qsTr("Icons") }
 
             Label {

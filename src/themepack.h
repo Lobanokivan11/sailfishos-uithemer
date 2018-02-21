@@ -18,13 +18,16 @@ class ThemePack : public QObject
         QString whoami() const;                         // function to test what user runs app
         QString getTimer() const;                       // gets hours from timer
         double droidDPI() const;
+        qint64 getFileSize(const QString& file);
         void restartHomescreen() const;
+        void ocr() const;
         void reinstallIcons() const;
         void reinstallFonts() const;
         void applyHours(const QString& hours) const;
         void applyADPI(const QString& adpi);
         void restoreADPI() const;
         void restoreDPR() const;                        // function to test what user runs app
+        void restoreIZ() const;
         void enableService() const;
         void disableService() const;
         void hideIcon() const;                          // hides icon of original app, so user does not have to have two same icons on home screen
@@ -35,6 +38,7 @@ class ThemePack : public QObject
     signals:
         void iconsRestored();
         void fontsRestored();
+        void ocrRestored();
         void droidDPIChanged();
 };
 

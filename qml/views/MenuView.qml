@@ -9,13 +9,13 @@ SilicaListView
     anchors.fill: parent
     anchors.bottomMargin: Theme.paddingLarge
 
-    header: PageHeader { title: qsTr("More") }
+    header: PageHeader { title: qsTr("UI Themer") }
 
     model: ListModel {
-        ListElement { title: qsTr("Icon updater"); page: "IconUpdaterPage.qml" }
-        ListElement { title: qsTr("Tools"); page: "ToolsPage.qml" }
-        ListElement { title: qsTr("Usage guide"); page: "GuidePage.qml" }
-        ListElement { title: qsTr("About UI Themer"); page: "AboutPage.qml" }
+        ListElement { title: qsTr("Icon updater"); page: "IconUpdaterPage.qml"; category: qsTr("Utility") }
+        ListElement { title: qsTr("Tools"); page: "ToolsPage.qml"; category: qsTr("Utility") }
+        ListElement { title: qsTr("Usage guide"); page: "GuidePage.qml"; category: qsTr("Help") }
+        ListElement { title: qsTr("About UI Themer"); page: "AboutPage.qml"; category: qsTr("Help") }
     }
 
     delegate: ListItem {
@@ -39,6 +39,14 @@ SilicaListView
 
         onClicked: pageStack.push(Qt.resolvedUrl("../pages/menu/" + model.page), { "themePack": themepack, "notification": notification })
     }
+
+    section {
+           property: "category"
+           criteria: ViewSection.FullString
+           delegate: SectionHeader {
+                   text: section
+               }
+           }
 
     VerticalScrollDecorator { }
 }

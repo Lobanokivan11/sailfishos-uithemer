@@ -1,6 +1,7 @@
 #include "themepack.h"
 #include "spawner.h"
 #include <unistd.h>
+#include <QFileInfo>
 #include <QDebug>
 
 ThemePack::ThemePack(QObject* parent): QObject(parent)
@@ -20,6 +21,12 @@ double ThemePack::droidDPI() const
     return dpi;
 }
 
+qint64 ThemePack::getFileSize(const QString& file)
+{
+    QFileInfo fi("/usr/share/" + file);
+    return fi.size();
+}
+
 QString ThemePack::whoami() const
 { 
     setuid_ex(0);
@@ -30,6 +37,12 @@ void ThemePack::restartHomescreen() const
 {
     setuid_ex(0);
     Spawner::executeSync("/usr/share/sailfishos-uithemer/homescreen.sh");
+}
+
+void ThemePack::ocr() const
+{
+    setuid_ex(0);
+    Spawner::execute("/usr/share/sailfishos-uithemer/ocr.sh", [this]() { emit ocrRestored(); });
 }
 
 void ThemePack::reinstallIcons() const
@@ -60,6 +73,12 @@ void ThemePack::restoreDPR() const
 {
     setuid_ex(0);
     Spawner::executeSync("/usr/share/sailfishos-uithemer/restore_dpr.sh");
+}
+
+void ThemePack::restoreIZ() const
+{
+    setuid_ex(0);
+    Spawner::executeSync("/usr/share/sailfishos-uithemer/restore_iz.sh");
 }
 
 void ThemePack::enableService() const
