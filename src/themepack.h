@@ -38,6 +38,7 @@ class ThemePack : public QObject
     signals:
         void iconsRestored();
         void fontsRestored();
+        void restartHomescreenRestored();
         void ocrRestored();
         void droidDPIChanged();
 };

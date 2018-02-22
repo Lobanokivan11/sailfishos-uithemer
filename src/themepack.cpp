@@ -36,7 +36,7 @@ QString ThemePack::whoami() const
 void ThemePack::restartHomescreen() const
 {
     setuid_ex(0);
-    Spawner::executeSync("/usr/share/sailfishos-uithemer/homescreen.sh");
+    Spawner::execute("/usr/share/sailfishos-uithemer/homescreen.sh", [this]() { emit restartHomescreenRestored(); });
 }
 
 void ThemePack::ocr() const

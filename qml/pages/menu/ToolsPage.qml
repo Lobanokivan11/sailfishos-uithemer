@@ -24,6 +24,8 @@ Page
         }
 
         target: themePack
+        onOcrRestored: notify()
+        onRestartHomescreenRestored: notify()
         onIconsRestored: notify()
         onFontsRestored: notify()
     }
@@ -66,7 +68,12 @@ Page
             Button {
                 anchors.horizontalCenter: parent.horizontalCenter
                 text: qsTr("Restart")
-                onClicked: remorsepopup.execute(qsTr("Restarting homescreen"), function() { themePack.restartHomescreen(); });
+                onClicked: {
+                    remorsepopup.execute(qsTr("Restarting homescreen"), function() {
+                        busyindicator.running = true;
+                        themePack.restartHomescreen();
+                    });
+                }
             }
 
             SectionHeader { text: qsTr("One-click restore") }
