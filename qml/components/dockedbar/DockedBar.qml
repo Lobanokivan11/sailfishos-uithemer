@@ -46,10 +46,10 @@ Item
             margins: Theme.paddingLarge
         }
 
-        icon.source: "image://theme/icon-m-menu"
+        icon.source: "image://theme/icon-m-developer-mode"
 
         onClicked: {
-            loader.source = Qt.resolvedUrl("../../views/MenuView.qml");
+            loader.source = Qt.resolvedUrl("../../views/ToolsView.qml");
         }
     }
 }

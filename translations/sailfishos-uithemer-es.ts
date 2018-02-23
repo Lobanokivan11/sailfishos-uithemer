@@ -20,14 +20,6 @@
         <translation type="unfinished">Fuentes</translation>
     </message>
     <message>
-        <source>CLI tool</source>
-        <translation type="unfinished">Herramienta CLI</translation>
-    </message>
-    <message>
-        <source>If anything goes wrong or you want to manage all the options via terminal, you can recall the CLI tool by typing &lt;b&gt;themepacksupport&lt;/b&gt; as root.</source>
-        <translation type="unfinished">Si algo sale mal o quieres controlar todas las opciones a través del terminal, puedes recuperar la herramienta CLI tecleando&lt;b&gt;themepacksupport&lt;/b&gt; como root.</translation>
-    </message>
-    <message>
         <source>Developers</source>
         <translation type="unfinished">Desarrolladores</translation>
     </message>
@@ -193,10 +185,6 @@
         <translation type="unfinished">UI Themer permite configurar iconos, fuentes y densidad del pixel en Sailfish OS.</translation>
     </message>
     <message>
-        <source>Remember to unapply themes and display density customizations before updating your system. In case you forgot, you may need to use the options provided in the &lt;i&gt;Tools&lt;/i&gt; page or uninstall and reinstall UI Themer.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>UI Themer is divided into three main sections, which provide you icons, fonts and display density customization, alongside additional options.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -229,10 +217,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Tools</source>
-        <translation type="unfinished">Herramientas</translation>
-    </message>
-    <message>
         <source>Here you can find advanced settings for UI Themer, e.g. reinstall default icons or fonts if you forget to revert to default theme before a system update or if the applying fails.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -244,51 +228,28 @@
         <source>If you still can&apos;t get the help you need, you can open an issue on &lt;a href=&apos;https://github.com/fravaccaro/sailfishos-uithemer/issues&apos;&gt;GitHub&lt;/a&gt;.</source>
         <translation type="unfinished"></translation>
     </message>
-</context>
-<context>
-    <name>IconUpdaterPage</name>
     <message>
-        <source>Icon updater</source>
-        <translation type="unfinished">Actualizador de iconos</translation>
-    </message>
-    <message>
-        <source>Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. The Icon updater will automate this process, enabling automatic update of icons at a given time.</source>
-        <translation type="unfinished">Cada vez que se actualiza una aplicación, necesitas volver a aplicar el tema para obtener el icono personalizado de nuevo. El actualizador de iconos automatizará este proceso, permitiendo la actualización automática de los iconos en un momento dado.</translation>
-    </message>
-    <message>
-        <source>Update icons</source>
+        <source>One-click restore</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Disabled</source>
+        <source>UI Themer customizations must be reverted before performing a system update. With One-click restore you can automate this process and restore icons, fonts and display density settings with just one click.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>30 minutes</source>
+        <source>Recovery</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>1 hour</source>
-        <translation type="unfinished"></translation>
+        <source>CLI tool</source>
+        <translation type="unfinished">Herramienta CLI</translation>
     </message>
     <message>
-        <source>2 hours</source>
-        <translation type="unfinished"></translation>
+        <source>If anything goes wrong or you want to manage all the options via terminal, you can recall the CLI tool by typing &lt;b&gt;themepacksupport&lt;/b&gt; as root.</source>
+        <translation type="unfinished">Si algo sale mal o quieres controlar todas las opciones a través del terminal, puedes recuperar la herramienta CLI tecleando&lt;b&gt;themepacksupport&lt;/b&gt; como root.</translation>
     </message>
     <message>
-        <source>3 hours</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>6 hours</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>12 hours</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Daily</source>
+        <source>Remember to unapply themes and display density customizations before updating your system. In case you forgot, you may need to use the options provided in the &lt;i&gt;Recovery&lt;/i&gt; page or uninstall and reinstall Theme pack support e UI Themer.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -300,34 +261,46 @@
     </message>
 </context>
 <context>
-    <name>MenuView</name>
+    <name>RecoveryPage</name>
     <message>
-        <source>Icon updater</source>
-        <translation type="unfinished">Actualizador de iconos</translation>
-    </message>
-    <message>
-        <source>Tools</source>
-        <translation type="unfinished">Herramientas</translation>
-    </message>
-    <message>
-        <source>Usage guide</source>
+        <source>Recovery</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>About UI Themer</source>
-        <translation type="unfinished">Acerca de UI Themer</translation>
-    </message>
-    <message>
-        <source>UI Themer</source>
+        <source>Here you can find some recovery tools in case anything goes wrong (eg if you forget to restore the default theme before performing a system update).&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Utility</source>
-        <translation type="unfinished"></translation>
+        <source>Icons</source>
+        <translation type="unfinished">Iconos</translation>
     </message>
     <message>
-        <source>Help</source>
-        <translation type="unfinished"></translation>
+        <source>If any error occurs during themes applying/restoring, you can end up with messed up icons. From here, you can reinstall default Jolla app icons while, for thirdy party apps, you may need to reinstall/update apps to restore the default look.</source>
+        <translation type="unfinished">Si se produce algún error durante la aplicación/restauración de los temas, puede terminar con iconos desordenado. Desde aquí, puede reinstalar los iconos predeterminados de Jolla, para aplicaciones de terceros, es posible que deba reinstalar/actualizar las para restaurar el aspecto predeterminado.</translation>
+    </message>
+    <message>
+        <source>Reinstall icons</source>
+        <translation type="unfinished">Reinstalar iconos</translation>
+    </message>
+    <message>
+        <source>Reinstalling icons</source>
+        <translation type="unfinished">Reinstalando iconos</translation>
+    </message>
+    <message>
+        <source>Fonts</source>
+        <translation type="unfinished">Fuentes</translation>
+    </message>
+    <message>
+        <source>Reinstall default fonts, if font applying/restoring fails.</source>
+        <translation type="unfinished">Reinstalar fuentes por defecto. Si falla la aplicación/restauración de la fuente.</translation>
+    </message>
+    <message>
+        <source>Reinstall fonts</source>
+        <translation type="unfinished">Reinstalar fuentes</translation>
+    </message>
+    <message>
+        <source>Reinstalling fonts</source>
+        <translation type="unfinished">Reinstalando fuentes</translation>
     </message>
 </context>
 <context>
@@ -382,15 +355,27 @@
         <source>Refresh</source>
         <translation type="unfinished"></translation>
     </message>
-</context>
-<context>
-    <name>ToolsPage</name>
     <message>
-        <source>Tools</source>
-        <translation type="unfinished">Herramientas</translation>
+        <source>No themes yet</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Here you can find some recovery tools in case anything goes wrong (eg if you forget to restore the default theme before performing a system update).&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
+        <source>Install a compatible theme first</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ToolsView</name>
+    <message>
+        <source>About UI Themer</source>
+        <translation type="unfinished">Acerca de UI Themer</translation>
+    </message>
+    <message>
+        <source>Usage guide</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Recovery</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -410,39 +395,11 @@
         <translation type="unfinished">Reiniciando pantalla de inicio</translation>
     </message>
     <message>
-        <source>Icons</source>
-        <translation type="unfinished">Iconos</translation>
-    </message>
-    <message>
-        <source>If any error occurs during themes applying/restoring, you can end up with messed up icons. From here, you can reinstall default Jolla app icons while, for thirdy party apps, you may need to reinstall/update apps to restore the default look.</source>
-        <translation type="unfinished">Si se produce algún error durante la aplicación/restauración de los temas, puede terminar con iconos desordenado. Desde aquí, puede reinstalar los iconos predeterminados de Jolla, para aplicaciones de terceros, es posible que deba reinstalar/actualizar las para restaurar el aspecto predeterminado.</translation>
-    </message>
-    <message>
-        <source>Reinstall icons</source>
-        <translation type="unfinished">Reinstalar iconos</translation>
-    </message>
-    <message>
-        <source>Reinstalling icons</source>
-        <translation type="unfinished">Reinstalando iconos</translation>
-    </message>
-    <message>
-        <source>Fonts</source>
-        <translation type="unfinished">Fuentes</translation>
-    </message>
-    <message>
-        <source>Reinstall default fonts, if font applying/restoring fails.</source>
-        <translation type="unfinished">Reinstalar fuentes por defecto. Si falla la aplicación/restauración de la fuente.</translation>
-    </message>
-    <message>
-        <source>Reinstall fonts</source>
-        <translation type="unfinished">Reinstalar fuentes</translation>
-    </message>
-    <message>
-        <source>Reinstalling fonts</source>
-        <translation type="unfinished">Reinstalando fuentes</translation>
-    </message>
-    <message>
         <source>One-click restore</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>UI Themer customizations must be reverted before performing a system update. With One-click restore you can automate this process and restore icons, fonts and display density settings with just one click.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -454,7 +411,51 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>UI Themer customizations must be reverted before performing a system update. With One-click restore you can automate this process and restore icons, fonts and display density settings with just one click.</source>
+        <source>Icon updater</source>
+        <translation type="unfinished">Actualizador de iconos</translation>
+    </message>
+    <message>
+        <source>Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. The Icon updater will automate this process, enabling automatic update of icons at a given time.</source>
+        <translation type="unfinished">Cada vez que se actualiza una aplicación, necesitas volver a aplicar el tema para obtener el icono personalizado de nuevo. El actualizador de iconos automatizará este proceso, permitiendo la actualización automática de los iconos en un momento dado.</translation>
+    </message>
+    <message>
+        <source>Update icons</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Disabled</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>30 minutes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>1 hour</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>2 hours</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>3 hours</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>6 hours</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>12 hours</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Daily</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Tools</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

@@ -66,9 +66,8 @@ DISTFILES += \
     qml/pages/ConfirmPage.qml \
     qml/pages/RestorePage.qml \
     qml/views/DensityView.qml \
-    qml/views/MenuView.qml \
     qml/pages/menu/AboutPage.qml \
     qml/pages/menu/GuidePage.qml \
-    qml/pages/menu/IconUpdaterPage.qml \
     qml/js/Database.js \
-    qml/pages/menu/ToolsPage.qml
+    qml/pages/menu/RecoveryPage.qml \
+    qml/views/ToolsView.qml

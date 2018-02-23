@@ -75,6 +75,7 @@ SilicaFlickable
         id: content
         width: parent.width
         spacing: Theme.paddingMedium
+        anchors.bottomMargin: Theme.paddingLarge
 
         PageHeader { title: qsTr("Display density") }
         SectionHeader { text: qsTr("Device pixel ratio") }

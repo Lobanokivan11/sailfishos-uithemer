@@ -32,7 +32,7 @@ Page
                 width: parent.width - (x * 2)
                 wrapMode: Text.Wrap
                 textFormat: Text.RichText
-                text: qsTr("Remember to unapply themes and display density customizations before updating your system. In case you forgot, you may need to use the options provided in the <i>Tools</i> page or uninstall and reinstall UI Themer.")
+                text: qsTr("Remember to unapply themes and display density customizations before updating your system. In case you forgot, you may need to use the options provided in the <i>Recovery</i> page or uninstall and reinstall Theme pack support e UI Themer.")
             }
 
             Label {
@@ -87,13 +87,35 @@ Page
                 text: qsTr("Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. The Icon updater will automate this process, enabling automatic update of icons at a given time. You can choose between a pre-defined set of hours or a custom hour of the day.")
             }
 
-            SectionHeader { text: qsTr("Tools") }
+            SectionHeader { text: qsTr("One-click restore") }
+
+            Label {
+                x: Theme.paddingLarge
+                width: parent.width - (x * 2)
+                wrapMode: Text.Wrap
+                textFormat: Text.RichText
+                onLinkActivated: Qt.openUrlExternally(link)
+                text: qsTr("UI Themer customizations must be reverted before performing a system update. With One-click restore you can automate this process and restore icons, fonts and display density settings with just one click.")
+            }
+
+            SectionHeader { text: qsTr("Recovery") }
 
             Label {
                 x: Theme.paddingLarge
                 width: parent.width - (x * 2)
                 wrapMode: Text.Wrap
                 text: qsTr("Here you can find advanced settings for UI Themer, e.g. reinstall default icons or fonts if you forget to revert to default theme before a system update or if the applying fails.")
+            }
+
+            SectionHeader { text: qsTr("CLI tool") }
+
+            Label {
+                x: Theme.paddingLarge
+                width: parent.width - (x * 2)
+                wrapMode: Text.Wrap
+                textFormat: Text.RichText
+                onLinkActivated: Qt.openUrlExternally(link)
+                text: qsTr("If anything goes wrong or you want to manage all the options via terminal, you can recall the CLI tool by typing <b>themepacksupport</b> as root.")
             }
 
             SectionHeader { text: qsTr("Further help") }

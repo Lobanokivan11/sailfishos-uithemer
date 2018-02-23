@@ -20,14 +20,6 @@
         <translation>Források</translation>
     </message>
     <message>
-        <source>CLI tool</source>
-        <translation>CLI eszköz</translation>
-    </message>
-    <message>
-        <source>If anything goes wrong or you want to manage all the options via terminal, you can recall the CLI tool by typing &lt;b&gt;themepacksupport&lt;/b&gt; as root.</source>
-        <translation>Ha bármi rosszul sül el, vagy a terminalon akarsz kezelni minden opciót, előhívhatod a CLI eszközt  a &lt;b&gt;themepacksupport&lt;/b&gt; beírásával mint root.</translation>
-    </message>
-    <message>
         <source>Developers</source>
         <translation>Fejlesztők</translation>
     </message>
@@ -193,10 +185,6 @@
         <translation>Az UI Themer-rel testreszabhatod a Sailfish OS ikonjait, betűit, és a pixelsűrűséget.</translation>
     </message>
     <message>
-        <source>Remember to unapply themes and display density customizations before updating your system. In case you forgot, you may need to use the options provided in the &lt;i&gt;Tools&lt;/i&gt; page or uninstall and reinstall UI Themer.</source>
-        <translation>Rendszerfrissítés előtt állítsd vissza a témát, és a kijelző sűrűség testreszabásait. Ha esetleg elfelejted, használhatod az &lt;i&gt;Eszközök&lt;/i&gt; oldal által kínált opciókat, vagy eltávolíthatod, és újratelepítheted az UI Themer-t.</translation>
-    </message>
-    <message>
         <source>UI Themer is divided into three main sections, which provide you icons, fonts and display density customization, alongside additional options.</source>
         <translation>Az UI Themer három fő részre van osztva, melyek ikonok, betűk, és kijelzősűrűség testreszabhatóságot kínálnak egyéb opciók mellett.</translation>
     </message>
@@ -229,10 +217,6 @@
         <translation>Minden alkalommal, amikor egy alkalmazás frissül, újra kell alkalmaznod a témát, hogy a testreszabott ikont visszakapd. Az ikonfrissítő automatizálja a folyamatot, bizonyos időközönként automatikusan frissítve az ikonokat. Választhatsz az előre megadott időköz, vagy a nap egy bizonyos órája között.</translation>
     </message>
     <message>
-        <source>Tools</source>
-        <translation>Eszközök</translation>
-    </message>
-    <message>
         <source>Here you can find advanced settings for UI Themer, e.g. reinstall default icons or fonts if you forget to revert to default theme before a system update or if the applying fails.</source>
         <translation>Itt találod az UI Themer haladó beállításait, pl. újratelepítheted az alapértelmezett ikonokat, ha elfelejtetted visszaállítani az alapértelmezett témát rendszerfrissítés előtt, vagy ha az alkalmazásuk nem sikerül.</translation>
     </message>
@@ -244,52 +228,29 @@
         <source>If you still can&apos;t get the help you need, you can open an issue on &lt;a href=&apos;https://github.com/fravaccaro/sailfishos-uithemer/issues&apos;&gt;GitHub&lt;/a&gt;.</source>
         <translation>Ha még mindig nem találod a segítséget, amire szükséged van, nyithatsz egy issue-t a &lt;a href=&apos;https://github.com/fravaccaro/sailfishos-uithemer/issues&apos;&gt;GitHub&lt;/a&gt;-on.</translation>
     </message>
-</context>
-<context>
-    <name>IconUpdaterPage</name>
     <message>
-        <source>Icon updater</source>
-        <translation>Ikon frissítő</translation>
+        <source>One-click restore</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. The Icon updater will automate this process, enabling automatic update of icons at a given time.</source>
-        <translation>Minden alkalommal, amikor egy alkalmazás frissül, újra kell alkalmaznod a témát, hogy a testreszabott ikont visszakapd. Az ikonfrissítő automatizálja a folyamatot, bizonyos időközönként automatikusan frissítve az ikonokat.</translation>
+        <source>UI Themer customizations must be reverted before performing a system update. With One-click restore you can automate this process and restore icons, fonts and display density settings with just one click.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Update icons</source>
-        <translation>Ikonok frissítése</translation>
+        <source>Recovery</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Disabled</source>
-        <translation>Kikapcsolva</translation>
+        <source>CLI tool</source>
+        <translation type="unfinished">CLI eszköz</translation>
     </message>
     <message>
-        <source>30 minutes</source>
-        <translation>30 perc</translation>
+        <source>If anything goes wrong or you want to manage all the options via terminal, you can recall the CLI tool by typing &lt;b&gt;themepacksupport&lt;/b&gt; as root.</source>
+        <translation type="unfinished">Ha bármi rosszul sül el, vagy a terminalon akarsz kezelni minden opciót, előhívhatod a CLI eszközt  a &lt;b&gt;themepacksupport&lt;/b&gt; beírásával mint root.</translation>
     </message>
     <message>
-        <source>1 hour</source>
-        <translation>1 óra</translation>
-    </message>
-    <message>
-        <source>2 hours</source>
-        <translation>2 óra</translation>
-    </message>
-    <message>
-        <source>3 hours</source>
-        <translation>3 óra</translation>
-    </message>
-    <message>
-        <source>6 hours</source>
-        <translation>6 óra</translation>
-    </message>
-    <message>
-        <source>12 hours</source>
-        <translation>12 óra</translation>
-    </message>
-    <message>
-        <source>Daily</source>
-        <translation>Naponta</translation>
+        <source>Remember to unapply themes and display density customizations before updating your system. In case you forgot, you may need to use the options provided in the &lt;i&gt;Recovery&lt;/i&gt; page or uninstall and reinstall Theme pack support e UI Themer.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -300,34 +261,46 @@
     </message>
 </context>
 <context>
-    <name>MenuView</name>
+    <name>RecoveryPage</name>
     <message>
-        <source>Icon updater</source>
-        <translation>Ikon frissítő</translation>
-    </message>
-    <message>
-        <source>Tools</source>
-        <translation>Eszközök</translation>
-    </message>
-    <message>
-        <source>Usage guide</source>
-        <translation>Használati útmutató</translation>
-    </message>
-    <message>
-        <source>About UI Themer</source>
-        <translation>Az UI Themer-ről</translation>
-    </message>
-    <message>
-        <source>UI Themer</source>
+        <source>Recovery</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Utility</source>
-        <translation type="unfinished"></translation>
+        <source>Here you can find some recovery tools in case anything goes wrong (eg if you forget to restore the default theme before performing a system update).&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
+        <translation type="unfinished">Itt találhatsz néhány helyreállítási eszközt, ha bármi balul sül el (pl. ha elfelejtetted visszaállítani az alapértelmezett témát rendszerfrissítés előtt).&lt;br&gt;&lt;br&gt;Ne felejtsd újraindítani a kezdőképernyőt utána.</translation>
     </message>
     <message>
-        <source>Help</source>
-        <translation type="unfinished"></translation>
+        <source>Icons</source>
+        <translation type="unfinished">Ikonok</translation>
+    </message>
+    <message>
+        <source>If any error occurs during themes applying/restoring, you can end up with messed up icons. From here, you can reinstall default Jolla app icons while, for thirdy party apps, you may need to reinstall/update apps to restore the default look.</source>
+        <translation type="unfinished">Ha bármilyen hiba jelentkezik téma alkalmazáskor/visszaállításkor, rontott ikonok maradhatnak a készüléken. Innen újratelepítheted a Jolla alapértelmezett ikonjait, míg a harmadik féltől származó alkalmazások ikonjainak helyreállításához újra kell telepítened/frissítened kell az alkalmazást.</translation>
+    </message>
+    <message>
+        <source>Reinstall icons</source>
+        <translation type="unfinished">Ikonok újratelepítése</translation>
+    </message>
+    <message>
+        <source>Reinstalling icons</source>
+        <translation type="unfinished">Ikonok újratelepítése</translation>
+    </message>
+    <message>
+        <source>Fonts</source>
+        <translation type="unfinished">Betűk</translation>
+    </message>
+    <message>
+        <source>Reinstall default fonts, if font applying/restoring fails.</source>
+        <translation type="unfinished">Alapértelmezett betűk újratelepítése, ha a betű alkalmazás/visszaállítása nem sikerül.</translation>
+    </message>
+    <message>
+        <source>Reinstall fonts</source>
+        <translation type="unfinished">Betűk újratelepítése</translation>
+    </message>
+    <message>
+        <source>Reinstalling fonts</source>
+        <translation type="unfinished">Betűk újratelepítése</translation>
     </message>
 </context>
 <context>
@@ -382,67 +355,51 @@
         <source>Refresh</source>
         <translation>Frissítés</translation>
     </message>
-</context>
-<context>
-    <name>ToolsPage</name>
     <message>
-        <source>Tools</source>
-        <translation>Eszközök</translation>
+        <source>No themes yet</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Here you can find some recovery tools in case anything goes wrong (eg if you forget to restore the default theme before performing a system update).&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
-        <translation>Itt találhatsz néhány helyreállítási eszközt, ha bármi balul sül el (pl. ha elfelejtetted visszaállítani az alapértelmezett témát rendszerfrissítés előtt).&lt;br&gt;&lt;br&gt;Ne felejtsd újraindítani a kezdőképernyőt utána.</translation>
+        <source>Install a compatible theme first</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ToolsView</name>
+    <message>
+        <source>About UI Themer</source>
+        <translation type="unfinished">Az UI Themer-ről</translation>
+    </message>
+    <message>
+        <source>Usage guide</source>
+        <translation type="unfinished">Használati útmutató</translation>
+    </message>
+    <message>
+        <source>Recovery</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Restart homescreen</source>
-        <translation>Kezdőképernyő újraindítása</translation>
+        <translation type="unfinished">Kezdőképernyő újraindítása</translation>
     </message>
     <message>
         <source>Restart the homescreen, to make your modifications effective. Your currently opened apps will be closed.</source>
-        <translation>Indítsd újra a kezdőképernyőt, hogy a módosítások életbe lépjenek. A jelenleg nyitva lévő alkalmazások be fognak záródni.</translation>
+        <translation type="unfinished">Indítsd újra a kezdőképernyőt, hogy a módosítások életbe lépjenek. A jelenleg nyitva lévő alkalmazások be fognak záródni.</translation>
     </message>
     <message>
         <source>Restart</source>
-        <translation>Újraindítás</translation>
+        <translation type="unfinished">Újraindítás</translation>
     </message>
     <message>
         <source>Restarting homescreen</source>
-        <translation>Kezdőképernyő újraindítása</translation>
-    </message>
-    <message>
-        <source>Icons</source>
-        <translation>Ikonok</translation>
-    </message>
-    <message>
-        <source>If any error occurs during themes applying/restoring, you can end up with messed up icons. From here, you can reinstall default Jolla app icons while, for thirdy party apps, you may need to reinstall/update apps to restore the default look.</source>
-        <translation>Ha bármilyen hiba jelentkezik téma alkalmazáskor/visszaállításkor, rontott ikonok maradhatnak a készüléken. Innen újratelepítheted a Jolla alapértelmezett ikonjait, míg a harmadik féltől származó alkalmazások ikonjainak helyreállításához újra kell telepítened/frissítened kell az alkalmazást.</translation>
-    </message>
-    <message>
-        <source>Reinstall icons</source>
-        <translation>Ikonok újratelepítése</translation>
-    </message>
-    <message>
-        <source>Reinstalling icons</source>
-        <translation>Ikonok újratelepítése</translation>
-    </message>
-    <message>
-        <source>Fonts</source>
-        <translation>Betűk</translation>
-    </message>
-    <message>
-        <source>Reinstall default fonts, if font applying/restoring fails.</source>
-        <translation>Alapértelmezett betűk újratelepítése, ha a betű alkalmazás/visszaállítása nem sikerül.</translation>
-    </message>
-    <message>
-        <source>Reinstall fonts</source>
-        <translation>Betűk újratelepítése</translation>
-    </message>
-    <message>
-        <source>Reinstalling fonts</source>
-        <translation>Betűk újratelepítése</translation>
+        <translation type="unfinished">Kezdőképernyő újraindítása</translation>
     </message>
     <message>
         <source>One-click restore</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>UI Themer customizations must be reverted before performing a system update. With One-click restore you can automate this process and restore icons, fonts and display density settings with just one click.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -454,7 +411,51 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>UI Themer customizations must be reverted before performing a system update. With One-click restore you can automate this process and restore icons, fonts and display density settings with just one click.</source>
+        <source>Icon updater</source>
+        <translation type="unfinished">Ikon frissítő</translation>
+    </message>
+    <message>
+        <source>Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. The Icon updater will automate this process, enabling automatic update of icons at a given time.</source>
+        <translation type="unfinished">Minden alkalommal, amikor egy alkalmazás frissül, újra kell alkalmaznod a témát, hogy a testreszabott ikont visszakapd. Az ikonfrissítő automatizálja a folyamatot, bizonyos időközönként automatikusan frissítve az ikonokat.</translation>
+    </message>
+    <message>
+        <source>Update icons</source>
+        <translation type="unfinished">Ikonok frissítése</translation>
+    </message>
+    <message>
+        <source>Disabled</source>
+        <translation type="unfinished">Kikapcsolva</translation>
+    </message>
+    <message>
+        <source>30 minutes</source>
+        <translation type="unfinished">30 perc</translation>
+    </message>
+    <message>
+        <source>1 hour</source>
+        <translation type="unfinished">1 óra</translation>
+    </message>
+    <message>
+        <source>2 hours</source>
+        <translation type="unfinished">2 óra</translation>
+    </message>
+    <message>
+        <source>3 hours</source>
+        <translation type="unfinished">3 óra</translation>
+    </message>
+    <message>
+        <source>6 hours</source>
+        <translation type="unfinished">6 óra</translation>
+    </message>
+    <message>
+        <source>12 hours</source>
+        <translation type="unfinished">12 óra</translation>
+    </message>
+    <message>
+        <source>Daily</source>
+        <translation type="unfinished">Naponta</translation>
+    </message>
+    <message>
+        <source>Tools</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

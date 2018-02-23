@@ -2,6 +2,7 @@ import QtQuick 2.0
 import Sailfish.Silica 1.0
 import harbour.uithemer 1.0
 import org.nemomobile.notifications 1.0
+import org.nemomobile.configuration 1.0
 import "../../components"
 
 Page
@@ -9,7 +10,7 @@ Page
     property ThemePack themePack
     property Notification notification
 
-    id: toolspage
+    id: recoverypage
     backNavigation: !busyindicator.running
     showNavigationIndicator: !busyindicator.running
 
@@ -24,8 +25,6 @@ Page
         }
 
         target: themePack
-        onOcrRestored: notify()
-        onRestartHomescreenRestored: notify()
         onIconsRestored: notify()
         onFontsRestored: notify()
     }
@@ -45,7 +44,7 @@ Page
             width: parent.width
             spacing: Theme.paddingSmall
 
-            PageHeader { title: qsTr("Tools") }
+            PageHeader { title: qsTr("Recovery") }
 
             Label {
                 x: Theme.paddingLarge
@@ -53,48 +52,6 @@ Page
                 wrapMode: Text.Wrap
                 textFormat: Text.RichText
                 text: qsTr("Here you can find some recovery tools in case anything goes wrong (eg if you forget to restore the default theme before performing a system update).<br><br>Remember to restart the homescreen right after.")
-            }
-
-            SectionHeader { text: qsTr("Restart homescreen") }
-
-            Label {
-                x: Theme.paddingLarge
-                width: parent.width - (x * 2)
-                wrapMode: Text.Wrap
-                textFormat: Text.RichText
-                text: qsTr("Restart the homescreen, to make your modifications effective. Your currently opened apps will be closed.")
-            }
-
-            Button {
-                anchors.horizontalCenter: parent.horizontalCenter
-                text: qsTr("Restart")
-                onClicked: {
-                    remorsepopup.execute(qsTr("Restarting homescreen"), function() {
-                        busyindicator.running = true;
-                        themePack.restartHomescreen();
-                    });
-                }
-            }
-
-            SectionHeader { text: qsTr("One-click restore") }
-
-            Label {
-                x: Theme.paddingLarge
-                width: parent.width - (x * 2)
-                wrapMode: Text.Wrap
-                textFormat: Text.RichText
-                text: qsTr("UI Themer customizations must be reverted before performing a system update. With One-click restore you can automate this process and restore icons, fonts and display density settings with just one click.")
-            }
-
-            Button {
-                anchors.horizontalCenter: parent.horizontalCenter
-                text: qsTr("Restore")
-                onClicked: {
-                    remorsepopup.execute(qsTr("Restoring"), function() {
-                        busyindicator.running = true;
-                        themePack.ocr();
-                    });
-                }
             }
 
             SectionHeader { text: qsTr("Icons") }

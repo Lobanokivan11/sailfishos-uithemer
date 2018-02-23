@@ -27,7 +27,7 @@ Page
                 Image { id: appicon; anchors.horizontalCenter: parent.horizontalCenter; source: "../../../appinfo.png" }
             }
 
-            Label { anchors.horizontalCenter: parent.horizontalCenter; color: Theme.highlightColor; text: "UI Themer 1.0.3" }
+            Label { anchors.horizontalCenter: parent.horizontalCenter; color: Theme.highlightColor; text: "UI Themer 1.0.4" }
 
             Label {
                 x: Theme.paddingLarge
@@ -49,15 +49,6 @@ Page
                 anchors.horizontalCenter: parent.horizontalCenter
                 text: qsTr("Sources")
                 onClicked: Qt.openUrlExternally("https://github.com/fravaccaro/sailfishos-uithemer")
-            }
-
-            SectionHeader { text: qsTr("CLI tool") }
-
-            Label {
-                x: Theme.paddingLarge
-                width: parent.width - (x * 2)
-                wrapMode: Text.Wrap
-                text: qsTr("If anything goes wrong or you want to manage all the options via terminal, you can recall the CLI tool by typing <b>themepacksupport</b> as root.")
             }
 
             SectionHeader { text: qsTr("Developers") }

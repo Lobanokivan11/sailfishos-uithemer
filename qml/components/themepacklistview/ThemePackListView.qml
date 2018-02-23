@@ -93,4 +93,11 @@ SilicaListView
             }
         }
     }
+
+    ViewPlaceholder {
+        enabled: themepacklistview.count == 0
+        text: qsTr("No themes yet")
+        hintText: qsTr("Install a compatible theme first")
+    }
+
 }
