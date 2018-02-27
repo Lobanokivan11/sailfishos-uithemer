@@ -159,19 +159,19 @@
     </message>
     <message>
         <source>Restore icon size</source>
-        <translation type="unfinished"></translation>
+        <translation>Pictogramgrootte herstellen</translation>
     </message>
     <message>
         <source>Restoring icon size</source>
-        <translation type="unfinished"></translation>
+        <translation>Pictogramgrootte wordt hersteld</translation>
     </message>
     <message>
         <source>Icon size</source>
-        <translation type="unfinished"></translation>
+        <translation>Pictogramgrootte</translation>
     </message>
     <message>
         <source>Change the size of UI icons. To a greater value corresponds an huger size.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pas de grootte van pictogrammen in de gebruikersinterface aan. Een grotere waarde komt overeen grotere pictogrammen.&lt;br&gt;&lt;br&gt;Vergeet niet om het startscherm nadien te herstarten.</translation>
     </message>
 </context>
 <context>
@@ -190,11 +190,11 @@
     </message>
     <message>
         <source>Themes</source>
-        <translation>Thema&apos;s</translation>
+        <translation>Thema’s</translation>
     </message>
     <message>
         <source>The &lt;i&gt;Themes&lt;/i&gt; page lets you customize icons and fonts via thirdy party themes. The page lists the themes you have currently installed (e.g. from OpenRepos). To apply them, tap on a theme of your choice and then select what you want to use from that theme - if the theme contains different font weights, you can choose the default one to use for the UI. You can also combine different themes, so for example you can use icons from a theme and fonts from another. To revert to the default settings, you can use the restore option from the pulley menu.</source>
-        <translation>De pagina &lt;i&gt;Thema&apos;s&lt;/i&gt; laat je toe je pictogrammen en lettertypen aan te passen via thema&apos;s van derde partijen. Deze pagina geeft een lijst weer van de thema&apos;s die je momenteel hebt geïnstalleerd (bv. van OpenRepos). Om deze toe te passen tik je op het thema dat je wil, en daarna welke elementen van dit thema je wil gebruiken - als het thema meerdere lettergewichten bevat, kan je kiezen welk je als standaardlettertype voor de gebruikersinterface wil gebruiken. Je kan ook verschillende thema&apos;s combineren, bijvoorbeeld door de pictogrammen van een bepaald thema te gebruiken in combinatie met de lettertypen van een ander. Om terug te keren naar de standaardinstellingen, kan je de herstelopties in het uittrekmenu gebruiken.</translation>
+        <translation>De pagina &lt;i&gt;Thema’s&lt;/i&gt; laat je toe je pictogrammen en lettertypen aan te passen via thema’s van derde partijen. Deze pagina geeft een lijst weer van de thema’s die je momenteel hebt geïnstalleerd (bv. van OpenRepos). Om deze toe te passen tik je op het thema dat je wil, en daarna welke elementen van dit thema je wil gebruiken - als het thema meerdere lettergewichten bevat, kan je kiezen welk je als standaardlettertype voor de gebruikersinterface wil gebruiken. Je kan ook verschillende thema’s combineren, bijvoorbeeld door de pictogrammen van een bepaald thema te gebruiken in combinatie met de lettertypen van een ander. Om terug te keren naar de standaardinstellingen, kan je de herstelopties in het uittrekmenu gebruiken.</translation>
     </message>
     <message>
         <source>An homescreen restart may be needed to apply your settings. You can do that through the dialog or from the &lt;i&gt;Tools&lt;/i&gt; page.</source>
@@ -230,27 +230,27 @@
     </message>
     <message>
         <source>One-click restore</source>
-        <translation type="unfinished"></translation>
+        <translation>Één-tik-herstel</translation>
     </message>
     <message>
         <source>UI Themer customizations must be reverted before performing a system update. With One-click restore you can automate this process and restore icons, fonts and display density settings with just one click.</source>
-        <translation type="unfinished"></translation>
+        <translation>Voorafgaand aan een systeemupdate moet aanpassingen door UI Themer teruggedraaid worden. Met Één-tik-herstel kan je dit proces automatiseren, en met één tik je pictogrammen, lettertypen en pixeldichtheidinstellingen te herstellen.</translation>
     </message>
     <message>
         <source>Recovery</source>
-        <translation type="unfinished"></translation>
+        <translation>Herstel</translation>
     </message>
     <message>
         <source>CLI tool</source>
-        <translation type="unfinished">CLI-programma</translation>
+        <translation>CLI-programma</translation>
     </message>
     <message>
         <source>If anything goes wrong or you want to manage all the options via terminal, you can recall the CLI tool by typing &lt;b&gt;themepacksupport&lt;/b&gt; as root.</source>
-        <translation type="unfinished">Als er iets fout gaat of als je alle functies via de terminal wil beheren kan je het CLI-programma oproepen door als root &lt;b&gt;themepacksupport&lt;/b&gt; in te geven.</translation>
+        <translation>Als er iets fout gaat of als je alle functies via de terminal wil beheren kan je het CLI-programma oproepen door als root &lt;b&gt;themepacksupport&lt;/b&gt; in te geven.</translation>
     </message>
     <message>
         <source>Remember to unapply themes and display density customizations before updating your system. In case you forgot, you may need to use the options provided in the &lt;i&gt;Recovery&lt;/i&gt; page or uninstall and reinstall Theme pack support e UI Themer.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vergeet niet wijzingen aan thema’s en pixeldichtheid ongedaan te maken vooraleer je een systeemupdate installeert. Als je dit toch zou vergeten, kan je de opties in de pagina &lt;i&gt;Gereedschap&lt;/i&gt; gebruiken, of UI Themer en de Themapakketondersteuning verwijderen en opnieuw installeren.</translation>
     </message>
 </context>
 <context>
@@ -264,43 +264,43 @@
     <name>RecoveryPage</name>
     <message>
         <source>Recovery</source>
-        <translation type="unfinished"></translation>
+        <translation>Herstel</translation>
     </message>
     <message>
         <source>Here you can find some recovery tools in case anything goes wrong (eg if you forget to restore the default theme before performing a system update).&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
-        <translation type="unfinished">Hier vind je gereedschap voor herstellen indien er iets verkeerd gaat (bv. als je het standaardthema vergeten herstellen bent vooraleer een systeemupdate te installeren).&lt;br&gt;&lt;br&gt;Vergeet niet om het startscherm nadien te herstarten.</translation>
+        <translation>Hier vind je gereedschap voor herstellen indien er iets verkeerd gaat (bv. als je het standaardthema vergeten herstellen bent vooraleer een systeemupdate te installeren).&lt;br&gt;&lt;br&gt;Vergeet niet om het startscherm nadien te herstarten.</translation>
     </message>
     <message>
         <source>Icons</source>
-        <translation type="unfinished">Pictogrammen</translation>
+        <translation>Pictogrammen</translation>
     </message>
     <message>
         <source>If any error occurs during themes applying/restoring, you can end up with messed up icons. From here, you can reinstall default Jolla app icons while, for thirdy party apps, you may need to reinstall/update apps to restore the default look.</source>
-        <translation type="unfinished">Indien er een fout optreedt bij het toepassen/herstellen van thema&apos;s kunnen je pictogrammen verprutst worden. Van hieruit kan je de standaardpictogrammen van Jolla opnieuw installeren. Voor apps van derde partijen moet je mogelijk de apps bijwerken of opnieuw installeren om de standaardpictogrammen te herstellen.</translation>
+        <translation>Indien er een fout optreedt bij het toepassen/herstellen van thema’s kunnen je pictogrammen verprutst worden. Van hieruit kan je de standaardpictogrammen van Jolla opnieuw installeren. Voor apps van derde partijen moet je mogelijk de apps bijwerken of opnieuw installeren om de standaardpictogrammen te herstellen.</translation>
     </message>
     <message>
         <source>Reinstall icons</source>
-        <translation type="unfinished">Pictogrammen opnieuw installeren</translation>
+        <translation>Pictogrammen opnieuw installeren</translation>
     </message>
     <message>
         <source>Reinstalling icons</source>
-        <translation type="unfinished">Pictogrammen worden opnieuw geïnstalleerd</translation>
+        <translation>Pictogrammen worden opnieuw geïnstalleerd</translation>
     </message>
     <message>
         <source>Fonts</source>
-        <translation type="unfinished">Lettertypen</translation>
+        <translation>Lettertypen</translation>
     </message>
     <message>
         <source>Reinstall default fonts, if font applying/restoring fails.</source>
-        <translation type="unfinished">Installeer standaardlettertypen opnieuw indien toepassen/herstellen van lettertypen mislukt.</translation>
+        <translation>Installeer standaardlettertypen opnieuw indien toepassen/herstellen van lettertypen mislukt.</translation>
     </message>
     <message>
         <source>Reinstall fonts</source>
-        <translation type="unfinished">Lettertypen opnieuw installeren</translation>
+        <translation>Lettertypen opnieuw installeren</translation>
     </message>
     <message>
         <source>Reinstalling fonts</source>
-        <translation type="unfinished">Lettertypen worden opnieuw geïnstalleerd</translation>
+        <translation>Lettertypen worden opnieuw geïnstalleerd</translation>
     </message>
 </context>
 <context>
@@ -341,7 +341,7 @@
     <name>ThemePackListView</name>
     <message>
         <source>Themes</source>
-        <translation>Thema&apos;s</translation>
+        <translation>Thema’s</translation>
     </message>
     <message>
         <source>Uninstalling %1</source>
@@ -357,106 +357,106 @@
     </message>
     <message>
         <source>No themes yet</source>
-        <translation type="unfinished"></translation>
+        <translation>Nog geen thema’s</translation>
     </message>
     <message>
         <source>Install a compatible theme first</source>
-        <translation type="unfinished"></translation>
+        <translation>Installeer eerst een compatibel thema</translation>
     </message>
 </context>
 <context>
     <name>ToolsView</name>
     <message>
         <source>About UI Themer</source>
-        <translation type="unfinished">Over UI Themer</translation>
+        <translation>Over UI Themer</translation>
     </message>
     <message>
         <source>Usage guide</source>
-        <translation type="unfinished">Instructies voor gebruik</translation>
+        <translation>Instructies voor gebruik</translation>
     </message>
     <message>
         <source>Recovery</source>
-        <translation type="unfinished"></translation>
+        <translation>Herstel</translation>
     </message>
     <message>
         <source>Restart homescreen</source>
-        <translation type="unfinished">Startscherm herstarten</translation>
+        <translation>Startscherm herstarten</translation>
     </message>
     <message>
         <source>Restart the homescreen, to make your modifications effective. Your currently opened apps will be closed.</source>
-        <translation type="unfinished">Herstart het startscherm om je wijzigingen toe te passen. De apps die je momenteel hebt geopend, zullen gesloten worden.</translation>
+        <translation>Herstart het startscherm om je wijzigingen toe te passen. De apps die je momenteel hebt geopend, zullen gesloten worden.</translation>
     </message>
     <message>
         <source>Restart</source>
-        <translation type="unfinished">Herstarten</translation>
+        <translation>Herstarten</translation>
     </message>
     <message>
         <source>Restarting homescreen</source>
-        <translation type="unfinished">Startscherm wordt herstart</translation>
+        <translation>Startscherm wordt herstart</translation>
     </message>
     <message>
         <source>One-click restore</source>
-        <translation type="unfinished"></translation>
+        <translation>Één-tik-herstel</translation>
     </message>
     <message>
         <source>UI Themer customizations must be reverted before performing a system update. With One-click restore you can automate this process and restore icons, fonts and display density settings with just one click.</source>
-        <translation type="unfinished"></translation>
+        <translation>Voorafgaand aan een systeemupdate moet aanpassingen door UI Themer teruggedraaid worden. Met Één-tik-herstel kan je dit proces automatiseren, en met één tik je pictogrammen, lettertypen en pixeldichtheidinstellingen te herstellen.</translation>
     </message>
     <message>
         <source>Restore</source>
-        <translation type="unfinished">Herstellen</translation>
+        <translation>Herstellen</translation>
     </message>
     <message>
         <source>Restoring</source>
-        <translation type="unfinished"></translation>
+        <translation>Wordt hersteld</translation>
     </message>
     <message>
         <source>Icon updater</source>
-        <translation type="unfinished">Pictogrambijwerker</translation>
+        <translation>Pictogrambijwerker</translation>
     </message>
     <message>
         <source>Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. The Icon updater will automate this process, enabling automatic update of icons at a given time.</source>
-        <translation type="unfinished">Telkens een app wordt bijgewerkt moet je het thema opnieuw toepassen om het aangepaste pictogram terug te krijgen. De pictogrambijwerker automatiseert dit proces en laat je toe je pictogrammen op een gegeven tijdstip automatisch bij te werken.</translation>
+        <translation>Telkens een app wordt bijgewerkt moet je het thema opnieuw toepassen om het aangepaste pictogram terug te krijgen. De pictogrambijwerker automatiseert dit proces en laat je toe je pictogrammen op een gegeven tijdstip automatisch bij te werken.</translation>
     </message>
     <message>
         <source>Update icons</source>
-        <translation type="unfinished">Pictogrammen bijwerken</translation>
+        <translation>Pictogrammen bijwerken</translation>
     </message>
     <message>
         <source>Disabled</source>
-        <translation type="unfinished">Uitgeschakeld</translation>
+        <translation>Uitgeschakeld</translation>
     </message>
     <message>
         <source>30 minutes</source>
-        <translation type="unfinished">30 minuten</translation>
+        <translation>30 minuten</translation>
     </message>
     <message>
         <source>1 hour</source>
-        <translation type="unfinished">1 uur</translation>
+        <translation>1 uur</translation>
     </message>
     <message>
         <source>2 hours</source>
-        <translation type="unfinished">2 uur</translation>
+        <translation>2 uur</translation>
     </message>
     <message>
         <source>3 hours</source>
-        <translation type="unfinished">3 uur</translation>
+        <translation>3 uur</translation>
     </message>
     <message>
         <source>6 hours</source>
-        <translation type="unfinished">6 uur</translation>
+        <translation>6 uur</translation>
     </message>
     <message>
         <source>12 hours</source>
-        <translation type="unfinished">12 uur</translation>
+        <translation>12 uur</translation>
     </message>
     <message>
         <source>Daily</source>
-        <translation type="unfinished">Dagelijks</translation>
+        <translation>Dagelijks</translation>
     </message>
     <message>
         <source>Tools</source>
-        <translation type="unfinished"></translation>
+        <translation>Gereedschap</translation>
     </message>
 </context>
 </TS>

@@ -46,7 +46,7 @@ Item
             margins: Theme.paddingLarge
         }
 
-        icon.source: "image://theme/icon-m-developer-mode"
+        icon.source: "image://theme/icon-m-menu"
 
         onClicked: {
             loader.source = Qt.resolvedUrl("../../views/ToolsView.qml");

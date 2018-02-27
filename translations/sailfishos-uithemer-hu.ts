@@ -69,7 +69,7 @@
     </message>
     <message>
         <source>Request a new language or contribute to existing languages on the Transifex project page.</source>
-        <translation>Kérj új nyelvet, vagy segíts a már meglévő nyelvek fordításában a Transifex projekt oldalon.</translation>
+        <translation>Kérj új nyelvet, vagy segíts a már meglévő nyelvek fordításában a Transifex projektoldalon.</translation>
     </message>
     <message>
         <source>Transifex</source>
@@ -127,11 +127,11 @@
     </message>
     <message>
         <source>Restore device pixel ratio</source>
-        <translation>Készülék pixel arányának visszaállítása</translation>
+        <translation>Készülék pixelarányának visszaállítása</translation>
     </message>
     <message>
         <source>Restoring device pixel ratio</source>
-        <translation>Készülék pixel arányának visszaállítása</translation>
+        <translation>Készülék pixelarányának visszaállítása</translation>
     </message>
     <message>
         <source>Display density</source>
@@ -139,11 +139,11 @@
     </message>
     <message>
         <source>Device pixel ratio</source>
-        <translation>Készülék pixel aránya</translation>
+        <translation>Készülék pixelaránya</translation>
     </message>
     <message>
         <source>Change the display pixel ratio. To a smaller value corresponds an higher density.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
-        <translation>Kijelző pixel arányának megváltoztatása. Kissebb érték nagyobb sűrűségnek felel meg.&lt;br&gt;&lt;br&gt;Ne felejtsd újraindítani a kezdőképernyőt utána.</translation>
+        <translation>Kijelző pixelarányának megváltoztatása. Kisebb érték nagyobb sűrűségnek felel meg.&lt;br&gt;&lt;br&gt;Ne felejtsd újraindítani a kezdőképernyőt utána.</translation>
     </message>
     <message>
         <source>Android DPI</source>
@@ -155,23 +155,23 @@
     </message>
     <message>
         <source>Change the Android DPI value. To a smaller value corresponds an higher density.&lt;br&gt;&lt;br&gt;Remember to restart the Android support or the homescreen right after.</source>
-        <translation>Android DPI érték megváltoztatása. Kissebb érték nagyobb sűrűségnek felel meg.&lt;br&gt;&lt;br&gt;Ne felejtsd újraindítani az Android támogatást, vagy a kezdőképernyőt utána.</translation>
+        <translation>Android DPI érték megváltoztatása. Kisebb érték nagyobb sűrűségnek felel meg.&lt;br&gt;&lt;br&gt;Ne felejtsd újraindítani az Android támogatást, vagy a kezdőképernyőt utána.</translation>
     </message>
     <message>
         <source>Restore icon size</source>
-        <translation type="unfinished"></translation>
+        <translation>Ikonméret visszaállítása</translation>
     </message>
     <message>
         <source>Restoring icon size</source>
-        <translation type="unfinished"></translation>
+        <translation>Ikonméret visszaállítása</translation>
     </message>
     <message>
         <source>Icon size</source>
-        <translation type="unfinished"></translation>
+        <translation>Ikonméret</translation>
     </message>
     <message>
         <source>Change the size of UI icons. To a greater value corresponds an huger size.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
-        <translation type="unfinished"></translation>
+        <translation>A felhasználói felületen lévő ikonok méretének megváltoztatása. Nagyobb érték nagyobb méretnek felel meg.&lt;br&gt;&lt;br&gt;Ne felejtsd újraindítani a kezdőképernyőt utána.</translation>
     </message>
 </context>
 <context>
@@ -186,7 +186,7 @@
     </message>
     <message>
         <source>UI Themer is divided into three main sections, which provide you icons, fonts and display density customization, alongside additional options.</source>
-        <translation>Az UI Themer három fő részre van osztva, melyek ikonok, betűk, és kijelzősűrűség testreszabhatóságot kínálnak egyéb opciók mellett.</translation>
+        <translation>Az UI Themer három fő részre van osztva, melyek ikon-, betű- és kijelzősűrűség testreszabhatóságot kínálnak egyéb opciók mellett.</translation>
     </message>
     <message>
         <source>Themes</source>
@@ -194,7 +194,7 @@
     </message>
     <message>
         <source>The &lt;i&gt;Themes&lt;/i&gt; page lets you customize icons and fonts via thirdy party themes. The page lists the themes you have currently installed (e.g. from OpenRepos). To apply them, tap on a theme of your choice and then select what you want to use from that theme - if the theme contains different font weights, you can choose the default one to use for the UI. You can also combine different themes, so for example you can use icons from a theme and fonts from another. To revert to the default settings, you can use the restore option from the pulley menu.</source>
-        <translation>A&lt;i&gt;Témák&lt;/i&gt; oldalon testreszabhatod az ikonokat és betűket harmadik féltől származó témák által. Az oldal listázza a jelenleg telepített témákat (pl. az OpenRepos-ról). Az alkalmazásukhoz érints meg egyet, majd válaszd ki, mit szeretnél használni abból a témából - ha a téma különböző betű vastagságot tartalmaz, kiválaszthatod az UI által alapértelmezetten használandót. Kombinálhatsz is különböző témákat is például használhatsz ikonokat egyik témából, betűket a másikból. Hogy visszaállítsd az eredeti állapotot használhatod a pulley menü Visszaállítás lehetőségét.</translation>
+        <translation>A&lt;i&gt;Témák&lt;/i&gt; oldalon testreszabhatod az ikonokat és betűket harmadik féltől származó témák segítségével. Az oldal listázza a jelenleg telepített témákat (pl. az OpenRepos-ról). Az alkalmazásukhoz érints meg egyet, majd válaszd ki, mit szeretnél használni abból a témából - ha a téma különböző betű vastagságot tartalmaz, kiválaszthatod az UI által alapértelmezetten használandót. Kombinálhatsz is különböző témákat, például használhatsz ikonokat egyik témából, betűket a másikból. Hogy visszaállítsd az eredeti állapotot használhatod a pulley menü Visszaállítás lehetőségét.</translation>
     </message>
     <message>
         <source>An homescreen restart may be needed to apply your settings. You can do that through the dialog or from the &lt;i&gt;Tools&lt;/i&gt; page.</source>
@@ -210,7 +210,7 @@
     </message>
     <message>
         <source>Icon updater</source>
-        <translation>Ikon frissítő</translation>
+        <translation>Ikonfrissítő</translation>
     </message>
     <message>
         <source>Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. The Icon updater will automate this process, enabling automatic update of icons at a given time. You can choose between a pre-defined set of hours or a custom hour of the day.</source>
@@ -230,27 +230,27 @@
     </message>
     <message>
         <source>One-click restore</source>
-        <translation type="unfinished"></translation>
+        <translation>Egy-kattintásos visszaállítás</translation>
     </message>
     <message>
         <source>UI Themer customizations must be reverted before performing a system update. With One-click restore you can automate this process and restore icons, fonts and display density settings with just one click.</source>
-        <translation type="unfinished"></translation>
+        <translation>Az UI Themer testreszabásokat vissza kell vonni rendszerfrissítés végrehajtása előtt. Az egy-kattintásos visszaállítással automatizálhatod a folyamatot, és visszaállíthatod az ikonokat, betűket, valamint a kijelzősűrűségi beállításokat egy kattintással.</translation>
     </message>
     <message>
         <source>Recovery</source>
-        <translation type="unfinished"></translation>
+        <translation>Helyreállítás</translation>
     </message>
     <message>
         <source>CLI tool</source>
-        <translation type="unfinished">CLI eszköz</translation>
+        <translation>CLI eszköz</translation>
     </message>
     <message>
         <source>If anything goes wrong or you want to manage all the options via terminal, you can recall the CLI tool by typing &lt;b&gt;themepacksupport&lt;/b&gt; as root.</source>
-        <translation type="unfinished">Ha bármi rosszul sül el, vagy a terminalon akarsz kezelni minden opciót, előhívhatod a CLI eszközt  a &lt;b&gt;themepacksupport&lt;/b&gt; beírásával mint root.</translation>
+        <translation>Ha bármi rosszul sül el, vagy a terminalon akarsz kezelni minden opciót, előhívhatod a CLI eszközt  a &lt;b&gt;themepacksupport&lt;/b&gt; beírásával mint root.</translation>
     </message>
     <message>
         <source>Remember to unapply themes and display density customizations before updating your system. In case you forgot, you may need to use the options provided in the &lt;i&gt;Recovery&lt;/i&gt; page or uninstall and reinstall Theme pack support e UI Themer.</source>
-        <translation type="unfinished"></translation>
+        <translation>Rendszerfrissítés előtt ne felejtsd el visszavonni a témákat, és a kijelző sűrűség testreszabásait. Ha esetleg elfelejted, használhatod az &lt;i&gt;Helyreállítás&lt;/i&gt; oldal által kínált opciókat, vagy eltávolíthatod, és újratelepítheted a Theme pack support-ot és az UI Themer-t.</translation>
     </message>
 </context>
 <context>
@@ -264,43 +264,43 @@
     <name>RecoveryPage</name>
     <message>
         <source>Recovery</source>
-        <translation type="unfinished"></translation>
+        <translation>Helyreállítás</translation>
     </message>
     <message>
         <source>Here you can find some recovery tools in case anything goes wrong (eg if you forget to restore the default theme before performing a system update).&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
-        <translation type="unfinished">Itt találhatsz néhány helyreállítási eszközt, ha bármi balul sül el (pl. ha elfelejtetted visszaállítani az alapértelmezett témát rendszerfrissítés előtt).&lt;br&gt;&lt;br&gt;Ne felejtsd újraindítani a kezdőképernyőt utána.</translation>
+        <translation>Itt találhatsz néhány helyreállítási eszközt, ha bármi balul sül el (pl. ha elfelejtetted visszaállítani az alapértelmezett témát rendszerfrissítés előtt).&lt;br&gt;&lt;br&gt;Ne felejtsd újraindítani a kezdőképernyőt utána.</translation>
     </message>
     <message>
         <source>Icons</source>
-        <translation type="unfinished">Ikonok</translation>
+        <translation>Ikonok</translation>
     </message>
     <message>
         <source>If any error occurs during themes applying/restoring, you can end up with messed up icons. From here, you can reinstall default Jolla app icons while, for thirdy party apps, you may need to reinstall/update apps to restore the default look.</source>
-        <translation type="unfinished">Ha bármilyen hiba jelentkezik téma alkalmazáskor/visszaállításkor, rontott ikonok maradhatnak a készüléken. Innen újratelepítheted a Jolla alapértelmezett ikonjait, míg a harmadik féltől származó alkalmazások ikonjainak helyreállításához újra kell telepítened/frissítened kell az alkalmazást.</translation>
+        <translation>Ha bármilyen hiba jelentkezik téma alkalmazáskor/visszaállításkor, rontott ikonok maradhatnak a készüléken. Innen újratelepítheted a Jolla alapértelmezett ikonjait, míg a harmadik féltől származó alkalmazások ikonjainak helyreállításához újra kell telepítened/frissítened kell az alkalmazást.</translation>
     </message>
     <message>
         <source>Reinstall icons</source>
-        <translation type="unfinished">Ikonok újratelepítése</translation>
+        <translation>Ikonok újratelepítése</translation>
     </message>
     <message>
         <source>Reinstalling icons</source>
-        <translation type="unfinished">Ikonok újratelepítése</translation>
+        <translation>Ikonok újratelepítése</translation>
     </message>
     <message>
         <source>Fonts</source>
-        <translation type="unfinished">Betűk</translation>
+        <translation>Betűk</translation>
     </message>
     <message>
         <source>Reinstall default fonts, if font applying/restoring fails.</source>
-        <translation type="unfinished">Alapértelmezett betűk újratelepítése, ha a betű alkalmazás/visszaállítása nem sikerül.</translation>
+        <translation>Alapértelmezett betűk újratelepítése, ha a betű alkalmazás/visszaállítása nem sikerül.</translation>
     </message>
     <message>
         <source>Reinstall fonts</source>
-        <translation type="unfinished">Betűk újratelepítése</translation>
+        <translation>Betűk újratelepítése</translation>
     </message>
     <message>
         <source>Reinstalling fonts</source>
-        <translation type="unfinished">Betűk újratelepítése</translation>
+        <translation>Betűk újratelepítése</translation>
     </message>
 </context>
 <context>
@@ -357,106 +357,106 @@
     </message>
     <message>
         <source>No themes yet</source>
-        <translation type="unfinished"></translation>
+        <translation>Még nincsenek témák</translation>
     </message>
     <message>
         <source>Install a compatible theme first</source>
-        <translation type="unfinished"></translation>
+        <translation>Először telepíts egy kompatibilis témát</translation>
     </message>
 </context>
 <context>
     <name>ToolsView</name>
     <message>
         <source>About UI Themer</source>
-        <translation type="unfinished">Az UI Themer-ről</translation>
+        <translation>Az UI Themer-ről</translation>
     </message>
     <message>
         <source>Usage guide</source>
-        <translation type="unfinished">Használati útmutató</translation>
+        <translation>Használati útmutató</translation>
     </message>
     <message>
         <source>Recovery</source>
-        <translation type="unfinished"></translation>
+        <translation>Helyreállítás</translation>
     </message>
     <message>
         <source>Restart homescreen</source>
-        <translation type="unfinished">Kezdőképernyő újraindítása</translation>
+        <translation>Kezdőképernyő újraindítása</translation>
     </message>
     <message>
         <source>Restart the homescreen, to make your modifications effective. Your currently opened apps will be closed.</source>
-        <translation type="unfinished">Indítsd újra a kezdőképernyőt, hogy a módosítások életbe lépjenek. A jelenleg nyitva lévő alkalmazások be fognak záródni.</translation>
+        <translation>Indítsd újra a kezdőképernyőt, hogy a módosítások életbe lépjenek. A jelenleg nyitva lévő alkalmazások be fognak záródni.</translation>
     </message>
     <message>
         <source>Restart</source>
-        <translation type="unfinished">Újraindítás</translation>
+        <translation>Újraindítás</translation>
     </message>
     <message>
         <source>Restarting homescreen</source>
-        <translation type="unfinished">Kezdőképernyő újraindítása</translation>
+        <translation>Kezdőképernyő újraindítása</translation>
     </message>
     <message>
         <source>One-click restore</source>
-        <translation type="unfinished"></translation>
+        <translation>Egy-kattintásos visszaállítás</translation>
     </message>
     <message>
         <source>UI Themer customizations must be reverted before performing a system update. With One-click restore you can automate this process and restore icons, fonts and display density settings with just one click.</source>
-        <translation type="unfinished"></translation>
+        <translation>Az UI Themer testreszabásokat vissza kell vonni rendszerfrissítés végrehajtása előtt. Az egy-kattintásos visszaállítással automatizálhatod a folyamatot, és visszaállíthatod az ikonokat, betűket, valamint a kijelzősűrűségi beállításokat egy kattintással.</translation>
     </message>
     <message>
         <source>Restore</source>
-        <translation type="unfinished">Visszaállítás</translation>
+        <translation>Visszaállítás</translation>
     </message>
     <message>
         <source>Restoring</source>
-        <translation type="unfinished"></translation>
+        <translation>Visszaállítás</translation>
     </message>
     <message>
         <source>Icon updater</source>
-        <translation type="unfinished">Ikon frissítő</translation>
+        <translation>Ikon frissítő</translation>
     </message>
     <message>
         <source>Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. The Icon updater will automate this process, enabling automatic update of icons at a given time.</source>
-        <translation type="unfinished">Minden alkalommal, amikor egy alkalmazás frissül, újra kell alkalmaznod a témát, hogy a testreszabott ikont visszakapd. Az ikonfrissítő automatizálja a folyamatot, bizonyos időközönként automatikusan frissítve az ikonokat.</translation>
+        <translation>Minden alkalommal, amikor egy alkalmazás frissül, újra kell alkalmaznod a témát, hogy a testreszabott ikont visszakapd. Az ikonfrissítő automatizálja a folyamatot, bizonyos időközönként automatikusan frissítve az ikonokat.</translation>
     </message>
     <message>
         <source>Update icons</source>
-        <translation type="unfinished">Ikonok frissítése</translation>
+        <translation>Ikonok frissítése</translation>
     </message>
     <message>
         <source>Disabled</source>
-        <translation type="unfinished">Kikapcsolva</translation>
+        <translation>Kikapcsolva</translation>
     </message>
     <message>
         <source>30 minutes</source>
-        <translation type="unfinished">30 perc</translation>
+        <translation>30 perc</translation>
     </message>
     <message>
         <source>1 hour</source>
-        <translation type="unfinished">1 óra</translation>
+        <translation>1 óra</translation>
     </message>
     <message>
         <source>2 hours</source>
-        <translation type="unfinished">2 óra</translation>
+        <translation>2 óra</translation>
     </message>
     <message>
         <source>3 hours</source>
-        <translation type="unfinished">3 óra</translation>
+        <translation>3 óra</translation>
     </message>
     <message>
         <source>6 hours</source>
-        <translation type="unfinished">6 óra</translation>
+        <translation>6 óra</translation>
     </message>
     <message>
         <source>12 hours</source>
-        <translation type="unfinished">12 óra</translation>
+        <translation>12 óra</translation>
     </message>
     <message>
         <source>Daily</source>
-        <translation type="unfinished">Naponta</translation>
+        <translation>Naponta</translation>
     </message>
     <message>
         <source>Tools</source>
-        <translation type="unfinished"></translation>
+        <translation>Eszközök</translation>
     </message>
 </context>
 </TS>

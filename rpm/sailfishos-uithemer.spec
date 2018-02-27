@@ -14,7 +14,7 @@ Name:       sailfishos-uithemer
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:        UI Themer
 Version:        1.0.4
-Release:        1
+Release:        3
 Group:          Qt/Qt
 License:        GPLv3
 Packager:       fravaccaro <fravaccaro@jollacommunity.it>
@@ -96,6 +96,8 @@ fi
 - Tools page.
 - Recovery page.
 - Placeholder if no themes installed.
+- Uninstall themes fixed.
+- Translations updated.
 
 * Wed Feb 21 2018 1.0.3
 - Preliminary icon size for Sailfish X (needs further testing).

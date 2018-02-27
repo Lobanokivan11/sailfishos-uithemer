@@ -69,7 +69,7 @@ void ThemePackModel::uninstall(int index)
 {
     QString package = Spawner::executeSync("rpm -qf /usr/share/" + this->_packlist[index] + "/ --queryformat '%{NAME}\n'");
 
-    Spawner::execute("pkcon", SPAWN_ARGS("remove" << package), [this, index]() {
+    Spawner::execute("rpm", SPAWN_ARGS("-e" << package), [this, index]() {
         this->beginRemoveRows(QModelIndex(), index, index);
         this->_packlist.removeAt(index);
         this->_packnames.removeAt(index);

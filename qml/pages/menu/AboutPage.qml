@@ -48,7 +48,7 @@ Page
             Button {
                 anchors.horizontalCenter: parent.horizontalCenter
                 text: qsTr("Sources")
-                onClicked: Qt.openUrlExternally("https://github.com/fravaccaro/sailfishos-uithemer")
+                onClicked: Qt.openUrlExternally("https://fravaccaro.github.io/sailfishos-uithemer/")
             }
 
             SectionHeader { text: qsTr("Developers") }
