@@ -142,6 +142,10 @@ Page
               AboutTranslator { text: "Nathan Follens" }
               Item { width: parent.width; height: Theme.paddingLarge }
 
+              AboutLanguage { text: "Neerlandais (Belgique)" }
+              AboutTranslator { text: "Nathan Follens" }
+              Item { width: parent.width; height: Theme.paddingLarge }
+
               AboutLanguage { text: "Polski" }
               AboutTranslator { text: "Tomasz Amborski" }
               Item { width: parent.width; height: Theme.paddingLarge }
