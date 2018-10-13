@@ -14,7 +14,7 @@ Name:       sailfishos-uithemer
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:        UI Themer
 Version:        1.0.4
-Release:        5
+Release:        6
 Group:          Qt/Qt
 License:        GPLv3
 Packager:       fravaccaro <fravaccaro@jollacommunity.it>
@@ -40,7 +40,7 @@ Enables customization of icons, fonts and pixel density in Sailfish OS.
 
 %preun
 if [ "$1" = "0" ]; then
-    rm -rf /home/nemo/.local/share/sailfishos-uithemer
+    rm -rf /home/nemo/.local/share/%{name}
     filepath="/usr/share/applications/harbour-themepacksupport.desktop"
     if [ -e "$filepath" ]; then
         if grep -q NoDisplay "$filepath"; then
