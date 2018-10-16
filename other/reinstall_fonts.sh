@@ -3,4 +3,4 @@
 main=/usr/share/harbour-themepacksupport
 
 $main/font-restore.sh
-pkcon install sailfish-fonts
+pkcon install --allow-reinstall -y sailfish-fonts
