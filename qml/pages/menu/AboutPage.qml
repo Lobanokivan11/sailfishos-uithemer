@@ -27,7 +27,7 @@ Page
                 Image { id: appicon; anchors.horizontalCenter: parent.horizontalCenter; source: "../../../appinfo.png" }
             }
 
-            Label { anchors.horizontalCenter: parent.horizontalCenter; color: Theme.highlightColor; text: "UI Themer 1.0.4" }
+            Label { anchors.horizontalCenter: parent.horizontalCenter; color: Theme.highlightColor; text: "UI Themer 1.0.6" }
 
             Label {
                 x: Theme.paddingLarge
