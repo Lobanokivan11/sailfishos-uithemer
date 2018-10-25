@@ -122,16 +122,8 @@
         <translation>Android DPI zurücksetzen</translation>
     </message>
     <message>
-        <source>Restoring Android DPI</source>
-        <translation>Android DPI wird zurückgesetzt</translation>
-    </message>
-    <message>
         <source>Restore device pixel ratio</source>
         <translation>DPR zurücksetzen</translation>
-    </message>
-    <message>
-        <source>Restoring device pixel ratio</source>
-        <translation>DPR wird zurückgesetzt</translation>
     </message>
     <message>
         <source>Display density</source>
@@ -160,10 +152,6 @@
     <message>
         <source>Restore icon size</source>
         <translation>Icongröße zurücksetzen</translation>
-    </message>
-    <message>
-        <source>Restoring icon size</source>
-        <translation>Icongröße wird zurückgesetzt</translation>
     </message>
     <message>
         <source>Icon size</source>

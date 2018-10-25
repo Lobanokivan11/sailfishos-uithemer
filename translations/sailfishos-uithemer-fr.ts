@@ -122,16 +122,8 @@
         <translation>Restaurer le DPI Android</translation>
     </message>
     <message>
-        <source>Restoring Android DPI</source>
-        <translation>Restauration DPI Android</translation>
-    </message>
-    <message>
         <source>Restore device pixel ratio</source>
         <translation>Restaurer la densité des pixels</translation>
-    </message>
-    <message>
-        <source>Restoring device pixel ratio</source>
-        <translation>Restauration des pixels de l&apos;appareil</translation>
     </message>
     <message>
         <source>Display density</source>
@@ -159,10 +151,6 @@
     </message>
     <message>
         <source>Restore icon size</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Restoring icon size</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

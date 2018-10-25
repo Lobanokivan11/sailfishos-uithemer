@@ -122,15 +122,7 @@
         <translation type="unfinished">Restaurar Android DPI</translation>
     </message>
     <message>
-        <source>Restoring Android DPI</source>
-        <translation type="unfinished">Restaurar Android DPI</translation>
-    </message>
-    <message>
         <source>Restore device pixel ratio</source>
-        <translation type="unfinished">Restaurar la relación de píxel del dispositivo</translation>
-    </message>
-    <message>
-        <source>Restoring device pixel ratio</source>
         <translation type="unfinished">Restaurar la relación de píxel del dispositivo</translation>
     </message>
     <message>
@@ -159,10 +151,6 @@
     </message>
     <message>
         <source>Restore icon size</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Restoring icon size</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

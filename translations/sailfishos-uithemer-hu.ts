@@ -122,15 +122,7 @@
         <translation>Android DPI visszaállítása</translation>
     </message>
     <message>
-        <source>Restoring Android DPI</source>
-        <translation>Android DPI visszaállítása</translation>
-    </message>
-    <message>
         <source>Restore device pixel ratio</source>
-        <translation>Készülék pixelarányának visszaállítása</translation>
-    </message>
-    <message>
-        <source>Restoring device pixel ratio</source>
         <translation>Készülék pixelarányának visszaállítása</translation>
     </message>
     <message>
@@ -159,10 +151,6 @@
     </message>
     <message>
         <source>Restore icon size</source>
-        <translation>Ikonméret visszaállítása</translation>
-    </message>
-    <message>
-        <source>Restoring icon size</source>
         <translation>Ikonméret visszaállítása</translation>
     </message>
     <message>

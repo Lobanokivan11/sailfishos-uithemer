@@ -13,7 +13,7 @@ SilicaFlickable
         id: silica
         path: "/desktop/sailfish/silica"
         property real theme_pixel_ratio
-        property real theme_icon_subdir
+        property real icon_size_launcher
     }
 
     ConfigurationValue {
@@ -22,37 +22,27 @@ SilicaFlickable
     }
 
     ConfigurationValue {
-        id: themeiconsubdir
-        key: "/desktop/sailfish/silica/theme_icon_subdir"
+        id: iconsizelauncher
+        key: "/desktop/sailfish/silica/icon_size_launcher"
     }
 
     PullDownMenu
     {
+
         MenuItem {
-            text: qsTr("Restore Android DPI")
-            visible: themepack.hasAndroidSupport
-
+            text: qsTr("Restore icon size")
             onClicked: {
-                remorsepopup.execute(qsTr("Restoring Android DPI"), function() {
-                    themepack.restoreADPI();
-                    notification.publish();
-
-                    sladpi.value = themepack.droidDPI;
-                });
+                themepack.restoreIZ();
+                cbiz.value = silica.icon_size_launcher;
             }
         }
 
         MenuItem {
-            text: qsTr("Restore icon size")
-            visible: themepack.getFileSize("harbour-themepacksupport/icon-z") > 0
-
+            text: qsTr("Restore Android DPI")
+            visible: themepack.hasAndroidSupport
             onClicked: {
-                remorsepopup.execute(qsTr("Restoring icon size"), function() {
-                    themepack.restoreIZ();
-                    notification.publish();
-
-                    sliz.value = themeiconsubdir.value;
-                });
+                themepack.restoreADPI();
+                sladpi.value = themepack.droidDPI;
             }
         }
 
@@ -60,12 +50,8 @@ SilicaFlickable
             text: qsTr("Restore device pixel ratio")
 
             onClicked: {
-                remorsepopup.execute(qsTr("Restoring device pixel ratio"), function() {
-                    themepack.restoreDPR();
-                    notification.publish();
-
-                    sldpr.value = themepixelratio.value;
-                });
+                themepack.restoreDPR();
+                sldpr.value = silica.theme_pixel_ratio;
             }
         }
     }
@@ -112,37 +98,6 @@ SilicaFlickable
 
         Column
         {
-            id: coliz
-            width: parent.width
-            visible: themepack.getFileSize("harbour-themepacksupport/icon-z") > 0
-
-            Slider {
-                id: sliz
-                width: parent.width
-                label: qsTr("Icon size")
-                maximumValue: 2.0
-                minimumValue: 1.0
-                stepSize: 0.25
-                value: silica.theme_icon_subdir
-                valueText: value
-                onPressAndHold: cancel()
-
-                onReleased: {
-                    silica.theme_icon_subdir = value;
-                }
-            }
-
-            Label {
-                x: Theme.paddingLarge
-                width: parent.width - 2 * Theme.paddingLarge
-                wrapMode: Text.Wrap
-                textFormat: Text.RichText
-                text: qsTr("Change the size of UI icons. To a greater value corresponds an huger size.<br><br>Remember to restart the homescreen right after.")
-            }
-        }
-
-        Column
-        {
             id: coladpi
             width: parent.width
             visible: themepack.hasAndroidSupport
@@ -170,5 +125,35 @@ SilicaFlickable
                 text: qsTr("Change the Android DPI value. To a smaller value corresponds an higher density.<br><br>Remember to restart the Android support or the homescreen right after.")
             }
         }
+
+        SectionHeader { text: qsTr("Icon size") }
+        Column
+        {
+            id: coliz
+            width: parent.width
+
+            ComboBox {
+                id: cbiz
+                width: parent.width
+                label: qsTr("Icon size")
+                value: silica.icon_size_launcher
+
+                menu: ContextMenu {
+                    MenuItem { text: "86"; onClicked: silica.icon_size_launcher = 86 }
+                    MenuItem { text: "108"; onClicked: silica.icon_size_launcher = 108 }
+                    MenuItem { text: "128"; onClicked: silica.icon_size_launcher = 128 }
+                    MenuItem { text: "256"; onClicked: silica.icon_size_launcher = 256 }
+                }
+            }
+
+            Label {
+                x: Theme.paddingLarge
+                width: parent.width - 2 * Theme.paddingLarge
+                wrapMode: Text.Wrap
+                textFormat: Text.RichText
+                text: qsTr("Change the size of UI icons. To a greater value corresponds an huger size.<br><br>Remember to restart the homescreen right after.")
+            }
+        }
+
     }
 }

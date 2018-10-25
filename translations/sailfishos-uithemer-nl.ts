@@ -122,16 +122,8 @@
         <translation>Android-DPI herstellen</translation>
     </message>
     <message>
-        <source>Restoring Android DPI</source>
-        <translation>Android-DPI wordt hersteld</translation>
-    </message>
-    <message>
         <source>Restore device pixel ratio</source>
         <translation>Pixelverhouding van apparaat herstellen</translation>
-    </message>
-    <message>
-        <source>Restoring device pixel ratio</source>
-        <translation>Pixelverhouding van apparaat wordt hersteld</translation>
     </message>
     <message>
         <source>Display density</source>
@@ -160,10 +152,6 @@
     <message>
         <source>Restore icon size</source>
         <translation>Pictogramgrootte herstellen</translation>
-    </message>
-    <message>
-        <source>Restoring icon size</source>
-        <translation>Pictogramgrootte wordt hersteld</translation>
     </message>
     <message>
         <source>Icon size</source>
