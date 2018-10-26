@@ -16,16 +16,6 @@ SilicaFlickable
         property real icon_size_launcher
     }
 
-    ConfigurationValue {
-        id: themepixelratio
-        key: "/desktop/sailfish/silica/theme_pixel_ratio"
-    }
-
-    ConfigurationValue {
-        id: iconsizelauncher
-        key: "/desktop/sailfish/silica/icon_size_launcher"
-    }
-
     PullDownMenu
     {
 
@@ -141,8 +131,9 @@ SilicaFlickable
                 menu: ContextMenu {
                     MenuItem { text: "86"; onClicked: silica.icon_size_launcher = 86 }
                     MenuItem { text: "108"; onClicked: silica.icon_size_launcher = 108 }
-                    MenuItem { text: "128"; onClicked: silica.icon_size_launcher = 128 }
-                    MenuItem { text: "256"; onClicked: silica.icon_size_launcher = 256 }
+                    MenuItem { text: "129"; onClicked: silica.icon_size_launcher = 129 }
+                    MenuItem { text: "151"; onClicked: silica.icon_size_launcher = 151 }
+                    MenuItem { text: "172"; onClicked: silica.icon_size_launcher = 172 }
                 }
             }
 
