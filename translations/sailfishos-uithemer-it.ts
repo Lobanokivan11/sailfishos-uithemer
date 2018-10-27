@@ -324,6 +324,14 @@
         <source>Uninstall</source>
         <translation>Disinstalla</translation>
     </message>
+    <message>
+        <source>fonts</source>
+        <translation>font</translation>
+    </message>
+    <message>
+        <source>icons</source>
+        <translation>icone</translation>
+    </message>
 </context>
 <context>
     <name>ThemePackListView</name>

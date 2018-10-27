@@ -30,10 +30,10 @@ ListItem
             var types = [];
 
             if(fontInstalled)
-                types.push("fonts");
+                types.push(qsTr("fonts"));
 
             if(iconInstalled)
-                types.push("icons");
+                types.push(qsTr("icons"));
 
             if(types.length <= 0)
                 return s;
