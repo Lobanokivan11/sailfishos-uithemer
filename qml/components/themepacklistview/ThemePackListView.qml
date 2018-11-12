@@ -1,6 +1,7 @@
 import QtQuick 2.0
 import Sailfish.Silica 1.0
 import harbour.uithemer 1.0
+import Nemo.DBus 2.0
 import "../../js/Database.js" as Database
 
 SilicaListView
@@ -71,7 +72,19 @@ SilicaListView
         }
     }
 
+    DBusInterface {
+        id: openStore
+        service: 'harbour.storeman.service'
+        path: '/harbour/storeman/service'
+        iface: 'harbour.storeman.service'
+
+        function openPage() {
+            call('openPage', ['SearchPage', {initialSearch: 'themepack'}])
+        }
+    }
+
     PullDownMenu {
+        MenuItem { text: qsTr("Download themes"); onClicked: openStore.call('openPage', ['SearchPage', {initialSearch: 'themepack'}]) }
         MenuItem { text: qsTr("Refresh"); onClicked: themepackmodel.reloadAll() }
 
         MenuItem {

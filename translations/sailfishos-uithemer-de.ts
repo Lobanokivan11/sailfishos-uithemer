@@ -150,16 +150,16 @@
         <translation>Ändert die Android DPI. Ein kleinerer Wert erhöht die Pixeldichte. &lt;br&gt;&lt;br&gt; Der Startbildschirm muss danach neu gestartet werden.  </translation>
     </message>
     <message>
-        <source>Restore icon size</source>
-        <translation>Icongröße zurücksetzen</translation>
-    </message>
-    <message>
         <source>Icon size</source>
         <translation>Icongröße</translation>
     </message>
     <message>
         <source>Change the size of UI icons. To a greater value corresponds an huger size.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
         <translation>Ändert die Icongröße. Ein größerer Wert bedeutet größere Icons. &lt;br&gt;&lt;br&gt;Vergiss nicht, den Startbildschirm neu zu starten.</translation>
+    </message>
+    <message>
+        <source>Restore icon size</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -239,6 +239,10 @@
     <message>
         <source>Remember to unapply themes and display density customizations before updating your system. In case you forgot, you may need to use the options provided in the &lt;i&gt;Recovery&lt;/i&gt; page or uninstall and reinstall Theme pack support e UI Themer.</source>
         <translation>Setze die UI Themer Einstellungen vor jedem Systemupdate zurück. Falls du es einmal vergessen solltest, findest du im &lt;i&gt;Recovery&lt;/i&gt; die Wiederherstellung oder du deinstallierst Theme Pack Support aka UI Themer. </translation>
+    </message>
+    <message>
+        <source>An homescreen restart may be needed to apply your settings. You can do that from the &lt;i&gt;Tools&lt;/i&gt; page.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -358,6 +362,10 @@
     <message>
         <source>Install a compatible theme first</source>
         <translation>Installiere zuerst ein kompatibles Theme</translation>
+    </message>
+    <message>
+        <source>Download themes</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

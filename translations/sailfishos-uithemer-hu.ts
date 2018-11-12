@@ -150,16 +150,16 @@
         <translation>Android DPI érték megváltoztatása. Kisebb érték nagyobb sűrűségnek felel meg.&lt;br&gt;&lt;br&gt;Ne felejtsd újraindítani az Android támogatást, vagy a kezdőképernyőt utána.</translation>
     </message>
     <message>
-        <source>Restore icon size</source>
-        <translation>Ikonméret visszaállítása</translation>
-    </message>
-    <message>
         <source>Icon size</source>
         <translation>Ikonméret</translation>
     </message>
     <message>
         <source>Change the size of UI icons. To a greater value corresponds an huger size.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
         <translation>A felhasználói felületen lévő ikonok méretének megváltoztatása. Nagyobb érték nagyobb méretnek felel meg.&lt;br&gt;&lt;br&gt;Ne felejtsd újraindítani a kezdőképernyőt utána.</translation>
+    </message>
+    <message>
+        <source>Restore icon size</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -239,6 +239,10 @@
     <message>
         <source>Remember to unapply themes and display density customizations before updating your system. In case you forgot, you may need to use the options provided in the &lt;i&gt;Recovery&lt;/i&gt; page or uninstall and reinstall Theme pack support e UI Themer.</source>
         <translation>Rendszerfrissítés előtt ne felejtsd el visszavonni a témákat, és a kijelző sűrűség testreszabásait. Ha esetleg elfelejted, használhatod az &lt;i&gt;Helyreállítás&lt;/i&gt; oldal által kínált opciókat, vagy eltávolíthatod, és újratelepítheted a Theme pack support-ot és az UI Themer-t.</translation>
+    </message>
+    <message>
+        <source>An homescreen restart may be needed to apply your settings. You can do that from the &lt;i&gt;Tools&lt;/i&gt; page.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -358,6 +362,10 @@
     <message>
         <source>Install a compatible theme first</source>
         <translation>Először telepíts egy kompatibilis témát</translation>
+    </message>
+    <message>
+        <source>Download themes</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

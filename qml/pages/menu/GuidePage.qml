@@ -73,7 +73,7 @@ Page
                 x: Theme.paddingLarge
                 width: parent.width - (x * 2)
                 wrapMode: Text.Wrap
-                text: qsTr("An homescreen restart may be needed to apply your settings. You can do that through the dialog or from the <i>Tools</i> page.")
+                text: qsTr("An homescreen restart may be needed to apply your settings. You can do that from the <i>Tools</i> page.")
             }
 
             SectionHeader { text: qsTr("Icon updater") }

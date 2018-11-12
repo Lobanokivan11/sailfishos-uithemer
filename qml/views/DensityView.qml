@@ -20,6 +20,7 @@ SilicaFlickable
     {
 
         MenuItem {
+            visible: false
             text: qsTr("Restore icon size")
             onClicked: {
                 themepack.restoreIZ();

@@ -150,16 +150,16 @@
         <translation>Pas de Android-DPI-waarde aan. Een kleinere waarde komt overeen met een hogere dichtheid.&lt;br&gt;&lt;br&gt;Vergeet niet om de Android-ondersteuning of het startscherm nadien te herstarten.</translation>
     </message>
     <message>
-        <source>Restore icon size</source>
-        <translation>Pictogramgrootte herstellen</translation>
-    </message>
-    <message>
         <source>Icon size</source>
         <translation>Pictogramgrootte</translation>
     </message>
     <message>
         <source>Change the size of UI icons. To a greater value corresponds an huger size.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
         <translation>Pas de grootte van pictogrammen in de gebruikersinterface aan. Een grotere waarde komt overeen grotere pictogrammen.&lt;br&gt;&lt;br&gt;Vergeet niet om het startscherm nadien te herstarten.</translation>
+    </message>
+    <message>
+        <source>Restore icon size</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -239,6 +239,10 @@
     <message>
         <source>Remember to unapply themes and display density customizations before updating your system. In case you forgot, you may need to use the options provided in the &lt;i&gt;Recovery&lt;/i&gt; page or uninstall and reinstall Theme pack support e UI Themer.</source>
         <translation>Vergeet niet wijzingen aan thema’s en pixeldichtheid ongedaan te maken vooraleer je een systeemupdate installeert. Als je dit toch zou vergeten, kan je de opties in de pagina &lt;i&gt;Gereedschap&lt;/i&gt; gebruiken, of UI Themer en de Themapakketondersteuning verwijderen en opnieuw installeren.</translation>
+    </message>
+    <message>
+        <source>An homescreen restart may be needed to apply your settings. You can do that from the &lt;i&gt;Tools&lt;/i&gt; page.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -358,6 +362,10 @@
     <message>
         <source>Install a compatible theme first</source>
         <translation>Installeer eerst een compatibel thema</translation>
+    </message>
+    <message>
+        <source>Download themes</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

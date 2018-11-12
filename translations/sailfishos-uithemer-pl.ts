@@ -150,15 +150,15 @@
         <translation type="unfinished">Zmień wartość Android&apos;owego DPI. Mniejszej wartości odpowiada większa gęstość.&lt;br&gt;&lt;br&gt;Pamiętaj, aby potem od razu uruchomić ponownie emulację Androida lub ekran główny. </translation>
     </message>
     <message>
-        <source>Restore icon size</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Icon size</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Change the size of UI icons. To a greater value corresponds an huger size.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Restore icon size</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -238,6 +238,10 @@
     </message>
     <message>
         <source>Remember to unapply themes and display density customizations before updating your system. In case you forgot, you may need to use the options provided in the &lt;i&gt;Recovery&lt;/i&gt; page or uninstall and reinstall Theme pack support e UI Themer.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>An homescreen restart may be needed to apply your settings. You can do that from the &lt;i&gt;Tools&lt;/i&gt; page.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -357,6 +361,10 @@
     </message>
     <message>
         <source>Install a compatible theme first</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Download themes</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

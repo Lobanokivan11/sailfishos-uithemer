@@ -150,16 +150,16 @@
         <translation>Cambia il DPI Android. A un valore minore corrisponde una maggiore densità.&lt;br&gt;&lt;br&gt;Ricorda di riavviare il supporto Android o la homescreen subito dopo.</translation>
     </message>
     <message>
-        <source>Restore icon size</source>
-        <translation>Ripristina dimensione icone</translation>
-    </message>
-    <message>
         <source>Icon size</source>
         <translation>Dimensione icone</translation>
     </message>
     <message>
         <source>Change the size of UI icons. To a greater value corresponds an huger size.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
         <translation>Cambia la dimensione delle icone della UI. A un valore maggiore corrisponde una dimensione maggiore.&lt;br&gt;&lt;br&gt;Ricorda di riavviare la homescreen subito dopo.</translation>
+    </message>
+    <message>
+        <source>Restore icon size</source>
+        <translation>Ripristina dimensione icone</translation>
     </message>
 </context>
 <context>
@@ -239,6 +239,10 @@
     <message>
         <source>Remember to unapply themes and display density customizations before updating your system. In case you forgot, you may need to use the options provided in the &lt;i&gt;Recovery&lt;/i&gt; page or uninstall and reinstall Theme pack support e UI Themer.</source>
         <translation>Ricorda di ripristinare le personalizzazioni dei temi e della densità del display prima di aggiornare il sistema. In caso lo abbia dimenticato, dovresti poter utilizzare le opzioni fornite nella pagina &lt;i&gt;Recovery&lt;/i&gt; o disinstallare e reinstallare Theme pack support e UI Themer.</translation>
+    </message>
+    <message>
+        <source>An homescreen restart may be needed to apply your settings. You can do that from the &lt;i&gt;Tools&lt;/i&gt; page.</source>
+        <translation>Un riavvio della homescreen potrebbe essere necessario per applicare le impostazioni. Puoi farlo dalla pagina &lt;i&gt;Strumenti&lt;/i&gt;.</translation>
     </message>
 </context>
 <context>
@@ -358,6 +362,10 @@
     <message>
         <source>Install a compatible theme first</source>
         <translation>Installa un tema compatibile</translation>
+    </message>
+    <message>
+        <source>Download themes</source>
+        <translation>Scarica temi</translation>
     </message>
 </context>
 <context>

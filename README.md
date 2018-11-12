@@ -13,6 +13,7 @@ UI Themer lets customize icons, fonts and pixel density in Sailfish OS. Graphica
 - Font theming.
 - Change device pixel ratio.
 - Change DPI for Alien Dalvik.
+- Change icon size.
 - Recovery tools.
 - Auto-update icon theme.
 

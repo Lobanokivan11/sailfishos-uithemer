@@ -38,7 +38,6 @@ OTHER_FILES += qml/sailfishos-uithemer.qml \
     qml/cover/CoverPage.qml \
     rpm/sailfishos-uithemer.changes.in \
     rpm/sailfishos-uithemer.spec \
-    rpm/sailfishos-uithemer.yaml \
     sailfishos-uithemer.desktop \
     qml/js/*.js \
     qml/components/AboutLanguage.qml \
@@ -70,4 +69,4 @@ DISTFILES += \
     qml/pages/menu/GuidePage.qml \
     qml/js/Database.js \
     qml/pages/menu/RecoveryPage.qml \
-    qml/views/ToolsView.qml
+    qml/views/ToolsView.qml \
