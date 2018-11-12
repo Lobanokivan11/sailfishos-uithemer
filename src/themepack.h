@@ -12,9 +12,10 @@ class ThemePack : public QObject
 
     public:
         explicit ThemePack(QObject* parent = 0);
-        bool hasAndroidSupport() const;
 
     public slots:
+        bool hasAndroidSupport() const;
+        bool hasStoremanInstalled() const;
         QString whoami() const;                         // function to test what user runs app
         QString getTimer() const;                       // gets hours from timer
         double droidDPI() const;

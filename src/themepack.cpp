@@ -14,6 +14,14 @@ bool ThemePack::hasAndroidSupport() const
     return this->getDroidDPI(NULL);
 }
 
+bool ThemePack::hasStoremanInstalled() const
+{
+    bool res = QFileInfo("/usr/share/harbour-storeman/qml/harbour-storeman.qml").exists();
+
+   qDebug("%d\n", res);
+   return res;
+}
+
 double ThemePack::droidDPI() const
 {
     double dpi = 0;

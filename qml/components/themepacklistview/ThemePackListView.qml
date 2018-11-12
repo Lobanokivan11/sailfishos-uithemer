@@ -77,14 +77,10 @@ SilicaListView
         service: 'harbour.storeman.service'
         path: '/harbour/storeman/service'
         iface: 'harbour.storeman.service'
-
-        function openPage() {
-            call('openPage', ['SearchPage', {initialSearch: 'themepack'}])
-        }
     }
 
     PullDownMenu {
-        MenuItem { text: qsTr("Download themes"); onClicked: openStore.call('openPage', ['SearchPage', {initialSearch: 'themepack'}]) }
+        MenuItem { text: qsTr("Download themes"); visible: themepack.hasStoremanInstalled(); onClicked: openStore.call('openPage', ['SearchPage', {initialSearch: 'themepack'}]) }
         MenuItem { text: qsTr("Refresh"); onClicked: themepackmodel.reloadAll() }
 
         MenuItem {
