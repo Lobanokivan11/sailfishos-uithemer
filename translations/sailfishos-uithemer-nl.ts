@@ -462,5 +462,60 @@
         <source>Tools</source>
         <translation>Gereedschap</translation>
     </message>
+    <message>
+        <source>Restart first run wizard</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>WelcomePage</name>
+    <message>
+        <source>Welcome to UI Themer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Install dependencies</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>I have already installed the dependencies</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Donate</source>
+        <translation type="unfinished">Doneren</translation>
+    </message>
+    <message>
+        <source>I don&apos;t care donating</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Start UI Themer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Settings applied.</source>
+        <translation type="unfinished">Instellingen toegepast.</translation>
+    </message>
+    <message>
+        <source>UI Themer lets you customize icons, fonts and pixel density in Sailfish OS.</source>
+        <translation type="unfinished">Met UI Themer kan je pictogrammen, lettertypen en pixeldichtheid in Sailfish OS aanpassen.</translation>
+    </message>
+    <message>
+        <source>If you like my work and want to buy me a beer, feel free to do it!</source>
+        <translation type="unfinished">Als je fan bent van mijn werk en me wil trakteren op een drankje, ga je gang!</translation>
+    </message>
+    <message>
+        <source>Support</source>
+        <translation type="unfinished">Hulp</translation>
+    </message>
+    <message>
+        <source>UI Themer needs some additional dependencies in order to function properly. Install them now if you haven&apos;t already.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>It may take a while, do not quit.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>

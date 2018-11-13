@@ -462,5 +462,60 @@
         <source>Tools</source>
         <translation>Strumenti</translation>
     </message>
+    <message>
+        <source>Restart first run wizard</source>
+        <translation>Riavvia configurazione guidata</translation>
+    </message>
+</context>
+<context>
+    <name>WelcomePage</name>
+    <message>
+        <source>Welcome to UI Themer</source>
+        <translation>Benvenuto in UI Themer</translation>
+    </message>
+    <message>
+        <source>Install dependencies</source>
+        <translation>Installa dipendenze</translation>
+    </message>
+    <message>
+        <source>I have already installed the dependencies</source>
+        <translation>Ho già installato le dipendenze</translation>
+    </message>
+    <message>
+        <source>Donate</source>
+        <translation>Dona</translation>
+    </message>
+    <message>
+        <source>I don&apos;t care donating</source>
+        <translation>Non mi interessa donare</translation>
+    </message>
+    <message>
+        <source>Start UI Themer</source>
+        <translation>Avvia UI Themer</translation>
+    </message>
+    <message>
+        <source>Settings applied.</source>
+        <translation>Impostazioni applicate.</translation>
+    </message>
+    <message>
+        <source>UI Themer lets you customize icons, fonts and pixel density in Sailfish OS.</source>
+        <translation>UI Themer ti permette di personalizzare le icone, i font e la densità di pixel in Sailfish OS.</translation>
+    </message>
+    <message>
+        <source>If you like my work and want to buy me a beer, feel free to do it!</source>
+        <translation>Se ti piace il mio lavoro, sentiti libero di offrirmi una birra!</translation>
+    </message>
+    <message>
+        <source>Support</source>
+        <translation>Supporta</translation>
+    </message>
+    <message>
+        <source>UI Themer needs some additional dependencies in order to function properly. Install them now if you haven&apos;t already.</source>
+        <translation>UI Themer ha bisogno di alcune dipendenze per funzionare correttamente. Installale adesso se non lo hai già fatto.</translation>
+    </message>
+    <message>
+        <source>It may take a while, do not quit.</source>
+        <translation>Potrebbe volerci un po&apos;. non uscire dall&apos;app.</translation>
+    </message>
 </context>
 </TS>

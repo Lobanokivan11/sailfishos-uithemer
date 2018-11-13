@@ -47,6 +47,10 @@ SilicaFlickable
                 onClicked: pageStack.push(Qt.resolvedUrl("../pages/menu/AboutPage.qml"))
             }
             MenuItem {
+                text: qsTr("Restart first run wizard")
+                onClicked: pageStack.replace(Qt.resolvedUrl("../pages/WelcomePage.qml"))
+            }
+            MenuItem {
                 text: qsTr("Usage guide")
                 onClicked: pageStack.push(Qt.resolvedUrl("../pages/menu/GuidePage.qml"))
             }

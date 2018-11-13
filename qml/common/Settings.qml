@@ -7,6 +7,7 @@ Item
     property string activeIconPack
 
     property bool homeRefresh: true
+    property bool wizardDone: false
     property int autoUpdate: 0
 
     function deactivateFont() { activeFontPack = "none"; }

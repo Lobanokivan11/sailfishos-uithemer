@@ -20,6 +20,7 @@ class ThemePack : public QObject
         QString getTimer() const;                       // gets hours from timer
         double droidDPI() const;
         qint64 getFileSize(const QString& file);
+        void installDependencies() const;
         void restartHomescreen() const;
         void ocr() const;
         void reinstallIcons() const;
@@ -39,6 +40,7 @@ class ThemePack : public QObject
     signals:
         void iconsRestored();
         void fontsRestored();
+        void dependenciesInstalled();
         void restartHomescreenRestored();
         void ocrRestored();
         void droidDPIChanged();

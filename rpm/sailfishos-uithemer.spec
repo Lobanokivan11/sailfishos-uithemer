@@ -13,15 +13,15 @@ Name:       sailfishos-uithemer
 %{!?qtc_make:%define qtc_make make}
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:        UI Themer
-Version:        1.1.2
-Release:        19
+Version:        1.1.3
+Release:        18
 Group:          Qt/Qt
 License:        GPLv3
 Packager:       fravaccaro <fravaccaro@jollacommunity.it>
 URL:            https://github.com/fravaccaro/sailfishos-uithemer
 Source0:        %{name}-%{version}.tar.bz2
 Source100:      sailfishos-uithemer.yaml
-Requires:       sailfish-version >= 2.1.0, harbour-themepacksupport >= 0.7.2-1
+Requires:       sailfish-version >= 2.1.0, harbour-themepacksupport >= 0.7.3-1
 BuildRequires:  pkgconfig(sailfishapp) >= 1.0.2
 BuildRequires:  pkgconfig(Qt5Core)
 BuildRequires:  pkgconfig(Qt5Qml)
@@ -92,6 +92,10 @@ if [ "$1" = "1" ]; then
 fi
 
 %changelog
+* Tue Nov 13 2018 1.1.3
+- Compatibility with Theme pack support 0.7.3.
+- Added first run wizard.
+
 * Mon Nov 12 2018 1.1.2
 - Compatibility with Theme pack support 0.7.2.
 - Added options to download themes (requires Storeman).

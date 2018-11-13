@@ -16,6 +16,7 @@ other/disable_service.sh \
 other/enable_service.sh \
 other/reinstall_fonts.sh \
 other/reinstall_icons.sh \
+other/install_dependencies.sh \
 other/coverbg.png\
 other/appinfo.png
 
@@ -44,6 +45,7 @@ OTHER_FILES += qml/sailfishos-uithemer.qml \
     qml/components/AboutTranslator.qml \
     qml/common/Settings.qml \
     qml/pages/MainPage.qml
+    qml/pages/WelcomePage.qml
 
 SAILFISHAPP_ICONS = 86x86
 
