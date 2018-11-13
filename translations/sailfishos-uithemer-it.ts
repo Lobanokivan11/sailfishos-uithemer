@@ -515,7 +515,7 @@
     </message>
     <message>
         <source>It may take a while, do not quit.</source>
-        <translation>Potrebbe volerci un po&apos;. non uscire dall&apos;app.</translation>
+        <translation>Potrebbe volerci un po&apos;, non uscire dall&apos;app.</translation>
     </message>
 </context>
 </TS>
