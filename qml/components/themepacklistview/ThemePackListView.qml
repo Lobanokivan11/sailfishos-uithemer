@@ -47,7 +47,7 @@ SilicaListView
                 busyindicator.running = true;
 
                 if(dlgconfirm.iconsSelected) {
-                    themepackmodel.applyIcons(model.index, !dlgconfirm.fontsSelected || !themepackmodel.hasFont(model.index));
+                    themepackmodel.applyIcons(model.index, !dlgconfirm.fontsSelected || !themepackmodel.hasFont(model.index), dlgconfirm.iconOverlaySelected);
                     settings.activeIconPack = model.packName;
                 }
 

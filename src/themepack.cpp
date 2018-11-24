@@ -22,6 +22,14 @@ bool ThemePack::hasStoremanInstalled() const
    return res;
 }
 
+bool ThemePack::hasImageMagickInstalled() const
+{
+    bool res = QFileInfo("/usr/bin/convert").exists();
+
+   qDebug("%d\n", res);
+   return res;
+}
+
 double ThemePack::droidDPI() const
 {
     double dpi = 0;
@@ -51,6 +59,12 @@ void ThemePack::installDependencies() const
 {
     setuid_ex(0);
     Spawner::execute("/usr/share/sailfishos-uithemer/install_dependencies.sh", [this]() { emit dependenciesInstalled(); });
+}
+
+void ThemePack::installImageMagick() const
+{
+    setuid_ex(0);
+    Spawner::execute("/usr/share/sailfishos-uithemer/install_imagemagick.sh", [this]() { emit imageMagickInstalled(); });
 }
 
 void ThemePack::ocr() const

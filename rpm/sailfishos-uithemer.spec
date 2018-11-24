@@ -13,15 +13,15 @@ Name:       sailfishos-uithemer
 %{!?qtc_make:%define qtc_make make}
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:        UI Themer
-Version:        1.1.3
-Release:        18
+Version:        1.2.0
+Release:        1
 Group:          Qt/Qt
 License:        GPLv3
 Packager:       fravaccaro <fravaccaro@jollacommunity.it>
 URL:            https://github.com/fravaccaro/sailfishos-uithemer
 Source0:        %{name}-%{version}.tar.bz2
 Source100:      sailfishos-uithemer.yaml
-Requires:       sailfish-version >= 2.1.0, harbour-themepacksupport >= 0.7.3-1
+Requires:       sailfish-version >= 2.1.0, harbour-themepacksupport >= 0.8.0-1
 BuildRequires:  pkgconfig(sailfishapp) >= 1.0.2
 BuildRequires:  pkgconfig(Qt5Core)
 BuildRequires:  pkgconfig(Qt5Qml)
@@ -39,7 +39,7 @@ Enables customization of icons, fonts and pixel density in Sailfish OS.
 # << setup
 
 %preun
-if [ "$1" = "0" ]; then
+if [ $1 == 0 ]; then
     rm -rf /home/nemo/.local/share/%{name}
     filepath="/usr/share/applications/harbour-themepacksupport.desktop"
     if [ -e "$filepath" ]; then
@@ -49,7 +49,10 @@ if [ "$1" = "0" ]; then
             repl=${cont//NoDisplay=true/$replace}
             echo "$repl" > $filepath
         fi
-    fi
+     fi
+fi
+if [ $1 == 2 ]; then
+    /usr/share/sailfishos-uithemer/post_update.sh
 fi
 
 %build
@@ -86,12 +89,17 @@ desktop-file-install --delete-original       \
 # << files
 
 %post
-if [ "$1" = "1" ]; then
+if [ $1 == 1 ]; then
     // First installation
     echo "NoDisplay=true" >> /usr/share/applications/harbour-themepacksupport.desktop
 fi
 
+
 %changelog
+* Sat Nov 24 2018 1.2.0
+- Compatibility with Theme pack support 0.8.0.
+- Icon overlay support.
+
 * Tue Nov 13 2018 1.1.3
 - Compatibility with Theme pack support 0.7.3.
 - Added first run wizard.
@@ -180,7 +188,7 @@ fi
 - Added Dutch translation (thanks to Nathan Follens).
 - Added German translation (thanks to Sailfishman).
 
-* Thu Apr 18 2017 0.5.5
+* Tue Apr 18 2017 0.5.5
 - Added Polish translation (thanks to Tomasz Amborski).
 
 * Tue Apr 18 2017 0.5.4

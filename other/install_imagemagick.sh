@@ -2,4 +2,4 @@
 
 main=/usr/share/harbour-themepacksupport
 
-$main/install_dependencies.sh
+$main/install_imagemagick.sh

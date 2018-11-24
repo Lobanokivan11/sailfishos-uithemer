@@ -17,6 +17,8 @@ other/enable_service.sh \
 other/reinstall_fonts.sh \
 other/reinstall_icons.sh \
 other/install_dependencies.sh \
+other/install_imagemagick.sh \
+other/post_update.sh \
 other/coverbg.png\
 other/appinfo.png
 

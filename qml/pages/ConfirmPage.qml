@@ -10,10 +10,13 @@ Dialog
     property int themePackIndex
 
     property bool hasIcons: themePackModel.hasIcons(themePackIndex)
+    property bool hasIconOverlay: themePackModel.hasIconOverlay(themePackIndex)
     property bool hasFont: themePackModel.hasFont(themePackIndex)
+    property bool hasFontNonLatin: themePackModel.hasFontNonLatin(themePackIndex)
     property string packDisplayName: themePackModel.packDisplayName(themePackIndex)
     property string packName: themePackModel.packName(themePackIndex)
     property alias iconsSelected: itsicons.checked
+    property alias iconOverlaySelected: itsiconoverlay.checked
     property alias fontsSelected: itsfonts.checked
     property string selectedFont: hasFont ? fontweightmodel.firstWeight: ""
 
@@ -69,11 +72,24 @@ Dialog
             }
 
             IconTextSwitch {
+                id: itsiconoverlay
+                automaticCheck: true
+                text: qsTr("Apply icon overlay")
+                description: qsTr("Apply an overlay on icons not available in the theme.")
+                checked: hasIconOverlay
+                enabled: hasIconOverlay && itsicons.checked
+
+                onClicked: {
+                    iconOverlaySelected = itsiconoverlay.checked;
+                }
+            }
+
+            IconTextSwitch {
                 id: itsfonts
                 automaticCheck: true
                 text: qsTr("Install fonts from theme")
-                checked: hasFont
-                enabled: hasFont
+                checked: hasFont || hasFontNonLatin
+                enabled: hasFont || hasFontNonLatin
 
                 onClicked: {
                     fontsSelected = itsfonts.checked;
@@ -88,7 +104,7 @@ Dialog
             Column {
                 id: fontsettings
                 width: parent.width
-                visible: itsfonts.checked && itsfonts.enabled
+                visible: hasFont && itsfonts.checked && itsfonts.enabled
                 spacing: Theme.paddingMedium
 
                 Button {

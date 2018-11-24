@@ -19,7 +19,7 @@ class ThemePackModel : public QAbstractListModel
         bool hasCapability(int index, const QString& capability) const;
 
     public slots:
-        void applyIcons(int index, bool notify) const;
+        void applyIcons(int index, bool notify, bool overlay) const;
         void applyFonts(int index, const QString& font) const;
         void restore(bool icons, bool fonts);
         void uninstall(int index);
@@ -31,7 +31,9 @@ class ThemePackModel : public QAbstractListModel
         bool hasJolla(int index) const;
         bool hasNative(int index) const;
         bool hasApk(int index) const;
+        bool hasIconOverlay(int index) const;
         bool hasFont(int index) const;
+        bool hasFontNonLatin(int index) const;
         bool hasDynClock(int index) const;
         bool hasDynCal(int index) const;
         void reloadAll();

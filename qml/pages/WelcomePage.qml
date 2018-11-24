@@ -10,6 +10,7 @@ Page
     id: welcomepage
     property bool vDep: false
     property bool vDon: false
+    property bool vIM: themepack.hasImageMagickInstalled()
 
     ThemePack { id: themepack; }
     BusyIndicator { id: busyindicator; running: false; size: BusyIndicatorSize.Large; anchors.centerIn: parent }
@@ -37,13 +38,21 @@ Page
         function notify() {
             busyindicator.running = false;
             notification.publish();
-            vDep = true
-            installdep.enabled = false
-            itsdep.enabled = false
         }
 
         target: themepack
-        onDependenciesInstalled: notify()
+        onDependenciesInstalled: {
+            vDep = true
+            installdep.enabled = false
+            itsdep.enabled = false
+            notify()
+        }
+
+        onImageMagickInstalled: {
+            vIM = true
+            imagemagick.enabled = false
+            notify()
+        }
     }
 
     ConfigurationGroup {
@@ -82,6 +91,34 @@ Page
                 textFormat: Text.RichText
                 text: qsTr("UI Themer lets you customize icons, fonts and pixel density in Sailfish OS.")
             }
+
+            SectionHeader { text: qsTr("Terms and conditions") }
+
+            Label {
+                x: Theme.paddingLarge
+                width: parent.width - (x * 2)
+                wrapMode: Text.Wrap
+                onLinkActivated: Qt.openUrlExternally(link)
+                text: qsTr("By using UI Themer, you agree to the <a href='https://www.gnu.org/licenses/gpl-3.0'>GNU GPLv3</a> terms and conditions.")
+            }
+
+            SectionHeader { text: qsTr("Usage guide") }
+
+            Label {
+                x: Theme.paddingLarge
+                width: parent.width - (x * 2)
+                wrapMode: Text.Wrap
+                text: qsTr("UI Themer needs some additional dependencies in order to function properly. Install them now if you haven't already.")
+            }
+
+            Button {
+                 id: usageguide
+                 anchors.horizontalCenter: parent.horizontalCenter
+                 text: qsTr("Usage guide")
+                 onClicked: pageStack.push(Qt.resolvedUrl("./menu/GuidePage.qml"))
+             }
+
+            SectionHeader { text: qsTr("Dependencies") }
 
             Label {
                 x: Theme.paddingLarge
@@ -126,6 +163,26 @@ Page
                 }
             }
 
+            SectionHeader { text: qsTr("ImageMagick") }
+
+            Label {
+                x: Theme.paddingLarge
+                width: parent.width - (x * 2)
+                wrapMode: Text.Wrap
+                text: qsTr("ImageMagick is required for UI Themer overlays to work. Overlays need to be supported by the theme.")
+            }
+
+            Button {
+                id: imagemagick
+                anchors.horizontalCenter: parent.horizontalCenter
+                enabled: vIM ? false : true
+                text: vIM ? qsTr("ImageMagick installed") : qsTr("Install ImageMagick")
+                onClicked: {
+                    busyindicator.running = true;
+                    themepack.installImageMagick();
+                }
+            }
+
             SectionHeader { text: qsTr("Support") }
 
             Label {
@@ -167,7 +224,7 @@ Page
              Button {
                   id: startuit
                   anchors.horizontalCenter: parent.horizontalCenter
-                  enabled: vDep && vDon
+                  enabled: vDep && vDon && vIM
                   text: qsTr("Start UI Themer")
                   onClicked: {
                       conf.wizardDone = true;

@@ -27,7 +27,7 @@ Page
                 Image { id: appicon; anchors.horizontalCenter: parent.horizontalCenter; source: "../../../appinfo.png" }
             }
 
-            Label { anchors.horizontalCenter: parent.horizontalCenter; color: Theme.highlightColor; text: "UI Themer 1.1.3" }
+            Label { anchors.horizontalCenter: parent.horizontalCenter; color: Theme.highlightColor; text: "UI Themer 1.2.0" }
 
             Label {
                 x: Theme.paddingLarge
@@ -42,7 +42,8 @@ Page
                 width: parent.width - (x * 2)
                 wrapMode: Text.Wrap
                 textFormat: Text.RichText
-                text: qsTr("Released under the GNU GPLv3 license.")
+                onLinkActivated: Qt.openUrlExternally(link)
+                text: qsTr("Released under the <a href='https://www.gnu.org/licenses/gpl-3.0'>GNU GPLv3</a> license.")
             }
 
             Button {

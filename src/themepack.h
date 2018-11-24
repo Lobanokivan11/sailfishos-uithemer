@@ -16,11 +16,13 @@ class ThemePack : public QObject
     public slots:
         bool hasAndroidSupport() const;
         bool hasStoremanInstalled() const;
+        bool hasImageMagickInstalled() const;
         QString whoami() const;                         // function to test what user runs app
         QString getTimer() const;                       // gets hours from timer
         double droidDPI() const;
         qint64 getFileSize(const QString& file);
         void installDependencies() const;
+        void installImageMagick() const;
         void restartHomescreen() const;
         void ocr() const;
         void reinstallIcons() const;
@@ -41,6 +43,7 @@ class ThemePack : public QObject
         void iconsRestored();
         void fontsRestored();
         void dependenciesInstalled();
+        void imageMagickInstalled();
         void restartHomescreenRestored();
         void ocrRestored();
         void droidDPIChanged();

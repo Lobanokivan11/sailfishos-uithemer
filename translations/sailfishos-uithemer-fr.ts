@@ -12,10 +12,6 @@
         <translation>UI themer vous permet de personnaliser les icônes, les polices et la densité des pixels dans Sailfish OS.</translation>
     </message>
     <message>
-        <source>Released under the GNU GPLv3 license.</source>
-        <translation>Publié sous la licence GNU GPLv3.</translation>
-    </message>
-    <message>
         <source>Sources</source>
         <translation>Sources</translation>
     </message>
@@ -75,6 +71,10 @@
         <source>Transifex</source>
         <translation>Transifex</translation>
     </message>
+    <message>
+        <source>Released under the &lt;a href=&apos;https://www.gnu.org/licenses/gpl-3.0&apos;&gt;GNU GPLv3&lt;/a&gt; license.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ConfirmPage</name>
@@ -113,6 +113,14 @@
     <message>
         <source>Font weight</source>
         <translation>Taille de la police</translation>
+    </message>
+    <message>
+        <source>Apply icon overlay</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Apply an overlay on icons not available in the theme.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -515,6 +523,38 @@
     </message>
     <message>
         <source>It may take a while, do not quit.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Usage guide</source>
+        <translation type="unfinished">Guide d&apos;utilization</translation>
+    </message>
+    <message>
+        <source>Dependencies</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ImageMagick</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ImageMagick is required for UI Themer overlays to work. Overlays need to be supported by the theme.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Install ImageMagick</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ImageMagick installed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Terms and conditions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>By using UI Themer, you agree to the &lt;a href=&apos;https://www.gnu.org/licenses/gpl-3.0&apos;&gt;GNU GPLv3&lt;/a&gt; terms and conditions.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

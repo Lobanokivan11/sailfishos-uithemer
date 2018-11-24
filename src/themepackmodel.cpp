@@ -34,9 +34,9 @@ bool ThemePackModel::hasCapability(int index, const QString &capability) const
     return dir.count() > 0;
 }
 
-void ThemePackModel::applyIcons(int index, bool notify) const
+void ThemePackModel::applyIcons(int index, bool notify, bool overlay) const
 {
-    Spawner::execute("/usr/share/sailfishos-uithemer/apply.sh", SPAWN_ARGS(RAW_PACK_NAME(this->_packlist[index])), [this, notify]() {
+    Spawner::execute("/usr/share/sailfishos-uithemer/apply.sh", SPAWN_ARGS(RAW_PACK_NAME(this->_packlist[index]) << QString::number(overlay)), [this, notify]() {
         if(!notify)
             return;
 
@@ -116,9 +116,19 @@ bool ThemePackModel::hasApk(int index) const
     return this->hasCapability(index, "apk");
 }
 
+bool ThemePackModel::hasIconOverlay(int index) const
+{
+    return this->hasCapability(index, "overlay");
+}
+
 bool ThemePackModel::hasFont(int index) const
 {
     return this->hasCapability(index, "font");
+}
+
+bool ThemePackModel::hasFontNonLatin(int index) const
+{
+    return this->hasCapability(index, "font-nonlatin");
 }
 
 bool ThemePackModel::hasDynClock(int index) const
