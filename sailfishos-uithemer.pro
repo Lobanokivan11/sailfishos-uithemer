@@ -4,7 +4,6 @@ MY_FILES = \
 other/apply.sh \
 other/restore.sh \
 other/apply_font.sh \
-other/restore_fonts.sh \
 other/homescreen.sh \
 other/ocr.sh \
 other/apply_adpi.sh \
@@ -19,7 +18,7 @@ other/reinstall_icons.sh \
 other/install_dependencies.sh \
 other/install_imagemagick.sh \
 other/post_update.sh \
-other/coverbg.png\
+other/coverbg.png \
 other/appinfo.png
 
 OTHER_SOURCES += $$MY_FILES

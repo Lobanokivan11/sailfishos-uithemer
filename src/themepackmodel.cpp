@@ -51,18 +51,7 @@ void ThemePackModel::applyFonts(int index, const QString &font) const
 
 void ThemePackModel::restore(bool icons, bool fonts)
 {
-    if(icons)
-    {
-        Spawner::execute("/usr/share/sailfishos-uithemer/restore.sh", [this, fonts]() {
-            if(fonts)
-                return;
-
-            emit restoreCompleted();
-        });
-    }
-
-    if(fonts)
-        Spawner::execute("/usr/share/sailfishos-uithemer/restore_fonts.sh", [this, fonts]() { emit restoreCompleted(); });
+    Spawner::execute("/usr/share/sailfishos-uithemer/restore.sh", SPAWN_ARGS(QString::number(icons) << QString::number(fonts)), [this]() { emit fontApplied(); });
 }
 
 void ThemePackModel::uninstall(int index)
@@ -98,7 +87,7 @@ QString ThemePackModel::packDisplayName(int index) const
 bool ThemePackModel::hasIcons(int index) const
 {
     return this->hasJolla(index) || this->hasNative(index) || this->hasApk(index) ||
-           this->hasDynClock(index) || this->hasDynCal(index);
+           this->hasDynClock(index) || this->hasDynCal(index) || this->hasIconOverlay(index);
 }
 
 bool ThemePackModel::hasJolla(int index) const

@@ -73,7 +73,7 @@
     </message>
     <message>
         <source>Released under the &lt;a href=&apos;https://www.gnu.org/licenses/gpl-3.0&apos;&gt;GNU GPLv3&lt;/a&gt; license.</source>
-        <translation type="unfinished"></translation>
+        <translation>在 &lt;a href=&apos;https://www.gnu.org/licenses/gpl-3.0&apos;&gt;GNU GPLv3&lt;/a&gt; 许可下发布。</translation>
     </message>
 </context>
 <context>
@@ -116,11 +116,11 @@
     </message>
     <message>
         <source>Apply icon overlay</source>
-        <translation type="unfinished"></translation>
+        <translation>应用图标蒙版</translation>
     </message>
     <message>
         <source>Apply an overlay on icons not available in the theme.</source>
-        <translation type="unfinished"></translation>
+        <translation>在主题中尚未适配的图标应用蒙版</translation>
     </message>
 </context>
 <context>
@@ -527,35 +527,35 @@
     </message>
     <message>
         <source>Usage guide</source>
-        <translation type="unfinished">使用指导</translation>
+        <translation>使用指南</translation>
     </message>
     <message>
         <source>Dependencies</source>
-        <translation type="unfinished"></translation>
+        <translation>附属软件</translation>
     </message>
     <message>
         <source>ImageMagick</source>
-        <translation type="unfinished"></translation>
+        <translation>ImageMagick</translation>
     </message>
     <message>
         <source>ImageMagick is required for UI Themer overlays to work. Overlays need to be supported by the theme.</source>
-        <translation type="unfinished"></translation>
+        <translation>如果想让 UI Themer的图标蒙版功能正常使用，你必须安装 ImageMagick。蒙版需要被主题支持。</translation>
     </message>
     <message>
         <source>Install ImageMagick</source>
-        <translation type="unfinished"></translation>
+        <translation>安装 ImageMagick</translation>
     </message>
     <message>
         <source>ImageMagick installed</source>
-        <translation type="unfinished"></translation>
+        <translation>已安装ImageMagick </translation>
     </message>
     <message>
         <source>Terms and conditions</source>
-        <translation type="unfinished"></translation>
+        <translation>条款</translation>
     </message>
     <message>
         <source>By using UI Themer, you agree to the &lt;a href=&apos;https://www.gnu.org/licenses/gpl-3.0&apos;&gt;GNU GPLv3&lt;/a&gt; terms and conditions.</source>
-        <translation type="unfinished"></translation>
+        <translation>为了使用 UI Themer，你需要同意&lt;a href=&apos;https://www.gnu.org/licenses/gpl-3.0&apos;&gt;GNU GPLv3&lt;/a&gt; 条款。</translation>
     </message>
 </context>
 </TS>
