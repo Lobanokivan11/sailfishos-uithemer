@@ -37,17 +37,29 @@ SOURCES += src/sailfishos-uithemer.cpp \
     src/fontweightmodel.cpp \
     src/themepack.cpp
 
-OTHER_FILES += qml/sailfishos-uithemer.qml \
-    qml/cover/CoverPage.qml \
-    rpm/sailfishos-uithemer.spec \
-    sailfishos-uithemer.desktop \
-    qml/js/*.js \
+OTHER_FILES += \
+    qml/sailfishos-uithemer.qml \
+    qml/common/Settings.qml \
     qml/components/AboutLanguage.qml \
     qml/components/AboutTranslator.qml \
-    qml/FontPreview.qml \
-    qml/common/Settings.qml \
+    qml/components/BackgroundRectangle.qml \
+    qml/components/FontPreview.qml \
+    qml/components/dockedbar/DockedBar.qml \
+    qml/components/themepacklistview/ThemePackItem.qml \
+    qml/components/themepacklistview/ThemePackListView.qml \
+    qml/cover/CoverPage.qml \
+    qml/pages/ConfirmPage.qml \
     qml/pages/MainPage.qml \
-    qml/pages/WelcomePage.qml
+    qml/pages/RestorePage.qml \
+    qml/pages/WelcomePage.qml \
+    qml/pages/menu/AboutPage.qml \
+    qml/pages/menu/GuidePage.qml \
+    qml/pages/menu/RecoveryPage.qml \
+    qml/views/DensityView.qml \
+    qml/views/ToolsView.qml \
+    qml/js/*.js \
+    rpm/* \
+    sailfishos-uithemer.desktop \
 
 SAILFISHAPP_ICONS = 86x86
 
@@ -60,18 +72,3 @@ HEADERS += \
     src/themepackmodel.h \
     src/fontweightmodel.h \
     src/themepack.h
-
-DISTFILES += \
-    qml/components/themepacklistview/ThemePackListView.qml \
-    qml/components/dockedbar/DockedBar.qml \
-    qml/components/BackgroundRectangle.qml \
-    qml/components/themepacklistview/ThemePackItem.qml \
-    qml/pages/ConfirmPage.qml \
-    qml/pages/RestorePage.qml \
-    qml/views/DensityView.qml \
-    qml/pages/menu/AboutPage.qml \
-    qml/pages/menu/GuidePage.qml \
-    qml/js/Database.js \
-    qml/pages/menu/RecoveryPage.qml \
-    qml/views/ToolsView.qml \
-    rpm/sailfishos-uithemer.changes

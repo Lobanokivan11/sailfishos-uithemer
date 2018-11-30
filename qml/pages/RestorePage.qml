@@ -9,6 +9,7 @@ Dialog
     property alias restoreFonts: itsrestorefonts.checked
 
     id: dlgrestore
+    canAccept: itsrestoreicons.checked || itsrestorefonts.checked
 
     SilicaFlickable
     {
@@ -42,9 +43,9 @@ Dialog
 
                 onClicked: {
                     if(!itsrestoreicons.checked && !itsrestorefonts.checked)
-                        header.acceptText = qsTr("Cancel");
+                        confirmpage.canAccept = false
                     else
-                        header.acceptText = qsTr("Restore");
+                        confirmpage.canAccept = true
                 }
             }
 
@@ -56,9 +57,9 @@ Dialog
 
                 onClicked: {
                     if(!itsrestoreicons.checked && !itsrestorefonts.checked)
-                        header.acceptText = qsTr("Cancel");
+                        confirmpage.canAccept = false
                     else
-                        header.acceptText = qsTr("Restore");
+                        confirmpage.canAccept = true
                 }
             }
 
@@ -70,7 +71,13 @@ Dialog
                 wrapMode: Text.Wrap
             }
 
-            TextSwitch { id: tshomerefresh; text: qsTr("Restart homescreen"); checked: settings.homeRefresh }
+            TextSwitch {
+                text: qsTr("Restart homescreen")
+                checked: settings.homeRefresh
+                onCheckedChanged: {
+                    settings.homeRefresh = checked;
+                }
+            }
 
         }
     }
