@@ -20,6 +20,7 @@ class ThemePackModel : public QAbstractListModel
 
     public slots:
         void applyIcons(int index, bool notify, bool overlay) const;
+        void iconsPreview(int index) const;
         void applyFonts(int index, const QString& font) const;
         void restore(bool icons, bool fonts);
         void uninstall(int index);
@@ -46,6 +47,7 @@ class ThemePackModel : public QAbstractListModel
     signals:
         void iconApplied();
         void fontApplied();
+        void iconsPreviewed();
         void restoreCompleted();
         void uninstallCompleted();
 

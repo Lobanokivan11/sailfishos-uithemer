@@ -79,40 +79,12 @@
 <context>
     <name>ConfirmPage</name>
     <message>
-        <source>Apply</source>
-        <translation>Applica</translation>
-    </message>
-    <message>
         <source>Cancel</source>
         <translation>Annulla</translation>
     </message>
     <message>
-        <source>Do you want to apply &lt;b&gt;%1&lt;/b&gt;?&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.&lt;br&gt;</source>
-        <translation>Vuoi applicare &lt;b&gt;%1&lt;/b&gt;?&lt;br&gt;&lt;br&gt;Ricorda di riavviare la homescreen subito dopo.&lt;br&gt;</translation>
-    </message>
-    <message>
-        <source>Restart homescreen</source>
-        <translation>Riavvia homescreen</translation>
-    </message>
-    <message>
-        <source>Install icons from theme</source>
-        <translation>Installa icone dal tema</translation>
-    </message>
-    <message>
-        <source>Install fonts from theme</source>
-        <translation>Installa font dal tema</translation>
-    </message>
-    <message>
-        <source>Hide font preview</source>
-        <translation>Nascondi anteprima font</translation>
-    </message>
-    <message>
-        <source>Show font preview</source>
-        <translation>Mostra anteprima font</translation>
-    </message>
-    <message>
-        <source>Font weight</source>
-        <translation>Stile font</translation>
+        <source>Apply icons</source>
+        <translation>Applica icone</translation>
     </message>
     <message>
         <source>Apply icon overlay</source>
@@ -121,6 +93,34 @@
     <message>
         <source>Apply an overlay on icons not available in the theme.</source>
         <translation>Applica un overlay alle icone non disponibili nel tema.</translation>
+    </message>
+    <message>
+        <source>Apply fonts</source>
+        <translation>Applica font</translation>
+    </message>
+    <message>
+        <source>Font weight</source>
+        <translation>Stile font</translation>
+    </message>
+    <message>
+        <source>Remember to restart the homescreen right after.</source>
+        <translation>Ricorda di riavviare la homescreen subito dopo.</translation>
+    </message>
+    <message>
+        <source>Restart homescreen</source>
+        <translation>Riavvia homescreen</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Icone</translation>
+    </message>
+    <message>
+        <source>Fonts</source>
+        <translation>Font</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Applica</translation>
     </message>
 </context>
 <context>
@@ -226,11 +226,11 @@
     </message>
     <message>
         <source>One-click restore</source>
-        <translation>Ripristino con un click</translation>
+        <translation>Ripristina con un click</translation>
     </message>
     <message>
-        <source>UI Themer customizations must be reverted before performing a system update. With One-click restore you can automate this process and restore icons, fonts and display density settings with just one click.</source>
-        <translation>Le personalizzazioni di UI Themer devono essere ripristinate prima di eseguire un aggiornamento di sistema. Con Ripristino con un clic è possibile automatizzare questo processo e ripristinare icone, font e impostazioni di densità del display in un singolo clic.</translation>
+        <source>UI Themer customizations must be reverted before performing a system update. With &lt;i&gt;One-click restore&lt;/i&gt; you can automate this process and restore icons, fonts and display density settings with just one click.</source>
+        <translation>Le personalizzazioni di UI Themer devono essere ripristinate prima di eseguire un aggiornamento di sistema. Con &lt;i&gt;Ripristina con un clic&lt;/i&gt; è possibile automatizzare questo processo e ripristinare icone, font e impostazioni di densità del display in un singolo clic.</translation>
     </message>
     <message>
         <source>Recovery</source>
@@ -314,10 +314,6 @@
         <translation>Annulla</translation>
     </message>
     <message>
-        <source>What do you want to restore?&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.&lt;br&gt;</source>
-        <translation>Cosa vuoi ripristinare?&lt;br&gt;&lt;br&gt;Ricorda di riavviare la homescreen subito dopo.&lt;br&gt;</translation>
-    </message>
-    <message>
         <source>Restart homescreen</source>
         <translation>Riavvia homescreen</translation>
     </message>
@@ -328,6 +324,14 @@
     <message>
         <source>Restore default fonts</source>
         <translation>Ripristina font predefiniti</translation>
+    </message>
+    <message>
+        <source>What do you want to restore?</source>
+        <translation>Cosa vuoi ripristinare?</translation>
+    </message>
+    <message>
+        <source>Remember to restart the homescreen right after.</source>
+        <translation>Ricorda di riavviare la homescreen subito dopo.</translation>
     </message>
 </context>
 <context>
@@ -408,11 +412,11 @@
     </message>
     <message>
         <source>One-click restore</source>
-        <translation>Ripristino con un click</translation>
+        <translation>Ripristina con un click</translation>
     </message>
     <message>
-        <source>UI Themer customizations must be reverted before performing a system update. With One-click restore you can automate this process and restore icons, fonts and display density settings with just one click.</source>
-        <translation>Le personalizzazioni di UI Themer devono essere ripristinate prima di eseguire un aggiornamento di sistema. Con Ripristino con un clic è possibile automatizzare questo processo e ripristinare icone, font e impostazioni di densità del display in un singolo clic.</translation>
+        <source>UI Themer customizations must be reverted before performing a system update. With &lt;i&gt;One-click restore&lt;/i&gt; you can automate this process and restore icons, fonts and display density settings with just one click.</source>
+        <translation>Le personalizzazioni di UI Themer devono essere ripristinate prima di eseguire un aggiornamento di sistema. Con &lt;i&gt;Ripristina con un clic&lt;/i&gt; è possibile automatizzare questo processo e ripristinare icone, font e impostazioni di densità del display in un singolo clic.</translation>
     </message>
     <message>
         <source>Restore</source>

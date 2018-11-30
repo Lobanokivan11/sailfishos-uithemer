@@ -79,48 +79,48 @@
 <context>
     <name>ConfirmPage</name>
     <message>
-        <source>Apply</source>
-        <translation>Tillämpa</translation>
-    </message>
-    <message>
         <source>Cancel</source>
-        <translation>Avbryt</translation>
+        <translation type="unfinished">Avbryt</translation>
     </message>
     <message>
-        <source>Do you want to apply &lt;b&gt;%1&lt;/b&gt;?&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.&lt;br&gt;</source>
-        <translation>Vill du tillämpa &lt;b&gt;%1&lt;/b&gt;?&lt;br&gt;&lt;br&gt;Kom ihåg att starta om hemskärmen direkt efteråt.&lt;br&gt;</translation>
-    </message>
-    <message>
-        <source>Restart homescreen</source>
-        <translation>Starta om hemskärmen</translation>
-    </message>
-    <message>
-        <source>Install icons from theme</source>
-        <translation>Installera ikoner från tema</translation>
-    </message>
-    <message>
-        <source>Install fonts from theme</source>
-        <translation>Installera teckensnitt från tema</translation>
-    </message>
-    <message>
-        <source>Hide font preview</source>
-        <translation>Förhandsvisa inte teckensnitt</translation>
-    </message>
-    <message>
-        <source>Show font preview</source>
-        <translation>Förhandsvisa teckensnitt</translation>
-    </message>
-    <message>
-        <source>Font weight</source>
-        <translation>Teckengrovlek</translation>
+        <source>Apply icons</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Apply icon overlay</source>
-        <translation>App-ikonöverlager</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Apply an overlay on icons not available in the theme.</source>
-        <translation>Tillämpa ett överlager på ikoner som inte finns i temat.</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Apply fonts</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Font weight</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remember to restart the homescreen right after.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Restart homescreen</source>
+        <translation type="unfinished">Starta om hemskärmen</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation type="unfinished">Ikoner</translation>
+    </message>
+    <message>
+        <source>Fonts</source>
+        <translation type="unfinished">Teckensnitt</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -229,10 +229,6 @@
         <translation>Ett-klicks återställning</translation>
     </message>
     <message>
-        <source>UI Themer customizations must be reverted before performing a system update. With One-click restore you can automate this process and restore icons, fonts and display density settings with just one click.</source>
-        <translation>UI Themer-anpassningar måste återställas innan en systemuppdatering utförs. Med ett-klicksåterställningen kan du automatisera denna process och återställa ikoner, teckensnitt och skärmupplösning med endast ett tryck.</translation>
-    </message>
-    <message>
         <source>Recovery</source>
         <translation>Återställning</translation>
     </message>
@@ -251,6 +247,10 @@
     <message>
         <source>An homescreen restart may be needed to apply your settings. You can do that from the &lt;i&gt;Tools&lt;/i&gt; page.</source>
         <translation>En omstart av hemskärmen kan behövas för att tillämpa dina inställningar. Det kan du göra från &lt;i&gt;Verktyg&lt;/i&gt;.</translation>
+    </message>
+    <message>
+        <source>UI Themer customizations must be reverted before performing a system update. With &lt;i&gt;One-click restore&lt;/i&gt; you can automate this process and restore icons, fonts and display density settings with just one click.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -314,10 +314,6 @@
         <translation>Avbryt</translation>
     </message>
     <message>
-        <source>What do you want to restore?&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.&lt;br&gt;</source>
-        <translation>Vad vill du återställa?&lt;br&gt;&lt;br&gt;Kom ihåg att starta om hemskärmen direkt efteråt.&lt;br&gt;</translation>
-    </message>
-    <message>
         <source>Restart homescreen</source>
         <translation>Starta om hemskärmen</translation>
     </message>
@@ -328,6 +324,14 @@
     <message>
         <source>Restore default fonts</source>
         <translation>Återställ standardteckensnitt</translation>
+    </message>
+    <message>
+        <source>What do you want to restore?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remember to restart the homescreen right after.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -411,10 +415,6 @@
         <translation>Ett-klicks återställning</translation>
     </message>
     <message>
-        <source>UI Themer customizations must be reverted before performing a system update. With One-click restore you can automate this process and restore icons, fonts and display density settings with just one click.</source>
-        <translation>UI Themer-anpassningar måste återställas före en systemuppdatering. Med ett-klicksåterställningen kan du automatisera denna process och återställa ikoner, teckensnitt och skärmupplösning, med endast ett tryck.</translation>
-    </message>
-    <message>
         <source>Restore</source>
         <translation>Återställ</translation>
     </message>
@@ -473,6 +473,10 @@
     <message>
         <source>Restart first run wizard</source>
         <translation>Starta om nybörjarguiden</translation>
+    </message>
+    <message>
+        <source>UI Themer customizations must be reverted before performing a system update. With &lt;i&gt;One-click restore&lt;/i&gt; you can automate this process and restore icons, fonts and display density settings with just one click.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

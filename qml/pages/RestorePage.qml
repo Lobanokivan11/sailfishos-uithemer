@@ -29,18 +29,9 @@ Dialog
             Label {
                 x: Theme.paddingLarge
                 width: parent.width - (x * 2)
-                text: qsTr("What do you want to restore?<br><br>Remember to restart the homescreen right after.<br>")
+                text: qsTr("What do you want to restore?")
                 textFormat: Text.RichText
                 wrapMode: Text.Wrap
-            }
-
-            TextSwitch {
-                text: qsTr("Restart homescreen")
-                checked: settings.homeRefresh
-
-                onCheckedChanged: {
-                    settings.homeRefresh = checked;
-                }
             }
 
             IconTextSwitch {
@@ -70,6 +61,17 @@ Dialog
                         header.acceptText = qsTr("Restore");
                 }
             }
+
+            Label {
+                width: parent.width - (x * 2)
+                x: Theme.paddingLarge
+                text: "<br>" + qsTr("Remember to restart the homescreen right after.")
+                textFormat: Text.RichText
+                wrapMode: Text.Wrap
+            }
+
+            TextSwitch { id: tshomerefresh; text: qsTr("Restart homescreen"); checked: settings.homeRefresh }
+
         }
     }
 }

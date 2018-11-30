@@ -79,40 +79,12 @@
 <context>
     <name>ConfirmPage</name>
     <message>
-        <source>Apply</source>
-        <translation>Toepassen</translation>
-    </message>
-    <message>
         <source>Cancel</source>
-        <translation>Annuleren</translation>
+        <translation type="unfinished">Annuleren</translation>
     </message>
     <message>
-        <source>Do you want to apply &lt;b&gt;%1&lt;/b&gt;?&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.&lt;br&gt;</source>
-        <translation>Wild ge &lt;b&gt;%1&lt;/b&gt; toepassen?&lt;br&gt;&lt;br&gt;Vergeet niet van het startscherm daarachter te herstarten.&lt;/br&gt;</translation>
-    </message>
-    <message>
-        <source>Restart homescreen</source>
-        <translation>Startscherm herstarten</translation>
-    </message>
-    <message>
-        <source>Install icons from theme</source>
-        <translation>Pictogrammen uit thema installeren</translation>
-    </message>
-    <message>
-        <source>Install fonts from theme</source>
-        <translation>Lettertypen uit thema installeren</translation>
-    </message>
-    <message>
-        <source>Hide font preview</source>
-        <translation>Voorbeeldweergave van lettertypen verbergen</translation>
-    </message>
-    <message>
-        <source>Show font preview</source>
-        <translation>Voorbeeldweergave van lettertypen weergeven</translation>
-    </message>
-    <message>
-        <source>Font weight</source>
-        <translation>Lettergewicht</translation>
+        <source>Apply icons</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Apply icon overlay</source>
@@ -120,6 +92,34 @@
     </message>
     <message>
         <source>Apply an overlay on icons not available in the theme.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Apply fonts</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Font weight</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remember to restart the homescreen right after.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Restart homescreen</source>
+        <translation type="unfinished">Startscherm herstarten</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation type="unfinished">Pictogrammen</translation>
+    </message>
+    <message>
+        <source>Fonts</source>
+        <translation type="unfinished">Lettertypen</translation>
+    </message>
+    <message>
+        <source>Apply</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -229,10 +229,6 @@
         <translation>Enen-tik-herstel</translation>
     </message>
     <message>
-        <source>UI Themer customizations must be reverted before performing a system update. With One-click restore you can automate this process and restore icons, fonts and display density settings with just one click.</source>
-        <translation>Voorafgaand aan ne systeemupdate moeten aanpassingen door UI Themer teruggedraaid worden. Met enen-tik-herstel kund ge dit proces automatiseren, en met enen tik uw pictogrammen, lettertypen en pixeldichtheidinstellingen herstellen.</translation>
-    </message>
-    <message>
         <source>Recovery</source>
         <translation>Herstel</translation>
     </message>
@@ -250,6 +246,10 @@
     </message>
     <message>
         <source>An homescreen restart may be needed to apply your settings. You can do that from the &lt;i&gt;Tools&lt;/i&gt; page.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>UI Themer customizations must be reverted before performing a system update. With &lt;i&gt;One-click restore&lt;/i&gt; you can automate this process and restore icons, fonts and display density settings with just one click.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -314,10 +314,6 @@
         <translation>Annuleren</translation>
     </message>
     <message>
-        <source>What do you want to restore?&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.&lt;br&gt;</source>
-        <translation>Wat wild ge herstellen?&lt;br&gt;&lt;br&gt;Vergeet niet voor het startscherm daarachter te herstarten.&lt;br&gt;</translation>
-    </message>
-    <message>
         <source>Restart homescreen</source>
         <translation>Startscherm herstarten</translation>
     </message>
@@ -328,6 +324,14 @@
     <message>
         <source>Restore default fonts</source>
         <translation>Standaardlettertypen herstellen</translation>
+    </message>
+    <message>
+        <source>What do you want to restore?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remember to restart the homescreen right after.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -411,10 +415,6 @@
         <translation>Enen-tik-herstel</translation>
     </message>
     <message>
-        <source>UI Themer customizations must be reverted before performing a system update. With One-click restore you can automate this process and restore icons, fonts and display density settings with just one click.</source>
-        <translation>Voorafgaand aan ne systeemupdate moeten aanpassingen door UI Themer teruggedraaid worden. Met enen-tik-herstel kund ge dit proces automatiseren, en met enen tik uw pictogrammen, lettertypen en pixeldichtheidinstellingen herstellen.</translation>
-    </message>
-    <message>
         <source>Restore</source>
         <translation>Herstellen</translation>
     </message>
@@ -472,6 +472,10 @@
     </message>
     <message>
         <source>Restart first run wizard</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>UI Themer customizations must be reverted before performing a system update. With &lt;i&gt;One-click restore&lt;/i&gt; you can automate this process and restore icons, fonts and display density settings with just one click.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

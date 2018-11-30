@@ -79,48 +79,48 @@
 <context>
     <name>ConfirmPage</name>
     <message>
-        <source>Apply</source>
-        <translation>应用</translation>
-    </message>
-    <message>
         <source>Cancel</source>
-        <translation>取消</translation>
+        <translation type="unfinished">取消</translation>
     </message>
     <message>
-        <source>Do you want to apply &lt;b&gt;%1&lt;/b&gt;?&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.&lt;br&gt;</source>
-        <translation>你想要应用&lt;b&gt;%1&lt;/b&gt;?&lt;br&gt;&lt;br&gt;记得之后立刻重启主屏幕&lt;br&gt;</translation>
-    </message>
-    <message>
-        <source>Restart homescreen</source>
-        <translation>重启主屏幕</translation>
-    </message>
-    <message>
-        <source>Install icons from theme</source>
-        <translation>从主题安装图标</translation>
-    </message>
-    <message>
-        <source>Install fonts from theme</source>
-        <translation>从主题安装字体</translation>
-    </message>
-    <message>
-        <source>Hide font preview</source>
-        <translation>隐藏字体预览</translation>
-    </message>
-    <message>
-        <source>Show font preview</source>
-        <translation>展示字体预览</translation>
-    </message>
-    <message>
-        <source>Font weight</source>
-        <translation>字体小部件</translation>
+        <source>Apply icons</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Apply icon overlay</source>
-        <translation>应用图标蒙版</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Apply an overlay on icons not available in the theme.</source>
-        <translation>在主题中尚未适配的图标应用蒙版</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Apply fonts</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Font weight</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remember to restart the homescreen right after.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Restart homescreen</source>
+        <translation type="unfinished">重启主屏幕</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation type="unfinished">图标</translation>
+    </message>
+    <message>
+        <source>Fonts</source>
+        <translation type="unfinished">字体</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -229,10 +229,6 @@
         <translation>一键式恢复</translation>
     </message>
     <message>
-        <source>UI Themer customizations must be reverted before performing a system update. With One-click restore you can automate this process and restore icons, fonts and display density settings with just one click.</source>
-        <translation>在系统更新之前必须将UI Themer 个性化定制恢复到默认。通过一键式恢复你只需一点就能自动化此过程，恢复图标、字体和显示密度设置。</translation>
-    </message>
-    <message>
         <source>Recovery</source>
         <translation>恢复</translation>
     </message>
@@ -251,6 +247,10 @@
     <message>
         <source>An homescreen restart may be needed to apply your settings. You can do that from the &lt;i&gt;Tools&lt;/i&gt; page.</source>
         <translation>如果要应用你的设置，或许需要一次主屏幕重启。你可以通过对话或&lt;i&gt;工具&lt;/i&gt;页达成此操作。</translation>
+    </message>
+    <message>
+        <source>UI Themer customizations must be reverted before performing a system update. With &lt;i&gt;One-click restore&lt;/i&gt; you can automate this process and restore icons, fonts and display density settings with just one click.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -314,10 +314,6 @@
         <translation>取消</translation>
     </message>
     <message>
-        <source>What do you want to restore?&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.&lt;br&gt;</source>
-        <translation>你想要恢复什么？&lt;br&gt;&lt;br&gt;记住之后立刻重启主屏幕&lt;br&gt;</translation>
-    </message>
-    <message>
         <source>Restart homescreen</source>
         <translation>重启主屏幕</translation>
     </message>
@@ -328,6 +324,14 @@
     <message>
         <source>Restore default fonts</source>
         <translation>恢复默认字体</translation>
+    </message>
+    <message>
+        <source>What do you want to restore?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remember to restart the homescreen right after.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -411,10 +415,6 @@
         <translation>一键恢复</translation>
     </message>
     <message>
-        <source>UI Themer customizations must be reverted before performing a system update. With One-click restore you can automate this process and restore icons, fonts and display density settings with just one click.</source>
-        <translation>在系统更新之前必须将UI Themer 个性化定制恢复到默认。通过一键式恢复你只需一点就能自动化此过程，恢复图标、字体和显示密度设置。</translation>
-    </message>
-    <message>
         <source>Restore</source>
         <translation>恢复</translation>
     </message>
@@ -473,6 +473,10 @@
     <message>
         <source>Restart first run wizard</source>
         <translation>重启首先允许向导程序</translation>
+    </message>
+    <message>
+        <source>UI Themer customizations must be reverted before performing a system update. With &lt;i&gt;One-click restore&lt;/i&gt; you can automate this process and restore icons, fonts and display density settings with just one click.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

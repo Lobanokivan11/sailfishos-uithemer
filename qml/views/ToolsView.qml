@@ -132,7 +132,7 @@ SilicaFlickable
             width: parent.width - (x * 2)
             wrapMode: Text.Wrap
             textFormat: Text.RichText
-            text: qsTr("UI Themer customizations must be reverted before performing a system update. With One-click restore you can automate this process and restore icons, fonts and display density settings with just one click.")
+            text: qsTr("UI Themer customizations must be reverted before performing a system update. With <i>One-click restore</i> you can automate this process and restore icons, fonts and display density settings with just one click.")
         }
 
         Button {

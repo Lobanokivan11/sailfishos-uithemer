@@ -2,6 +2,7 @@ TARGET = sailfishos-uithemer
 
 MY_FILES = \
 other/apply.sh \
+other/iconspreview.sh \
 other/restore.sh \
 other/apply_font.sh \
 other/homescreen.sh \
@@ -38,14 +39,14 @@ SOURCES += src/sailfishos-uithemer.cpp \
 
 OTHER_FILES += qml/sailfishos-uithemer.qml \
     qml/cover/CoverPage.qml \
-    rpm/sailfishos-uithemer.changes.in \
     rpm/sailfishos-uithemer.spec \
     sailfishos-uithemer.desktop \
     qml/js/*.js \
     qml/components/AboutLanguage.qml \
     qml/components/AboutTranslator.qml \
+    qml/FontPreview.qml \
     qml/common/Settings.qml \
-    qml/pages/MainPage.qml
+    qml/pages/MainPage.qml \
     qml/pages/WelcomePage.qml
 
 SAILFISHAPP_ICONS = 86x86
@@ -73,3 +74,4 @@ DISTFILES += \
     qml/js/Database.js \
     qml/pages/menu/RecoveryPage.qml \
     qml/views/ToolsView.qml \
+    rpm/sailfishos-uithemer.changes
