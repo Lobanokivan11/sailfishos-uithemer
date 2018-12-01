@@ -59,7 +59,16 @@ Dialog
 
             DialogHeader { id: header; cancelText: qsTr("Cancel"); acceptText: qsTr("Apply") }
 
-            Label { anchors.horizontalCenter: parent.horizontalCenter; font.pixelSize: Theme.fontSizeExtraLarge; text: "%1".arg(packDisplayName) }
+            Label {
+                width: parent.width - (x * 2)
+                x: Theme.paddingLarge
+                horizontalAlignment: Text.AlignHCenter
+                anchors.horizontalCenter: parent.horizontalCenter
+                font.pixelSize: Theme.fontSizeExtraLarge
+                truncationMode: TruncationMode.Fade
+                wrapMode: Text.WordWrap
+                text: "%1".arg(packDisplayName)
+            }
 
             SectionHeader {
                 text: qsTr("Icons")
