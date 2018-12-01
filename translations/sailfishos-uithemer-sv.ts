@@ -80,47 +80,51 @@
     <name>ConfirmPage</name>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">Avbryt</translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <source>Apply icons</source>
-        <translation type="unfinished"></translation>
+        <translation>Tillämpa ikoner</translation>
     </message>
     <message>
         <source>Apply icon overlay</source>
-        <translation type="unfinished"></translation>
+        <translation>App-ikonöverlager</translation>
     </message>
     <message>
         <source>Apply an overlay on icons not available in the theme.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tillämpa ett överlager på ikoner som inte finns i temat.</translation>
     </message>
     <message>
         <source>Apply fonts</source>
-        <translation type="unfinished"></translation>
+        <translation>Tillämpa teckensnitt</translation>
     </message>
     <message>
         <source>Font weight</source>
-        <translation type="unfinished"></translation>
+        <translation>Teckengrovlek</translation>
     </message>
     <message>
         <source>Remember to restart the homescreen right after.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kom ihåg att starta om hemskärmen direkt efteråt.</translation>
     </message>
     <message>
         <source>Restart homescreen</source>
-        <translation type="unfinished">Starta om hemskärmen</translation>
+        <translation>Starta om hemskärmen</translation>
     </message>
     <message>
         <source>Icons</source>
-        <translation type="unfinished">Ikoner</translation>
+        <translation>Ikoner</translation>
     </message>
     <message>
         <source>Fonts</source>
-        <translation type="unfinished">Teckensnitt</translation>
+        <translation>Teckensnitt</translation>
     </message>
     <message>
         <source>Apply</source>
-        <translation type="unfinished"></translation>
+        <translation>Tillämpa</translation>
+    </message>
+    <message>
+        <source>Font preview&lt;br&gt;Choose a font weight to preview</source>
+        <translation>Teckengranskning&lt;br&gt;Välj en teckengrovlek att förhandsgranska</translation>
     </message>
 </context>
 <context>
@@ -250,7 +254,7 @@
     </message>
     <message>
         <source>UI Themer customizations must be reverted before performing a system update. With &lt;i&gt;One-click restore&lt;/i&gt; you can automate this process and restore icons, fonts and display density settings with just one click.</source>
-        <translation type="unfinished"></translation>
+        <translation>UI Themer-anpassningar måste återställas före en systemuppgradering. Med &lt;i&gt;ett-klicksåterställningen&lt;/i&gt; kan du automatisera denna process och återställa ikoner, teckensnitt och skärmupplösning, med endast ett tryck.</translation>
     </message>
 </context>
 <context>
@@ -327,11 +331,11 @@
     </message>
     <message>
         <source>What do you want to restore?</source>
-        <translation type="unfinished"></translation>
+        <translation>Vad vill du återställa?</translation>
     </message>
     <message>
         <source>Remember to restart the homescreen right after.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kom ihåg att starta om hemskärmen direkt efteråt.</translation>
     </message>
 </context>
 <context>
@@ -476,7 +480,7 @@
     </message>
     <message>
         <source>UI Themer customizations must be reverted before performing a system update. With &lt;i&gt;One-click restore&lt;/i&gt; you can automate this process and restore icons, fonts and display density settings with just one click.</source>
-        <translation type="unfinished"></translation>
+        <translation>UI Themer-anpassningar måste återställas före en systemuppdatering. Med &lt;i&gt;ett-klicksåterställningen&lt;/i&gt; kan du automatisera denna process och återställa ikoner, teckensnitt och skärmupplösning, med endast ett tryck.</translation>
     </message>
 </context>
 <context>

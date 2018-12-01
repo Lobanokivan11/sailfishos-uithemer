@@ -122,6 +122,10 @@
         <source>Apply</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Font preview&lt;br&gt;Choose a font weight to preview</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>DensityView</name>

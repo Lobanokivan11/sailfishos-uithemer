@@ -80,47 +80,51 @@
     <name>ConfirmPage</name>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">取消</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <source>Apply icons</source>
-        <translation type="unfinished"></translation>
+        <translation>应用图标</translation>
     </message>
     <message>
         <source>Apply icon overlay</source>
-        <translation type="unfinished"></translation>
+        <translation>应用图标蒙版</translation>
     </message>
     <message>
         <source>Apply an overlay on icons not available in the theme.</source>
-        <translation type="unfinished"></translation>
+        <translation>在主题中尚未适配的图标应用蒙版</translation>
     </message>
     <message>
         <source>Apply fonts</source>
-        <translation type="unfinished"></translation>
+        <translation>应用字体</translation>
     </message>
     <message>
         <source>Font weight</source>
-        <translation type="unfinished"></translation>
+        <translation>字体小部件</translation>
     </message>
     <message>
         <source>Remember to restart the homescreen right after.</source>
-        <translation type="unfinished"></translation>
+        <translation>记住之后立即重启主屏幕。</translation>
     </message>
     <message>
         <source>Restart homescreen</source>
-        <translation type="unfinished">重启主屏幕</translation>
+        <translation>重启主屏幕</translation>
     </message>
     <message>
         <source>Icons</source>
-        <translation type="unfinished">图标</translation>
+        <translation>图标</translation>
     </message>
     <message>
         <source>Fonts</source>
-        <translation type="unfinished">字体</translation>
+        <translation>字体</translation>
     </message>
     <message>
         <source>Apply</source>
-        <translation type="unfinished"></translation>
+        <translation>应用</translation>
+    </message>
+    <message>
+        <source>Font preview&lt;br&gt;Choose a font weight to preview</source>
+        <translation>字体预览&lt;br&gt;选择要预览的字体粗细</translation>
     </message>
 </context>
 <context>
@@ -250,7 +254,7 @@
     </message>
     <message>
         <source>UI Themer customizations must be reverted before performing a system update. With &lt;i&gt;One-click restore&lt;/i&gt; you can automate this process and restore icons, fonts and display density settings with just one click.</source>
-        <translation type="unfinished"></translation>
+        <translation>在系统更新之前必须将UI Themer 个性化定制恢复到默认。通过&lt;i&gt;一键式恢复&lt;/i&gt;你只需一点就能自动化此过程，恢复图标、字体和显示密度设置。</translation>
     </message>
 </context>
 <context>
@@ -276,7 +280,7 @@
     </message>
     <message>
         <source>If any error occurs during themes applying/restoring, you can end up with messed up icons. From here, you can reinstall default Jolla app icons while, for thirdy party apps, you may need to reinstall/update apps to restore the default look.</source>
-        <translation>如果在应用或恢复主题时出现了任何错误，你可能以搞砸了的图标结束。这时，你可以重装默认的Jolla图标。同时，你可能需要重装或更新第三方软件以恢复默认的图标。</translation>
+        <translation>如果在应用或恢复主题时出现了任何错误，你可能以搞砸的图标结束。这时，你可以重装默认的Jolla图标。同时，你可能需要重装或更新第三方软件以恢复默认的图标。</translation>
     </message>
     <message>
         <source>Reinstall icons</source>
@@ -327,11 +331,11 @@
     </message>
     <message>
         <source>What do you want to restore?</source>
-        <translation type="unfinished"></translation>
+        <translation>你想要恢复什么？</translation>
     </message>
     <message>
         <source>Remember to restart the homescreen right after.</source>
-        <translation type="unfinished"></translation>
+        <translation>记住之后立即重启主屏幕。</translation>
     </message>
 </context>
 <context>
@@ -476,7 +480,7 @@
     </message>
     <message>
         <source>UI Themer customizations must be reverted before performing a system update. With &lt;i&gt;One-click restore&lt;/i&gt; you can automate this process and restore icons, fonts and display density settings with just one click.</source>
-        <translation type="unfinished"></translation>
+        <translation>在系统更新之前必须将UI Themer 个性化定制恢复到默认。通过&lt;i&gt;一键式恢复&lt;/i&gt;你只需一点就能自动化此过程，恢复图标、字体和显示密度设置。</translation>
     </message>
 </context>
 <context>

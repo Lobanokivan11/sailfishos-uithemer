@@ -122,6 +122,10 @@
         <source>Apply</source>
         <translation>Applica</translation>
     </message>
+    <message>
+        <source>Font preview&lt;br&gt;Choose a font weight to preview</source>
+        <translation>Anteprima font&lt;br&gt;Scegli uno stile font per l&apos;anteprima</translation>
+    </message>
 </context>
 <context>
     <name>DensityView</name>

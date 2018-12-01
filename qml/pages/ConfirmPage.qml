@@ -127,15 +127,40 @@ Dialog
                 visible: hasFont || hasFontNonLatin
                 spacing: Theme.paddingMedium
 
+                Column {
+                    id: fontpreview
+                    visible: hasFont
+                    width: parent.width
+                    height: 400
+
                 Loader {
                     id: fontloader
                     source: "../components/FontPreview.qml"
                     width: parent.width
+                    height: 400
+                    visible: false
 
                     function reload() {
                         source = ""
                         source = "../components/FontPreview.qml"
                     }
+                }
+
+                Label {
+                    id: vphfont
+                    visible: hasFont
+                    width: parent.width - (x * 2)
+                    height: 400
+                    x: Theme.paddingLarge
+                    text: qsTr("Font preview<br>Choose a font weight to preview")
+                    horizontalAlignment: Text.AlignHCenter
+                    verticalAlignment: Text.AlignVCenter
+                    wrapMode: Text.WordWrap
+                    truncationMode: TruncationMode.Fade
+                    color: Theme.highlightColor
+                    font.pixelSize: Theme.fontSizeLarge
+                }
+
                 }
 
                 IconTextSwitch {
@@ -166,7 +191,6 @@ Dialog
                         automaticCheck: true
                         enabled: itsfonts.checked
                         text: model.fontDisplayWeight
-                        checked: model.index === 0
 
                         onClicked: {
                             var count = views.count;
@@ -176,6 +200,8 @@ Dialog
 
                             checked = true;
                             selectedFont = model.fontWeight;
+                            vphfont.visible = false
+                            fontloader.visible = true
                             fontloader.reload()
                         }
                     }
