@@ -42,25 +42,17 @@ Page
         {
             id: content
             width: parent.width
-            spacing: Theme.paddingSmall
+            spacing: Theme.paddingMedium
 
             PageHeader { title: qsTr("Recovery") }
 
-            Label {
-                x: Theme.paddingLarge
-                width: parent.width - (x * 2)
-                wrapMode: Text.Wrap
-                textFormat: Text.RichText
+            LabelText {
                 text: qsTr("Here you can find some recovery tools in case anything goes wrong (eg if you forget to restore the default theme before performing a system update).<br><br>Remember to restart the homescreen right after.")
             }
 
             SectionHeader { text: qsTr("Icons") }
 
-            Label {
-                x: Theme.paddingLarge
-                width: parent.width - 2 * Theme.paddingLarge
-                wrapMode: Text.Wrap
-                textFormat: Text.RichText
+            LabelText {
                 text: qsTr("If any error occurs during themes applying/restoring, you can end up with messed up icons. From here, you can reinstall default Jolla app icons while, for thirdy party apps, you may need to reinstall/update apps to restore the default look.")
             }
 
@@ -78,11 +70,7 @@ Page
 
             SectionHeader { text: qsTr("Fonts") }
 
-            Label {
-                x: Theme.paddingLarge
-                width: parent.width - (x * 2)
-                wrapMode: Text.Wrap
-                textFormat: Text.RichText
+            LabelText {
                 text: qsTr("Reinstall default fonts, if font applying/restoring fails.")
             }
 

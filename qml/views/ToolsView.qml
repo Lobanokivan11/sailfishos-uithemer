@@ -64,11 +64,7 @@ SilicaFlickable
 
         SectionHeader { text: qsTr("Restart homescreen") }
 
-        Label {
-            x: Theme.paddingLarge
-            width: parent.width - (x * 2)
-            wrapMode: Text.Wrap
-            textFormat: Text.RichText
+        LabelText {
             text: qsTr("Restart the homescreen, to make your modifications effective. Your currently opened apps will be closed.")
         }
 
@@ -85,11 +81,7 @@ SilicaFlickable
 
         SectionHeader { text: qsTr("Icon updater") }
 
-        Label {
-            x: Theme.paddingLarge
-            width: parent.width - (x * 2)
-            wrapMode: Text.Wrap
-            textFormat: Text.RichText
+        LabelText {
             text: qsTr("Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. The Icon updater will automate this process, enabling automatic update of icons at a given time.")
         }
 
@@ -127,11 +119,7 @@ SilicaFlickable
 
         SectionHeader { text: qsTr("One-click restore") }
 
-        Label {
-            x: Theme.paddingLarge
-            width: parent.width - (x * 2)
-            wrapMode: Text.Wrap
-            textFormat: Text.RichText
+        LabelText {
             text: qsTr("UI Themer customizations must be reverted before performing a system update. With <i>One-click restore</i> you can automate this process and restore icons, fonts and display density settings with just one click.")
         }
 

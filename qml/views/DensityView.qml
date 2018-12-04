@@ -1,6 +1,7 @@
 import QtQuick 2.0
 import Sailfish.Silica 1.0
 import org.nemomobile.configuration 1.0
+import "../components"
 
 SilicaFlickable
 {
@@ -78,11 +79,7 @@ SilicaFlickable
                 }
             }
 
-            Label {
-                x: Theme.paddingLarge
-                width: parent.width - 2 * Theme.paddingLarge
-                wrapMode: Text.Wrap
-                textFormat: Text.RichText
+            LabelText {
                 text: qsTr("Change the display pixel ratio. To a smaller value corresponds an higher density.<br><br>Remember to restart the homescreen right after.")
             }
         }
@@ -108,11 +105,7 @@ SilicaFlickable
                 onPressAndHold: cancel()
             }
 
-            Label {
-                x: Theme.paddingLarge
-                width: parent.width - 2 * Theme.paddingLarge
-                wrapMode: Text.Wrap
-                textFormat: Text.RichText
+            LabelText {
                 text: qsTr("Change the Android DPI value. To a smaller value corresponds an higher density.<br><br>Remember to restart the Android support or the homescreen right after.")
             }
         }
@@ -138,11 +131,7 @@ SilicaFlickable
                 }
             }
 
-            Label {
-                x: Theme.paddingLarge
-                width: parent.width - 2 * Theme.paddingLarge
-                wrapMode: Text.Wrap
-                textFormat: Text.RichText
+            LabelText {
                 text: qsTr("Change the size of UI icons. To a greater value corresponds an huger size.<br><br>Remember to restart the homescreen right after.")
             }
         }

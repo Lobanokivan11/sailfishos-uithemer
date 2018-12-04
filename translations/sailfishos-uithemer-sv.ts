@@ -123,8 +123,8 @@
         <translation>Tillämpa</translation>
     </message>
     <message>
-        <source>Font preview&lt;br&gt;Choose a font weight to preview</source>
-        <translation>Teckengranskning&lt;br&gt;Välj en teckengrovlek att förhandsgranska</translation>
+        <source>Choose a font weight to preview</source>
+        <translation>Välj en teckengrovlek att förhandsgranska</translation>
     </message>
 </context>
 <context>
@@ -322,20 +322,16 @@
         <translation>Starta om hemskärmen</translation>
     </message>
     <message>
-        <source>Restore default icons</source>
-        <translation>Återställ standardikoner</translation>
-    </message>
-    <message>
-        <source>Restore default fonts</source>
-        <translation>Återställ standardteckensnitt</translation>
-    </message>
-    <message>
-        <source>What do you want to restore?</source>
-        <translation>Vad vill du återställa?</translation>
-    </message>
-    <message>
         <source>Remember to restart the homescreen right after.</source>
         <translation>Kom ihåg att starta om hemskärmen direkt efteråt.</translation>
+    </message>
+    <message>
+        <source>Default icons</source>
+        <translation>Standardikoner</translation>
+    </message>
+    <message>
+        <source>Default fonts</source>
+        <translation>Standardteckensnitt</translation>
     </message>
 </context>
 <context>

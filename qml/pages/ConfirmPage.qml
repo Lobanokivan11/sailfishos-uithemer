@@ -2,6 +2,7 @@
 import Sailfish.Silica 1.0
 import harbour.uithemer 1.0
 import "../common"
+import "../components"
 
 Dialog
 {
@@ -59,16 +60,7 @@ Dialog
 
             DialogHeader { id: header; cancelText: qsTr("Cancel"); acceptText: qsTr("Apply") }
 
-            Label {
-                width: parent.width - (x * 2)
-                x: Theme.paddingLarge
-                horizontalAlignment: Text.AlignHCenter
-                anchors.horizontalCenter: parent.horizontalCenter
-                font.pixelSize: Theme.fontSizeExtraLarge
-                truncationMode: TruncationMode.Fade
-                wrapMode: Text.WordWrap
-                text: "%1".arg(packDisplayName)
-            }
+            ConfirmHeader { text: "%1".arg(packDisplayName) }
 
             SectionHeader {
                 text: qsTr("Icons")
@@ -85,10 +77,10 @@ Dialog
 
                 Image {
                     id: imgpreview
-                    width: 450
                     height: 450
                     anchors.horizontalCenter: parent.horizontalCenter
                     asynchronous: true
+                    fillMode: Image.PreserveAspectFit
                     cache: false
                 }
 
@@ -161,7 +153,7 @@ Dialog
                     width: parent.width - (x * 2)
                     height: 400
                     x: Theme.paddingLarge
-                    text: qsTr("Font preview<br>Choose a font weight to preview")
+                    text: qsTr("Choose a font weight to preview")
                     horizontalAlignment: Text.AlignHCenter
                     verticalAlignment: Text.AlignVCenter
                     wrapMode: Text.WordWrap
@@ -217,12 +209,8 @@ Dialog
                 }
             }
 
-                Label {
-                    width: parent.width - (x * 2)
-                    x: Theme.paddingLarge
+                LabelText {
                     text: "<br>" + qsTr("Remember to restart the homescreen right after.")
-                    textFormat: Text.RichText
-                    wrapMode: Text.Wrap
                 }
 
                 TextSwitch { id: tshomerefresh; text: qsTr("Restart homescreen"); checked: settings.homeRefresh }

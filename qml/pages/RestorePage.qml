@@ -1,6 +1,7 @@
 import QtQuick 2.0
 import Sailfish.Silica 1.0
 import "../common"
+import "../components"
 
 Dialog
 {
@@ -27,18 +28,12 @@ Dialog
 
             DialogHeader { id: header; acceptText: qsTr("Restore"); cancelText: qsTr("Cancel") }
 
-            Label {
-                x: Theme.paddingLarge
-                width: parent.width - (x * 2)
-                text: qsTr("What do you want to restore?")
-                textFormat: Text.RichText
-                wrapMode: Text.Wrap
-            }
+            ConfirmHeader { text: qsTr("Restore") }
 
             IconTextSwitch {
                 id: itsrestoreicons
                 automaticCheck: true
-                text: qsTr("Restore default icons")
+                text: qsTr("Default icons")
                 checked: true
 
                 onClicked: {
@@ -52,7 +47,7 @@ Dialog
             IconTextSwitch {
                 id: itsrestorefonts
                 automaticCheck: true
-                text: qsTr("Restore default fonts")
+                text: qsTr("Default fonts")
                 checked: true
 
                 onClicked: {
@@ -63,12 +58,8 @@ Dialog
                 }
             }
 
-            Label {
-                width: parent.width - (x * 2)
-                x: Theme.paddingLarge
+            LabelText {
                 text: "<br>" + qsTr("Remember to restart the homescreen right after.")
-                textFormat: Text.RichText
-                wrapMode: Text.Wrap
             }
 
             TextSwitch {

@@ -73,58 +73,58 @@
     </message>
     <message>
         <source>Released under the &lt;a href=&apos;https://www.gnu.org/licenses/gpl-3.0&apos;&gt;GNU GPLv3&lt;/a&gt; license.</source>
-        <translation type="unfinished"></translation>
+        <translation>Unter der &lt;a href=&apos;https://www.gnu.org/licenses/gpl-3.0&apos;&gt;GNU GPLv3&lt;/a&gt; Lizenz veröffentlicht.</translation>
     </message>
 </context>
 <context>
     <name>ConfirmPage</name>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">Abbrechen</translation>
+        <translation>Abbrechen</translation>
     </message>
     <message>
         <source>Apply icons</source>
-        <translation type="unfinished"></translation>
+        <translation>Icons anwenden</translation>
     </message>
     <message>
         <source>Apply icon overlay</source>
-        <translation type="unfinished"></translation>
+        <translation>Icon-Overlay anwenden</translation>
     </message>
     <message>
         <source>Apply an overlay on icons not available in the theme.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wende ein Overlay für Icons an, die nicht im Theme enthalten sind.</translation>
     </message>
     <message>
         <source>Apply fonts</source>
-        <translation type="unfinished"></translation>
+        <translation>Schriftart anwenden</translation>
     </message>
     <message>
         <source>Font weight</source>
-        <translation type="unfinished"></translation>
+        <translation>Schriftschnitt</translation>
     </message>
     <message>
         <source>Remember to restart the homescreen right after.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vergiss nicht, den Startbildschirm neu zu starten.</translation>
     </message>
     <message>
         <source>Restart homescreen</source>
-        <translation type="unfinished">Startbildschirm neu starten</translation>
+        <translation>Startbildschirm neu starten</translation>
     </message>
     <message>
         <source>Icons</source>
-        <translation type="unfinished">Icons</translation>
+        <translation>Icons</translation>
     </message>
     <message>
         <source>Fonts</source>
-        <translation type="unfinished">Schriften</translation>
+        <translation>Schriften</translation>
     </message>
     <message>
         <source>Apply</source>
-        <translation type="unfinished"></translation>
+        <translation>Anwenden</translation>
     </message>
     <message>
-        <source>Font preview&lt;br&gt;Choose a font weight to preview</source>
-        <translation type="unfinished"></translation>
+        <source>Choose a font weight to preview</source>
+        <translation>Wähle eine Schriftformatierung für eine Vorschau</translation>
     </message>
 </context>
 <context>
@@ -171,7 +171,7 @@
     </message>
     <message>
         <source>Restore icon size</source>
-        <translation type="unfinished"></translation>
+        <translation>Icongröße zurücksetzen</translation>
     </message>
 </context>
 <context>
@@ -250,11 +250,11 @@
     </message>
     <message>
         <source>An homescreen restart may be needed to apply your settings. You can do that from the &lt;i&gt;Tools&lt;/i&gt; page.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ein Neustart des Startbildschirm ist nötig, um die Änderungen vollständig zu übernehmen. Die Schaltfläche dazu findest du unter &lt;i&gt;Tools&lt;/i&gt;.</translation>
     </message>
     <message>
         <source>UI Themer customizations must be reverted before performing a system update. With &lt;i&gt;One-click restore&lt;/i&gt; you can automate this process and restore icons, fonts and display density settings with just one click.</source>
-        <translation type="unfinished"></translation>
+        <translation>Die UI Themer Einstellungen sollten vor jedem System Update zurückgesetzt werden. Mit der &lt;i&gt;Sofort-Wiederherstellung&lt;/i&gt; setzt du mit einem Klick die Icons, Schriften und Pixeldichte auf die Standardwerte zurück. </translation>
     </message>
 </context>
 <context>
@@ -322,20 +322,16 @@
         <translation>Startbildschirm neu starten</translation>
     </message>
     <message>
-        <source>Restore default icons</source>
-        <translation>Standard Icons wiederherstellen</translation>
-    </message>
-    <message>
-        <source>Restore default fonts</source>
-        <translation>Standard Schrift wiederherstellen</translation>
-    </message>
-    <message>
-        <source>What do you want to restore?</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Remember to restart the homescreen right after.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vergiss nicht, den Startbildschirm neu zu starten.</translation>
+    </message>
+    <message>
+        <source>Default icons</source>
+        <translation>Standardicons</translation>
+    </message>
+    <message>
+        <source>Default fonts</source>
+        <translation>Standardschrift</translation>
     </message>
 </context>
 <context>
@@ -346,11 +342,11 @@
     </message>
     <message>
         <source>fonts</source>
-        <translation type="unfinished"></translation>
+        <translation>Schriftarten</translation>
     </message>
     <message>
         <source>icons</source>
-        <translation type="unfinished"></translation>
+        <translation>Icons</translation>
     </message>
 </context>
 <context>
@@ -381,7 +377,7 @@
     </message>
     <message>
         <source>Download themes</source>
-        <translation type="unfinished"></translation>
+        <translation>Download Themes</translation>
     </message>
 </context>
 <context>
@@ -476,94 +472,94 @@
     </message>
     <message>
         <source>Restart first run wizard</source>
-        <translation type="unfinished"></translation>
+        <translation>Start-Assistent neustarten</translation>
     </message>
     <message>
         <source>UI Themer customizations must be reverted before performing a system update. With &lt;i&gt;One-click restore&lt;/i&gt; you can automate this process and restore icons, fonts and display density settings with just one click.</source>
-        <translation type="unfinished"></translation>
+        <translation>Die UI Themer Einstellungen sollten vor jedem System Update zurückgesetzt werden. Mit der &lt;i&gt;Sofort-Wiederherstellung&lt;/i&gt; setzt du mit einem Klick die Icons, Schriften und Pixeldichte auf die Standardwerte zurück. </translation>
     </message>
 </context>
 <context>
     <name>WelcomePage</name>
     <message>
         <source>Welcome to UI Themer</source>
-        <translation type="unfinished"></translation>
+        <translation>Willkommen bei UI Themer</translation>
     </message>
     <message>
         <source>Install dependencies</source>
-        <translation type="unfinished"></translation>
+        <translation>Installiere Abhängigkeiten</translation>
     </message>
     <message>
         <source>I have already installed the dependencies</source>
-        <translation type="unfinished"></translation>
+        <translation>Abhängigkeiten bereits installiert</translation>
     </message>
     <message>
         <source>Donate</source>
-        <translation type="unfinished">Spenden</translation>
+        <translation>Spenden</translation>
     </message>
     <message>
         <source>I don&apos;t care donating</source>
-        <translation type="unfinished"></translation>
+        <translation>Ich spende nicht</translation>
     </message>
     <message>
         <source>Start UI Themer</source>
-        <translation type="unfinished"></translation>
+        <translation>Starte UI Themer</translation>
     </message>
     <message>
         <source>Settings applied.</source>
-        <translation type="unfinished">Einstellungen angewendet.</translation>
+        <translation>Einstellungen angewendet.</translation>
     </message>
     <message>
         <source>UI Themer lets you customize icons, fonts and pixel density in Sailfish OS.</source>
-        <translation type="unfinished"></translation>
+        <translation>UI Themer verändert deine Icons, Schriftarten und die Pixeldichte nach deinen Wünschen.</translation>
     </message>
     <message>
         <source>If you like my work and want to buy me a beer, feel free to do it!</source>
-        <translation type="unfinished">Wenn dir meine Arbeit gefällt, spendier mir doch ein Bier!</translation>
+        <translation>Wenn dir meine Arbeit gefällt, spendier mir doch ein Bier!</translation>
     </message>
     <message>
         <source>Support</source>
-        <translation type="unfinished">Unterstützung</translation>
+        <translation>Support</translation>
     </message>
     <message>
         <source>UI Themer needs some additional dependencies in order to function properly. Install them now if you haven&apos;t already.</source>
-        <translation type="unfinished"></translation>
+        <translation>UI Themer benötigt einige Paket-Abhängigkeiten. Für eine reibungslose Nutzung installiere diese.</translation>
     </message>
     <message>
         <source>It may take a while, do not quit.</source>
-        <translation type="unfinished"></translation>
+        <translation>Es wird ein wenig dauern, nicht schließen.</translation>
     </message>
     <message>
         <source>Usage guide</source>
-        <translation type="unfinished">Handbuch</translation>
+        <translation>Anleitung</translation>
     </message>
     <message>
         <source>Dependencies</source>
-        <translation type="unfinished"></translation>
+        <translation>Abhängigkeiten</translation>
     </message>
     <message>
         <source>ImageMagick</source>
-        <translation type="unfinished"></translation>
+        <translation>ImageMagick</translation>
     </message>
     <message>
         <source>ImageMagick is required for UI Themer overlays to work. Overlays need to be supported by the theme.</source>
-        <translation type="unfinished"></translation>
+        <translation>ImageMagick wird für Overlay benötigt. Overlays müssen vom Theme unterstützt werden.</translation>
     </message>
     <message>
         <source>Install ImageMagick</source>
-        <translation type="unfinished"></translation>
+        <translation>Installiere ImageMagick</translation>
     </message>
     <message>
         <source>ImageMagick installed</source>
-        <translation type="unfinished"></translation>
+        <translation>ImageMagick installiert</translation>
     </message>
     <message>
         <source>Terms and conditions</source>
-        <translation type="unfinished"></translation>
+        <translation>Geschäftsbedingungen</translation>
     </message>
     <message>
         <source>By using UI Themer, you agree to the &lt;a href=&apos;https://www.gnu.org/licenses/gpl-3.0&apos;&gt;GNU GPLv3&lt;/a&gt; terms and conditions.</source>
-        <translation type="unfinished"></translation>
+        <translation>Mit der Benutzung von UI Themer stimmst du den Bedingungen der &lt;a href=&apos;https://www.gnu.org/licenses/gpl-3.0&apos;&gt;GNU GPLv3&lt;/a&gt; zu.</translation>
     </message>
 </context>
 </TS>

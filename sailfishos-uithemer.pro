@@ -44,6 +44,7 @@ OTHER_FILES += \
     qml/components/AboutTranslator.qml \
     qml/components/BackgroundRectangle.qml \
     qml/components/FontPreview.qml \
+    qml/components/LabelText.qml \
     qml/components/dockedbar/DockedBar.qml \
     qml/components/themepacklistview/ThemePackItem.qml \
     qml/components/themepacklistview/ThemePackListView.qml \

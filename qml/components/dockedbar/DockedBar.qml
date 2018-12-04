@@ -7,49 +7,55 @@ Item
     readonly property var currentPage: pageStack.currentPage
 
     id: dockedbar
+    width: parent.width
     height: Theme.itemSizeLarge
     enabled: !busyindicator.running
     opacity: busyindicator.running ? 0.0 : 1.0
 
+    Separator {
+        id: dockedbarSeparator
+        width: parent.width
+        color: Theme.primaryColor
+        horizontalAlignment: Qt.AlignHCenter
+    }
+
     BackgroundRectangle { anchors.fill: parent }
 
-    IconButton
-    {
-        anchors {
-            left: parent.left
-            verticalCenter: parent.verticalCenter
-            margins: Theme.paddingLarge
+    Row {
+        Item {
+            width: dockedbar.width/3
+            height: Theme.itemSizeLarge
+            IconButton {
+                anchors.centerIn: parent
+                icon.source: "image://theme/icon-m-home"
+                onClicked: {
+                    loader.source = Qt.resolvedUrl("../themepacklistview/ThemePackListView.qml");
+                }
+            }
         }
 
-        icon.source: "image://theme/icon-m-file-image"
-
-        onClicked: {
-            loader.source = Qt.resolvedUrl("../themepacklistview/ThemePackListView.qml");
-        }
-    }
-
-    IconButton
-    {
-        anchors { centerIn: parent; verticalCenter: parent.verticalCenter; margins: Theme.paddingLarge }
-        icon.source: "image://theme/icon-m-display"
-
-        onClicked: {
-            loader.source = Qt.resolvedUrl("../../views/DensityView.qml");
-        }
-    }
-
-    IconButton
-    {
-        anchors {
-            right: parent.right
-            verticalCenter: parent.verticalCenter
-            margins: Theme.paddingLarge
+        Item {
+            width: dockedbar.width/3
+            height: Theme.itemSizeLarge
+            IconButton {
+                anchors.centerIn: parent
+                icon.source: "image://theme/icon-m-scale"
+                onClicked: {
+                    loader.source = Qt.resolvedUrl("../../views/DensityView.qml");
+                }
+            }
         }
 
-        icon.source: "image://theme/icon-m-menu"
-
-        onClicked: {
-            loader.source = Qt.resolvedUrl("../../views/ToolsView.qml");
+        Item {
+            width: dockedbar.width/3
+            height: Theme.itemSizeLarge
+            IconButton {
+                anchors.centerIn: parent
+                icon.source: "image://theme/icon-m-menu"
+                onClicked: {
+                    loader.source = Qt.resolvedUrl("../../views/ToolsView.qml");
+                }
+            }
         }
     }
 }

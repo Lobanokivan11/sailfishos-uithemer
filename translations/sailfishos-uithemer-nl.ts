@@ -123,7 +123,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Font preview&lt;br&gt;Choose a font weight to preview</source>
+        <source>Choose a font weight to preview</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -322,19 +322,15 @@
         <translation>Startscherm herstarten</translation>
     </message>
     <message>
-        <source>Restore default icons</source>
-        <translation>Standaardpictogrammen herstellen</translation>
-    </message>
-    <message>
-        <source>Restore default fonts</source>
-        <translation>Standaardlettertypen herstellen</translation>
-    </message>
-    <message>
-        <source>What do you want to restore?</source>
+        <source>Remember to restart the homescreen right after.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Remember to restart the homescreen right after.</source>
+        <source>Default icons</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Default fonts</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

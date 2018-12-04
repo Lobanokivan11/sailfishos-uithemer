@@ -123,8 +123,8 @@
         <translation>Applica</translation>
     </message>
     <message>
-        <source>Font preview&lt;br&gt;Choose a font weight to preview</source>
-        <translation>Anteprima font&lt;br&gt;Scegli uno stile font per l&apos;anteprima</translation>
+        <source>Choose a font weight to preview</source>
+        <translation>Scegli uno stile font per l&apos;anteprima</translation>
     </message>
 </context>
 <context>
@@ -322,20 +322,16 @@
         <translation>Riavvia homescreen</translation>
     </message>
     <message>
-        <source>Restore default icons</source>
-        <translation>Ripristina icone predefinite</translation>
-    </message>
-    <message>
-        <source>Restore default fonts</source>
-        <translation>Ripristina font predefiniti</translation>
-    </message>
-    <message>
-        <source>What do you want to restore?</source>
-        <translation>Cosa vuoi ripristinare?</translation>
-    </message>
-    <message>
         <source>Remember to restart the homescreen right after.</source>
         <translation>Ricorda di riavviare la homescreen subito dopo.</translation>
+    </message>
+    <message>
+        <source>Default icons</source>
+        <translation>Icone predefinite</translation>
+    </message>
+    <message>
+        <source>Default fonts</source>
+        <translation>Font predefiniti</translation>
     </message>
 </context>
 <context>

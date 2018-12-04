@@ -27,22 +27,16 @@ Page
                 Image { id: appicon; anchors.horizontalCenter: parent.horizontalCenter; source: "../../../appinfo.png" }
             }
 
-            Label { anchors.horizontalCenter: parent.horizontalCenter; color: Theme.highlightColor; text: "UI Themer 1.3.0" }
-
             Label {
-                x: Theme.paddingLarge
-                width: parent.width - (x * 2)
-                wrapMode: Text.Wrap
-                textFormat: Text.RichText
+                anchors.horizontalCenter: parent.horizontalCenter
+                color: Theme.highlightColor
+                text: "UI Themer 1.3.1" }
+
+            LabelText {
                 text: qsTr("UI Themer lets you customize icons, fonts and pixel density in Sailfish OS.")
             }
 
-            Label {
-                x: Theme.paddingLarge
-                width: parent.width - (x * 2)
-                wrapMode: Text.Wrap
-                textFormat: Text.RichText
-                onLinkActivated: Qt.openUrlExternally(link)
+            LabelText {
                 text: qsTr("Released under the <a href='https://www.gnu.org/licenses/gpl-3.0'>GNU GPLv3</a> license.")
             }
 
@@ -54,13 +48,9 @@ Page
 
             SectionHeader { text: qsTr("Developers") }
 
-              Label {
-                  x: Theme.paddingLarge
-                  width: parent.width - (x * 2)
-                  wrapMode: Text.Wrap
-                  textFormat: Text.RichText
-                  text: qsTr("If you want to create a theme compatible with UI Themer, please read the documentation.")
-               }
+            LabelText {
+                text: qsTr("If you want to create a theme compatible with UI Themer, please read the documentation.")
+            }
 
               Button {
                   anchors.horizontalCenter: parent.horizontalCenter
@@ -70,13 +60,8 @@ Page
 
               SectionHeader { text: qsTr("Feedback") }
 
-              Label {
-                  x: Theme.paddingLarge
-                  width: parent.width - (x * 2)
-                  wrapMode: Text.Wrap
-                  textFormat: Text.RichText
+              LabelText {
                   text: qsTr("If you want to provide feedback or report an issue, please use GitHub.")
-                  onLinkActivated: Qt.openUrlExternally(link)
               }
 
               Button {
@@ -87,10 +72,7 @@ Page
 
               SectionHeader { text: qsTr("Support") }
 
-              Label {
-                  x: Theme.paddingLarge
-                  width: parent.width - (x * 2)
-                  wrapMode: Text.Wrap
+              LabelText {
                   text: qsTr("If you like my work and want to buy me a beer, feel free to do it!")
               }
 
@@ -102,13 +84,8 @@ Page
 
               SectionHeader { text: qsTr("Credits") }
 
-              Label {
-                  x: Theme.paddingLarge
-                  width: parent.width - (x * 2)
-                  wrapMode: Text.Wrap
-                  textFormat: Text.RichText
+              LabelText {
                   text: qsTr("Part of this app is based on the <a href='https://github.com/RikudouSage/sailfish-iconpacksupport-gui'>Icon pack support GUI</a> by RikudouSennin.<br><br>App icon designed by <a href='http://www.freepik.com/free-photo/blue-paint-roller_959191.htm'>D3Images/Freepik</a>.<br><br>Thanks to Dax89 and all the testers for help and patience.")
-                  onLinkActivated: Qt.openUrlExternally(link)
                }
 
               SectionHeader { text: qsTr("Translations") }
@@ -159,13 +136,8 @@ Page
               AboutTranslator { text: "rui kon" }
               Item { width: parent.width; height: Theme.paddingLarge }
 
-              Label {
-                  x: Theme.paddingLarge
-                  width: parent.width - (x * 2)
-                  wrapMode: Text.Wrap
-                  textFormat: Text.RichText
+              LabelText {
                   text: qsTr("Request a new language or contribute to existing languages on the Transifex project page.")
-                  onLinkActivated: Qt.openUrlExternally(link)
               }
 
               Button {
