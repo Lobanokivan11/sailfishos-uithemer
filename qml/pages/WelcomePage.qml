@@ -1,37 +1,50 @@
 import QtQuick 2.0
 import Sailfish.Silica 1.0
-import "../components"
 import harbour.uithemer 1.0
 import org.nemomobile.notifications 1.0
 import org.nemomobile.configuration 1.0
+import "../components"
 
 Page
 {
     id: welcomepage
+    focus: true
+
     property bool vDep: false
     property bool vDon: false
     property bool vIM: themepack.hasImageMagickInstalled()
 
     ThemePack { id: themepack; }
-    BusyIndicator { id: busyindicator; running: false; size: BusyIndicatorSize.Large; anchors.centerIn: parent }
-    Notification
-    {
-         id: notification
-         category: "x-nemo.uithemer"
-         appName: "UI Themer"
-         appIcon: "/usr/share/icons/hicolor/86x86/apps/sailfishos-uithemer.png"
-         previewSummary: "UI Themer"
-         previewBody: qsTr("Settings applied.")
-         itemCount: 1
-         expireTimeout: 5000
-         remoteActions: [ {
-             "name": "default",
-             "service": "org.nemomobile.uithemer",
-             "path": "/done",
-             "iface": "org.nemomobile.uithemer",
-             "method": "themeApplied"
-         } ]
-     }
+    BusyState { id: busyindicator }
+    Notification { id: notification }
+
+    Keys.onPressed: {
+        handleKeyPressed(event);
+    }
+
+    function handleKeyPressed(event) {
+
+        if (event.key === Qt.Key_Down) {
+            flickable.flick(0, - welcomepage.height);
+            event.accepted = true;
+        }
+
+        if (event.key === Qt.Key_Up) {
+            flickable.flick(0, welcomepage.height);
+            event.accepted = true;
+        }
+
+        if (event.key === Qt.Key_PageDown) {
+            flickable.scrollToBottom();
+            event.accepted = true;
+        }
+
+        if (event.key === Qt.Key_PageUp) {
+            flickable.scrollToTop();
+            event.accepted = true;
+        }
+
+    }
 
     Connections
     {
@@ -63,6 +76,7 @@ Page
 
     SilicaFlickable
     {
+        id: flickable
         anchors.fill: parent
         anchors.bottomMargin: Theme.paddingLarge
         contentHeight: content.height

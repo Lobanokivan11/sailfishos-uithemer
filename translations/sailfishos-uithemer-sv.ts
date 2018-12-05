@@ -126,52 +126,60 @@
         <source>Choose a font weight to preview</source>
         <translation>Välj en teckengrovlek att förhandsgranska</translation>
     </message>
+    <message>
+        <source>Choose the main font weight for the UI.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
-    <name>DensityView</name>
+    <name>DensityPage</name>
+    <message>
+        <source>Restore icon size</source>
+        <translation type="unfinished"></translation>
+    </message>
     <message>
         <source>Restore Android DPI</source>
-        <translation>Återställ Android DPI</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Restore device pixel ratio</source>
-        <translation>Återställ enhetens bildpunktstäthet</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Display density</source>
-        <translation>Skärmupplösning</translation>
+        <translation type="unfinished">Skärmupplösning</translation>
     </message>
     <message>
         <source>Device pixel ratio</source>
-        <translation>Enhetens bildpunktsförhållande</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Change the display pixel ratio. To a smaller value corresponds an higher density.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
-        <translation>Ändra skärmens bildpunktsförhållande. Ett lägre värde motsvarar en högre täthet.&lt;br&gt;&lt;br&gt;Kom ihåg att starta om hemskärmen direkt efteråt.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Android DPI</source>
-        <translation>Android DPI</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Android DPI value</source>
-        <translation>Android DPI-värde</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Change the Android DPI value. To a smaller value corresponds an higher density.&lt;br&gt;&lt;br&gt;Remember to restart the Android support or the homescreen right after.</source>
-        <translation>Ändra Android DPI-värde. Ett lägre värde motsvarar en högre täthet.&lt;br&gt;&lt;br&gt;Kom ihåg att starta om hemskärmen direkt efteråt.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Icon size</source>
-        <translation>Ikonstorlek</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Change the size of UI icons. To a greater value corresponds an huger size.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
-        <translation>Ändra storleken på UI-ikonerna. Ett högre värde motsvarar en större storlek.&lt;br&gt;&lt;br&gt;Kom ihåg att starta om hemskärmen direkt efteråt.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Restore icon size</source>
-        <translation>Återställ ikonstorlek</translation>
+        <source>Restarting homescreen</source>
+        <translation type="unfinished">Startar om hemskärmen</translation>
     </message>
 </context>
 <context>
@@ -197,10 +205,6 @@
         <translation>&lt;i&gt;Teman&lt;/i&gt; låter dig anpassa ikoner och teckensnitt via tredjepartsteman. Sidan listar de teman du för närvarande har installerade (t.ex. från OpenRepos). För att tillämpa dem, trycker du på det tema du valt och väljer sedan vad du vill använda från det temat. - Om temat innehåller olika teckentjocklekar, kan du använda standardtjocklek för användargränssnittet. Du kan också kombinera olika teman. Du kan t.ex. använda ikoner från ett tema och teckensnitt från ett annat. För att återgå till standardinställningar, kan du använda återställningsalternativet i toppmenyn.</translation>
     </message>
     <message>
-        <source>An homescreen restart may be needed to apply your settings. You can do that through the dialog or from the &lt;i&gt;Tools&lt;/i&gt; page.</source>
-        <translation>Omstart av hemskärmen kan behövas för att tillämpa dina inställningar. Det kan du göra via dialogen eller från &lt;i&gt;Verktyg&lt;/i&gt;.</translation>
-    </message>
-    <message>
         <source>Display density</source>
         <translation>Skärmupplösning</translation>
     </message>
@@ -211,10 +215,6 @@
     <message>
         <source>Icon updater</source>
         <translation>Ikonuppdaterare</translation>
-    </message>
-    <message>
-        <source>Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. The Icon updater will automate this process, enabling automatic update of icons at a given time. You can choose between a pre-defined set of hours or a custom hour of the day.</source>
-        <translation>Varje gång en app uppdateras, måste du åter tillämpa temat, för att få tillbaka den anpassade ikonen. Ikonuppdateraren automatiserar denna process och aktiverar automatisk ikonuppdatering vid en given tidpunkt. Du kan välja mellan en fördefinierad tidpunkt och en anpassad tidpunkt på dagen.</translation>
     </message>
     <message>
         <source>Here you can find advanced settings for UI Themer, e.g. reinstall default icons or fonts if you forget to revert to default theme before a system update or if the applying fails.</source>
@@ -249,19 +249,209 @@
         <translation>Kom ihåg att återställa teman och skärmupplösning innan du uppdaterar ditt system. Om du glömmer, kanske du måste använda alternativen under &lt;i&gt;Återställning&lt;/i&gt;, eller avinstallera och återinstallera Theme pack support och UI Themer</translation>
     </message>
     <message>
-        <source>An homescreen restart may be needed to apply your settings. You can do that from the &lt;i&gt;Tools&lt;/i&gt; page.</source>
-        <translation>En omstart av hemskärmen kan behövas för att tillämpa dina inställningar. Det kan du göra från &lt;i&gt;Verktyg&lt;/i&gt;.</translation>
-    </message>
-    <message>
         <source>UI Themer customizations must be reverted before performing a system update. With &lt;i&gt;One-click restore&lt;/i&gt; you can automate this process and restore icons, fonts and display density settings with just one click.</source>
         <translation>UI Themer-anpassningar måste återställas före en systemuppgradering. Med &lt;i&gt;ett-klicksåterställningen&lt;/i&gt; kan du automatisera denna process och återställa ikoner, teckensnitt och skärmupplösning, med endast ett tryck.</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Press &lt;b&gt;H&lt;/b&gt; for the themes page.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Press &lt;b&gt;D&lt;/b&gt; for the display density page.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Press &lt;b&gt;A&lt;/b&gt; for the about page.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You can quickly restart the homescreen after you applied a setting by pressing &lt;b&gt;R&lt;/b&gt;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You can cancel a countdown or a dialog by pressing &lt;b&gt;C&lt;/b&gt;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>If you have Storeman installed, you can quickly look for compatible themes by using the shortcut in the pulley menu.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. &lt;i&gt;Icon updater&lt;/i&gt; will automate this process, enabling automatic update of icons at a given time. You can choose between a pre-defined set of hours or a custom hour of the day.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Press &lt;b&gt;G&lt;/b&gt; for the usage guide.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Press &lt;b&gt;W&lt;/b&gt; for restart the first run wizard.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>An homescreen restart may be needed to apply your settings. You can do that through the dialog or from the &lt;i&gt;Options&lt;/i&gt; page.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>An homescreen restart may be needed to apply your settings. You can do that from the &lt;i&gt;Options&lt;/i&gt; page.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Press &lt;b&gt;O&lt;/b&gt; for the options page.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>UI Themer can be navigated via a physical keyboard, using convenient shortcuts.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Press &lt;b&gt;B&lt;/b&gt; to go back to the previous page.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>MainPage</name>
     <message>
+        <source>Themes</source>
+        <translation type="unfinished">Teman</translation>
+    </message>
+    <message>
+        <source>Uninstalling %1</source>
+        <translation type="unfinished">Avinstallerar %1</translation>
+    </message>
+    <message>
+        <source>Download themes</source>
+        <translation type="unfinished">Ladda ner teman</translation>
+    </message>
+    <message>
+        <source>Refresh</source>
+        <translation type="unfinished">Uppdatera</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation type="unfinished">Återställ</translation>
+    </message>
+    <message>
+        <source>No themes yet</source>
+        <translation type="unfinished">Inga teman ännu</translation>
+    </message>
+    <message>
+        <source>Install a compatible theme first</source>
+        <translation type="unfinished">Installera ett kompatibelt tema först</translation>
+    </message>
+    <message>
+        <source>Restarting homescreen</source>
+        <translation type="unfinished">Startar om hemskärmen</translation>
+    </message>
+</context>
+<context>
+    <name>Notification</name>
+    <message>
         <source>Settings applied.</source>
-        <translation>Inställningarna tillämpas.</translation>
+        <translation type="unfinished">Inställninbgarna tillämpade</translation>
+    </message>
+</context>
+<context>
+    <name>OptionsPage</name>
+    <message>
+        <source>Restarting homescreen</source>
+        <translation type="unfinished">Startar om hemskärmen</translation>
+    </message>
+    <message>
+        <source>About UI Themer</source>
+        <translation type="unfinished">Om UI Themer</translation>
+    </message>
+    <message>
+        <source>Restart first run wizard</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Usage guide</source>
+        <translation type="unfinished">Användningsguide</translation>
+    </message>
+    <message>
+        <source>Recovery</source>
+        <translation type="unfinished">Återställning</translation>
+    </message>
+    <message>
+        <source>Restart homescreen</source>
+        <translation type="unfinished">Starta om hemskärmen</translation>
+    </message>
+    <message>
+        <source>Restart the homescreen, to make your modifications effective. Your currently opened apps will be closed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Restart</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Icon updater</source>
+        <translation type="unfinished">Ikonuppdaterare</translation>
+    </message>
+    <message>
+        <source>Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. &lt;i&gt;Icon updater&lt;/i&gt; will automate this process, enabling automatic update of icons at a given time.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Update icons</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Disabled</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>30 minutes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>1 hour</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>2 hours</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>3 hours</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>6 hours</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>12 hours</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Daily</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>One-click restore</source>
+        <translation type="unfinished">Ett-klicks återställning</translation>
+    </message>
+    <message>
+        <source>UI Themer customizations must be reverted before performing a system update. With &lt;i&gt;One-click restore&lt;/i&gt; you can automate this process and restore icons, fonts and display density settings with just one click.</source>
+        <translation type="unfinished">UI Themer-anpassningar måste återställas före en systemuppgradering. Med &lt;i&gt;ett-klicksåterställningen&lt;/i&gt; kan du automatisera denna process och återställa ikoner, teckensnitt och skärmupplösning, med endast ett tryck.</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation type="unfinished">Återställ</translation>
+    </message>
+    <message>
+        <source>Restoring</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Options</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -305,6 +495,10 @@
     <message>
         <source>Reinstalling fonts</source>
         <translation>Återinstallerar teckensnitt</translation>
+    </message>
+    <message>
+        <source>Restarting homescreen</source>
+        <translation type="unfinished">Startar om hemskärmen</translation>
     </message>
 </context>
 <context>
@@ -350,136 +544,6 @@
     </message>
 </context>
 <context>
-    <name>ThemePackListView</name>
-    <message>
-        <source>Themes</source>
-        <translation>Teman</translation>
-    </message>
-    <message>
-        <source>Uninstalling %1</source>
-        <translation>Avinstallerar %1</translation>
-    </message>
-    <message>
-        <source>Restore</source>
-        <translation>Återställ</translation>
-    </message>
-    <message>
-        <source>Refresh</source>
-        <translation>Uppdatera</translation>
-    </message>
-    <message>
-        <source>No themes yet</source>
-        <translation>Inga teman ännu</translation>
-    </message>
-    <message>
-        <source>Install a compatible theme first</source>
-        <translation>Installera ett kompatibelt tema först</translation>
-    </message>
-    <message>
-        <source>Download themes</source>
-        <translation>Ladda ner teman</translation>
-    </message>
-</context>
-<context>
-    <name>ToolsView</name>
-    <message>
-        <source>About UI Themer</source>
-        <translation>Om UI Themer</translation>
-    </message>
-    <message>
-        <source>Usage guide</source>
-        <translation>Användningsguide</translation>
-    </message>
-    <message>
-        <source>Recovery</source>
-        <translation>Återställning</translation>
-    </message>
-    <message>
-        <source>Restart homescreen</source>
-        <translation>Starta om hemskärmen</translation>
-    </message>
-    <message>
-        <source>Restart the homescreen, to make your modifications effective. Your currently opened apps will be closed.</source>
-        <translation>Starta om hemskärmen för att dina ändringar skall tillämpas. Alla öppna appar kommer att stängas.</translation>
-    </message>
-    <message>
-        <source>Restart</source>
-        <translation>Starta om</translation>
-    </message>
-    <message>
-        <source>Restarting homescreen</source>
-        <translation>Startar om hemskärmen</translation>
-    </message>
-    <message>
-        <source>One-click restore</source>
-        <translation>Ett-klicks återställning</translation>
-    </message>
-    <message>
-        <source>Restore</source>
-        <translation>Återställ</translation>
-    </message>
-    <message>
-        <source>Restoring</source>
-        <translation>Återställer</translation>
-    </message>
-    <message>
-        <source>Icon updater</source>
-        <translation>Ikonuppdaterare</translation>
-    </message>
-    <message>
-        <source>Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. The Icon updater will automate this process, enabling automatic update of icons at a given time.</source>
-        <translation>Varje gång en app uppdateras, måste du åter tillämpa temat, för att få tillbaka den anpassade ikonen. Ikonuppdateraren automatiserar denna process och aktiverar automatisk ikonuppdatering vid en given tidpunkt.</translation>
-    </message>
-    <message>
-        <source>Update icons</source>
-        <translation>Uppdatera ikoner</translation>
-    </message>
-    <message>
-        <source>Disabled</source>
-        <translation>Inaktiverad</translation>
-    </message>
-    <message>
-        <source>30 minutes</source>
-        <translation>30 minuter</translation>
-    </message>
-    <message>
-        <source>1 hour</source>
-        <translation>1 timma</translation>
-    </message>
-    <message>
-        <source>2 hours</source>
-        <translation>2 timmar</translation>
-    </message>
-    <message>
-        <source>3 hours</source>
-        <translation>3 timmar</translation>
-    </message>
-    <message>
-        <source>6 hours</source>
-        <translation>6 timmar</translation>
-    </message>
-    <message>
-        <source>12 hours</source>
-        <translation>12 timmar</translation>
-    </message>
-    <message>
-        <source>Daily</source>
-        <translation>Dagligen</translation>
-    </message>
-    <message>
-        <source>Tools</source>
-        <translation>Verktyg</translation>
-    </message>
-    <message>
-        <source>Restart first run wizard</source>
-        <translation>Starta om nybörjarguiden</translation>
-    </message>
-    <message>
-        <source>UI Themer customizations must be reverted before performing a system update. With &lt;i&gt;One-click restore&lt;/i&gt; you can automate this process and restore icons, fonts and display density settings with just one click.</source>
-        <translation>UI Themer-anpassningar måste återställas före en systemuppdatering. Med &lt;i&gt;ett-klicksåterställningen&lt;/i&gt; kan du automatisera denna process och återställa ikoner, teckensnitt och skärmupplösning, med endast ett tryck.</translation>
-    </message>
-</context>
-<context>
     <name>WelcomePage</name>
     <message>
         <source>Welcome to UI Themer</source>
@@ -504,10 +568,6 @@
     <message>
         <source>Start UI Themer</source>
         <translation>Starta UI Themer</translation>
-    </message>
-    <message>
-        <source>Settings applied.</source>
-        <translation>Inställninbgarna tillämpade</translation>
     </message>
     <message>
         <source>UI Themer lets you customize icons, fonts and pixel density in Sailfish OS.</source>

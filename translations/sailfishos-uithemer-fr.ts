@@ -126,40 +126,48 @@
         <source>Choose a font weight to preview</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Choose the main font weight for the UI.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
-    <name>DensityView</name>
+    <name>DensityPage</name>
+    <message>
+        <source>Restore icon size</source>
+        <translation type="unfinished"></translation>
+    </message>
     <message>
         <source>Restore Android DPI</source>
-        <translation>Restaurer le DPI Android</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Restore device pixel ratio</source>
-        <translation>Restaurer la densité des pixels</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Display density</source>
-        <translation>Densité de l&apos;affichage</translation>
+        <translation type="unfinished">Densité de l&apos;affichage</translation>
     </message>
     <message>
         <source>Device pixel ratio</source>
-        <translation>Densité des pixels de l&apos;appareil</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Change the display pixel ratio. To a smaller value corresponds an higher density.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
-        <translation>Changer la densité des pixels. Une plus petite valeur correspond  à densité de pixels plus élevée.&lt;br&gt;&lt;br&gt;N&apos;oubliez pas de redemarrer l&apos;ecran d&apos;acceuil juste après</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Android DPI</source>
-        <translation>DPI Android</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Android DPI value</source>
-        <translation>Valeur DPI Android</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Change the Android DPI value. To a smaller value corresponds an higher density.&lt;br&gt;&lt;br&gt;Remember to restart the Android support or the homescreen right after.</source>
-        <translation>Changer la valeur DPI Android. Une plus petite valeur correspond à une densité de pixels plus élevé.&lt;br&gt;&lt;br&gt;N&apos;oubliez pas de redemarrer l&apos;écran d&apos;acceuil  juste après</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Icon size</source>
@@ -170,8 +178,8 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Restore icon size</source>
-        <translation type="unfinished"></translation>
+        <source>Restarting homescreen</source>
+        <translation type="unfinished">Redemarrage de l&apos;ecran d&apos;acceuil</translation>
     </message>
 </context>
 <context>
@@ -197,10 +205,6 @@
         <translation>La page &lt;i&gt;Themes&lt;/i&gt; vous permet de personaliser les icones et les polices a partir des themes tierces. La page presente les themes que vous avez installe presentement (ex. depuis OpenRepos). Pour les appliquer appuiyer sur un theme de votre choix et selectioner ce que vous desirez utiliser du theme - si le theme contient des tailles de polices differentes, vous pouvez choisir la taille de defaut pour utiliser avec le UI. Vous pouvez aussi combiner des themes different, par exemple vous pouver choisir les icones d&apos;un theme et les polices d&apos;un autre theme. Pour restaurer les valeurs d&apos;origine, vous pouvez utiliser l&apos;option du menu deroullant.</translation>
     </message>
     <message>
-        <source>An homescreen restart may be needed to apply your settings. You can do that through the dialog or from the &lt;i&gt;Tools&lt;/i&gt; page.</source>
-        <translation>Un redemarrage de l&apos;ecran d&apos;acceuil pourrait etre necessaire pour appliquer vos parametres. Vous pouvez le faire a partir du dialogue ou dans la page &lt;i&gt;Outils&lt;/i&gt;.</translation>
-    </message>
-    <message>
         <source>Display density</source>
         <translation>Densité de l&apos;affichage</translation>
     </message>
@@ -211,10 +215,6 @@
     <message>
         <source>Icon updater</source>
         <translation>Actualisuer d&apos;icones</translation>
-    </message>
-    <message>
-        <source>Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. The Icon updater will automate this process, enabling automatic update of icons at a given time. You can choose between a pre-defined set of hours or a custom hour of the day.</source>
-        <translation>Chaque fois qu&apos;une appliquation est mise a jour, vous avez besoin d&apos;appliquer a nouveau le theme pour obtenir les icones personalises. L&apos;actualiseur d&apos;icones va automatiser cette action, activant la mise a jour automatique des icones a une certaiine intervale. Vous pouvez choisir entre des heures par defaut ou des heures personalisees.</translation>
     </message>
     <message>
         <source>Here you can find advanced settings for UI Themer, e.g. reinstall default icons or fonts if you forget to revert to default theme before a system update or if the applying fails.</source>
@@ -249,19 +249,209 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>An homescreen restart may be needed to apply your settings. You can do that from the &lt;i&gt;Tools&lt;/i&gt; page.</source>
+        <source>UI Themer customizations must be reverted before performing a system update. With &lt;i&gt;One-click restore&lt;/i&gt; you can automate this process and restore icons, fonts and display density settings with just one click.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>UI Themer customizations must be reverted before performing a system update. With &lt;i&gt;One-click restore&lt;/i&gt; you can automate this process and restore icons, fonts and display density settings with just one click.</source>
+        <source>Keyboard shortcuts</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Press &lt;b&gt;H&lt;/b&gt; for the themes page.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Press &lt;b&gt;D&lt;/b&gt; for the display density page.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Press &lt;b&gt;A&lt;/b&gt; for the about page.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You can quickly restart the homescreen after you applied a setting by pressing &lt;b&gt;R&lt;/b&gt;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You can cancel a countdown or a dialog by pressing &lt;b&gt;C&lt;/b&gt;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>If you have Storeman installed, you can quickly look for compatible themes by using the shortcut in the pulley menu.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. &lt;i&gt;Icon updater&lt;/i&gt; will automate this process, enabling automatic update of icons at a given time. You can choose between a pre-defined set of hours or a custom hour of the day.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Press &lt;b&gt;G&lt;/b&gt; for the usage guide.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Press &lt;b&gt;W&lt;/b&gt; for restart the first run wizard.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>An homescreen restart may be needed to apply your settings. You can do that through the dialog or from the &lt;i&gt;Options&lt;/i&gt; page.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>An homescreen restart may be needed to apply your settings. You can do that from the &lt;i&gt;Options&lt;/i&gt; page.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Press &lt;b&gt;O&lt;/b&gt; for the options page.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>UI Themer can be navigated via a physical keyboard, using convenient shortcuts.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Press &lt;b&gt;B&lt;/b&gt; to go back to the previous page.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>MainPage</name>
     <message>
+        <source>Themes</source>
+        <translation type="unfinished">Thèmes</translation>
+    </message>
+    <message>
+        <source>Uninstalling %1</source>
+        <translation type="unfinished">Deinstallation %1</translation>
+    </message>
+    <message>
+        <source>Download themes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Refresh</source>
+        <translation type="unfinished">Rafraishir</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation type="unfinished">Restaurer</translation>
+    </message>
+    <message>
+        <source>No themes yet</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Install a compatible theme first</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Restarting homescreen</source>
+        <translation type="unfinished">Redemarrage de l&apos;ecran d&apos;acceuil</translation>
+    </message>
+</context>
+<context>
+    <name>Notification</name>
+    <message>
         <source>Settings applied.</source>
-        <translation>Reglages appliqués</translation>
+        <translation type="unfinished">Reglages appliqués</translation>
+    </message>
+</context>
+<context>
+    <name>OptionsPage</name>
+    <message>
+        <source>Restarting homescreen</source>
+        <translation type="unfinished">Redemarrage de l&apos;ecran d&apos;acceuil</translation>
+    </message>
+    <message>
+        <source>About UI Themer</source>
+        <translation type="unfinished">À propos d&apos;UI Themer</translation>
+    </message>
+    <message>
+        <source>Restart first run wizard</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Usage guide</source>
+        <translation type="unfinished">Guide d&apos;utilization</translation>
+    </message>
+    <message>
+        <source>Recovery</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Restart homescreen</source>
+        <translation type="unfinished">Redémarrer l&apos;écran d&apos;accueil</translation>
+    </message>
+    <message>
+        <source>Restart the homescreen, to make your modifications effective. Your currently opened apps will be closed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Restart</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Icon updater</source>
+        <translation type="unfinished">Actualisuer d&apos;icones</translation>
+    </message>
+    <message>
+        <source>Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. &lt;i&gt;Icon updater&lt;/i&gt; will automate this process, enabling automatic update of icons at a given time.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Update icons</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Disabled</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>30 minutes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>1 hour</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>2 hours</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>3 hours</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>6 hours</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>12 hours</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Daily</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>One-click restore</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>UI Themer customizations must be reverted before performing a system update. With &lt;i&gt;One-click restore&lt;/i&gt; you can automate this process and restore icons, fonts and display density settings with just one click.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation type="unfinished">Restaurer</translation>
+    </message>
+    <message>
+        <source>Restoring</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Options</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -305,6 +495,10 @@
     <message>
         <source>Reinstalling fonts</source>
         <translation type="unfinished">Reinstallations des polices en cours</translation>
+    </message>
+    <message>
+        <source>Restarting homescreen</source>
+        <translation type="unfinished">Redemarrage de l&apos;ecran d&apos;acceuil</translation>
     </message>
 </context>
 <context>
@@ -350,136 +544,6 @@
     </message>
 </context>
 <context>
-    <name>ThemePackListView</name>
-    <message>
-        <source>Themes</source>
-        <translation>Thèmes</translation>
-    </message>
-    <message>
-        <source>Uninstalling %1</source>
-        <translation>Deinstallation %1</translation>
-    </message>
-    <message>
-        <source>Restore</source>
-        <translation>Restaurer</translation>
-    </message>
-    <message>
-        <source>Refresh</source>
-        <translation>Rafraishir</translation>
-    </message>
-    <message>
-        <source>No themes yet</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Install a compatible theme first</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Download themes</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>ToolsView</name>
-    <message>
-        <source>About UI Themer</source>
-        <translation type="unfinished">À propos d&apos;UI Themer</translation>
-    </message>
-    <message>
-        <source>Usage guide</source>
-        <translation type="unfinished">Guide d&apos;utilization</translation>
-    </message>
-    <message>
-        <source>Recovery</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Restart homescreen</source>
-        <translation type="unfinished">Redémarrer l&apos;écran d&apos;accueil</translation>
-    </message>
-    <message>
-        <source>Restart the homescreen, to make your modifications effective. Your currently opened apps will be closed.</source>
-        <translation type="unfinished">Redemarrer l&apos;ecran d&apos;acceuil pour valider vos personalisations. Vous appliquations en cours seront fermees</translation>
-    </message>
-    <message>
-        <source>Restart</source>
-        <translation type="unfinished">Redemarrer</translation>
-    </message>
-    <message>
-        <source>Restarting homescreen</source>
-        <translation type="unfinished">Redemarrage de l&apos;ecran d&apos;acceuil</translation>
-    </message>
-    <message>
-        <source>One-click restore</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Restore</source>
-        <translation type="unfinished">Restaurer</translation>
-    </message>
-    <message>
-        <source>Restoring</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Icon updater</source>
-        <translation type="unfinished">Actualisuer d&apos;icones</translation>
-    </message>
-    <message>
-        <source>Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. The Icon updater will automate this process, enabling automatic update of icons at a given time.</source>
-        <translation type="unfinished">Chaque fois qu&apos;une appliquation est mise a jour, vous avez besoin d&apos;appliquer a nouveau le theme pour obtenir les icones personalises. L&apos;actualiseur d&apos;icones va automatiser cette action, activant la mise a jour automatique des icones a une certaiine intervale. Vous pouvez choisir entre des heures par defaut ou des heures personalisees.</translation>
-    </message>
-    <message>
-        <source>Update icons</source>
-        <translation type="unfinished">Mettre les îcones à jour</translation>
-    </message>
-    <message>
-        <source>Disabled</source>
-        <translation type="unfinished">Désactiver</translation>
-    </message>
-    <message>
-        <source>30 minutes</source>
-        <translation type="unfinished">30 minutes</translation>
-    </message>
-    <message>
-        <source>1 hour</source>
-        <translation type="unfinished">1 heure</translation>
-    </message>
-    <message>
-        <source>2 hours</source>
-        <translation type="unfinished">2 heures</translation>
-    </message>
-    <message>
-        <source>3 hours</source>
-        <translation type="unfinished">3 heures</translation>
-    </message>
-    <message>
-        <source>6 hours</source>
-        <translation type="unfinished">6 heures</translation>
-    </message>
-    <message>
-        <source>12 hours</source>
-        <translation type="unfinished">12 heures</translation>
-    </message>
-    <message>
-        <source>Daily</source>
-        <translation type="unfinished">quotidiennement</translation>
-    </message>
-    <message>
-        <source>Tools</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Restart first run wizard</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>UI Themer customizations must be reverted before performing a system update. With &lt;i&gt;One-click restore&lt;/i&gt; you can automate this process and restore icons, fonts and display density settings with just one click.</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
     <name>WelcomePage</name>
     <message>
         <source>Welcome to UI Themer</source>
@@ -504,10 +568,6 @@
     <message>
         <source>Start UI Themer</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Settings applied.</source>
-        <translation type="unfinished">Reglages appliqués</translation>
     </message>
     <message>
         <source>UI Themer lets you customize icons, fonts and pixel density in Sailfish OS.</source>

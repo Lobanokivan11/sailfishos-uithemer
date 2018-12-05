@@ -43,21 +43,22 @@ OTHER_FILES += \
     qml/components/AboutLanguage.qml \
     qml/components/AboutTranslator.qml \
     qml/components/BackgroundRectangle.qml \
+    qml/components/BusyState.qml \
     qml/components/FontPreview.qml \
     qml/components/LabelText.qml \
+    qml/components/Notification.qml \
     qml/components/dockedbar/DockedBar.qml \
     qml/components/themepacklistview/ThemePackItem.qml \
-    qml/components/themepacklistview/ThemePackListView.qml \
     qml/cover/CoverPage.qml \
     qml/pages/ConfirmPage.qml \
     qml/pages/MainPage.qml \
+    qml/pages/OptionsPage.qml \
     qml/pages/RestorePage.qml \
     qml/pages/WelcomePage.qml \
     qml/pages/menu/AboutPage.qml \
+    qml/pages/DensityPage.qml \
     qml/pages/menu/GuidePage.qml \
     qml/pages/menu/RecoveryPage.qml \
-    qml/views/DensityView.qml \
-    qml/views/ToolsView.qml \
     qml/js/*.js \
     rpm/* \
     sailfishos-uithemer.desktop \

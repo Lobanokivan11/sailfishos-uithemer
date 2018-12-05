@@ -5,9 +5,70 @@ import "../../components"
 Page
 {
     id: guidepage
+    focus: true
+
+    RemorsePopup { id: remorsepopup }
+
+    Keys.onPressed: {
+        handleKeyPressed(event);
+    }
+
+    function handleKeyPressed(event) {
+
+        if (event.key === Qt.Key_Down) {
+            flickable.flick(0, - guidepage.height);
+            event.accepted = true;
+        }
+
+        if (event.key === Qt.Key_Up) {
+            flickable.flick(0, guidepage.height);
+            event.accepted = true;
+        }
+
+        if (event.key === Qt.Key_PageDown) {
+            flickable.scrollToBottom();
+            event.accepted = true;
+        }
+
+        if (event.key === Qt.Key_PageUp) {
+            flickable.scrollToTop();
+            event.accepted = true;
+        }
+
+        if (event.key === Qt.Key_B) {
+            pageStack.navigateBack();
+            event.accepted = true;
+        }
+
+        if (event.key === Qt.Key_H) {
+            pageStack.replaceAbove(null, Qt.resolvedUrl("../MainPage.qml"));
+            event.accepted = true;
+        }
+
+        if (event.key === Qt.Key_D) {
+            pageStack.replaceAbove(null, Qt.resolvedUrl("../DensityPage.qml"));
+            event.accepted = true;
+        }
+
+        if (event.key === Qt.Key_O) {
+            pageStack.replaceAbove(null, Qt.resolvedUrl("../OptionsPage.qml"));
+            event.accepted = true;
+        }
+
+        if (event.key === Qt.Key_W) {
+            pageStack.replaceAbove(null, Qt.resolvedUrl("../WelcomePage.qml"));
+            event.accepted = true;
+        }
+
+        if (event.key === Qt.Key_A) {
+            pageStack.push(Qt.resolvedUrl("AboutPage.qml"));
+            event.accepted = true;
+        }
+    }
 
     SilicaFlickable
     {
+        id: flickable
         anchors.fill: parent
         anchors.bottomMargin: Theme.paddingLarge
         contentHeight: content.height
@@ -39,7 +100,11 @@ Page
             }
 
             LabelText {
-                text: qsTr("An homescreen restart may be needed to apply your settings. You can do that through the dialog or from the <i>Tools</i> page.")
+                text: qsTr("If you have Storeman installed, you can quickly look for compatible themes by using the shortcut in the pulley menu.")
+            }
+
+            LabelText {
+                text: qsTr("An homescreen restart may be needed to apply your settings. You can do that through the dialog or from the <i>Options</i> page.")
             }
 
             SectionHeader { text: qsTr("Display density") }
@@ -49,13 +114,14 @@ Page
             }
 
             LabelText {
-                text: qsTr("An homescreen restart may be needed to apply your settings. You can do that from the <i>Tools</i> page.")
+                text: qsTr("An homescreen restart may be needed to apply your settings. You can do that from the <i>Options</i> page.")
             }
 
-            SectionHeader { text: qsTr("Icon updater") }
+            SectionHeader { visible: false; text: qsTr("Icon updater") }
 
             LabelText {
-                text: qsTr("Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. The Icon updater will automate this process, enabling automatic update of icons at a given time. You can choose between a pre-defined set of hours or a custom hour of the day.")
+                visible: false
+                text: qsTr("Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. <i>Icon updater</i> will automate this process, enabling automatic update of icons at a given time. You can choose between a pre-defined set of hours or a custom hour of the day.")
             }
 
             SectionHeader { text: qsTr("One-click restore") }
@@ -68,6 +134,48 @@ Page
 
             LabelText {
                 text: qsTr("Here you can find advanced settings for UI Themer, e.g. reinstall default icons or fonts if you forget to revert to default theme before a system update or if the applying fails.")
+            }
+
+            SectionHeader { text: qsTr("Keyboard shortcuts") }
+
+            LabelText {
+                text: qsTr("UI Themer can be navigated via a physical keyboard, using convenient shortcuts.")
+            }
+
+            LabelText {
+                text: qsTr("Press <b>H</b> for the themes page.")
+            }
+
+            LabelText {
+                text: qsTr("Press <b>D</b> for the display density page.")
+            }
+
+            LabelText {
+                text: qsTr("Press <b>O</b> for the options page.")
+            }
+
+            LabelText {
+                text: qsTr("Press <b>G</b> for the usage guide.")
+            }
+
+            LabelText {
+                text: qsTr("Press <b>A</b> for the about page.")
+            }
+
+            LabelText {
+                text: qsTr("Press <b>W</b> for restart the first run wizard.")
+            }
+
+            LabelText {
+                text: qsTr("Press <b>B</b> to go back to the previous page.")
+            }
+
+            LabelText {
+                text: qsTr("You can quickly restart the homescreen after you applied a setting by pressing <b>R</b>.")
+            }
+
+            LabelText {
+                text: qsTr("You can cancel a countdown or a dialog by pressing <b>C</b>.")
             }
 
             SectionHeader { text: qsTr("CLI tool") }

@@ -10,17 +10,15 @@ UI Themer is divided into three main sections, which provide you icons, fonts an
 
 The *Themes* page lets you customize icons and fonts via thirdy party themes. The page lists the themes you have currently installed (e.g. from OpenRepos). To apply them, tap on a theme of your choice and then select what you want to use from that theme - if the theme contains different font weights, you can choose the default one to use for the UI. You can also combine different themes, so for example you can use icons from a theme and fonts from another. To revert to the default settings, you can use the restore option from the pulley menu.
 
-An homescreen restart may be needed to apply your settings. You can do that through the dialog or from the *Tools* page.
+If you have Storeman installed, you can quickly look for compatible themes by using the shortcut in the pulley menu.
+
+An homescreen restart may be needed to apply your settings. You can do that through the dialog or from the *Options* page.
 
 ## Display density
 
 By increasing the display density, you can display more content on your screen - or less, if you prefer to have bigger UI elements. Android apps use a different setting than Sailfish OS ones. To revert to the default settings, you can use the restore options from the pulley menu.
 
-An homescreen restart may be needed to apply your settings. You can do that through the dialog or from the *Tools* page.
-
-## Icon updater
-
-Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. The Icon updater will automate this process, enabling automatic update of icons at a given time. You can choose between a pre-defined set of hours or a custom hour of the day.
+An homescreen restart may be needed to apply your settings. You can do that through the dialog or from the *Options* page.
 
 ## One-click restore
 
@@ -29,6 +27,20 @@ UI Themer customizations must be reverted before performing a system update. Wit
 ## Recovery
 
 Here you can find advanced settings for UI Themer, e.g. reinstall default icons or fonts if you forget to revert to default theme before a system update or if the applying fails.
+
+## Keyboard shortcuts
+
+UI Themer can be navigated via a physical keyboard, using convenient shortcuts.
+
+Press **H** for the themes page.
+Press **D** for the display density page.
+Press **O** for the options page.
+Press **G** for the usage guide.
+Press **A** for the about page.
+Press **W** for restart the first run wizard.
+Press **B** to go back to the previous page.
+You can quickly restart the homescreen after you applied a setting by pressing **R**.
+You can cancel a countdown or a dialog by pressing **C**.
 
 ## Further help
 

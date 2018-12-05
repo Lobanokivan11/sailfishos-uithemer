@@ -3,12 +3,100 @@ import Sailfish.Silica 1.0
 import harbour.uithemer 1.0
 import org.nemomobile.notifications 1.0
 import org.nemomobile.configuration 1.0
+import harbour.uithemer 1.0
+import Nemo.DBus 2.0
+import "../js/Database.js" as Database
 import "../components"
+import "../components/dockedbar"
+
+Page
+{
+    id: optionspage
+    focus: true
+
+    RemorsePopup { id: remorsepopup }
+    ThemePack { id: themepack }
+    BusyState { id: busyindicator }
+    Notification { id: notification }
+
+    Keys.onPressed: {
+        handleKeyPressed(event);
+    }
+
+    function handleKeyPressed(event) {
+
+        if (event.key === Qt.Key_Down) {
+            flickable.flick(0, - optionspage.height);
+            event.accepted = true;
+        }
+
+        if (event.key === Qt.Key_Up) {
+            flickable.flick(0, optionspage.height);
+            event.accepted = true;
+        }
+
+        if (event.key === Qt.Key_PageDown) {
+            flickable.scrollToBottom();
+            event.accepted = true;
+        }
+
+        if (event.key === Qt.Key_PageUp) {
+            flickable.scrollToTop();
+            event.accepted = true;
+        }
+
+        if (event.key === Qt.Key_Return) {
+            if (remorsepopup.active)
+            remorsepopup.trigger();
+            event.accepted = true;
+        }
+
+        if (event.key === Qt.Key_C) {
+            remorsepopup.cancel();
+            event.accepted = true;
+        }
+
+        if (event.key === Qt.Key_H) {
+            pageStack.replaceAbove(null, Qt.resolvedUrl("MainPage.qml"), null, PageStackAction.Immediate);
+            event.accepted = true;
+        }
+
+        if (event.key === Qt.Key_D) {
+            pageStack.replaceAbove(null, Qt.resolvedUrl("DensityPage.qml"), null, PageStackAction.Immediate);
+            event.accepted = true;
+        }
+
+        if (event.key === Qt.Key_G) {
+            pageStack.push(Qt.resolvedUrl("menu/GuidePage.qml"));
+            event.accepted = true;
+        }
+
+        if (event.key === Qt.Key_W) {
+            pageStack.replaceAbove(null, Qt.resolvedUrl("WelcomePage.qml"));
+            event.accepted = true;
+        }
+
+        if (event.key === Qt.Key_A) {
+            pageStack.push(Qt.resolvedUrl("menu/AboutPage.qml"));
+            event.accepted = true;
+        }
+
+        if (event.key === Qt.Key_R) {
+            remorsepopup.execute(qsTr("Restarting homescreen"), function() {
+                busyindicator.running = true;
+                themepack.restartHomescreen();
+            });
+            event.accepted = true;
+        }
+    }
 
 SilicaFlickable
 {
-    id: toolspage
+    id: flickable
+    enabled: !busyindicator.running
+    opacity: busyindicator.running ? 0.0 : 1.0
     anchors.fill: parent
+    anchors.bottomMargin: dockedbar.height
     contentHeight: content.height
     clip: true
 
@@ -31,14 +119,10 @@ SilicaFlickable
         property int autoUpdate: 0
     }
 
-    enabled: !busyindicator.running
-    opacity: busyindicator.running ? 0.0 : 1.0
-
     Column {
         id: content
         width: parent.width
         spacing: Theme.paddingMedium
-        anchors.bottomMargin: Theme.paddingLarge
 
         PullDownMenu
         {
@@ -48,7 +132,7 @@ SilicaFlickable
             }
             MenuItem {
                 text: qsTr("Restart first run wizard")
-                onClicked: pageStack.replace(Qt.resolvedUrl("../pages/WelcomePage.qml"))
+                onClicked: pageStack.replaceAbove(null, Qt.resolvedUrl("../pages/WelcomePage.qml"))
             }
             MenuItem {
                 text: qsTr("Usage guide")
@@ -60,7 +144,7 @@ SilicaFlickable
             }
         }
 
-        PageHeader { title: qsTr("Tools") }
+        PageHeader { title: qsTr("Options") }
 
         SectionHeader { text: qsTr("Restart homescreen") }
 
@@ -79,10 +163,11 @@ SilicaFlickable
             }
         }
 
-        SectionHeader { text: qsTr("Icon updater") }
+        SectionHeader { visible: false; text: qsTr("Icon updater") }
 
         LabelText {
-            text: qsTr("Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. The Icon updater will automate this process, enabling automatic update of icons at a given time.")
+            visible: false
+            text: qsTr("Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. <i>Icon updater</i> will automate this process, enabling automatic update of icons at a given time.")
         }
 
         ComboBox {
@@ -134,7 +219,20 @@ SilicaFlickable
             }
         }
 
+        Item {
+            width: 1
+            height: Theme.paddingLarge
+        }
+
     }
 
     VerticalScrollDecorator { }
+}
+
+DockedBar
+{
+    id: dockedbar
+    anchors { left: parent.left; bottom: parent.bottom; right: parent.right }
+}
+
 }

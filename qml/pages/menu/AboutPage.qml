@@ -5,9 +5,68 @@ import "../../components"
 Page
 {
     id: aboutpage
+    focus: true
+
+    Keys.onPressed: {
+        handleKeyPressed(event);
+    }
+
+    function handleKeyPressed(event) {
+
+        if (event.key === Qt.Key_Down) {
+            flickable.flick(0, - aboutpage.height);
+            event.accepted = true;
+        }
+
+        if (event.key === Qt.Key_Up) {
+            flickable.flick(0, aboutpage.height);
+            event.accepted = true;
+        }
+
+        if (event.key === Qt.Key_PageDown) {
+            flickable.scrollToBottom();
+            event.accepted = true;
+        }
+
+        if (event.key === Qt.Key_PageUp) {
+            flickable.scrollToTop();
+            event.accepted = true;
+        }
+
+        if (event.key === Qt.Key_B) {
+            pageStack.navigateBack();
+            event.accepted = true;
+        }
+
+        if (event.key === Qt.Key_H) {
+            pageStack.replaceAbove(null, Qt.resolvedUrl("../MainPage.qml"));
+            event.accepted = true;
+        }
+
+        if (event.key === Qt.Key_D) {
+            pageStack.replaceAbove(null, Qt.resolvedUrl("../DensityPage.qml"));
+            event.accepted = true;
+        }
+
+        if (event.key === Qt.Key_O) {
+            pageStack.replaceAbove(null, Qt.resolvedUrl("../OptionsPage.qml"));
+            event.accepted = true;
+        }
+
+        if (event.key === Qt.Key_G) {
+            pageStack.push(Qt.resolvedUrl("GuidePage.qml"));
+            event.accepted = true;
+        }
+
+        if (event.key === Qt.Key_W) {
+            pageStack.replaceAbove(null, Qt.resolvedUrl("../WelcomePage.qml"));
+            event.accepted = true;
+        }
+    }
 
     SilicaFlickable
     {
+        id: flickable
         anchors.fill: parent
         anchors.bottomMargin: Theme.paddingLarge
         contentHeight: content.height
@@ -30,7 +89,7 @@ Page
             Label {
                 anchors.horizontalCenter: parent.horizontalCenter
                 color: Theme.highlightColor
-                text: "UI Themer 1.3.1" }
+                text: "UI Themer 1.3.2" }
 
             LabelText {
                 text: qsTr("UI Themer lets you customize icons, fonts and pixel density in Sailfish OS.")

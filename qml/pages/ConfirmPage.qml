@@ -23,6 +23,7 @@ Dialog
     property string selectedFont: hasFont ? fontweightmodel.firstWeight: ""
 
     id: confirmpage
+    focus: true
     canAccept: itsicons.checked || itsiconoverlay.checked || itsfonts.checked
 
     onAccepted: {
@@ -39,6 +40,48 @@ Dialog
         onIconsPreviewed: {
             imgpreview.source = "/usr/share/harbour-themepacksupport/tmp/iconspreview.png"
             busyimg.running = false
+        }
+    }
+
+    Keys.onPressed: {
+        handleKeyPressed(event);
+    }
+
+    function handleKeyPressed(event) {
+
+        if (event.key === Qt.Key_Down) {
+            flickable.flick(0, - confirmpage.height);
+            event.accepted = true;
+        }
+
+        if (event.key === Qt.Key_Up) {
+            flickable.flick(0, confirmpage.height);
+            event.accepted = true;
+        }
+
+        if (event.key === Qt.Key_PageDown) {
+            flickable.scrollToBottom();
+            event.accepted = true;
+        }
+
+        if (event.key === Qt.Key_PageUp) {
+            flickable.scrollToTop();
+            event.accepted = true;
+        }
+
+        if ((event.key === Qt.Key_B) || (event.key === Qt.Key_C)) {
+            pageStack.navigateBack();
+            event.accepted = true;
+        }
+
+        if (event.key === Qt.Key_Return) {
+            confirmpage.accept();
+            event.accepted = true;
+        }
+
+        if (event.key === Qt.Key_G) {
+            pageStack.push(Qt.resolvedUrl("menu/GuidePage.qml"));
+            event.accepted = true;
         }
     }
 
@@ -125,12 +168,11 @@ Dialog
             Column {
                 id: fontsettings
                 width: parent.width
-                visible: hasFont || hasFontNonLatin
+                visible: hasFont
                 spacing: Theme.paddingMedium
 
                 Column {
                     id: fontpreview
-                    visible: hasFont
                     width: parent.width
                     height: 400
 
@@ -149,7 +191,6 @@ Dialog
 
                 Label {
                     id: vphfont
-                    visible: hasFont
                     width: parent.width - (x * 2)
                     height: 400
                     x: Theme.paddingLarge
@@ -183,6 +224,10 @@ Dialog
                 }
 
                 SectionHeader { text: qsTr("Font weight") }
+
+                LabelText {
+                    text: qsTr("Choose the main font weight for the UI.")
+                }
 
                 Repeater {
                     id: views

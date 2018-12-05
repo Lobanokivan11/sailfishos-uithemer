@@ -126,24 +126,32 @@
         <source>Choose a font weight to preview</source>
         <translation>Izberite debelino pisave za predogled</translation>
     </message>
+    <message>
+        <source>Choose the main font weight for the UI.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
-    <name>DensityView</name>
+    <name>DensityPage</name>
+    <message>
+        <source>Restore icon size</source>
+        <translation type="unfinished"></translation>
+    </message>
     <message>
         <source>Restore Android DPI</source>
-        <translation>Obnovite Android DPI</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Restore device pixel ratio</source>
-        <translation>Obnovite razmerje pikslov naprave</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Display density</source>
-        <translation>Gostota zaslona</translation>
+        <translation type="unfinished">Gostota zaslona</translation>
     </message>
     <message>
         <source>Device pixel ratio</source>
-        <translation>Razmerje pikslov naprave</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Change the display pixel ratio. To a smaller value corresponds an higher density.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
@@ -151,11 +159,11 @@
     </message>
     <message>
         <source>Android DPI</source>
-        <translation>Android DPI</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Android DPI value</source>
-        <translation>Android DPI</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Change the Android DPI value. To a smaller value corresponds an higher density.&lt;br&gt;&lt;br&gt;Remember to restart the Android support or the homescreen right after.</source>
@@ -163,15 +171,15 @@
     </message>
     <message>
         <source>Icon size</source>
-        <translation>Velikost ikone</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Change the size of UI icons. To a greater value corresponds an huger size.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
-        <translation>Spremeni velikost ikon vmesnika. Večja vredost ustreza večjim ikonam.&lt;br&gt;&lt;br&gt;Ne pozabite na ponovni zagon domačega zaslona po spremembi velikosti.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Restore icon size</source>
-        <translation>Obnovi velikost ikon</translation>
+        <source>Restarting homescreen</source>
+        <translation type="unfinished">Ponovni zagon domačega zaslona</translation>
     </message>
 </context>
 <context>
@@ -197,10 +205,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>An homescreen restart may be needed to apply your settings. You can do that through the dialog or from the &lt;i&gt;Tools&lt;/i&gt; page.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Display density</source>
         <translation>Gostota zaslona</translation>
     </message>
@@ -211,10 +215,6 @@
     <message>
         <source>Icon updater</source>
         <translation>Posodobilnik ikon</translation>
-    </message>
-    <message>
-        <source>Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. The Icon updater will automate this process, enabling automatic update of icons at a given time. You can choose between a pre-defined set of hours or a custom hour of the day.</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Here you can find advanced settings for UI Themer, e.g. reinstall default icons or fonts if you forget to revert to default theme before a system update or if the applying fails.</source>
@@ -249,19 +249,209 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>An homescreen restart may be needed to apply your settings. You can do that from the &lt;i&gt;Tools&lt;/i&gt; page.</source>
+        <source>UI Themer customizations must be reverted before performing a system update. With &lt;i&gt;One-click restore&lt;/i&gt; you can automate this process and restore icons, fonts and display density settings with just one click.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>UI Themer customizations must be reverted before performing a system update. With &lt;i&gt;One-click restore&lt;/i&gt; you can automate this process and restore icons, fonts and display density settings with just one click.</source>
+        <source>Keyboard shortcuts</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Press &lt;b&gt;H&lt;/b&gt; for the themes page.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Press &lt;b&gt;D&lt;/b&gt; for the display density page.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Press &lt;b&gt;A&lt;/b&gt; for the about page.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You can quickly restart the homescreen after you applied a setting by pressing &lt;b&gt;R&lt;/b&gt;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You can cancel a countdown or a dialog by pressing &lt;b&gt;C&lt;/b&gt;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>If you have Storeman installed, you can quickly look for compatible themes by using the shortcut in the pulley menu.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. &lt;i&gt;Icon updater&lt;/i&gt; will automate this process, enabling automatic update of icons at a given time. You can choose between a pre-defined set of hours or a custom hour of the day.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Press &lt;b&gt;G&lt;/b&gt; for the usage guide.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Press &lt;b&gt;W&lt;/b&gt; for restart the first run wizard.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>An homescreen restart may be needed to apply your settings. You can do that through the dialog or from the &lt;i&gt;Options&lt;/i&gt; page.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>An homescreen restart may be needed to apply your settings. You can do that from the &lt;i&gt;Options&lt;/i&gt; page.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Press &lt;b&gt;O&lt;/b&gt; for the options page.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>UI Themer can be navigated via a physical keyboard, using convenient shortcuts.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Press &lt;b&gt;B&lt;/b&gt; to go back to the previous page.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>MainPage</name>
     <message>
+        <source>Themes</source>
+        <translation type="unfinished">Teme</translation>
+    </message>
+    <message>
+        <source>Uninstalling %1</source>
+        <translation type="unfinished">Odstranjevanje %1</translation>
+    </message>
+    <message>
+        <source>Download themes</source>
+        <translation type="unfinished">Prenesi teme</translation>
+    </message>
+    <message>
+        <source>Refresh</source>
+        <translation type="unfinished">Osveži</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation type="unfinished">Obnovi</translation>
+    </message>
+    <message>
+        <source>No themes yet</source>
+        <translation type="unfinished">Ni tem</translation>
+    </message>
+    <message>
+        <source>Install a compatible theme first</source>
+        <translation type="unfinished">Najprej namestite združljivo temo</translation>
+    </message>
+    <message>
+        <source>Restarting homescreen</source>
+        <translation type="unfinished">Ponovni zagon domačega zaslona</translation>
+    </message>
+</context>
+<context>
+    <name>Notification</name>
+    <message>
         <source>Settings applied.</source>
-        <translation>Nastavitve so uveljavljene</translation>
+        <translation type="unfinished">Nastavitve so uveljavljene.</translation>
+    </message>
+</context>
+<context>
+    <name>OptionsPage</name>
+    <message>
+        <source>Restarting homescreen</source>
+        <translation type="unfinished">Ponovni zagon domačega zaslona</translation>
+    </message>
+    <message>
+        <source>About UI Themer</source>
+        <translation type="unfinished">O programu UI Themer</translation>
+    </message>
+    <message>
+        <source>Restart first run wizard</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Usage guide</source>
+        <translation type="unfinished">Priročnik za uporabo</translation>
+    </message>
+    <message>
+        <source>Recovery</source>
+        <translation type="unfinished">Obnovitev</translation>
+    </message>
+    <message>
+        <source>Restart homescreen</source>
+        <translation type="unfinished">Ponovni zagon domačega zaslona</translation>
+    </message>
+    <message>
+        <source>Restart the homescreen, to make your modifications effective. Your currently opened apps will be closed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Restart</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Icon updater</source>
+        <translation type="unfinished">Posodobilnik ikon</translation>
+    </message>
+    <message>
+        <source>Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. &lt;i&gt;Icon updater&lt;/i&gt; will automate this process, enabling automatic update of icons at a given time.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Update icons</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Disabled</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>30 minutes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>1 hour</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>2 hours</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>3 hours</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>6 hours</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>12 hours</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Daily</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>One-click restore</source>
+        <translation type="unfinished">Obnovitev z enim klikom</translation>
+    </message>
+    <message>
+        <source>UI Themer customizations must be reverted before performing a system update. With &lt;i&gt;One-click restore&lt;/i&gt; you can automate this process and restore icons, fonts and display density settings with just one click.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation type="unfinished">Obnovi</translation>
+    </message>
+    <message>
+        <source>Restoring</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Options</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -305,6 +495,10 @@
     <message>
         <source>Reinstalling fonts</source>
         <translation>Ponovno nameščanje pisav</translation>
+    </message>
+    <message>
+        <source>Restarting homescreen</source>
+        <translation type="unfinished">Ponovni zagon domačega zaslona</translation>
     </message>
 </context>
 <context>
@@ -350,136 +544,6 @@
     </message>
 </context>
 <context>
-    <name>ThemePackListView</name>
-    <message>
-        <source>Themes</source>
-        <translation>Teme</translation>
-    </message>
-    <message>
-        <source>Uninstalling %1</source>
-        <translation>Odstranjevanje %1</translation>
-    </message>
-    <message>
-        <source>Restore</source>
-        <translation>Obnovi</translation>
-    </message>
-    <message>
-        <source>Refresh</source>
-        <translation>Osveži</translation>
-    </message>
-    <message>
-        <source>No themes yet</source>
-        <translation>Ni tem</translation>
-    </message>
-    <message>
-        <source>Install a compatible theme first</source>
-        <translation>Najprej namestite združljivo temo</translation>
-    </message>
-    <message>
-        <source>Download themes</source>
-        <translation>Prenesi teme</translation>
-    </message>
-</context>
-<context>
-    <name>ToolsView</name>
-    <message>
-        <source>About UI Themer</source>
-        <translation>O programu UI Themer</translation>
-    </message>
-    <message>
-        <source>Usage guide</source>
-        <translation>Priročnik za uporabo</translation>
-    </message>
-    <message>
-        <source>Recovery</source>
-        <translation>Obnovitev</translation>
-    </message>
-    <message>
-        <source>Restart homescreen</source>
-        <translation>Ponovno zaženi domači zaslon</translation>
-    </message>
-    <message>
-        <source>Restart the homescreen, to make your modifications effective. Your currently opened apps will be closed.</source>
-        <translation>Za uveljavitev nedavnih sprememb ponovno zaženite domači zaslon. Vse vaše trenutno zagnane aplikacije se bodo zaprle.</translation>
-    </message>
-    <message>
-        <source>Restart</source>
-        <translation>Ponovni zagon</translation>
-    </message>
-    <message>
-        <source>Restarting homescreen</source>
-        <translation>Ponovni zagon domačega zaslona</translation>
-    </message>
-    <message>
-        <source>One-click restore</source>
-        <translation>Obnovitev z enim klikom</translation>
-    </message>
-    <message>
-        <source>Restore</source>
-        <translation>Obnovi</translation>
-    </message>
-    <message>
-        <source>Restoring</source>
-        <translation>Obnavljanje</translation>
-    </message>
-    <message>
-        <source>Icon updater</source>
-        <translation>Posodobilnik ikon</translation>
-    </message>
-    <message>
-        <source>Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. The Icon updater will automate this process, enabling automatic update of icons at a given time.</source>
-        <translation>Po vsaki posodobitvi aplikacije je potrebno znova naložiti temo, da se uveljavijo ikone po meri. Posodobilnik ikon lahko to delo opravi samodejno in vam omogoči posodobitev ikon kadakoli.</translation>
-    </message>
-    <message>
-        <source>Update icons</source>
-        <translation>Posodobi ikone</translation>
-    </message>
-    <message>
-        <source>Disabled</source>
-        <translation>Onemogočeno</translation>
-    </message>
-    <message>
-        <source>30 minutes</source>
-        <translation>30 minut</translation>
-    </message>
-    <message>
-        <source>1 hour</source>
-        <translation>1 ura</translation>
-    </message>
-    <message>
-        <source>2 hours</source>
-        <translation>2 uri</translation>
-    </message>
-    <message>
-        <source>3 hours</source>
-        <translation>3 ure</translation>
-    </message>
-    <message>
-        <source>6 hours</source>
-        <translation>6 ur</translation>
-    </message>
-    <message>
-        <source>12 hours</source>
-        <translation>12 ur</translation>
-    </message>
-    <message>
-        <source>Daily</source>
-        <translation>Dnevno</translation>
-    </message>
-    <message>
-        <source>Tools</source>
-        <translation>Orodja</translation>
-    </message>
-    <message>
-        <source>Restart first run wizard</source>
-        <translation>Ponovno zaženi čarovnika za prvi zagon</translation>
-    </message>
-    <message>
-        <source>UI Themer customizations must be reverted before performing a system update. With &lt;i&gt;One-click restore&lt;/i&gt; you can automate this process and restore icons, fonts and display density settings with just one click.</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
     <name>WelcomePage</name>
     <message>
         <source>Welcome to UI Themer</source>
@@ -504,10 +568,6 @@
     <message>
         <source>Start UI Themer</source>
         <translation>Zaženi UI Themer</translation>
-    </message>
-    <message>
-        <source>Settings applied.</source>
-        <translation>Nastavitve so uveljavljene.</translation>
     </message>
     <message>
         <source>UI Themer lets you customize icons, fonts and pixel density in Sailfish OS.</source>

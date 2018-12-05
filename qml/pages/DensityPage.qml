@@ -1,21 +1,109 @@
 import QtQuick 2.0
 import Sailfish.Silica 1.0
 import org.nemomobile.configuration 1.0
+import org.nemomobile.notifications 1.0
+import harbour.uithemer 1.0
+import "../js/Database.js" as Database
 import "../components"
+import "../components/dockedbar"
 
-SilicaFlickable
+Page
 {
-    id: densityview
-    anchors.fill: parent
-    contentHeight: content.height
-    clip: true
+    id: densitypage
+    focus: true
 
-    ConfigurationGroup {
-        id: silica
-        path: "/desktop/sailfish/silica"
-        property real theme_pixel_ratio
-        property real icon_size_launcher
+    RemorsePopup { id: remorsepopup }
+    ThemePack { id: themepack }
+    BusyState { id: busyindicator }
+    Notification { id: notification }
+
+    Keys.onPressed: {
+        handleKeyPressed(event);
     }
+
+    function handleKeyPressed(event) {
+
+        if (event.key === Qt.Key_Down) {
+            flickable.flick(0, - densitypage.height);
+            event.accepted = true;
+        }
+
+        if (event.key === Qt.Key_Up) {
+            flickable.flick(0, densitypage.height);
+            event.accepted = true;
+        }
+
+        if (event.key === Qt.Key_PageDown) {
+            flickable.scrollToBottom();
+            event.accepted = true;
+        }
+
+        if (event.key === Qt.Key_PageUp) {
+            flickable.scrollToTop();
+            event.accepted = true;
+        }
+
+        if (event.key === Qt.Key_Return) {
+            if (remorsepopup.active)
+            remorsepopup.trigger();
+            event.accepted = true;
+        }
+
+        if (event.key === Qt.Key_C) {
+            remorsepopup.cancel();
+            event.accepted = true;
+        }
+
+        if (event.key === Qt.Key_H) {
+            pageStack.replaceAbove(null, Qt.resolvedUrl("MainPage.qml"), null, PageStackAction.Immediate);
+            event.accepted = true;
+        }
+
+        if (event.key === Qt.Key_O) {
+            pageStack.replaceAbove(null, Qt.resolvedUrl("OptionsPage.qml"), null, PageStackAction.Immediate);
+            event.accepted = true;
+        }
+
+        if (event.key === Qt.Key_G) {
+            pageStack.push(Qt.resolvedUrl("menu/GuidePage.qml"));
+            event.accepted = true;
+        }
+
+        if (event.key === Qt.Key_W) {
+            pageStack.replaceAbove(null, Qt.resolvedUrl("WelcomePage.qml"));
+            event.accepted = true;
+        }
+
+        if (event.key === Qt.Key_A) {
+            pageStack.push(Qt.resolvedUrl("menu/AboutPage.qml"));
+            event.accepted = true;
+        }
+
+        if (event.key === Qt.Key_R) {
+            remorsepopup.execute(qsTr("Restarting homescreen"), function() {
+                busyindicator.running = true;
+                themepack.restartHomescreen();
+            });
+            event.accepted = true;
+        }
+    }
+
+    SilicaFlickable
+    {
+        id: flickable
+        enabled: !busyindicator.running
+        opacity: busyindicator.running ? 0.0 : 1.0
+        anchors.fill: parent
+        anchors.bottomMargin: dockedbar.height
+        contentHeight: content.height
+        clip: true
+
+        ConfigurationGroup {
+            id: silica
+            path: "/desktop/sailfish/silica"
+            property real theme_pixel_ratio
+            property real icon_size_launcher
+        }
 
     PullDownMenu
     {
@@ -136,5 +224,20 @@ SilicaFlickable
             }
         }
 
+        Item {
+            width: 1
+            height: Theme.paddingLarge
+        }
+
     }
+
+    VerticalScrollDecorator { }
+}
+
+DockedBar
+{
+    id: dockedbar
+    anchors { left: parent.left; bottom: parent.bottom; right: parent.right }
+}
+
 }

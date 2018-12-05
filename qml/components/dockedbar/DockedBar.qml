@@ -29,7 +29,7 @@ Item
                 anchors.centerIn: parent
                 icon.source: "image://theme/icon-m-home"
                 onClicked: {
-                    loader.source = Qt.resolvedUrl("../themepacklistview/ThemePackListView.qml");
+                   pageStack.replaceAbove(null, Qt.resolvedUrl("../../pages/MainPage.qml"), null, PageStackAction.Immediate);
                 }
             }
         }
@@ -41,7 +41,7 @@ Item
                 anchors.centerIn: parent
                 icon.source: "image://theme/icon-m-scale"
                 onClicked: {
-                    loader.source = Qt.resolvedUrl("../../views/DensityView.qml");
+                    pageStack.replaceAbove(null, Qt.resolvedUrl("../../pages/DensityPage.qml"), null, PageStackAction.Immediate);
                 }
             }
         }
@@ -51,9 +51,9 @@ Item
             height: Theme.itemSizeLarge
             IconButton {
                 anchors.centerIn: parent
-                icon.source: "image://theme/icon-m-menu"
+                icon.source: "image://theme/icon-m-developer-mode"
                 onClicked: {
-                    loader.source = Qt.resolvedUrl("../../views/ToolsView.qml");
+                    pageStack.replaceAbove(null, Qt.resolvedUrl("../../pages/OptionsPage.qml"), null, PageStackAction.Immediate);
                 }
             }
         }

@@ -11,11 +11,14 @@ Page
     property Notification notification
 
     id: recoverypage
+    focus: true
     backNavigation: !busyindicator.running
     showNavigationIndicator: !busyindicator.running
 
     RemorsePopup { id: remorsepopup }
-    BusyIndicator { id: busyindicator; running: false; size: BusyIndicatorSize.Large; anchors.centerIn: parent }
+    ThemePack { id: themepack }
+    BusyState { id: busyindicator }
+    Notification { id: notification }
 
     Connections
     {
@@ -27,6 +30,87 @@ Page
         target: themePack
         onIconsRestored: notify()
         onFontsRestored: notify()
+    }
+
+    Keys.onPressed: {
+        handleKeyPressed(event);
+    }
+
+    function handleKeyPressed(event) {
+
+        if (event.key === Qt.Key_Down) {
+            flickable.flick(0, - recoverypage.height);
+            event.accepted = true;
+        }
+
+        if (event.key === Qt.Key_Up) {
+            flickable.flick(0, recoverypage.height);
+            event.accepted = true;
+        }
+
+        if (event.key === Qt.Key_PageDown) {
+            flickable.scrollToBottom();
+            event.accepted = true;
+        }
+
+        if (event.key === Qt.Key_PageUp) {
+            flickable.scrollToTop();
+            event.accepted = true;
+        }
+
+        if (event.key === Qt.Key_Return) {
+            if (remorsepopup.active)
+            remorsepopup.trigger();
+            event.accepted = true;
+        }
+
+        if (event.key === Qt.Key_C) {
+            remorsepopup.cancel();
+            event.accepted = true;
+        }
+
+        if (event.key === Qt.Key_B) {
+            pageStack.navigateBack();
+            event.accepted = true;
+        }
+
+        if (event.key === Qt.Key_H) {
+            pageStack.replaceAbove(null, Qt.resolvedUrl("../MainPage.qml"));
+            event.accepted = true;
+        }
+
+        if (event.key === Qt.Key_D) {
+            pageStack.replaceAbove(null, Qt.resolvedUrl("../DensityPage.qml"));
+            event.accepted = true;
+        }
+
+        if (event.key === Qt.Key_O) {
+            pageStack.replaceAbove(null, Qt.resolvedUrl("../OptionsPage.qml"));
+            event.accepted = true;
+        }
+
+        if (event.key === Qt.Key_G) {
+            pageStack.push(Qt.resolvedUrl("GuidePage.qml"));
+            event.accepted = true;
+        }
+
+        if (event.key === Qt.Key_W) {
+            pageStack.replaceAbove(null, Qt.resolvedUrl("../WelcomePage.qml"));
+            event.accepted = true;
+        }
+
+        if (event.key === Qt.Key_A) {
+            pageStack.push(Qt.resolvedUrl("AboutPage.qml"));
+            event.accepted = true;
+        }
+
+        if (event.key === Qt.Key_R) {
+            remorsepopup.execute(qsTr("Restarting homescreen"), function() {
+                busyindicator.running = true;
+                themepack.restartHomescreen();
+            });
+            event.accepted = true;
+        }
     }
 
     SilicaFlickable
