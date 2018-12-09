@@ -56,10 +56,6 @@
         <translation>Crédits</translation>
     </message>
     <message>
-        <source>Part of this app is based on the &lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon pack support GUI&lt;/a&gt; by RikudouSennin.&lt;br&gt;&lt;br&gt;App icon designed by &lt;a href=&apos;http://www.freepik.com/free-photo/blue-paint-roller_959191.htm&apos;&gt;D3Images/Freepik&lt;/a&gt;.&lt;br&gt;&lt;br&gt;Thanks to Dax89 and all the testers for help and patience.</source>
-        <translation>Une partie de cette application est basée sur &lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;le pack d&apos;icônes support GUI&lt;/a&gt; par RikudouSennin.&lt;br&gt;&lt;br&gt; L&apos;icône de l&apos;application à été conçue par &lt;a href=&apos;http://www.freepik.com/free-photo/blue-paint-roller_959191.htm&apos;&gt;D3Images/Freepik&lt;/a&gt;.&lt;br&gt;&lt;br&gt;Merci à Dax89 et tous les testeurs pour l&apos;aide et la patience.</translation>
-    </message>
-    <message>
         <source>Translations</source>
         <translation>Traducations</translation>
     </message>
@@ -73,6 +69,22 @@
     </message>
     <message>
         <source>Released under the &lt;a href=&apos;https://www.gnu.org/licenses/gpl-3.0&apos;&gt;GNU GPLv3&lt;/a&gt; license.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Part of this app is based on the &lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon pack support GUI&lt;/a&gt; by RikudouSennin.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>App icon designed by &lt;a href=&apos;http://www.freepik.com/free-photo/blue-paint-roller_959191.htm&apos;&gt;D3Images/Freepik&lt;/a&gt;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Thanks to Dax89 and all the testers for help and patience.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Keyboard navigation based on the one on &lt;a href=&apos;https://github.com/Wunderfitz/harbour-piepmatz&apos;&gt;Piepmatz&lt;/a&gt; by Sebastian Wolf.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

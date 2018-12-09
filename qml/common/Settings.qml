@@ -9,6 +9,7 @@ Item
     property bool homeRefresh: true
     property bool wizardDone: false
     property int autoUpdate: 0
+    property bool isRunning: false
 
     function deactivateFont() { activeFontPack = "none"; }
     function deactivateIcon() { activeIconPack = "none"; }

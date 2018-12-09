@@ -113,6 +113,7 @@ Page
 
             function notifyDone() {
                 busyindicator.running = false;
+                settings.isRunning = false;
                 notification.publish();
             }
 
@@ -132,6 +133,7 @@ Page
 
                 dlgconfirm.accepted.connect(function() {
                     busyindicator.running = true;
+                    settings.isRunning = true;
 
                     if(dlgconfirm.iconsSelected) {
                         themepackmodel.applyIcons(model.index, !dlgconfirm.fontsSelected || !themepackmodel.hasFont(model.index), dlgconfirm.iconOverlaySelected);
@@ -148,6 +150,7 @@ Page
             onUninstallRequested: {
                 remorseAction(qsTr("Uninstalling %1").arg(model.packName), function() {
                     busyindicator.running = true;
+                    settings.isRunning = true;
                     themepackmodel.uninstall(model.index);
 
                     if(fontInstalled)
@@ -178,6 +181,7 @@ Page
 
                     dlgrestore.accepted.connect(function() {
                         busyindicator.running = true;
+                        settings.isRunning = true;
                         themepackmodel.restore(dlgrestore.restoreIcons, dlgrestore.restoreFonts);
 
                         if(dlgrestore.restoreFonts)

@@ -56,10 +56,6 @@
         <translation>Crediti</translation>
     </message>
     <message>
-        <source>Part of this app is based on the &lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon pack support GUI&lt;/a&gt; by RikudouSennin.&lt;br&gt;&lt;br&gt;App icon designed by &lt;a href=&apos;http://www.freepik.com/free-photo/blue-paint-roller_959191.htm&apos;&gt;D3Images/Freepik&lt;/a&gt;.&lt;br&gt;&lt;br&gt;Thanks to Dax89 and all the testers for help and patience.</source>
-        <translation>Parte di quest&apos;app è basata su &lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon pack support GUI&lt;/a&gt; di RikudouSennin.&lt;br&gt;&lt;br&gt;Design icona app di &lt;a href=&apos;http://www.freepik.com/free-photo/blue-paint-roller_959191.htm&apos;&gt;D3Images/Freepik&lt;/a&gt;.&lt;br&gt;&lt;br&gt;Grazie a Dax89 e a tutti i tester per l&apos;aiuto e la pazienza.</translation>
-    </message>
-    <message>
         <source>Translations</source>
         <translation>Traduzioni</translation>
     </message>
@@ -74,6 +70,22 @@
     <message>
         <source>Released under the &lt;a href=&apos;https://www.gnu.org/licenses/gpl-3.0&apos;&gt;GNU GPLv3&lt;/a&gt; license.</source>
         <translation>Rilasciato sotto licenza &lt;a href=&apos;https://www.gnu.org/licenses/gpl-3.0&apos;&gt;GNU GPLv3&lt;/a&gt;.</translation>
+    </message>
+    <message>
+        <source>Part of this app is based on the &lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon pack support GUI&lt;/a&gt; by RikudouSennin.</source>
+        <translation>Parte di quest&apos;app è basata su &lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon pack support GUI&lt;/&gt; di RikudouSennin.</translation>
+    </message>
+    <message>
+        <source>App icon designed by &lt;a href=&apos;http://www.freepik.com/free-photo/blue-paint-roller_959191.htm&apos;&gt;D3Images/Freepik&lt;/a&gt;.</source>
+        <translation>Design icona app di &lt;a href=&apos;http://www.freepik.com/free-photo/blue-paint-roller_959191.htm&apos;&gt;D3Images/Freepik&lt;/a&gt;.</translation>
+    </message>
+    <message>
+        <source>Thanks to Dax89 and all the testers for help and patience.</source>
+        <translation>Grazie a Dax89 e a tutti i tester per l&apos;aiuto e la pazienza.</translation>
+    </message>
+    <message>
+        <source>Keyboard navigation based on the one on &lt;a href=&apos;https://github.com/Wunderfitz/harbour-piepmatz&apos;&gt;Piepmatz&lt;/a&gt; by Sebastian Wolf.</source>
+        <translation>Navigazione via tastiera basata su quella in &lt;a href=&apos;https://github.com/Wunderfitz/harbour-piepmatz&apos;&gt;Piepmatz&lt;/a&gt; di Sebastian Wolf.</translation>
     </message>
 </context>
 <context>

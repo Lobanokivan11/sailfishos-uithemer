@@ -56,10 +56,6 @@
         <translation>信誉</translation>
     </message>
     <message>
-        <source>Part of this app is based on the &lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon pack support GUI&lt;/a&gt; by RikudouSennin.&lt;br&gt;&lt;br&gt;App icon designed by &lt;a href=&apos;http://www.freepik.com/free-photo/blue-paint-roller_959191.htm&apos;&gt;D3Images/Freepik&lt;/a&gt;.&lt;br&gt;&lt;br&gt;Thanks to Dax89 and all the testers for help and patience.</source>
-        <translation>该软件的部分是基于GUI图标支持由&lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;RikudouSennin制作&lt;br&gt;&lt;br&gt;图标由&lt;a href=&apos;http://www.freepik.com/free-photo/blue-paint-roller_959191.htm&apos;&gt;D3Images/Freepik设计。&lt;br&gt;&lt;br&gt;感谢Dax89 和所有测试者的帮助和纳新。</translation>
-    </message>
-    <message>
         <source>Translations</source>
         <translation>翻译</translation>
     </message>
@@ -74,6 +70,23 @@
     <message>
         <source>Released under the &lt;a href=&apos;https://www.gnu.org/licenses/gpl-3.0&apos;&gt;GNU GPLv3&lt;/a&gt; license.</source>
         <translation>在 &lt;a href=&apos;https://www.gnu.org/licenses/gpl-3.0&apos;&gt;GNU GPLv3&lt;/a&gt; 许可下发布。</translation>
+    </message>
+    <message>
+        <source>Part of this app is based on the &lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon pack support GUI&lt;/a&gt; by RikudouSennin.</source>
+        <translation>应用部分基于RikudouSennin开发的&lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;GUI图标支持&lt;/a&gt;。</translation>
+    </message>
+    <message>
+        <source>App icon designed by &lt;a href=&apos;http://www.freepik.com/free-photo/blue-paint-roller_959191.htm&apos;&gt;D3Images/Freepik&lt;/a&gt;.</source>
+        <translation>应用图标由&lt;a href=&apos;http://www.freepik.com/free-photo/blue-paint-roller_959191.htm&apos;&gt;D3Images/Freepik&lt;/a&gt;设计。</translation>
+    </message>
+    <message>
+        <source>Thanks to Dax89 and all the testers for help and patience.</source>
+        <translation>感谢 Dax89和所有测试者的帮助和耐心。</translation>
+    </message>
+    <message>
+        <source>Keyboard navigation based on the one on &lt;a href=&apos;https://github.com/Wunderfitz/harbour-piepmatz&apos;&gt;Piepmatz&lt;/a&gt; by Sebastian Wolf.</source>
+        <translation>机械键盘导航灵感源自Sebastian Wolf开发的&lt;a href=&apos;https://github.com/Wunderfitz/harbour-piepmatz&apos;&gt;Piepmatz&lt;/a&gt;。
+</translation>
     </message>
 </context>
 <context>
@@ -100,7 +113,7 @@
     </message>
     <message>
         <source>Font weight</source>
-        <translation>字体小部件</translation>
+        <translation>字体粗细</translation>
     </message>
     <message>
         <source>Remember to restart the homescreen right after.</source>
@@ -128,65 +141,65 @@
     </message>
     <message>
         <source>Choose the main font weight for the UI.</source>
-        <translation type="unfinished"></translation>
+        <translation>为UI选择主要的字体粗细</translation>
     </message>
 </context>
 <context>
     <name>DensityPage</name>
     <message>
         <source>Restore icon size</source>
-        <translation type="unfinished"></translation>
+        <translation>恢复图标大小</translation>
     </message>
     <message>
         <source>Restore Android DPI</source>
-        <translation type="unfinished"></translation>
+        <translation>恢复 Android DPI</translation>
     </message>
     <message>
         <source>Restore device pixel ratio</source>
-        <translation type="unfinished"></translation>
+        <translation>恢复设备像素比例</translation>
     </message>
     <message>
         <source>Display density</source>
-        <translation type="unfinished">显示密度</translation>
+        <translation>显示密度</translation>
     </message>
     <message>
         <source>Device pixel ratio</source>
-        <translation type="unfinished"></translation>
+        <translation>设备像素比例</translation>
     </message>
     <message>
         <source>Change the display pixel ratio. To a smaller value corresponds an higher density.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
-        <translation type="unfinished"></translation>
+        <translation>改变显示像素比例，到更小的值、更高的密度。记住之后立刻重启主屏幕。</translation>
     </message>
     <message>
         <source>Android DPI</source>
-        <translation type="unfinished"></translation>
+        <translation>Android DPI</translation>
     </message>
     <message>
         <source>Android DPI value</source>
-        <translation type="unfinished"></translation>
+        <translation>Android DPI 值</translation>
     </message>
     <message>
         <source>Change the Android DPI value. To a smaller value corresponds an higher density.&lt;br&gt;&lt;br&gt;Remember to restart the Android support or the homescreen right after.</source>
-        <translation type="unfinished"></translation>
+        <translation>改变Android DPI值到更小的值、更高的密度。&lt;br&gt;&lt;br&gt;记住之后重启Android 支持或主屏幕。</translation>
     </message>
     <message>
         <source>Icon size</source>
-        <translation type="unfinished"></translation>
+        <translation>图标大小</translation>
     </message>
     <message>
         <source>Change the size of UI icons. To a greater value corresponds an huger size.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
-        <translation type="unfinished"></translation>
+        <translation>改变UI图标的尺寸到一个更高的值、更大的尺寸。</translation>
     </message>
     <message>
         <source>Restarting homescreen</source>
-        <translation type="unfinished">重启主屏幕中</translation>
+        <translation>重启主屏幕中</translation>
     </message>
 </context>
 <context>
     <name>GuidePage</name>
     <message>
         <source>Usage guide</source>
-        <translation>使用指导</translation>
+        <translation>使用指</translation>
     </message>
     <message>
         <source>UI Themer lets you customize icons, fonts and pixel density in Sailfish OS.</source>
@@ -254,204 +267,204 @@
     </message>
     <message>
         <source>Keyboard shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>键盘快捷方式</translation>
     </message>
     <message>
         <source>Press &lt;b&gt;H&lt;/b&gt; for the themes page.</source>
-        <translation type="unfinished"></translation>
+        <translation>按 &lt;b&gt;H&lt;/b&gt; 打开主题页面。</translation>
     </message>
     <message>
         <source>Press &lt;b&gt;D&lt;/b&gt; for the display density page.</source>
-        <translation type="unfinished"></translation>
+        <translation>按&lt;b&gt;D&lt;/b&gt; 打开显示密度页面。</translation>
     </message>
     <message>
         <source>Press &lt;b&gt;A&lt;/b&gt; for the about page.</source>
-        <translation type="unfinished"></translation>
+        <translation>按&lt;b&gt;A&lt;/b&gt; 打开关于页面、</translation>
     </message>
     <message>
         <source>You can quickly restart the homescreen after you applied a setting by pressing &lt;b&gt;R&lt;/b&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>当你通过按&lt;b&gt;R&lt;/b&gt;以应用设置之后，你可以快速重启主屏幕。</translation>
     </message>
     <message>
         <source>You can cancel a countdown or a dialog by pressing &lt;b&gt;C&lt;/b&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>您可以通过按&lt;b&gt;C&lt;/b&gt; 取消倒计时或对话框。</translation>
     </message>
     <message>
         <source>If you have Storeman installed, you can quickly look for compatible themes by using the shortcut in the pulley menu.</source>
-        <translation type="unfinished"></translation>
+        <translation>如果你已安装Storeman, 则可以使用滚轮菜单中的快捷方式快速查找兼容的主题。</translation>
     </message>
     <message>
         <source>Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. &lt;i&gt;Icon updater&lt;/i&gt; will automate this process, enabling automatic update of icons at a given time. You can choose between a pre-defined set of hours or a custom hour of the day.</source>
-        <translation type="unfinished"></translation>
+        <translation>每次更新应用时, 你都需要重新应用主题才能恢复自定义图标。&lt;i&gt;图标更新程序&lt;/i&gt;将自动执行此过程, 从而在给定时间自动更新图标。您可以在预定的时间或一天中的自定义时间之间进行选择。</translation>
     </message>
     <message>
         <source>Press &lt;b&gt;G&lt;/b&gt; for the usage guide.</source>
-        <translation type="unfinished"></translation>
+        <translation>按&lt;b&gt;G&lt;/b&gt;获取使用指导。 </translation>
     </message>
     <message>
         <source>Press &lt;b&gt;W&lt;/b&gt; for restart the first run wizard.</source>
-        <translation type="unfinished"></translation>
+        <translation>按&lt;b&gt; W &lt;/b&gt;重新启动首次运行向导。</translation>
     </message>
     <message>
         <source>An homescreen restart may be needed to apply your settings. You can do that through the dialog or from the &lt;i&gt;Options&lt;/i&gt; page.</source>
-        <translation type="unfinished"></translation>
+        <translation>如果要应用你的设置，或许需要一次主屏幕重启。你可以通过对话或&lt;i&gt;操作&lt;/i&gt;页达成此操作。</translation>
     </message>
     <message>
         <source>An homescreen restart may be needed to apply your settings. You can do that from the &lt;i&gt;Options&lt;/i&gt; page.</source>
-        <translation type="unfinished"></translation>
+        <translation>如果要应用你的设置，或许需要一次主屏幕重启。你可以通过&lt;i&gt;操作&lt;/i&gt;页达成此操作。</translation>
     </message>
     <message>
         <source>Press &lt;b&gt;O&lt;/b&gt; for the options page.</source>
-        <translation type="unfinished"></translation>
+        <translation>按 &lt;b&gt;O&lt;/b&gt; 打开操作页。</translation>
     </message>
     <message>
         <source>UI Themer can be navigated via a physical keyboard, using convenient shortcuts.</source>
-        <translation type="unfinished"></translation>
+        <translation>UI Themer可以通过机械键盘导航, 使用方便的快捷方式。</translation>
     </message>
     <message>
         <source>Press &lt;b&gt;B&lt;/b&gt; to go back to the previous page.</source>
-        <translation type="unfinished"></translation>
+        <translation>按&lt;b&gt;B&lt;/b&gt; 返回先前的页面。</translation>
     </message>
 </context>
 <context>
     <name>MainPage</name>
     <message>
         <source>Themes</source>
-        <translation type="unfinished">主题</translation>
+        <translation>主题</translation>
     </message>
     <message>
         <source>Uninstalling %1</source>
-        <translation type="unfinished">解除安装 %1</translation>
+        <translation>卸载 %1</translation>
     </message>
     <message>
         <source>Download themes</source>
-        <translation type="unfinished">下载主题</translation>
+        <translation>下载主题</translation>
     </message>
     <message>
         <source>Refresh</source>
-        <translation type="unfinished">刷新</translation>
+        <translation>刷新</translation>
     </message>
     <message>
         <source>Restore</source>
-        <translation type="unfinished">恢复</translation>
+        <translation>恢复</translation>
     </message>
     <message>
         <source>No themes yet</source>
-        <translation type="unfinished">目前没有主题</translation>
+        <translation>尚未安装主题</translation>
     </message>
     <message>
         <source>Install a compatible theme first</source>
-        <translation type="unfinished">首先安装一个兼容的主题</translation>
+        <translation>首先安装一个兼容的主题</translation>
     </message>
     <message>
         <source>Restarting homescreen</source>
-        <translation type="unfinished">重启主屏幕中</translation>
+        <translation>重启主屏幕中</translation>
     </message>
 </context>
 <context>
     <name>Notification</name>
     <message>
         <source>Settings applied.</source>
-        <translation type="unfinished">设置已应用</translation>
+        <translation>设置已应用</translation>
     </message>
 </context>
 <context>
     <name>OptionsPage</name>
     <message>
         <source>Restarting homescreen</source>
-        <translation type="unfinished">重启主屏幕中</translation>
+        <translation>重启主屏幕中</translation>
     </message>
     <message>
         <source>About UI Themer</source>
-        <translation type="unfinished">关于UI Themer</translation>
+        <translation>关于 UI Themer</translation>
     </message>
     <message>
         <source>Restart first run wizard</source>
-        <translation type="unfinished"></translation>
+        <translation>重启首次运行向导</translation>
     </message>
     <message>
         <source>Usage guide</source>
-        <translation type="unfinished"></translation>
+        <translation>使用指南</translation>
     </message>
     <message>
         <source>Recovery</source>
-        <translation type="unfinished">恢复</translation>
+        <translation>恢复</translation>
     </message>
     <message>
         <source>Restart homescreen</source>
-        <translation type="unfinished">重启主屏幕</translation>
+        <translation>重启主屏幕</translation>
     </message>
     <message>
         <source>Restart the homescreen, to make your modifications effective. Your currently opened apps will be closed.</source>
-        <translation type="unfinished"></translation>
+        <translation>为使你的修改生效，请重启主屏幕。你目前开启的应用将被关闭。</translation>
     </message>
     <message>
         <source>Restart</source>
-        <translation type="unfinished"></translation>
+        <translation>重启</translation>
     </message>
     <message>
         <source>Icon updater</source>
-        <translation type="unfinished">图标更新程序</translation>
+        <translation>图标更新程序</translation>
     </message>
     <message>
         <source>Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. &lt;i&gt;Icon updater&lt;/i&gt; will automate this process, enabling automatic update of icons at a given time.</source>
-        <translation type="unfinished"></translation>
+        <translation>每次软件更新，你都需要重新应用主题以激活定制的图标。&lt;i&gt;图标更新程序&lt;/i&gt;会自动进行此过程，在给定的时间能自动更新图标。你可以选择预设的一天中的某个时间或选定的时间。</translation>
     </message>
     <message>
         <source>Update icons</source>
-        <translation type="unfinished"></translation>
+        <translation>更新图标</translation>
     </message>
     <message>
         <source>Disabled</source>
-        <translation type="unfinished"></translation>
+        <translation>取消</translation>
     </message>
     <message>
         <source>30 minutes</source>
-        <translation type="unfinished"></translation>
+        <translation>30分钟</translation>
     </message>
     <message>
         <source>1 hour</source>
-        <translation type="unfinished"></translation>
+        <translation>1小时</translation>
     </message>
     <message>
         <source>2 hours</source>
-        <translation type="unfinished"></translation>
+        <translation>2小时</translation>
     </message>
     <message>
         <source>3 hours</source>
-        <translation type="unfinished"></translation>
+        <translation>3小时</translation>
     </message>
     <message>
         <source>6 hours</source>
-        <translation type="unfinished"></translation>
+        <translation>6小时</translation>
     </message>
     <message>
         <source>12 hours</source>
-        <translation type="unfinished"></translation>
+        <translation>12小时</translation>
     </message>
     <message>
         <source>Daily</source>
-        <translation type="unfinished"></translation>
+        <translation>每日</translation>
     </message>
     <message>
         <source>One-click restore</source>
-        <translation type="unfinished">一键式恢复</translation>
+        <translation>一键式恢复</translation>
     </message>
     <message>
         <source>UI Themer customizations must be reverted before performing a system update. With &lt;i&gt;One-click restore&lt;/i&gt; you can automate this process and restore icons, fonts and display density settings with just one click.</source>
-        <translation type="unfinished">在系统更新之前必须将UI Themer 个性化定制恢复到默认。通过&lt;i&gt;一键式恢复&lt;/i&gt;你只需一点就能自动化此过程，恢复图标、字体和显示密度设置。</translation>
+        <translation>在系统更新之前必须将UI Themer 个性化定制恢复到默认。通过&lt;i&gt;一键式恢复&lt;/i&gt;你只需一点就能自动化此过程，恢复图标、字体和显示密度设置。</translation>
     </message>
     <message>
         <source>Restore</source>
-        <translation type="unfinished">恢复</translation>
+        <translation>恢复</translation>
     </message>
     <message>
         <source>Restoring</source>
-        <translation type="unfinished"></translation>
+        <translation>恢复中</translation>
     </message>
     <message>
         <source>Options</source>
-        <translation type="unfinished"></translation>
+        <translation>操作</translation>
     </message>
 </context>
 <context>
@@ -498,7 +511,7 @@
     </message>
     <message>
         <source>Restarting homescreen</source>
-        <translation type="unfinished">重启主屏幕中</translation>
+        <translation>重启主屏幕中</translation>
     </message>
 </context>
 <context>
@@ -551,7 +564,7 @@
     </message>
     <message>
         <source>Install dependencies</source>
-        <translation>安装从属应用</translation>
+        <translation>安装附属应用</translation>
     </message>
     <message>
         <source>I have already installed the dependencies</source>

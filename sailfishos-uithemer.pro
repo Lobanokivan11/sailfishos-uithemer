@@ -3,6 +3,7 @@ TARGET = sailfishos-uithemer
 MY_FILES = \
 other/apply.sh \
 other/iconspreview.sh \
+other/reapply_icons.sh \
 other/restore.sh \
 other/apply_font.sh \
 other/homescreen.sh \

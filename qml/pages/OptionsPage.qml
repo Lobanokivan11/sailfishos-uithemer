@@ -104,6 +104,7 @@ SilicaFlickable
     {
         function notify() {
             busyindicator.running = false;
+            settings.isRunning = false;
             notification.publish();
         }
 
@@ -186,6 +187,7 @@ SilicaFlickable
             }
 
             id: cbxupdate
+            visible: false
             width: parent.width
             label: qsTr("Update icons")
             currentIndex: autoupd.autoUpdate
@@ -214,6 +216,9 @@ SilicaFlickable
             onClicked: {
                 remorsepopup.execute(qsTr("Restoring"), function() {
                     busyindicator.running = true;
+                    settings.isRunning = true;
+                    settings.deactivateFont();
+                    settings.deactivateIcon();
                     themepack.ocr();
                 });
             }

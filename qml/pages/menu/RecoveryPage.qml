@@ -24,6 +24,7 @@ Page
     {
         function notify() {
             busyindicator.running = false;
+            settings.isRunning = false;
             notification.publish();
         }
 
@@ -147,6 +148,8 @@ Page
                 onClicked: {
                     remorsepopup.execute(qsTr("Reinstalling icons"), function() {
                         busyindicator.running = true;
+                        settings.isRunning = true;
+                        settings.deactivateIcon();
                         themePack.reinstallIcons();
                     });
                 }
@@ -165,6 +168,8 @@ Page
                 onClicked: {
                     remorsepopup.execute(qsTr("Reinstalling fonts"), function() {
                         busyindicator.running = true;
+                        settings.isRunning = true;
+                        settings.deactivateFont();
                         themePack.reinstallFonts();
                     });
                 }

@@ -49,6 +49,12 @@ void ThemePackModel::applyFonts(int index, const QString &font) const
     Spawner::execute("/usr/share/sailfishos-uithemer/apply_font.sh", SPAWN_ARGS(RAW_PACK_NAME(this->_packlist[index]) << font), [this]() { emit fontApplied(); });
 }
 
+void ThemePackModel::reapplyIcons() const
+{
+    Spawner::execute("/usr/share/sailfishos-uithemer/reapply_icons.sh", [this]() { emit iconReapplied(); });
+
+}
+
 void ThemePackModel::iconsPreview(int index) const
 {
     Spawner::execute("/usr/share/sailfishos-uithemer/iconspreview.sh", SPAWN_ARGS(RAW_PACK_NAME(this->_packlist[index])), [this]() { emit iconsPreviewed(); });
