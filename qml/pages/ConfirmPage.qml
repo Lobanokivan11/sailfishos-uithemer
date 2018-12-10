@@ -1,4 +1,4 @@
-    import QtQuick 2.0
+import QtQuick 2.0
 import Sailfish.Silica 1.0
 import harbour.uithemer 1.0
 import "../common"
@@ -25,6 +25,11 @@ Dialog
     id: confirmpage
     focus: true
     canAccept: itsicons.checked || itsiconoverlay.checked || itsfonts.checked
+    backNavigation: !busyindicator.running
+    forwardNavigation: !busyindicator.running
+    showNavigationIndicator: !busyindicator.running
+
+    BusyState { id: busyindicator }
 
     onAccepted: {
         settings.homeRefresh = tshomerefresh.checked;
@@ -94,6 +99,8 @@ Dialog
         anchors.bottomMargin: Theme.paddingLarge
         contentHeight: content.height
         width: parent.width
+        enabled: !busyindicator.running
+        opacity: busyindicator.running ? 0.3 : 1.0
 
         Column
         {

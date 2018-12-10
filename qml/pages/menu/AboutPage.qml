@@ -6,6 +6,10 @@ Page
 {
     id: aboutpage
     focus: true
+    backNavigation: !busyindicator.running
+    showNavigationIndicator: !busyindicator.running
+
+    BusyState { id: busyindicator }
 
     Keys.onPressed: {
         handleKeyPressed(event);
@@ -70,6 +74,8 @@ Page
         anchors.fill: parent
         anchors.bottomMargin: Theme.paddingLarge
         contentHeight: content.height
+        enabled: !busyindicator.running
+        opacity: busyindicator.running ? 0.3 : 1.0
 
         Column
         {

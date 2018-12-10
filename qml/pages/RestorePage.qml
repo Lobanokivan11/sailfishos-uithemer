@@ -12,6 +12,11 @@ Dialog
     id: dlgrestore
     focus: true
     canAccept: itsrestoreicons.checked || itsrestorefonts.checked
+    backNavigation: !busyindicator.running
+    forwardNavigation: !busyindicator.running
+    showNavigationIndicator: !busyindicator.running
+
+    BusyState { id: busyindicator }
 
     Keys.onPressed: {
         handleKeyPressed(event);
@@ -62,6 +67,8 @@ Dialog
         anchors.bottomMargin: Theme.paddingLarge
         contentHeight: column.height
         width: parent.width
+        enabled: !busyindicator.running
+        opacity: busyindicator.running ? 0.3 : 1.0
 
         Column
         {

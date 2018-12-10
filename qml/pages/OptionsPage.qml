@@ -83,7 +83,7 @@ Page
 
         if (event.key === Qt.Key_R) {
             remorsepopup.execute(qsTr("Restarting homescreen"), function() {
-                busyindicator.running = true;
+                settings.isRunning = true;
                 themepack.restartHomescreen();
             });
             event.accepted = true;
@@ -94,7 +94,7 @@ SilicaFlickable
 {
     id: flickable
     enabled: !busyindicator.running
-    opacity: busyindicator.running ? 0.0 : 1.0
+    opacity: busyindicator.running ? 0.3 : 1.0
     anchors.fill: parent
     anchors.bottomMargin: dockedbar.height
     contentHeight: content.height
@@ -103,7 +103,6 @@ SilicaFlickable
     Connections
     {
         function notify() {
-            busyindicator.running = false;
             settings.isRunning = false;
             notification.publish();
         }
@@ -158,7 +157,7 @@ SilicaFlickable
             text: qsTr("Restart")
             onClicked: {
                 remorsepopup.execute(qsTr("Restarting homescreen"), function() {
-                    busyindicator.running = true;
+                    settings.isRunning = true;
                     themepack.restartHomescreen();
                 });
             }
@@ -215,7 +214,6 @@ SilicaFlickable
             text: qsTr("Restore")
             onClicked: {
                 remorsepopup.execute(qsTr("Restoring"), function() {
-                    busyindicator.running = true;
                     settings.isRunning = true;
                     settings.deactivateFont();
                     settings.deactivateIcon();

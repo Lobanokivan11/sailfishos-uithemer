@@ -49,7 +49,7 @@ Page
     Connections
     {
         function notify() {
-            busyindicator.running = false;
+            settings.isRunning = false;
             notification.publish();
         }
 
@@ -81,7 +81,7 @@ Page
         anchors.bottomMargin: Theme.paddingLarge
         contentHeight: content.height
         enabled: !busyindicator.running
-        opacity: busyindicator.running ? 0.0 : 1.0
+        opacity: busyindicator.running ? 0.3 : 1.0
 
         Column
         {
@@ -154,7 +154,7 @@ Page
                   enabled: true
                   text: qsTr("Install dependencies")
                   onClicked: {
-                      busyindicator.running = true;
+                      settings.isRunning = true;
                       themepack.installDependencies();
                   }
               }
@@ -192,7 +192,7 @@ Page
                 enabled: vIM ? false : true
                 text: vIM ? qsTr("ImageMagick installed") : qsTr("Install ImageMagick")
                 onClicked: {
-                    busyindicator.running = true;
+                    settings.isRunning = true;
                     themepack.installImageMagick();
                 }
             }

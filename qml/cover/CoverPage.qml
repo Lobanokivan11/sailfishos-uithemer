@@ -31,7 +31,7 @@ CoverBackground
         id: refreshimg
         enabled: settings.isRunning ? true : false
         visible: settings.isRunning ? true : false
-        source: "image://theme/icon-cover-refresh"
+        source: "image://theme/icon-cover-sync"
         anchors.verticalCenter: parent.verticalCenter
         anchors.horizontalCenter: parent.horizontalCenter
         fillMode: Image.PreserveAspectFit
@@ -50,7 +50,7 @@ CoverBackground
         id: refreshaction
         enabled: ((settings.activeIconPack === "none") || (settings.isRunning)) ? false : true
         CoverAction {
-            iconSource: "image://theme/icon-cover-refresh"
+            iconSource: "image://theme/icon-cover-sync"
             onTriggered: {
                 settings.isRunning = true
                 themepackmodel.reapplyIcons()

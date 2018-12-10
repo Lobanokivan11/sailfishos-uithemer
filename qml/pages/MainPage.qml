@@ -82,7 +82,7 @@ Page
 
         if (event.key === Qt.Key_R) {
             remorsepopup.execute(qsTr("Restarting homescreen"), function() {
-                busyindicator.running = true;
+                settings.isRunning = true;
                 themepack.restartHomescreen();
             });
             event.accepted = true;
@@ -93,7 +93,7 @@ Page
     {
         id: themepacklistview
         enabled: !busyindicator.running
-        opacity: busyindicator.running ? 0.0 : 1.0
+        opacity: busyindicator.running ? 0.3 : 1.0
         anchors.fill: parent
         anchors.bottomMargin: dockedbar.height
         clip: true
@@ -112,7 +112,6 @@ Page
             }
 
             function notifyDone() {
-                busyindicator.running = false;
                 settings.isRunning = false;
                 notification.publish();
             }
@@ -132,7 +131,6 @@ Page
                 var dlgconfirm = pageStack.push("ConfirmPage.qml", { "settings": settings, "themePackModel": themepackmodel, "themePackIndex": model.index });
 
                 dlgconfirm.accepted.connect(function() {
-                    busyindicator.running = true;
                     settings.isRunning = true;
 
                     if(dlgconfirm.iconsSelected) {
@@ -149,7 +147,6 @@ Page
 
             onUninstallRequested: {
                 remorseAction(qsTr("Uninstalling %1").arg(model.packName), function() {
-                    busyindicator.running = true;
                     settings.isRunning = true;
                     themepackmodel.uninstall(model.index);
 
@@ -180,7 +177,6 @@ Page
                     var dlgrestore = pageStack.push("RestorePage.qml", { "settings": settings });
 
                     dlgrestore.accepted.connect(function() {
-                        busyindicator.running = true;
                         settings.isRunning = true;
                         themepackmodel.restore(dlgrestore.restoreIcons, dlgrestore.restoreFonts);
 

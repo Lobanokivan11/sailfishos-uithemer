@@ -81,7 +81,7 @@ Page
 
         if (event.key === Qt.Key_R) {
             remorsepopup.execute(qsTr("Restarting homescreen"), function() {
-                busyindicator.running = true;
+                settings.isRunning = true;
                 themepack.restartHomescreen();
             });
             event.accepted = true;
@@ -92,7 +92,7 @@ Page
     {
         id: flickable
         enabled: !busyindicator.running
-        opacity: busyindicator.running ? 0.0 : 1.0
+        opacity: busyindicator.running ? 0.3 : 1.0
         anchors.fill: parent
         anchors.bottomMargin: dockedbar.height
         contentHeight: content.height

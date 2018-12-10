@@ -23,7 +23,6 @@ Page
     Connections
     {
         function notify() {
-            busyindicator.running = false;
             settings.isRunning = false;
             notification.publish();
         }
@@ -107,7 +106,7 @@ Page
 
         if (event.key === Qt.Key_R) {
             remorsepopup.execute(qsTr("Restarting homescreen"), function() {
-                busyindicator.running = true;
+                settings.isRunning = true;
                 themepack.restartHomescreen();
             });
             event.accepted = true;
@@ -121,7 +120,7 @@ Page
         anchors.bottomMargin: Theme.paddingLarge
         contentHeight: content.height
         enabled: !busyindicator.running
-        opacity: busyindicator.running ? 0.0 : 1.0
+        opacity: busyindicator.running ? 0.3 : 1.0
 
         Column
         {
@@ -147,7 +146,6 @@ Page
 
                 onClicked: {
                     remorsepopup.execute(qsTr("Reinstalling icons"), function() {
-                        busyindicator.running = true;
                         settings.isRunning = true;
                         settings.deactivateIcon();
                         themePack.reinstallIcons();
@@ -167,7 +165,6 @@ Page
 
                 onClicked: {
                     remorsepopup.execute(qsTr("Reinstalling fonts"), function() {
-                        busyindicator.running = true;
                         settings.isRunning = true;
                         settings.deactivateFont();
                         themePack.reinstallFonts();
