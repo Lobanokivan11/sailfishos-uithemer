@@ -14,7 +14,7 @@ Page
     property bool vDon: false
     property bool vIM: themepack.hasImageMagickInstalled()
 
-    ThemePack { id: themepack; }
+    ThemePack { id: themepack }
     BusyState { id: busyindicator }
     Notification { id: notification }
 
