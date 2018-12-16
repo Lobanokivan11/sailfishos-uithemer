@@ -73,7 +73,6 @@ Page
     {
         id: flickable
         anchors.fill: parent
-        anchors.bottomMargin: Theme.paddingLarge
         contentHeight: content.height
         enabled: !busyindicator.running
         opacity: busyindicator.running ? 0.3 : 1.0
@@ -193,6 +192,11 @@ Page
 
             LabelText {
                 text: qsTr("If you still can't get the help you need, you can open an issue on <a href='https://github.com/fravaccaro/sailfishos-uithemer/issues'>GitHub</a>.")
+            }
+
+            Item {
+                width: 1
+                height: Theme.paddingLarge
             }
         }
 

@@ -72,7 +72,6 @@ Page
     {
         id: flickable
         anchors.fill: parent
-        anchors.bottomMargin: Theme.paddingLarge
         contentHeight: content.height
         enabled: !busyindicator.running
         opacity: busyindicator.running ? 0.3 : 1.0
@@ -223,6 +222,11 @@ Page
                   anchors.horizontalCenter: parent.horizontalCenter
                   text: qsTr("Transifex")
                   onClicked: Qt.openUrlExternally("https://www.transifex.com/fravaccaro/ui-themer")
+              }
+
+              Item {
+                  width: 1
+                  height: Theme.paddingLarge
               }
         }
 

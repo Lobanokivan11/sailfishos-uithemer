@@ -96,7 +96,6 @@ Dialog
     {
         id: flickable
         anchors.fill: parent
-        anchors.bottomMargin: Theme.paddingLarge
         contentHeight: content.height
         width: parent.width
         enabled: !busyindicator.running
@@ -267,6 +266,10 @@ Dialog
 
                 TextSwitch { id: tshomerefresh; text: qsTr("Restart homescreen"); checked: settings.homeRefresh }
 
+                Item {
+                    width: 1
+                    height: Theme.paddingLarge
+                }
         }
     }
 }

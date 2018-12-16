@@ -64,7 +64,6 @@ Dialog
     {
         id: flickable
         anchors.fill: parent
-        anchors.bottomMargin: Theme.paddingLarge
         contentHeight: column.height
         width: parent.width
         enabled: !busyindicator.running
@@ -120,6 +119,10 @@ Dialog
                 }
             }
 
+            Item {
+                width: 1
+                height: Theme.paddingLarge
+            }
         }
     }
 }
