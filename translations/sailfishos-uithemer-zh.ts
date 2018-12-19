@@ -194,6 +194,14 @@
         <source>Restarting homescreen</source>
         <translation>重启主屏幕中</translation>
     </message>
+    <message>
+        <source>About UI Themer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Usage guide</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>GuidePage</name>
@@ -290,10 +298,6 @@
         <translation>您可以通过按&lt;b&gt;C&lt;/b&gt; 取消倒计时或对话框。</translation>
     </message>
     <message>
-        <source>If you have Storeman installed, you can quickly look for compatible themes by using the shortcut in the pulley menu.</source>
-        <translation>如果你已安装Storeman, 则可以使用滚轮菜单中的快捷方式快速查找兼容的主题。</translation>
-    </message>
-    <message>
         <source>Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. &lt;i&gt;Icon updater&lt;/i&gt; will automate this process, enabling automatic update of icons at a given time. You can choose between a pre-defined set of hours or a custom hour of the day.</source>
         <translation>每次更新应用时, 你都需要重新应用主题才能恢复自定义图标。&lt;i&gt;图标更新程序&lt;/i&gt;将自动执行此过程, 从而在给定时间自动更新图标。您可以在预定的时间或一天中的自定义时间之间进行选择。</translation>
     </message>
@@ -325,6 +329,10 @@
         <source>Press &lt;b&gt;B&lt;/b&gt; to go back to the previous page.</source>
         <translation>按&lt;b&gt;B&lt;/b&gt; 返回先前的页面。</translation>
     </message>
+    <message>
+        <source>If you have Storeman installed, you can quickly look for compatible themes by using the &lt;i&gt;Download&lt;/i&gt; icon in the main page.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>MainPage</name>
@@ -335,10 +343,6 @@
     <message>
         <source>Uninstalling %1</source>
         <translation>卸载 %1</translation>
-    </message>
-    <message>
-        <source>Download themes</source>
-        <translation>下载主题</translation>
     </message>
     <message>
         <source>Refresh</source>
@@ -359,6 +363,14 @@
     <message>
         <source>Restarting homescreen</source>
         <translation>重启主屏幕中</translation>
+    </message>
+    <message>
+        <source>About UI Themer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Usage guide</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

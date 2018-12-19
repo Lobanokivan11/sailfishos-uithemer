@@ -193,6 +193,14 @@
         <source>Restarting homescreen</source>
         <translation>Startar om hemskärmen</translation>
     </message>
+    <message>
+        <source>About UI Themer</source>
+        <translation type="unfinished">Om UI Themer</translation>
+    </message>
+    <message>
+        <source>Usage guide</source>
+        <translation type="unfinished">Användningsguide</translation>
+    </message>
 </context>
 <context>
     <name>GuidePage</name>
@@ -289,10 +297,6 @@
         <translation>Du kan avbryta en nedräkning eller en dialog, genom att trycka &lt;b&gt;C&lt;/b&gt;.</translation>
     </message>
     <message>
-        <source>If you have Storeman installed, you can quickly look for compatible themes by using the shortcut in the pulley menu.</source>
-        <translation>Om du har Storeman installerad, kan du snabbt söka efter kompatibla teman, genom att använda genvägen i toppmenyn.</translation>
-    </message>
-    <message>
         <source>Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. &lt;i&gt;Icon updater&lt;/i&gt; will automate this process, enabling automatic update of icons at a given time. You can choose between a pre-defined set of hours or a custom hour of the day.</source>
         <translation>Varje gång en app uppdateras, måste du återaktivera temat för att få tillbaka den anpassade ikonen. &lt;i&gt;Ikonuppdateraren&lt;/i&gt; automatiserar den processen, genom automatisk ikonuppdatering vid en given tidpunkt. Du kan välja mellan en uppsättning fördefinierade tidsintervall eller en anpassad tidpunkt på dagen.</translation>
     </message>
@@ -324,6 +328,10 @@
         <source>Press &lt;b&gt;B&lt;/b&gt; to go back to the previous page.</source>
         <translation>Tryck &lt;b&gt;B&lt;/b&gt; för att gå tillbaka till föregående sida.</translation>
     </message>
+    <message>
+        <source>If you have Storeman installed, you can quickly look for compatible themes by using the &lt;i&gt;Download&lt;/i&gt; icon in the main page.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>MainPage</name>
@@ -334,10 +342,6 @@
     <message>
         <source>Uninstalling %1</source>
         <translation>Avinstallerar %1</translation>
-    </message>
-    <message>
-        <source>Download themes</source>
-        <translation>Ladda ner teman</translation>
     </message>
     <message>
         <source>Refresh</source>
@@ -358,6 +362,14 @@
     <message>
         <source>Restarting homescreen</source>
         <translation>Startar om hemskärmen</translation>
+    </message>
+    <message>
+        <source>About UI Themer</source>
+        <translation type="unfinished">Om UI Themer</translation>
+    </message>
+    <message>
+        <source>Usage guide</source>
+        <translation type="unfinished">Användningsguide</translation>
     </message>
 </context>
 <context>

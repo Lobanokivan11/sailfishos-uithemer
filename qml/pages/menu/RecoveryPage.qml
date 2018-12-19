@@ -119,7 +119,7 @@ Page
         anchors.fill: parent
         contentHeight: content.height
         enabled: !busyindicator.running
-        opacity: busyindicator.running ? 0.3 : 1.0
+        opacity: busyindicator.running ? 0.0 : 1.0
 
         Column
         {

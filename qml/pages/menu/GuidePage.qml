@@ -75,7 +75,7 @@ Page
         anchors.fill: parent
         contentHeight: content.height
         enabled: !busyindicator.running
-        opacity: busyindicator.running ? 0.3 : 1.0
+        opacity: busyindicator.running ? 0.0 : 1.0
 
         Column
         {
@@ -84,6 +84,12 @@ Page
             spacing: Theme.paddingMedium
 
             PageHeader { title: qsTr("Usage guide") }
+
+            Item {
+                height: appicon.height + Theme.paddingMedium
+                width: parent.width
+                Image { id: appicon; anchors.horizontalCenter: parent.horizontalCenter; source: "../../../appinfo.png" }
+            }
 
             LabelText {
                 text: qsTr("UI Themer lets you customize icons, fonts and pixel density in Sailfish OS.")
@@ -104,11 +110,11 @@ Page
             }
 
             LabelText {
-                text: qsTr("If you have Storeman installed, you can quickly look for compatible themes by using the shortcut in the pulley menu.")
+                text: qsTr("An homescreen restart may be needed to apply your settings. You can do that through the dialog or from the <i>Options</i> page.")
             }
 
             LabelText {
-                text: qsTr("An homescreen restart may be needed to apply your settings. You can do that through the dialog or from the <i>Options</i> page.")
+                text: qsTr("If you have Storeman installed, you can quickly look for compatible themes by using the <i>Download</i> icon in the main page.")
             }
 
             SectionHeader { text: qsTr("Display density") }

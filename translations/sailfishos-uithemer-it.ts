@@ -193,6 +193,14 @@
         <source>Restarting homescreen</source>
         <translation>Riavvio homescreen</translation>
     </message>
+    <message>
+        <source>About UI Themer</source>
+        <translation>Info su UI Themer</translation>
+    </message>
+    <message>
+        <source>Usage guide</source>
+        <translation>Manuale d&apos;uso</translation>
+    </message>
 </context>
 <context>
     <name>GuidePage</name>
@@ -289,10 +297,6 @@
         <translation>Puoi annullare un conto alla rovescia o una pagina di conferma premendo &lt;b&gt;C&lt;/b&gt;.</translation>
     </message>
     <message>
-        <source>If you have Storeman installed, you can quickly look for compatible themes by using the shortcut in the pulley menu.</source>
-        <translation>Se hai Storeman installato, puoi cercare temi compatibili attraverso la scorciatoia dal pulley menu.</translation>
-    </message>
-    <message>
         <source>Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. &lt;i&gt;Icon updater&lt;/i&gt; will automate this process, enabling automatic update of icons at a given time. You can choose between a pre-defined set of hours or a custom hour of the day.</source>
         <translation>Ogni volta che un&apos;app viene aggiornata, devi applicare di nuovo il tema per ripristinare l&apos;icona personalizzata. &lt;i&gt;Icon updater&lt;/i&gt; automatizzerà questo processo, consentendo l&apos;aggiornamento automatico delle icone in un dato momento. Puoi scegliere tra una serie di orari predefiniti o un&apos;ora personalizzata.</translation>
     </message>
@@ -324,6 +328,10 @@
         <source>Press &lt;b&gt;B&lt;/b&gt; to go back to the previous page.</source>
         <translation>Premi &lt;b&gt;B&lt;/b&gt; per tornare alla pagina precedente.</translation>
     </message>
+    <message>
+        <source>If you have Storeman installed, you can quickly look for compatible themes by using the &lt;i&gt;Download&lt;/i&gt; icon in the main page.</source>
+        <translation>Se hai Storeman installato, puoi cercare temi compatibili attraverso l&apos;icona &lt;i&gt;Scarica&lt;/i&gt; sulla pagina principale.</translation>
+    </message>
 </context>
 <context>
     <name>MainPage</name>
@@ -334,10 +342,6 @@
     <message>
         <source>Uninstalling %1</source>
         <translation>Disinstallazione: %1</translation>
-    </message>
-    <message>
-        <source>Download themes</source>
-        <translation>Scarica temi</translation>
     </message>
     <message>
         <source>Refresh</source>
@@ -358,6 +362,14 @@
     <message>
         <source>Restarting homescreen</source>
         <translation>Riavvio homescreen</translation>
+    </message>
+    <message>
+        <source>About UI Themer</source>
+        <translation>Info su UI Themer</translation>
+    </message>
+    <message>
+        <source>Usage guide</source>
+        <translation>Manuale d&apos;uso</translation>
     </message>
 </context>
 <context>

@@ -94,7 +94,7 @@ SilicaFlickable
 {
     id: flickable
     enabled: !busyindicator.running
-    opacity: busyindicator.running ? 0.3 : 1.0
+    opacity: busyindicator.running ? 0.0 : 1.0
     anchors.fill: parent
     anchors.bottomMargin: dockedbar.height
     contentHeight: content.height
@@ -131,12 +131,12 @@ SilicaFlickable
                 onClicked: pageStack.push(Qt.resolvedUrl("../pages/menu/AboutPage.qml"))
             }
             MenuItem {
-                text: qsTr("Restart first run wizard")
-                onClicked: pageStack.replaceAbove(null, Qt.resolvedUrl("../pages/WelcomePage.qml"))
-            }
-            MenuItem {
                 text: qsTr("Usage guide")
                 onClicked: pageStack.push(Qt.resolvedUrl("../pages/menu/GuidePage.qml"))
+            }
+            MenuItem {
+                text: qsTr("Restart first run wizard")
+                onClicked: pageStack.replaceAbove(null, Qt.resolvedUrl("../pages/WelcomePage.qml"))
             }
             MenuItem {
                 text: qsTr("Recovery")

@@ -92,7 +92,7 @@ Page
     {
         id: flickable
         enabled: !busyindicator.running
-        opacity: busyindicator.running ? 0.3 : 1.0
+        opacity: busyindicator.running ? 0.0 : 1.0
         anchors.fill: parent
         anchors.bottomMargin: dockedbar.height
         contentHeight: content.height
@@ -107,7 +107,14 @@ Page
 
     PullDownMenu
     {
-
+        MenuItem {
+            text: qsTr("About UI Themer")
+            onClicked: pageStack.push(Qt.resolvedUrl("../pages/menu/AboutPage.qml"))
+        }
+        MenuItem {
+            text: qsTr("Usage guide")
+            onClicked: pageStack.push(Qt.resolvedUrl("../pages/menu/GuidePage.qml"))
+        }
         MenuItem {
             visible: false
             text: qsTr("Restore icon size")

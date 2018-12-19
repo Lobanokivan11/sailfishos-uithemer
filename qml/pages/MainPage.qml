@@ -93,12 +93,28 @@ Page
     {
         id: themepacklistview
         enabled: !busyindicator.running
-        opacity: busyindicator.running ? 0.3 : 1.0
+        opacity: busyindicator.running ? 0.0 : 1.0
         anchors.fill: parent
         anchors.bottomMargin: dockedbar.height
         clip: true
 
-        header: PageHeader { title: qsTr("Themes") }
+        header: Column {
+                   id: mainpageheader
+                   width: parent.width
+                   height: titlepageheader.height
+                   PageHeader { id: titlepageheader; title: qsTr("Themes") }
+                   IconButton {
+                           id: downloadthemesicon
+                           visible: themepack.hasStoremanInstalled()
+                           anchors {
+                               verticalCenter: parent.verticalCenter
+                               left: parent.left
+                               leftMargin: Theme.paddingMedium
+                           }
+                           icon.source: "image://theme/icon-m-cloud-download"
+                           onClicked: openStore.call('openPage', ['SearchPage', {initialSearch: 'themepack'}])
+                       }
+        }
 
         model: ThemePackModel {
             function applyDone() {
@@ -167,7 +183,14 @@ Page
         }
 
         PullDownMenu {
-            MenuItem { text: qsTr("Download themes"); visible: themepack.hasStoremanInstalled(); onClicked: openStore.call('openPage', ['SearchPage', {initialSearch: 'themepack'}]) }
+            MenuItem {
+                text: qsTr("About UI Themer")
+                onClicked: pageStack.push(Qt.resolvedUrl("../pages/menu/AboutPage.qml"))
+            }
+            MenuItem {
+                text: qsTr("Usage guide")
+                onClicked: pageStack.push(Qt.resolvedUrl("../pages/menu/GuidePage.qml"))
+            }
             MenuItem { text: qsTr("Refresh"); onClicked: themepackmodel.reloadAll() }
 
             MenuItem {

@@ -74,7 +74,7 @@ Page
         anchors.fill: parent
         contentHeight: content.height
         enabled: !busyindicator.running
-        opacity: busyindicator.running ? 0.3 : 1.0
+        opacity: busyindicator.running ? 0.0 : 1.0
 
         Column
         {
@@ -87,14 +87,13 @@ Page
             Item {
                 height: appicon.height + Theme.paddingMedium
                 width: parent.width
-
                 Image { id: appicon; anchors.horizontalCenter: parent.horizontalCenter; source: "../../../appinfo.png" }
             }
 
             Label {
                 anchors.horizontalCenter: parent.horizontalCenter
                 color: Theme.highlightColor
-                text: "UI Themer 1.3.3" }
+                text: "UI Themer 1.3.4" }
 
             LabelText {
                 text: qsTr("UI Themer lets you customize icons, fonts and pixel density in Sailfish OS.")

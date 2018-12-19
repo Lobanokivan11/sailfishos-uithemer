@@ -99,7 +99,7 @@ Dialog
         contentHeight: content.height
         width: parent.width
         enabled: !busyindicator.running
-        opacity: busyindicator.running ? 0.3 : 1.0
+        opacity: busyindicator.running ? 0.0 : 1.0
 
         Column
         {
@@ -123,7 +123,6 @@ Dialog
                 visible: hasIcons || hasIconOverlay
                 spacing: Theme.paddingMedium
                 BusyIndicator { id: busyimg; running: true; size: BusyIndicatorSize.Medium; anchors.centerIn: parent }
-
                 Image {
                     id: imgpreview
                     height: 450
@@ -141,7 +140,6 @@ Dialog
                 visible: hasIcons
                 checked: hasIcons
                 enabled: hasIcons
-
                 onClicked: {
                     iconsSelected = itsicons.checked;
 
@@ -151,7 +149,6 @@ Dialog
                         confirmpage.canAccept = true
                 }
             }
-
             IconTextSwitch {
                 id: itsiconoverlay
                 automaticCheck: true
@@ -160,7 +157,6 @@ Dialog
                 visible: hasIconOverlay
                 checked: hasIconOverlay
                 enabled: hasIconOverlay && itsicons.checked
-
                 onClicked: {
                     iconOverlaySelected = itsiconoverlay.checked;
                 }

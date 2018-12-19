@@ -10,9 +10,9 @@ UI Themer is divided into three main sections, which provide you icons, fonts an
 
 The *Themes* page lets you customize icons and fonts via thirdy party themes. The page lists the themes you have currently installed (e.g. from OpenRepos). To apply them, tap on a theme of your choice and then select what you want to use from that theme - if the theme contains different font weights, you can choose the default one to use for the UI. You can also combine different themes, so for example you can use icons from a theme and fonts from another. To revert to the default settings, you can use the restore option from the pulley menu.
 
-If you have Storeman installed, you can quickly look for compatible themes by using the shortcut in the pulley menu.
-
 An homescreen restart may be needed to apply your settings. You can do that through the dialog or from the *Options* page.
+
+If you have Storeman installed, you can quickly look for compatible themes by using the *Download* icon in the main page.
 
 ## Display density
 
