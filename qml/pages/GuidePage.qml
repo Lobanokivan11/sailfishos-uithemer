@@ -6,8 +6,8 @@ Page
 {
     id: guidepage
     focus: true
-    backNavigation: !busyindicator.running
-    showNavigationIndicator: !busyindicator.running
+    backNavigation: !settings.isRunning
+    showNavigationIndicator: !settings.isRunning
 
     RemorsePopup { id: remorsepopup }
     BusyState { id: busyindicator }
@@ -69,8 +69,8 @@ Page
         id: flickable
         anchors.fill: parent
         contentHeight: content.height
-        enabled: !busyindicator.running
-        opacity: busyindicator.running ? 0.2 : 1.0
+        enabled: !settings.isRunning
+        opacity: settings.isRunning ? 0.2 : 1.0
 
         Column
         {

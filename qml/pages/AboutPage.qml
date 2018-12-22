@@ -6,9 +6,8 @@ Page
 {
     id: aboutpage
     focus: true
-    backNavigation: !busyindicator.running
-    showNavigationIndicator: !busyindicator.running
-
+    backNavigation: !settings.isRunning
+    showNavigationIndicator: !settings.isRunning
     BusyState { id: busyindicator }
 
     Keys.onPressed: {
@@ -68,8 +67,8 @@ Page
         id: flickable
         anchors.fill: parent
         contentHeight: content.height
-        enabled: !busyindicator.running
-        opacity: busyindicator.running ? 0.2 : 1.0
+        enabled: !settings.isRunning
+        opacity: settings.isRunning ? 0.2 : 1.0
 
         Column
         {

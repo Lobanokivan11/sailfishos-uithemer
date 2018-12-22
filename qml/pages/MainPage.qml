@@ -261,7 +261,7 @@ Page
         }
         currentIndex: 1
         opacity: 0
-        enabled: !busyindicator.running
+        enabled: !settings.isRunning
 
     }
 
@@ -276,7 +276,7 @@ Page
         id: themepacklistview
         width: parent.width
         height: parent.height
-        opacity: busyindicator.running ? 0.2 : 1.0
+        opacity: settings.isRunning ? 0.2 : 1.0
 
         contentHeight: content.height
 
@@ -412,7 +412,7 @@ Page
             id: densityView
             width: parent.width
             height: parent.height
-            opacity: busyindicator.running ? 0.2 : 1.0
+            opacity: settings.isRunning ? 0.2 : 1.0
             contentHeight: content.height
 
             ConfigurationGroup {
@@ -569,8 +569,8 @@ Page
         id: dockedbar
         width: parent.width
         height: Theme.itemSizeLarge
-        enabled: !busyindicator.running
-        opacity: busyindicator.running ? 0.2 : 1.0
+        enabled: !settings.isRunning
+        opacity: settings.isRunning ? 0.2 : 1.0
         anchors { left: parent.left; bottom: parent.bottom; right: parent.right }
 
         Separator {

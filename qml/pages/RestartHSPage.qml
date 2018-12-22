@@ -10,9 +10,9 @@ Dialog
     id: dlgrestart
     focus: true
     canAccept: true
-    backNavigation: !busyindicator.running
-    forwardNavigation: !busyindicator.running
-    showNavigationIndicator: !busyindicator.running
+    backNavigation: !settings.isRunning
+    forwardNavigation: !settings.isRunning
+    showNavigationIndicator: !settings.isRunning
 
     BusyState { id: busyindicator }
 
@@ -64,8 +64,8 @@ Dialog
         anchors.fill: parent
         contentHeight: column.height
         width: parent.width
-        enabled: !busyindicator.running
-        opacity: busyindicator.running ? 0.2 : 1.0
+        enabled: !settings.isRunning
+        opacity: settings.isRunning ? 0.2 : 1.0
 
         Column
         {

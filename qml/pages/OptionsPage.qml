@@ -76,8 +76,8 @@ SilicaFlickable
     id: flickable
     anchors.fill: parent
     contentHeight: content.height
-    enabled: !busyindicator.running
-    opacity: busyindicator.running ? 0.2 : 1.0
+    enabled: !settings.isRunning
+    opacity: settings.isRunning ? 0.2 : 1.0
 
     ThemePackModel {
                 function applyDone() {
