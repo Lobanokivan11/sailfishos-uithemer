@@ -32,8 +32,7 @@ Here you can find advanced settings for UI Themer, e.g. reinstall default icons 
 
 UI Themer can be navigated via a physical keyboard, using convenient shortcuts.
 
-Press **H** for the themes page.
-Press **D** for the display density page.
+Press **H** for the home page.
 Press **O** for the options page.
 Press **G** for the usage guide.
 Press **A** for the about page.

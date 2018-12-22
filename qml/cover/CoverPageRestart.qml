@@ -7,6 +7,14 @@ import "../components"
 CoverBackground
 {
      Notification { id: notification }
+     ThemePack {
+         function notifyDone() {
+             settings.isRunning = false;
+             notification.publish();
+         }
+         id: themepack
+         onHomescreenRestarted: notifyDone()
+     }
 
     Image
     {
@@ -37,4 +45,17 @@ CoverBackground
             from: 0; to: 360
         }
     }
+
+    CoverActionList {
+        id: restartaction
+        enabled: (settings.isRunning) ? false : true
+        CoverAction {
+            iconSource: "image://theme/icon-cover-refresh"
+            onTriggered: {
+                settings.isRunning = true
+                themepack.restartHomescreen()
+            }
+        }
+    }
+
 }

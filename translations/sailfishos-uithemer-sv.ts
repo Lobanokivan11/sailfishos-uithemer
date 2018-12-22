@@ -72,20 +72,20 @@
         <translation>Släppt under &lt;a href=&apos;https://www.gnu.org/licenses/gpl-3.0&apos;&gt;GNU GPLv3&lt;/a&gt; licens.</translation>
     </message>
     <message>
-        <source>Part of this app is based on the &lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon pack support GUI&lt;/a&gt; by RikudouSennin.</source>
-        <translation>Delar av den här appen baseras på &lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon pack support GUI&lt;/a&gt; av RikudouSennin.</translation>
-    </message>
-    <message>
-        <source>App icon designed by &lt;a href=&apos;http://www.freepik.com/free-photo/blue-paint-roller_959191.htm&apos;&gt;D3Images/Freepik&lt;/a&gt;.</source>
-        <translation>App-ikon designad av &lt;a href=&apos;http://www.freepik.com/free-photo/blue-paint-roller_959191.htm&apos;&gt;D3Images/Freepik&lt;/a&gt;.</translation>
-    </message>
-    <message>
         <source>Thanks to Dax89 and all the testers for help and patience.</source>
         <translation>Tack till Dax89 och alla testare, för hjälp och tålamod.</translation>
     </message>
     <message>
-        <source>Keyboard navigation based on the one on &lt;a href=&apos;https://github.com/Wunderfitz/harbour-piepmatz&apos;&gt;Piepmatz&lt;/a&gt; by Sebastian Wolf.</source>
-        <translation>Tangentbordsnavigering baserad på den i &lt;a href=&apos;https://github.com/Wunderfitz/harbour-piepmatz&apos;&gt;Piepmatz&lt;/a&gt; av Sebastian Wolf.</translation>
+        <source>Part of this app is based on &lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon pack support GUI&lt;/a&gt; by RikudouSennin.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>App icon by</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Slideshow in the home page and keyboard navigation based on &lt;a href=&apos;https://github.com/Wunderfitz/harbour-piepmatz&apos;&gt;Piepmatz&lt;/a&gt; by Sebastian Wolf.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -141,65 +141,6 @@
     <message>
         <source>Choose the main font weight for the UI.</source>
         <translation>Välj huvudgrovlek för UI.</translation>
-    </message>
-</context>
-<context>
-    <name>DensityPage</name>
-    <message>
-        <source>Restore icon size</source>
-        <translation>Återställ ikonstorlek</translation>
-    </message>
-    <message>
-        <source>Restore Android DPI</source>
-        <translation>Återställ Android DPI</translation>
-    </message>
-    <message>
-        <source>Restore device pixel ratio</source>
-        <translation>Återställ enhetens bildpunktstäthet</translation>
-    </message>
-    <message>
-        <source>Display density</source>
-        <translation>Skärmupplösning</translation>
-    </message>
-    <message>
-        <source>Device pixel ratio</source>
-        <translation>Enhetens bildpunktsförhållande</translation>
-    </message>
-    <message>
-        <source>Change the display pixel ratio. To a smaller value corresponds an higher density.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
-        <translation>Ändra skärmens bildpunktsförhållande. Ett lägre värde motsvarar en högre täthet.&lt;br&gt;&lt;br&gt;Kom ihåg att starta om hemskärmen direkt efteråt.</translation>
-    </message>
-    <message>
-        <source>Android DPI</source>
-        <translation>Android DPI</translation>
-    </message>
-    <message>
-        <source>Android DPI value</source>
-        <translation>Android DPI-värde</translation>
-    </message>
-    <message>
-        <source>Change the Android DPI value. To a smaller value corresponds an higher density.&lt;br&gt;&lt;br&gt;Remember to restart the Android support or the homescreen right after.</source>
-        <translation>Ändra Android DPI-värde. Ett lägre värde motsvarar en högre täthet.&lt;br&gt;&lt;br&gt;Kom ihåg att starta om hemskärmen direkt efteråt.</translation>
-    </message>
-    <message>
-        <source>Icon size</source>
-        <translation>Ikonstorlek</translation>
-    </message>
-    <message>
-        <source>Change the size of UI icons. To a greater value corresponds an huger size.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
-        <translation>Ändra storleken på UI-ikonerna. Ett högre värde motsvarar en större storlek.&lt;br&gt;&lt;br&gt;Kom ihåg att starta om hemskärmen direkt efteråt.</translation>
-    </message>
-    <message>
-        <source>Restarting homescreen</source>
-        <translation>Startar om hemskärmen</translation>
-    </message>
-    <message>
-        <source>About UI Themer</source>
-        <translation type="unfinished">Om UI Themer</translation>
-    </message>
-    <message>
-        <source>Usage guide</source>
-        <translation type="unfinished">Användningsguide</translation>
     </message>
 </context>
 <context>
@@ -277,14 +218,6 @@
         <translation>Tangentbordsgenvägar</translation>
     </message>
     <message>
-        <source>Press &lt;b&gt;H&lt;/b&gt; for the themes page.</source>
-        <translation>Tryck &lt;b&gt;H&lt;/b&gt; för temasidan.</translation>
-    </message>
-    <message>
-        <source>Press &lt;b&gt;D&lt;/b&gt; for the display density page.</source>
-        <translation>Tryck &lt;b&gt;D&lt;/b&gt; för skärmupplösningssidan.</translation>
-    </message>
-    <message>
         <source>Press &lt;b&gt;A&lt;/b&gt; for the about page.</source>
         <translation>Tryck &lt;b&gt;A&lt;/b&gt; för Om-sidan.</translation>
     </message>
@@ -332,6 +265,10 @@
         <source>If you have Storeman installed, you can quickly look for compatible themes by using the &lt;i&gt;Download&lt;/i&gt; icon in the main page.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Press &lt;b&gt;H&lt;/b&gt; for the home page.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>MainPage</name>
@@ -342,10 +279,6 @@
     <message>
         <source>Uninstalling %1</source>
         <translation>Avinstallerar %1</translation>
-    </message>
-    <message>
-        <source>Refresh</source>
-        <translation>Uppdatera</translation>
     </message>
     <message>
         <source>Restore</source>
@@ -360,16 +293,52 @@
         <translation>Installera ett kompatibelt tema först</translation>
     </message>
     <message>
-        <source>Restarting homescreen</source>
-        <translation>Startar om hemskärmen</translation>
-    </message>
-    <message>
         <source>About UI Themer</source>
         <translation type="unfinished">Om UI Themer</translation>
     </message>
     <message>
         <source>Usage guide</source>
         <translation type="unfinished">Användningsguide</translation>
+    </message>
+    <message>
+        <source>Options</source>
+        <translation type="unfinished">Alternativ</translation>
+    </message>
+    <message>
+        <source>Restart homescreen</source>
+        <translation type="unfinished">Starta om hemskärmen</translation>
+    </message>
+    <message>
+        <source>Display density</source>
+        <translation type="unfinished">Skärmupplösning</translation>
+    </message>
+    <message>
+        <source>Device pixel ratio</source>
+        <translation type="unfinished">Enhetens bildpunktsförhållande</translation>
+    </message>
+    <message>
+        <source>Change the display pixel ratio. To a smaller value corresponds an higher density.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
+        <translation type="unfinished">Ändra skärmens bildpunktsförhållande. Ett lägre värde motsvarar en högre täthet.&lt;br&gt;&lt;br&gt;Kom ihåg att starta om hemskärmen direkt efteråt.</translation>
+    </message>
+    <message>
+        <source>Android DPI</source>
+        <translation type="unfinished">Android DPI</translation>
+    </message>
+    <message>
+        <source>Android DPI value</source>
+        <translation type="unfinished">Android DPI-värde</translation>
+    </message>
+    <message>
+        <source>Change the Android DPI value. To a smaller value corresponds an higher density.&lt;br&gt;&lt;br&gt;Remember to restart the Android support or the homescreen right after.</source>
+        <translation type="unfinished">Ändra Android DPI-värde. Ett lägre värde motsvarar en högre täthet.&lt;br&gt;&lt;br&gt;Kom ihåg att starta om hemskärmen direkt efteråt.</translation>
+    </message>
+    <message>
+        <source>Icon size</source>
+        <translation type="unfinished">Ikonstorlek</translation>
+    </message>
+    <message>
+        <source>Change the size of UI icons. To a greater value corresponds an huger size.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
+        <translation type="unfinished">Ändra storleken på UI-ikonerna. Ett högre värde motsvarar en större storlek.&lt;br&gt;&lt;br&gt;Kom ihåg att starta om hemskärmen direkt efteråt.</translation>
     </message>
 </context>
 <context>
@@ -380,11 +349,34 @@
     </message>
 </context>
 <context>
-    <name>OptionsPage</name>
+    <name>OCRPage</name>
     <message>
-        <source>Restarting homescreen</source>
-        <translation>Startar om hemskärmen</translation>
+        <source>Restore</source>
+        <translation type="unfinished">Återställ</translation>
     </message>
+    <message>
+        <source>Cancel</source>
+        <translation type="unfinished">Avbryt</translation>
+    </message>
+    <message>
+        <source>One-click restore</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>UI Themer customizations must be reverted before performing a system update. With &lt;i&gt;One-click restore&lt;/i&gt; you can automate this process and restore icons, fonts and display density settings with just one click.</source>
+        <translation type="unfinished">UI Themer-anpassningar måste återställas före en systemuppgradering. Med &lt;i&gt;ett-klicksåterställningen&lt;/i&gt; kan du automatisera denna process och återställa ikoner, teckensnitt och skärmupplösning, med endast ett tryck.</translation>
+    </message>
+    <message>
+        <source>Remember to restart the homescreen right after.</source>
+        <translation type="unfinished">Kom ihåg att starta om hemskärmen direkt efteråt.</translation>
+    </message>
+    <message>
+        <source>Restart homescreen</source>
+        <translation type="unfinished">Starta om hemskärmen</translation>
+    </message>
+</context>
+<context>
+    <name>OptionsPage</name>
     <message>
         <source>About UI Themer</source>
         <translation>Om UI Themer</translation>
@@ -400,18 +392,6 @@
     <message>
         <source>Recovery</source>
         <translation>Återställning</translation>
-    </message>
-    <message>
-        <source>Restart homescreen</source>
-        <translation>Starta om hemskärmen</translation>
-    </message>
-    <message>
-        <source>Restart the homescreen, to make your modifications effective. Your currently opened apps will be closed.</source>
-        <translation>Starta om hemskärmen för att verkställa dina ändringar. Dina öppna appar kommer att stängas.</translation>
-    </message>
-    <message>
-        <source>Restart</source>
-        <translation>Starta om</translation>
     </message>
     <message>
         <source>Icon updater</source>
@@ -470,12 +450,40 @@
         <translation>Återställ</translation>
     </message>
     <message>
-        <source>Restoring</source>
-        <translation>Återställer</translation>
-    </message>
-    <message>
         <source>Options</source>
         <translation>Alternativ</translation>
+    </message>
+    <message>
+        <source>Cover</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cover action</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Restart the app for the setting to be effective.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Here you can find advanced settings for UI Themer, e.g. reinstall default icons or fonts if you forget to revert to default theme before a system update or if the applying fails.</source>
+        <translation type="unfinished">Här hittar du avancerade inställningar för UI Themer, t.ex. ominstallation av ikoner och teckensnitt, om du glömmer att byta till standardtemat före en systemuppgradering eller om tillämpningen misslyckas.</translation>
+    </message>
+    <message>
+        <source>refresh current theme</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>restart homescreen</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>one-click restore</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -483,14 +491,6 @@
     <message>
         <source>Recovery</source>
         <translation>Återställning</translation>
-    </message>
-    <message>
-        <source>Here you can find some recovery tools in case anything goes wrong (eg if you forget to restore the default theme before performing a system update).&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
-        <translation>Här hittar du några återställningsverktyg, ifall något går fel (t-ex. om du glömmer att återställa standardtemat före en systemuppdatering).&lt;br&gt;&lt;br&gt;Kom ihåg att starta om hemskärmen direkt efteråt.</translation>
-    </message>
-    <message>
-        <source>Icons</source>
-        <translation>Ikoner</translation>
     </message>
     <message>
         <source>If any error occurs during themes applying/restoring, you can end up with messed up icons. From here, you can reinstall default Jolla app icons while, for thirdy party apps, you may need to reinstall/update apps to restore the default look.</source>
@@ -501,14 +501,6 @@
         <translation>Återinstallera ikoner</translation>
     </message>
     <message>
-        <source>Reinstalling icons</source>
-        <translation>Återinstallerar ikoner</translation>
-    </message>
-    <message>
-        <source>Fonts</source>
-        <translation>Teckensnitt</translation>
-    </message>
-    <message>
         <source>Reinstall default fonts, if font applying/restoring fails.</source>
         <translation>Återinstallera standardteckensnitt, om teckensnittstillämpning/-återställning misslyckas,</translation>
     </message>
@@ -517,12 +509,66 @@
         <translation>Återinstallera teckensnitt</translation>
     </message>
     <message>
-        <source>Reinstalling fonts</source>
-        <translation>Återinstallerar teckensnitt</translation>
+        <source>Continue</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Restarting homescreen</source>
-        <translation>Startar om hemskärmen</translation>
+        <source>Cancel</source>
+        <translation type="unfinished">Avbryt</translation>
+    </message>
+    <message>
+        <source>Remember to restart the homescreen right after.</source>
+        <translation type="unfinished">Kom ihåg att starta om hemskärmen direkt efteråt.</translation>
+    </message>
+    <message>
+        <source>Restart homescreen</source>
+        <translation type="unfinished">Starta om hemskärmen</translation>
+    </message>
+</context>
+<context>
+    <name>RestartHSPage</name>
+    <message>
+        <source>Continue</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation type="unfinished">Avbryt</translation>
+    </message>
+    <message>
+        <source>Restart the homescreen, to make your modifications effective. Your currently opened apps will be closed.</source>
+        <translation type="unfinished">Starta om hemskärmen för att verkställa dina ändringar. Dina öppna appar kommer att stängas.</translation>
+    </message>
+    <message>
+        <source>Restart homescreen</source>
+        <translation type="unfinished">Starta om hemskärmen</translation>
+    </message>
+</context>
+<context>
+    <name>RestoreDDPage</name>
+    <message>
+        <source>Restore</source>
+        <translation type="unfinished">Återställ</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation type="unfinished">Avbryt</translation>
+    </message>
+    <message>
+        <source>Default device pixel ratio</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Default Android DPI</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remember to restart the homescreen right after.</source>
+        <translation type="unfinished">Kom ihåg att starta om hemskärmen direkt efteråt.</translation>
+    </message>
+    <message>
+        <source>Restart homescreen</source>
+        <translation type="unfinished">Starta om hemskärmen</translation>
     </message>
 </context>
 <context>
@@ -644,6 +690,10 @@
     <message>
         <source>By using UI Themer, you agree to the &lt;a href=&apos;https://www.gnu.org/licenses/gpl-3.0&apos;&gt;GNU GPLv3&lt;/a&gt; terms and conditions.</source>
         <translation>Genom att använda UI Themer, godkänner du regler och villkor för &lt;a href=&apos;https://www.gnu.org/licenses/gpl-3.0&apos;&gt;GNU GPLv3&lt;/a&gt;.</translation>
+    </message>
+    <message>
+        <source>UI Themer DOES NOT send any data. Some essential info (e.g. the current theme) are collected and stored EXCLUSIVELY locally and used only for the proper functioning of the app (e.g. to display the current theme in the app).</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

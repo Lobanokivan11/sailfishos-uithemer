@@ -6,12 +6,10 @@ import "../components"
 Dialog
 {
     property Settings settings
-    property alias restoreIcons: itsrestoreicons.checked
-    property alias restoreFonts: itsrestorefonts.checked
 
-    id: dlgrestore
+    id: dlgrestart
     focus: true
-    canAccept: itsrestoreicons.checked || itsrestorefonts.checked
+    canAccept: true
     backNavigation: !busyindicator.running
     forwardNavigation: !busyindicator.running
     showNavigationIndicator: !busyindicator.running
@@ -25,12 +23,12 @@ Dialog
     function handleKeyPressed(event) {
 
         if (event.key === Qt.Key_Down) {
-            flickable.flick(0, - dlgrestore.height);
+            flickable.flick(0, - dlgrestart.height);
             event.accepted = true;
         }
 
         if (event.key === Qt.Key_Up) {
-            flickable.flick(0, dlgrestore.height);
+            flickable.flick(0, dlgrestart.height);
             event.accepted = true;
         }
 
@@ -75,48 +73,12 @@ Dialog
             width: parent.width
             spacing: Theme.paddingMedium
 
-            DialogHeader { id: header; acceptText: qsTr("Restore"); cancelText: qsTr("Cancel") }
+            DialogHeader { id: header; acceptText: qsTr("Continue"); cancelText: qsTr("Cancel") }
 
-            ConfirmHeader { text: qsTr("Restore") }
-
-            IconTextSwitch {
-                id: itsrestoreicons
-                automaticCheck: true
-                text: qsTr("Default icons")
-                checked: true
-
-                onClicked: {
-                    if(!itsrestoreicons.checked && !itsrestorefonts.checked)
-                        dlgrestore.canAccept = false
-                    else
-                        dlgrestore.canAccept = true
-                }
-            }
-
-            IconTextSwitch {
-                id: itsrestorefonts
-                automaticCheck: true
-                text: qsTr("Default fonts")
-                checked: true
-
-                onClicked: {
-                    if(!itsrestoreicons.checked && !itsrestorefonts.checked)
-                        dlgrestore.canAccept = false
-                    else
-                        dlgrestore.canAccept = true
-                }
-            }
+            ConfirmHeader { text: qsTr("Restart homescreen") }
 
             LabelText {
-                text: "<br>" + qsTr("Remember to restart the homescreen right after.")
-            }
-
-            TextSwitch {
-                text: qsTr("Restart homescreen")
-                checked: settings.homeRefresh
-                onCheckedChanged: {
-                    settings.homeRefresh = checked;
-                }
+                text: qsTr("Restart the homescreen, to make your modifications effective. Your currently opened apps will be closed.")
             }
 
             Item {

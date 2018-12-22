@@ -22,7 +22,7 @@ Dialog
     property alias fontsSelected: itsfonts.checked
     property string selectedFont: hasFont ? fontweightmodel.firstWeight: ""
 
-    id: confirmpage
+    id: dlgconfirm
     focus: true
     canAccept: itsicons.checked || itsiconoverlay.checked || itsfonts.checked
     backNavigation: !busyindicator.running
@@ -55,12 +55,12 @@ Dialog
     function handleKeyPressed(event) {
 
         if (event.key === Qt.Key_Down) {
-            flickable.flick(0, - confirmpage.height);
+            flickable.flick(0, - dlgconfirm.height);
             event.accepted = true;
         }
 
         if (event.key === Qt.Key_Up) {
-            flickable.flick(0, confirmpage.height);
+            flickable.flick(0, dlgconfirm.height);
             event.accepted = true;
         }
 
@@ -80,17 +80,17 @@ Dialog
         }
 
         if (event.key === Qt.Key_Return) {
-            confirmpage.accept();
+            dlgconfirm.accept();
             event.accepted = true;
         }
 
         if (event.key === Qt.Key_G) {
-            pageStack.push(Qt.resolvedUrl("menu/GuidePage.qml"));
+            pageStack.push(Qt.resolvedUrl("GuidePage.qml"));
             event.accepted = true;
         }
     }
 
-    FontWeightModel { id: fontweightmodel; packName: confirmpage.packName }
+    FontWeightModel { id: fontweightmodel; packName: dlgconfirm.packName }
 
     SilicaFlickable
     {
@@ -99,7 +99,7 @@ Dialog
         contentHeight: content.height
         width: parent.width
         enabled: !busyindicator.running
-        opacity: busyindicator.running ? 0.0 : 1.0
+        opacity: busyindicator.running ? 0.2 : 1.0
 
         Column
         {
@@ -144,9 +144,9 @@ Dialog
                     iconsSelected = itsicons.checked;
 
                     if(!itsfonts.checked && !itsicons.checked)
-                        confirmpage.canAccept = false
+                        dlgconfirm.canAccept = false
                     else
-                        confirmpage.canAccept = true
+                        dlgconfirm.canAccept = true
                 }
             }
             IconTextSwitch {
@@ -219,9 +219,9 @@ Dialog
                         fontsSelected = itsfonts.checked;
 
                         if(!itsfonts.checked && !itsicons.checked)
-                            confirmpage.canAccept = false
+                            dlgconfirm.canAccept = false
                         else
-                            confirmpage.canAccept = true
+                            dlgconfirm.canAccept = true
                     }
                 }
 

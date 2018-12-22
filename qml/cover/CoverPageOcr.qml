@@ -7,6 +7,14 @@ import "../components"
 CoverBackground
 {
      Notification { id: notification }
+     ThemePackModel {
+         function notifyDone() {
+             settings.isRunning = false;
+             notification.publish();
+         }
+         id: themepackmodel
+         onOcrRestored: notifyDone()
+     }
 
     Image
     {
@@ -37,4 +45,17 @@ CoverBackground
             from: 0; to: 360
         }
     }
+
+    CoverActionList {
+        id: refreshaction
+        enabled: ((settings.activeIconPack === "none") || (settings.isRunning)) ? false : true
+        CoverAction {
+            iconSource: "image://theme/icon-cover-cancel"
+            onTriggered: {
+                settings.isRunning = true
+                themepackmodel.ocr()
+            }
+        }
+    }
+
 }

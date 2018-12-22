@@ -1,17 +1,20 @@
 import QtQuick 2.0
 import Sailfish.Silica 1.0
+import harbour.uithemer 1.0
 import "../common"
 import "../components"
 
 Dialog
 {
     property Settings settings
-    property alias restoreIcons: itsrestoreicons.checked
-    property alias restoreFonts: itsrestorefonts.checked
+    property alias restoreDPR: itsrestoredpr.checked
+    property alias restoreADPI: itsrestoreadpi.checked
+
+    ThemePack { id: themepack }
 
     id: dlgrestore
     focus: true
-    canAccept: itsrestoreicons.checked || itsrestorefonts.checked
+    canAccept: itsrestoredpr.checked || ( itsrestoreadpi.checked && themepack.hasAndroidSupport )
     backNavigation: !busyindicator.running
     forwardNavigation: !busyindicator.running
     showNavigationIndicator: !busyindicator.running
@@ -80,13 +83,13 @@ Dialog
             ConfirmHeader { text: qsTr("Restore") }
 
             IconTextSwitch {
-                id: itsrestoreicons
+                id: itsrestoredpr
                 automaticCheck: true
-                text: qsTr("Default icons")
+                text: qsTr("Default device pixel ratio")
                 checked: true
 
                 onClicked: {
-                    if(!itsrestoreicons.checked && !itsrestorefonts.checked)
+                    if(!itsrestoredpr.checked && !itsrestoreadpi.checked)
                         dlgrestore.canAccept = false
                     else
                         dlgrestore.canAccept = true
@@ -94,13 +97,14 @@ Dialog
             }
 
             IconTextSwitch {
-                id: itsrestorefonts
+                id: itsrestoreadpi
+                visible: themepack.hasAndroidSupport
                 automaticCheck: true
-                text: qsTr("Default fonts")
+                text: qsTr("Default Android DPI")
                 checked: true
 
                 onClicked: {
-                    if(!itsrestoreicons.checked && !itsrestorefonts.checked)
+                    if(!itsrestoredpr.checked && !itsrestoreadpi.checked)
                         dlgrestore.canAccept = false
                     else
                         dlgrestore.canAccept = true

@@ -1,17 +1,18 @@
 import QtQuick 2.0
 import Sailfish.Silica 1.0
+import harbour.uithemer 1.0
 import "../common"
 import "../components"
 
 Dialog
 {
     property Settings settings
-    property alias restoreIcons: itsrestoreicons.checked
-    property alias restoreFonts: itsrestorefonts.checked
 
-    id: dlgrestore
+    ThemePack { id: themepack }
+
+    id: dlgocr
     focus: true
-    canAccept: itsrestoreicons.checked || itsrestorefonts.checked
+    canAccept: true
     backNavigation: !busyindicator.running
     forwardNavigation: !busyindicator.running
     showNavigationIndicator: !busyindicator.running
@@ -25,12 +26,12 @@ Dialog
     function handleKeyPressed(event) {
 
         if (event.key === Qt.Key_Down) {
-            flickable.flick(0, - dlgrestore.height);
+            flickable.flick(0, - dlgocr.height);
             event.accepted = true;
         }
 
         if (event.key === Qt.Key_Up) {
-            flickable.flick(0, dlgrestore.height);
+            flickable.flick(0, dlgocr.height);
             event.accepted = true;
         }
 
@@ -77,34 +78,10 @@ Dialog
 
             DialogHeader { id: header; acceptText: qsTr("Restore"); cancelText: qsTr("Cancel") }
 
-            ConfirmHeader { text: qsTr("Restore") }
+            ConfirmHeader { text: qsTr("One-click restore") }
 
-            IconTextSwitch {
-                id: itsrestoreicons
-                automaticCheck: true
-                text: qsTr("Default icons")
-                checked: true
-
-                onClicked: {
-                    if(!itsrestoreicons.checked && !itsrestorefonts.checked)
-                        dlgrestore.canAccept = false
-                    else
-                        dlgrestore.canAccept = true
-                }
-            }
-
-            IconTextSwitch {
-                id: itsrestorefonts
-                automaticCheck: true
-                text: qsTr("Default fonts")
-                checked: true
-
-                onClicked: {
-                    if(!itsrestoreicons.checked && !itsrestorefonts.checked)
-                        dlgrestore.canAccept = false
-                    else
-                        dlgrestore.canAccept = true
-                }
+            LabelText {
+                text: qsTr("UI Themer customizations must be reverted before performing a system update. With <i>One-click restore</i> you can automate this process and restore icons, fonts and display density settings with just one click.")
             }
 
             LabelText {

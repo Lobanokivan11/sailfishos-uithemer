@@ -2,6 +2,8 @@
 
 main=/usr/share/harbour-themepacksupport
 
+echo "Starting one-click restore"
+
 $main/restore_dpr.sh
 $main/restore_iz.sh
 $main/restore_adpi.sh

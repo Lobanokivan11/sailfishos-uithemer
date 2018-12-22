@@ -1,6 +1,6 @@
 import QtQuick 2.0
 import Sailfish.Silica 1.0
-import "../../components"
+import "../components"
 
 Page
 {
@@ -44,22 +44,17 @@ Page
         }
 
         if (event.key === Qt.Key_H) {
-            pageStack.replaceAbove(null, Qt.resolvedUrl("../MainPage.qml"));
-            event.accepted = true;
-        }
-
-        if (event.key === Qt.Key_D) {
-            pageStack.replaceAbove(null, Qt.resolvedUrl("../DensityPage.qml"));
+            pageStack.replaceAbove(null, Qt.resolvedUrl("MainPage.qml"));
             event.accepted = true;
         }
 
         if (event.key === Qt.Key_O) {
-            pageStack.replaceAbove(null, Qt.resolvedUrl("../OptionsPage.qml"));
+            pageStack.push(Qt.resolvedUrl("OptionsPage.qml"));
             event.accepted = true;
         }
 
         if (event.key === Qt.Key_W) {
-            pageStack.replaceAbove(null, Qt.resolvedUrl("../WelcomePage.qml"));
+            pageStack.replaceAbove(null, Qt.resolvedUrl("WelcomePage.qml"));
             event.accepted = true;
         }
 
@@ -75,7 +70,7 @@ Page
         anchors.fill: parent
         contentHeight: content.height
         enabled: !busyindicator.running
-        opacity: busyindicator.running ? 0.0 : 1.0
+        opacity: busyindicator.running ? 0.2 : 1.0
 
         Column
         {
@@ -88,7 +83,7 @@ Page
             Item {
                 height: appicon.height + Theme.paddingMedium
                 width: parent.width
-                Image { id: appicon; anchors.horizontalCenter: parent.horizontalCenter; source: "../../../appinfo.png" }
+                Image { id: appicon; anchors.horizontalCenter: parent.horizontalCenter; source: "../../appinfo.png" }
             }
 
             LabelText {
@@ -153,11 +148,7 @@ Page
             }
 
             LabelText {
-                text: qsTr("Press <b>H</b> for the themes page.")
-            }
-
-            LabelText {
-                text: qsTr("Press <b>D</b> for the display density page.")
+                text: qsTr("Press <b>H</b> for the home page.")
             }
 
             LabelText {

@@ -65,6 +65,26 @@ void ThemePackModel::restore(bool icons, bool fonts)
     Spawner::execute("/usr/share/sailfishos-uithemer/restore.sh", SPAWN_ARGS(QString::number(icons) << QString::number(fonts)), [this]() { emit fontApplied(); });
 }
 
+void ThemePackModel::applyADPI(const QString& adpi)
+{
+    Spawner::executeSync("/usr/share/sailfishos-uithemer/apply_adpi.sh " + adpi);
+}
+
+void ThemePackModel::restoreDpi(bool dpr, bool adpi)
+{
+    Spawner::execute("/usr/share/sailfishos-uithemer/restore_dpi.sh", SPAWN_ARGS(QString::number(dpr) << QString::number(adpi)), [this]() { emit dpiRestored(); });
+}
+
+void ThemePackModel::ocr() const
+{
+    Spawner::execute("/usr/share/sailfishos-uithemer/ocr.sh", [this]() { emit ocrRestored(); });
+}
+
+void ThemePackModel::recovery(bool icons, bool fonts)
+{
+    Spawner::execute("/usr/share/sailfishos-uithemer/recovery.sh", SPAWN_ARGS(QString::number(icons) << QString::number(fonts)), [this]() { emit recovered(); });
+}
+
 void ThemePackModel::uninstall(int index)
 {
     QString package = Spawner::executeSync("rpm -qf /usr/share/" + this->_packlist[index] + "/ --queryformat '%{NAME}\n'");

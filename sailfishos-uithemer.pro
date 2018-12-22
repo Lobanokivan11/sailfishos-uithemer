@@ -7,10 +7,10 @@ other/reapply_icons.sh \
 other/restore.sh \
 other/apply_font.sh \
 other/homescreen.sh \
-other/ocr.sh \
 other/apply_adpi.sh \
-other/restore_adpi.sh \
-other/restore_dpr.sh \
+other/restore_dpi.sh \
+other/ocr.sh \
+other/recovery.sh \
 other/restore_iz.sh \
 other/apply_hours.sh \
 other/disable_service.sh \
@@ -23,12 +23,15 @@ other/post_update.sh \
 other/coverbg.png \
 other/appinfo.png
 
+appicons.path = /usr/share/icons/hicolor/
+appicons.files = appicons/*
+
 OTHER_SOURCES += $$MY_FILES
 
 my_resources.path = $$PREFIX/share/$$TARGET
 my_resources.files = $$MY_FILES
 
-INSTALLS += my_resources
+INSTALLS += my_resources appicons
 
 CONFIG += sailfishapp c++11
 
@@ -48,18 +51,22 @@ OTHER_FILES += \
     qml/components/FontPreview.qml \
     qml/components/LabelText.qml \
     qml/components/Notification.qml \
-    qml/components/dockedbar/DockedBar.qml \
     qml/components/themepacklistview/ThemePackItem.qml \
     qml/cover/CoverPage.qml \
+    qml/cover/CoverPageRefresh.qml \
+    qml/cover/CoverPageRestart.qml \
+    qml/cover/CoverPageOcr.qml \
     qml/pages/ConfirmPage.qml \
     qml/pages/MainPage.qml \
     qml/pages/OptionsPage.qml \
+    qml/pages/OCRPage.qml \
+    qml/pages/RestartHSPage.qml \
     qml/pages/RestorePage.qml \
+    qml/pages/RestoreDDPage.qml \
     qml/pages/WelcomePage.qml \
-    qml/pages/menu/AboutPage.qml \
-    qml/pages/DensityPage.qml \
-    qml/pages/menu/GuidePage.qml \
-    qml/pages/menu/RecoveryPage.qml \
+    qml/pages/AboutPage.qml \
+    qml/pages/GuidePage.qml \
+    qml/pages/RecoveryPage.qml \
     qml/js/*.js \
     rpm/* \
     sailfishos-uithemer.desktop \

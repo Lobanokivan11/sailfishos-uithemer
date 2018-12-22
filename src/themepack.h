@@ -24,13 +24,7 @@ class ThemePack : public QObject
         void installDependencies() const;
         void installImageMagick() const;
         void restartHomescreen() const;
-        void ocr() const;
-        void reinstallIcons() const;
-        void reinstallFonts() const;
         void applyHours(const QString& hours) const;
-        void applyADPI(const QString& adpi);
-        void restoreADPI() const;
-        void restoreDPR() const;                        // function to test what user runs app
         void restoreIZ() const;
         void enableService() const;
         void disableService() const;
@@ -40,12 +34,9 @@ class ThemePack : public QObject
         bool getDroidDPI(double *dpi) const;
 
     signals:
-        void iconsRestored();
-        void fontsRestored();
         void dependenciesInstalled();
         void imageMagickInstalled();
-        void restartHomescreenRestored();
-        void ocrRestored();
+        void homescreenRestarted();
         void droidDPIChanged();
 };
 

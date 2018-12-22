@@ -6,7 +6,7 @@ UI Themer lets customize icons, fonts and pixel density in Sailfish OS. Graphica
 
 ## Features
 
-<a href="docs/screenshot1.png"><img width="33%" style="float: left;" src="docs/screenshot1.png" /></a> <a href="docs/screenshot2.png"><img width="33%" style="float: left;" src="docs/screenshot2.png" /></a> <a href="docs/screenshot3.png"><img width="33%" style="float: left;" src="docs/screenshot3.png" /></a>
+<a href="docs/screenshot1.png"><img width="25%" style="float: left;" src="docs/screenshot1.png" /></a> <a href="docs/screenshot2.png"><img width="25%" style="float: left;" src="docs/screenshot2.png" /></a> <a href="docs/screenshot3.png"><img width="25%" style="float: left;" src="docs/screenshot3.png" /></a> <a href="docs/screenshot4.png"><img width="25%" style="float: left;" src="docs/screenshot4.png" /></a>
 <br style="clear: both; height:5px;" />
 
 - Icon theming.

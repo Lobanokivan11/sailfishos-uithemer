@@ -25,6 +25,10 @@ class ThemePackModel : public QAbstractListModel
         void restore(bool icons, bool fonts);
         void uninstall(int index);
         void reapplyIcons() const;
+        void applyADPI(const QString& adpi);
+        void restoreDpi(bool dpr, bool adpi);
+        void ocr() const;
+        void recovery(bool icons, bool fonts);
 
     public slots:
         QString packName(int index) const;
@@ -52,6 +56,9 @@ class ThemePackModel : public QAbstractListModel
         void iconsPreviewed();
         void restoreCompleted();
         void uninstallCompleted();
+        void dpiRestored();
+        void ocrRestored();
+        void recovered();
 
     private:
         QStringList _packlist;

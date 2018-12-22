@@ -1,6 +1,6 @@
 import QtQuick 2.0
 import Sailfish.Silica 1.0
-import "../../components"
+import "../components"
 
 Page
 {
@@ -43,17 +43,12 @@ Page
         }
 
         if (event.key === Qt.Key_H) {
-            pageStack.replaceAbove(null, Qt.resolvedUrl("../MainPage.qml"));
-            event.accepted = true;
-        }
-
-        if (event.key === Qt.Key_D) {
-            pageStack.replaceAbove(null, Qt.resolvedUrl("../DensityPage.qml"));
+            pageStack.replaceAbove(null, Qt.resolvedUrl("MainPage.qml"));
             event.accepted = true;
         }
 
         if (event.key === Qt.Key_O) {
-            pageStack.replaceAbove(null, Qt.resolvedUrl("../OptionsPage.qml"));
+            pageStack.replaceAbove(null, Qt.resolvedUrl("OptionsPage.qml"));
             event.accepted = true;
         }
 
@@ -63,7 +58,7 @@ Page
         }
 
         if (event.key === Qt.Key_W) {
-            pageStack.replaceAbove(null, Qt.resolvedUrl("../WelcomePage.qml"));
+            pageStack.replaceAbove(null, Qt.resolvedUrl("WelcomePage.qml"));
             event.accepted = true;
         }
     }
@@ -74,7 +69,7 @@ Page
         anchors.fill: parent
         contentHeight: content.height
         enabled: !busyindicator.running
-        opacity: busyindicator.running ? 0.0 : 1.0
+        opacity: busyindicator.running ? 0.2 : 1.0
 
         Column
         {
@@ -87,13 +82,13 @@ Page
             Item {
                 height: appicon.height + Theme.paddingMedium
                 width: parent.width
-                Image { id: appicon; anchors.horizontalCenter: parent.horizontalCenter; source: "../../../appinfo.png" }
+                Image { id: appicon; anchors.horizontalCenter: parent.horizontalCenter; source: "../../appinfo.png" }
             }
 
             Label {
                 anchors.horizontalCenter: parent.horizontalCenter
                 color: Theme.highlightColor
-                text: "UI Themer 1.3.4" }
+                text: "UI Themer 2.0.0" }
 
             LabelText {
                 text: qsTr("UI Themer lets you customize icons, fonts and pixel density in Sailfish OS.")
@@ -148,16 +143,16 @@ Page
               SectionHeader { text: qsTr("Credits") }
 
               LabelText {
-                  text: qsTr("Part of this app is based on the <a href='https://github.com/RikudouSage/sailfish-iconpacksupport-gui'>Icon pack support GUI</a> by RikudouSennin.")
+                  text: qsTr("Part of this app is based on <a href='https://github.com/RikudouSage/sailfish-iconpacksupport-gui'>Icon pack support GUI</a> by RikudouSennin.")
                }
 
               LabelText {
-                  text: qsTr("Keyboard navigation based on the one on <a href='https://github.com/Wunderfitz/harbour-piepmatz'>Piepmatz</a> by Sebastian Wolf.")
+                  text: qsTr("Slideshow in the home page and keyboard navigation based on <a href='https://github.com/Wunderfitz/harbour-piepmatz'>Piepmatz</a> by Sebastian Wolf.")
                }
 
 
               LabelText {
-                  text: qsTr("App icon designed by <a href='http://www.freepik.com/free-photo/blue-paint-roller_959191.htm'>D3Images/Freepik</a>.")
+                  text: qsTr("App icon by") + " <a href='http://www.freevectors.com/blue-painting-roller/'>Free Vectors</a>."
                }
 
 

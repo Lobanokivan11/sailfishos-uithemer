@@ -72,21 +72,20 @@
         <translation>在 &lt;a href=&apos;https://www.gnu.org/licenses/gpl-3.0&apos;&gt;GNU GPLv3&lt;/a&gt; 许可下发布。</translation>
     </message>
     <message>
-        <source>Part of this app is based on the &lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon pack support GUI&lt;/a&gt; by RikudouSennin.</source>
-        <translation>应用部分基于RikudouSennin开发的&lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;GUI图标支持&lt;/a&gt;。</translation>
-    </message>
-    <message>
-        <source>App icon designed by &lt;a href=&apos;http://www.freepik.com/free-photo/blue-paint-roller_959191.htm&apos;&gt;D3Images/Freepik&lt;/a&gt;.</source>
-        <translation>应用图标由&lt;a href=&apos;http://www.freepik.com/free-photo/blue-paint-roller_959191.htm&apos;&gt;D3Images/Freepik&lt;/a&gt;设计。</translation>
-    </message>
-    <message>
         <source>Thanks to Dax89 and all the testers for help and patience.</source>
         <translation>感谢 Dax89和所有测试者的帮助和耐心。</translation>
     </message>
     <message>
-        <source>Keyboard navigation based on the one on &lt;a href=&apos;https://github.com/Wunderfitz/harbour-piepmatz&apos;&gt;Piepmatz&lt;/a&gt; by Sebastian Wolf.</source>
-        <translation>机械键盘导航灵感源自Sebastian Wolf开发的&lt;a href=&apos;https://github.com/Wunderfitz/harbour-piepmatz&apos;&gt;Piepmatz&lt;/a&gt;。
-</translation>
+        <source>Part of this app is based on &lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon pack support GUI&lt;/a&gt; by RikudouSennin.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>App icon by</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Slideshow in the home page and keyboard navigation based on &lt;a href=&apos;https://github.com/Wunderfitz/harbour-piepmatz&apos;&gt;Piepmatz&lt;/a&gt; by Sebastian Wolf.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -142,65 +141,6 @@
     <message>
         <source>Choose the main font weight for the UI.</source>
         <translation>为UI选择主要的字体粗细</translation>
-    </message>
-</context>
-<context>
-    <name>DensityPage</name>
-    <message>
-        <source>Restore icon size</source>
-        <translation>恢复图标大小</translation>
-    </message>
-    <message>
-        <source>Restore Android DPI</source>
-        <translation>恢复 Android DPI</translation>
-    </message>
-    <message>
-        <source>Restore device pixel ratio</source>
-        <translation>恢复设备像素比例</translation>
-    </message>
-    <message>
-        <source>Display density</source>
-        <translation>显示密度</translation>
-    </message>
-    <message>
-        <source>Device pixel ratio</source>
-        <translation>设备像素比例</translation>
-    </message>
-    <message>
-        <source>Change the display pixel ratio. To a smaller value corresponds an higher density.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
-        <translation>改变显示像素比例，到更小的值、更高的密度。记住之后立刻重启主屏幕。</translation>
-    </message>
-    <message>
-        <source>Android DPI</source>
-        <translation>Android DPI</translation>
-    </message>
-    <message>
-        <source>Android DPI value</source>
-        <translation>Android DPI 值</translation>
-    </message>
-    <message>
-        <source>Change the Android DPI value. To a smaller value corresponds an higher density.&lt;br&gt;&lt;br&gt;Remember to restart the Android support or the homescreen right after.</source>
-        <translation>改变Android DPI值到更小的值、更高的密度。&lt;br&gt;&lt;br&gt;记住之后重启Android 支持或主屏幕。</translation>
-    </message>
-    <message>
-        <source>Icon size</source>
-        <translation>图标大小</translation>
-    </message>
-    <message>
-        <source>Change the size of UI icons. To a greater value corresponds an huger size.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
-        <translation>改变UI图标的尺寸到一个更高的值、更大的尺寸。</translation>
-    </message>
-    <message>
-        <source>Restarting homescreen</source>
-        <translation>重启主屏幕中</translation>
-    </message>
-    <message>
-        <source>About UI Themer</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Usage guide</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -278,14 +218,6 @@
         <translation>键盘快捷方式</translation>
     </message>
     <message>
-        <source>Press &lt;b&gt;H&lt;/b&gt; for the themes page.</source>
-        <translation>按 &lt;b&gt;H&lt;/b&gt; 打开主题页面。</translation>
-    </message>
-    <message>
-        <source>Press &lt;b&gt;D&lt;/b&gt; for the display density page.</source>
-        <translation>按&lt;b&gt;D&lt;/b&gt; 打开显示密度页面。</translation>
-    </message>
-    <message>
         <source>Press &lt;b&gt;A&lt;/b&gt; for the about page.</source>
         <translation>按&lt;b&gt;A&lt;/b&gt; 打开关于页面、</translation>
     </message>
@@ -333,6 +265,10 @@
         <source>If you have Storeman installed, you can quickly look for compatible themes by using the &lt;i&gt;Download&lt;/i&gt; icon in the main page.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Press &lt;b&gt;H&lt;/b&gt; for the home page.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>MainPage</name>
@@ -343,10 +279,6 @@
     <message>
         <source>Uninstalling %1</source>
         <translation>卸载 %1</translation>
-    </message>
-    <message>
-        <source>Refresh</source>
-        <translation>刷新</translation>
     </message>
     <message>
         <source>Restore</source>
@@ -361,16 +293,52 @@
         <translation>首先安装一个兼容的主题</translation>
     </message>
     <message>
-        <source>Restarting homescreen</source>
-        <translation>重启主屏幕中</translation>
-    </message>
-    <message>
         <source>About UI Themer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Usage guide</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Options</source>
+        <translation type="unfinished">操作</translation>
+    </message>
+    <message>
+        <source>Restart homescreen</source>
+        <translation type="unfinished">重启主屏幕</translation>
+    </message>
+    <message>
+        <source>Display density</source>
+        <translation type="unfinished">显示密度</translation>
+    </message>
+    <message>
+        <source>Device pixel ratio</source>
+        <translation type="unfinished">设备像素比例</translation>
+    </message>
+    <message>
+        <source>Change the display pixel ratio. To a smaller value corresponds an higher density.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
+        <translation type="unfinished">改变显示像素比例，到更小的值、更高的密度。记住之后立刻重启主屏幕。</translation>
+    </message>
+    <message>
+        <source>Android DPI</source>
+        <translation type="unfinished">Android DPI</translation>
+    </message>
+    <message>
+        <source>Android DPI value</source>
+        <translation type="unfinished">Android DPI 值</translation>
+    </message>
+    <message>
+        <source>Change the Android DPI value. To a smaller value corresponds an higher density.&lt;br&gt;&lt;br&gt;Remember to restart the Android support or the homescreen right after.</source>
+        <translation type="unfinished">改变Android DPI值到更小的值、更高的密度。&lt;br&gt;&lt;br&gt;记住之后重启Android 支持或主屏幕。</translation>
+    </message>
+    <message>
+        <source>Icon size</source>
+        <translation type="unfinished">图标大小</translation>
+    </message>
+    <message>
+        <source>Change the size of UI icons. To a greater value corresponds an huger size.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
+        <translation type="unfinished">改变UI图标的尺寸到一个更高的值、更大的尺寸。</translation>
     </message>
 </context>
 <context>
@@ -381,11 +349,34 @@
     </message>
 </context>
 <context>
-    <name>OptionsPage</name>
+    <name>OCRPage</name>
     <message>
-        <source>Restarting homescreen</source>
-        <translation>重启主屏幕中</translation>
+        <source>Restore</source>
+        <translation type="unfinished">恢复</translation>
     </message>
+    <message>
+        <source>Cancel</source>
+        <translation type="unfinished">取消</translation>
+    </message>
+    <message>
+        <source>One-click restore</source>
+        <translation type="unfinished">一键式恢复</translation>
+    </message>
+    <message>
+        <source>UI Themer customizations must be reverted before performing a system update. With &lt;i&gt;One-click restore&lt;/i&gt; you can automate this process and restore icons, fonts and display density settings with just one click.</source>
+        <translation type="unfinished">在系统更新之前必须将UI Themer 个性化定制恢复到默认。通过&lt;i&gt;一键式恢复&lt;/i&gt;你只需一点就能自动化此过程，恢复图标、字体和显示密度设置。</translation>
+    </message>
+    <message>
+        <source>Remember to restart the homescreen right after.</source>
+        <translation type="unfinished">记住之后立即重启主屏幕。</translation>
+    </message>
+    <message>
+        <source>Restart homescreen</source>
+        <translation type="unfinished">重启主屏幕</translation>
+    </message>
+</context>
+<context>
+    <name>OptionsPage</name>
     <message>
         <source>About UI Themer</source>
         <translation>关于 UI Themer</translation>
@@ -401,18 +392,6 @@
     <message>
         <source>Recovery</source>
         <translation>恢复</translation>
-    </message>
-    <message>
-        <source>Restart homescreen</source>
-        <translation>重启主屏幕</translation>
-    </message>
-    <message>
-        <source>Restart the homescreen, to make your modifications effective. Your currently opened apps will be closed.</source>
-        <translation>为使你的修改生效，请重启主屏幕。你目前开启的应用将被关闭。</translation>
-    </message>
-    <message>
-        <source>Restart</source>
-        <translation>重启</translation>
     </message>
     <message>
         <source>Icon updater</source>
@@ -471,12 +450,40 @@
         <translation>恢复</translation>
     </message>
     <message>
-        <source>Restoring</source>
-        <translation>恢复中</translation>
-    </message>
-    <message>
         <source>Options</source>
         <translation>操作</translation>
+    </message>
+    <message>
+        <source>Cover</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cover action</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Restart the app for the setting to be effective.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Here you can find advanced settings for UI Themer, e.g. reinstall default icons or fonts if you forget to revert to default theme before a system update or if the applying fails.</source>
+        <translation type="unfinished"> 如果你在系统更新前忘记恢复默认的主题或应用失败，你可以在此找到UI Themer的高级设置，例如重装默认的图标或字体。</translation>
+    </message>
+    <message>
+        <source>refresh current theme</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>restart homescreen</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>one-click restore</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -484,14 +491,6 @@
     <message>
         <source>Recovery</source>
         <translation>恢复</translation>
-    </message>
-    <message>
-        <source>Here you can find some recovery tools in case anything goes wrong (eg if you forget to restore the default theme before performing a system update).&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
-        <translation>万一什么地方出错了，你可以在此找到一些恢复工具。（例如你在执行系统更新之前忘记了恢复默认的主题）。&lt;br&gt;&lt;br&gt;记住之后立刻重启主屏幕、</translation>
-    </message>
-    <message>
-        <source>Icons</source>
-        <translation>图标</translation>
     </message>
     <message>
         <source>If any error occurs during themes applying/restoring, you can end up with messed up icons. From here, you can reinstall default Jolla app icons while, for thirdy party apps, you may need to reinstall/update apps to restore the default look.</source>
@@ -502,14 +501,6 @@
         <translation>重装图标</translation>
     </message>
     <message>
-        <source>Reinstalling icons</source>
-        <translation>重装图标中</translation>
-    </message>
-    <message>
-        <source>Fonts</source>
-        <translation>字体</translation>
-    </message>
-    <message>
         <source>Reinstall default fonts, if font applying/restoring fails.</source>
         <translation>如果字体应用或恢复失败，重装默认的字体。</translation>
     </message>
@@ -518,12 +509,66 @@
         <translation>重装字体</translation>
     </message>
     <message>
-        <source>Reinstalling fonts</source>
-        <translation>重装字体中</translation>
+        <source>Continue</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Restarting homescreen</source>
-        <translation>重启主屏幕中</translation>
+        <source>Cancel</source>
+        <translation type="unfinished">取消</translation>
+    </message>
+    <message>
+        <source>Remember to restart the homescreen right after.</source>
+        <translation type="unfinished">记住之后立即重启主屏幕。</translation>
+    </message>
+    <message>
+        <source>Restart homescreen</source>
+        <translation type="unfinished">重启主屏幕</translation>
+    </message>
+</context>
+<context>
+    <name>RestartHSPage</name>
+    <message>
+        <source>Continue</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation type="unfinished">取消</translation>
+    </message>
+    <message>
+        <source>Restart the homescreen, to make your modifications effective. Your currently opened apps will be closed.</source>
+        <translation type="unfinished">为使你的修改生效，请重启主屏幕。你目前开启的应用将被关闭。</translation>
+    </message>
+    <message>
+        <source>Restart homescreen</source>
+        <translation type="unfinished">重启主屏幕</translation>
+    </message>
+</context>
+<context>
+    <name>RestoreDDPage</name>
+    <message>
+        <source>Restore</source>
+        <translation type="unfinished">恢复</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation type="unfinished">取消</translation>
+    </message>
+    <message>
+        <source>Default device pixel ratio</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Default Android DPI</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remember to restart the homescreen right after.</source>
+        <translation type="unfinished">记住之后立即重启主屏幕。</translation>
+    </message>
+    <message>
+        <source>Restart homescreen</source>
+        <translation type="unfinished">重启主屏幕</translation>
     </message>
 </context>
 <context>
@@ -645,6 +690,10 @@
     <message>
         <source>By using UI Themer, you agree to the &lt;a href=&apos;https://www.gnu.org/licenses/gpl-3.0&apos;&gt;GNU GPLv3&lt;/a&gt; terms and conditions.</source>
         <translation>为了使用 UI Themer，你需要同意&lt;a href=&apos;https://www.gnu.org/licenses/gpl-3.0&apos;&gt;GNU GPLv3&lt;/a&gt; 条款。</translation>
+    </message>
+    <message>
+        <source>UI Themer DOES NOT send any data. Some essential info (e.g. the current theme) are collected and stored EXCLUSIVELY locally and used only for the proper functioning of the app (e.g. to display the current theme in the app).</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

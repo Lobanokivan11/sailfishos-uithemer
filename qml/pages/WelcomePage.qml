@@ -44,6 +44,11 @@ Page
             event.accepted = true;
         }
 
+        if (event.key === Qt.Key_G) {
+            pageStack.push(Qt.resolvedUrl("GuidePage.qml"));
+            event.accepted = true;
+        }
+
     }
 
     Connections
@@ -80,7 +85,7 @@ Page
         anchors.fill: parent
         contentHeight: content.height
         enabled: !busyindicator.running
-        opacity: busyindicator.running ? 0.0 : 1.0
+        opacity: busyindicator.running ? 0.2 : 1.0
 
         Column
         {
@@ -96,53 +101,36 @@ Page
                 Image { id: appicon; anchors.horizontalCenter: parent.horizontalCenter; source: "../../appinfo.png" }
             }
 
-            Label {
-                x: Theme.paddingLarge
-                width: parent.width - (x * 2)
-                wrapMode: Text.Wrap
-                textFormat: Text.RichText
+            LabelText {
                 text: qsTr("UI Themer lets you customize icons, fonts and pixel density in Sailfish OS.")
             }
 
             SectionHeader { text: qsTr("Terms and conditions") }
 
-            Label {
-                x: Theme.paddingLarge
-                width: parent.width - (x * 2)
-                wrapMode: Text.Wrap
-                onLinkActivated: Qt.openUrlExternally(link)
+            LabelText {
                 text: qsTr("By using UI Themer, you agree to the <a href='https://www.gnu.org/licenses/gpl-3.0'>GNU GPLv3</a> terms and conditions.")
             }
 
-            SectionHeader { text: qsTr("Usage guide") }
-
-            Label {
-                x: Theme.paddingLarge
-                width: parent.width - (x * 2)
-                wrapMode: Text.Wrap
-                text: qsTr("UI Themer needs some additional dependencies in order to function properly. Install them now if you haven't already.")
+            LabelText {
+                text: qsTr("UI Themer DOES NOT send any data. Some essential info (e.g. the current theme) are collected and stored EXCLUSIVELY locally and used only for the proper functioning of the app (e.g. to display the current theme in the app).")
             }
+
+            SectionHeader { text: qsTr("Usage guide") }
 
             Button {
                  id: usageguide
                  anchors.horizontalCenter: parent.horizontalCenter
                  text: qsTr("Usage guide")
-                 onClicked: pageStack.push(Qt.resolvedUrl("./menu/GuidePage.qml"))
+                 onClicked: pageStack.push(Qt.resolvedUrl("GuidePage.qml"))
              }
 
             SectionHeader { text: qsTr("Dependencies") }
 
-            Label {
-                x: Theme.paddingLarge
-                width: parent.width - (x * 2)
-                wrapMode: Text.Wrap
+            LabelText {
                 text: qsTr("UI Themer needs some additional dependencies in order to function properly. Install them now if you haven't already.")
             }
 
-            Label {
-                x: Theme.paddingLarge
-                width: parent.width - (x * 2)
-                wrapMode: Text.Wrap
+            LabelText {
                 text: qsTr("It may take a while, do not quit.")
             }
 
@@ -177,10 +165,7 @@ Page
 
             SectionHeader { text: qsTr("ImageMagick") }
 
-            Label {
-                x: Theme.paddingLarge
-                width: parent.width - (x * 2)
-                wrapMode: Text.Wrap
+            LabelText {
                 text: qsTr("ImageMagick is required for UI Themer overlays to work. Overlays need to be supported by the theme.")
             }
 
@@ -197,10 +182,7 @@ Page
 
             SectionHeader { text: qsTr("Support") }
 
-            Label {
-                x: Theme.paddingLarge
-                width: parent.width - (x * 2)
-                wrapMode: Text.Wrap
+            LabelText {
                 text: qsTr("If you like my work and want to buy me a beer, feel free to do it!")
             }
 

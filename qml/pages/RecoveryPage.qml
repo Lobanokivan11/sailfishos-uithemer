@@ -6,12 +6,12 @@ import "../components"
 Dialog
 {
     property Settings settings
-    property alias restoreIcons: itsrestoreicons.checked
-    property alias restoreFonts: itsrestorefonts.checked
+    property alias reinstallIcons: itsicons.checked
+    property alias reinstallFonts: itsfonts.checked
 
-    id: dlgrestore
+    id: dlgrecovery
     focus: true
-    canAccept: itsrestoreicons.checked || itsrestorefonts.checked
+    canAccept: itsicons.checked || itsfonts.checked
     backNavigation: !busyindicator.running
     forwardNavigation: !busyindicator.running
     showNavigationIndicator: !busyindicator.running
@@ -25,12 +25,12 @@ Dialog
     function handleKeyPressed(event) {
 
         if (event.key === Qt.Key_Down) {
-            flickable.flick(0, - dlgrestore.height);
+            flickable.flick(0, - dlgrecovery.height);
             event.accepted = true;
         }
 
         if (event.key === Qt.Key_Up) {
-            flickable.flick(0, dlgrestore.height);
+            flickable.flick(0, dlgrecovery.height);
             event.accepted = true;
         }
 
@@ -75,35 +75,43 @@ Dialog
             width: parent.width
             spacing: Theme.paddingMedium
 
-            DialogHeader { id: header; acceptText: qsTr("Restore"); cancelText: qsTr("Cancel") }
+            DialogHeader { id: header; acceptText: qsTr("Continue"); cancelText: qsTr("Cancel") }
 
-            ConfirmHeader { text: qsTr("Restore") }
+            ConfirmHeader { text: qsTr("Recovery") }
 
-            IconTextSwitch {
-                id: itsrestoreicons
-                automaticCheck: true
-                text: qsTr("Default icons")
-                checked: true
-
-                onClicked: {
-                    if(!itsrestoreicons.checked && !itsrestorefonts.checked)
-                        dlgrestore.canAccept = false
-                    else
-                        dlgrestore.canAccept = true
-                }
+            LabelText {
+                text: qsTr("If any error occurs during themes applying/restoring, you can end up with messed up icons. From here, you can reinstall default Jolla app icons while, for thirdy party apps, you may need to reinstall/update apps to restore the default look.")
             }
 
             IconTextSwitch {
-                id: itsrestorefonts
+                id: itsicons
                 automaticCheck: true
-                text: qsTr("Default fonts")
+                text: qsTr("Reinstall icons")
                 checked: true
 
                 onClicked: {
-                    if(!itsrestoreicons.checked && !itsrestorefonts.checked)
-                        dlgrestore.canAccept = false
+                    if(!itsicons.checked && !itsfonts.checked)
+                        dlgrecovery.canAccept = false
                     else
-                        dlgrestore.canAccept = true
+                        dlgrecovery.canAccept = true
+                }
+            }
+
+            LabelText {
+                text: qsTr("Reinstall default fonts, if font applying/restoring fails.")
+            }
+
+            IconTextSwitch {
+                id: itsfonts
+                automaticCheck: true
+                text: qsTr("Reinstall fonts")
+                checked: true
+
+                onClicked: {
+                    if(!itsicons.checked && !itsfonts.checked)
+                        dlgrecovery.canAccept = false
+                    else
+                        dlgrecovery.canAccept = true
                 }
             }
 

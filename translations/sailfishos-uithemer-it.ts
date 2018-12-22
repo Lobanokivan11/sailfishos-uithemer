@@ -72,20 +72,20 @@
         <translation>Rilasciato sotto licenza &lt;a href=&apos;https://www.gnu.org/licenses/gpl-3.0&apos;&gt;GNU GPLv3&lt;/a&gt;.</translation>
     </message>
     <message>
-        <source>Part of this app is based on the &lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon pack support GUI&lt;/a&gt; by RikudouSennin.</source>
-        <translation>Parte di quest&apos;app è basata su &lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon pack support GUI&lt;/&gt; di RikudouSennin.</translation>
-    </message>
-    <message>
-        <source>App icon designed by &lt;a href=&apos;http://www.freepik.com/free-photo/blue-paint-roller_959191.htm&apos;&gt;D3Images/Freepik&lt;/a&gt;.</source>
-        <translation>Design icona app di &lt;a href=&apos;http://www.freepik.com/free-photo/blue-paint-roller_959191.htm&apos;&gt;D3Images/Freepik&lt;/a&gt;.</translation>
-    </message>
-    <message>
         <source>Thanks to Dax89 and all the testers for help and patience.</source>
         <translation>Grazie a Dax89 e a tutti i tester per l&apos;aiuto e la pazienza.</translation>
     </message>
     <message>
-        <source>Keyboard navigation based on the one on &lt;a href=&apos;https://github.com/Wunderfitz/harbour-piepmatz&apos;&gt;Piepmatz&lt;/a&gt; by Sebastian Wolf.</source>
-        <translation>Navigazione via tastiera basata su quella in &lt;a href=&apos;https://github.com/Wunderfitz/harbour-piepmatz&apos;&gt;Piepmatz&lt;/a&gt; di Sebastian Wolf.</translation>
+        <source>Part of this app is based on &lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon pack support GUI&lt;/a&gt; by RikudouSennin.</source>
+        <translation>Parte di quest&apos;app è basata su &lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon pack support GUI&lt;/a&gt; di RikudouSennin.</translation>
+    </message>
+    <message>
+        <source>App icon by</source>
+        <translation>Icona app di</translation>
+    </message>
+    <message>
+        <source>Slideshow in the home page and keyboard navigation based on &lt;a href=&apos;https://github.com/Wunderfitz/harbour-piepmatz&apos;&gt;Piepmatz&lt;/a&gt; by Sebastian Wolf.</source>
+        <translation>Slideshow nella pagina principale e navigazione via tastiera basati su &lt;a href=&apos;https://github.com/Wunderfitz/harbour-piepmatz&apos;&gt;Piepmatz&lt;/a&gt; di Sebastian Wolf.</translation>
     </message>
 </context>
 <context>
@@ -141,65 +141,6 @@
     <message>
         <source>Choose the main font weight for the UI.</source>
         <translation>Scegli lo stile font principale per la UI.</translation>
-    </message>
-</context>
-<context>
-    <name>DensityPage</name>
-    <message>
-        <source>Restore icon size</source>
-        <translation>Ripristina dimensione icone</translation>
-    </message>
-    <message>
-        <source>Restore Android DPI</source>
-        <translation>Ripristina DPI Android</translation>
-    </message>
-    <message>
-        <source>Restore device pixel ratio</source>
-        <translation>Ripristina device pixel ratio</translation>
-    </message>
-    <message>
-        <source>Display density</source>
-        <translation>Densità display</translation>
-    </message>
-    <message>
-        <source>Device pixel ratio</source>
-        <translation>Device pixel ratio</translation>
-    </message>
-    <message>
-        <source>Change the display pixel ratio. To a smaller value corresponds an higher density.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
-        <translation>Cambia il display pixel ratio. A un valore minore corrisponde una maggiore densità.&lt;br&gt;&lt;br&gt;Ricorda di riavviare la homescreen subito dopo.</translation>
-    </message>
-    <message>
-        <source>Android DPI</source>
-        <translation>DPI Android</translation>
-    </message>
-    <message>
-        <source>Android DPI value</source>
-        <translation>Valore DPI Android</translation>
-    </message>
-    <message>
-        <source>Change the Android DPI value. To a smaller value corresponds an higher density.&lt;br&gt;&lt;br&gt;Remember to restart the Android support or the homescreen right after.</source>
-        <translation>Cambia il DPI Android. A un valore minore corrisponde una maggiore densità.&lt;br&gt;&lt;br&gt;Ricorda di riavviare il supporto Android o la homescreen subito dopo.</translation>
-    </message>
-    <message>
-        <source>Icon size</source>
-        <translation>Dimensione icone</translation>
-    </message>
-    <message>
-        <source>Change the size of UI icons. To a greater value corresponds an huger size.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
-        <translation>Cambia la dimensione delle icone della UI. A un valore maggiore corrisponde una dimensione maggiore.&lt;br&gt;&lt;br&gt;Ricorda di riavviare la homescreen subito dopo.</translation>
-    </message>
-    <message>
-        <source>Restarting homescreen</source>
-        <translation>Riavvio homescreen</translation>
-    </message>
-    <message>
-        <source>About UI Themer</source>
-        <translation>Info su UI Themer</translation>
-    </message>
-    <message>
-        <source>Usage guide</source>
-        <translation>Manuale d&apos;uso</translation>
     </message>
 </context>
 <context>
@@ -277,14 +218,6 @@
         <translation>Scorciatoie tastiera</translation>
     </message>
     <message>
-        <source>Press &lt;b&gt;H&lt;/b&gt; for the themes page.</source>
-        <translation>Premi &lt;b&gt;H&lt;/b&gt; per andare alla pagina dei temi.</translation>
-    </message>
-    <message>
-        <source>Press &lt;b&gt;D&lt;/b&gt; for the display density page.</source>
-        <translation>Premi &lt;b&gt;D&lt;/b&gt; per andare alla pagina della densità display.</translation>
-    </message>
-    <message>
         <source>Press &lt;b&gt;A&lt;/b&gt; for the about page.</source>
         <translation>Premi &lt;b&gt;A&lt;/b&gt; per andare alla pagina di informazioni.</translation>
     </message>
@@ -332,6 +265,10 @@
         <source>If you have Storeman installed, you can quickly look for compatible themes by using the &lt;i&gt;Download&lt;/i&gt; icon in the main page.</source>
         <translation>Se hai Storeman installato, puoi cercare temi compatibili attraverso l&apos;icona &lt;i&gt;Scarica&lt;/i&gt; sulla pagina principale.</translation>
     </message>
+    <message>
+        <source>Press &lt;b&gt;H&lt;/b&gt; for the home page.</source>
+        <translation>Premi &lt;b&gt;H&lt;/b&gt; per tornare alla pagina principale.</translation>
+    </message>
 </context>
 <context>
     <name>MainPage</name>
@@ -342,10 +279,6 @@
     <message>
         <source>Uninstalling %1</source>
         <translation>Disinstallazione: %1</translation>
-    </message>
-    <message>
-        <source>Refresh</source>
-        <translation>Ricarica</translation>
     </message>
     <message>
         <source>Restore</source>
@@ -360,16 +293,52 @@
         <translation>Installa un tema compatibile</translation>
     </message>
     <message>
-        <source>Restarting homescreen</source>
-        <translation>Riavvio homescreen</translation>
-    </message>
-    <message>
         <source>About UI Themer</source>
         <translation>Info su UI Themer</translation>
     </message>
     <message>
         <source>Usage guide</source>
         <translation>Manuale d&apos;uso</translation>
+    </message>
+    <message>
+        <source>Options</source>
+        <translation>Opzioni</translation>
+    </message>
+    <message>
+        <source>Restart homescreen</source>
+        <translation>Riavvia homescreen</translation>
+    </message>
+    <message>
+        <source>Display density</source>
+        <translation>Densità display</translation>
+    </message>
+    <message>
+        <source>Device pixel ratio</source>
+        <translation>Device pixel ratio</translation>
+    </message>
+    <message>
+        <source>Change the display pixel ratio. To a smaller value corresponds an higher density.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
+        <translation>Cambia il display pixel ratio. A un valore minore corrisponde una maggiore densità.&lt;br&gt;&lt;br&gt;Ricorda di riavviare la homescreen subito dopo.</translation>
+    </message>
+    <message>
+        <source>Android DPI</source>
+        <translation>DPI Android</translation>
+    </message>
+    <message>
+        <source>Android DPI value</source>
+        <translation>Valore DPI Android</translation>
+    </message>
+    <message>
+        <source>Change the Android DPI value. To a smaller value corresponds an higher density.&lt;br&gt;&lt;br&gt;Remember to restart the Android support or the homescreen right after.</source>
+        <translation>Cambia il DPI Android. A un valore minore corrisponde una maggiore densità.&lt;br&gt;&lt;br&gt;Ricorda di riavviare il supporto Android o la homescreen subito dopo.</translation>
+    </message>
+    <message>
+        <source>Icon size</source>
+        <translation>Dimensione icone</translation>
+    </message>
+    <message>
+        <source>Change the size of UI icons. To a greater value corresponds an huger size.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
+        <translation>Cambia la dimensione delle icone della UI. A un valore maggiore corrisponde una dimensione maggiore.&lt;br&gt;&lt;br&gt;Ricorda di riavviare la homescreen subito dopo.</translation>
     </message>
 </context>
 <context>
@@ -380,11 +349,34 @@
     </message>
 </context>
 <context>
-    <name>OptionsPage</name>
+    <name>OCRPage</name>
     <message>
-        <source>Restarting homescreen</source>
-        <translation>Riavvio homescreen</translation>
+        <source>Restore</source>
+        <translation>Ripristina</translation>
     </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Annulla</translation>
+    </message>
+    <message>
+        <source>One-click restore</source>
+        <translation>Ripristina con un click</translation>
+    </message>
+    <message>
+        <source>UI Themer customizations must be reverted before performing a system update. With &lt;i&gt;One-click restore&lt;/i&gt; you can automate this process and restore icons, fonts and display density settings with just one click.</source>
+        <translation>Le personalizzazioni di UI Themer devono essere ripristinate prima di eseguire un aggiornamento di sistema. Con &lt;i&gt;Ripristina con un clic&lt;/i&gt; è possibile automatizzare questo processo e ripristinare icone, font e impostazioni di densità del display in un singolo clic.</translation>
+    </message>
+    <message>
+        <source>Remember to restart the homescreen right after.</source>
+        <translation>Ricorda di riavviare la homescreen subito dopo.</translation>
+    </message>
+    <message>
+        <source>Restart homescreen</source>
+        <translation>Riavvia homescreen</translation>
+    </message>
+</context>
+<context>
+    <name>OptionsPage</name>
     <message>
         <source>About UI Themer</source>
         <translation>Info su UI Themer</translation>
@@ -400,18 +392,6 @@
     <message>
         <source>Recovery</source>
         <translation>Recovery</translation>
-    </message>
-    <message>
-        <source>Restart homescreen</source>
-        <translation>Riavvia homescreen</translation>
-    </message>
-    <message>
-        <source>Restart the homescreen, to make your modifications effective. Your currently opened apps will be closed.</source>
-        <translation>Riavvia la homescreen, per rendere effettive le modifiche. Le app aperte verranno chiuse.</translation>
-    </message>
-    <message>
-        <source>Restart</source>
-        <translation>Riavvia</translation>
     </message>
     <message>
         <source>Icon updater</source>
@@ -470,12 +450,40 @@
         <translation>Ripristina</translation>
     </message>
     <message>
-        <source>Restoring</source>
-        <translation>Ripristino</translation>
-    </message>
-    <message>
         <source>Options</source>
         <translation>Opzioni</translation>
+    </message>
+    <message>
+        <source>Cover</source>
+        <translation>Cover</translation>
+    </message>
+    <message>
+        <source>Cover action</source>
+        <translation>Azione cover</translation>
+    </message>
+    <message>
+        <source>Restart the app for the setting to be effective.</source>
+        <translation>Riavvia l&apos;app per rendere le modifiche effettive.</translation>
+    </message>
+    <message>
+        <source>Here you can find advanced settings for UI Themer, e.g. reinstall default icons or fonts if you forget to revert to default theme before a system update or if the applying fails.</source>
+        <translation>Qui puoi trovare impostazioni avanzate per UI Themer, ad esempio la reinstallazione delle icone o dei font di default se dimentichi di ritornare al tema di default prima di un aggiornamento di sistema o se l&apos;applicazione di un tema fallisce.</translation>
+    </message>
+    <message>
+        <source>refresh current theme</source>
+        <translation>ricarica tema corrente</translation>
+    </message>
+    <message>
+        <source>restart homescreen</source>
+        <translation>riavvia homescreen</translation>
+    </message>
+    <message>
+        <source>one-click restore</source>
+        <translation>ripristina con un click</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>nessuna</translation>
     </message>
 </context>
 <context>
@@ -483,14 +491,6 @@
     <message>
         <source>Recovery</source>
         <translation>Recovery</translation>
-    </message>
-    <message>
-        <source>Here you can find some recovery tools in case anything goes wrong (eg if you forget to restore the default theme before performing a system update).&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
-        <translation>Qui puoi trovare alcuni strumenti di recupero in caso di errore (ad esempio, se dimentichi di ripristinare il tema predefinito prima di un aggiornamento di sistema).&lt;br&gt;&lt;br&gt;Ricorda di riavviare la homescreen subito dopo.</translation>
-    </message>
-    <message>
-        <source>Icons</source>
-        <translation>Icone</translation>
     </message>
     <message>
         <source>If any error occurs during themes applying/restoring, you can end up with messed up icons. From here, you can reinstall default Jolla app icons while, for thirdy party apps, you may need to reinstall/update apps to restore the default look.</source>
@@ -501,14 +501,6 @@
         <translation>Reinstalla icone</translation>
     </message>
     <message>
-        <source>Reinstalling icons</source>
-        <translation>Reinstallazione icone</translation>
-    </message>
-    <message>
-        <source>Fonts</source>
-        <translation>Font</translation>
-    </message>
-    <message>
         <source>Reinstall default fonts, if font applying/restoring fails.</source>
         <translation>Reinstalla i font predefiniti, se l&apos;applicazione o il ripristino dei font fallisce.</translation>
     </message>
@@ -517,12 +509,66 @@
         <translation>Reinstalla font</translation>
     </message>
     <message>
-        <source>Reinstalling fonts</source>
-        <translation>Reinstallazione font</translation>
+        <source>Continue</source>
+        <translation>Continua</translation>
     </message>
     <message>
-        <source>Restarting homescreen</source>
-        <translation>Riavvio homescreen</translation>
+        <source>Cancel</source>
+        <translation>Annulla</translation>
+    </message>
+    <message>
+        <source>Remember to restart the homescreen right after.</source>
+        <translation>Ricorda di riavviare la homescreen subito dopo.</translation>
+    </message>
+    <message>
+        <source>Restart homescreen</source>
+        <translation>Riavvia homescreen</translation>
+    </message>
+</context>
+<context>
+    <name>RestartHSPage</name>
+    <message>
+        <source>Continue</source>
+        <translation>Continua</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Annulla</translation>
+    </message>
+    <message>
+        <source>Restart the homescreen, to make your modifications effective. Your currently opened apps will be closed.</source>
+        <translation>Riavvia la homescreen, per rendere effettive le modifiche. Le app aperte verranno chiuse.</translation>
+    </message>
+    <message>
+        <source>Restart homescreen</source>
+        <translation>Riavvia homescreen</translation>
+    </message>
+</context>
+<context>
+    <name>RestoreDDPage</name>
+    <message>
+        <source>Restore</source>
+        <translation>Ripristina</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Annulla</translation>
+    </message>
+    <message>
+        <source>Default device pixel ratio</source>
+        <translation>Device pixel ratio predefinito</translation>
+    </message>
+    <message>
+        <source>Default Android DPI</source>
+        <translation>Android DPI predefinito</translation>
+    </message>
+    <message>
+        <source>Remember to restart the homescreen right after.</source>
+        <translation>Ricorda di riavviare la homescreen subito dopo.</translation>
+    </message>
+    <message>
+        <source>Restart homescreen</source>
+        <translation>Riavvia homescreen</translation>
     </message>
 </context>
 <context>
@@ -644,6 +690,10 @@
     <message>
         <source>By using UI Themer, you agree to the &lt;a href=&apos;https://www.gnu.org/licenses/gpl-3.0&apos;&gt;GNU GPLv3&lt;/a&gt; terms and conditions.</source>
         <translation>Usando UI Themer, acconsenti ai termini e alle condizioni di &lt;a href=&apos;https://www.gnu.org/licenses/gpl-3.0&apos;&gt;GNU GPLv3&lt;/a&gt;.</translation>
+    </message>
+    <message>
+        <source>UI Themer DOES NOT send any data. Some essential info (e.g. the current theme) are collected and stored EXCLUSIVELY locally and used only for the proper functioning of the app (e.g. to display the current theme in the app).</source>
+        <translation>UI Themer NON invia nessun dato. Alcune informazioni essenziali (per esempio il tema corrente) sono raccolte e conservate ESCLUSIVAMENTE sul dispositivo e utilizzate solo per il corretto funzionamento dell&apos;app (ad esempio, mostrare il tema corrente all&apos;interno dell&apos;app).</translation>
     </message>
 </context>
 </TS>

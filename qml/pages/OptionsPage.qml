@@ -3,11 +3,7 @@ import Sailfish.Silica 1.0
 import harbour.uithemer 1.0
 import org.nemomobile.notifications 1.0
 import org.nemomobile.configuration 1.0
-import harbour.uithemer 1.0
-import Nemo.DBus 2.0
-import "../js/Database.js" as Database
 import "../components"
-import "../components/dockedbar"
 
 Page
 {
@@ -45,29 +41,13 @@ Page
             event.accepted = true;
         }
 
-        if (event.key === Qt.Key_Return) {
-            if (remorsepopup.active)
-            remorsepopup.trigger();
-            event.accepted = true;
-        }
-
-        if (event.key === Qt.Key_C) {
-            remorsepopup.cancel();
-            event.accepted = true;
-        }
-
         if (event.key === Qt.Key_H) {
-            pageStack.replaceAbove(null, Qt.resolvedUrl("MainPage.qml"), null, PageStackAction.Immediate);
-            event.accepted = true;
-        }
-
-        if (event.key === Qt.Key_D) {
-            pageStack.replaceAbove(null, Qt.resolvedUrl("DensityPage.qml"), null, PageStackAction.Immediate);
+            pageStack.replaceAbove(null, Qt.resolvedUrl("MainPage.qml"));
             event.accepted = true;
         }
 
         if (event.key === Qt.Key_G) {
-            pageStack.push(Qt.resolvedUrl("menu/GuidePage.qml"));
+            pageStack.push(Qt.resolvedUrl("GuidePage.qml"));
             event.accepted = true;
         }
 
@@ -77,14 +57,15 @@ Page
         }
 
         if (event.key === Qt.Key_A) {
-            pageStack.push(Qt.resolvedUrl("menu/AboutPage.qml"));
+            pageStack.push(Qt.resolvedUrl("AboutPage.qml"));
             event.accepted = true;
         }
 
         if (event.key === Qt.Key_R) {
-            remorsepopup.execute(qsTr("Restarting homescreen"), function() {
-                settings.isRunning = true;
-                themepack.restartHomescreen();
+            var dlgrestart = pageStack.push("RestartHSPage.qml");
+            dlgrestart.accepted.connect(function() {
+                    themepack.restartHomescreen();
+                    console.log("homescreen restart");
             });
             event.accepted = true;
         }
@@ -93,23 +74,34 @@ Page
 SilicaFlickable
 {
     id: flickable
-    enabled: !busyindicator.running
-    opacity: busyindicator.running ? 0.0 : 1.0
     anchors.fill: parent
-    anchors.bottomMargin: dockedbar.height
     contentHeight: content.height
-    clip: true
+    enabled: !busyindicator.running
+    opacity: busyindicator.running ? 0.2 : 1.0
 
-    Connections
-    {
-        function notify() {
-            settings.isRunning = false;
-            notification.publish();
-        }
+    ThemePackModel {
+                function applyDone() {
+                    notifyDone();
+                    if(settings.homeRefresh === true) {
+                        themepack.restartHomescreen();
+                        console.log("homescreen restart");
+                    } else
+                        console.log("no homescreen restart");
+                }
+                function notifyDone() {
+                    settings.isRunning = false;
+                    notification.publish();
+                }
 
-        target: themepack
-        onOcrRestored: notify()
-        onRestartHomescreenRestored: notify()
+                id: themepackmodel
+                onOcrRestored: applyDone()
+                onRecovered: applyDone()
+            }
+
+    ConfigurationGroup {
+        id: conf
+        path: "/desktop/lipstick/sailfishos-uithemer"
+        property int coverAction1: 0
     }
 
     ConfigurationGroup {
@@ -128,39 +120,42 @@ SilicaFlickable
         {
             MenuItem {
                 text: qsTr("About UI Themer")
-                onClicked: pageStack.push(Qt.resolvedUrl("../pages/menu/AboutPage.qml"))
+                onClicked: pageStack.push(Qt.resolvedUrl("AboutPage.qml"))
             }
             MenuItem {
                 text: qsTr("Usage guide")
-                onClicked: pageStack.push(Qt.resolvedUrl("../pages/menu/GuidePage.qml"))
+                onClicked: pageStack.push(Qt.resolvedUrl("GuidePage.qml"))
             }
             MenuItem {
                 text: qsTr("Restart first run wizard")
-                onClicked: pageStack.replaceAbove(null, Qt.resolvedUrl("../pages/WelcomePage.qml"))
-            }
-            MenuItem {
-                text: qsTr("Recovery")
-                onClicked: pageStack.push(Qt.resolvedUrl("../pages/menu/RecoveryPage.qml"), { "themePack": themepack, "notification": notification })
+                onClicked: pageStack.replaceAbove(null, Qt.resolvedUrl("WelcomePage.qml"))
             }
         }
 
         PageHeader { title: qsTr("Options") }
 
-        SectionHeader { text: qsTr("Restart homescreen") }
+        SectionHeader { text: qsTr("Cover") }
 
-        LabelText {
-            text: qsTr("Restart the homescreen, to make your modifications effective. Your currently opened apps will be closed.")
-        }
-
-        Button {
-            anchors.horizontalCenter: parent.horizontalCenter
-            text: qsTr("Restart")
-            onClicked: {
-                remorsepopup.execute(qsTr("Restarting homescreen"), function() {
-                    settings.isRunning = true;
-                    themepack.restartHomescreen();
-                });
+        ComboBox {
+            function saveCoverAction(action) {
+                conf.coverAction1 = action;
+                conf.sync();
             }
+
+            id: cbxca
+            width: parent.width
+            label: qsTr("Cover action")
+            currentIndex: conf.coverAction1
+
+            menu: ContextMenu {
+                MenuItem { text: qsTr("refresh current theme"); onClicked: cbxca.saveCoverAction(0) }
+                MenuItem { text: qsTr("restart homescreen"); onClicked: cbxca.saveCoverAction(1) }
+                MenuItem { text: qsTr("one-click restore"); onClicked: cbxca.saveCoverAction(2) }
+                MenuItem { text: qsTr("none"); onClicked: cbxca.saveCoverAction(3) }
+            }
+        }
+        LabelText {
+            text: qsTr("Restart the app for the setting to be effective.")
         }
 
         SectionHeader { visible: false; text: qsTr("Icon updater") }
@@ -213,11 +208,30 @@ SilicaFlickable
             anchors.horizontalCenter: parent.horizontalCenter
             text: qsTr("Restore")
             onClicked: {
-                remorsepopup.execute(qsTr("Restoring"), function() {
+                var dlgocr = pageStack.push("OCRPage.qml", { "settings": settings });
+                dlgocr.accepted.connect(function() {
                     settings.isRunning = true;
                     settings.deactivateFont();
                     settings.deactivateIcon();
-                    themepack.ocr();
+                    themepackmodel.ocr();
+                });
+            }
+        }
+
+        SectionHeader { text: qsTr("Recovery") }
+
+        LabelText {
+            text: qsTr("Here you can find advanced settings for UI Themer, e.g. reinstall default icons or fonts if you forget to revert to default theme before a system update or if the applying fails.")
+        }
+
+        Button {
+            anchors.horizontalCenter: parent.horizontalCenter
+            text: qsTr("Recovery")
+            onClicked: {
+                var dlgrecovery = pageStack.push("RecoveryPage.qml", { "settings": settings });
+                dlgrecovery.accepted.connect(function() {
+                    settings.isRunning = true;
+                    themepackmodel.recovery(dlgrecovery.reinstallIcons, dlgrecovery.reinstallFonts);
                 });
             }
         }
@@ -230,12 +244,6 @@ SilicaFlickable
     }
 
     VerticalScrollDecorator { }
-}
-
-DockedBar
-{
-    id: dockedbar
-    anchors { left: parent.left; bottom: parent.bottom; right: parent.right }
 }
 
 }

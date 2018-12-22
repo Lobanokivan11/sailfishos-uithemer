@@ -52,7 +52,7 @@ QString ThemePack::whoami() const
 void ThemePack::restartHomescreen() const
 {
     setuid_ex(0);
-    Spawner::execute("/usr/share/sailfishos-uithemer/homescreen.sh", [this]() { emit restartHomescreenRestored(); });
+    Spawner::execute("/usr/share/sailfishos-uithemer/homescreen.sh", [this]() { emit homescreenRestarted(); });
 }
 
 void ThemePack::installDependencies() const
@@ -65,42 +65,6 @@ void ThemePack::installImageMagick() const
 {
     setuid_ex(0);
     Spawner::execute("/usr/share/sailfishos-uithemer/install_imagemagick.sh", [this]() { emit imageMagickInstalled(); });
-}
-
-void ThemePack::ocr() const
-{
-    setuid_ex(0);
-    Spawner::execute("/usr/share/sailfishos-uithemer/ocr.sh", [this]() { emit ocrRestored(); });
-}
-
-void ThemePack::reinstallIcons() const
-{
-    setuid_ex(0);
-    Spawner::execute("/usr/share/sailfishos-uithemer/reinstall_icons.sh", [this]() { emit iconsRestored(); });
-}
-
-void ThemePack::reinstallFonts() const
-{
-    setuid_ex(0);
-    Spawner::execute("/usr/share/sailfishos-uithemer/reinstall_fonts.sh", [this]() { emit fontsRestored(); });
-}
-
-void ThemePack::applyADPI(const QString& adpi)
-{
-    Spawner::executeSync("/usr/share/sailfishos-uithemer/apply_adpi.sh " + adpi);
-    emit droidDPIChanged();
-}
-
-void ThemePack::restoreADPI() const
-{
-    setuid_ex(0);
-    Spawner::executeSync("/usr/share/sailfishos-uithemer/restore_adpi.sh");
-}
-
-void ThemePack::restoreDPR() const
-{
-    setuid_ex(0);
-    Spawner::executeSync("/usr/share/sailfishos-uithemer/restore_dpr.sh");
 }
 
 void ThemePack::restoreIZ() const
