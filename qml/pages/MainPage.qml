@@ -7,7 +7,6 @@ import Nemo.DBus 2.0
 import "../js/Database.js" as Database
 import "../components"
 import "../components/themepacklistview"
-import "../components/dockedbar"
 
 Page
 {
