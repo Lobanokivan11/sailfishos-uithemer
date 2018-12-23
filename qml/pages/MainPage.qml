@@ -306,6 +306,7 @@ Page
             iconInstalled: model.packName === settings.activeIconPack
 
             onClicked: {
+                timer.stop()
                 var dlgconfirm = pageStack.push("ConfirmPage.qml", { "settings": settings, "themePackModel": themepackmodel, "themePackIndex": model.index });
 
                 dlgconfirm.accepted.connect(function() {
