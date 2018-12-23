@@ -20,11 +20,11 @@ Dialog
     property alias iconsSelected: itsicons.checked
     property alias iconOverlaySelected: itsiconoverlay.checked
     property alias fontsSelected: itsfonts.checked
-    property string selectedFont: hasFont ? fontweightmodel.firstWeight: ""
+    property string selectedFont: ""
 
     id: dlgconfirm
     focus: true
-    canAccept: itsicons.checked || itsiconoverlay.checked || itsfonts.checked
+    canAccept: itsicons.checked || itsiconoverlay.checked || (itsfonts.checked && hasFont && hasFontNonLatin && selectedFont !== "") || (itsfonts.checked && hasFont && !hasFontNonLatin && selectedFont !== "") || (itsfonts.checked && !hasFont && hasFontNonLatin)
     backNavigation: !settings.isRunning
     forwardNavigation: !settings.isRunning
     showNavigationIndicator: !settings.isRunning
@@ -167,6 +167,24 @@ Dialog
                 visible: hasFont || hasFontNonLatin
             }
 
+            IconTextSwitch {
+                id: itsfonts
+                automaticCheck: true
+                text: qsTr("Apply fonts")
+                visible: hasFont || hasFontNonLatin
+                checked: hasFont || hasFontNonLatin
+                enabled: hasFont || hasFontNonLatin
+
+                onClicked: {
+                    fontsSelected = itsfonts.checked;
+
+                    if(!itsfonts.checked && !itsicons.checked)
+                        dlgconfirm.canAccept = false
+                    else
+                        dlgconfirm.canAccept = true
+                }
+            }
+
             Column {
                 id: fontsettings
                 width: parent.width
@@ -205,24 +223,6 @@ Dialog
                     font.pixelSize: Theme.fontSizeLarge
                 }
 
-                }
-
-                IconTextSwitch {
-                    id: itsfonts
-                    automaticCheck: true
-                    text: qsTr("Apply fonts")
-                    visible: hasFont || hasFontNonLatin
-                    checked: hasFont || hasFontNonLatin
-                    enabled: hasFont || hasFontNonLatin
-
-                    onClicked: {
-                        fontsSelected = itsfonts.checked;
-
-                        if(!itsfonts.checked && !itsicons.checked)
-                            dlgconfirm.canAccept = false
-                        else
-                            dlgconfirm.canAccept = true
-                    }
                 }
 
                 SectionHeader { text: qsTr("Font weight") }

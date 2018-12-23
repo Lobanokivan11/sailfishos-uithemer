@@ -49,8 +49,9 @@ Page
 
     Timer {
         id: timer
-        interval: 5000
+        interval: 10000
         repeat: true
+        running: !settings.isRunning
         onTriggered: themepackmodel.reloadAll()
     }
 
@@ -298,7 +299,7 @@ Page
                        }
         }
 
-        model: ThemePackModel {}
+        model: themepackmodel
 
         delegate: ThemePackItem {
             fontInstalled: model.packName === settings.activeFontPack
