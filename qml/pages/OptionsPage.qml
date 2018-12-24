@@ -99,12 +99,6 @@ SilicaFlickable
             }
 
     ConfigurationGroup {
-        id: conf
-        path: "/desktop/lipstick/sailfishos-uithemer"
-        property int coverAction1: 0
-    }
-
-    ConfigurationGroup {
         id: autoupd
         path: "/desktop/lipstick/sailfishos-uithemer"
         property bool homeRefresh: true
@@ -142,20 +136,37 @@ SilicaFlickable
                 conf.sync();
             }
 
-            id: cbxca
+            id: cbxca1
             width: parent.width
             label: qsTr("Cover action")
             currentIndex: conf.coverAction1
 
             menu: ContextMenu {
-                MenuItem { text: qsTr("refresh current theme"); onClicked: cbxca.saveCoverAction(0) }
-                MenuItem { text: qsTr("restart homescreen"); onClicked: cbxca.saveCoverAction(1) }
-                MenuItem { text: qsTr("one-click restore"); onClicked: cbxca.saveCoverAction(2) }
-                MenuItem { text: qsTr("none"); onClicked: cbxca.saveCoverAction(3) }
+                MenuItem { text: qsTr("refresh current theme"); onClicked: cbxca1.saveCoverAction(0) }
+                MenuItem { text: qsTr("restart homescreen"); onClicked: cbxca1.saveCoverAction(1) }
+                MenuItem { text: qsTr("one-click restore"); onClicked: cbxca1.saveCoverAction(2) }
+                MenuItem { text: qsTr("none"); onClicked: cbxca1.saveCoverAction(3) }
             }
         }
-        LabelText {
-            text: qsTr("Restart the app for the setting to be effective.")
+
+        ComboBox {
+            function saveCoverAction(action) {
+                conf.coverAction2 = action;
+                conf.sync();
+            }
+
+            id: cbxca2
+            enabled: conf.coverAction1 !== 3
+            width: parent.width
+            label: qsTr("Second cover action")
+            currentIndex: conf.coverAction2
+
+            menu: ContextMenu {
+                MenuItem { text: qsTr("refresh current theme"); onClicked: cbxca2.saveCoverAction(0) }
+                MenuItem { text: qsTr("restart homescreen"); onClicked: cbxca2.saveCoverAction(1) }
+                MenuItem { text: qsTr("one-click restore"); onClicked: cbxca2.saveCoverAction(2) }
+                MenuItem { text: qsTr("none"); onClicked: cbxca2.saveCoverAction(3) }
+            }
         }
 
         SectionHeader { visible: false; text: qsTr("Icon updater") }

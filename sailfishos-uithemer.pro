@@ -52,10 +52,8 @@ OTHER_FILES += \
     qml/components/LabelText.qml \
     qml/components/Notification.qml \
     qml/components/themepacklistview/ThemePackItem.qml \
-    qml/cover/CoverPage.qml \
-    qml/cover/CoverPageRefresh.qml \
-    qml/cover/CoverPageRestart.qml \
-    qml/cover/CoverPageOcr.qml \
+    qml/cover/CoverPage1.qml \
+    qml/cover/CoverPage2.qml \
     qml/pages/ConfirmPage.qml \
     qml/pages/MainPage.qml \
     qml/pages/OptionsPage.qml \

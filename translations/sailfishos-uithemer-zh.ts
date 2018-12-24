@@ -282,10 +282,6 @@
         <translation>卸载 %1</translation>
     </message>
     <message>
-        <source>Restore</source>
-        <translation>恢复</translation>
-    </message>
-    <message>
         <source>No themes yet</source>
         <translation>尚未安装主题</translation>
     </message>
@@ -340,6 +336,14 @@
     <message>
         <source>Change the size of UI icons. To a greater value corresponds an huger size.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
         <translation>改变UI图标的尺寸到一个更高的值、更大的尺寸。</translation>
+    </message>
+    <message>
+        <source>Restore theme</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Restore display density</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -463,10 +467,6 @@
         <translation>封面操作</translation>
     </message>
     <message>
-        <source>Restart the app for the setting to be effective.</source>
-        <translation>重新启动应用以设置有效启用。</translation>
-    </message>
-    <message>
         <source>Here you can find advanced settings for UI Themer, e.g. reinstall default icons or fonts if you forget to revert to default theme before a system update or if the applying fails.</source>
         <translation> 如果你在系统更新前忘记恢复默认的主题或应用失败，你可以在此找到UI Themer的高级设置，例如重装默认的图标或字体。</translation>
     </message>
@@ -485,6 +485,10 @@
     <message>
         <source>none</source>
         <translation>无</translation>
+    </message>
+    <message>
+        <source>Second cover action</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

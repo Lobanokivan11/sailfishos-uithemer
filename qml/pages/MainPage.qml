@@ -13,6 +13,8 @@ Page
     id: mainpage
     focus: true
 
+    property bool bigScreen: (isLandscape || Screen.sizeCategory >= Screen.Large)
+
     property int activeTabId: 0
 
     RemorsePopup { id: remorsepopup }
@@ -39,12 +41,6 @@ Page
                 onFontApplied: applyDone()
                 onRestoreCompleted: applyDone()
                 onUninstallCompleted: notifyDone()
-                onDpiRestored: {
-                    sladpi.value = themepack.droidDPI;
-                    silica.sync();
-                    sldpr.value = silica.theme_pixel_ratio;
-                    applyDone()
-                }
             }
 
     Timer {
@@ -103,7 +99,7 @@ Page
         }
 
         if (event.key === Qt.Key_Down) {
-            switch (mainpage.activeTabId) {
+                switch (mainpage.activeTabId) {
                 case 0:
                     themepacklistview.flick(0, - mainpage.height);
                     event.accepted = true;
@@ -112,11 +108,11 @@ Page
                     densityView.flick(0, - mainpage.height);
                     event.accepted = true;
                     break;
-            }
+                }
         }
 
         if (event.key === Qt.Key_Up) {
-            switch (mainpage.activeTabId) {
+                switch (mainpage.activeTabId) {
                 case 0:
                     themepacklistview.flick(0, mainpage.height);
                     event.accepted = true;
@@ -125,7 +121,7 @@ Page
                     densityView.flick(0, mainpage.height);
                     event.accepted = true;
                     break;
-            }
+                }
         }
 
         if (event.key === Qt.Key_PageDown) {
@@ -245,6 +241,7 @@ Page
 
     SlideshowView {
         id: viewsSlideshow
+        visible: !bigScreen
         width: parent.width
         height: parent.height
         itemWidth: width
@@ -262,24 +259,66 @@ Page
         }
         currentIndex: 1
         opacity: 0
-        enabled: !settings.isRunning
+        enabled: !settings.isRunning || !bigScreen
 
+    }
+
+    SilicaGridView {
+        id: landscapeView
+        visible: bigScreen
+        enabled: !settings.isRunning || bigScreen
+        cellWidth: width / 2
+        anchors.fill: parent
+        model: landscapeModel
     }
 
     VisualItemModel {
         id: viewsModel
-
         Item {
             width: viewsSlideshow.itemWidth
             height: viewsSlideshow.height
+            Loader {
+              anchors.fill: parent
+              sourceComponent: themepacklistcomponent
+            }
+        }
+        Item {
+            width: viewsSlideshow.itemWidth
+            height: viewsSlideshow.height
+            Loader {
+              anchors.fill: parent
+              sourceComponent: densitycomponent
+            }
+        }
+    }
 
+    VisualItemModel {
+        id: landscapeModel
+        Item {
+            width: landscapeView.width/2
+            height: landscapeView.height
+            Loader {
+              anchors.fill: parent
+              sourceComponent: themepacklistcomponent
+            }
+        }
+        Item {
+            width: landscapeView.width/2
+            height: landscapeView.height
+            Loader {
+              anchors.fill: parent
+              sourceComponent: densitycomponent
+            }
+        }
+    }
+
+    Component {
+        id: themepacklistcomponent
         SilicaListView {
         id: themepacklistview
         width: parent.width
         height: parent.height
         opacity: settings.isRunning ? 0.2 : 1.0
-
-        contentHeight: content.height
 
         header: Column {
                    id: mainpageheader
@@ -371,7 +410,7 @@ Page
             }
 
             MenuItem {
-                text: qsTr("Restore")
+                text: qsTr("Restore theme")
 
                 onClicked: {
                     var dlgrestore = pageStack.push("RestorePage.qml", { "settings": settings });
@@ -403,12 +442,8 @@ Page
         }
     }
 
-
-    Item
-    {
-        width: viewsSlideshow.itemWidth
-        height: viewsSlideshow.height
-
+    Component {
+        id: densitycomponent
         SilicaFlickable
         {
             id: densityView
@@ -416,6 +451,16 @@ Page
             height: parent.height
             opacity: settings.isRunning ? 0.2 : 1.0
             contentHeight: content.height
+
+            ThemePackModel {
+                        id: densitymodel
+                        onDpiRestored: {
+                            sladpi.value = themepack.droidDPI;
+                            silica.sync();
+                            sldpr.value = silica.theme_pixel_ratio;
+                            themepackmodel.applyDone()
+                        }
+                    }
 
             ConfigurationGroup {
                 id: silica
@@ -449,14 +494,14 @@ Page
                 }
             }
             MenuItem {
-                text: qsTr("Restore")
+                text: qsTr("Restore display density")
 
                 onClicked: {
                     var dlgrestore = pageStack.push("RestoreDDPage.qml", { "settings": settings });
 
                     dlgrestore.accepted.connect(function() {
                         settings.isRunning = true;
-                        themepackmodel.restoreDpi(dlgrestore.restoreDPR, dlgrestore.restoreADPI);
+                        densitymodel.restoreDpi(dlgrestore.restoreDPR, dlgrestore.restoreADPI);
                     });
                 }
             }
@@ -563,8 +608,6 @@ Page
 
     }
 
-    }
-
     Item
     {
 
@@ -572,6 +615,7 @@ Page
         width: parent.width
         height: Theme.itemSizeLarge
         enabled: !settings.isRunning
+        visible: !bigScreen
         opacity: settings.isRunning ? 0.2 : 1.0
         anchors { left: parent.left; bottom: parent.bottom; right: parent.right }
 

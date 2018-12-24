@@ -281,10 +281,6 @@
         <translation>Avinstallerar %1</translation>
     </message>
     <message>
-        <source>Restore</source>
-        <translation>Återställ</translation>
-    </message>
-    <message>
         <source>No themes yet</source>
         <translation>Inga teman ännu</translation>
     </message>
@@ -339,6 +335,14 @@
     <message>
         <source>Change the size of UI icons. To a greater value corresponds an huger size.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
         <translation type="unfinished">Ändra storleken på UI-ikonerna. Ett högre värde motsvarar en större storlek.&lt;br&gt;&lt;br&gt;Kom ihåg att starta om hemskärmen direkt efteråt.</translation>
+    </message>
+    <message>
+        <source>Restore theme</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Restore display density</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -462,10 +466,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Restart the app for the setting to be effective.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Here you can find advanced settings for UI Themer, e.g. reinstall default icons or fonts if you forget to revert to default theme before a system update or if the applying fails.</source>
         <translation type="unfinished">Här hittar du avancerade inställningar för UI Themer, t.ex. ominstallation av ikoner och teckensnitt, om du glömmer att byta till standardtemat före en systemuppgradering eller om tillämpningen misslyckas.</translation>
     </message>
@@ -483,6 +483,10 @@
     </message>
     <message>
         <source>none</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Second cover action</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

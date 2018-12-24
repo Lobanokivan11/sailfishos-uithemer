@@ -87,7 +87,7 @@ Page
             Label {
                 anchors.horizontalCenter: parent.horizontalCenter
                 color: Theme.highlightColor
-                text: "UI Themer 2.0.0" }
+                text: "UI Themer 2.0.1" }
 
             LabelText {
                 text: qsTr("UI Themer lets you customize icons, fonts and pixel density in Sailfish OS.")

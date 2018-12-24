@@ -281,10 +281,6 @@
         <translation type="unfinished">%1 word verwijderd</translation>
     </message>
     <message>
-        <source>Restore</source>
-        <translation type="unfinished">Herstellen</translation>
-    </message>
-    <message>
         <source>No themes yet</source>
         <translation type="unfinished">Nog geen thema’s</translation>
     </message>
@@ -338,6 +334,14 @@
     </message>
     <message>
         <source>Change the size of UI icons. To a greater value corresponds an huger size.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Restore theme</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Restore display density</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -462,10 +466,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Restart the app for the setting to be effective.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Here you can find advanced settings for UI Themer, e.g. reinstall default icons or fonts if you forget to revert to default theme before a system update or if the applying fails.</source>
         <translation type="unfinished">Hier vind ge geavanceerde instellingen voor UI Themer, bv. het opnieuw installeren van standaardpictogrammen of -lettertypen als ge vergeet het standaardthema te herstellen vóór ne systeemupdate, of als der een fout optreed bij het toepassen.</translation>
     </message>
@@ -483,6 +483,10 @@
     </message>
     <message>
         <source>none</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Second cover action</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

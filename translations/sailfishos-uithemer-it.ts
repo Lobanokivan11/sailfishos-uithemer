@@ -281,10 +281,6 @@
         <translation>Disinstallazione: %1</translation>
     </message>
     <message>
-        <source>Restore</source>
-        <translation>Ripristina</translation>
-    </message>
-    <message>
         <source>No themes yet</source>
         <translation>Nessun tema</translation>
     </message>
@@ -339,6 +335,14 @@
     <message>
         <source>Change the size of UI icons. To a greater value corresponds an huger size.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
         <translation>Cambia la dimensione delle icone della UI. A un valore maggiore corrisponde una dimensione maggiore.&lt;br&gt;&lt;br&gt;Ricorda di riavviare la homescreen subito dopo.</translation>
+    </message>
+    <message>
+        <source>Restore theme</source>
+        <translation>Ripristina tema</translation>
+    </message>
+    <message>
+        <source>Restore display density</source>
+        <translation>Ripristina densità display</translation>
     </message>
 </context>
 <context>
@@ -462,10 +466,6 @@
         <translation>Azione cover</translation>
     </message>
     <message>
-        <source>Restart the app for the setting to be effective.</source>
-        <translation>Riavvia l&apos;app per rendere le modifiche effettive.</translation>
-    </message>
-    <message>
         <source>Here you can find advanced settings for UI Themer, e.g. reinstall default icons or fonts if you forget to revert to default theme before a system update or if the applying fails.</source>
         <translation>Qui puoi trovare impostazioni avanzate per UI Themer, ad esempio la reinstallazione delle icone o dei font di default se dimentichi di ritornare al tema di default prima di un aggiornamento di sistema o se l&apos;applicazione di un tema fallisce.</translation>
     </message>
@@ -484,6 +484,10 @@
     <message>
         <source>none</source>
         <translation>nessuna</translation>
+    </message>
+    <message>
+        <source>Second cover action</source>
+        <translation>Seconda azione cover</translation>
     </message>
 </context>
 <context>

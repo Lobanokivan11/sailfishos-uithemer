@@ -1,6 +1,7 @@
 import QtQuick 2.0
 import Sailfish.Silica 1.0
 import org.nemomobile.notifications 1.0
+import org.nemomobile.configuration 1.0
 import harbour.uithemer 1.0
 import "../components"
 
@@ -13,7 +14,16 @@ CoverBackground
              notification.publish();
          }
          id: themepackmodel
+         onIconReapplied: notifyDone()
          onOcrRestored: notifyDone()
+     }
+     ThemePack {
+         function notifyDone() {
+             settings.isRunning = false;
+             notification.publish();
+         }
+         id: themepack
+         onHomescreenRestarted: notifyDone()
      }
 
     Image
@@ -31,7 +41,7 @@ CoverBackground
         id: refreshimg
         enabled: settings.isRunning ? true : false
         visible: settings.isRunning ? true : false
-        source: "image://theme/icon-cover-sync"
+        source: "image://theme/graphic-busyindicator-medium"
         anchors.verticalCenter: parent.verticalCenter
         anchors.horizontalCenter: parent.horizontalCenter
         fillMode: Image.PreserveAspectFit
@@ -47,13 +57,29 @@ CoverBackground
     }
 
     CoverActionList {
-        id: refreshaction
         enabled: ((settings.activeIconPack === "none") || (settings.isRunning)) ? false : true
         CoverAction {
-            iconSource: "image://theme/icon-cover-cancel"
+            iconSource: switch (conf.coverAction1) {
+                        case 0:
+                            return "image://theme/icon-cover-sync";
+                        case 1:
+                            return "image://theme/icon-cover-refresh";
+                        case 2:
+                            return "image://theme/icon-cover-cancel";
+                        }
             onTriggered: {
                 settings.isRunning = true
-                themepackmodel.ocr()
+                switch (conf.coverAction1) {
+                case 0:
+                    return themepackmodel.reapplyIcons();
+                case 1:
+                    return themepack.restartHomescreen();
+                case 2:
+                    themepackmodel.ocr();
+                    settings.deactivateFont();
+                    settings.deactivateIcon();
+                    break;
+                }
             }
         }
     }
