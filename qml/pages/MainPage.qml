@@ -13,7 +13,7 @@ Page
     id: mainpage
     focus: true
 
-    property bool bigScreen: (isLandscape || Screen.sizeCategory >= Screen.Large)
+    property bool bigScreen: (isLandscape)
 
     property int activeTabId: 0
 
@@ -118,10 +118,9 @@ Page
         }
 
         if (event.key === Qt.Key_Down) {
-            if (!bigScreen) {
+            if (bigScreen) {
                 landscapeView.flick(0, - mainpage.height);
                 event.accepted = true;
-                break;
             } else {
                 switch (mainpage.activeTabId) {
                 case 0:
@@ -137,10 +136,9 @@ Page
         }
 
         if (event.key === Qt.Key_Up) {
-            if (!bigScreen) {
+            if (bigScreen) {
                 landscapeView.flick(0, mainpage.height);
                 event.accepted = true;
-                break;
             } else {
                 switch (mainpage.activeTabId) {
                 case 0:

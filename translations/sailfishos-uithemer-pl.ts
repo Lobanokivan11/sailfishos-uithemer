@@ -273,30 +273,6 @@
 <context>
     <name>MainPage</name>
     <message>
-        <source>About UI Themer</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Usage guide</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Options</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Restart homescreen</source>
-        <translation type="unfinished">Uruchom ponownie ekran główny</translation>
-    </message>
-    <message>
-        <source>Restore theme</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Restore display density</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Themes</source>
         <translation type="unfinished">Motywy tematyczne</translation>
     </message>
@@ -311,6 +287,22 @@
     <message>
         <source>Install a compatible theme first</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>About UI Themer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Usage guide</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Options</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Restart homescreen</source>
+        <translation type="unfinished">Uruchom ponownie ekran główny</translation>
     </message>
     <message>
         <source>Display density</source>
@@ -345,7 +337,11 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Issues</source>
+        <source>Restore theme</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Restore display density</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

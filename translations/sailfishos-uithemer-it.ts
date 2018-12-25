@@ -273,80 +273,76 @@
 <context>
     <name>MainPage</name>
     <message>
-        <source>About UI Themer</source>
-        <translation type="unfinished">Info su UI Themer</translation>
-    </message>
-    <message>
-        <source>Usage guide</source>
-        <translation type="unfinished">Manuale d&apos;uso</translation>
-    </message>
-    <message>
-        <source>Options</source>
-        <translation type="unfinished">Opzioni</translation>
-    </message>
-    <message>
-        <source>Restart homescreen</source>
-        <translation type="unfinished">Riavvia homescreen</translation>
-    </message>
-    <message>
-        <source>Restore theme</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Restore display density</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Themes</source>
-        <translation type="unfinished">Temi</translation>
+        <translation>Temi</translation>
     </message>
     <message>
         <source>Uninstalling %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Disinstallazione: %1</translation>
     </message>
     <message>
         <source>No themes yet</source>
-        <translation type="unfinished"></translation>
+        <translation>Nessun tema</translation>
     </message>
     <message>
         <source>Install a compatible theme first</source>
-        <translation type="unfinished"></translation>
+        <translation>Installa un tema compatibile</translation>
+    </message>
+    <message>
+        <source>About UI Themer</source>
+        <translation>Info su UI Themer</translation>
+    </message>
+    <message>
+        <source>Usage guide</source>
+        <translation>Manuale d&apos;uso</translation>
+    </message>
+    <message>
+        <source>Options</source>
+        <translation>Opzioni</translation>
+    </message>
+    <message>
+        <source>Restart homescreen</source>
+        <translation>Riavvia homescreen</translation>
     </message>
     <message>
         <source>Display density</source>
-        <translation type="unfinished">Densità display</translation>
+        <translation>Densità display</translation>
     </message>
     <message>
         <source>Device pixel ratio</source>
-        <translation type="unfinished"></translation>
+        <translation>Device pixel ratio</translation>
     </message>
     <message>
         <source>Change the display pixel ratio. To a smaller value corresponds an higher density.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
-        <translation type="unfinished"></translation>
+        <translation>Cambia il display pixel ratio. A un valore minore corrisponde una maggiore densità.&lt;br&gt;&lt;br&gt;Ricorda di riavviare la homescreen subito dopo.</translation>
     </message>
     <message>
         <source>Android DPI</source>
-        <translation type="unfinished"></translation>
+        <translation>DPI Android</translation>
     </message>
     <message>
         <source>Android DPI value</source>
-        <translation type="unfinished"></translation>
+        <translation>Valore DPI Android</translation>
     </message>
     <message>
         <source>Change the Android DPI value. To a smaller value corresponds an higher density.&lt;br&gt;&lt;br&gt;Remember to restart the Android support or the homescreen right after.</source>
-        <translation type="unfinished"></translation>
+        <translation>Cambia il DPI Android. A un valore minore corrisponde una maggiore densità.&lt;br&gt;&lt;br&gt;Ricorda di riavviare il supporto Android o la homescreen subito dopo.</translation>
     </message>
     <message>
         <source>Icon size</source>
-        <translation type="unfinished"></translation>
+        <translation>Dimensione icone</translation>
     </message>
     <message>
         <source>Change the size of UI icons. To a greater value corresponds an huger size.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
-        <translation type="unfinished"></translation>
+        <translation>Cambia la dimensione delle icone della UI. A un valore maggiore corrisponde una dimensione maggiore.&lt;br&gt;&lt;br&gt;Ricorda di riavviare la homescreen subito dopo.</translation>
     </message>
     <message>
-        <source>Issues</source>
-        <translation type="unfinished">Issues</translation>
+        <source>Restore theme</source>
+        <translation>Ripristina tema</translation>
+    </message>
+    <message>
+        <source>Restore display density</source>
+        <translation>Ripristina densità display</translation>
     </message>
 </context>
 <context>

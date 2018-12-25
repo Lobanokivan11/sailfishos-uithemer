@@ -274,80 +274,76 @@
 <context>
     <name>MainPage</name>
     <message>
-        <source>About UI Themer</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Usage guide</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Options</source>
-        <translation type="unfinished">操作</translation>
-    </message>
-    <message>
-        <source>Restart homescreen</source>
-        <translation type="unfinished">重启主屏幕</translation>
-    </message>
-    <message>
-        <source>Restore theme</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Restore display density</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Themes</source>
-        <translation type="unfinished">主题</translation>
+        <translation>主题</translation>
     </message>
     <message>
         <source>Uninstalling %1</source>
-        <translation type="unfinished"></translation>
+        <translation>卸载 %1</translation>
     </message>
     <message>
         <source>No themes yet</source>
-        <translation type="unfinished"></translation>
+        <translation>尚未安装主题</translation>
     </message>
     <message>
         <source>Install a compatible theme first</source>
-        <translation type="unfinished"></translation>
+        <translation>首先安装一个兼容的主题</translation>
+    </message>
+    <message>
+        <source>About UI Themer</source>
+        <translation>关于 UI Themer</translation>
+    </message>
+    <message>
+        <source>Usage guide</source>
+        <translation>使用指导</translation>
+    </message>
+    <message>
+        <source>Options</source>
+        <translation>操作</translation>
+    </message>
+    <message>
+        <source>Restart homescreen</source>
+        <translation>重启主屏幕</translation>
     </message>
     <message>
         <source>Display density</source>
-        <translation type="unfinished">显示密度</translation>
+        <translation>显示密度</translation>
     </message>
     <message>
         <source>Device pixel ratio</source>
-        <translation type="unfinished"></translation>
+        <translation>设备像素比例</translation>
     </message>
     <message>
         <source>Change the display pixel ratio. To a smaller value corresponds an higher density.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
-        <translation type="unfinished"></translation>
+        <translation>改变显示像素比例，到更小的值、更高的密度。记住之后立刻重启主屏幕。</translation>
     </message>
     <message>
         <source>Android DPI</source>
-        <translation type="unfinished"></translation>
+        <translation>Android DPI</translation>
     </message>
     <message>
         <source>Android DPI value</source>
-        <translation type="unfinished"></translation>
+        <translation>Android DPI 值</translation>
     </message>
     <message>
         <source>Change the Android DPI value. To a smaller value corresponds an higher density.&lt;br&gt;&lt;br&gt;Remember to restart the Android support or the homescreen right after.</source>
-        <translation type="unfinished"></translation>
+        <translation>改变Android DPI值到更小的值、更高的密度。&lt;br&gt;&lt;br&gt;记住之后重启Android 支持或主屏幕。</translation>
     </message>
     <message>
         <source>Icon size</source>
-        <translation type="unfinished"></translation>
+        <translation>图标大小</translation>
     </message>
     <message>
         <source>Change the size of UI icons. To a greater value corresponds an huger size.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
-        <translation type="unfinished"></translation>
+        <translation>改变UI图标的尺寸到一个更高的值、更大的尺寸。</translation>
     </message>
     <message>
-        <source>Issues</source>
-        <translation type="unfinished">问题</translation>
+        <source>Restore theme</source>
+        <translation>恢复主题</translation>
+    </message>
+    <message>
+        <source>Restore display density</source>
+        <translation>恢复显示密度</translation>
     </message>
 </context>
 <context>
@@ -492,7 +488,7 @@
     </message>
     <message>
         <source>Second cover action</source>
-        <translation type="unfinished"></translation>
+        <translation>间接封面操作</translation>
     </message>
 </context>
 <context>
