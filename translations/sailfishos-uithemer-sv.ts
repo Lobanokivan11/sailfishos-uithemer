@@ -273,22 +273,6 @@
 <context>
     <name>MainPage</name>
     <message>
-        <source>Themes</source>
-        <translation>Teman</translation>
-    </message>
-    <message>
-        <source>Uninstalling %1</source>
-        <translation>Avinstallerar %1</translation>
-    </message>
-    <message>
-        <source>No themes yet</source>
-        <translation>Inga teman ännu</translation>
-    </message>
-    <message>
-        <source>Install a compatible theme first</source>
-        <translation>Installera ett kompatibelt tema först</translation>
-    </message>
-    <message>
         <source>About UI Themer</source>
         <translation type="unfinished">Om UI Themer</translation>
     </message>
@@ -305,44 +289,64 @@
         <translation type="unfinished">Starta om hemskärmen</translation>
     </message>
     <message>
-        <source>Display density</source>
-        <translation type="unfinished">Skärmupplösning</translation>
-    </message>
-    <message>
-        <source>Device pixel ratio</source>
-        <translation type="unfinished">Enhetens bildpunktsförhållande</translation>
-    </message>
-    <message>
-        <source>Change the display pixel ratio. To a smaller value corresponds an higher density.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
-        <translation type="unfinished">Ändra skärmens bildpunktsförhållande. Ett lägre värde motsvarar en högre täthet.&lt;br&gt;&lt;br&gt;Kom ihåg att starta om hemskärmen direkt efteråt.</translation>
-    </message>
-    <message>
-        <source>Android DPI</source>
-        <translation type="unfinished">Android DPI</translation>
-    </message>
-    <message>
-        <source>Android DPI value</source>
-        <translation type="unfinished">Android DPI-värde</translation>
-    </message>
-    <message>
-        <source>Change the Android DPI value. To a smaller value corresponds an higher density.&lt;br&gt;&lt;br&gt;Remember to restart the Android support or the homescreen right after.</source>
-        <translation type="unfinished">Ändra Android DPI-värde. Ett lägre värde motsvarar en högre täthet.&lt;br&gt;&lt;br&gt;Kom ihåg att starta om hemskärmen direkt efteråt.</translation>
-    </message>
-    <message>
-        <source>Icon size</source>
-        <translation type="unfinished">Ikonstorlek</translation>
-    </message>
-    <message>
-        <source>Change the size of UI icons. To a greater value corresponds an huger size.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
-        <translation type="unfinished">Ändra storleken på UI-ikonerna. Ett högre värde motsvarar en större storlek.&lt;br&gt;&lt;br&gt;Kom ihåg att starta om hemskärmen direkt efteråt.</translation>
-    </message>
-    <message>
         <source>Restore theme</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Restore display density</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Themes</source>
+        <translation type="unfinished">Teman</translation>
+    </message>
+    <message>
+        <source>Uninstalling %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No themes yet</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Install a compatible theme first</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Display density</source>
+        <translation type="unfinished">Skärmupplösning</translation>
+    </message>
+    <message>
+        <source>Device pixel ratio</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Change the display pixel ratio. To a smaller value corresponds an higher density.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Android DPI</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Android DPI value</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Change the Android DPI value. To a smaller value corresponds an higher density.&lt;br&gt;&lt;br&gt;Remember to restart the Android support or the homescreen right after.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Icon size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Change the size of UI icons. To a greater value corresponds an huger size.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Issues</source>
+        <translation type="unfinished">Frågor</translation>
     </message>
 </context>
 <context>

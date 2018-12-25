@@ -41,6 +41,14 @@ Page
                 onFontApplied: applyDone()
                 onRestoreCompleted: applyDone()
                 onUninstallCompleted: notifyDone()
+                onDpiRestored: {
+                    sladpi.value = themepack.droidDPI;
+                    sladpiLandscape.value = themepack.droidDPI;
+                    silica.sync();
+                    sldpr.value = silica.theme_pixel_ratio;
+                    sldprLandscape.value = silica.theme_pixel_ratio;
+                    applyDone()
+                }
             }
 
     Timer {
@@ -62,6 +70,13 @@ Page
         }
     }
 
+    ConfigurationGroup {
+        id: silica
+        path: "/desktop/sailfish/silica"
+        property real theme_pixel_ratio
+        property real icon_size_launcher
+    }
+
     Keys.onPressed: {
         handleKeyPressed(event);
     }
@@ -69,6 +84,7 @@ Page
     function handleKeyPressed(event) {
 
         if (event.key === Qt.Key_Right) {
+            if (!bigScreen) {
             switch (mainpage.activeTabId) {
                 case 0:
                     viewsSlideshow.opacity = 0;
@@ -80,10 +96,12 @@ Page
                     slideshowVisibleTimer.goToTab(0);
                     openTab(0);
                     break;
+            }
             }
         }
 
         if (event.key === Qt.Key_Left) {
+            if (!bigScreen) {
             switch (mainpage.activeTabId) {
                 case 0:
                     viewsSlideshow.opacity = 0;
@@ -96,9 +114,15 @@ Page
                     openTab(0);
                     break;
             }
+            }
         }
 
         if (event.key === Qt.Key_Down) {
+            if (!bigScreen) {
+                landscapeView.flick(0, - mainpage.height);
+                event.accepted = true;
+                break;
+            } else {
                 switch (mainpage.activeTabId) {
                 case 0:
                     themepacklistview.flick(0, - mainpage.height);
@@ -109,9 +133,15 @@ Page
                     event.accepted = true;
                     break;
                 }
+            }
         }
 
         if (event.key === Qt.Key_Up) {
+            if (!bigScreen) {
+                landscapeView.flick(0, mainpage.height);
+                event.accepted = true;
+                break;
+            } else {
                 switch (mainpage.activeTabId) {
                 case 0:
                     themepacklistview.flick(0, mainpage.height);
@@ -122,6 +152,7 @@ Page
                     event.accepted = true;
                     break;
                 }
+            }
         }
 
         if (event.key === Qt.Key_PageDown) {
@@ -239,6 +270,79 @@ Page
         viewsSlideshow.opacity = 1
     }
 
+    DBusInterface {
+        id: openStore
+        service: 'harbour.storeman.service'
+        path: '/harbour/storeman/service'
+        iface: 'harbour.storeman.service'
+    }
+
+    SilicaFlickable {
+        anchors.fill: parent
+        anchors.bottomMargin: (bigScreen) ? 0 : dockedbar.height
+        clip: (bigScreen) ? false : true
+
+        PullDownMenu {
+            MenuItem {
+                text: qsTr("About UI Themer")
+                visible: (bigScreen === false)
+                onClicked: pageStack.push(Qt.resolvedUrl("AboutPage.qml"))
+            }
+            MenuItem {
+                text: qsTr("Usage guide")
+                onClicked: pageStack.push(Qt.resolvedUrl("GuidePage.qml"))
+            }
+            MenuItem {
+                text: qsTr("Options")
+                onClicked: pageStack.push(Qt.resolvedUrl("OptionsPage.qml"))
+            }
+
+            MenuItem {
+                text: qsTr("Restart homescreen")
+                onClicked: {
+                    var dlgrestart = pageStack.push("RestartHSPage.qml");
+                    dlgrestart.accepted.connect(function() {
+                            themepack.restartHomescreen();
+                            console.log("homescreen restart");
+                    });
+                }
+            }
+
+            MenuItem {
+                text: qsTr("Restore display density")
+                visible: (bigScreen === true) || (viewsSlideshow.currentIndex === 1)
+
+                onClicked: {
+                    var dlgrestore = pageStack.push("RestoreDDPage.qml", { "settings": settings });
+
+                    dlgrestore.accepted.connect(function() {
+                        settings.isRunning = true;
+                        themepackmodel.restoreDpi(dlgrestore.restoreDPR, dlgrestore.restoreADPI);
+                    });
+                }
+            }
+
+            MenuItem {
+                text: qsTr("Restore theme")
+                visible: (bigScreen === true) || (viewsSlideshow.currentIndex === 0)
+
+                onClicked: {
+                    var dlgrestore = pageStack.push("RestorePage.qml", { "settings": settings });
+
+                    dlgrestore.accepted.connect(function() {
+                        settings.isRunning = true;
+                        themepackmodel.restore(dlgrestore.restoreIcons, dlgrestore.restoreFonts);
+
+                        if(dlgrestore.restoreFonts)
+                            settings.deactivateFont();
+
+                        if(dlgrestore.restoreIcons)
+                            settings.deactivateIcon();
+                    });
+                }
+            }
+        }
+
     SlideshowView {
         id: viewsSlideshow
         visible: !bigScreen
@@ -246,8 +350,6 @@ Page
         height: parent.height
         itemWidth: width
         anchors.fill: parent
-        anchors.bottomMargin: dockedbar.height
-        clip: true
         model: viewsModel
         onCurrentIndexChanged: {
             openTab(currentIndex);
@@ -263,57 +365,12 @@ Page
 
     }
 
-    SilicaGridView {
-        id: landscapeView
-        visible: bigScreen
-        enabled: !settings.isRunning || bigScreen
-        cellWidth: width / 2
-        anchors.fill: parent
-        model: landscapeModel
-    }
-
     VisualItemModel {
         id: viewsModel
         Item {
             width: viewsSlideshow.itemWidth
             height: viewsSlideshow.height
-            Loader {
-              anchors.fill: parent
-              sourceComponent: themepacklistcomponent
-            }
-        }
-        Item {
-            width: viewsSlideshow.itemWidth
-            height: viewsSlideshow.height
-            Loader {
-              anchors.fill: parent
-              sourceComponent: densitycomponent
-            }
-        }
-    }
 
-    VisualItemModel {
-        id: landscapeModel
-        Item {
-            width: landscapeView.width/2
-            height: landscapeView.height
-            Loader {
-              anchors.fill: parent
-              sourceComponent: themepacklistcomponent
-            }
-        }
-        Item {
-            width: landscapeView.width/2
-            height: landscapeView.height
-            Loader {
-              anchors.fill: parent
-              sourceComponent: densitycomponent
-            }
-        }
-    }
-
-    Component {
-        id: themepacklistcomponent
         SilicaListView {
         id: themepacklistview
         width: parent.width
@@ -321,12 +378,10 @@ Page
         opacity: settings.isRunning ? 0.2 : 1.0
 
         header: Column {
-                   id: mainpageheader
                    width: parent.width
                    height: titlepageheader.height
                    PageHeader { id: titlepageheader; title: qsTr("Themes") }
                    IconButton {
-                           id: downloadthemesicon
                            visible: themepack.hasStoremanInstalled()
                            anchors {
                                verticalCenter: parent.verticalCenter
@@ -377,58 +432,6 @@ Page
             }
         }
 
-        DBusInterface {
-            id: openStore
-            service: 'harbour.storeman.service'
-            path: '/harbour/storeman/service'
-            iface: 'harbour.storeman.service'
-        }
-
-        PullDownMenu {
-            MenuItem {
-                text: qsTr("About UI Themer")
-                onClicked: pageStack.push(Qt.resolvedUrl("AboutPage.qml"))
-            }
-            MenuItem {
-                text: qsTr("Usage guide")
-                onClicked: pageStack.push(Qt.resolvedUrl("GuidePage.qml"))
-            }
-            MenuItem {
-                text: qsTr("Options")
-                onClicked: pageStack.push(Qt.resolvedUrl("OptionsPage.qml"))
-            }
-
-            MenuItem {
-                text: qsTr("Restart homescreen")
-                onClicked: {
-                    var dlgrestart = pageStack.push("RestartHSPage.qml");
-                    dlgrestart.accepted.connect(function() {
-                            themepack.restartHomescreen();
-                            console.log("homescreen restart");
-                    });
-                }
-            }
-
-            MenuItem {
-                text: qsTr("Restore theme")
-
-                onClicked: {
-                    var dlgrestore = pageStack.push("RestorePage.qml", { "settings": settings });
-
-                    dlgrestore.accepted.connect(function() {
-                        settings.isRunning = true;
-                        themepackmodel.restore(dlgrestore.restoreIcons, dlgrestore.restoreFonts);
-
-                        if(dlgrestore.restoreFonts)
-                            settings.deactivateFont();
-
-                        if(dlgrestore.restoreIcons)
-                            settings.deactivateIcon();
-                    });
-                }
-            }
-        }
-
         ViewPlaceholder {
             enabled: themepacklistview.count == 0
             text: qsTr("No themes yet")
@@ -439,80 +442,28 @@ Page
             width: 1
             height: Theme.paddingLarge
         }
+
+        VerticalScrollDecorator { }
         }
     }
 
-    Component {
-        id: densitycomponent
+        Item {
+            width: viewsSlideshow.itemWidth
+            height: viewsSlideshow.height
+
         SilicaFlickable
         {
             id: densityView
             width: parent.width
             height: parent.height
             opacity: settings.isRunning ? 0.2 : 1.0
-            contentHeight: content.height
-
-            ThemePackModel {
-                        id: densitymodel
-                        onDpiRestored: {
-                            sladpi.value = themepack.droidDPI;
-                            silica.sync();
-                            sldpr.value = silica.theme_pixel_ratio;
-                            themepackmodel.applyDone()
-                        }
-                    }
-
-            ConfigurationGroup {
-                id: silica
-                path: "/desktop/sailfish/silica"
-                property real theme_pixel_ratio
-                property real icon_size_launcher
-            }
-
-        PullDownMenu {
-            MenuItem {
-                text: qsTr("About UI Themer")
-                onClicked: pageStack.push(Qt.resolvedUrl("AboutPage.qml"))
-            }
-            MenuItem {
-                text: qsTr("Usage guide")
-                onClicked: pageStack.push(Qt.resolvedUrl("GuidePage.qml"))
-            }
-            MenuItem {
-                text: qsTr("Options")
-                onClicked: pageStack.push(Qt.resolvedUrl("OptionsPage.qml"))
-            }
-
-            MenuItem {
-                text: qsTr("Restart homescreen")
-                onClicked: {
-                    var dlgrestart = pageStack.push("RestartHSPage.qml");
-                    dlgrestart.accepted.connect(function() {
-                            themepack.restartHomescreen();
-                            console.log("homescreen restart");
-                    });
-                }
-            }
-            MenuItem {
-                text: qsTr("Restore display density")
-
-                onClicked: {
-                    var dlgrestore = pageStack.push("RestoreDDPage.qml", { "settings": settings });
-
-                    dlgrestore.accepted.connect(function() {
-                        settings.isRunning = true;
-                        densitymodel.restoreDpi(dlgrestore.restoreDPR, dlgrestore.restoreADPI);
-                    });
-                }
-            }
-        }
+            contentHeight: densityContent.height
 
         Column
         {
-            id: content
+            id: densityContent
             width: parent.width
             spacing: Theme.paddingMedium
-            anchors.bottomMargin: Theme.paddingLarge
 
             PageHeader { title: qsTr("Display density") }
             SectionHeader { text: qsTr("Device pixel ratio") }
@@ -600,11 +551,211 @@ Page
                 height: Theme.paddingLarge
             }
 
+            VerticalScrollDecorator { }
         }
 
-        VerticalScrollDecorator { }
+        }
+
+    }
+    }
+
+    SilicaGridView {
+        id: landscapeView
+        visible: bigScreen
+        enabled: !settings.isRunning || bigScreen
+        cellWidth: width / 2
+        anchors.fill: parent
+        model: landscapeModel
+    }
+
+    VisualItemModel {
+        id: landscapeModel
+        Item {
+            width: landscapeView.width/2
+            height: landscapeView.height
+
+        SilicaListView {
+        id: themepacklistviewLandscape
+        width: landscapeView.width/2
+        height: landscapeView.height
+        opacity: settings.isRunning ? 0.2 : 1.0
+
+        header: Column {
+                   width: parent.width
+                   height: titlepageheaderLandscape.height
+                   PageHeader { id: titlepageheaderLandscape; title: qsTr("Themes") }
+                   IconButton {
+                           visible: themepack.hasStoremanInstalled()
+                           anchors {
+                               verticalCenter: parent.verticalCenter
+                               left: parent.left
+                               leftMargin: Theme.paddingMedium
+                           }
+                           icon.source: "image://theme/icon-m-cloud-download"
+                           onClicked: openStore.call('openPage', ['SearchPage', {initialSearch: 'themepack'}])
+                       }
+        }
+
+        model: themepackmodel
+
+        delegate: ThemePackItem {
+            fontInstalled: model.packName === settings.activeFontPack
+            iconInstalled: model.packName === settings.activeIconPack
+
+            onClicked: {
+                timer.stop()
+                var dlgconfirm = pageStack.push("ConfirmPage.qml", { "settings": settings, "themePackModel": themepackmodel, "themePackIndex": model.index });
+
+                dlgconfirm.accepted.connect(function() {
+                    settings.isRunning = true;
+
+                    if(dlgconfirm.iconsSelected) {
+                        themepackmodel.applyIcons(model.index, !dlgconfirm.fontsSelected || !themepackmodel.hasFont(model.index), dlgconfirm.iconOverlaySelected);
+                        settings.activeIconPack = model.packName;
+                    }
+
+                    if(dlgconfirm.fontsSelected) {
+                        themepackmodel.applyFonts(model.index, dlgconfirm.selectedFont);
+                        settings.activeFontPack = model.packName;
+                    }
+                });
+            }
+
+            onUninstallRequested: {
+                remorseAction(qsTr("Uninstalling %1").arg(model.packName), function() {
+                    settings.isRunning = true;
+                    themepackmodel.uninstall(model.index);
+
+                    if(fontInstalled)
+                        Database.deactivateFont();
+
+                    if(iconInstalled)
+                        Database.deactivateIcon();
+                });
+            }
+        }
+
+        ViewPlaceholder {
+            enabled: themepacklistviewLandscape.count == 0
+            text: qsTr("No themes yet")
+            hintText: qsTr("Install a compatible theme first")
+        }
 
         }
+
+        }
+
+        Item {
+            width: landscapeView.width/2
+            height: landscapeView.height
+
+        SilicaFlickable
+        {
+            id: densityViewLandscape
+            width: landscapeView.width/2
+            height: landscapeView.height
+            opacity: settings.isRunning ? 0.2 : 1.0
+            contentHeight: densityContentLandscape.height
+
+        Column
+        {
+            id: densityContentLandscape
+            width: parent.width
+            spacing: Theme.paddingMedium
+
+            PageHeader { title: qsTr("Display density") }
+            SectionHeader { text: qsTr("Device pixel ratio") }
+
+            Column
+            {
+                id: coldprLandscape
+                width: parent.width
+
+                Slider {
+                    id: sldprLandscape
+                    width: parent.width
+                    label: qsTr("Device pixel ratio")
+                    maximumValue: 2.3
+                    minimumValue: 0.7
+                    stepSize: 0.05
+                    value: silica.theme_pixel_ratio
+                    valueText: value
+                    onPressAndHold: cancel()
+
+                    onReleased: {
+                        silica.theme_pixel_ratio = value;
+                    }
+                }
+
+                LabelText {
+                    text: qsTr("Change the display pixel ratio. To a smaller value corresponds an higher density.<br><br>Remember to restart the homescreen right after.")
+                }
+            }
+
+            Column
+            {
+                id: coladpiLandscape
+                width: parent.width
+                visible: themepack.hasAndroidSupport
+
+                SectionHeader { text: qsTr("Android DPI") }
+
+                Slider {
+                    id: sladpiLandscape
+                    width: parent.width
+                    label: qsTr("Android DPI value")
+                    maximumValue: 600
+                    minimumValue: 180
+                    stepSize: 20
+                    value: themepack.droidDPI
+                    valueText: value
+                    onReleased: themepackmodel.applyADPI(valueText)
+                    onPressAndHold: cancel()
+                }
+
+                LabelText {
+                    text: qsTr("Change the Android DPI value. To a smaller value corresponds an higher density.<br><br>Remember to restart the Android support or the homescreen right after.")
+                }
+            }
+
+            SectionHeader { text: qsTr("Icon size") }
+            Column
+            {
+                id: colizLandscape
+                width: parent.width
+
+                ComboBox {
+                    id: cbizLandscape
+                    width: parent.width
+                    label: qsTr("Icon size")
+                    value: silica.icon_size_launcher
+
+                    menu: ContextMenu {
+                        MenuItem { text: "86"; onClicked: silica.icon_size_launcher = 86 }
+                        MenuItem { text: "108"; onClicked: silica.icon_size_launcher = 108 }
+                        MenuItem { text: "129"; onClicked: silica.icon_size_launcher = 129 }
+                        MenuItem { text: "151"; onClicked: silica.icon_size_launcher = 151 }
+                        MenuItem { text: "172"; onClicked: silica.icon_size_launcher = 172 }
+                    }
+                }
+
+                LabelText {
+                    text: qsTr("Change the size of UI icons. To a greater value corresponds an huger size.<br><br>Remember to restart the homescreen right after.")
+                }
+            }
+
+            Item {
+                width: 1
+                height: Theme.paddingLarge
+            }
+
+        }
+
+        }
+
+    }
+
+    }
 
     }
 
@@ -661,6 +812,5 @@ Page
 
         }
     }
-
 
 }

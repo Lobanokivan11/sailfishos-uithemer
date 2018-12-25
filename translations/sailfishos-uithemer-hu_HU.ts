@@ -273,22 +273,6 @@
 <context>
     <name>MainPage</name>
     <message>
-        <source>Themes</source>
-        <translation type="unfinished">Témák</translation>
-    </message>
-    <message>
-        <source>Uninstalling %1</source>
-        <translation type="unfinished">Eltávolítás %1</translation>
-    </message>
-    <message>
-        <source>No themes yet</source>
-        <translation type="unfinished">Még nincsenek témák</translation>
-    </message>
-    <message>
-        <source>Install a compatible theme first</source>
-        <translation type="unfinished">Először telepíts egy kompatibilis témát</translation>
-    </message>
-    <message>
         <source>About UI Themer</source>
         <translation type="unfinished">Az UI Themer névjegye</translation>
     </message>
@@ -303,6 +287,30 @@
     <message>
         <source>Restart homescreen</source>
         <translation type="unfinished">Kezdőképernyő újraindítása</translation>
+    </message>
+    <message>
+        <source>Restore theme</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Restore display density</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Themes</source>
+        <translation type="unfinished">Témák</translation>
+    </message>
+    <message>
+        <source>Uninstalling %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No themes yet</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Install a compatible theme first</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Display density</source>
@@ -337,12 +345,8 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Restore theme</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Restore display density</source>
-        <translation type="unfinished"></translation>
+        <source>Issues</source>
+        <translation type="unfinished">Problémák</translation>
     </message>
 </context>
 <context>

@@ -273,22 +273,6 @@
 <context>
     <name>MainPage</name>
     <message>
-        <source>Themes</source>
-        <translation type="unfinished">Teme</translation>
-    </message>
-    <message>
-        <source>Uninstalling %1</source>
-        <translation type="unfinished">Odstranjevanje %1</translation>
-    </message>
-    <message>
-        <source>No themes yet</source>
-        <translation type="unfinished">Ni tem</translation>
-    </message>
-    <message>
-        <source>Install a compatible theme first</source>
-        <translation type="unfinished">Najprej namestite združljivo temo</translation>
-    </message>
-    <message>
         <source>About UI Themer</source>
         <translation type="unfinished">O programu UI Themer</translation>
     </message>
@@ -303,6 +287,30 @@
     <message>
         <source>Restart homescreen</source>
         <translation type="unfinished">Ponovni zagon domačega zaslona</translation>
+    </message>
+    <message>
+        <source>Restore theme</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Restore display density</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Themes</source>
+        <translation type="unfinished">Teme</translation>
+    </message>
+    <message>
+        <source>Uninstalling %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No themes yet</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Install a compatible theme first</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Display density</source>
@@ -337,11 +345,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Restore theme</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Restore display density</source>
+        <source>Issues</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
