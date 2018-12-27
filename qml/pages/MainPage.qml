@@ -118,10 +118,7 @@ Page
         }
 
         if (event.key === Qt.Key_Down) {
-            if (bigScreen) {
-                landscapeView.flick(0, - mainpage.height);
-                event.accepted = true;
-            } else {
+            if (!bigScreen) {
                 switch (mainpage.activeTabId) {
                 case 0:
                     themepacklistview.flick(0, - mainpage.height);
@@ -136,10 +133,7 @@ Page
         }
 
         if (event.key === Qt.Key_Up) {
-            if (bigScreen) {
-                landscapeView.flick(0, mainpage.height);
-                event.accepted = true;
-            } else {
+            if (!bigScreen) {
                 switch (mainpage.activeTabId) {
                 case 0:
                     themepacklistview.flick(0, mainpage.height);
@@ -154,6 +148,7 @@ Page
         }
 
         if (event.key === Qt.Key_PageDown) {
+            if (!bigScreen) {
             switch (mainpage.activeTabId) {
                 case 0:
                     themepacklistview.scrollToBottom();
@@ -163,10 +158,12 @@ Page
                     densityView.scrollToBottom();
                     event.accepted = true;
                     break;
+                }
             }
         }
 
         if (event.key === Qt.Key_PageUp) {
+            if (!bigScreen) {
             switch (mainpage.activeTabId) {
                 case 0:
                     themepacklistview.scrollToTop();
@@ -176,6 +173,7 @@ Page
                     densityView.scrollToTop();
                     event.accepted = true;
                     break;
+                }
             }
         }
 
@@ -279,6 +277,8 @@ Page
         anchors.fill: parent
         anchors.bottomMargin: (bigScreen) ? 0 : dockedbar.height
         clip: (bigScreen) ? false : true
+        enabled: !settings.isRunning
+        opacity: settings.isRunning ? 0.2 : 1.0
 
         PullDownMenu {
             MenuItem {
@@ -358,7 +358,7 @@ Page
         }
         currentIndex: 1
         opacity: 0
-        enabled: !settings.isRunning || !bigScreen
+        enabled: !bigScreen
 
     }
 
@@ -372,7 +372,6 @@ Page
         id: themepacklistview
         width: parent.width
         height: parent.height
-        opacity: settings.isRunning ? 0.2 : 1.0
 
         header: Column {
                    width: parent.width
@@ -453,7 +452,6 @@ Page
             id: densityView
             width: parent.width
             height: parent.height
-            opacity: settings.isRunning ? 0.2 : 1.0
             contentHeight: densityContent.height
 
         Column
@@ -559,7 +557,7 @@ Page
     SilicaGridView {
         id: landscapeView
         visible: bigScreen
-        enabled: !settings.isRunning || bigScreen
+        enabled: bigScreen
         cellWidth: width / 2
         anchors.fill: parent
         model: landscapeModel
@@ -575,7 +573,6 @@ Page
         id: themepacklistviewLandscape
         width: landscapeView.width/2
         height: landscapeView.height
-        opacity: settings.isRunning ? 0.2 : 1.0
 
         header: Column {
                    width: parent.width
@@ -682,7 +679,6 @@ Page
             id: densityViewLandscape
             width: landscapeView.width/2
             height: landscapeView.height
-            opacity: settings.isRunning ? 0.2 : 1.0
             contentHeight: densityContentLandscape.height
 
         Column
