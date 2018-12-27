@@ -283,7 +283,6 @@ Page
         PullDownMenu {
             MenuItem {
                 text: qsTr("About UI Themer")
-                visible: (bigScreen === false)
                 onClicked: pageStack.push(Qt.resolvedUrl("AboutPage.qml"))
             }
             MenuItem {
@@ -308,7 +307,7 @@ Page
 
             MenuItem {
                 text: qsTr("Restore display density")
-                visible: (bigScreen === true) || (viewsSlideshow.currentIndex === 1)
+                visible: (!bigScreen) && (viewsSlideshow.currentIndex === 1)
 
                 onClicked: {
                     var dlgrestore = pageStack.push("RestoreDDPage.qml", { "settings": settings });
@@ -322,7 +321,7 @@ Page
 
             MenuItem {
                 text: qsTr("Restore theme")
-                visible: (bigScreen === true) || (viewsSlideshow.currentIndex === 0)
+                visible: (!bigScreen) && (viewsSlideshow.currentIndex === 0)
 
                 onClicked: {
                     var dlgrestore = pageStack.push("RestorePage.qml", { "settings": settings });
@@ -634,11 +633,42 @@ Page
         }
 
         ViewPlaceholder {
-            enabled: themepacklistviewLandscape.count == 0
+            enabled: themepacklistview.count == 0
+            width: landscapeView.width/2 - (x * 2)
+            x: Theme.paddingLarge
             text: qsTr("No themes yet")
             hintText: qsTr("Install a compatible theme first")
         }
 
+        footer: Item {
+            width: landscapeView.width/2 - (x * 2)
+            x: Theme.paddingLarge
+
+            Item {
+                width: 1
+                height: Theme.paddingLarge
+            }
+
+            Button {
+                visible: themepacklistview.count > 0
+                anchors.horizontalCenter: parent.horizontalCenter
+                text: qsTr("Restore theme")
+                onClicked: {
+                          var dlgrestore = pageStack.push("RestorePage.qml", { "settings": settings });
+
+                          dlgrestore.accepted.connect(function() {
+                              settings.isRunning = true;
+                              themepackmodel.restore(dlgrestore.restoreIcons, dlgrestore.restoreFonts);
+
+                              if(dlgrestore.restoreFonts)
+                                  settings.deactivateFont();
+
+                              if(dlgrestore.restoreIcons)
+                                  settings.deactivateIcon();
+                          });
+                      }
+            }
+        }
         }
 
         }
@@ -740,6 +770,19 @@ Page
                 LabelText {
                     text: qsTr("Change the size of UI icons. To a greater value corresponds an huger size.<br><br>Remember to restart the homescreen right after.")
                 }
+            }
+
+            Button {
+                anchors.horizontalCenter: parent.horizontalCenter
+                text: qsTr("Restore display density")
+                onClicked: {
+                          var dlgrestore = pageStack.push("RestoreDDPage.qml", { "settings": settings });
+
+                          dlgrestore.accepted.connect(function() {
+                              settings.isRunning = true;
+                              themepackmodel.restoreDpi(dlgrestore.restoreDPR, dlgrestore.restoreADPI);
+                          });
+                      }
             }
 
             Item {

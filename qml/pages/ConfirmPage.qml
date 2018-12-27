@@ -191,16 +191,11 @@ Dialog
                 visible: hasFont
                 spacing: Theme.paddingMedium
 
-                Column {
-                    id: fontpreview
-                    width: parent.width
-                    height: 400
-
                 Loader {
                     id: fontloader
                     source: "../components/FontPreview.qml"
                     width: parent.width
-                    height: 400
+                    height: 350
                     visible: false
 
                     function reload() {
@@ -212,7 +207,7 @@ Dialog
                 Label {
                     id: vphfont
                     width: parent.width - (x * 2)
-                    height: 400
+                    height: 350
                     x: Theme.paddingLarge
                     text: qsTr("Choose a font weight to preview")
                     horizontalAlignment: Text.AlignHCenter
@@ -221,8 +216,6 @@ Dialog
                     truncationMode: TruncationMode.Fade
                     color: Theme.highlightColor
                     font.pixelSize: Theme.fontSizeLarge
-                }
-
                 }
 
                 SectionHeader { text: qsTr("Font weight") }
