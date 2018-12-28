@@ -70,6 +70,8 @@ Dialog
         enabled: !settings.isRunning
         opacity: settings.isRunning ? 0.2 : 1.0
 
+        VerticalScrollDecorator { }
+
         Column
         {
             id: column

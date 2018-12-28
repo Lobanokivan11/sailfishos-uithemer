@@ -79,6 +79,8 @@ SilicaFlickable
     enabled: !settings.isRunning
     opacity: settings.isRunning ? 0.2 : 1.0
 
+    VerticalScrollDecorator { }
+
     ThemePackModel {
                 function applyDone() {
                     notifyDone();
@@ -105,7 +107,8 @@ SilicaFlickable
         property int autoUpdate: 0
     }
 
-    Column {
+    Column
+    {
         id: content
         width: parent.width
         spacing: Theme.paddingMedium
@@ -127,6 +130,14 @@ SilicaFlickable
         }
 
         PageHeader { title: qsTr("Options") }
+
+        Grid {
+            width: parent.width
+            columns: isLandscape ? 2 : 1
+
+        Column
+        {
+            width: isLandscape ? parent.width/2 : parent.width
 
         SectionHeader { text: qsTr("Cover") }
 
@@ -209,6 +220,12 @@ SilicaFlickable
             }
         }
 
+        }
+
+        Column
+        {
+            width: isLandscape ? parent.width/2 : parent.width
+
         SectionHeader { text: qsTr("One-click restore") }
 
         LabelText {
@@ -252,9 +269,12 @@ SilicaFlickable
             height: Theme.paddingLarge
         }
 
+        }
+
+    }  // grid
+
     }
 
-    VerticalScrollDecorator { }
 }
 
 }

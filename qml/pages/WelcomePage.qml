@@ -87,6 +87,8 @@ Page
         enabled: !settings.isRunning
         opacity: settings.isRunning ? 0.2 : 1.0
 
+        VerticalScrollDecorator { }
+
         Column
         {
             id: content
@@ -95,11 +97,19 @@ Page
 
             PageHeader { title: qsTr("Welcome to UI Themer") }
 
-            Item {
-                height: appicon.height + Theme.paddingMedium
+            Grid {
                 width: parent.width
-                Image { id: appicon; anchors.horizontalCenter: parent.horizontalCenter; source: "../../appinfo.png" }
-            }
+                columns: isLandscape ? 2 : 1
+
+            Column
+            {
+                width: isLandscape ? parent.width/2 : parent.width
+
+                Item {
+                    height: appicon.height + Theme.paddingMedium
+                    width: parent.width
+                    Image { id: appicon; anchors.horizontalCenter: parent.horizontalCenter; source: "../../appinfo.png" }
+                }
 
             LabelText {
                 text: qsTr("UI Themer lets you customize icons, fonts and pixel density in Sailfish OS.")
@@ -123,6 +133,12 @@ Page
                  text: qsTr("Usage guide")
                  onClicked: pageStack.push(Qt.resolvedUrl("GuidePage.qml"))
              }
+
+            }
+
+            Column
+            {
+                width: isLandscape ? parent.width/2 : parent.width
 
             SectionHeader { text: qsTr("Dependencies") }
 
@@ -215,6 +231,9 @@ Page
                 }
             }
 
+            }
+            } // grid
+
              Button {
                   id: startuit
                   anchors.horizontalCenter: parent.horizontalCenter
@@ -232,6 +251,5 @@ Page
              }
         }
 
-        VerticalScrollDecorator { }
     }
 }

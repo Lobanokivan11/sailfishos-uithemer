@@ -72,6 +72,8 @@ Dialog
         enabled: !settings.isRunning
         opacity: settings.isRunning ? 0.2 : 1.0
 
+        VerticalScrollDecorator { }
+
         Column
         {
             id: column
@@ -81,6 +83,14 @@ Dialog
             DialogHeader { id: header; acceptText: qsTr("Restore"); cancelText: qsTr("Cancel") }
 
             ConfirmHeader { text: qsTr("Restore") }
+
+            Grid {
+                width: parent.width
+                columns: isLandscape ? 2 : 1
+
+            Column
+            {
+                width: isLandscape ? parent.width/2 : parent.width
 
             IconTextSwitch {
                 id: itsrestoredpr
@@ -96,6 +106,12 @@ Dialog
                 }
             }
 
+            }
+
+            Column
+            {
+                width: isLandscape ? parent.width/2 : parent.width
+
             IconTextSwitch {
                 id: itsrestoreadpi
                 visible: themepack.hasAndroidSupport
@@ -110,6 +126,9 @@ Dialog
                         dlgrestore.canAccept = true
                 }
             }
+
+            }
+            } // grid
 
             LabelText {
                 text: "<br>" + qsTr("Remember to restart the homescreen right after.")

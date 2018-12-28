@@ -69,6 +69,8 @@ Dialog
         enabled: !settings.isRunning
         opacity: settings.isRunning ? 0.2 : 1.0
 
+        VerticalScrollDecorator { }
+
         Column
         {
             id: column
@@ -78,6 +80,14 @@ Dialog
             DialogHeader { id: header; acceptText: qsTr("Continue"); cancelText: qsTr("Cancel") }
 
             ConfirmHeader { text: qsTr("Recovery") }
+
+            Grid {
+                width: parent.width
+                columns: isLandscape ? 2 : 1
+
+            Column
+            {
+                width: isLandscape ? parent.width/2 : parent.width
 
             LabelText {
                 text: qsTr("If any error occurs during themes applying/restoring, you can end up with messed up icons. From here, you can reinstall default Jolla app icons while, for thirdy party apps, you may need to reinstall/update apps to restore the default look.")
@@ -97,6 +107,11 @@ Dialog
                 }
             }
 
+            }
+
+            Column
+            {
+                width: isLandscape ? parent.width/2 : parent.width
             LabelText {
                 text: qsTr("Reinstall default fonts, if font applying/restoring fails.")
             }
@@ -114,6 +129,9 @@ Dialog
                         dlgrecovery.canAccept = true
                 }
             }
+
+            }
+            } // grid
 
             LabelText {
                 text: "<br>" + qsTr("Remember to restart the homescreen right after.")

@@ -101,6 +101,8 @@ Dialog
         enabled: !settings.isRunning
         opacity: settings.isRunning ? 0.2 : 1.0
 
+        VerticalScrollDecorator { }
+
         Column
         {
             id: content
@@ -116,12 +118,19 @@ Dialog
                 visible: hasIcons || hasIconOverlay
             }
 
+            Grid {
+                width: parent.width
+                visible: hasIcons || hasIconOverlay
+                columns: isLandscape ? 2 : 1
+
+            Column
+            {
+                width: isLandscape ? parent.width/2 : parent.width
+
             Column {
                 id: iconpreview
                 width: parent.width
                 height: 450
-                visible: hasIcons || hasIconOverlay
-                spacing: Theme.paddingMedium
                 BusyIndicator { id: busyimg; running: true; size: BusyIndicatorSize.Medium; anchors.centerIn: parent }
                 Image {
                     id: imgpreview
@@ -133,6 +142,13 @@ Dialog
                 }
 
             }
+
+            }
+
+            Column
+            {
+                width: isLandscape ? parent.width/2 : parent.width
+
             IconTextSwitch {
                 id: itsicons
                 automaticCheck: true
@@ -161,35 +177,22 @@ Dialog
                     iconOverlaySelected = itsiconoverlay.checked;
                 }
             }
+            }
+            } // grid
 
             SectionHeader {
                 text: qsTr("Fonts")
                 visible: hasFont || hasFontNonLatin
             }
 
-            IconTextSwitch {
-                id: itsfonts
-                automaticCheck: true
-                text: qsTr("Apply fonts")
-                visible: hasFont || hasFontNonLatin
-                checked: hasFont || hasFontNonLatin
-                enabled: hasFont || hasFontNonLatin
-
-                onClicked: {
-                    fontsSelected = itsfonts.checked;
-
-                    if(!itsfonts.checked && !itsicons.checked)
-                        dlgconfirm.canAccept = false
-                    else
-                        dlgconfirm.canAccept = true
-                }
-            }
-
-            Column {
-                id: fontsettings
+            Grid {
                 width: parent.width
-                visible: hasFont
-                spacing: Theme.paddingMedium
+                visible: hasFont || hasFontNonLatin
+                columns: isLandscape ? 2 : 1
+
+                Column
+                {
+                    width: isLandscape ? parent.width/2 : parent.width
 
                 Loader {
                     id: fontloader
@@ -216,7 +219,37 @@ Dialog
                     truncationMode: TruncationMode.Fade
                     color: Theme.highlightColor
                     font.pixelSize: Theme.fontSizeLarge
+                    visible: hasFont
                 }
+
+                }
+
+                Column
+                {
+                    width: isLandscape ? parent.width/2 : parent.width
+
+            IconTextSwitch {
+                id: itsfonts
+                automaticCheck: true
+                text: qsTr("Apply fonts")
+                visible: hasFont || hasFontNonLatin
+                checked: hasFont || hasFontNonLatin
+                enabled: hasFont || hasFontNonLatin
+
+                onClicked: {
+                    fontsSelected = itsfonts.checked;
+
+                    if(!itsfonts.checked && !itsicons.checked)
+                        dlgconfirm.canAccept = false
+                    else
+                        dlgconfirm.canAccept = true
+                }
+            }
+
+            Column {
+                id: fontsettings
+                width: parent.width
+                visible: hasFont
 
                 SectionHeader { text: qsTr("Font weight") }
 
@@ -248,6 +281,10 @@ Dialog
                     }
                 }
             }
+
+                }
+
+            } // grid
 
                 LabelText {
                     text: "<br>" + qsTr("Remember to restart the homescreen right after.")

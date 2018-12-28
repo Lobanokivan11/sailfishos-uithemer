@@ -72,6 +72,8 @@ Page
         enabled: !settings.isRunning
         opacity: settings.isRunning ? 0.2 : 1.0
 
+        VerticalScrollDecorator { }
+
         Column
         {
             id: content
@@ -79,6 +81,14 @@ Page
             spacing: Theme.paddingMedium
 
             PageHeader { title: qsTr("Usage guide") }
+
+            Grid {
+                width: parent.width
+                columns: isLandscape ? 2 : 1
+
+            Column
+            {
+                width: isLandscape ? parent.width/2 : parent.width
 
             Item {
                 height: appicon.height + Theme.paddingMedium
@@ -128,6 +138,12 @@ Page
                 visible: false
                 text: qsTr("Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. <i>Icon updater</i> will automate this process, enabling automatic update of icons at a given time. You can choose between a pre-defined set of hours or a custom hour of the day.")
             }
+
+            }
+
+            Column
+            {
+                width: isLandscape ? parent.width/2 : parent.width
 
             SectionHeader { text: qsTr("One-click restore") }
 
@@ -191,12 +207,14 @@ Page
                 text: qsTr("If you still can't get the help you need, you can open an issue on <a href='https://github.com/fravaccaro/sailfishos-uithemer/issues'>GitHub</a>.")
             }
 
+            }
+            } // grid
+
             Item {
                 width: 1
                 height: Theme.paddingLarge
             }
         }
 
-        VerticalScrollDecorator { }
     }
 }
