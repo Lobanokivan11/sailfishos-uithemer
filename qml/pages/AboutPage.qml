@@ -47,7 +47,7 @@ Page
         }
 
         if (event.key === Qt.Key_O) {
-            pageStack.replaceAbove(null, Qt.resolvedUrl("OptionsPage.qml"));
+            pageStack.push(Qt.resolvedUrl("OptionsPage.qml"));
             event.accepted = true;
         }
 
