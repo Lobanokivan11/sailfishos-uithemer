@@ -41,10 +41,8 @@ Page
                 onUninstallCompleted: notifyDone()
                 onDpiRestored: {
                     sladpi.value = themepack.droidDPI;
-                    sladpiLandscape.value = themepack.droidDPI;
                     silica.sync();
                     sldpr.value = silica.theme_pixel_ratio;
-                    sldprLandscape.value = silica.theme_pixel_ratio;
                     applyDone()
                 }
             }
@@ -260,8 +258,11 @@ Page
     }
 
     SilicaFlickable {
-        anchors.fill: parent
-        anchors.bottomMargin: dockedbar.height
+        anchors {
+            fill: parent
+            bottomMargin: isPortrait ? dockedbar.height : 0
+            rightMargin: isLandscape ? dockedbarLandscape.width : 0
+        }
         clip: true
         enabled: !settings.isRunning
         opacity: settings.isRunning ? 0.2 : 1.0
@@ -278,17 +279,6 @@ Page
             MenuItem {
                 text: qsTr("Options")
                 onClicked: pageStack.push(Qt.resolvedUrl("OptionsPage.qml"))
-            }
-
-            MenuItem {
-                text: qsTr("Restart homescreen")
-                onClicked: {
-                    var dlgrestart = pageStack.push("RestartHSPage.qml");
-                    dlgrestart.accepted.connect(function() {
-                            themepack.restartHomescreen();
-                            console.log("homescreen restart");
-                    });
-                }
             }
 
             MenuItem {
@@ -442,7 +432,6 @@ Page
         {
             id: densityContent
             width: parent.width
-            spacing: Theme.paddingMedium
 
             PageHeader { title: qsTr("Display density") }
 
@@ -478,7 +467,7 @@ Page
                 }
 
                 LabelText {
-                    text: qsTr("Change the display pixel ratio. To a smaller value corresponds an higher density.<br><br>Remember to restart the homescreen right after.")
+                    text: qsTr("Change the display pixel ratio. To a smaller value corresponds an higher density.")
                 }
             }
 
@@ -504,7 +493,7 @@ Page
                 }
 
                 LabelText {
-                    text: qsTr("Change the Android DPI value. To a smaller value corresponds an higher density.<br><br>Remember to restart the Android support or the homescreen right after.")
+                    text: qsTr("Change the Android DPI value. To a smaller value corresponds an higher density.")
                 }
             }
 
@@ -536,10 +525,13 @@ Page
                 }
 
                 LabelText {
-                    text: qsTr("Change the size of UI icons. To a greater value corresponds an huger size.<br><br>Remember to restart the homescreen right after.")
+                    text: qsTr("Change the size of UI icons. To a greater value corresponds an huger size.")
                 }
             }
 
+                LabelText {
+                    text: qsTr("Remember to restart the homescreen (from the <i>Options</i> page) right after you have changed the settings in this page.")
+                }
             }
             } // grid
 
@@ -560,10 +552,68 @@ Page
 
     Item
     {
+        id: dockedbarLandscape
+        width: Theme.itemSizeLarge
+        height: parent.height
+        anchors {top: parent.top; right: parent.right}
+        visible: isLandscape
+        enabled: !settings.isRunning
+        opacity: settings.isRunning ? 0.2 : 1.0
+        Separator {
+             id: dockedbarLandscapeSeparator
+             width: parent.height
+             color: Theme.primaryColor
+             horizontalAlignment: Qt.AlignHCenter
+             anchors.top: parent.top
+             anchors.topMargin: Theme.paddingSmall
+             transform: Rotation { angle: 90 }
+        }
+
+        BackgroundRectangle { anchors.fill: parent }
+
+        Column {
+            width: parent.width
+            height: parent.height
+
+            Item {
+                id: densityButtonLandscape
+                width: parent.width
+                height: parent.height/2
+                IconButton {
+                    width: parent.width
+                    height: parent.height
+                    anchors.verticalCenter: parent.verticalCenter
+                    anchors.centerIn: parent
+                    icon.source: densityButton.isActive ? "image://theme/icon-m-scale?" + Theme.highlightColor : "image://theme/icon-m-scale?" + Theme.primaryColor
+                    onClicked: { handleDisplayClicked(); }
+                }
+            }
+
+        Item {
+            id: homeButtonLandscape
+            width: parent.width
+            height: parent.height/2
+            IconButton {
+                width: parent.width
+                height: parent.height
+                anchors.verticalCenter: parent.verticalCenter
+                anchors.centerIn: parent
+                icon.source: homeButton.isActive ? "image://theme/icon-m-home?" + Theme.highlightColor : "image://theme/icon-m-home?" + Theme.primaryColor
+                onClicked: { handleHomeClicked(); }
+            }
+        }
+
+        }
+
+    }
+
+    Item
+    {
 
         id: dockedbar
         width: parent.width
         height: Theme.itemSizeLarge
+        visible: isPortrait
         enabled: !settings.isRunning
         opacity: settings.isRunning ? 0.2 : 1.0
         anchors { left: parent.left; bottom: parent.bottom; right: parent.right }
@@ -581,12 +631,11 @@ Page
             Item {
                 id: homeButton
                 property bool isActive: false
-
                 width: dockedbar.width/2
-                height: Theme.itemSizeLarge
+                height: dockedbar.height
                 IconButton {
-                    width: Theme.iconSizeMedium
-                    height: Theme.iconSizeMedium
+                    width: dockedbar.width/2
+                    height: dockedbar.height
                     anchors.centerIn: parent
                     icon.source: homeButton.isActive ? "image://theme/icon-m-home?" + Theme.highlightColor : "image://theme/icon-m-home?" + Theme.primaryColor
                     onClicked: { handleHomeClicked(); }
@@ -596,12 +645,11 @@ Page
             Item {
                 id: densityButton
                 property bool isActive: false
-
                 width: dockedbar.width/2
-                height: Theme.itemSizeLarge
+                height: dockedbar.height
                 IconButton {
-                    width: Theme.iconSizeMedium
-                    height: Theme.iconSizeMedium
+                    width: dockedbar.width/2
+                    height: dockedbar.height
                     anchors.centerIn: parent
                     icon.source: densityButton.isActive ? "image://theme/icon-m-scale?" + Theme.highlightColor : "image://theme/icon-m-scale?" + Theme.primaryColor
                     onClicked: { handleDisplayClicked(); }

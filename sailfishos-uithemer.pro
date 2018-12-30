@@ -1,37 +1,15 @@
 TARGET = sailfishos-uithemer
 
-MY_FILES = \
-other/apply.sh \
-other/iconspreview.sh \
-other/reapply_icons.sh \
-other/restore.sh \
-other/apply_font.sh \
-other/homescreen.sh \
-other/apply_adpi.sh \
-other/restore_dpi.sh \
-other/ocr.sh \
-other/recovery.sh \
-other/restore_iz.sh \
-other/apply_hours.sh \
-other/disable_service.sh \
-other/enable_service.sh \
-other/reinstall_fonts.sh \
-other/reinstall_icons.sh \
-other/install_dependencies.sh \
-other/install_imagemagick.sh \
-other/post_update.sh \
-other/coverbg.png \
-other/appinfo.png
+scripts.files = scripts/*
+scripts.path = $$PREFIX/share/$$TARGET/scripts
 
-appicons.path = /usr/share/icons/hicolor/
+images.files = images/*
+images.path = $$PREFIX/share/$$TARGET/images
+
 appicons.files = appicons/*
+appicons.path = /usr/share/icons/hicolor/
 
-OTHER_SOURCES += $$MY_FILES
-
-my_resources.path = $$PREFIX/share/$$TARGET
-my_resources.files = $$MY_FILES
-
-INSTALLS += my_resources appicons
+INSTALLS += scripts images appicons
 
 CONFIG += sailfishapp c++11
 
@@ -68,8 +46,6 @@ OTHER_FILES += \
     qml/js/*.js \
     rpm/* \
     sailfishos-uithemer.desktop \
-
-SAILFISHAPP_ICONS = 86x86
 
 CONFIG += sailfishapp_i18n
 

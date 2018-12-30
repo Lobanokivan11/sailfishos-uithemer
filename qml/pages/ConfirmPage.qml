@@ -107,7 +107,6 @@ Dialog
         {
             id: content
             width: parent.width
-            spacing: Theme.paddingMedium
 
             DialogHeader { id: header; cancelText: qsTr("Cancel"); acceptText: qsTr("Apply") }
 

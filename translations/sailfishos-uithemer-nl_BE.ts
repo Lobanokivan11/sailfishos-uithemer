@@ -60,14 +60,6 @@
         <translation>Vertalingen</translation>
     </message>
     <message>
-        <source>Request a new language or contribute to existing languages on the Transifex project page.</source>
-        <translation>Vraagd een nieuwe vertaling aan of draagd bij aan bestaande vertalingen op Transifex.</translation>
-    </message>
-    <message>
-        <source>Transifex</source>
-        <translation>Transifex</translation>
-    </message>
-    <message>
         <source>Released under the &lt;a href=&apos;https://www.gnu.org/licenses/gpl-3.0&apos;&gt;GNU GPLv3&lt;/a&gt; license.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -301,19 +293,11 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Restart homescreen</source>
-        <translation type="unfinished">Startscherm herstarten</translation>
-    </message>
-    <message>
         <source>Display density</source>
         <translation type="unfinished">Pixeldichtheid</translation>
     </message>
     <message>
         <source>Device pixel ratio</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Change the display pixel ratio. To a smaller value corresponds an higher density.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -325,15 +309,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Change the Android DPI value. To a smaller value corresponds an higher density.&lt;br&gt;&lt;br&gt;Remember to restart the Android support or the homescreen right after.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Icon size</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Change the size of UI icons. To a greater value corresponds an huger size.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -342,6 +318,22 @@
     </message>
     <message>
         <source>Restore display density</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Change the display pixel ratio. To a smaller value corresponds an higher density.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Change the Android DPI value. To a smaller value corresponds an higher density.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Change the size of UI icons. To a greater value corresponds an huger size.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remember to restart the homescreen (from the &lt;i&gt;Options&lt;/i&gt; page) right after you have changed the settings in this page.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -489,6 +481,14 @@
         <source>Second cover action</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Restart homescreen</source>
+        <translation type="unfinished">Startscherm herstarten</translation>
+    </message>
+    <message>
+        <source>Restart</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>RecoveryPage</name>
@@ -615,6 +615,21 @@
     <message>
         <source>icons</source>
         <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>TranslatorPage</name>
+    <message>
+        <source>Translations</source>
+        <translation type="unfinished">Vertalingen</translation>
+    </message>
+    <message>
+        <source>Request a new language or contribute to existing languages on the Transifex project page.</source>
+        <translation type="unfinished">Vraagd een nieuwe vertaling aan of draagd bij aan bestaande vertalingen op Transifex.</translation>
+    </message>
+    <message>
+        <source>Transifex</source>
+        <translation type="unfinished">Transifex</translation>
     </message>
 </context>
 <context>

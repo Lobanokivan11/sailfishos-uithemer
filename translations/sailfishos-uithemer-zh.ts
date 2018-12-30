@@ -60,14 +60,6 @@
         <translation>翻译</translation>
     </message>
     <message>
-        <source>Request a new language or contribute to existing languages on the Transifex project page.</source>
-        <translation> 在Transifex项目页请求新的语言或翻译现有语言。</translation>
-    </message>
-    <message>
-        <source>Transifex</source>
-        <translation> Transifex</translation>
-    </message>
-    <message>
         <source>Released under the &lt;a href=&apos;https://www.gnu.org/licenses/gpl-3.0&apos;&gt;GNU GPLv3&lt;/a&gt; license.</source>
         <translation>在 &lt;a href=&apos;https://www.gnu.org/licenses/gpl-3.0&apos;&gt;GNU GPLv3&lt;/a&gt; 许可下发布。</translation>
     </message>
@@ -302,20 +294,12 @@
         <translation>操作</translation>
     </message>
     <message>
-        <source>Restart homescreen</source>
-        <translation>重启主屏幕</translation>
-    </message>
-    <message>
         <source>Display density</source>
         <translation>显示密度</translation>
     </message>
     <message>
         <source>Device pixel ratio</source>
         <translation>设备像素比例</translation>
-    </message>
-    <message>
-        <source>Change the display pixel ratio. To a smaller value corresponds an higher density.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
-        <translation>改变显示像素比例，到更小的值、更高的密度。记住之后立刻重启主屏幕。</translation>
     </message>
     <message>
         <source>Android DPI</source>
@@ -326,16 +310,8 @@
         <translation>Android DPI 值</translation>
     </message>
     <message>
-        <source>Change the Android DPI value. To a smaller value corresponds an higher density.&lt;br&gt;&lt;br&gt;Remember to restart the Android support or the homescreen right after.</source>
-        <translation>改变Android DPI值到更小的值、更高的密度。&lt;br&gt;&lt;br&gt;记住之后重启Android 支持或主屏幕。</translation>
-    </message>
-    <message>
         <source>Icon size</source>
         <translation>图标大小</translation>
-    </message>
-    <message>
-        <source>Change the size of UI icons. To a greater value corresponds an huger size.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
-        <translation>改变UI图标的尺寸到一个更高的值、更大的尺寸。</translation>
     </message>
     <message>
         <source>Restore theme</source>
@@ -344,6 +320,22 @@
     <message>
         <source>Restore display density</source>
         <translation>恢复显示密度</translation>
+    </message>
+    <message>
+        <source>Change the display pixel ratio. To a smaller value corresponds an higher density.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Change the Android DPI value. To a smaller value corresponds an higher density.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Change the size of UI icons. To a greater value corresponds an huger size.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remember to restart the homescreen (from the &lt;i&gt;Options&lt;/i&gt; page) right after you have changed the settings in this page.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -490,6 +482,14 @@
         <source>Second cover action</source>
         <translation>间接封面操作</translation>
     </message>
+    <message>
+        <source>Restart homescreen</source>
+        <translation type="unfinished">重启主屏幕</translation>
+    </message>
+    <message>
+        <source>Restart</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>RecoveryPage</name>
@@ -616,6 +616,21 @@
     <message>
         <source>icons</source>
         <translation>图标</translation>
+    </message>
+</context>
+<context>
+    <name>TranslatorPage</name>
+    <message>
+        <source>Translations</source>
+        <translation type="unfinished">翻译</translation>
+    </message>
+    <message>
+        <source>Request a new language or contribute to existing languages on the Transifex project page.</source>
+        <translation type="unfinished"> 在Transifex项目页请求新的语言或翻译现有语言。</translation>
+    </message>
+    <message>
+        <source>Transifex</source>
+        <translation type="unfinished"> Transifex</translation>
     </message>
 </context>
 <context>

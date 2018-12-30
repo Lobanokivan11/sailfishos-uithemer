@@ -76,7 +76,6 @@ Page
         {
             id: content
             width: parent.width
-            spacing: Theme.paddingMedium
 
             PageHeader { title: qsTr("About UI Themer") }
 
@@ -91,7 +90,7 @@ Page
             Item {
                 height: appicon.height + Theme.paddingMedium
                 width: parent.width
-                Image { id: appicon; anchors.horizontalCenter: parent.horizontalCenter; source: "../../appinfo.png" }
+                Image { id: appicon; anchors.horizontalCenter: parent.horizontalCenter; source: "../../images/appinfo.png" }
             }
 
             Label {
@@ -175,62 +174,10 @@ Page
                   text: qsTr("Thanks to Dax89 and all the testers for help and patience.")
                }
 
-              SectionHeader { text: qsTr("Translations") }
-
-              AboutLanguage { text: "Deutsch" }
-              AboutTranslator { text: "Sailfishman" }
-              AboutTranslator { text: "mosen" }
-              Item { width: parent.width; height: Theme.paddingLarge }
-
-              AboutLanguage { text: "Español" }
-              AboutTranslator { text: "mad_soft" }
-              Item { width: parent.width; height: Theme.paddingLarge }
-
-              AboutLanguage { text: "Español (España)" }
-              AboutTranslator { text: "mad_soft" }
-              Item { width: parent.width; height: Theme.paddingLarge }
-
-              AboutLanguage { text: "Français" }
-              AboutTranslator { text: "Ohaneje Emeka" }
-              AboutTranslator { text: "Cédric Heintz" }
-              Item { width: parent.width; height: Theme.paddingLarge }
-
-              AboutLanguage { text: "Italiano" }
-              AboutTranslator { text: "Francesco Vaccaro" }
-              Item { width: parent.width; height: Theme.paddingLarge }
-
-              AboutLanguage { text: "Magyar" }
-              AboutTranslator { text: "Szabó G." }
-              Item { width: parent.width; height: Theme.paddingLarge }
-
-              AboutLanguage { text: "Nederlands" }
-              AboutTranslator { text: "Nathan Follens" }
-              Item { width: parent.width; height: Theme.paddingLarge }
-
-              AboutLanguage { text: "Neerlandais (Belgique)" }
-              AboutTranslator { text: "Nathan Follens" }
-              Item { width: parent.width; height: Theme.paddingLarge }
-
-              AboutLanguage { text: "Polski" }
-              AboutTranslator { text: "Tomasz Amborski" }
-              Item { width: parent.width; height: Theme.paddingLarge }
-
-              AboutLanguage { text: "Svenska" }
-              AboutTranslator { text: "Åke Engelbrektson" }
-              Item { width: parent.width; height: Theme.paddingLarge }
-
-              AboutLanguage { text: "Zhōngwén (Chinese)" }
-              AboutTranslator { text: "rui kon" }
-              Item { width: parent.width; height: Theme.paddingLarge }
-
-              LabelText {
-                  text: qsTr("Request a new language or contribute to existing languages on the Transifex project page.")
-              }
-
               Button {
                   anchors.horizontalCenter: parent.horizontalCenter
-                  text: qsTr("Transifex")
-                  onClicked: Qt.openUrlExternally("https://www.transifex.com/fravaccaro/ui-themer")
+                  text: qsTr("Translations")
+                  onClicked: pageStack.push(Qt.resolvedUrl("TranslatorPage.qml"))
               }
 
         }

@@ -93,7 +93,6 @@ Page
         {
             id: content
             width: parent.width
-            spacing: Theme.paddingMedium
 
             PageHeader { title: qsTr("Welcome to UI Themer") }
 
@@ -108,7 +107,7 @@ Page
                 Item {
                     height: appicon.height + Theme.paddingMedium
                     width: parent.width
-                    Image { id: appicon; anchors.horizontalCenter: parent.horizontalCenter; source: "../../appinfo.png" }
+                    Image { id: appicon; anchors.horizontalCenter: parent.horizontalCenter; source: "../../images/appinfo.png" }
                 }
 
             LabelText {

@@ -60,14 +60,6 @@
         <translation>Traduzioni</translation>
     </message>
     <message>
-        <source>Request a new language or contribute to existing languages on the Transifex project page.</source>
-        <translation>Richiedi una nuova lingua o contribuisci a quelle esistenti sulla pagina del progetto di Transifex.</translation>
-    </message>
-    <message>
-        <source>Transifex</source>
-        <translation>Transifex</translation>
-    </message>
-    <message>
         <source>Released under the &lt;a href=&apos;https://www.gnu.org/licenses/gpl-3.0&apos;&gt;GNU GPLv3&lt;/a&gt; license.</source>
         <translation>Rilasciato sotto licenza &lt;a href=&apos;https://www.gnu.org/licenses/gpl-3.0&apos;&gt;GNU GPLv3&lt;/a&gt;.</translation>
     </message>
@@ -301,20 +293,12 @@
         <translation>Opzioni</translation>
     </message>
     <message>
-        <source>Restart homescreen</source>
-        <translation>Riavvia homescreen</translation>
-    </message>
-    <message>
         <source>Display density</source>
         <translation>Densità display</translation>
     </message>
     <message>
         <source>Device pixel ratio</source>
         <translation>Device pixel ratio</translation>
-    </message>
-    <message>
-        <source>Change the display pixel ratio. To a smaller value corresponds an higher density.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
-        <translation>Cambia il display pixel ratio. A un valore minore corrisponde una maggiore densità.&lt;br&gt;&lt;br&gt;Ricorda di riavviare la homescreen subito dopo.</translation>
     </message>
     <message>
         <source>Android DPI</source>
@@ -325,16 +309,8 @@
         <translation>Valore DPI Android</translation>
     </message>
     <message>
-        <source>Change the Android DPI value. To a smaller value corresponds an higher density.&lt;br&gt;&lt;br&gt;Remember to restart the Android support or the homescreen right after.</source>
-        <translation>Cambia il DPI Android. A un valore minore corrisponde una maggiore densità.&lt;br&gt;&lt;br&gt;Ricorda di riavviare il supporto Android o la homescreen subito dopo.</translation>
-    </message>
-    <message>
         <source>Icon size</source>
         <translation>Dimensione icone</translation>
-    </message>
-    <message>
-        <source>Change the size of UI icons. To a greater value corresponds an huger size.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
-        <translation>Cambia la dimensione delle icone della UI. A un valore maggiore corrisponde una dimensione maggiore.&lt;br&gt;&lt;br&gt;Ricorda di riavviare la homescreen subito dopo.</translation>
     </message>
     <message>
         <source>Restore theme</source>
@@ -343,6 +319,22 @@
     <message>
         <source>Restore display density</source>
         <translation>Ripristina densità display</translation>
+    </message>
+    <message>
+        <source>Change the display pixel ratio. To a smaller value corresponds an higher density.</source>
+        <translation>Cambia il display pixel ratio. A un valore minore corrisponde una maggiore densità.</translation>
+    </message>
+    <message>
+        <source>Change the Android DPI value. To a smaller value corresponds an higher density.</source>
+        <translation>Cambia il DPI Android. A un valore minore corrisponde una maggiore densità.</translation>
+    </message>
+    <message>
+        <source>Change the size of UI icons. To a greater value corresponds an huger size.</source>
+        <translation>Cambia la dimensione delle icone della UI. A un valore maggiore corrisponde una dimensione maggiore.</translation>
+    </message>
+    <message>
+        <source>Remember to restart the homescreen (from the &lt;i&gt;Options&lt;/i&gt; page) right after you have changed the settings in this page.</source>
+        <translation>Ricorda di riavviare la homescreen (dalla pagina &lt;i&gt;Opzioni&lt;/i&gt;) subito dopo aver cambiato i settaggi in questa pagina.</translation>
     </message>
 </context>
 <context>
@@ -489,6 +481,14 @@
         <source>Second cover action</source>
         <translation>Seconda azione cover</translation>
     </message>
+    <message>
+        <source>Restart homescreen</source>
+        <translation>Riavvia homescreen</translation>
+    </message>
+    <message>
+        <source>Restart</source>
+        <translation>Riavvia</translation>
+    </message>
 </context>
 <context>
     <name>RecoveryPage</name>
@@ -615,6 +615,21 @@
     <message>
         <source>icons</source>
         <translation>icone</translation>
+    </message>
+</context>
+<context>
+    <name>TranslatorPage</name>
+    <message>
+        <source>Translations</source>
+        <translation>Traduzioni</translation>
+    </message>
+    <message>
+        <source>Request a new language or contribute to existing languages on the Transifex project page.</source>
+        <translation>Richiedi una nuova lingua o contribuisci a quelle esistenti sulla pagina del progetto di Transifex.</translation>
+    </message>
+    <message>
+        <source>Transifex</source>
+        <translation>Transifex</translation>
     </message>
 </context>
 <context>

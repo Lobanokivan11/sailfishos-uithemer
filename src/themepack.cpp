@@ -52,37 +52,37 @@ QString ThemePack::whoami() const
 void ThemePack::restartHomescreen() const
 {
     setuid_ex(0);
-    Spawner::execute("/usr/share/sailfishos-uithemer/homescreen.sh", [this]() { emit homescreenRestarted(); });
+    Spawner::execute("/usr/share/sailfishos-uithemer/scripts/homescreen.sh", [this]() { emit homescreenRestarted(); });
 }
 
 void ThemePack::installDependencies() const
 {
     setuid_ex(0);
-    Spawner::execute("/usr/share/sailfishos-uithemer/install_dependencies.sh", [this]() { emit dependenciesInstalled(); });
+    Spawner::execute("/usr/share/sailfishos-uithemer/scripts/install_dependencies.sh", [this]() { emit dependenciesInstalled(); });
 }
 
 void ThemePack::installImageMagick() const
 {
     setuid_ex(0);
-    Spawner::execute("/usr/share/sailfishos-uithemer/install_imagemagick.sh", [this]() { emit imageMagickInstalled(); });
+    Spawner::execute("/usr/share/sailfishos-uithemer/scripts/install_imagemagick.sh", [this]() { emit imageMagickInstalled(); });
 }
 
 void ThemePack::restoreIZ() const
 {
     setuid_ex(0);
-    Spawner::executeSync("/usr/share/sailfishos-uithemer/restore_iz.sh");
+    Spawner::executeSync("/usr/share/sailfishos-uithemer/scripts/restore_iz.sh");
 }
 
 void ThemePack::enableService() const
 {
     setuid_ex(0);
-    Spawner::executeSync("/usr/share/sailfishos-uithemer/enable_service.sh");
+    Spawner::executeSync("/usr/share/sailfishos-uithemer/scripts/enable_service.sh");
 }
 
 void ThemePack::disableService() const
 {
     setuid_ex(0);
-    Spawner::executeSync("/usr/share/sailfishos-uithemer/disable_service.sh");
+    Spawner::executeSync("/usr/share/sailfishos-uithemer/scripts/disable_service.sh");
 }
 
 QString ThemePack::getTimer() const
@@ -92,7 +92,7 @@ QString ThemePack::getTimer() const
 
 void ThemePack::applyHours(const QString& hours) const
 {
-    Spawner::executeSync("/usr/share/sailfishos-uithemer/apply_hours.sh " + hours);
+    Spawner::executeSync("/usr/share/sailfishos-uithemer/scripts/apply_hours.sh " + hours);
 }
  
 void ThemePack::hideIcon() const

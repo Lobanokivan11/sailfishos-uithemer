@@ -36,7 +36,7 @@ bool ThemePackModel::hasCapability(int index, const QString &capability) const
 
 void ThemePackModel::applyIcons(int index, bool notify, bool overlay) const
 {
-    Spawner::execute("/usr/share/sailfishos-uithemer/apply.sh", SPAWN_ARGS(RAW_PACK_NAME(this->_packlist[index]) << QString::number(overlay)), [this, notify]() {
+    Spawner::execute("/usr/share/sailfishos-uithemer/scripts/apply.sh", SPAWN_ARGS(RAW_PACK_NAME(this->_packlist[index]) << QString::number(overlay)), [this, notify]() {
         if(!notify)
             return;
 
@@ -46,43 +46,43 @@ void ThemePackModel::applyIcons(int index, bool notify, bool overlay) const
 
 void ThemePackModel::applyFonts(int index, const QString &font) const
 {
-    Spawner::execute("/usr/share/sailfishos-uithemer/apply_font.sh", SPAWN_ARGS(RAW_PACK_NAME(this->_packlist[index]) << font), [this]() { emit fontApplied(); });
+    Spawner::execute("/usr/share/sailfishos-uithemer/scripts/apply_font.sh", SPAWN_ARGS(RAW_PACK_NAME(this->_packlist[index]) << font), [this]() { emit fontApplied(); });
 }
 
 void ThemePackModel::reapplyIcons() const
 {
-    Spawner::execute("/usr/share/sailfishos-uithemer/reapply_icons.sh", [this]() { emit iconReapplied(); });
+    Spawner::execute("/usr/share/sailfishos-uithemer/scripts/reapply_icons.sh", [this]() { emit iconReapplied(); });
 
 }
 
 void ThemePackModel::iconsPreview(int index) const
 {
-    Spawner::execute("/usr/share/sailfishos-uithemer/iconspreview.sh", SPAWN_ARGS(RAW_PACK_NAME(this->_packlist[index])), [this]() { emit iconsPreviewed(); });
+    Spawner::execute("/usr/share/sailfishos-uithemer/scripts/iconspreview.sh", SPAWN_ARGS(RAW_PACK_NAME(this->_packlist[index])), [this]() { emit iconsPreviewed(); });
 }
 
 void ThemePackModel::restore(bool icons, bool fonts)
 {
-    Spawner::execute("/usr/share/sailfishos-uithemer/restore.sh", SPAWN_ARGS(QString::number(icons) << QString::number(fonts)), [this]() { emit fontApplied(); });
+    Spawner::execute("/usr/share/sailfishos-uithemer/scripts/restore.sh", SPAWN_ARGS(QString::number(icons) << QString::number(fonts)), [this]() { emit fontApplied(); });
 }
 
 void ThemePackModel::applyADPI(const QString& adpi)
 {
-    Spawner::executeSync("/usr/share/sailfishos-uithemer/apply_adpi.sh " + adpi);
+    Spawner::executeSync("/usr/share/sailfishos-uithemer/scripts/apply_adpi.sh " + adpi);
 }
 
 void ThemePackModel::restoreDpi(bool dpr, bool adpi)
 {
-    Spawner::execute("/usr/share/sailfishos-uithemer/restore_dpi.sh", SPAWN_ARGS(QString::number(dpr) << QString::number(adpi)), [this]() { emit dpiRestored(); });
+    Spawner::execute("/usr/share/sailfishos-uithemer/scripts/restore_dpi.sh", SPAWN_ARGS(QString::number(dpr) << QString::number(adpi)), [this]() { emit dpiRestored(); });
 }
 
 void ThemePackModel::ocr() const
 {
-    Spawner::execute("/usr/share/sailfishos-uithemer/ocr.sh", [this]() { emit ocrRestored(); });
+    Spawner::execute("/usr/share/sailfishos-uithemer/scripts/ocr.sh", [this]() { emit ocrRestored(); });
 }
 
 void ThemePackModel::recovery(bool icons, bool fonts)
 {
-    Spawner::execute("/usr/share/sailfishos-uithemer/recovery.sh", SPAWN_ARGS(QString::number(icons) << QString::number(fonts)), [this]() { emit recovered(); });
+    Spawner::execute("/usr/share/sailfishos-uithemer/scripts/recovery.sh", SPAWN_ARGS(QString::number(icons) << QString::number(fonts)), [this]() { emit recovered(); });
 }
 
 void ThemePackModel::uninstall(int index)

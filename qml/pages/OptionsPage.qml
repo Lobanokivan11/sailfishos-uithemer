@@ -107,27 +107,26 @@ SilicaFlickable
         property int autoUpdate: 0
     }
 
+    PullDownMenu
+    {
+        MenuItem {
+            text: qsTr("About UI Themer")
+            onClicked: pageStack.push(Qt.resolvedUrl("AboutPage.qml"))
+        }
+        MenuItem {
+            text: qsTr("Usage guide")
+            onClicked: pageStack.push(Qt.resolvedUrl("GuidePage.qml"))
+        }
+        MenuItem {
+            text: qsTr("Restart first run wizard")
+            onClicked: pageStack.replaceAbove(null, Qt.resolvedUrl("WelcomePage.qml"))
+        }
+    }
+
     Column
     {
         id: content
         width: parent.width
-        spacing: Theme.paddingMedium
-
-        PullDownMenu
-        {
-            MenuItem {
-                text: qsTr("About UI Themer")
-                onClicked: pageStack.push(Qt.resolvedUrl("AboutPage.qml"))
-            }
-            MenuItem {
-                text: qsTr("Usage guide")
-                onClicked: pageStack.push(Qt.resolvedUrl("GuidePage.qml"))
-            }
-            MenuItem {
-                text: qsTr("Restart first run wizard")
-                onClicked: pageStack.replaceAbove(null, Qt.resolvedUrl("WelcomePage.qml"))
-            }
-        }
 
         PageHeader { title: qsTr("Options") }
 
@@ -139,46 +138,39 @@ SilicaFlickable
         {
             width: isLandscape ? parent.width/2 : parent.width
 
-        SectionHeader { text: qsTr("Cover") }
+            SectionHeader { text: qsTr("Restart homescreen") }
 
-        ComboBox {
-            function saveCoverAction(action) {
-                conf.coverAction1 = action;
-                conf.sync();
+            Button {
+                anchors.horizontalCenter: parent.horizontalCenter
+                text: qsTr("Restart")
+                onClicked: {
+                    var dlgrestart = pageStack.push("RestartHSPage.qml");
+                    dlgrestart.accepted.connect(function() {
+                            themepack.restartHomescreen();
+                            console.log("homescreen restart");
+                    });
+                }
             }
 
-            id: cbxca1
-            width: parent.width
-            label: qsTr("Cover action")
-            currentIndex: conf.coverAction1
+            SectionHeader { text: qsTr("One-click restore") }
 
-            menu: ContextMenu {
-                MenuItem { text: qsTr("refresh current theme"); onClicked: cbxca1.saveCoverAction(0) }
-                MenuItem { text: qsTr("restart homescreen"); onClicked: cbxca1.saveCoverAction(1) }
-                MenuItem { text: qsTr("one-click restore"); onClicked: cbxca1.saveCoverAction(2) }
-                MenuItem { text: qsTr("none"); onClicked: cbxca1.saveCoverAction(3) }
-            }
-        }
-
-        ComboBox {
-            function saveCoverAction(action) {
-                conf.coverAction2 = action;
-                conf.sync();
+            LabelText {
+                text: qsTr("UI Themer customizations must be reverted before performing a system update. With <i>One-click restore</i> you can automate this process and restore icons, fonts and display density settings with just one click.")
             }
 
-            id: cbxca2
-            enabled: conf.coverAction1 !== 3
-            width: parent.width
-            label: qsTr("Second cover action")
-            currentIndex: conf.coverAction2
-
-            menu: ContextMenu {
-                MenuItem { text: qsTr("refresh current theme"); onClicked: cbxca2.saveCoverAction(0) }
-                MenuItem { text: qsTr("restart homescreen"); onClicked: cbxca2.saveCoverAction(1) }
-                MenuItem { text: qsTr("one-click restore"); onClicked: cbxca2.saveCoverAction(2) }
-                MenuItem { text: qsTr("none"); onClicked: cbxca2.saveCoverAction(3) }
+            Button {
+                anchors.horizontalCenter: parent.horizontalCenter
+                text: qsTr("Restore")
+                onClicked: {
+                    var dlgocr = pageStack.push("OCRPage.qml", { "settings": settings });
+                    dlgocr.accepted.connect(function() {
+                        settings.isRunning = true;
+                        settings.deactivateFont();
+                        settings.deactivateIcon();
+                        themepackmodel.ocr();
+                    });
+                }
             }
-        }
 
         SectionHeader { visible: false; text: qsTr("Icon updater") }
 
@@ -226,25 +218,46 @@ SilicaFlickable
         {
             width: isLandscape ? parent.width/2 : parent.width
 
-        SectionHeader { text: qsTr("One-click restore") }
+            SectionHeader { text: qsTr("Cover") }
 
-        LabelText {
-            text: qsTr("UI Themer customizations must be reverted before performing a system update. With <i>One-click restore</i> you can automate this process and restore icons, fonts and display density settings with just one click.")
-        }
+            ComboBox {
+                function saveCoverAction(action) {
+                    conf.coverAction1 = action;
+                    conf.sync();
+                }
 
-        Button {
-            anchors.horizontalCenter: parent.horizontalCenter
-            text: qsTr("Restore")
-            onClicked: {
-                var dlgocr = pageStack.push("OCRPage.qml", { "settings": settings });
-                dlgocr.accepted.connect(function() {
-                    settings.isRunning = true;
-                    settings.deactivateFont();
-                    settings.deactivateIcon();
-                    themepackmodel.ocr();
-                });
+                id: cbxca1
+                width: parent.width
+                label: qsTr("Cover action")
+                currentIndex: conf.coverAction1
+
+                menu: ContextMenu {
+                    MenuItem { text: qsTr("refresh current theme"); onClicked: cbxca1.saveCoverAction(0) }
+                    MenuItem { text: qsTr("restart homescreen"); onClicked: cbxca1.saveCoverAction(1) }
+                    MenuItem { text: qsTr("one-click restore"); onClicked: cbxca1.saveCoverAction(2) }
+                    MenuItem { text: qsTr("none"); onClicked: cbxca1.saveCoverAction(3) }
+                }
             }
-        }
+
+            ComboBox {
+                function saveCoverAction(action) {
+                    conf.coverAction2 = action;
+                    conf.sync();
+                }
+
+                id: cbxca2
+                enabled: conf.coverAction1 !== 3
+                width: parent.width
+                label: qsTr("Second cover action")
+                currentIndex: conf.coverAction2
+
+                menu: ContextMenu {
+                    MenuItem { text: qsTr("refresh current theme"); onClicked: cbxca2.saveCoverAction(0) }
+                    MenuItem { text: qsTr("restart homescreen"); onClicked: cbxca2.saveCoverAction(1) }
+                    MenuItem { text: qsTr("one-click restore"); onClicked: cbxca2.saveCoverAction(2) }
+                    MenuItem { text: qsTr("none"); onClicked: cbxca2.saveCoverAction(3) }
+                }
+            }
 
         SectionHeader { text: qsTr("Recovery") }
 

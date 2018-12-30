@@ -71,7 +71,6 @@ Dialog
         {
             id: column
             width: parent.width
-            spacing: Theme.paddingMedium
 
             DialogHeader { id: header; acceptText: qsTr("Continue"); cancelText: qsTr("Cancel") }
 

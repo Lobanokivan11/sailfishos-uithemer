@@ -60,14 +60,6 @@
         <translation>Översättningar</translation>
     </message>
     <message>
-        <source>Request a new language or contribute to existing languages on the Transifex project page.</source>
-        <translation>Föreslå ett nytt språk eller bidra till ett befintligt, på Transifex projektsida.</translation>
-    </message>
-    <message>
-        <source>Transifex</source>
-        <translation>Transifex</translation>
-    </message>
-    <message>
         <source>Released under the &lt;a href=&apos;https://www.gnu.org/licenses/gpl-3.0&apos;&gt;GNU GPLv3&lt;/a&gt; license.</source>
         <translation>Släppt under &lt;a href=&apos;https://www.gnu.org/licenses/gpl-3.0&apos;&gt;GNU GPLv3&lt;/a&gt; licens.</translation>
     </message>
@@ -301,20 +293,12 @@
         <translation>Alternativ</translation>
     </message>
     <message>
-        <source>Restart homescreen</source>
-        <translation>Starta om hemskärmen</translation>
-    </message>
-    <message>
         <source>Display density</source>
         <translation>Skärmupplösning</translation>
     </message>
     <message>
         <source>Device pixel ratio</source>
         <translation>Enhetens bildpunktsförhållande</translation>
-    </message>
-    <message>
-        <source>Change the display pixel ratio. To a smaller value corresponds an higher density.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
-        <translation>Ändra bildpunktsförhållandet. Ett lägre värde motsvarar en högre täthet.&lt;br&gt;&lt;br&gt;Kom ihåg att starta om hemskärmen direkt efteråt.</translation>
     </message>
     <message>
         <source>Android DPI</source>
@@ -325,16 +309,8 @@
         <translation>Android DPI-värde</translation>
     </message>
     <message>
-        <source>Change the Android DPI value. To a smaller value corresponds an higher density.&lt;br&gt;&lt;br&gt;Remember to restart the Android support or the homescreen right after.</source>
-        <translation>Ändra Android DPI-värde. Ett lägre värde motsvarar en högre täthet.&lt;br&gt;&lt;br&gt;Kom ihåg att starta om Android-stödet eller hemskärmen direkt efteråt.</translation>
-    </message>
-    <message>
         <source>Icon size</source>
         <translation>Ikonstorlek</translation>
-    </message>
-    <message>
-        <source>Change the size of UI icons. To a greater value corresponds an huger size.&lt;br&gt;&lt;br&gt;Remember to restart the homescreen right after.</source>
-        <translation>Ändra storleken på UI-ikonerna. Ett högre värde motsvarar större storlek.&lt;br&gt;&lt;br&gt;Kom ihåg att starta om hemskärmen direkt efteråt.</translation>
     </message>
     <message>
         <source>Restore theme</source>
@@ -343,6 +319,22 @@
     <message>
         <source>Restore display density</source>
         <translation>Återställ skärmupplösning</translation>
+    </message>
+    <message>
+        <source>Change the display pixel ratio. To a smaller value corresponds an higher density.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Change the Android DPI value. To a smaller value corresponds an higher density.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Change the size of UI icons. To a greater value corresponds an huger size.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remember to restart the homescreen (from the &lt;i&gt;Options&lt;/i&gt; page) right after you have changed the settings in this page.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -489,6 +481,14 @@
         <source>Second cover action</source>
         <translation>Andra miniatyråtgärd</translation>
     </message>
+    <message>
+        <source>Restart homescreen</source>
+        <translation type="unfinished">Starta om hemskärmen</translation>
+    </message>
+    <message>
+        <source>Restart</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>RecoveryPage</name>
@@ -615,6 +615,21 @@
     <message>
         <source>icons</source>
         <translation>ikoner</translation>
+    </message>
+</context>
+<context>
+    <name>TranslatorPage</name>
+    <message>
+        <source>Translations</source>
+        <translation type="unfinished">Översättningar</translation>
+    </message>
+    <message>
+        <source>Request a new language or contribute to existing languages on the Transifex project page.</source>
+        <translation type="unfinished">Föreslå ett nytt språk eller bidra till ett befintligt, på Transifex projektsida.</translation>
+    </message>
+    <message>
+        <source>Transifex</source>
+        <translation type="unfinished">Transifex</translation>
     </message>
 </context>
 <context>

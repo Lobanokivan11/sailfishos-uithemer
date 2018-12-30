@@ -14,7 +14,7 @@ Name:       sailfishos-uithemer
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:        UI Themer
 Version:        2.0.2
-Release:        1
+Release:        3
 Group:          Qt/Qt
 License:        GPLv3
 Packager:       fravaccaro <fravaccaro@jollacommunity.it>
@@ -52,7 +52,7 @@ if [ $1 == 0 ]; then
      fi
 fi
 if [ $1 == 2 ]; then
-    /usr/share/sailfishos-uithemer/post_update.sh
+    /usr/share/sailfishos-uithemer/scripts/post_update.sh
 fi
 
 %build

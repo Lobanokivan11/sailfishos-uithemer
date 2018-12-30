@@ -30,7 +30,7 @@ CoverBackground
     {
         id: coverimg
         fillMode: Image.PreserveAspectFit
-        source: "../../coverbg.png"
+        source: "../../images/coverbg.png"
         opacity: settings.isRunning ? 0.3 : 0.6
         anchors.horizontalCenter: parent.horizontalCenter
         width: parent.width
