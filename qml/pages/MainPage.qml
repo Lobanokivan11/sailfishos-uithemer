@@ -569,8 +569,6 @@ Page
              transform: Rotation { angle: 90 }
         }
 
-        BackgroundRectangle { anchors.fill: parent }
-
         Column {
             width: parent.width
             height: parent.height
@@ -624,8 +622,6 @@ Page
             color: Theme.primaryColor
             horizontalAlignment: Qt.AlignHCenter
         }
-
-        BackgroundRectangle { anchors.fill: parent }
 
         Row {
             Item {

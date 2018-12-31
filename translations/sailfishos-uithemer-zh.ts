@@ -323,19 +323,19 @@
     </message>
     <message>
         <source>Change the display pixel ratio. To a smaller value corresponds an higher density.</source>
-        <translation type="unfinished"></translation>
+        <translation>改变显示像素比例，到更小的值、更高的密度。</translation>
     </message>
     <message>
         <source>Change the Android DPI value. To a smaller value corresponds an higher density.</source>
-        <translation type="unfinished"></translation>
+        <translation>改变显示像素比例，到更小的值、更高的密度。</translation>
     </message>
     <message>
         <source>Change the size of UI icons. To a greater value corresponds an huger size.</source>
-        <translation type="unfinished"></translation>
+        <translation>改变UI图标的尺寸到一个更高的值、更大的尺寸。</translation>
     </message>
     <message>
         <source>Remember to restart the homescreen (from the &lt;i&gt;Options&lt;/i&gt; page) right after you have changed the settings in this page.</source>
-        <translation type="unfinished"></translation>
+        <translation>当你更改此页的设置之后，记得立即重启主屏幕（从&lt;i&gt;操作&lt;/i&gt;页）</translation>
     </message>
 </context>
 <context>
@@ -484,11 +484,11 @@
     </message>
     <message>
         <source>Restart homescreen</source>
-        <translation type="unfinished">重启主屏幕</translation>
+        <translation>重启主屏幕</translation>
     </message>
     <message>
         <source>Restart</source>
-        <translation type="unfinished"></translation>
+        <translation>重启</translation>
     </message>
 </context>
 <context>
@@ -622,15 +622,15 @@
     <name>TranslatorPage</name>
     <message>
         <source>Translations</source>
-        <translation type="unfinished">翻译</translation>
+        <translation>翻译</translation>
     </message>
     <message>
         <source>Request a new language or contribute to existing languages on the Transifex project page.</source>
-        <translation type="unfinished"> 在Transifex项目页请求新的语言或翻译现有语言。</translation>
+        <translation> 在Transifex项目页请求新的语言或翻译现有语言。</translation>
     </message>
     <message>
         <source>Transifex</source>
-        <translation type="unfinished"> Transifex</translation>
+        <translation> Transifex</translation>
     </message>
 </context>
 <context>

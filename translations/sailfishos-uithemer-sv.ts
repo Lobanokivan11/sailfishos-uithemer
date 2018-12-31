@@ -322,19 +322,19 @@
     </message>
     <message>
         <source>Change the display pixel ratio. To a smaller value corresponds an higher density.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ändra skärmens bildpunktsförhållande. Ett lägre värde motsvarar en högre täthet.</translation>
     </message>
     <message>
         <source>Change the Android DPI value. To a smaller value corresponds an higher density.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ändra Android DPI-värde. Ett lägre värde motsvarar en högre täthet.</translation>
     </message>
     <message>
         <source>Change the size of UI icons. To a greater value corresponds an huger size.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ändra storleken på UI-ikonerna. Ett högre värde motsvarar en större storlek.</translation>
     </message>
     <message>
         <source>Remember to restart the homescreen (from the &lt;i&gt;Options&lt;/i&gt; page) right after you have changed the settings in this page.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kom ihåg att starta om hemskärmen (från Alternativ-menyn), direkt efter att du har ändrat inställningarna på denna sida.</translation>
     </message>
 </context>
 <context>
@@ -483,11 +483,11 @@
     </message>
     <message>
         <source>Restart homescreen</source>
-        <translation type="unfinished">Starta om hemskärmen</translation>
+        <translation>Starta om hemskärmen</translation>
     </message>
     <message>
         <source>Restart</source>
-        <translation type="unfinished"></translation>
+        <translation>Starta om</translation>
     </message>
 </context>
 <context>
@@ -621,15 +621,15 @@
     <name>TranslatorPage</name>
     <message>
         <source>Translations</source>
-        <translation type="unfinished">Översättningar</translation>
+        <translation>Översättningar</translation>
     </message>
     <message>
         <source>Request a new language or contribute to existing languages on the Transifex project page.</source>
-        <translation type="unfinished">Föreslå ett nytt språk eller bidra till ett befintligt, på Transifex projektsida.</translation>
+        <translation>Föreslå ett nytt språk eller bidra till ett befintligt, på Transifex projektsida.</translation>
     </message>
     <message>
         <source>Transifex</source>
-        <translation type="unfinished">Transifex</translation>
+        <translation>Transifex</translation>
     </message>
 </context>
 <context>
