@@ -51,19 +51,8 @@ Page
         id: timer
         interval: 10000
         repeat: true
-        running: !settings.isRunning
+        running: !settings.isRunning && Qt.application.state === Qt.ApplicationActive
         onTriggered: themepackmodel.reloadAll()
-    }
-
-    Connections {
-        target: Qt.application
-        onActiveChanged: {
-            if(Qt.application.active) {
-                timer.restart()
-            } else {
-                timer.stop()
-            }
-        }
     }
 
     ConfigurationGroup {
@@ -530,7 +519,7 @@ Page
             }
 
                 LabelText {
-                    text: qsTr("Remember to restart the homescreen (from the <i>Options</i> page) right after you have changed the settings in this page.")
+                    text: "<br>" + qsTr("Remember to restart the homescreen (from the <i>Options</i> page) right after you have changed the settings in this page.")
                 }
             }
             } // grid
