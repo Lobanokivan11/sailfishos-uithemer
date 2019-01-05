@@ -11,7 +11,6 @@ Page
     focus: true
 
     RemorsePopup { id: remorsepopup }
-    ThemePack { id: themepack }
     BusyState { id: busyindicator }
     Notification { id: notification }
 
@@ -41,6 +40,17 @@ Page
             event.accepted = true;
         }
 
+        if (event.key === Qt.Key_Return) {
+            if (remorsepopup.active)
+            remorsepopup.trigger();
+            event.accepted = true;
+        }
+
+        if (event.key === Qt.Key_C) {
+            remorsepopup.cancel();
+            event.accepted = true;
+        }
+
         if (event.key === Qt.Key_H) {
             pageStack.replaceAbove(null, Qt.resolvedUrl("MainPage.qml"));
             event.accepted = true;
@@ -62,10 +72,9 @@ Page
         }
 
         if (event.key === Qt.Key_R) {
-            var dlgrestart = pageStack.push("RestartHSPage.qml");
-            dlgrestart.accepted.connect(function() {
-                    themepack.restartHomescreen();
-                    console.log("homescreen restart");
+            remorsepopup.execute(qsTr("Restarting homescreen"), function() {
+                settings.isRunning = true;
+                themepack.restartHomescreen();
             });
             event.accepted = true;
         }
@@ -80,6 +89,11 @@ SilicaFlickable
     opacity: settings.isRunning ? 0.2 : 1.0
 
     VerticalScrollDecorator { }
+
+    ThemePack {
+                id: themepack
+                onServiceChanged: itsservicesu.busy = false;
+            }
 
     ThemePackModel {
                 function applyDone() {
@@ -101,9 +115,9 @@ SilicaFlickable
             }
 
     ConfigurationGroup {
-        id: autoupd
+        id: conf
         path: "/desktop/lipstick/sailfishos-uithemer"
-        property bool homeRefresh: true
+        property bool servicesu: false
         property int autoUpdate: 0
     }
 
@@ -140,14 +154,17 @@ SilicaFlickable
 
             SectionHeader { text: qsTr("Restart homescreen") }
 
+            LabelText {
+                text: qsTr("Restart the homescreen, to make your modifications effective. Your currently opened apps will be closed.")
+            }
+
             Button {
                 anchors.horizontalCenter: parent.horizontalCenter
                 text: qsTr("Restart")
                 onClicked: {
-                    var dlgrestart = pageStack.push("RestartHSPage.qml");
-                    dlgrestart.accepted.connect(function() {
-                            themepack.restartHomescreen();
-                            console.log("homescreen restart");
+                    remorsepopup.execute(qsTr("Restarting homescreen"), function() {
+                        settings.isRunning = true;
+                        themepack.restartHomescreen();
                     });
                 }
             }
@@ -160,10 +177,9 @@ SilicaFlickable
 
             Button {
                 anchors.horizontalCenter: parent.horizontalCenter
-                text: qsTr("Restore")
+                text: qsTr("Restore")                
                 onClicked: {
-                    var dlgocr = pageStack.push("OCRPage.qml", { "settings": settings });
-                    dlgocr.accepted.connect(function() {
+                    remorsepopup.execute(qsTr("Restoring"), function() {
                         settings.isRunning = true;
                         settings.deactivateFont();
                         settings.deactivateIcon();
@@ -172,45 +188,61 @@ SilicaFlickable
                 }
             }
 
-        SectionHeader { visible: false; text: qsTr("Icon updater") }
-
-        LabelText {
-            visible: false
-            text: qsTr("Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. <i>Icon updater</i> will automate this process, enabling automatic update of icons at a given time.")
-        }
-
-        ComboBox {
-            function applyUpdater(setting, hours) {
-                autoupd.autoUpdate = setting;
-
-                if(setting === 0)
-                    themepack.disableService();
-                else
-                    themepack.applyHours(hours);
+            IconTextSwitch {
+                id: itsservicesu
+                automaticCheck: true
+                text: qsTr("Run before OS updates")
+                description: qsTr("Restore the default icons, fonts and display density settings before performing an OS update, so you don't need to manually do it.")
+                checked: conf.servicesu
+                onClicked: {
+                    itsservicesu.busy = true;
+                    if (!conf.servicesu) {
+                        themepack.enableservicesu();
+                        conf.servicesu = true;
+                    } else {
+                        themepack.disableservicesu();
+                        conf.servicesu = false;
+                    }
+                }
             }
 
-            function applyDaily() {
-                var dialog = pageStack.push("Sailfish.Silica.TimePickerDialog", { hourMode: DateTime.TwentyFourHours });
-                dialog.accepted.connect(function() { cbxupdate.applyUpdater(7, dialog.timeText); });
+            SectionHeader { text: qsTr("Icon updater") }
+
+            LabelText {
+                text: qsTr("Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. <i>Icon updater</i> will automate this process, enabling automatic update of icons at a given time.")
             }
 
-            id: cbxupdate
-            visible: false
-            width: parent.width
-            label: qsTr("Update icons")
-            currentIndex: autoupd.autoUpdate
+            ComboBox {
+                function applyUpdater(setting, hours) {
+                    conf.autoUpdate = setting;
 
-            menu: ContextMenu {
-                MenuItem { text: qsTr("Disabled"); onClicked: cbxupdate.applyUpdater(0) }
-                MenuItem { text: qsTr("30 minutes"); onClicked: cbxupdate.applyUpdater(1, 30) }
-                MenuItem { text: qsTr("1 hour"); onClicked: cbxupdate.applyUpdater(2, 1) }
-                MenuItem { text: qsTr("2 hours"); onClicked: cbxupdate.applyUpdater(3, 2) }
-                MenuItem { text: qsTr("3 hours"); onClicked: cbxupdate.applyUpdater(4, 3) }
-                MenuItem { text: qsTr("6 hours"); onClicked: cbxupdate.applyUpdater(5, 6) }
-                MenuItem { text: qsTr("12 hours"); onClicked: cbxupdate.applyUpdater(6, 12) }
-                MenuItem { text: qsTr("Daily"); onClicked: cbxupdate.applyDaily(); }
+                    if(setting === 0)
+                        themepack.disableService();
+                    else
+                        themepack.applyHours(hours);
+                }
+
+                function applyDaily() {
+                    var dialog = pageStack.push("Sailfish.Silica.TimePickerDialog", { hourMode: DateTime.TwentyFourHours });
+                    dialog.accepted.connect(function() { cbxupdate.applyUpdater(7, dialog.timeText); });
+                }
+
+                id: cbxupdate
+                width: parent.width
+                label: qsTr("Update icons")
+                currentIndex: conf.autoUpdate
+
+                menu: ContextMenu {
+                    MenuItem { text: qsTr("Disabled"); onClicked: cbxupdate.applyUpdater(0) }
+                    MenuItem { text: qsTr("30 minutes"); onClicked: cbxupdate.applyUpdater(1, 30) }
+                    MenuItem { text: qsTr("1 hour"); onClicked: cbxupdate.applyUpdater(2, 1) }
+                    MenuItem { text: qsTr("2 hours"); onClicked: cbxupdate.applyUpdater(3, 2) }
+                    MenuItem { text: qsTr("3 hours"); onClicked: cbxupdate.applyUpdater(4, 3) }
+                    MenuItem { text: qsTr("6 hours"); onClicked: cbxupdate.applyUpdater(5, 6) }
+                    MenuItem { text: qsTr("12 hours"); onClicked: cbxupdate.applyUpdater(6, 12) }
+                    MenuItem { text: qsTr("Daily"); onClicked: cbxupdate.applyDaily(); }
+                }
             }
-        }
 
         }
 

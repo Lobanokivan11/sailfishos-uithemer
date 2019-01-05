@@ -2,8 +2,8 @@
 
 main=/usr/share/harbour-themepacksupport
 
-systemctl enable harbour-themepacksupport.timer
-systemctl start harbour-themepacksupport.timer
-systemctl enable harbour-themepacksupport.service
-systemctl start harbour-themepacksupport.service
+systemctl enable themepacksupport-autoupdate.timer
+systemctl start themepacksupport-autoupdate.timer
+systemctl enable themepacksupport-autoupdate.service
+systemctl start themepacksupport-autoupdate.service
 sed -i "s/.*tps_service.*/tps_service='1'/" $main/themepacksupport.cfg

@@ -345,33 +345,6 @@
     </message>
 </context>
 <context>
-    <name>OCRPage</name>
-    <message>
-        <source>Restore</source>
-        <translation>Ripristina</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Annulla</translation>
-    </message>
-    <message>
-        <source>One-click restore</source>
-        <translation>Ripristina con un click</translation>
-    </message>
-    <message>
-        <source>UI Themer customizations must be reverted before performing a system update. With &lt;i&gt;One-click restore&lt;/i&gt; you can automate this process and restore icons, fonts and display density settings with just one click.</source>
-        <translation>Le personalizzazioni di UI Themer devono essere ripristinate prima di eseguire un aggiornamento di sistema. Con &lt;i&gt;Ripristina con un clic&lt;/i&gt; è possibile automatizzare questo processo e ripristinare icone, font e impostazioni di densità del display in un singolo clic.</translation>
-    </message>
-    <message>
-        <source>Remember to restart the homescreen right after.</source>
-        <translation>Ricorda di riavviare la homescreen subito dopo.</translation>
-    </message>
-    <message>
-        <source>Restart homescreen</source>
-        <translation>Riavvia homescreen</translation>
-    </message>
-</context>
-<context>
     <name>OptionsPage</name>
     <message>
         <source>About UI Themer</source>
@@ -489,6 +462,26 @@
         <source>Restart</source>
         <translation>Riavvia</translation>
     </message>
+    <message>
+        <source>Restarting homescreen</source>
+        <translation>Riavvio homescreen</translation>
+    </message>
+    <message>
+        <source>Restart the homescreen, to make your modifications effective. Your currently opened apps will be closed.</source>
+        <translation>Riavvia la homescreen, per rendere effettive le modifiche. Le app aperte verranno chiuse.</translation>
+    </message>
+    <message>
+        <source>Restoring</source>
+        <translation>Ripristino</translation>
+    </message>
+    <message>
+        <source>Run before OS updates</source>
+        <translation>Esegui prima di aggiornamenti OS</translation>
+    </message>
+    <message>
+        <source>Restore the default icons, fonts and display density settings before performing an OS update, so you don&apos;t need to manually do it.</source>
+        <translation>Ripristina icone, font e impostazioni di densità del display prima di effettuare un aggiornamento dell&apos;OS, così non hai bisogno di farlo manualmente.</translation>
+    </message>
 </context>
 <context>
     <name>RecoveryPage</name>
@@ -523,25 +516,6 @@
     <message>
         <source>Remember to restart the homescreen right after.</source>
         <translation>Ricorda di riavviare la homescreen subito dopo.</translation>
-    </message>
-    <message>
-        <source>Restart homescreen</source>
-        <translation>Riavvia homescreen</translation>
-    </message>
-</context>
-<context>
-    <name>RestartHSPage</name>
-    <message>
-        <source>Continue</source>
-        <translation>Continua</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Annulla</translation>
-    </message>
-    <message>
-        <source>Restart the homescreen, to make your modifications effective. Your currently opened apps will be closed.</source>
-        <translation>Riavvia la homescreen, per rendere effettive le modifiche. Le app aperte verranno chiuse.</translation>
     </message>
     <message>
         <source>Restart homescreen</source>

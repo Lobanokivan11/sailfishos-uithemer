@@ -131,10 +131,9 @@ Page
                 text: qsTr("An homescreen restart may be needed to apply your settings. You can do that from the <i>Options</i> page.")
             }
 
-            SectionHeader { visible: false; text: qsTr("Icon updater") }
+            SectionHeader { text: qsTr("Icon updater") }
 
             LabelText {
-                visible: false
                 text: qsTr("Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. <i>Icon updater</i> will automate this process, enabling automatic update of icons at a given time. You can choose between a pre-defined set of hours or a custom hour of the day.")
             }
 

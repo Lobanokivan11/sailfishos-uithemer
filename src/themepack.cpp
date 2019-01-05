@@ -75,14 +75,22 @@ void ThemePack::restoreIZ() const
 
 void ThemePack::enableService() const
 {
-    setuid_ex(0);
-    Spawner::executeSync("/usr/share/sailfishos-uithemer/scripts/enable_service.sh");
+    Spawner::execute("/usr/share/sailfishos-uithemer/scripts/enable_service.sh", [this]() { });
 }
 
 void ThemePack::disableService() const
 {
-    setuid_ex(0);
-    Spawner::executeSync("/usr/share/sailfishos-uithemer/scripts/disable_service.sh");
+    Spawner::execute("/usr/share/sailfishos-uithemer/scripts/disable_service.sh", [this]() { });
+}
+
+void ThemePack::enableservicesu() const
+{
+    Spawner::execute("/usr/share/sailfishos-uithemer/scripts/enable_servicesu.sh", [this]() { emit serviceChanged(); });
+}
+
+void ThemePack::disableservicesu() const
+{
+    Spawner::execute("/usr/share/sailfishos-uithemer/scripts/disable_servicesu.sh", [this]() { emit serviceChanged(); });
 }
 
 QString ThemePack::getTimer() const

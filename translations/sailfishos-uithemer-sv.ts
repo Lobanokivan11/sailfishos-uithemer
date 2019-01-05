@@ -345,33 +345,6 @@
     </message>
 </context>
 <context>
-    <name>OCRPage</name>
-    <message>
-        <source>Restore</source>
-        <translation>Återställ</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Avbryt</translation>
-    </message>
-    <message>
-        <source>One-click restore</source>
-        <translation>Ett-klicksåterställning</translation>
-    </message>
-    <message>
-        <source>UI Themer customizations must be reverted before performing a system update. With &lt;i&gt;One-click restore&lt;/i&gt; you can automate this process and restore icons, fonts and display density settings with just one click.</source>
-        <translation>UI Themer-anpassningar måste återställas före en systemuppgradering. Med &lt;i&gt;ett-klicksåterställningen&lt;/i&gt; kan du automatisera denna process och återställa ikoner, teckensnitt och skärmupplösning, med endast ett tryck.</translation>
-    </message>
-    <message>
-        <source>Remember to restart the homescreen right after.</source>
-        <translation>Kom ihåg att starta om hemskärmen direkt efteråt.</translation>
-    </message>
-    <message>
-        <source>Restart homescreen</source>
-        <translation>Starta om hemskärmen</translation>
-    </message>
-</context>
-<context>
     <name>OptionsPage</name>
     <message>
         <source>About UI Themer</source>
@@ -489,6 +462,26 @@
         <source>Restart</source>
         <translation>Starta om</translation>
     </message>
+    <message>
+        <source>Restarting homescreen</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Restart the homescreen, to make your modifications effective. Your currently opened apps will be closed.</source>
+        <translation type="unfinished">Starta om hemskärmen för att tillämpa dina ändringar. Alla öppna appar kommer att stängas.</translation>
+    </message>
+    <message>
+        <source>Restoring</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Run before OS updates</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Restore the default icons, fonts and display density settings before performing an OS update, so you don&apos;t need to manually do it.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>RecoveryPage</name>
@@ -523,25 +516,6 @@
     <message>
         <source>Remember to restart the homescreen right after.</source>
         <translation>Kom ihåg att starta om hemskärmen direkt efteråt.</translation>
-    </message>
-    <message>
-        <source>Restart homescreen</source>
-        <translation>Starta om hemskärmen</translation>
-    </message>
-</context>
-<context>
-    <name>RestartHSPage</name>
-    <message>
-        <source>Continue</source>
-        <translation>Fortsätt</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Avbryt</translation>
-    </message>
-    <message>
-        <source>Restart the homescreen, to make your modifications effective. Your currently opened apps will be closed.</source>
-        <translation>Starta om hemskärmen för att tillämpa dina ändringar. Alla öppna appar kommer att stängas.</translation>
     </message>
     <message>
         <source>Restart homescreen</source>

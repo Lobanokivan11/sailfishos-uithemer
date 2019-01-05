@@ -50,7 +50,7 @@ Dialog
         }
 
         if (event.key === Qt.Key_Return) {
-            dlgrestore.accept();
+            dlgrecovery.accept();
             event.accepted = true;
         }
 

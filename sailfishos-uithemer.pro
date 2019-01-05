@@ -35,8 +35,6 @@ OTHER_FILES += \
     qml/pages/ConfirmPage.qml \
     qml/pages/MainPage.qml \
     qml/pages/OptionsPage.qml \
-    qml/pages/OCRPage.qml \
-    qml/pages/RestartHSPage.qml \
     qml/pages/RestorePage.qml \
     qml/pages/RestoreDDPage.qml \
     qml/pages/WelcomePage.qml \

@@ -346,33 +346,6 @@
     </message>
 </context>
 <context>
-    <name>OCRPage</name>
-    <message>
-        <source>Restore</source>
-        <translation>恢复</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>取消</translation>
-    </message>
-    <message>
-        <source>One-click restore</source>
-        <translation>一键式恢复</translation>
-    </message>
-    <message>
-        <source>UI Themer customizations must be reverted before performing a system update. With &lt;i&gt;One-click restore&lt;/i&gt; you can automate this process and restore icons, fonts and display density settings with just one click.</source>
-        <translation>在系统更新之前必须将UI Themer 个性化定制恢复到默认。通过&lt;i&gt;一键式恢复&lt;/i&gt;你只需一点就能自动化此过程，恢复图标、字体和显示密度设置。</translation>
-    </message>
-    <message>
-        <source>Remember to restart the homescreen right after.</source>
-        <translation>记住之后立即重启主屏幕。</translation>
-    </message>
-    <message>
-        <source>Restart homescreen</source>
-        <translation>重启主屏幕</translation>
-    </message>
-</context>
-<context>
     <name>OptionsPage</name>
     <message>
         <source>About UI Themer</source>
@@ -490,6 +463,26 @@
         <source>Restart</source>
         <translation>重启</translation>
     </message>
+    <message>
+        <source>Restarting homescreen</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Restart the homescreen, to make your modifications effective. Your currently opened apps will be closed.</source>
+        <translation type="unfinished">为使你的修改生效，请重启主屏幕。你目前开启的软件将被关闭。</translation>
+    </message>
+    <message>
+        <source>Restoring</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Run before OS updates</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Restore the default icons, fonts and display density settings before performing an OS update, so you don&apos;t need to manually do it.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>RecoveryPage</name>
@@ -524,25 +517,6 @@
     <message>
         <source>Remember to restart the homescreen right after.</source>
         <translation>记住之后立即重启主屏幕。</translation>
-    </message>
-    <message>
-        <source>Restart homescreen</source>
-        <translation>重启主屏幕</translation>
-    </message>
-</context>
-<context>
-    <name>RestartHSPage</name>
-    <message>
-        <source>Continue</source>
-        <translation>继续</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>取消</translation>
-    </message>
-    <message>
-        <source>Restart the homescreen, to make your modifications effective. Your currently opened apps will be closed.</source>
-        <translation>为使你的修改生效，请重启主屏幕。你目前开启的软件将被关闭。</translation>
     </message>
     <message>
         <source>Restart homescreen</source>

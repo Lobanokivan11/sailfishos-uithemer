@@ -28,6 +28,8 @@ class ThemePack : public QObject
         void restoreIZ() const;
         void enableService() const;
         void disableService() const;
+        void enableservicesu() const;
+        void disableservicesu() const;
         void hideIcon() const;                          // hides icon of original app, so user does not have to have two same icons on home screen
 
     private:
@@ -38,6 +40,7 @@ class ThemePack : public QObject
         void imageMagickInstalled();
         void homescreenRestarted();
         void droidDPIChanged();
+        void serviceChanged();
 };
 
 #endif // THEMEPACK_H

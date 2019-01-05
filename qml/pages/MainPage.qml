@@ -150,6 +150,17 @@ Page
                 }
         }
 
+        if (event.key === Qt.Key_Return) {
+            if (remorsepopup.active)
+            remorsepopup.trigger();
+            event.accepted = true;
+        }
+
+        if (event.key === Qt.Key_C) {
+            remorsepopup.cancel();
+            event.accepted = true;
+        }
+
         if (event.key === Qt.Key_H) {
             handleHomeClicked();
             event.accepted = true;
