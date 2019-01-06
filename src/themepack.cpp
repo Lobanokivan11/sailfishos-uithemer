@@ -73,14 +73,14 @@ void ThemePack::restoreIZ() const
     Spawner::executeSync("/usr/share/sailfishos-uithemer/scripts/restore_iz.sh");
 }
 
-void ThemePack::enableService() const
+void ThemePack::enableserviceautoupdate() const
 {
-    Spawner::execute("/usr/share/sailfishos-uithemer/scripts/enable_service.sh", [this]() { });
+    Spawner::execute("/usr/share/sailfishos-uithemer/scripts/enable-autoupdate.sh", [this]() { });
 }
 
-void ThemePack::disableService() const
+void ThemePack::disableserviceautoupdate() const
 {
-    Spawner::execute("/usr/share/sailfishos-uithemer/scripts/disable_service.sh", [this]() { });
+    Spawner::execute("/usr/share/sailfishos-uithemer/scripts/disable-autoupdate.sh", [this]() { });
 }
 
 void ThemePack::enableservicesu() const

@@ -26,8 +26,8 @@ class ThemePack : public QObject
         void restartHomescreen() const;
         void applyHours(const QString& hours) const;
         void restoreIZ() const;
-        void enableService() const;
-        void disableService() const;
+        void enableserviceautoupdate() const;
+        void disableserviceautoupdate() const;
         void enableservicesu() const;
         void disableservicesu() const;
         void hideIcon() const;                          // hides icon of original app, so user does not have to have two same icons on home screen

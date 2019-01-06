@@ -115,7 +115,7 @@ SilicaFlickable
             }
 
     ConfigurationGroup {
-        id: conf
+        id: optionsconf
         path: "/desktop/lipstick/sailfishos-uithemer"
         property bool servicesu: false
         property int autoUpdate: 0
@@ -193,15 +193,15 @@ SilicaFlickable
                 automaticCheck: true
                 text: qsTr("Run before OS updates")
                 description: qsTr("Restore the default icons, fonts and display density settings before performing an OS update, so you don't need to manually do it.")
-                checked: conf.servicesu
+                checked: optionsconf.servicesu
                 onClicked: {
                     itsservicesu.busy = true;
-                    if (!conf.servicesu) {
+                    if (!optionsconf.servicesu) {
                         themepack.enableservicesu();
-                        conf.servicesu = true;
+                        optionsconf.servicesu = true;
                     } else {
                         themepack.disableservicesu();
-                        conf.servicesu = false;
+                        optionsconf.servicesu = false;
                     }
                 }
             }
@@ -214,10 +214,10 @@ SilicaFlickable
 
             ComboBox {
                 function applyUpdater(setting, hours) {
-                    conf.autoUpdate = setting;
+                    optionsconf.autoUpdate = setting;
 
                     if(setting === 0)
-                        themepack.disableService();
+                        themepack.disableserviceautoupdate();
                     else
                         themepack.applyHours(hours);
                 }
@@ -230,7 +230,7 @@ SilicaFlickable
                 id: cbxupdate
                 width: parent.width
                 label: qsTr("Update icons")
-                currentIndex: conf.autoUpdate
+                currentIndex: optionsconf.autoUpdate
 
                 menu: ContextMenu {
                     MenuItem { text: qsTr("Disabled"); onClicked: cbxupdate.applyUpdater(0) }
