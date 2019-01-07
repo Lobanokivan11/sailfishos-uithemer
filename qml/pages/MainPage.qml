@@ -4,7 +4,6 @@ import org.nemomobile.notifications 1.0
 import org.nemomobile.configuration 1.0
 import harbour.uithemer 1.0
 import Nemo.DBus 2.0
-import "../js/Database.js" as Database
 import "../components"
 import "../components/themepacklistview"
 
@@ -394,10 +393,10 @@ Page
                     themepackmodel.uninstall(model.index);
 
                     if(fontInstalled)
-                        Database.deactivateFont();
+                        settings.deactivateFont();
 
                     if(iconInstalled)
-                        Database.deactivateIcon();
+                        settings.deactivateIcon();
                 });
             }
         }

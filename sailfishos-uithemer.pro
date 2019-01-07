@@ -41,7 +41,6 @@ OTHER_FILES += \
     qml/pages/AboutPage.qml \
     qml/pages/GuidePage.qml \
     qml/pages/RecoveryPage.qml \
-    qml/js/*.js \
     rpm/* \
     sailfishos-uithemer.desktop \
 

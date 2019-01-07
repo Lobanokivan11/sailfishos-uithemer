@@ -2,13 +2,14 @@ import QtQuick 2.0
 import Sailfish.Silica 1.0
 import harbour.uithemer 1.0
 import org.nemomobile.notifications 1.0
-import org.nemomobile.configuration 1.0
 import "../components"
 
 Page
 {
     id: optionspage
     focus: true
+    backNavigation: !settings.isRunning
+    showNavigationIndicator: !settings.isRunning
 
     RemorsePopup { id: remorsepopup }
     BusyState { id: busyindicator }
@@ -114,13 +115,6 @@ SilicaFlickable
                 onRecovered: applyDone()
             }
 
-    ConfigurationGroup {
-        id: optionsconf
-        path: "/desktop/lipstick/sailfishos-uithemer"
-        property bool servicesu: false
-        property int autoUpdate: 0
-    }
-
     PullDownMenu
     {
         MenuItem {
@@ -181,8 +175,6 @@ SilicaFlickable
                 onClicked: {
                     remorsepopup.execute(qsTr("Restoring"), function() {
                         settings.isRunning = true;
-                        settings.deactivateFont();
-                        settings.deactivateIcon();
                         themepackmodel.ocr();
                     });
                 }
@@ -192,16 +184,16 @@ SilicaFlickable
                 id: itsservicesu
                 automaticCheck: true
                 text: qsTr("Run before OS updates")
-                description: qsTr("Restore the default icons, fonts and display density settings before performing an OS update, so you don't need to manually do it.")
-                checked: optionsconf.servicesu
+                description: qsTr("Restore the default icons, fonts and display density settings before performing an OS update, so you don't need to manually do it.") + " EXPERIMENTAL"
+                checked: settings.servicesu
                 onClicked: {
                     itsservicesu.busy = true;
-                    if (!optionsconf.servicesu) {
+                    if (!settings.servicesu) {
                         themepack.enableservicesu();
-                        optionsconf.servicesu = true;
+                        settings.servicesu = true;
                     } else {
                         themepack.disableservicesu();
-                        optionsconf.servicesu = false;
+                        settings.servicesu = false;
                     }
                 }
             }
@@ -214,7 +206,7 @@ SilicaFlickable
 
             ComboBox {
                 function applyUpdater(setting, hours) {
-                    optionsconf.autoUpdate = setting;
+                    settings.autoUpdate = setting;
 
                     if(setting === 0)
                         themepack.disableserviceautoupdate();
@@ -230,7 +222,7 @@ SilicaFlickable
                 id: cbxupdate
                 width: parent.width
                 label: qsTr("Update icons")
-                currentIndex: optionsconf.autoUpdate
+                currentIndex: settings.autoUpdate
 
                 menu: ContextMenu {
                     MenuItem { text: qsTr("Disabled"); onClicked: cbxupdate.applyUpdater(0) }
@@ -254,14 +246,13 @@ SilicaFlickable
 
             ComboBox {
                 function saveCoverAction(action) {
-                    conf.coverAction1 = action;
-                    conf.sync();
+                    settings.coverAction1 = action;
                 }
 
                 id: cbxca1
                 width: parent.width
                 label: qsTr("Cover action")
-                currentIndex: conf.coverAction1
+                currentIndex: settings.coverAction1
 
                 menu: ContextMenu {
                     MenuItem { text: qsTr("refresh current theme"); onClicked: cbxca1.saveCoverAction(0) }
@@ -273,15 +264,14 @@ SilicaFlickable
 
             ComboBox {
                 function saveCoverAction(action) {
-                    conf.coverAction2 = action;
-                    conf.sync();
+                    settings.coverAction2 = action;
                 }
 
                 id: cbxca2
-                enabled: conf.coverAction1 !== 3
+                enabled: settings.coverAction1 !== 3
                 width: parent.width
                 label: qsTr("Second cover action")
-                currentIndex: conf.coverAction2
+                currentIndex: settings.coverAction2
 
                 menu: ContextMenu {
                     MenuItem { text: qsTr("refresh current theme"); onClicked: cbxca2.saveCoverAction(0) }

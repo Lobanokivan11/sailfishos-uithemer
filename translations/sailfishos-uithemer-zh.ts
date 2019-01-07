@@ -465,23 +465,23 @@
     </message>
     <message>
         <source>Restarting homescreen</source>
-        <translation type="unfinished"></translation>
+        <translation>重启主屏幕中</translation>
     </message>
     <message>
         <source>Restart the homescreen, to make your modifications effective. Your currently opened apps will be closed.</source>
-        <translation type="unfinished">为使你的修改生效，请重启主屏幕。你目前开启的软件将被关闭。</translation>
+        <translation>为使你的修改生效，请重启主屏幕。你目前开启的软件将被关闭。</translation>
     </message>
     <message>
         <source>Restoring</source>
-        <translation type="unfinished"></translation>
+        <translation>恢复中</translation>
     </message>
     <message>
         <source>Run before OS updates</source>
-        <translation type="unfinished"></translation>
+        <translation>在系统更新之前运行</translation>
     </message>
     <message>
         <source>Restore the default icons, fonts and display density settings before performing an OS update, so you don&apos;t need to manually do it.</source>
-        <translation type="unfinished"></translation>
+        <translation>在执行系统更新之前，恢复默认图标、字体和显示密度 你不必手动执行。</translation>
     </message>
 </context>
 <context>

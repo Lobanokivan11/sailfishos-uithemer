@@ -2,7 +2,6 @@ import QtQuick 2.0
 import Sailfish.Silica 1.0
 import harbour.uithemer 1.0
 import org.nemomobile.notifications 1.0
-import org.nemomobile.configuration 1.0
 import "../components"
 
 Page
@@ -71,12 +70,6 @@ Page
             imagemagick.enabled = false
             notify()
         }
-    }
-
-    ConfigurationGroup {
-        id: conf
-        path: "/desktop/lipstick/sailfishos-uithemer"
-        property bool wizardDone: false
     }
 
     SilicaFlickable
@@ -239,7 +232,7 @@ Page
                   enabled: vDep && vDon && vIM
                   text: qsTr("Start UI Themer")
                   onClicked: {
-                      conf.wizardDone = true;
+                      settings.wizardDone = true;
                       pageStack.replace("MainPage.qml");
                   }
               }

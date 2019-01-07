@@ -14,14 +14,14 @@ Name:       sailfishos-uithemer
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:        UI Themer
 Version:        2.1.0
-Release:        3
+Release:        4
 Group:          Qt/Qt
 License:        GPLv3
 Packager:       fravaccaro <fravaccaro@jollacommunity.it>
 URL:            https://github.com/fravaccaro/sailfishos-uithemer
 Source0:        %{name}-%{version}.tar.bz2
 Source100:      sailfishos-uithemer.yaml
-Requires:       sailfish-version >= 2.1.4, harbour-themepacksupport >= 0.8.4-6
+Requires:       sailfish-version >= 2.1.4, harbour-themepacksupport >= 0.8.4-7
 BuildRequires:  pkgconfig(sailfishapp) >= 1.0.2
 BuildRequires:  pkgconfig(Qt5Core)
 BuildRequires:  pkgconfig(Qt5Qml)

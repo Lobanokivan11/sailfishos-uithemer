@@ -464,23 +464,23 @@
     </message>
     <message>
         <source>Restarting homescreen</source>
-        <translation type="unfinished"></translation>
+        <translation>Startar om hemskärmen</translation>
     </message>
     <message>
         <source>Restart the homescreen, to make your modifications effective. Your currently opened apps will be closed.</source>
-        <translation type="unfinished">Starta om hemskärmen för att tillämpa dina ändringar. Alla öppna appar kommer att stängas.</translation>
+        <translation>Starta om hemskärmen för att dina ändringar skall tillämpas. Alla öppna appar kommer att stängas.</translation>
     </message>
     <message>
         <source>Restoring</source>
-        <translation type="unfinished"></translation>
+        <translation>Återställer</translation>
     </message>
     <message>
         <source>Run before OS updates</source>
-        <translation type="unfinished"></translation>
+        <translation>Kör före OS-uppdateringar</translation>
     </message>
     <message>
         <source>Restore the default icons, fonts and display density settings before performing an OS update, so you don&apos;t need to manually do it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Återställer standardikoner, teckensnitt och skärmupplösning innan en OS-uppdatering utförs, så att du slipper göra det manuellt.</translation>
     </message>
 </context>
 <context>

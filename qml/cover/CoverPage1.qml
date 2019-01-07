@@ -1,7 +1,6 @@
 import QtQuick 2.0
 import Sailfish.Silica 1.0
 import org.nemomobile.notifications 1.0
-import org.nemomobile.configuration 1.0
 import harbour.uithemer 1.0
 import "../components"
 
@@ -57,9 +56,9 @@ CoverBackground
     }
 
     CoverActionList {
-        enabled: ((settings.activeIconPack === "none") || (settings.isRunning)) ? false : true
+        enabled: ((settings.activeIconPack === "none") || (settings.isRunning) || (settings.coverAction1 === 3)) ? false : true
         CoverAction {
-            iconSource: switch (conf.coverAction1) {
+            iconSource: switch (settings.coverAction1) {
                         case 0:
                             return "image://theme/icon-cover-sync";
                         case 1:
@@ -69,15 +68,13 @@ CoverBackground
                         }
             onTriggered: {
                 settings.isRunning = true
-                switch (conf.coverAction1) {
+                switch (settings.coverAction1) {
                 case 0:
                     return themepackmodel.reapplyIcons();
                 case 1:
                     return themepack.restartHomescreen();
                 case 2:
                     themepackmodel.ocr();
-                    settings.deactivateFont();
-                    settings.deactivateIcon();
                     break;
                 }
             }
