@@ -482,6 +482,14 @@
         <source>Restore the default icons, fonts and display density settings before performing an OS update, so you don&apos;t need to manually do it.</source>
         <translation>Återställer standardikoner, teckensnitt och skärmupplösning innan en OS-uppdatering utförs, så att du slipper göra det manuellt.</translation>
     </message>
+    <message>
+        <source>Choose the action to be shown on the UI Themer cover, for a quick access when the app is minimized on the homescreen.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Optionally, you can choose to display a second action on the cover.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>RecoveryPage</name>

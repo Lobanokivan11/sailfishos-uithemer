@@ -96,6 +96,7 @@ Page
             Label {
                 anchors.horizontalCenter: parent.horizontalCenter
                 color: Theme.highlightColor
+                font.pixelSize: Theme.fontSizeSmall
                 text: "UI Themer 2.1.0" }
 
             LabelText {
@@ -105,6 +106,8 @@ Page
             LabelText {
                 text: qsTr("Released under the <a href='https://www.gnu.org/licenses/gpl-3.0'>GNU GPLv3</a> license.")
             }
+
+            LabelSpacer { }
 
             Button {
                 anchors.horizontalCenter: parent.horizontalCenter
@@ -118,6 +121,8 @@ Page
                 text: qsTr("If you want to create a theme compatible with UI Themer, please read the documentation.")
             }
 
+            LabelSpacer { }
+
               Button {
                   anchors.horizontalCenter: parent.horizontalCenter
                   text: qsTr("Documentation")
@@ -129,6 +134,8 @@ Page
               LabelText {
                   text: qsTr("If you want to provide feedback or report an issue, please use GitHub.")
               }
+
+            LabelSpacer { }
 
               Button {
                   anchors.horizontalCenter: parent.horizontalCenter
@@ -147,6 +154,8 @@ Page
               LabelText {
                   text: qsTr("If you like my work and want to buy me a beer, feel free to do it!")
               }
+
+            LabelSpacer { }
 
               Button {
                   anchors.horizontalCenter: parent.horizontalCenter
@@ -174,6 +183,8 @@ Page
                   text: qsTr("Thanks to Dax89 and all the testers for help and patience.")
                }
 
+            LabelSpacer { }
+
               Button {
                   anchors.horizontalCenter: parent.horizontalCenter
                   text: qsTr("Translations")
@@ -183,10 +194,10 @@ Page
         }
     } // grid
 
-              Item {
-                  width: 1
-                  height: Theme.paddingLarge
-              }
+            Item {
+                width: parent.width
+                height: Theme.paddingLarge
+            }
         }
 
     }

@@ -292,7 +292,7 @@ Dialog
                 TextSwitch { id: tshomerefresh; text: qsTr("Restart homescreen"); checked: settings.homeRefresh }
 
                 Item {
-                    width: 1
+                    width: parent.width
                     height: Theme.paddingLarge
                 }
         }

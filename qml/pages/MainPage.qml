@@ -512,6 +512,7 @@ Page
                     id: cbiz
                     width: parent.width
                     label: qsTr("Icon size")
+                    description: qsTr("Change the size of UI icons. To a greater value corresponds an huger size.")
                     value: silica.icon_size_launcher
 
                     menu: ContextMenu {
@@ -522,10 +523,6 @@ Page
                         MenuItem { text: "172"; onClicked: silica.icon_size_launcher = 172 }
                     }
                 }
-
-                LabelText {
-                    text: qsTr("Change the size of UI icons. To a greater value corresponds an huger size.")
-                }
             }
 
                 LabelText {
@@ -535,7 +532,7 @@ Page
             } // grid
 
             Item {
-                width: 1
+                width: parent.width
                 height: Theme.paddingLarge
             }
 

@@ -88,14 +88,11 @@ Dialog
             {
                 width: isLandscape ? parent.width/2 : parent.width
 
-            LabelText {
-                text: qsTr("If any error occurs during themes applying/restoring, you can end up with messed up icons. From here, you can reinstall default Jolla app icons while, for thirdy party apps, you may need to reinstall/update apps to restore the default look.")
-            }
-
             IconTextSwitch {
                 id: itsicons
                 automaticCheck: true
                 text: qsTr("Reinstall icons")
+                description: qsTr("If any error occurs during themes applying/restoring, you can end up with messed up icons. From here, you can reinstall default Jolla app icons while, for thirdy party apps, you may need to reinstall/update apps to restore the default look.")
                 checked: true
 
                 onClicked: {
@@ -111,14 +108,12 @@ Dialog
             Column
             {
                 width: isLandscape ? parent.width/2 : parent.width
-            LabelText {
-                text: qsTr("Reinstall default fonts, if font applying/restoring fails.")
-            }
 
             IconTextSwitch {
                 id: itsfonts
                 automaticCheck: true
                 text: qsTr("Reinstall fonts")
+                description: qsTr("Reinstall default fonts, if font applying/restoring fails.")
                 checked: true
 
                 onClicked: {
@@ -145,7 +140,7 @@ Dialog
             }
 
             Item {
-                width: 1
+                width: parent.width
                 height: Theme.paddingLarge
             }
         }

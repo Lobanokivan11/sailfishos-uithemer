@@ -131,12 +131,6 @@ Page
                 text: qsTr("An homescreen restart may be needed to apply your settings. You can do that from the <i>Options</i> page.")
             }
 
-            SectionHeader { text: qsTr("Icon updater") }
-
-            LabelText {
-                text: qsTr("Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. <i>Icon updater</i> will automate this process, enabling automatic update of icons at a given time. You can choose between a pre-defined set of hours or a custom hour of the day.")
-            }
-
             }
 
             Column
@@ -147,6 +141,12 @@ Page
 
             LabelText {
                 text: qsTr("UI Themer customizations must be reverted before performing a system update. With <i>One-click restore</i> you can automate this process and restore icons, fonts and display density settings with just one click.")
+            }
+
+            SectionHeader { text: qsTr("Icon updater") }
+
+            LabelText {
+                text: qsTr("Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. <i>Icon updater</i> will automate this process, enabling automatic update of icons at a given time. You can choose between a pre-defined set of hours or a custom hour of the day.")
             }
 
             SectionHeader { text: qsTr("Recovery") }
@@ -209,7 +209,7 @@ Page
             } // grid
 
             Item {
-                width: 1
+                width: parent.width
                 height: Theme.paddingLarge
             }
         }

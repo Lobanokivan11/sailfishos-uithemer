@@ -142,6 +142,8 @@ Page
                 text: qsTr("It may take a while, do not quit.")
             }
 
+            LabelSpacer { }
+
              Button {
                   id: installdep
                   anchors.horizontalCenter: parent.horizontalCenter
@@ -177,6 +179,8 @@ Page
                 text: qsTr("ImageMagick is required for UI Themer overlays to work. Overlays need to be supported by the theme.")
             }
 
+            LabelSpacer { }
+
             Button {
                 id: imagemagick
                 anchors.horizontalCenter: parent.horizontalCenter
@@ -193,6 +197,8 @@ Page
             LabelText {
                 text: qsTr("If you like my work and want to buy me a beer, feel free to do it!")
             }
+
+            LabelSpacer { }
 
             Button {
                 id: donate
@@ -226,6 +232,8 @@ Page
             }
             } // grid
 
+            LabelSpacer { }
+
              Button {
                   id: startuit
                   anchors.horizontalCenter: parent.horizontalCenter
@@ -238,7 +246,7 @@ Page
               }
 
              Item {
-                 width: 1
+                 width: parent.width
                  height: Theme.paddingLarge
              }
         }

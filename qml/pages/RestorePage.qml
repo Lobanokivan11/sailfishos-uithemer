@@ -138,7 +138,7 @@ Dialog
             }
 
             Item {
-                width: 1
+                width: parent.width
                 height: Theme.paddingLarge
             }
         }

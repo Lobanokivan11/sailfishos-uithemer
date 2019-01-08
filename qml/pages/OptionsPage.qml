@@ -152,6 +152,8 @@ SilicaFlickable
                 text: qsTr("Restart the homescreen, to make your modifications effective. Your currently opened apps will be closed.")
             }
 
+            LabelSpacer { }
+
             Button {
                 anchors.horizontalCenter: parent.horizontalCenter
                 text: qsTr("Restart")
@@ -168,6 +170,8 @@ SilicaFlickable
             LabelText {
                 text: qsTr("UI Themer customizations must be reverted before performing a system update. With <i>One-click restore</i> you can automate this process and restore icons, fonts and display density settings with just one click.")
             }
+
+            LabelSpacer { }
 
             Button {
                 anchors.horizontalCenter: parent.horizontalCenter
@@ -200,10 +204,6 @@ SilicaFlickable
 
             SectionHeader { text: qsTr("Icon updater") }
 
-            LabelText {
-                text: qsTr("Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. <i>Icon updater</i> will automate this process, enabling automatic update of icons at a given time.")
-            }
-
             ComboBox {
                 function applyUpdater(setting, hours) {
                     settings.autoUpdate = setting;
@@ -222,6 +222,7 @@ SilicaFlickable
                 id: cbxupdate
                 width: parent.width
                 label: qsTr("Update icons")
+                description: qsTr("Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. <i>Icon updater</i> will automate this process, enabling automatic update of icons at a given time.")
                 currentIndex: settings.autoUpdate
 
                 menu: ContextMenu {
@@ -252,6 +253,7 @@ SilicaFlickable
                 id: cbxca1
                 width: parent.width
                 label: qsTr("Cover action")
+                description: qsTr("Choose the action to be shown on the UI Themer cover, for a quick access when the app is minimized on the homescreen.")
                 currentIndex: settings.coverAction1
 
                 menu: ContextMenu {
@@ -271,6 +273,7 @@ SilicaFlickable
                 enabled: settings.coverAction1 !== 3
                 width: parent.width
                 label: qsTr("Second cover action")
+                description: qsTr("Optionally, you can choose to display a second action on the cover.")
                 currentIndex: settings.coverAction2
 
                 menu: ContextMenu {
@@ -287,6 +290,8 @@ SilicaFlickable
             text: qsTr("Here you can find advanced settings for UI Themer, e.g. reinstall default icons or fonts if you forget to revert to default theme before a system update or if the applying fails.")
         }
 
+            LabelSpacer { }
+
         Button {
             anchors.horizontalCenter: parent.horizontalCenter
             text: qsTr("Recovery")
@@ -299,14 +304,14 @@ SilicaFlickable
             }
         }
 
-        Item {
-            width: 1
-            height: Theme.paddingLarge
-        }
-
         }
 
     }  // grid
+
+        Item {
+            width: parent.width
+            height: Theme.paddingLarge
+        }
 
     }
 

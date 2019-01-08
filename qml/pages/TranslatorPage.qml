@@ -92,61 +92,71 @@ Page
             {
                 width: isLandscape ? parent.width/2 : parent.width
 
-                AboutLanguage { text: "Deutsch" }
-                AboutTranslator { text: "Sailfishman" }
-                AboutTranslator { text: "mosen" }
-                Item { width: parent.width; height: Theme.paddingLarge }
+                DetailItem {
+                    label: "Deutsch"
+                    value: "Sailfishman" + "\n" + "mosen"
+                }
 
-                AboutLanguage { text: "Español" }
-                AboutTranslator { text: "mad_soft" }
-                Item { width: parent.width; height: Theme.paddingLarge }
+                DetailItem {
+                    label: "Español"
+                    value: "mad_soft"
+                }
 
-                AboutLanguage { text: "Español (España)" }
-                AboutTranslator { text: "mad_soft" }
-                Item { width: parent.width; height: Theme.paddingLarge }
+                DetailItem {
+                    label: "Español (España)"
+                    value: "mad_soft"
+                }
 
-                AboutLanguage { text: "Français" }
-                AboutTranslator { text: "Ohaneje Emeka" }
-                AboutTranslator { text: "Cédric Heintz" }
-                Item { width: parent.width; height: Theme.paddingLarge }
+                DetailItem {
+                    label: "Français"
+                    value: "Ohaneje Emeka" + "\n" + "Cédric Heintz"
+                }
 
-                AboutLanguage { text: "Italiano" }
-                AboutTranslator { text: "Francesco Vaccaro" }
-                Item { width: parent.width; height: Theme.paddingLarge }
+                DetailItem {
+                    label: "Italiano"
+                    value: "Francesco Vaccaro"
+                }
 
-                AboutLanguage { text: "Magyar" }
-                AboutTranslator { text: "Szabó G." }
-                Item { width: parent.width; height: Theme.paddingLarge }
+                DetailItem {
+                    label: "Magyar"
+                    value: "Szabó G."
+                }
 
+                DetailItem {
+                    label: "Nederlands"
+                    value: "Nathan Follens"
+                }
         }
 
         Column
         {
             width: isLandscape ? parent.width/2 : parent.width
 
-            AboutLanguage { text: "Nederlands" }
-            AboutTranslator { text: "Nathan Follens" }
-            Item { width: parent.width; height: Theme.paddingLarge }
+            DetailItem {
+                label: "Neerlandais (Belgique)"
+                value: "Nathan Follens"
+            }
 
-            AboutLanguage { text: "Neerlandais (Belgique)" }
-            AboutTranslator { text: "Nathan Follens" }
-            Item { width: parent.width; height: Theme.paddingLarge }
+              DetailItem {
+                  label: "Polski"
+                  value: "Tomasz Amborski"
+              }
 
-              AboutLanguage { text: "Polski" }
-              AboutTranslator { text: "Tomasz Amborski" }
-              Item { width: parent.width; height: Theme.paddingLarge }
+              DetailItem {
+                  label: "Svenska"
+                  value: "Åke Engelbrektson"
+              }
 
-              AboutLanguage { text: "Svenska" }
-              AboutTranslator { text: "Åke Engelbrektson" }
-              Item { width: parent.width; height: Theme.paddingLarge }
-
-              AboutLanguage { text: "Zhōngwén (Chinese)" }
-              AboutTranslator { text: "rui kon" }
-              Item { width: parent.width; height: Theme.paddingLarge }
+              DetailItem {
+                  label: "Zhōngwén (Chinese)"
+                  value: "rui kon"
+              }
 
               LabelText {
                   text: qsTr("Request a new language or contribute to existing languages on the Transifex project page.")
               }
+
+            LabelSpacer { }
 
               Button {
                   anchors.horizontalCenter: parent.horizontalCenter
@@ -157,10 +167,10 @@ Page
         }
     } // grid
 
-              Item {
-                  width: 1
-                  height: Theme.paddingLarge
-              }
+            Item {
+                width: parent.width
+                height: Theme.paddingLarge
+            }
         }
 
     }

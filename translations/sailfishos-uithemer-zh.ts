@@ -483,6 +483,14 @@
         <source>Restore the default icons, fonts and display density settings before performing an OS update, so you don&apos;t need to manually do it.</source>
         <translation>在执行系统更新之前，恢复默认图标、字体和显示密度 你不必手动执行。</translation>
     </message>
+    <message>
+        <source>Choose the action to be shown on the UI Themer cover, for a quick access when the app is minimized on the homescreen.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Optionally, you can choose to display a second action on the cover.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>RecoveryPage</name>

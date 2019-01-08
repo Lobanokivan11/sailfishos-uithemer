@@ -27,6 +27,7 @@ OTHER_FILES += \
     qml/components/BackgroundRectangle.qml \
     qml/components/BusyState.qml \
     qml/components/FontPreview.qml \
+    qml/components/LabelSpacer.qml \
     qml/components/LabelText.qml \
     qml/components/Notification.qml \
     qml/components/themepacklistview/ThemePackItem.qml \

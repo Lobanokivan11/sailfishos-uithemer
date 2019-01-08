@@ -108,11 +108,11 @@
     </message>
     <message>
         <source>Remember to restart the homescreen right after.</source>
-        <translation>Ricorda di riavviare la homescreen subito dopo.</translation>
+        <translation>Ricorda di riavviare la schermata home subito dopo.</translation>
     </message>
     <message>
         <source>Restart homescreen</source>
-        <translation>Riavvia homescreen</translation>
+        <translation>Riavvia schermata home</translation>
     </message>
     <message>
         <source>Icons</source>
@@ -215,7 +215,7 @@
     </message>
     <message>
         <source>You can quickly restart the homescreen after you applied a setting by pressing &lt;b&gt;R&lt;/b&gt;.</source>
-        <translation>Puoi riavviare la homescreen velocemente dopo aver cambiato un&apos;impostazione premendo &lt;b&gt;R&lt;/b&gt;.</translation>
+        <translation>Puoi riavviare la schermata home velocemente dopo aver cambiato un&apos;impostazione premendo &lt;b&gt;R&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>You can cancel a countdown or a dialog by pressing &lt;b&gt;C&lt;/b&gt;.</source>
@@ -235,11 +235,11 @@
     </message>
     <message>
         <source>An homescreen restart may be needed to apply your settings. You can do that through the dialog or from the &lt;i&gt;Options&lt;/i&gt; page.</source>
-        <translation>Un riavvio della homescreen potrebbe essere necessario per applicare le impostazioni. Puoi farlo attraverso la finestra di conferma o dalla pagina &lt;i&gt;Opzioni&lt;/i&gt;.</translation>
+        <translation>Un riavvio della schermata home potrebbe essere necessario per applicare le impostazioni. Puoi farlo attraverso la finestra di conferma o dalla pagina &lt;i&gt;Opzioni&lt;/i&gt;.</translation>
     </message>
     <message>
         <source>An homescreen restart may be needed to apply your settings. You can do that from the &lt;i&gt;Options&lt;/i&gt; page.</source>
-        <translation>Un riavvio della homescreen potrebbe essere necessario per applicare le impostazioni. Puoi farlo dalla pagina &lt;i&gt;Opzioni&lt;/i&gt;.</translation>
+        <translation>Un riavvio della schermata home potrebbe essere necessario per applicare le impostazioni. Puoi farlo dalla pagina &lt;i&gt;Opzioni&lt;/i&gt;.</translation>
     </message>
     <message>
         <source>Press &lt;b&gt;O&lt;/b&gt; for the options page.</source>
@@ -334,7 +334,7 @@
     </message>
     <message>
         <source>Remember to restart the homescreen (from the &lt;i&gt;Options&lt;/i&gt; page) right after you have changed the settings in this page.</source>
-        <translation>Ricorda di riavviare la homescreen (dalla pagina &lt;i&gt;Opzioni&lt;/i&gt;) subito dopo aver cambiato i settaggi in questa pagina.</translation>
+        <translation>Ricorda di riavviare la schermata home (dalla pagina &lt;i&gt;Opzioni&lt;/i&gt;) subito dopo aver cambiato i settaggi in questa pagina.</translation>
     </message>
 </context>
 <context>
@@ -440,7 +440,7 @@
     </message>
     <message>
         <source>restart homescreen</source>
-        <translation>riavvia homescreen</translation>
+        <translation>riavvia schermata home</translation>
     </message>
     <message>
         <source>one-click restore</source>
@@ -456,7 +456,7 @@
     </message>
     <message>
         <source>Restart homescreen</source>
-        <translation>Riavvia homescreen</translation>
+        <translation>Riavvia schermata home</translation>
     </message>
     <message>
         <source>Restart</source>
@@ -464,11 +464,11 @@
     </message>
     <message>
         <source>Restarting homescreen</source>
-        <translation>Riavvio homescreen</translation>
+        <translation>Riavvio schermata home</translation>
     </message>
     <message>
         <source>Restart the homescreen, to make your modifications effective. Your currently opened apps will be closed.</source>
-        <translation>Riavvia la homescreen, per rendere effettive le modifiche. Le app aperte verranno chiuse.</translation>
+        <translation>Riavvia la schermata home, per rendere effettive le modifiche. Le app aperte verranno chiuse.</translation>
     </message>
     <message>
         <source>Restoring</source>
@@ -481,6 +481,14 @@
     <message>
         <source>Restore the default icons, fonts and display density settings before performing an OS update, so you don&apos;t need to manually do it.</source>
         <translation>Ripristina icone, font e impostazioni di densità del display prima di effettuare un aggiornamento dell&apos;OS, così non hai bisogno di farlo manualmente.</translation>
+    </message>
+    <message>
+        <source>Choose the action to be shown on the UI Themer cover, for a quick access when the app is minimized on the homescreen.</source>
+        <translation>Scegli l&apos;azione da mostrare sulla cover di UI Themer, per un accesso rapido quando l&apos;app è minimizzata sulla schermata home.</translation>
+    </message>
+    <message>
+        <source>Optionally, you can choose to display a second action on the cover.</source>
+        <translation>Eventualmente, puoi scegliere di mostrare sulla cover una seconda azione.</translation>
     </message>
 </context>
 <context>
@@ -515,11 +523,11 @@
     </message>
     <message>
         <source>Remember to restart the homescreen right after.</source>
-        <translation>Ricorda di riavviare la homescreen subito dopo.</translation>
+        <translation>Ricorda di riavviare la schermata home subito dopo.</translation>
     </message>
     <message>
         <source>Restart homescreen</source>
-        <translation>Riavvia homescreen</translation>
+        <translation>Riavvia schermata home</translation>
     </message>
 </context>
 <context>
@@ -542,11 +550,11 @@
     </message>
     <message>
         <source>Remember to restart the homescreen right after.</source>
-        <translation>Ricorda di riavviare la homescreen subito dopo.</translation>
+        <translation>Ricorda di riavviare la schermata home subito dopo.</translation>
     </message>
     <message>
         <source>Restart homescreen</source>
-        <translation>Riavvia homescreen</translation>
+        <translation>Riavvia schermata home</translation>
     </message>
 </context>
 <context>
@@ -561,11 +569,11 @@
     </message>
     <message>
         <source>Restart homescreen</source>
-        <translation>Riavvia homescreen</translation>
+        <translation>Riavvia schermata home</translation>
     </message>
     <message>
         <source>Remember to restart the homescreen right after.</source>
-        <translation>Ricorda di riavviare la homescreen subito dopo.</translation>
+        <translation>Ricorda di riavviare la schermata home subito dopo.</translation>
     </message>
     <message>
         <source>Default icons</source>
