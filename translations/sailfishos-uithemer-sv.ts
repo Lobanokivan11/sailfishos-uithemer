@@ -65,23 +65,24 @@
     </message>
     <message>
         <source>About</source>
-        <translation type="unfinished"></translation>
+        <translation>Om</translation>
     </message>
     <message>
         <source>Thanks to Dax89 for helping with C++ and QML code, this app would not exist without him.</source>
-        <translation type="unfinished"></translation>
+        <translation> 76% match
+Tack till Dax89, för hjälp med C++ och QML-kod, den här appen hade inte funnits utan honom. </translation>
     </message>
     <message>
         <source>Thanks to Eugenio_g7 for helping with the &lt;i&gt;One-click restore&lt;/i&gt; service.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tack till Eugenio_g7, för hjälp med &lt;i&gt;Ett-klicksåterställning&lt;/i&gt;.</translation>
     </message>
     <message>
         <source>Thanks to all the testers for being brave and patient.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tack till alla testare, för mod och tålamod.</translation>
     </message>
     <message>
         <source>Keyboard navigation based on &lt;a href=&apos;https://github.com/Wunderfitz/harbour-piepmatz&apos;&gt;Piepmatz&lt;/a&gt; by Sebastian Wolf.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tangentbordsnavigering baserad på &lt;a href=&apos;https://github.com/Wunderfitz/harbour-piepmatz&apos;&gt;Piepmatz&lt;/a&gt; av Sebastian Wolf.</translation>
     </message>
 </context>
 <context>
@@ -140,62 +141,62 @@
     </message>
     <message>
         <source>After confirming, your device will restart. Your currently opened apps will be closed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Efter bekräftelse kommer din enhet att startas om. Alla öppna appar kommer att stängas.</translation>
     </message>
 </context>
 <context>
     <name>DensityPage</name>
     <message>
         <source>Usage guide</source>
-        <translation type="unfinished">Användningsguide</translation>
+        <translation>Användningsguide</translation>
     </message>
     <message>
         <source>Options</source>
-        <translation type="unfinished">Alternativ</translation>
+        <translation>Alternativ</translation>
     </message>
     <message>
         <source>Restore display density</source>
-        <translation type="unfinished">Återställ skärmupplösning</translation>
+        <translation>Återställ skärmupplösning</translation>
     </message>
     <message>
         <source>Display density</source>
-        <translation type="unfinished">Skärmupplösning</translation>
+        <translation>Skärmupplösning</translation>
     </message>
     <message>
         <source>Enable display density settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivera skärmupplösningsinställningar</translation>
     </message>
     <message>
         <source>Device pixel ratio</source>
-        <translation type="unfinished">Enhetens bildpunktsförhållande</translation>
+        <translation>Enhetens bildpunktsförhållande</translation>
     </message>
     <message>
         <source>Change the display pixel ratio. To a smaller value corresponds an higher density.</source>
-        <translation type="unfinished">Ändra skärmens bildpunktsförhållande. Ett lägre värde motsvarar en högre täthet.</translation>
+        <translation>Ändra skärmens bildpunktsförhållande. Ett lägre värde motsvarar en högre täthet.</translation>
     </message>
     <message>
         <source>Android DPI</source>
-        <translation type="unfinished">Android DPI</translation>
+        <translation>Android DPI</translation>
     </message>
     <message>
         <source>Android DPI value</source>
-        <translation type="unfinished">Android DPI-värde</translation>
+        <translation>Android DPI-värde</translation>
     </message>
     <message>
         <source>Change the Android DPI value. To a smaller value corresponds an higher density.</source>
-        <translation type="unfinished">Ändra Android DPI-värde. Ett lägre värde motsvarar en högre täthet.</translation>
+        <translation>Ändra Android DPI-värde. Ett lägre värde motsvarar en högre täthet.</translation>
     </message>
     <message>
         <source>Icon size</source>
-        <translation type="unfinished">Ikonstorlek</translation>
+        <translation>Ikonstorlek</translation>
     </message>
     <message>
         <source>Change the size of UI icons. To a greater value corresponds an huger size.</source>
-        <translation type="unfinished">Ändra storleken på UI-ikonerna. Ett högre värde motsvarar en större storlek.</translation>
+        <translation>Ändra storleken på UI-ikonerna. Ett högre värde motsvarar en större storlek.</translation>
     </message>
     <message>
         <source>Remember to restart the homescreen (from the &lt;i&gt;Options&lt;/i&gt; page) right after you have changed the settings in this page.</source>
-        <translation type="unfinished">Kom ihåg att starta om hemskärmen (från Alternativ-menyn), direkt efter att du har ändrat inställningarna på denna sida.</translation>
+        <translation>Kom ihåg att starta om hemskärmen (från &lt;i&gt;Alternativ&lt;/i&gt;-menyn), direkt efter att du har ändrat inställningarna på denna sida.</translation>
     </message>
 </context>
 <context>
@@ -326,7 +327,7 @@
     </message>
     <message>
         <source>Press &lt;b&gt;D&lt;/b&gt; for the display density page.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tryck &lt;b&gt;D&lt;/b&gt; för skärmupplösningssidan.</translation>
     </message>
 </context>
 <context>
@@ -499,35 +500,35 @@
     </message>
     <message>
         <source>Choose the action to be shown on the UI Themer cover, for a quick access when the app is minimized on the homescreen.</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj vilken åtgärd som skall visas på UI Themers programminiatyr, för snabb åtkomst när appen är minimerad på hemskärmen.</translation>
     </message>
     <message>
         <source>Optionally, you can choose to display a second action on the cover.</source>
-        <translation type="unfinished"></translation>
+        <translation>Du kan också välja att visa en andra åtgärd på miniatyren.</translation>
     </message>
     <message>
         <source>About</source>
-        <translation type="unfinished"></translation>
+        <translation>Om</translation>
     </message>
     <message>
         <source>Run before system updates</source>
-        <translation type="unfinished"></translation>
+        <translation>Kör före systemuppdatering</translation>
     </message>
     <message>
         <source>Restore the default icons, fonts and display density settings before performing a system update, so you don&apos;t need to manually do it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Återställer standardikoner, teckensnitt och skärmupplösning innan en systemuppdatering utförs, så att du slipper göra det manuellt.</translation>
     </message>
     <message>
         <source>Easy mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Enkelt läge</translation>
     </message>
     <message>
         <source>Enable easy mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivera enkelt läge</translation>
     </message>
     <message>
         <source>Enable an easy-to-use mode for beginners.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivera ett lättanvänt läge för nybörjare.</translation>
     </message>
 </context>
 <context>
@@ -597,7 +598,7 @@
     </message>
     <message>
         <source>After confirming, your device will restart. Your currently opened apps will be closed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Efter bekräftelse kommer din enhet att startas om. Alla öppna appar kommer att stängas.</translation>
     </message>
 </context>
 <context>
@@ -628,7 +629,7 @@
     </message>
     <message>
         <source>After confirming, your device will restart. Your currently opened apps will be closed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Efter bekräftelse kommer din enhet att startas om. Alla öppna appar kommer att stängas.</translation>
     </message>
 </context>
 <context>

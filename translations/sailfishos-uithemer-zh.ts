@@ -65,23 +65,24 @@
     </message>
     <message>
         <source>About</source>
-        <translation type="unfinished"></translation>
+        <translation>关于</translation>
     </message>
     <message>
         <source>Thanks to Dax89 for helping with C++ and QML code, this app would not exist without him.</source>
-        <translation type="unfinished"></translation>
+        <translation>感谢Dax89 在C++和 QML模式上对我的帮助，如果没有他就不会有此应用。</translation>
     </message>
     <message>
         <source>Thanks to Eugenio_g7 for helping with the &lt;i&gt;One-click restore&lt;/i&gt; service.</source>
-        <translation type="unfinished"></translation>
+        <translation>感谢Eugenio_g7在&lt;i&gt;一键恢复&lt;/i&gt;功能上对我的帮助。</translation>
     </message>
     <message>
         <source>Thanks to all the testers for being brave and patient.</source>
-        <translation type="unfinished"></translation>
+        <translation>感谢所有测试者的勇气和耐心。</translation>
     </message>
     <message>
         <source>Keyboard navigation based on &lt;a href=&apos;https://github.com/Wunderfitz/harbour-piepmatz&apos;&gt;Piepmatz&lt;/a&gt; by Sebastian Wolf.</source>
-        <translation type="unfinished"></translation>
+        <translation>机械键盘导航基于Sebastian Wolf开发的&lt;a href=&apos;https://github.com/Wunderfitz/harbour-piepmatz&apos;&gt;Piepmatz&lt;/a&gt;。
+</translation>
     </message>
 </context>
 <context>
@@ -140,62 +141,62 @@
     </message>
     <message>
         <source>After confirming, your device will restart. Your currently opened apps will be closed.</source>
-        <translation type="unfinished"></translation>
+        <translation>确认之后，你的设备将会重启。你目前打开的应用将会关闭。</translation>
     </message>
 </context>
 <context>
     <name>DensityPage</name>
     <message>
         <source>Usage guide</source>
-        <translation type="unfinished"></translation>
+        <translation>使用指南</translation>
     </message>
     <message>
         <source>Options</source>
-        <translation type="unfinished">操作</translation>
+        <translation>操作</translation>
     </message>
     <message>
         <source>Restore display density</source>
-        <translation type="unfinished">恢复显示密度</translation>
+        <translation>恢复显示密度</translation>
     </message>
     <message>
         <source>Display density</source>
-        <translation type="unfinished">显示密度</translation>
+        <translation>显示密度</translation>
     </message>
     <message>
         <source>Enable display density settings</source>
-        <translation type="unfinished"></translation>
+        <translation>启用显示密度设置</translation>
     </message>
     <message>
         <source>Device pixel ratio</source>
-        <translation type="unfinished">设备像素比例</translation>
+        <translation>设备像素比例</translation>
     </message>
     <message>
         <source>Change the display pixel ratio. To a smaller value corresponds an higher density.</source>
-        <translation type="unfinished">改变显示像素比例，到更小的值、更高的密度。</translation>
+        <translation>改变显示像素比例，到更小的值、更高的密度。</translation>
     </message>
     <message>
         <source>Android DPI</source>
-        <translation type="unfinished">Android DPI</translation>
+        <translation>Android DPI</translation>
     </message>
     <message>
         <source>Android DPI value</source>
-        <translation type="unfinished">Android DPI 值</translation>
+        <translation>Android DPI 值</translation>
     </message>
     <message>
         <source>Change the Android DPI value. To a smaller value corresponds an higher density.</source>
-        <translation type="unfinished">改变显示像素比例，到更小的值、更高的密度。</translation>
+        <translation>改变显示像素比例，到更小的值、更高的密度。</translation>
     </message>
     <message>
         <source>Icon size</source>
-        <translation type="unfinished">图标大小</translation>
+        <translation>图标大小</translation>
     </message>
     <message>
         <source>Change the size of UI icons. To a greater value corresponds an huger size.</source>
-        <translation type="unfinished">改变UI图标的尺寸到一个更高的值、更大的尺寸。</translation>
+        <translation>改变UI图标的尺寸到一个更高的值、更大的尺寸。</translation>
     </message>
     <message>
         <source>Remember to restart the homescreen (from the &lt;i&gt;Options&lt;/i&gt; page) right after you have changed the settings in this page.</source>
-        <translation type="unfinished">当你更改此页的设置之后，记得立即重启主屏幕（从&lt;i&gt;操作&lt;/i&gt;页）</translation>
+        <translation>当你更改此页的设置之后，记得立即重启主屏幕（从&lt;i&gt;操作&lt;/i&gt;页）</translation>
     </message>
 </context>
 <context>
@@ -326,7 +327,7 @@
     </message>
     <message>
         <source>Press &lt;b&gt;D&lt;/b&gt; for the display density page.</source>
-        <translation type="unfinished"></translation>
+        <translation>按&lt;b&gt;D&lt;/b&gt; 打开显示密度页面。</translation>
     </message>
 </context>
 <context>
@@ -499,35 +500,35 @@
     </message>
     <message>
         <source>Choose the action to be shown on the UI Themer cover, for a quick access when the app is minimized on the homescreen.</source>
-        <translation type="unfinished"></translation>
+        <translation>选择显示在 UI Themer封面上的操作，当应用以最小化形式显示在主屏幕上时，你可以进行快捷操作。</translation>
     </message>
     <message>
         <source>Optionally, you can choose to display a second action on the cover.</source>
-        <translation type="unfinished"></translation>
+        <translation>可供选择：你可以选择显示在应用封面的间接操作。</translation>
     </message>
     <message>
         <source>About</source>
-        <translation type="unfinished"></translation>
+        <translation>关于</translation>
     </message>
     <message>
         <source>Run before system updates</source>
-        <translation type="unfinished"></translation>
+        <translation>在系统更新之前运行。</translation>
     </message>
     <message>
         <source>Restore the default icons, fonts and display density settings before performing a system update, so you don&apos;t need to manually do it.</source>
-        <translation type="unfinished"></translation>
+        <translation>在执行系统更新之前，恢复默认图标、字体和显示密度设置，你不必手动执行。</translation>
     </message>
     <message>
         <source>Easy mode</source>
-        <translation type="unfinished"></translation>
+        <translation>简易模式</translation>
     </message>
     <message>
         <source>Enable easy mode</source>
-        <translation type="unfinished"></translation>
+        <translation>启用简易模式</translation>
     </message>
     <message>
         <source>Enable an easy-to-use mode for beginners.</source>
-        <translation type="unfinished"></translation>
+        <translation>为新手启用简易模式。</translation>
     </message>
 </context>
 <context>
@@ -597,7 +598,7 @@
     </message>
     <message>
         <source>After confirming, your device will restart. Your currently opened apps will be closed.</source>
-        <translation type="unfinished"></translation>
+        <translation>确认之后，你的设备将会重启。你目前打开的应用将会关闭。</translation>
     </message>
 </context>
 <context>
@@ -628,7 +629,7 @@
     </message>
     <message>
         <source>After confirming, your device will restart. Your currently opened apps will be closed.</source>
-        <translation type="unfinished"></translation>
+        <translation>确认之后，你的设备将会重启。你目前打开的应用将会关闭。</translation>
     </message>
 </context>
 <context>
