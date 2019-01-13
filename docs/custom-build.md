@@ -25,18 +25,18 @@ Enable/disable the first-run wizard.
 	coverAction1=int
 
 Main cover action:
-- *0* refresh icon theme
-- *1* restart homescreen
-- *2* one-click restore
-- *3* disabled
+- *0* refresh icon theme.
+- *1* restart homescreen.
+- *2* one-click restore.
+- *3* disabled.
 
 	coverAction2=int
 
 (optional) Second cover action:
-- *0* refresh icon theme
-- *1* restart homescreen
-- *2* one-click restore
-- *3* disabled
+- *0* refresh icon theme.
+- *1* restart homescreen.
+- *2* one-click restore.
+- *3* disabled.
 
 ## Post-install scripts
 
