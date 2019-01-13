@@ -7,15 +7,23 @@ Item
     ConfigurationGroup {
         id: conf
         path: "/desktop/lipstick/sailfishos-uithemer"
-        property bool wizardDone: false
+        property bool showEasygui
+        property bool showDensity
+        property bool easygui
+        property bool densityEnabled
+        property bool wizardDone
         property string activeFontPack
         property string activeIconPack
-        property int coverAction1: 0
-        property int coverAction2: 3
-        property int autoUpdate: 0
-        property bool servicesu: false
+        property int coverAction1
+        property int coverAction2
+        property int autoUpdate
+        property bool servicesu
     }
 
+    property alias showEasygui: conf.showEasygui
+    property alias showDensity: conf.showDensity
+    property alias easygui: conf.easygui
+    property alias densityEnabled: conf.densityEnabled
     property alias wizardDone: conf.wizardDone
     property alias activeFontPack: conf.activeFontPack
     property alias activeIconPack: conf.activeIconPack
@@ -27,11 +35,13 @@ Item
     property bool homeRefresh: true
     property bool isRunning: false
 
-    function deactivateFont() { activeFontPack = "none"; }
-    function deactivateIcon() { activeIconPack = "none"; }
+    function deactivateFont() { activeFontPack = "default"; }
+    function deactivateIcon() { activeIconPack = "default"; }
 
     id: settings
 
+    onEasyguiChanged: conf.sync();
+    onDensityEnabledChanged: conf.sync();
     onWizardDoneChanged: conf.sync();
     onActiveFontPackChanged: conf.sync();
     onActiveIconPackChanged: conf.sync();

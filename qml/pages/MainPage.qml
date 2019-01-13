@@ -12,8 +12,6 @@ Page
     id: mainpage
     focus: true
 
-    property int activeTabId: 0
-
     RemorsePopup { id: remorsepopup }
     ThemePack { id: themepack }
     BusyState { id: busyindicator }
@@ -38,12 +36,6 @@ Page
                 onFontApplied: applyDone()
                 onRestoreCompleted: applyDone()
                 onUninstallCompleted: notifyDone()
-                onDpiRestored: {
-                    sladpi.value = themepack.droidDPI;
-                    silica.sync();
-                    sldpr.value = silica.theme_pixel_ratio;
-                    applyDone()
-                }
             }
 
     Timer {
@@ -54,99 +46,30 @@ Page
         onTriggered: themepackmodel.reloadAll()
     }
 
-    ConfigurationGroup {
-        id: silica
-        path: "/desktop/sailfish/silica"
-        property real theme_pixel_ratio
-        property real icon_size_launcher
-    }
-
     Keys.onPressed: {
         handleKeyPressed(event);
     }
 
     function handleKeyPressed(event) {
 
-        if (event.key === Qt.Key_Right) {
-            switch (mainpage.activeTabId) {
-                case 0:
-                    viewsSlideshow.opacity = 0;
-                    slideshowVisibleTimer.goToTab(1);
-                    openTab(1);
-                    break;
-                case 1:
-                    viewsSlideshow.opacity = 0;
-                    slideshowVisibleTimer.goToTab(0);
-                    openTab(0);
-                    break;
-            }
-        }
-
-        if (event.key === Qt.Key_Left) {
-            switch (mainpage.activeTabId) {
-                case 0:
-                    viewsSlideshow.opacity = 0;
-                    slideshowVisibleTimer.goToTab(1);
-                    openTab(1);
-                    break;
-                case 1:
-                    viewsSlideshow.opacity = 0;
-                    slideshowVisibleTimer.goToTab(0);
-                    openTab(0);
-                    break;
-            }
-        }
-
         if (event.key === Qt.Key_Down) {
-                switch (mainpage.activeTabId) {
-                case 0:
-                    themepacklistview.flick(0, - mainpage.height);
+            themepacklistview.flick(0, - mainpage.height);
                     event.accepted = true;
-                    break;
-                case 1:
-                    densityView.flick(0, - mainpage.height);
-                    event.accepted = true;
-                    break;
-                }
         }
 
         if (event.key === Qt.Key_Up) {
-                switch (mainpage.activeTabId) {
-                case 0:
-                    themepacklistview.flick(0, mainpage.height);
+            themepacklistview.flick(0, mainpage.height);
                     event.accepted = true;
-                    break;
-                case 1:
-                    densityView.flick(0, mainpage.height);
-                    event.accepted = true;
-                    break;
-                }
         }
 
         if (event.key === Qt.Key_PageDown) {
-            switch (mainpage.activeTabId) {
-                case 0:
-                    themepacklistview.scrollToBottom();
+            themepacklistview.scrollToBottom();
                     event.accepted = true;
-                    break;
-                case 1:
-                    densityView.scrollToBottom();
-                    event.accepted = true;
-                    break;
-                }
         }
 
         if (event.key === Qt.Key_PageUp) {
-            switch (mainpage.activeTabId) {
-                case 0:
-                    themepacklistview.scrollToTop();
+            themepacklistview.scrollToTop();
                     event.accepted = true;
-                    break;
-                case 1:
-                    densityView.scrollToTop();
-                    event.accepted = true;
-                    break;
-                }
         }
 
         if (event.key === Qt.Key_Return) {
@@ -160,8 +83,8 @@ Page
             event.accepted = true;
         }
 
-        if (event.key === Qt.Key_H) {
-            handleHomeClicked();
+        if (event.key === Qt.Key_D && settings.showDensity === true) {
+            pageStack.push(Qt.resolvedUrl("DensityPage.qml"));
             event.accepted = true;
         }
 
@@ -176,6 +99,7 @@ Page
         }
 
         if (event.key === Qt.Key_W) {
+            settings.wizardDone = false
             pageStack.replaceAbove(null, Qt.resolvedUrl("WelcomePage.qml"));
             event.accepted = true;
         }
@@ -195,60 +119,6 @@ Page
         }
     }
 
-    function openTab(tabId) {
-        activeTabId = tabId;
-        switch (tabId) {
-        case 0:
-            homeButton.isActive = true;
-            densityButton.isActive = false;
-            break;
-        case 1:
-            homeButton.isActive = false;
-            densityButton.isActive = true;
-            break;
-        }
-}
-
-    function handleHomeClicked() {
-        if (mainpage.activeTabId === 0) {
-            themepacklistview.scrollToTop();
-        } else {
-            viewsSlideshow.opacity = 0;
-            slideshowVisibleTimer.goToTab(0);
-            openTab(0);
-        }
-}
-    function handleDisplayClicked() {
-        if (mainpage.activeTabId === 1) {
-            densityView.scrollToTop();
-        } else {
-            viewsSlideshow.opacity = 0;
-            slideshowVisibleTimer.goToTab(1);
-            openTab(0);
-        }
-    }
-
-    Timer {
-        id: slideshowVisibleTimer
-        property int tabId: 0
-        interval: 50
-        repeat: false
-        onTriggered: {
-            viewsSlideshow.positionViewAtIndex(tabId, PathView.SnapPosition);
-            viewsSlideshow.opacity = 1;
-        }
-        function goToTab(newTabId) {
-            tabId = newTabId;
-            start();
-        }
-    }
-
-    Component.onCompleted: {
-        console.log("page loaded");
-        viewsSlideshow.positionViewAtIndex(0, PathView.SnapPosition);
-        viewsSlideshow.opacity = 1
-    }
-
     DBusInterface {
         id: openStore
         service: 'harbour.storeman.service'
@@ -256,21 +126,15 @@ Page
         iface: 'harbour.storeman.service'
     }
 
-    SilicaFlickable {
-        anchors {
-            fill: parent
-            bottomMargin: isPortrait ? dockedbar.height : 0
-            rightMargin: isLandscape ? dockedbarLandscape.width : 0
-        }
-        clip: true
+        SilicaListView {
+        id: themepacklistview
+        width: parent.width
+        height: parent.height
+        anchors.fill: parent
         enabled: !settings.isRunning
         opacity: settings.isRunning ? 0.2 : 1.0
 
         PullDownMenu {
-            MenuItem {
-                text: qsTr("About UI Themer")
-                onClicked: pageStack.push(Qt.resolvedUrl("AboutPage.qml"))
-            }
             MenuItem {
                 text: qsTr("Usage guide")
                 onClicked: pageStack.push(Qt.resolvedUrl("GuidePage.qml"))
@@ -281,22 +145,13 @@ Page
             }
 
             MenuItem {
-                text: qsTr("Restore display density")
-                visible: viewsSlideshow.currentIndex === 1
-
-                onClicked: {
-                    var dlgrestore = pageStack.push("RestoreDDPage.qml", { "settings": settings });
-
-                    dlgrestore.accepted.connect(function() {
-                        settings.isRunning = true;
-                        themepackmodel.restoreDpi(dlgrestore.restoreDPR, dlgrestore.restoreADPI);
-                    });
-                }
+                text: qsTr("Display density")
+                visible: settings.showDensity
+                onClicked: pageStack.push(Qt.resolvedUrl("DensityPage.qml"))
             }
 
             MenuItem {
                 text: qsTr("Restore theme")
-                visible: viewsSlideshow.currentIndex === 0
 
                 onClicked: {
                     var dlgrestore = pageStack.push("RestorePage.qml", { "settings": settings });
@@ -314,37 +169,6 @@ Page
                 }
             }
         }
-
-    SlideshowView {
-        id: viewsSlideshow
-        width: parent.width
-        height: parent.height
-        itemWidth: width
-        anchors.fill: parent
-        model: viewsModel
-        onCurrentIndexChanged: {
-            openTab(currentIndex);
-        }
-        onOpacityChanged: {
-            if (opacity === 0) {
-                slideshowVisibleTimer.start();
-            }
-        }
-        currentIndex: 1
-        opacity: 0
-
-    }
-
-    VisualItemModel {
-        id: viewsModel
-        Item {
-            width: viewsSlideshow.itemWidth
-            height: viewsSlideshow.height
-
-        SilicaListView {
-        id: themepacklistview
-        width: parent.width
-        height: parent.height
 
         header: Column {
                    width: parent.width
@@ -408,247 +232,11 @@ Page
         }
 
         Item {
-            width: 1
+            width: parent.width
             height: Theme.paddingLarge
         }
 
         VerticalScrollDecorator { }
         }
-    }
-
-        Item {
-            width: viewsSlideshow.itemWidth
-            height: viewsSlideshow.height
-
-        SilicaFlickable
-        {
-            id: densityView
-            width: parent.width
-            height: parent.height
-            contentHeight: densityContent.height
-
-        Column
-        {
-            id: densityContent
-            width: parent.width
-
-            PageHeader { title: qsTr("Display density") }
-
-            Grid {
-                width: parent.width
-                columns: isLandscape ? 2 : 1
-
-            Column
-            {
-                width: isLandscape ? parent.width/2 : parent.width
-
-            Column
-            {
-                id: coldpr
-                width: parent.width
-
-                SectionHeader { text: qsTr("Device pixel ratio") }
-
-                Slider {
-                    id: sldpr
-                    width: parent.width
-                    label: qsTr("Device pixel ratio")
-                    maximumValue: 2.3
-                    minimumValue: 0.7
-                    stepSize: 0.05
-                    value: silica.theme_pixel_ratio
-                    valueText: value
-                    onPressAndHold: cancel()
-
-                    onReleased: {
-                        silica.theme_pixel_ratio = value;
-                    }
-                }
-
-                LabelText {
-                    text: qsTr("Change the display pixel ratio. To a smaller value corresponds an higher density.")
-                }
-            }
-
-            Column
-            {
-                id: coladpi
-                width: parent.width
-                visible: themepack.hasAndroidSupport
-
-                SectionHeader { text: qsTr("Android DPI") }
-
-                Slider {
-                    id: sladpi
-                    width: parent.width
-                    label: qsTr("Android DPI value")
-                    maximumValue: 600
-                    minimumValue: 180
-                    stepSize: 20
-                    value: themepack.droidDPI
-                    valueText: value
-                    onReleased: themepackmodel.applyADPI(valueText)
-                    onPressAndHold: cancel()
-                }
-
-                LabelText {
-                    text: qsTr("Change the Android DPI value. To a smaller value corresponds an higher density.")
-                }
-            }
-
-            }
-
-            Column
-            {
-                width: isLandscape ? parent.width/2 : parent.width
-
-            SectionHeader { text: qsTr("Icon size") }
-            Column
-            {
-                id: coliz
-                width: parent.width
-
-                ComboBox {
-                    id: cbiz
-                    width: parent.width
-                    label: qsTr("Icon size")
-                    description: qsTr("Change the size of UI icons. To a greater value corresponds an huger size.")
-                    value: silica.icon_size_launcher
-
-                    menu: ContextMenu {
-                        MenuItem { text: "86"; onClicked: silica.icon_size_launcher = 86 }
-                        MenuItem { text: "108"; onClicked: silica.icon_size_launcher = 108 }
-                        MenuItem { text: "129"; onClicked: silica.icon_size_launcher = 129 }
-                        MenuItem { text: "151"; onClicked: silica.icon_size_launcher = 151 }
-                        MenuItem { text: "172"; onClicked: silica.icon_size_launcher = 172 }
-                    }
-                }
-            }
-
-                LabelText {
-                    text: "<br>" + qsTr("Remember to restart the homescreen (from the <i>Options</i> page) right after you have changed the settings in this page.")
-                }
-            }
-            } // grid
-
-            Item {
-                width: parent.width
-                height: Theme.paddingLarge
-            }
-
-            VerticalScrollDecorator { }
-        }
-
-        }
-
-    }
-    }
-
-    }
-
-    Item
-    {
-        id: dockedbarLandscape
-        width: Theme.itemSizeLarge
-        height: parent.height
-        anchors {top: parent.top; right: parent.right}
-        visible: isLandscape
-        enabled: !settings.isRunning
-        opacity: settings.isRunning ? 0.2 : 1.0
-        Separator {
-             id: dockedbarLandscapeSeparator
-             width: parent.height
-             color: Theme.primaryColor
-             horizontalAlignment: Qt.AlignHCenter
-             anchors.top: parent.top
-             anchors.topMargin: Theme.paddingSmall
-             transform: Rotation { angle: 90 }
-        }
-
-        Column {
-            width: parent.width
-            height: parent.height
-
-            Item {
-                id: densityButtonLandscape
-                width: parent.width
-                height: parent.height/2
-                IconButton {
-                    width: parent.width
-                    height: parent.height
-                    anchors.verticalCenter: parent.verticalCenter
-                    anchors.centerIn: parent
-                    icon.source: densityButton.isActive ? "image://theme/icon-m-scale?" + Theme.highlightColor : "image://theme/icon-m-scale?" + Theme.primaryColor
-                    onClicked: { handleDisplayClicked(); }
-                }
-            }
-
-        Item {
-            id: homeButtonLandscape
-            width: parent.width
-            height: parent.height/2
-            IconButton {
-                width: parent.width
-                height: parent.height
-                anchors.verticalCenter: parent.verticalCenter
-                anchors.centerIn: parent
-                icon.source: homeButton.isActive ? "image://theme/icon-m-home?" + Theme.highlightColor : "image://theme/icon-m-home?" + Theme.primaryColor
-                onClicked: { handleHomeClicked(); }
-            }
-        }
-
-        }
-
-    }
-
-    Item
-    {
-
-        id: dockedbar
-        width: parent.width
-        height: Theme.itemSizeLarge
-        visible: isPortrait
-        enabled: !settings.isRunning
-        opacity: settings.isRunning ? 0.2 : 1.0
-        anchors { left: parent.left; bottom: parent.bottom; right: parent.right }
-
-        Separator {
-            id: dockedbarSeparator
-            width: parent.width
-            color: Theme.primaryColor
-            horizontalAlignment: Qt.AlignHCenter
-        }
-
-        Row {
-            Item {
-                id: homeButton
-                property bool isActive: false
-                width: dockedbar.width/2
-                height: dockedbar.height
-                IconButton {
-                    width: dockedbar.width/2
-                    height: dockedbar.height
-                    anchors.centerIn: parent
-                    icon.source: homeButton.isActive ? "image://theme/icon-m-home?" + Theme.highlightColor : "image://theme/icon-m-home?" + Theme.primaryColor
-                    onClicked: { handleHomeClicked(); }
-                }
-            }
-
-            Item {
-                id: densityButton
-                property bool isActive: false
-                width: dockedbar.width/2
-                height: dockedbar.height
-                IconButton {
-                    width: dockedbar.width/2
-                    height: dockedbar.height
-                    anchors.centerIn: parent
-                    icon.source: densityButton.isActive ? "image://theme/icon-m-scale?" + Theme.highlightColor : "image://theme/icon-m-scale?" + Theme.primaryColor
-                    onClicked: { handleDisplayClicked(); }
-                }
-            }
-
-        }
-    }
 
 }

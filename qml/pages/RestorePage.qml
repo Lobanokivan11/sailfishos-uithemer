@@ -126,15 +126,22 @@ Dialog
             } // grid
 
             LabelText {
+                visible: !settings.easygui
                 text: "<br>" + qsTr("Remember to restart the homescreen right after.")
             }
 
             TextSwitch {
+                visible: !settings.easygui
                 text: qsTr("Restart homescreen")
                 checked: settings.homeRefresh
                 onCheckedChanged: {
                     settings.homeRefresh = checked;
                 }
+            }
+
+            LabelText {
+                visible: settings.easygui
+                text: "<br>" + qsTr("After confirming, your device will restart. Your currently opened apps will be closed.")
             }
 
             Item {

@@ -157,6 +157,7 @@ Dialog
                 enabled: hasIcons
                 onClicked: {
                     iconsSelected = itsicons.checked;
+                    itsiconoverlay.checked = itsicons.checked;
 
                     if(!itsfonts.checked && !itsicons.checked)
                         dlgconfirm.canAccept = false
@@ -169,7 +170,7 @@ Dialog
                 automaticCheck: true
                 text: qsTr("Apply icon overlay")
                 description: qsTr("Apply an overlay on icons not available in the theme.")
-                visible: hasIconOverlay
+                visible: hasIconOverlay && !settings.easygui
                 checked: hasIconOverlay
                 enabled: hasIconOverlay && itsicons.checked
                 onClicked: {
@@ -286,10 +287,20 @@ Dialog
             } // grid
 
                 LabelText {
+                    visible: !settings.easygui
                     text: "<br>" + qsTr("Remember to restart the homescreen right after.")
                 }
 
-                TextSwitch { id: tshomerefresh; text: qsTr("Restart homescreen"); checked: settings.homeRefresh }
+                TextSwitch { id: tshomerefresh
+                    visible: !settings.easygui
+                    text: qsTr("Restart homescreen")
+                    checked: settings.homeRefresh
+                }
+
+                LabelText {
+                    visible: settings.easygui
+                    text: "<br>" + qsTr("After confirming, your device will restart. Your currently opened apps will be closed.")
+                }
 
                 Item {
                     width: parent.width

@@ -13,15 +13,15 @@ Name:       sailfishos-uithemer
 %{!?qtc_make:%define qtc_make make}
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:        UI Themer
-Version:        2.1.0
-Release:        4
+Version:        2.1.1
+Release:        1
 Group:          Qt/Qt
 License:        GPLv3
 Packager:       fravaccaro <fravaccaro@jollacommunity.it>
 URL:            https://github.com/fravaccaro/sailfishos-uithemer
 Source0:        %{name}-%{version}.tar.bz2
 Source100:      sailfishos-uithemer.yaml
-Requires:       sailfish-version >= 2.1.4, harbour-themepacksupport >= 0.8.4-7
+Requires:       sailfish-version >= 2.1.4, harbour-themepacksupport >= 0.8.4-10
 BuildRequires:  pkgconfig(sailfishapp) >= 1.0.2
 BuildRequires:  pkgconfig(Qt5Core)
 BuildRequires:  pkgconfig(Qt5Qml)
@@ -41,6 +41,8 @@ Enables customization of icons, fonts and pixel density in Sailfish OS.
 %preun
 if [ $1 == 0 ]; then
     rm -rf /home/nemo/.local/share/%{name}
+    rm /etc/dconf/db/vendor.d/%{name}.txt
+    dconf update
     filepath="/usr/share/applications/harbour-themepacksupport.desktop"
     if [ -e "$filepath" ]; then
         if grep -q NoDisplay "$filepath"; then
@@ -50,9 +52,6 @@ if [ $1 == 0 ]; then
             echo "$repl" > $filepath
         fi
      fi
-fi
-if [ $1 == 2 ]; then
-    /usr/share/sailfishos-uithemer/scripts/post_update.sh
 fi
 
 %build
@@ -89,6 +88,8 @@ desktop-file-install --delete-original       \
 # << files
 
 %post
+mv %{_datadir}/%{name}/scripts/%{name}.txt /etc/dconf/db/vendor.d/
+dconf update
 if [ $1 == 1 ]; then
     // First installation
     echo "NoDisplay=true" >> /usr/share/applications/harbour-themepacksupport.desktop

@@ -33,6 +33,10 @@ Request a new language or contribute to existing languages on the [Transifex pro
 
 Builds for armv7hl and i486 available on [OpenRepos](https://openrepos.net/content/fravaccaro/ui-themer).
 
+### Custom builds
+
+You can change the defaults of UI Themer in your custom build. More info [here](docs/custom-build.md).
+
 ## Usage guide
 
 A usage guide is available [here](docs/guide.md).
@@ -44,5 +48,8 @@ Roadmap and features will be tracked on the [Trello dashboard](https://trello.co
 ## Credits
 
 - Partially based on [Icon pack support GUI](https://github.com/RikudouSage/sailfish-iconpacksupport-gui).
-- App icon design by [Freepik](http://www.freepik.com/free-photo/blue-paint-roller_959191.htm).
-
+- App icon by [Free Vectors](http://www.freevectors.com/blue-painting-roller/).
+- Keyboard navigation based on [Piepmatz](https://github.com/Wunderfitz/harbour-piepmatz) by Sebastian Wolf.
+- Thanks to Dax89 for helping with C++ and QML code, this app would not exist without him.
+- Thanks to Eugenio_g7 for helping with the *One-click restore* service.
+- Thanks to all the testers for being brave and patient.

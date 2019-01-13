@@ -1,0 +1,12 @@
+[desktop/lipstick/sailfishos-uithemer]
+showEasygui=true
+showDensity=true
+easygui=true
+densityEnabled=false
+wizardDone=false
+activeFontPack='default'
+activeIconPack='default'
+coverAction1=0
+coverAction2=3
+autoUpdate=0
+servicesu=true

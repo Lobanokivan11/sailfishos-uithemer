@@ -46,8 +46,13 @@ Page
             event.accepted = true;
         }
 
+        if (event.key === Qt.Key_D && settings.showDensity === true) {
+            pageStack.replace(Qt.resolvedUrl("DensityPage.qml"));
+            event.accepted = true;
+        }
+
         if (event.key === Qt.Key_O) {
-            pageStack.push(Qt.resolvedUrl("OptionsPage.qml"));
+            pageStack.replace(Qt.resolvedUrl("OptionsPage.qml"));
             event.accepted = true;
         }
 
@@ -57,11 +62,12 @@ Page
         }
 
         if (event.key === Qt.Key_A) {
-            pageStack.push(Qt.resolvedUrl("AboutPage.qml"));
+            pageStack.navigateBack();
             event.accepted = true;
         }
 
         if (event.key === Qt.Key_W) {
+            settings.wizardDone = false
             pageStack.replaceAbove(null, Qt.resolvedUrl("WelcomePage.qml"));
             event.accepted = true;
         }

@@ -67,6 +67,16 @@ void ThemePack::installImageMagick() const
     Spawner::execute("/usr/share/sailfishos-uithemer/scripts/install_imagemagick.sh", [this]() { emit imageMagickInstalled(); });
 }
 
+void ThemePack::enableddensity() const
+{
+    Spawner::execute("/usr/share/sailfishos-uithemer/scripts/enable-dpi.sh", [this]() { emit serviceChanged(); });
+}
+
+void ThemePack::disableddensity() const
+{
+    Spawner::execute("/usr/share/sailfishos-uithemer/scripts/disable-dpi.sh", [this]() { emit serviceChanged(); });
+}
+
 void ThemePack::restoreIZ() const
 {
     setuid_ex(0);
@@ -85,12 +95,12 @@ void ThemePack::disableserviceautoupdate() const
 
 void ThemePack::enableservicesu() const
 {
-    Spawner::execute("/usr/share/sailfishos-uithemer/scripts/enable_servicesu.sh", [this]() { emit serviceChanged(); });
+    Spawner::execute("/usr/share/sailfishos-uithemer/scripts/enable-servicesu.sh", [this]() { emit serviceChanged(); });
 }
 
 void ThemePack::disableservicesu() const
 {
-    Spawner::execute("/usr/share/sailfishos-uithemer/scripts/disable_servicesu.sh", [this]() { emit serviceChanged(); });
+    Spawner::execute("/usr/share/sailfishos-uithemer/scripts/disable-servicesu.sh", [this]() { emit serviceChanged(); });
 }
 
 QString ThemePack::getTimer() const

@@ -1,3 +1,9 @@
+* Fri Jan 11 2019 2.1.1
+- Bump Theme pack support dependency.
+- Added dconf default settings.
+- Added easy mode.
+- UI tweaks.
+
 * Sat Jan 5 2019 2.1.0
 - Service for running one-click restore before system upgrades.
 

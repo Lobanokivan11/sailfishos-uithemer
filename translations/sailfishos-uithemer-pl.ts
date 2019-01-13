@@ -4,20 +4,12 @@
 <context>
     <name>AboutPage</name>
     <message>
-        <source>About UI Themer</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>UI Themer lets you customize icons, fonts and pixel density in Sailfish OS.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Sources</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Developers</source>
-        <translation type="unfinished">Deweloperzy</translation>
     </message>
     <message>
         <source>If you want to create a theme compatible with UI Themer, please read the documentation.</source>
@@ -64,10 +56,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Thanks to Dax89 and all the testers for help and patience.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Part of this app is based on &lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon pack support GUI&lt;/a&gt; by RikudouSennin.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -76,7 +64,23 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Slideshow in the home page and keyboard navigation based on &lt;a href=&apos;https://github.com/Wunderfitz/harbour-piepmatz&apos;&gt;Piepmatz&lt;/a&gt; by Sebastian Wolf.</source>
+        <source>About</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Thanks to Dax89 for helping with C++ and QML code, this app would not exist without him.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Thanks to Eugenio_g7 for helping with the &lt;i&gt;One-click restore&lt;/i&gt; service.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Thanks to all the testers for being brave and patient.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Keyboard navigation based on &lt;a href=&apos;https://github.com/Wunderfitz/harbour-piepmatz&apos;&gt;Piepmatz&lt;/a&gt; by Sebastian Wolf.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -132,6 +136,65 @@
     </message>
     <message>
         <source>Choose the main font weight for the UI.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>After confirming, your device will restart. Your currently opened apps will be closed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>DensityPage</name>
+    <message>
+        <source>Usage guide</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Options</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Restore display density</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Display density</source>
+        <translation type="unfinished">Gęstość wyświetlacza</translation>
+    </message>
+    <message>
+        <source>Enable display density settings</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Device pixel ratio</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Change the display pixel ratio. To a smaller value corresponds an higher density.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Android DPI</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Android DPI value</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Change the Android DPI value. To a smaller value corresponds an higher density.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Icon size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Change the size of UI icons. To a greater value corresponds an huger size.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remember to restart the homescreen (from the &lt;i&gt;Options&lt;/i&gt; page) right after you have changed the settings in this page.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -261,6 +324,10 @@
         <source>Press &lt;b&gt;H&lt;/b&gt; for the home page.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Press &lt;b&gt;D&lt;/b&gt; for the display density page.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>MainPage</name>
@@ -281,10 +348,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>About UI Themer</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Usage guide</source>
         <translation type="unfinished"></translation>
     </message>
@@ -297,43 +360,7 @@
         <translation type="unfinished">Gęstość wyświetlacza</translation>
     </message>
     <message>
-        <source>Device pixel ratio</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Android DPI</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Android DPI value</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Icon size</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Restore theme</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Restore display density</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Change the display pixel ratio. To a smaller value corresponds an higher density.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Change the Android DPI value. To a smaller value corresponds an higher density.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Change the size of UI icons. To a greater value corresponds an huger size.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Remember to restart the homescreen (from the &lt;i&gt;Options&lt;/i&gt; page) right after you have changed the settings in this page.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -346,10 +373,6 @@
 </context>
 <context>
     <name>OptionsPage</name>
-    <message>
-        <source>About UI Themer</source>
-        <translation type="unfinished"></translation>
-    </message>
     <message>
         <source>Restart first run wizard</source>
         <translation type="unfinished"></translation>
@@ -475,19 +498,35 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Run before OS updates</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Restore the default icons, fonts and display density settings before performing an OS update, so you don&apos;t need to manually do it.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Choose the action to be shown on the UI Themer cover, for a quick access when the app is minimized on the homescreen.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Optionally, you can choose to display a second action on the cover.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Run before system updates</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Restore the default icons, fonts and display density settings before performing a system update, so you don&apos;t need to manually do it.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Easy mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enable easy mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enable an easy-to-use mode for beginners.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -556,6 +595,10 @@
         <source>Restart homescreen</source>
         <translation type="unfinished">Uruchom ponownie ekran główny</translation>
     </message>
+    <message>
+        <source>After confirming, your device will restart. Your currently opened apps will be closed.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>RestorePage</name>
@@ -581,6 +624,10 @@
     </message>
     <message>
         <source>Default fonts</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>After confirming, your device will restart. Your currently opened apps will be closed.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

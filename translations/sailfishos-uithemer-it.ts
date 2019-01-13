@@ -4,20 +4,12 @@
 <context>
     <name>AboutPage</name>
     <message>
-        <source>About UI Themer</source>
-        <translation>Info su UI Themer</translation>
-    </message>
-    <message>
         <source>UI Themer lets you customize icons, fonts and pixel density in Sailfish OS.</source>
         <translation>UI Themer ti permette di personalizzare le icone, i font e la densità di pixel in Sailfish OS.</translation>
     </message>
     <message>
         <source>Sources</source>
         <translation>Sorgenti</translation>
-    </message>
-    <message>
-        <source>Developers</source>
-        <translation>Sviluppatori</translation>
     </message>
     <message>
         <source>If you want to create a theme compatible with UI Themer, please read the documentation.</source>
@@ -64,10 +56,6 @@
         <translation>Rilasciato sotto licenza &lt;a href=&apos;https://www.gnu.org/licenses/gpl-3.0&apos;&gt;GNU GPLv3&lt;/a&gt;.</translation>
     </message>
     <message>
-        <source>Thanks to Dax89 and all the testers for help and patience.</source>
-        <translation>Grazie a Dax89 e a tutti i tester per l&apos;aiuto e la pazienza.</translation>
-    </message>
-    <message>
         <source>Part of this app is based on &lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon pack support GUI&lt;/a&gt; by RikudouSennin.</source>
         <translation>Parte di quest&apos;app è basata su &lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon pack support GUI&lt;/a&gt; di RikudouSennin.</translation>
     </message>
@@ -76,8 +64,24 @@
         <translation>Icona app di</translation>
     </message>
     <message>
-        <source>Slideshow in the home page and keyboard navigation based on &lt;a href=&apos;https://github.com/Wunderfitz/harbour-piepmatz&apos;&gt;Piepmatz&lt;/a&gt; by Sebastian Wolf.</source>
-        <translation>Slideshow nella pagina principale e navigazione via tastiera basati su &lt;a href=&apos;https://github.com/Wunderfitz/harbour-piepmatz&apos;&gt;Piepmatz&lt;/a&gt; di Sebastian Wolf.</translation>
+        <source>About</source>
+        <translation>Info</translation>
+    </message>
+    <message>
+        <source>Thanks to Dax89 for helping with C++ and QML code, this app would not exist without him.</source>
+        <translation>Grazie a Dax89 per l&apos;aiuto con C++ e QML, quest&apos;app non esisterebbe senza di lui.</translation>
+    </message>
+    <message>
+        <source>Thanks to Eugenio_g7 for helping with the &lt;i&gt;One-click restore&lt;/i&gt; service.</source>
+        <translation>Grazie a Eugenio_g7 per l&apos;aiuto con il servizio di &lt;i&gt;Ripristina con un click&lt;/i&gt;.</translation>
+    </message>
+    <message>
+        <source>Thanks to all the testers for being brave and patient.</source>
+        <translation>Grazie a tutti i tester per il coraggio e la pazienza.</translation>
+    </message>
+    <message>
+        <source>Keyboard navigation based on &lt;a href=&apos;https://github.com/Wunderfitz/harbour-piepmatz&apos;&gt;Piepmatz&lt;/a&gt; by Sebastian Wolf.</source>
+        <translation>Navigazione via tastiera basata su &lt;a href=&apos;https://github.com/Wunderfitz/harbour-piepmatz&apos;&gt;Piepmatz&lt;/a&gt; di Sebastian Wolf.</translation>
     </message>
 </context>
 <context>
@@ -133,6 +137,65 @@
     <message>
         <source>Choose the main font weight for the UI.</source>
         <translation>Scegli lo stile font principale per la UI.</translation>
+    </message>
+    <message>
+        <source>After confirming, your device will restart. Your currently opened apps will be closed.</source>
+        <translation>Dopo la conferma, il tuo dispositivo si riavvierà. Le app aperte verranno chiuse.</translation>
+    </message>
+</context>
+<context>
+    <name>DensityPage</name>
+    <message>
+        <source>Usage guide</source>
+        <translation>Manuale d&apos;uso</translation>
+    </message>
+    <message>
+        <source>Options</source>
+        <translation>Opzioni</translation>
+    </message>
+    <message>
+        <source>Restore display density</source>
+        <translation>Ripristina densità display</translation>
+    </message>
+    <message>
+        <source>Display density</source>
+        <translation>Densità display</translation>
+    </message>
+    <message>
+        <source>Enable display density settings</source>
+        <translation>Abilita impostazioni densità display</translation>
+    </message>
+    <message>
+        <source>Device pixel ratio</source>
+        <translation>Device pixel ratio</translation>
+    </message>
+    <message>
+        <source>Change the display pixel ratio. To a smaller value corresponds an higher density.</source>
+        <translation>Cambia il display pixel ratio. A un valore minore corrisponde una maggiore densità.</translation>
+    </message>
+    <message>
+        <source>Android DPI</source>
+        <translation>DPI Android</translation>
+    </message>
+    <message>
+        <source>Android DPI value</source>
+        <translation>Valore DPI Android</translation>
+    </message>
+    <message>
+        <source>Change the Android DPI value. To a smaller value corresponds an higher density.</source>
+        <translation>Cambia il DPI Android. A un valore minore corrisponde una maggiore densità.</translation>
+    </message>
+    <message>
+        <source>Icon size</source>
+        <translation>Dimensione icone</translation>
+    </message>
+    <message>
+        <source>Change the size of UI icons. To a greater value corresponds an huger size.</source>
+        <translation>Cambia la dimensione delle icone della UI. A un valore maggiore corrisponde una dimensione maggiore.</translation>
+    </message>
+    <message>
+        <source>Remember to restart the homescreen (from the &lt;i&gt;Options&lt;/i&gt; page) right after you have changed the settings in this page.</source>
+        <translation>Ricorda di riavviare la schermata home (dalla pagina &lt;i&gt;Opzioni&lt;/i&gt;) subito dopo aver cambiato i settaggi in questa pagina.</translation>
     </message>
 </context>
 <context>
@@ -261,6 +324,10 @@
         <source>Press &lt;b&gt;H&lt;/b&gt; for the home page.</source>
         <translation>Premi &lt;b&gt;H&lt;/b&gt; per tornare alla pagina principale.</translation>
     </message>
+    <message>
+        <source>Press &lt;b&gt;D&lt;/b&gt; for the display density page.</source>
+        <translation>Premi &lt;b&gt;D&lt;/b&gt; per andare alla pagina della densità display.</translation>
+    </message>
 </context>
 <context>
     <name>MainPage</name>
@@ -281,10 +348,6 @@
         <translation>Installa un tema compatibile</translation>
     </message>
     <message>
-        <source>About UI Themer</source>
-        <translation>Info su UI Themer</translation>
-    </message>
-    <message>
         <source>Usage guide</source>
         <translation>Manuale d&apos;uso</translation>
     </message>
@@ -297,44 +360,8 @@
         <translation>Densità display</translation>
     </message>
     <message>
-        <source>Device pixel ratio</source>
-        <translation>Device pixel ratio</translation>
-    </message>
-    <message>
-        <source>Android DPI</source>
-        <translation>DPI Android</translation>
-    </message>
-    <message>
-        <source>Android DPI value</source>
-        <translation>Valore DPI Android</translation>
-    </message>
-    <message>
-        <source>Icon size</source>
-        <translation>Dimensione icone</translation>
-    </message>
-    <message>
         <source>Restore theme</source>
         <translation>Ripristina tema</translation>
-    </message>
-    <message>
-        <source>Restore display density</source>
-        <translation>Ripristina densità display</translation>
-    </message>
-    <message>
-        <source>Change the display pixel ratio. To a smaller value corresponds an higher density.</source>
-        <translation>Cambia il display pixel ratio. A un valore minore corrisponde una maggiore densità.</translation>
-    </message>
-    <message>
-        <source>Change the Android DPI value. To a smaller value corresponds an higher density.</source>
-        <translation>Cambia il DPI Android. A un valore minore corrisponde una maggiore densità.</translation>
-    </message>
-    <message>
-        <source>Change the size of UI icons. To a greater value corresponds an huger size.</source>
-        <translation>Cambia la dimensione delle icone della UI. A un valore maggiore corrisponde una dimensione maggiore.</translation>
-    </message>
-    <message>
-        <source>Remember to restart the homescreen (from the &lt;i&gt;Options&lt;/i&gt; page) right after you have changed the settings in this page.</source>
-        <translation>Ricorda di riavviare la schermata home (dalla pagina &lt;i&gt;Opzioni&lt;/i&gt;) subito dopo aver cambiato i settaggi in questa pagina.</translation>
     </message>
 </context>
 <context>
@@ -346,10 +373,6 @@
 </context>
 <context>
     <name>OptionsPage</name>
-    <message>
-        <source>About UI Themer</source>
-        <translation>Info su UI Themer</translation>
-    </message>
     <message>
         <source>Restart first run wizard</source>
         <translation>Riavvia configurazione guidata</translation>
@@ -475,20 +498,36 @@
         <translation>Ripristino</translation>
     </message>
     <message>
-        <source>Run before OS updates</source>
-        <translation>Esegui prima di aggiornamenti OS</translation>
-    </message>
-    <message>
-        <source>Restore the default icons, fonts and display density settings before performing an OS update, so you don&apos;t need to manually do it.</source>
-        <translation>Ripristina icone, font e impostazioni di densità del display prima di effettuare un aggiornamento dell&apos;OS, così non hai bisogno di farlo manualmente.</translation>
-    </message>
-    <message>
         <source>Choose the action to be shown on the UI Themer cover, for a quick access when the app is minimized on the homescreen.</source>
         <translation>Scegli l&apos;azione da mostrare sulla cover di UI Themer, per un accesso rapido quando l&apos;app è minimizzata sulla schermata home.</translation>
     </message>
     <message>
         <source>Optionally, you can choose to display a second action on the cover.</source>
         <translation>Eventualmente, puoi scegliere di mostrare sulla cover una seconda azione.</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>Info</translation>
+    </message>
+    <message>
+        <source>Run before system updates</source>
+        <translation>Esegui prima degli aggiornamenti di sistema</translation>
+    </message>
+    <message>
+        <source>Restore the default icons, fonts and display density settings before performing a system update, so you don&apos;t need to manually do it.</source>
+        <translation>Ripristina icone, font e impostazioni di densità del display prima di un aggiornamento di sistema, così da non doverlo fare manualmente.</translation>
+    </message>
+    <message>
+        <source>Easy mode</source>
+        <translation>Modalità semplice</translation>
+    </message>
+    <message>
+        <source>Enable easy mode</source>
+        <translation>Abilita modalità semplice</translation>
+    </message>
+    <message>
+        <source>Enable an easy-to-use mode for beginners.</source>
+        <translation>Abilita una modalità semplificata per utenti alle prime armi.</translation>
     </message>
 </context>
 <context>
@@ -556,6 +595,10 @@
         <source>Restart homescreen</source>
         <translation>Riavvia schermata home</translation>
     </message>
+    <message>
+        <source>After confirming, your device will restart. Your currently opened apps will be closed.</source>
+        <translation>Dopo la conferma, il tuo dispositivo si riavvierà. Le app aperte verranno chiuse.</translation>
+    </message>
 </context>
 <context>
     <name>RestorePage</name>
@@ -582,6 +625,10 @@
     <message>
         <source>Default fonts</source>
         <translation>Font predefiniti</translation>
+    </message>
+    <message>
+        <source>After confirming, your device will restart. Your currently opened apps will be closed.</source>
+        <translation>Dopo la conferma, il tuo dispositivo si riavvierà. Le app aperte verranno chiuse.</translation>
     </message>
 </context>
 <context>

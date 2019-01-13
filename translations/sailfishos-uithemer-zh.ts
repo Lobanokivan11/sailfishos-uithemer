@@ -4,20 +4,12 @@
 <context>
     <name>AboutPage</name>
     <message>
-        <source>About UI Themer</source>
-        <translation>关于UI Themer</translation>
-    </message>
-    <message>
         <source>UI Themer lets you customize icons, fonts and pixel density in Sailfish OS.</source>
         <translation>UI Themer让你定制旗鱼系统的图标、字体和像素密度。</translation>
     </message>
     <message>
         <source>Sources</source>
         <translation>源</translation>
-    </message>
-    <message>
-        <source>Developers</source>
-        <translation>开发者</translation>
     </message>
     <message>
         <source>If you want to create a theme compatible with UI Themer, please read the documentation.</source>
@@ -64,10 +56,6 @@
         <translation>在 &lt;a href=&apos;https://www.gnu.org/licenses/gpl-3.0&apos;&gt;GNU GPLv3&lt;/a&gt; 许可下发布。</translation>
     </message>
     <message>
-        <source>Thanks to Dax89 and all the testers for help and patience.</source>
-        <translation>感谢 Dax89和所有测试者的帮助和耐心。</translation>
-    </message>
-    <message>
         <source>Part of this app is based on &lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon pack support GUI&lt;/a&gt; by RikudouSennin.</source>
         <translation>应用部分基于RikudouSennin开发的&lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;GUI图标支持&lt;/a&gt;。</translation>
     </message>
@@ -76,9 +64,24 @@
         <translation>图标制作者</translation>
     </message>
     <message>
-        <source>Slideshow in the home page and keyboard navigation based on &lt;a href=&apos;https://github.com/Wunderfitz/harbour-piepmatz&apos;&gt;Piepmatz&lt;/a&gt; by Sebastian Wolf.</source>
-        <translation>主页幻灯片和机械键盘导航灵感源自Sebastian Wolf开发的&lt;a href=&apos;https://github.com/Wunderfitz/harbour-piepmatz&apos;&gt;Piepmatz&lt;/a&gt;。
-</translation>
+        <source>About</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Thanks to Dax89 for helping with C++ and QML code, this app would not exist without him.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Thanks to Eugenio_g7 for helping with the &lt;i&gt;One-click restore&lt;/i&gt; service.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Thanks to all the testers for being brave and patient.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Keyboard navigation based on &lt;a href=&apos;https://github.com/Wunderfitz/harbour-piepmatz&apos;&gt;Piepmatz&lt;/a&gt; by Sebastian Wolf.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -134,6 +137,65 @@
     <message>
         <source>Choose the main font weight for the UI.</source>
         <translation>为UI选择主要的字体粗细</translation>
+    </message>
+    <message>
+        <source>After confirming, your device will restart. Your currently opened apps will be closed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>DensityPage</name>
+    <message>
+        <source>Usage guide</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Options</source>
+        <translation type="unfinished">操作</translation>
+    </message>
+    <message>
+        <source>Restore display density</source>
+        <translation type="unfinished">恢复显示密度</translation>
+    </message>
+    <message>
+        <source>Display density</source>
+        <translation type="unfinished">显示密度</translation>
+    </message>
+    <message>
+        <source>Enable display density settings</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Device pixel ratio</source>
+        <translation type="unfinished">设备像素比例</translation>
+    </message>
+    <message>
+        <source>Change the display pixel ratio. To a smaller value corresponds an higher density.</source>
+        <translation type="unfinished">改变显示像素比例，到更小的值、更高的密度。</translation>
+    </message>
+    <message>
+        <source>Android DPI</source>
+        <translation type="unfinished">Android DPI</translation>
+    </message>
+    <message>
+        <source>Android DPI value</source>
+        <translation type="unfinished">Android DPI 值</translation>
+    </message>
+    <message>
+        <source>Change the Android DPI value. To a smaller value corresponds an higher density.</source>
+        <translation type="unfinished">改变显示像素比例，到更小的值、更高的密度。</translation>
+    </message>
+    <message>
+        <source>Icon size</source>
+        <translation type="unfinished">图标大小</translation>
+    </message>
+    <message>
+        <source>Change the size of UI icons. To a greater value corresponds an huger size.</source>
+        <translation type="unfinished">改变UI图标的尺寸到一个更高的值、更大的尺寸。</translation>
+    </message>
+    <message>
+        <source>Remember to restart the homescreen (from the &lt;i&gt;Options&lt;/i&gt; page) right after you have changed the settings in this page.</source>
+        <translation type="unfinished">当你更改此页的设置之后，记得立即重启主屏幕（从&lt;i&gt;操作&lt;/i&gt;页）</translation>
     </message>
 </context>
 <context>
@@ -262,6 +324,10 @@
         <source>Press &lt;b&gt;H&lt;/b&gt; for the home page.</source>
         <translation>按 &lt;b&gt;H&lt;/b&gt; 打开主页。</translation>
     </message>
+    <message>
+        <source>Press &lt;b&gt;D&lt;/b&gt; for the display density page.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>MainPage</name>
@@ -282,10 +348,6 @@
         <translation>首先安装一个兼容的主题</translation>
     </message>
     <message>
-        <source>About UI Themer</source>
-        <translation>关于 UI Themer</translation>
-    </message>
-    <message>
         <source>Usage guide</source>
         <translation>使用指导</translation>
     </message>
@@ -298,44 +360,8 @@
         <translation>显示密度</translation>
     </message>
     <message>
-        <source>Device pixel ratio</source>
-        <translation>设备像素比例</translation>
-    </message>
-    <message>
-        <source>Android DPI</source>
-        <translation>Android DPI</translation>
-    </message>
-    <message>
-        <source>Android DPI value</source>
-        <translation>Android DPI 值</translation>
-    </message>
-    <message>
-        <source>Icon size</source>
-        <translation>图标大小</translation>
-    </message>
-    <message>
         <source>Restore theme</source>
         <translation>恢复主题</translation>
-    </message>
-    <message>
-        <source>Restore display density</source>
-        <translation>恢复显示密度</translation>
-    </message>
-    <message>
-        <source>Change the display pixel ratio. To a smaller value corresponds an higher density.</source>
-        <translation>改变显示像素比例，到更小的值、更高的密度。</translation>
-    </message>
-    <message>
-        <source>Change the Android DPI value. To a smaller value corresponds an higher density.</source>
-        <translation>改变显示像素比例，到更小的值、更高的密度。</translation>
-    </message>
-    <message>
-        <source>Change the size of UI icons. To a greater value corresponds an huger size.</source>
-        <translation>改变UI图标的尺寸到一个更高的值、更大的尺寸。</translation>
-    </message>
-    <message>
-        <source>Remember to restart the homescreen (from the &lt;i&gt;Options&lt;/i&gt; page) right after you have changed the settings in this page.</source>
-        <translation>当你更改此页的设置之后，记得立即重启主屏幕（从&lt;i&gt;操作&lt;/i&gt;页）</translation>
     </message>
 </context>
 <context>
@@ -347,10 +373,6 @@
 </context>
 <context>
     <name>OptionsPage</name>
-    <message>
-        <source>About UI Themer</source>
-        <translation>关于 UI Themer</translation>
-    </message>
     <message>
         <source>Restart first run wizard</source>
         <translation>重启首次运行向导</translation>
@@ -476,19 +498,35 @@
         <translation>恢复中</translation>
     </message>
     <message>
-        <source>Run before OS updates</source>
-        <translation>在系统更新之前运行</translation>
-    </message>
-    <message>
-        <source>Restore the default icons, fonts and display density settings before performing an OS update, so you don&apos;t need to manually do it.</source>
-        <translation>在执行系统更新之前，恢复默认图标、字体和显示密度 你不必手动执行。</translation>
-    </message>
-    <message>
         <source>Choose the action to be shown on the UI Themer cover, for a quick access when the app is minimized on the homescreen.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Optionally, you can choose to display a second action on the cover.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Run before system updates</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Restore the default icons, fonts and display density settings before performing a system update, so you don&apos;t need to manually do it.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Easy mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enable easy mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enable an easy-to-use mode for beginners.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -557,6 +595,10 @@
         <source>Restart homescreen</source>
         <translation>重启主屏幕</translation>
     </message>
+    <message>
+        <source>After confirming, your device will restart. Your currently opened apps will be closed.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>RestorePage</name>
@@ -583,6 +625,10 @@
     <message>
         <source>Default fonts</source>
         <translation>默认字体</translation>
+    </message>
+    <message>
+        <source>After confirming, your device will restart. Your currently opened apps will be closed.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

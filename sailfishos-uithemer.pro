@@ -34,6 +34,7 @@ OTHER_FILES += \
     qml/cover/CoverPage1.qml \
     qml/cover/CoverPage2.qml \
     qml/pages/ConfirmPage.qml \
+    qml/pages/DensityPage.qml \
     qml/pages/MainPage.qml \
     qml/pages/OptionsPage.qml \
     qml/pages/RestorePage.qml \

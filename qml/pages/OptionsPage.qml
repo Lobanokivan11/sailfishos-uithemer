@@ -47,6 +47,11 @@ Page
             event.accepted = true;
         }
 
+        if (event.key === Qt.Key_B) {
+            pageStack.navigateBack();
+            event.accepted = true;
+        }
+
         if (event.key === Qt.Key_C) {
             remorsepopup.cancel();
             event.accepted = true;
@@ -57,12 +62,18 @@ Page
             event.accepted = true;
         }
 
+        if (event.key === Qt.Key_D && settings.showDensity === true) {
+            pageStack.replace(Qt.resolvedUrl("DensityPage.qml"));
+            event.accepted = true;
+        }
+
         if (event.key === Qt.Key_G) {
             pageStack.push(Qt.resolvedUrl("GuidePage.qml"));
             event.accepted = true;
         }
 
         if (event.key === Qt.Key_W) {
+            settings.wizardDone = false
             pageStack.replaceAbove(null, Qt.resolvedUrl("WelcomePage.qml"));
             event.accepted = true;
         }
@@ -118,7 +129,7 @@ SilicaFlickable
     PullDownMenu
     {
         MenuItem {
-            text: qsTr("About UI Themer")
+            text: qsTr("About")
             onClicked: pageStack.push(Qt.resolvedUrl("AboutPage.qml"))
         }
         MenuItem {
@@ -127,7 +138,10 @@ SilicaFlickable
         }
         MenuItem {
             text: qsTr("Restart first run wizard")
-            onClicked: pageStack.replaceAbove(null, Qt.resolvedUrl("WelcomePage.qml"))
+            onClicked: {
+                settings.wizardDone = false
+                pageStack.replaceAbove(null, Qt.resolvedUrl("WelcomePage.qml"))
+            }
         }
     }
 
@@ -186,9 +200,10 @@ SilicaFlickable
 
             IconTextSwitch {
                 id: itsservicesu
+                visible: !settings.easygui
                 automaticCheck: true
-                text: qsTr("Run before OS updates")
-                description: qsTr("Restore the default icons, fonts and display density settings before performing an OS update, so you don't need to manually do it.") + " EXPERIMENTAL"
+                text: qsTr("Run before system updates")
+                description: qsTr("Restore the default icons, fonts and display density settings before performing a system update, so you don't need to manually do it.")
                 checked: settings.servicesu
                 onClicked: {
                     itsservicesu.busy = true;
@@ -202,7 +217,7 @@ SilicaFlickable
                 }
             }
 
-            SectionHeader { text: qsTr("Icon updater") }
+            SectionHeader { visible: !settings.easygui; text: qsTr("Icon updater") }
 
             ComboBox {
                 function applyUpdater(setting, hours) {
@@ -220,6 +235,7 @@ SilicaFlickable
                 }
 
                 id: cbxupdate
+                visible: !settings.easygui
                 width: parent.width
                 label: qsTr("Update icons")
                 description: qsTr("Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. <i>Icon updater</i> will automate this process, enabling automatic update of icons at a given time.")
@@ -284,15 +300,38 @@ SilicaFlickable
                 }
             }
 
-        SectionHeader { text: qsTr("Recovery") }
+            SectionHeader { visible: settings.showEasygui; text: qsTr("Easy mode") }
+
+            IconTextSwitch {
+                id: itseasygui
+                visible: settings.showEasygui
+                automaticCheck: true
+                text: qsTr("Enable easy mode")
+                description: qsTr("Enable an easy-to-use mode for beginners.")
+                checked: settings.easygui
+                onClicked: {
+                    if (!settings.easygui) {
+                        themepack.enableservicesu()
+                        themepack.disableserviceautoupdate()
+                        settings.homeRefresh = true
+                        settings.easygui = true
+                    } else {
+                        settings.easygui = false
+                    }
+                }
+            }
+
+        SectionHeader { visible: !settings.easygui; text: qsTr("Recovery") }
 
         LabelText {
+            visible: !settings.easygui
             text: qsTr("Here you can find advanced settings for UI Themer, e.g. reinstall default icons or fonts if you forget to revert to default theme before a system update or if the applying fails.")
         }
 
             LabelSpacer { }
 
         Button {
+            visible: !settings.easygui
             anchors.horizontalCenter: parent.horizontalCenter
             text: qsTr("Recovery")
             onClicked: {

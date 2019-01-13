@@ -25,6 +25,8 @@ class ThemePack : public QObject
         void installImageMagick() const;
         void restartHomescreen() const;
         void applyHours(const QString& hours) const;
+        void enableddensity() const;
+        void disableddensity() const;
         void restoreIZ() const;
         void enableserviceautoupdate() const;
         void disableserviceautoupdate() const;

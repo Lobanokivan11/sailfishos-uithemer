@@ -46,8 +46,13 @@ Page
             event.accepted = true;
         }
 
+        if (event.key === Qt.Key_D && settings.showDensity === true) {
+            pageStack.replace(Qt.resolvedUrl("DensityPage.qml"));
+            event.accepted = true;
+        }
+
         if (event.key === Qt.Key_O) {
-            pageStack.push(Qt.resolvedUrl("OptionsPage.qml"));
+            pageStack.replace(Qt.resolvedUrl("OptionsPage.qml"));
             event.accepted = true;
         }
 
@@ -57,6 +62,7 @@ Page
         }
 
         if (event.key === Qt.Key_W) {
+            settings.wizardDone = false
             pageStack.replaceAbove(null, Qt.resolvedUrl("WelcomePage.qml"));
             event.accepted = true;
         }
@@ -77,7 +83,7 @@ Page
             id: content
             width: parent.width
 
-            PageHeader { title: qsTr("About UI Themer") }
+            PageHeader { title: qsTr("About") }
 
             Grid {
                 width: parent.width
@@ -97,7 +103,7 @@ Page
                 anchors.horizontalCenter: parent.horizontalCenter
                 color: Theme.highlightColor
                 font.pixelSize: Theme.fontSizeSmall
-                text: "UI Themer 2.1.0" }
+                text: "UI Themer 2.1.1" }
 
             LabelText {
                 text: qsTr("UI Themer lets you customize icons, fonts and pixel density in Sailfish OS.")
@@ -115,7 +121,7 @@ Page
                 onClicked: Qt.openUrlExternally("https://fravaccaro.github.io/sailfishos-uithemer/")
             }
 
-            SectionHeader { text: qsTr("Developers") }
+            LabelSpacer { }
 
             LabelText {
                 text: qsTr("If you want to create a theme compatible with UI Themer, please read the documentation.")
@@ -170,7 +176,7 @@ Page
                }
 
               LabelText {
-                  text: qsTr("Slideshow in the home page and keyboard navigation based on <a href='https://github.com/Wunderfitz/harbour-piepmatz'>Piepmatz</a> by Sebastian Wolf.")
+                  text: qsTr("Keyboard navigation based on <a href='https://github.com/Wunderfitz/harbour-piepmatz'>Piepmatz</a> by Sebastian Wolf.")
                }
 
 
@@ -178,9 +184,16 @@ Page
                   text: qsTr("App icon by") + " <a href='http://www.freevectors.com/blue-painting-roller/'>Free Vectors</a>."
                }
 
+              LabelText {
+                  text: qsTr("Thanks to Dax89 for helping with C++ and QML code, this app would not exist without him.")
+               }
 
               LabelText {
-                  text: qsTr("Thanks to Dax89 and all the testers for help and patience.")
+                  text: qsTr("Thanks to Eugenio_g7 for helping with the <i>One-click restore</i> service.")
+               }
+
+              LabelText {
+                  text: qsTr("Thanks to all the testers for being brave and patient.")
                }
 
             LabelSpacer { }
