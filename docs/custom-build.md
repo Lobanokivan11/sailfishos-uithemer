@@ -56,9 +56,9 @@ Via a post-install script, it's possible to enable a default theme pre-installed
 - *theme* is the name of the theme as in the package (e.g. *ibm-plex*).
 - *fontweight* the main font weight used throughout the UI (e.g. *Light*).
 
-### Enable the autoupdate service
+### Enable the auto-update service
 
-The autoupdate service refreshes the current icon theme. The options are:
+The auto-update service refreshes the current icon theme. The options are:
 
 #### 30 minutes
 
