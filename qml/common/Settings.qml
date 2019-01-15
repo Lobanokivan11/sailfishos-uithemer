@@ -14,6 +14,7 @@ Item
         property bool wizardDone
         property string activeFontPack
         property string activeIconPack
+        property bool coverActiveTheme
         property int coverAction1
         property int coverAction2
         property int autoUpdate
@@ -27,6 +28,7 @@ Item
     property alias wizardDone: conf.wizardDone
     property alias activeFontPack: conf.activeFontPack
     property alias activeIconPack: conf.activeIconPack
+    property alias coverActiveTheme: conf.coverActiveTheme
     property alias coverAction1: conf.coverAction1
     property alias coverAction2: conf.coverAction2
     property alias autoUpdate: conf.autoUpdate
@@ -45,6 +47,7 @@ Item
     onWizardDoneChanged: conf.sync();
     onActiveFontPackChanged: conf.sync();
     onActiveIconPackChanged: conf.sync();
+    onCoverActiveThemeChanged: conf.sync();
     onCoverAction1Changed: conf.sync();
     onCoverAction2Changed: conf.sync();
     onAutoUpdateChanged: conf.sync();

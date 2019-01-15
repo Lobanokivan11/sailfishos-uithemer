@@ -20,7 +20,7 @@ ApplicationWindow
     property bool vIM: themepack.hasImageMagickInstalled()
 
     initialPage: (settings.wizardDone && vIM ) ? mainpage : welcomepage
-    cover: (settings.coverAction1 !== 3 && settings.coverAction2 !== 3) ? Qt.resolvedUrl("cover/CoverPage2.qml") : Qt.resolvedUrl("cover/CoverPage1.qml")
+    cover: Qt.resolvedUrl("cover/CoverPage.qml")
 
     allowedOrientations: defaultAllowedOrientations
     _defaultPageOrientations: defaultAllowedOrientations

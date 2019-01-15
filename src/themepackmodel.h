@@ -14,7 +14,7 @@ class ThemePackModel : public QAbstractListModel
     public:
         explicit ThemePackModel(QObject *parent = 0);
 
-    private:
+    public slots:
         QString readThemePackName(const QString& packname) const;
         bool hasCapability(int index, const QString& capability) const;
 

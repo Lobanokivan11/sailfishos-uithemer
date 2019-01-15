@@ -529,6 +529,14 @@
         <source>Enable an easy-to-use mode for beginners.</source>
         <translation>Abilita una modalità semplificata per utenti alle prime armi.</translation>
     </message>
+    <message>
+        <source>Show active theme</source>
+        <translation>Mostra tema attivo</translation>
+    </message>
+    <message>
+        <source>Show the current theme on the cover.</source>
+        <translation>Mostra il tema corrente sulla cover.</translation>
+    </message>
 </context>
 <context>
     <name>RecoveryPage</name>

@@ -25,12 +25,15 @@ CoverBackground
          onHomescreenRestarted: notifyDone()
      }
 
-    Image
-    {
+    Rectangle {
+        anchors.fill: parent
+        color: "transparent"
+
+    Image {
         id: coverimg
         fillMode: Image.PreserveAspectFit
         source: "../../images/coverbg.png"
-        opacity: settings.isRunning ? 0.3 : 0.6
+        opacity: settings.isRunning ? 0.2 : 0.4
         anchors.horizontalCenter: parent.horizontalCenter
         width: parent.width
         height: sourceSize.height * width / sourceSize.width
@@ -41,8 +44,8 @@ CoverBackground
         enabled: settings.isRunning ? true : false
         visible: settings.isRunning ? true : false
         source: "image://theme/graphic-busyindicator-medium"
-        anchors.verticalCenter: parent.verticalCenter
         anchors.horizontalCenter: parent.horizontalCenter
+        anchors.verticalCenter: parent.verticalCenter
         fillMode: Image.PreserveAspectFit
         width: 100
         height: 100
@@ -55,29 +58,36 @@ CoverBackground
         }
     }
 
-    CoverActionList {
-        enabled: ((settings.activeIconPack === "none") || (settings.isRunning) || (settings.coverAction1 === 3)) ? false : true
-        CoverAction {
-            iconSource: switch (settings.coverAction1) {
-                        case 0:
-                            return "image://theme/icon-cover-sync";
-                        case 1:
-                            return "image://theme/icon-cover-refresh";
-                        case 2:
-                            return "image://theme/icon-cover-cancel";
-                        }
-            onTriggered: {
-                settings.isRunning = true
-                switch (settings.coverAction1) {
-                case 0:
-                    return themepackmodel.reapplyIcons();
-                case 1:
-                    return themepack.restartHomescreen();
-                case 2:
-                    themepackmodel.ocr();
-                    break;
-                }
-            }
+     }
+
+    Column {
+        spacing: Theme.paddingSmall
+        anchors.left: parent.left
+        anchors.right: parent.right
+        anchors.leftMargin: Theme.paddingMedium
+        anchors.rightMargin: Theme.paddingMedium
+        anchors.top: parent.top
+        anchors.topMargin: parent.height/7
+        anchors.verticalCenter: parent.verticalCenter
+        visible: (settings.coverActiveTheme && !settings.isRunning)
+        CoverLabel {
+            visible: (settings.activeIconPack !== 'default')
+            icon: "image://theme/icon-m-file-image"
+            label: themepackmodel.readThemePackName("harbour-themepack-" + settings.activeIconPack)
+        }
+        CoverLabel {
+            visible: (settings.activeFontPack !== 'default')
+            icon: "image://theme/icon-m-font-size"
+            label: themepackmodel.readThemePackName("harbour-themepack-" + settings.activeFontPack)
+        }
+    }
+
+    Loader {
+        source: {
+            if (settings.coverAction1 !== 3 && settings.coverAction2 !== 3)
+            return Qt.resolvedUrl("CoverActionList2.qml")
+            else
+            Qt.resolvedUrl("CoverActionList1.qml")
         }
     }
 

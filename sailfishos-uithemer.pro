@@ -31,8 +31,10 @@ OTHER_FILES += \
     qml/components/LabelText.qml \
     qml/components/Notification.qml \
     qml/components/themepacklistview/ThemePackItem.qml \
-    qml/cover/CoverPage1.qml \
-    qml/cover/CoverPage2.qml \
+    qml/cover/CoverPage.qml \
+    qml/cover/CoverActionList1.qml \
+    qml/cover/CoverActionList2.qml \
+    qml/cover/CoverLabel.qml \
     qml/pages/ConfirmPage.qml \
     qml/pages/DensityPage.qml \
     qml/pages/MainPage.qml \

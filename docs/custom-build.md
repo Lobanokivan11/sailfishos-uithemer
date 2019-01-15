@@ -38,6 +38,10 @@ Main cover action:
 - *2* one-click restore.
 - *3* disabled.
 
+	coverActiveTheme=bool
+
+Enable/disable active theme showing on the cover.
+
 ## Post-install scripts
 
 Via a post-install script, it's possible to enable a default theme pre-installed on the device or configure other options:
@@ -45,6 +49,7 @@ Via a post-install script, it's possible to enable a default theme pre-installed
 ### Enable an icon theme
 
 	scripts/apply.sh theme 0/1
+	dconf write /desktop/lipstick/sailfishos-uithemer/activeIconPack "'theme'"
 
 - *theme* is the name of the theme as in the package (e.g. *numix-circle*).
 - *0/1* false/true for the overlay.
@@ -52,6 +57,7 @@ Via a post-install script, it's possible to enable a default theme pre-installed
 ### Enable a font theme
 
 	scripts/apply_font.sh theme fontweight
+	dconf write /desktop/lipstick/sailfishos-uithemer/activeFontPack "'theme'"
 
 - *theme* is the name of the theme as in the package (e.g. *ibm-plex*).
 - *fontweight* the main font weight used throughout the UI (e.g. *Light*).

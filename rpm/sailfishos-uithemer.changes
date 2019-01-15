@@ -1,3 +1,6 @@
+* Mon Jan 14 2019 2.1.2
+- Added active theme on cover.
+
 * Fri Jan 11 2019 2.1.1
 - Bump Theme pack support dependency.
 - Added dconf default settings.

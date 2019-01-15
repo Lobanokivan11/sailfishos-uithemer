@@ -261,6 +261,16 @@ SilicaFlickable
 
             SectionHeader { text: qsTr("Cover") }
 
+
+            IconTextSwitch {
+                id: itscoveractivetheme
+                automaticCheck: true
+                text: qsTr("Show active theme")
+                description: qsTr("Show the current theme on the cover.")
+                checked: settings.coverActiveTheme
+                onCheckedChanged: settings.coverActiveTheme = checked
+            }
+
             ComboBox {
                 function saveCoverAction(action) {
                     settings.coverAction1 = action;
