@@ -18,3 +18,5 @@ if [ "$overlay" = 1 ]; then
 else
     echo "skip overlay"
 fi
+
+touch /usr/share/applications/*.desktop

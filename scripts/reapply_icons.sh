@@ -14,5 +14,6 @@ if [[ -d $pack/overlay && "$(ls $pack/overlay)" ]]; then
 
     echo "apply overlay"
     $main/icon-overlay.sh $iconpack
+    touch /usr/share/applications/*.desktop
 
 fi

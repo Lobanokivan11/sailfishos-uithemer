@@ -8,6 +8,7 @@ main=/usr/share/harbour-themepacksupport
 if [ "$icons" = 1 ]; then
     echo "restoring icons"
     $main/icon-restore.sh
+    touch /usr/share/applications/*.desktop
 fi
 
 if [ "$fonts" = 1 ]; then

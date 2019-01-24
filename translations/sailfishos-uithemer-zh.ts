@@ -532,11 +532,11 @@
     </message>
     <message>
         <source>Show active theme</source>
-        <translation type="unfinished"></translation>
+        <translation>显示启用主题</translation>
     </message>
     <message>
         <source>Show the current theme on the cover.</source>
-        <translation type="unfinished"></translation>
+        <translation>在应用封面显示当前主题</translation>
     </message>
 </context>
 <context>
