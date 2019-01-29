@@ -5,7 +5,7 @@
     <name>AboutPage</name>
     <message>
         <source>UI Themer lets you customize icons, fonts and pixel density in Sailfish OS.</source>
-        <translation>Met UI Themer kund ge pictogrammen, lettertypen en pixeldichtheid in Sailfish OS aanpassen.</translation>
+        <translation>Met UI Themer kunt ge pictogrammen, lettertypen en pixeldichtheid in Sailfish OS aanpassen.</translation>
     </message>
     <message>
         <source>Sources</source>
@@ -13,7 +13,7 @@
     </message>
     <message>
         <source>If you want to create a theme compatible with UI Themer, please read the documentation.</source>
-        <translation>Leesd de documentatie voor te weten te komen hoe dat ge een thema kund maken dat compatibel is met UI Themer.</translation>
+        <translation>Leest de documentatie voor te weten te komen hoe dat ge een thema kunt maken dat compatibel is met UI Themer.</translation>
     </message>
     <message>
         <source>Documentation</source>
@@ -37,7 +37,7 @@
     </message>
     <message>
         <source>If you like my work and want to buy me a beer, feel free to do it!</source>
-        <translation>Als ge mijn werk kund appreciëren en mij wild trakteren op een pintje, gaad uw gang!</translation>
+        <translation>Als ge mijn werk op prijs stelt en mij wilt trakteren op een pintje, voelt u vrij!</translation>
     </message>
     <message>
         <source>Donate</source>
@@ -53,149 +53,149 @@
     </message>
     <message>
         <source>Released under the &lt;a href=&apos;https://www.gnu.org/licenses/gpl-3.0&apos;&gt;GNU GPLv3&lt;/a&gt; license.</source>
-        <translation type="unfinished"></translation>
+        <translation>Uitgebracht onder de &lt;a href=&apos;https://www.gnu.org/licenses/gpl-3.0&apos;&gt;GNU GPLv3&lt;/a&gt;-licentie.</translation>
     </message>
     <message>
         <source>Part of this app is based on &lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon pack support GUI&lt;/a&gt; by RikudouSennin.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dezen app is deels gebaseerd op &lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon pack support GUI&lt;/a&gt; door RikudouSennin.</translation>
     </message>
     <message>
         <source>App icon by</source>
-        <translation type="unfinished"></translation>
+        <translation>App-pictogram door</translation>
     </message>
     <message>
         <source>About</source>
-        <translation type="unfinished"></translation>
+        <translation>Over</translation>
     </message>
     <message>
         <source>Thanks to Dax89 for helping with C++ and QML code, this app would not exist without him.</source>
-        <translation type="unfinished"></translation>
+        <translation>Merci aan Dax89 voor de hulp met C++ en QML-code, zonder hem zou dezen app niet bestaan.</translation>
     </message>
     <message>
         <source>Thanks to Eugenio_g7 for helping with the &lt;i&gt;One-click restore&lt;/i&gt; service.</source>
-        <translation type="unfinished"></translation>
+        <translation>Merci aan Eugenio_g7 voor de hulp met de &lt;i&gt;één-tik-herstel&lt;/i&gt;-dienst</translation>
     </message>
     <message>
         <source>Thanks to all the testers for being brave and patient.</source>
-        <translation type="unfinished"></translation>
+        <translation>Merci aan alle testers voor hun moed en geduld.</translation>
     </message>
     <message>
         <source>Keyboard navigation based on &lt;a href=&apos;https://github.com/Wunderfitz/harbour-piepmatz&apos;&gt;Piepmatz&lt;/a&gt; by Sebastian Wolf.</source>
-        <translation type="unfinished"></translation>
+        <translation>Toetsenbordnavigatie gebaseerd op die van &lt;a href=&apos;https://github.com/Wunderfitz/harbour-piepmatz&apos;&gt;Piepmatz&lt;/a&gt; door Sebastian Wolf.</translation>
     </message>
 </context>
 <context>
     <name>ConfirmPage</name>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">Annuleren</translation>
+        <translation>Annuleren</translation>
     </message>
     <message>
         <source>Apply icons</source>
-        <translation type="unfinished"></translation>
+        <translation>Pictogrammen toepassen</translation>
     </message>
     <message>
         <source>Apply icon overlay</source>
-        <translation type="unfinished"></translation>
+        <translation>Pictogramoverlay toepassen</translation>
     </message>
     <message>
         <source>Apply an overlay on icons not available in the theme.</source>
-        <translation type="unfinished"></translation>
+        <translation>Past nen overlay toe op pictogrammen die dat niet beschikbaar zijn in het thema.</translation>
     </message>
     <message>
         <source>Apply fonts</source>
-        <translation type="unfinished"></translation>
+        <translation>Lettertypen toepassen</translation>
     </message>
     <message>
         <source>Font weight</source>
-        <translation type="unfinished"></translation>
+        <translation>Lettergewicht</translation>
     </message>
     <message>
         <source>Remember to restart the homescreen right after.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vergeet niet van het startscherm nadien te herstarten.</translation>
     </message>
     <message>
         <source>Restart homescreen</source>
-        <translation type="unfinished">Startscherm herstarten</translation>
+        <translation>Startscherm herstarten</translation>
     </message>
     <message>
         <source>Icons</source>
-        <translation type="unfinished">Pictogrammen</translation>
+        <translation>Pictogrammen</translation>
     </message>
     <message>
         <source>Fonts</source>
-        <translation type="unfinished">Lettertypen</translation>
+        <translation>Lettertypen</translation>
     </message>
     <message>
         <source>Apply</source>
-        <translation type="unfinished"></translation>
+        <translation>Toepassen</translation>
     </message>
     <message>
         <source>Choose a font weight to preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Kiest een lettergewicht voor voorbeeldweergave</translation>
     </message>
     <message>
         <source>Choose the main font weight for the UI.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kiest het standaardlettergewicht voor de gebruikersinterface.</translation>
     </message>
     <message>
         <source>After confirming, your device will restart. Your currently opened apps will be closed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Na bevestiging gaat het apparaat herstarten. Uw geopende apps gaan gesloten worden.</translation>
     </message>
 </context>
 <context>
     <name>DensityPage</name>
     <message>
         <source>Usage guide</source>
-        <translation type="unfinished">Instructies voor gebruik</translation>
+        <translation>Instructies voor gebruik</translation>
     </message>
     <message>
         <source>Options</source>
-        <translation type="unfinished"></translation>
+        <translation>Opties</translation>
     </message>
     <message>
         <source>Restore display density</source>
-        <translation type="unfinished"></translation>
+        <translation>Pixeldichtheid herstellen</translation>
     </message>
     <message>
         <source>Display density</source>
-        <translation type="unfinished">Pixeldichtheid</translation>
+        <translation>Pixeldichtheid</translation>
     </message>
     <message>
         <source>Enable display density settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Pixeldichtheidinstellingen inschakelen</translation>
     </message>
     <message>
         <source>Device pixel ratio</source>
-        <translation type="unfinished"></translation>
+        <translation>Pixelverhouding van apparaat</translation>
     </message>
     <message>
         <source>Change the display pixel ratio. To a smaller value corresponds an higher density.</source>
-        <translation type="unfinished"></translation>
+        <translation>Past de pixelverhouding aan.</translation>
     </message>
     <message>
         <source>Android DPI</source>
-        <translation type="unfinished"></translation>
+        <translation>Android-DPI</translation>
     </message>
     <message>
         <source>Android DPI value</source>
-        <translation type="unfinished"></translation>
+        <translation>Android-DPI-waarde</translation>
     </message>
     <message>
         <source>Change the Android DPI value. To a smaller value corresponds an higher density.</source>
-        <translation type="unfinished"></translation>
+        <translation>Past de Android-DPI-waarde aan. Een kleinere waarde komt overeen met een hogere dichtheid.</translation>
     </message>
     <message>
         <source>Icon size</source>
-        <translation type="unfinished"></translation>
+        <translation>Pictogramgrootte</translation>
     </message>
     <message>
         <source>Change the size of UI icons. To a greater value corresponds an huger size.</source>
-        <translation type="unfinished"></translation>
+        <translation>Past de grootte van pictogrammen in de gebruikersinterface aan. Een grotere waarde komt overeen met grotere pictogrammen.</translation>
     </message>
     <message>
         <source>Remember to restart the homescreen (from the &lt;i&gt;Options&lt;/i&gt; page) right after you have changed the settings in this page.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vergeet niet van het startscherm te herstarten (via de pagina &lt;i&gt;Opties&lt;/i&gt;) nadat ge de instellingen op deze pagina hebt gewijzigd.</translation>
     </message>
 </context>
 <context>
@@ -206,11 +206,11 @@
     </message>
     <message>
         <source>UI Themer lets you customize icons, fonts and pixel density in Sailfish OS.</source>
-        <translation>Met UI Themer kund ge pictogrammen, lettertypen en pixeldichtheid in Sailfish OS aanpassen.</translation>
+        <translation>Met UI Themer kunt ge pictogrammen, lettertypen en pixeldichtheid in Sailfish OS aanpassen.</translation>
     </message>
     <message>
         <source>UI Themer is divided into three main sections, which provide you icons, fonts and display density customization, alongside additional options.</source>
-        <translation>UI Themer is verdeeld in drie hoofddelen, die u toelaten uw pictogrammen, lettertypen en pixeldichtheid aan te passen, evenals bijkomende opties.</translation>
+        <translation>UI Themer is verdeeld in drie hoofddelen, die u toelaten uw pictogrammen, lettertypen en pixeldichtheid aan te passen, evenals extra opties.</translation>
     </message>
     <message>
         <source>Themes</source>
@@ -218,7 +218,7 @@
     </message>
     <message>
         <source>The &lt;i&gt;Themes&lt;/i&gt; page lets you customize icons and fonts via thirdy party themes. The page lists the themes you have currently installed (e.g. from OpenRepos). To apply them, tap on a theme of your choice and then select what you want to use from that theme - if the theme contains different font weights, you can choose the default one to use for the UI. You can also combine different themes, so for example you can use icons from a theme and fonts from another. To revert to the default settings, you can use the restore option from the pulley menu.</source>
-        <translation>De pagina &lt;i&gt;Thema’s&lt;/i&gt; laat u toe uw pictogrammen en lettertypen aan te passen via thema’s van derde partijen. Deze pagina geefd ne lijst weer van de thema’s die ge momenteel hebd geïnstalleerd (bv. van OpenRepos). Voor deze toe te passen tikt ge op het thema dat ge wild, en daarna welke elementen van dit thema ge wild gebruiken - als het thema meerdere lettergewichten bevat, kund ge kiezen hetwelk ge als standaardlettertype voor de gebruikersinterface wild gebruiken. Ge kund ook verschillende thema’s combineren, bijvoorbeeld door de pictogrammen van een bepaald thema te gebruiken in combinatie met de lettertypen van een ander. Voor terug te keren naar de standaardinstellingen, kund ge de herstelopties in het uittrekmenu gebruiken.</translation>
+        <translation>De pagina &lt;i&gt;Thema’s&lt;/i&gt; laat u toe uw pictogrammen en lettertypen aan te passen via thema’s van derde partijen. Deze pagina geeft een lijst weer van de thema’s die dat ge momenteel hebt geïnstalleerd (bv. van OpenRepos). Voor deze toe te passen tikt ge op het thema dat ge wilt, en daarna welke elementen van dit thema dat ge wilt gebruiken - als het thema meerdere lettergewichten bevat, kunt ge kiezen hetwelk ge als standaardlettertype voor de gebruikersinterface wilt gebruiken. Ge kunt ook verschillende thema’s combineren, bijvoorbeeld door de pictogrammen van een bepaald thema te gebruiken in combinatie met de lettertypen van een ander. Voor terug te keren naar de standaardinstellingen, kunt ge de herstelopties in het uittrekmenu gebruiken.</translation>
     </message>
     <message>
         <source>Display density</source>
@@ -226,7 +226,7 @@
     </message>
     <message>
         <source>By increasing the display density, you can display more content on your screen - or less, if you prefer to have bigger UI elements. Android apps use a different setting than Sailfish OS ones. To revert to the default settings, you can use the restore options from the pulley menu.</source>
-        <translation>Door de pixeldichtheid te verhogen, kund ge meer inhoud op uw scherm weergeven - of minder, als ge ne grotere gebruikersinterface wild. Android-apps gebruiken een aparte instelling. Voor terug te keren naar de standaardinstellingen, kund ge de herstelopties in het uittrekmenu gebruiken.</translation>
+        <translation>Door de pixeldichtheid te verhogen, kunt ge meer inhoud op uw scherm weergeven - of minder, als ge een grotere gebruikersinterface wilt. Android-apps gebruiken een aparte instelling. Voor terug te keren naar de standaardinstellingen, kunt ge de herstelopties in het uittrekmenu gebruiken.</translation>
     </message>
     <message>
         <source>Icon updater</source>
@@ -234,19 +234,19 @@
     </message>
     <message>
         <source>Here you can find advanced settings for UI Themer, e.g. reinstall default icons or fonts if you forget to revert to default theme before a system update or if the applying fails.</source>
-        <translation>Hier vind ge geavanceerde instellingen voor UI Themer, bv. het opnieuw installeren van standaardpictogrammen of -lettertypen als ge vergeet het standaardthema te herstellen vóór ne systeemupdate, of als der een fout optreed bij het toepassen.</translation>
+        <translation>Hier vindt ge geavanceerde instellingen voor UI Themer, bv. het terug installeren van standaardpictogrammen of -lettertypen als ge vergeten zijt van het standaardthema te herstellen vóór ne systeemupdate, of als er een fout is opgetreden bij het toepassen.</translation>
     </message>
     <message>
         <source>Further help</source>
-        <translation>Bijkomende hulp</translation>
+        <translation>Extra hulp</translation>
     </message>
     <message>
         <source>If you still can&apos;t get the help you need, you can open an issue on &lt;a href=&apos;https://github.com/fravaccaro/sailfishos-uithemer/issues&apos;&gt;GitHub&lt;/a&gt;.</source>
-        <translation>Als ge nog steeds geen antwoord op uw probleem vind, kund ge dit melden op &lt;a href=&apos;https://github.com/fravaccaro/sailfishos-uithemer/issues&apos;&gt;GitHub&lt;/a&gt;.</translation>
+        <translation>Als ge nog steeds geen antwoord op uw probleem vindt, kunt ge dit melden op &lt;a href=&apos;https://github.com/fravaccaro/sailfishos-uithemer/issues&apos;&gt;GitHub&lt;/a&gt;.</translation>
     </message>
     <message>
         <source>One-click restore</source>
-        <translation>Enen-tik-herstel</translation>
+        <translation>Één-tik-herstel</translation>
     </message>
     <message>
         <source>Recovery</source>
@@ -258,284 +258,284 @@
     </message>
     <message>
         <source>If anything goes wrong or you want to manage all the options via terminal, you can recall the CLI tool by typing &lt;b&gt;themepacksupport&lt;/b&gt; as root.</source>
-        <translation>Als der iets fout gaad of als ge alle functies via den terminal wild beheren, kund ge het CLI-programma oproepen door als root &lt;b&gt;themepacksupport&lt;/b&gt; in te typen.</translation>
+        <translation>Als er iets fout gaat of als ge alle functies via den terminal wilt beheren kunt ge het CLI-programma oproepen door als root &lt;b&gt;themepacksupport&lt;/b&gt; in te geven.</translation>
     </message>
     <message>
         <source>Remember to unapply themes and display density customizations before updating your system. In case you forgot, you may need to use the options provided in the &lt;i&gt;Recovery&lt;/i&gt; page or uninstall and reinstall Theme pack support e UI Themer.</source>
-        <translation>Vergeet niet wijzingen aan thema’s en pixeldichtheid ongedaan te maken vooraleer dat ge ne systeemupdate installeerd. Als ge dit toch zou’ vergeten, kunt ge de opties in de pagina &lt;i&gt;Gereedschap&lt;/i&gt; gebruiken, of UI Themer en de Themapakketondersteuning verwijderen en terug installeren.</translation>
+        <translation>Vergeet niet van wijzigingen aan thema’s en pixeldichtheid ongedaan te maken vooraleer dat ge ne systeemupdate installeert. Als ge dit toch zoudt vergeten, kunt ge de opties in de pagina &lt;i&gt;Gereedschap&lt;/i&gt; gebruiken, of UI Themer en de Themapakketondersteuning verwijderen en terug installeren.</translation>
     </message>
     <message>
         <source>UI Themer customizations must be reverted before performing a system update. With &lt;i&gt;One-click restore&lt;/i&gt; you can automate this process and restore icons, fonts and display density settings with just one click.</source>
-        <translation type="unfinished"></translation>
+        <translation>Voorafgaand aan ne systeemupdate moeten aanpassingen door UI Themer teruggedraaid worden. Met &lt;i&gt;Enen-tik-herstel&lt;/i&gt; kunt ge dit proces automatiseren, en met enen tik uw pictogrammen, lettertypen en pixeldichtheidsinstellingen te herstellen.</translation>
     </message>
     <message>
         <source>Keyboard shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>Sneltoetsen</translation>
     </message>
     <message>
         <source>Press &lt;b&gt;A&lt;/b&gt; for the about page.</source>
-        <translation type="unfinished"></translation>
+        <translation>Drukt op &lt;b&gt;A&lt;/b&gt; voor de pagina Over.</translation>
     </message>
     <message>
         <source>You can quickly restart the homescreen after you applied a setting by pressing &lt;b&gt;R&lt;/b&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ge kunt het startscherm rap herstarten nadat ge een instelling hebt toegepast door op &lt;b&gt;R&lt;/b&gt; te drukken.</translation>
     </message>
     <message>
         <source>You can cancel a countdown or a dialog by pressing &lt;b&gt;C&lt;/b&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ge kunt een teller of dialoog annuleren door op &lt;b&gt;C&lt;/b&gt; te drukken.</translation>
     </message>
     <message>
         <source>Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. &lt;i&gt;Icon updater&lt;/i&gt; will automate this process, enabling automatic update of icons at a given time. You can choose between a pre-defined set of hours or a custom hour of the day.</source>
-        <translation type="unfinished"></translation>
+        <translation>Telkens dat nen app wordt bijgewerkt moet ge het thema terug toepassen voor het aangepaste pictogram terug te krijgen. De &lt;i&gt;pictogrambijwerker&lt;/i&gt; automatiseert dit proces en laat u toe van uw pictogrammen op een gegeven tijdstip automatisch bij te werken. Ge kunt kiezen tussen vooraf bepaalde tijdstippen, of een tijdstip naar keuze invoeren.</translation>
     </message>
     <message>
         <source>Press &lt;b&gt;G&lt;/b&gt; for the usage guide.</source>
-        <translation type="unfinished"></translation>
+        <translation>Drukt op &lt;b&gt;G&lt;/b&gt; voor de gebruiksinstructies.</translation>
     </message>
     <message>
         <source>Press &lt;b&gt;W&lt;/b&gt; for restart the first run wizard.</source>
-        <translation type="unfinished"></translation>
+        <translation>Drukt op &lt;b&gt;W&lt;/b&gt; voor den eerste-start-wizard te herstarten.</translation>
     </message>
     <message>
         <source>An homescreen restart may be needed to apply your settings. You can do that through the dialog or from the &lt;i&gt;Options&lt;/i&gt; page.</source>
-        <translation type="unfinished"></translation>
+        <translation>Het is nodig van het startscherm te herstarten voor uw instellingen toe te passen. Ge kunt dit doen via den dialoog die dat verschijnt, of via de pagina &lt;i&gt;Opties&lt;/i&gt;.</translation>
     </message>
     <message>
         <source>An homescreen restart may be needed to apply your settings. You can do that from the &lt;i&gt;Options&lt;/i&gt; page.</source>
-        <translation type="unfinished"></translation>
+        <translation>Het is nodig van het startscherm te herstarten voor uw instellingen toe te passen. Ge kunt dit doen via de pagina &lt;i&gt;Opties&lt;/i&gt;.</translation>
     </message>
     <message>
         <source>Press &lt;b&gt;O&lt;/b&gt; for the options page.</source>
-        <translation type="unfinished"></translation>
+        <translation>Drukt op &lt;b&gt;O&lt;/b&gt; voor de pagina Opties.</translation>
     </message>
     <message>
         <source>UI Themer can be navigated via a physical keyboard, using convenient shortcuts.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ge kunt door UI Themer navigeren met een fysiek toetsenbord, aan de hand van handige sneltoetsen.</translation>
     </message>
     <message>
         <source>Press &lt;b&gt;B&lt;/b&gt; to go back to the previous page.</source>
-        <translation type="unfinished"></translation>
+        <translation>Drukt op &lt;b&gt;B&lt;/b&gt; voor terug te keren naar de vorige pagina.</translation>
     </message>
     <message>
         <source>If you have Storeman installed, you can quickly look for compatible themes by using the &lt;i&gt;Download&lt;/i&gt; icon in the main page.</source>
-        <translation type="unfinished"></translation>
+        <translation>Als Storeman geïnstalleerd is, kunt ge rap zoeken naar compatibele thema’s met behulp van het &lt;i&gt;Download&lt;/i&gt;-pictogram op de startpagina.</translation>
     </message>
     <message>
         <source>Press &lt;b&gt;H&lt;/b&gt; for the home page.</source>
-        <translation type="unfinished"></translation>
+        <translation>Drukt op &lt;b&gt;H&lt;/b&gt; voor de startpagina.</translation>
     </message>
     <message>
         <source>Press &lt;b&gt;D&lt;/b&gt; for the display density page.</source>
-        <translation type="unfinished"></translation>
+        <translation>Drukt op &lt;b&gt;D&lt;/b&gt; voor de pagina Pixeldichtheid.</translation>
     </message>
 </context>
 <context>
     <name>MainPage</name>
     <message>
         <source>Themes</source>
-        <translation type="unfinished">Thema’s</translation>
+        <translation>Thema’s</translation>
     </message>
     <message>
         <source>Uninstalling %1</source>
-        <translation type="unfinished">%1 word verwijderd</translation>
+        <translation>%1 wordt verwijderd</translation>
     </message>
     <message>
         <source>No themes yet</source>
-        <translation type="unfinished">Nog geen thema’s</translation>
+        <translation>Nog geen thema’s</translation>
     </message>
     <message>
         <source>Install a compatible theme first</source>
-        <translation type="unfinished">Installeerd eerst een compatibel thema</translation>
+        <translation>Installeert eerst een compatibel thema</translation>
     </message>
     <message>
         <source>Usage guide</source>
-        <translation type="unfinished">Instructies voor gebruik</translation>
+        <translation>Instructies voor gebruik</translation>
     </message>
     <message>
         <source>Options</source>
-        <translation type="unfinished"></translation>
+        <translation>Opties</translation>
     </message>
     <message>
         <source>Display density</source>
-        <translation type="unfinished">Pixeldichtheid</translation>
+        <translation>Pixeldichtheid</translation>
     </message>
     <message>
         <source>Restore theme</source>
-        <translation type="unfinished"></translation>
+        <translation>Thema herstellen</translation>
     </message>
 </context>
 <context>
     <name>Notification</name>
     <message>
         <source>Settings applied.</source>
-        <translation type="unfinished">Instellingen toegepast.</translation>
+        <translation>Instellingen toegepast.</translation>
     </message>
 </context>
 <context>
     <name>OptionsPage</name>
     <message>
         <source>Restart first run wizard</source>
-        <translation type="unfinished"></translation>
+        <translation>Eerste-start-wizard herstarten</translation>
     </message>
     <message>
         <source>Usage guide</source>
-        <translation type="unfinished">Instructies voor gebruik</translation>
+        <translation>Instructies voor gebruik</translation>
     </message>
     <message>
         <source>Recovery</source>
-        <translation type="unfinished">Herstel</translation>
+        <translation>Herstel</translation>
     </message>
     <message>
         <source>Icon updater</source>
-        <translation type="unfinished">Pictogrambijwerker</translation>
+        <translation>Pictogrambijwerker</translation>
     </message>
     <message>
         <source>Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. &lt;i&gt;Icon updater&lt;/i&gt; will automate this process, enabling automatic update of icons at a given time.</source>
-        <translation type="unfinished"></translation>
+        <translation>Telkens dat nen app wordt bijgewerkt moet ge het thema terug toepassen voor het aangepaste pictogram terug te krijgen. De &lt;i&gt;pictogrambijwerker&lt;/i&gt; automatiseert dit proces en laat u toe van uw pictogrammen op een gegeven tijdstip automatisch bij te werken.</translation>
     </message>
     <message>
         <source>Update icons</source>
-        <translation type="unfinished"></translation>
+        <translation>Pictogrammen bijwerken</translation>
     </message>
     <message>
         <source>Disabled</source>
-        <translation type="unfinished"></translation>
+        <translation>Uitgeschakeld</translation>
     </message>
     <message>
         <source>30 minutes</source>
-        <translation type="unfinished"></translation>
+        <translation>30 minuten</translation>
     </message>
     <message>
         <source>1 hour</source>
-        <translation type="unfinished"></translation>
+        <translation>1 uur</translation>
     </message>
     <message>
         <source>2 hours</source>
-        <translation type="unfinished"></translation>
+        <translation>2 uur</translation>
     </message>
     <message>
         <source>3 hours</source>
-        <translation type="unfinished"></translation>
+        <translation>3 uur</translation>
     </message>
     <message>
         <source>6 hours</source>
-        <translation type="unfinished"></translation>
+        <translation>6 uur</translation>
     </message>
     <message>
         <source>12 hours</source>
-        <translation type="unfinished"></translation>
+        <translation>12 uur</translation>
     </message>
     <message>
         <source>Daily</source>
-        <translation type="unfinished"></translation>
+        <translation>Dagelijks</translation>
     </message>
     <message>
         <source>One-click restore</source>
-        <translation type="unfinished">Enen-tik-herstel</translation>
+        <translation>Enen-tik-herstel</translation>
     </message>
     <message>
         <source>UI Themer customizations must be reverted before performing a system update. With &lt;i&gt;One-click restore&lt;/i&gt; you can automate this process and restore icons, fonts and display density settings with just one click.</source>
-        <translation type="unfinished"></translation>
+        <translation>Voorafgaand aan ne systeemupdate moeten aanpassingen door UI Themer teruggedraaid worden. Met &lt;i&gt;Enen-tik-herstel&lt;/i&gt; kunt ge dit proces automatiseren, en met enen tik uw pictogrammen, lettertypen en pixeldichtheidsinstellingen herstellen.</translation>
     </message>
     <message>
         <source>Restore</source>
-        <translation type="unfinished">Herstellen</translation>
+        <translation>Herstellen</translation>
     </message>
     <message>
         <source>Options</source>
-        <translation type="unfinished"></translation>
+        <translation>Opties</translation>
     </message>
     <message>
         <source>Cover</source>
-        <translation type="unfinished"></translation>
+        <translation>Omslag</translation>
     </message>
     <message>
         <source>Cover action</source>
-        <translation type="unfinished"></translation>
+        <translation>Omslagactie</translation>
     </message>
     <message>
         <source>Here you can find advanced settings for UI Themer, e.g. reinstall default icons or fonts if you forget to revert to default theme before a system update or if the applying fails.</source>
-        <translation type="unfinished">Hier vind ge geavanceerde instellingen voor UI Themer, bv. het opnieuw installeren van standaardpictogrammen of -lettertypen als ge vergeet het standaardthema te herstellen vóór ne systeemupdate, of als der een fout optreed bij het toepassen.</translation>
+        <translation>Hier vindt ge geavanceerde instellingen voor UI Themer, bv. het terug installeren van standaardpictogrammen of -lettertypen als ge vergeten zijt van het standaardthema te herstellen vóór ne systeemupdate, of als er een fout is opgetreden bij het toepassen.</translation>
     </message>
     <message>
         <source>refresh current theme</source>
-        <translation type="unfinished"></translation>
+        <translation>huidig thema vernieuwen</translation>
     </message>
     <message>
         <source>restart homescreen</source>
-        <translation type="unfinished"></translation>
+        <translation>startscherm herstarten</translation>
     </message>
     <message>
         <source>one-click restore</source>
-        <translation type="unfinished"></translation>
+        <translation>enen-tik-herstel</translation>
     </message>
     <message>
         <source>none</source>
-        <translation type="unfinished"></translation>
+        <translation>geen</translation>
     </message>
     <message>
         <source>Second cover action</source>
-        <translation type="unfinished"></translation>
+        <translation>Tweede omslagactie</translation>
     </message>
     <message>
         <source>Restart homescreen</source>
-        <translation type="unfinished">Startscherm herstarten</translation>
+        <translation>Startscherm herstarten</translation>
     </message>
     <message>
         <source>Restart</source>
-        <translation type="unfinished"></translation>
+        <translation>Herstarten</translation>
     </message>
     <message>
         <source>Restarting homescreen</source>
-        <translation type="unfinished"></translation>
+        <translation>Startscherm wordt herstart</translation>
     </message>
     <message>
         <source>Restart the homescreen, to make your modifications effective. Your currently opened apps will be closed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Herstart het startscherm voor uw wijzigingen toe te passen. De apps die dat ge momenteel hebt geopend, gaan gesloten worden.</translation>
     </message>
     <message>
         <source>Restoring</source>
-        <translation type="unfinished"></translation>
+        <translation>Wordt hersteld</translation>
     </message>
     <message>
         <source>Choose the action to be shown on the UI Themer cover, for a quick access when the app is minimized on the homescreen.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kiest de actie die dat op den omslag van UI Themer wordt weergegeven voor snelle toegang tot bepaalde functie.</translation>
     </message>
     <message>
         <source>Optionally, you can choose to display a second action on the cover.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ge kunt ook een tweede actie op den omslag weergeven.</translation>
     </message>
     <message>
         <source>About</source>
-        <translation type="unfinished"></translation>
+        <translation>Over</translation>
     </message>
     <message>
         <source>Run before system updates</source>
-        <translation type="unfinished"></translation>
+        <translation>Uitvoeren vóór systeemupdates</translation>
     </message>
     <message>
         <source>Restore the default icons, fonts and display density settings before performing a system update, so you don&apos;t need to manually do it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Herstelt de standaardpictogrammen, lettertypen en pixeldichtheidsinstellingen voorafgaand aan een systeemupdate, zodat ge het niet meer handmatig moet doen.</translation>
     </message>
     <message>
         <source>Easy mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Eenvoudige modus</translation>
     </message>
     <message>
         <source>Enable easy mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Eenvoudige modus inschakelen</translation>
     </message>
     <message>
         <source>Enable an easy-to-use mode for beginners.</source>
-        <translation type="unfinished"></translation>
+        <translation>Schakelt een vereenvoudigde modus voor beginners in.</translation>
     </message>
     <message>
         <source>Show active theme</source>
-        <translation type="unfinished"></translation>
+        <translation>Actief thema tonen</translation>
     </message>
     <message>
         <source>Show the current theme on the cover.</source>
-        <translation type="unfinished"></translation>
+        <translation>Toont het huidig thema op den omslag.</translation>
     </message>
 </context>
 <context>
@@ -546,66 +546,66 @@
     </message>
     <message>
         <source>If any error occurs during themes applying/restoring, you can end up with messed up icons. From here, you can reinstall default Jolla app icons while, for thirdy party apps, you may need to reinstall/update apps to restore the default look.</source>
-        <translation>Indien der een fout optreed bij het toepassen/herstellen van thema’s kunnen uw pictogrammen verprutst worden. Van hieruit kund ge de standaardpictogrammen van Jolla terug installeren. Voor apps van derde partijen moet ge mogelijks de apps bijwerken of opnieuw installeren voor de standaardpictogrammen te herstellen.</translation>
+        <translation>Indien dat der een fout optreedt bij het toepassen/herstellen van thema’s kunnen uw pictogrammen verprutst worden. Van hieruit kunt ge de standaardpictogrammen van Jolla terug installeren. Voor apps van derde partijen moet ge mogelijks de apps bijwerken of terug installeren voor de standaardpictogrammen te herstellen.</translation>
     </message>
     <message>
         <source>Reinstall icons</source>
-        <translation>Pictogrammen opnieuw installeren</translation>
+        <translation>Pictogrammen terug installeren</translation>
     </message>
     <message>
         <source>Reinstall default fonts, if font applying/restoring fails.</source>
-        <translation>Installeerd de standaardlettertypen opnieuw indien toepassen/herstellen van lettertypen mislukt.</translation>
+        <translation>Installeert standaardlettertypen opnieuw indien dat toepassen/herstellen van lettertypen mislukt.</translation>
     </message>
     <message>
         <source>Reinstall fonts</source>
-        <translation>Lettertypen opnieuw installeren</translation>
+        <translation>Lettertypen terug installeren</translation>
     </message>
     <message>
         <source>Continue</source>
-        <translation type="unfinished"></translation>
+        <translation>Verdergaan</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">Annuleren</translation>
+        <translation>Annuleren</translation>
     </message>
     <message>
         <source>Remember to restart the homescreen right after.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vergeet niet van het startscherm nadien te herstarten.</translation>
     </message>
     <message>
         <source>Restart homescreen</source>
-        <translation type="unfinished">Startscherm herstarten</translation>
+        <translation>Startscherm herstarten</translation>
     </message>
 </context>
 <context>
     <name>RestoreDDPage</name>
     <message>
         <source>Restore</source>
-        <translation type="unfinished">Herstellen</translation>
+        <translation>Herstellen</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">Annuleren</translation>
+        <translation>Annuleren</translation>
     </message>
     <message>
         <source>Default device pixel ratio</source>
-        <translation type="unfinished"></translation>
+        <translation>Standaardpixelverhouding van apparaat</translation>
     </message>
     <message>
         <source>Default Android DPI</source>
-        <translation type="unfinished"></translation>
+        <translation>Standaard-Android-DPI</translation>
     </message>
     <message>
         <source>Remember to restart the homescreen right after.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vergeet niet van het startscherm nadien te herstarten.</translation>
     </message>
     <message>
         <source>Restart homescreen</source>
-        <translation type="unfinished">Startscherm herstarten</translation>
+        <translation>Startscherm herstarten</translation>
     </message>
     <message>
         <source>After confirming, your device will restart. Your currently opened apps will be closed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Na bevestiging gaat het apparaat herstarten. Uw geopende apps gaan gesloten worden.</translation>
     </message>
 </context>
 <context>
@@ -624,19 +624,19 @@
     </message>
     <message>
         <source>Remember to restart the homescreen right after.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vergeet niet van het startscherm nadien te herstarten.</translation>
     </message>
     <message>
         <source>Default icons</source>
-        <translation type="unfinished"></translation>
+        <translation>Standaardpictogrammen</translation>
     </message>
     <message>
         <source>Default fonts</source>
-        <translation type="unfinished"></translation>
+        <translation>Standaardlettertypen</translation>
     </message>
     <message>
         <source>After confirming, your device will restart. Your currently opened apps will be closed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Na bevestiging gaat het apparaat herstarten. Uw geopende apps gaan gesloten worden.</translation>
     </message>
 </context>
 <context>
@@ -647,109 +647,109 @@
     </message>
     <message>
         <source>fonts</source>
-        <translation type="unfinished"></translation>
+        <translation>lettertypen</translation>
     </message>
     <message>
         <source>icons</source>
-        <translation type="unfinished"></translation>
+        <translation>pictogrammen</translation>
     </message>
 </context>
 <context>
     <name>TranslatorPage</name>
     <message>
         <source>Translations</source>
-        <translation type="unfinished">Vertalingen</translation>
+        <translation>Vertalingen</translation>
     </message>
     <message>
         <source>Request a new language or contribute to existing languages on the Transifex project page.</source>
-        <translation type="unfinished">Vraagd een nieuwe vertaling aan of draagd bij aan bestaande vertalingen op Transifex.</translation>
+        <translation>Vraagt een nieuwe vertaling aan of draagt bij aan bestaande vertalingen op Transifex.</translation>
     </message>
     <message>
         <source>Transifex</source>
-        <translation type="unfinished">Transifex</translation>
+        <translation>Transifex</translation>
     </message>
 </context>
 <context>
     <name>WelcomePage</name>
     <message>
         <source>Welcome to UI Themer</source>
-        <translation type="unfinished"></translation>
+        <translation>Welkom bij UI Themer</translation>
     </message>
     <message>
         <source>Install dependencies</source>
-        <translation type="unfinished"></translation>
+        <translation>Afhankelijkheden installeren</translation>
     </message>
     <message>
         <source>I have already installed the dependencies</source>
-        <translation type="unfinished"></translation>
+        <translation>Ik heb de afhankelijkheden al geïnstalleerd</translation>
     </message>
     <message>
         <source>Donate</source>
-        <translation type="unfinished">Doneren</translation>
+        <translation>Doneren</translation>
     </message>
     <message>
         <source>I don&apos;t care donating</source>
-        <translation type="unfinished"></translation>
+        <translation>Ik wil niet doneren</translation>
     </message>
     <message>
         <source>Start UI Themer</source>
-        <translation type="unfinished"></translation>
+        <translation>UI Themer starten</translation>
     </message>
     <message>
         <source>UI Themer lets you customize icons, fonts and pixel density in Sailfish OS.</source>
-        <translation type="unfinished">Met UI Themer kund ge pictogrammen, lettertypen en pixeldichtheid in Sailfish OS aanpassen.</translation>
+        <translation>Met UI Themer kunt ge pictogrammen, lettertypen en pixeldichtheid in Sailfish OS aanpassen.</translation>
     </message>
     <message>
         <source>If you like my work and want to buy me a beer, feel free to do it!</source>
-        <translation type="unfinished">Als ge mijn werk kund appreciëren en mij wild trakteren op een pintje, gaad uw gang!</translation>
+        <translation>Als ge mijn werk op prijs stelt en mij wilt trakteren op een pintje, voelt u vrij!</translation>
     </message>
     <message>
         <source>Support</source>
-        <translation type="unfinished">Hulp</translation>
+        <translation>Hulp</translation>
     </message>
     <message>
         <source>UI Themer needs some additional dependencies in order to function properly. Install them now if you haven&apos;t already.</source>
-        <translation type="unfinished"></translation>
+        <translation>UI Themer heeft enkele extra afhankelijkheden nodig voor correct te kunnen werken. Installeert ze nu als ge dit nog niet zoudt gedaan hebben.</translation>
     </message>
     <message>
         <source>It may take a while, do not quit.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dit kan efkes duren, sluit de toepassing niet af.</translation>
     </message>
     <message>
         <source>Usage guide</source>
-        <translation type="unfinished">Instructies voor gebruik</translation>
+        <translation>Instructies voor gebruik</translation>
     </message>
     <message>
         <source>Dependencies</source>
-        <translation type="unfinished"></translation>
+        <translation>Afhankelijkheden</translation>
     </message>
     <message>
         <source>ImageMagick</source>
-        <translation type="unfinished"></translation>
+        <translation>ImageMagick</translation>
     </message>
     <message>
         <source>ImageMagick is required for UI Themer overlays to work. Overlays need to be supported by the theme.</source>
-        <translation type="unfinished"></translation>
+        <translation>ImageMagick is vereist voor de overlays van UI Themer te laten werken. Overlays moeten ook ondersteund worden door het thema.</translation>
     </message>
     <message>
         <source>Install ImageMagick</source>
-        <translation type="unfinished"></translation>
+        <translation>ImageMagick installeren</translation>
     </message>
     <message>
         <source>ImageMagick installed</source>
-        <translation type="unfinished"></translation>
+        <translation>ImageMagick geïnstalleerd</translation>
     </message>
     <message>
         <source>Terms and conditions</source>
-        <translation type="unfinished"></translation>
+        <translation>Gebruiksvoorwaarden</translation>
     </message>
     <message>
         <source>By using UI Themer, you agree to the &lt;a href=&apos;https://www.gnu.org/licenses/gpl-3.0&apos;&gt;GNU GPLv3&lt;/a&gt; terms and conditions.</source>
-        <translation type="unfinished"></translation>
+        <translation>Door UI Themer te gebruiken, gaat ge akkoord met de voorwaarden van de &lt;a href=&apos;https://www.gnu.org/licenses/gpl-3.0&apos;&gt;GNU GPLv3&lt;/a&gt;.</translation>
     </message>
     <message>
         <source>UI Themer DOES NOT send any data. Some essential info (e.g. the current theme) are collected and stored EXCLUSIVELY locally and used only for the proper functioning of the app (e.g. to display the current theme in the app).</source>
-        <translation type="unfinished"></translation>
+        <translation>UI Themer stuurt GEEN gegevens. Sommige essentiële informatie (bv. het huidig thema) wordt UITSLUITEND lokaal bewaard, en wordt enkel gebruikt voor het correct werken van den app (bv. voor het huidig thema in den app weer te geven).</translation>
     </message>
 </context>
 </TS>
