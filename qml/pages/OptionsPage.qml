@@ -110,11 +110,11 @@ SilicaFlickable
     ThemePackModel {
                 function applyDone() {
                     notifyDone();
-                    if(settings.homeRefresh === true) {
-                        themepack.restartHomescreen();
-                        console.log("homescreen restart");
-                    } else
-                        console.log("no homescreen restart");
+//                    if(settings.homeRefresh === true) {
+//                        themepack.restartHomescreen();
+//                        console.log("homescreen restart");
+//                    } else
+//                        console.log("no homescreen restart");
                 }
                 function notifyDone() {
                     settings.isRunning = false;
