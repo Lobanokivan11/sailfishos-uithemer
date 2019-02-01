@@ -194,6 +194,8 @@ SilicaFlickable
                     remorsepopup.execute(qsTr("Restoring"), function() {
                         settings.isRunning = true;
                         themepackmodel.ocr();
+                        settings.deactivateFont();
+                        settings.deactivateIcon();
                     });
                 }
             }
