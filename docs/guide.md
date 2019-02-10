@@ -28,10 +28,6 @@ Everytime an app is updated, you need to re-apply the theme in order to get the 
 
 UI Themer customizations must be reverted before performing a system update. With One-click restore you can automate this process and restore icons, fonts and display density settings with just one click.
 
-## Recovery
-
-Here you can find advanced settings for UI Themer, e.g. reinstall default icons or fonts if you forget to revert to default theme before a system update or if the applying fails.
-
 ## Keyboard shortcuts
 
 UI Themer can be navigated via a physical keyboard, using convenient shortcuts.
@@ -45,6 +41,14 @@ Press **W** for restart the first run wizard.
 Press **B** to go back to the previous page.
 You can quickly restart the homescreen after you applied a setting by pressing **R**.
 You can cancel a countdown or a dialog by pressing **C**.
+
+## Recovery
+
+Here you can find advanced settings for UI Themer, e.g. reinstall default icons or fonts if you forget to revert to default theme before a system update or if the applying fails.
+
+## Backup & restore
+
+If you are working on a theme or you want to have the default icons in a safe place, you can backup them. A compressed archive will be created and saved into */home/nemo/*. You can also restore a previous backup.
 
 ## Further help
 

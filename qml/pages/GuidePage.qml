@@ -48,7 +48,7 @@ Page
             pageStack.replaceAbove(null, Qt.resolvedUrl("MainPage.qml"));
             event.accepted = true;
         }
-        if (event.key === Qt.Key_D && settings.showDensity === true) {
+        if (event.key === Qt.Key_D && settings.showDensity === true && settings.guimode !== 0) {
             pageStack.replace(Qt.resolvedUrl("DensityPage.qml"));
             event.accepted = true;
         }
@@ -120,7 +120,7 @@ Page
             }
 
             LabelText {
-                visible: !settings.easygui
+                visible: settings.guimode === 0 ? false : true
                 text: qsTr("An homescreen restart may be needed to apply your settings. You can do that through the dialog or from the <i>Options</i> page.")
             }
 
@@ -128,15 +128,15 @@ Page
                 text: qsTr("If you have Storeman installed, you can quickly look for compatible themes by using the <i>Download</i> icon in the main page.")
             }
 
-            SectionHeader { visible: settings.showDensity; text: qsTr("Display density") }
+            SectionHeader { visible: settings.showDensity && settings.guimode !== 0; text: qsTr("Display density") }
 
             LabelText {
-                visible: settings.showDensity
+                visible: settings.showDensity && settings.guimode !== 0
                 text: qsTr("By increasing the display density, you can display more content on your screen - or less, if you prefer to have bigger UI elements. Android apps use a different setting than Sailfish OS ones. To revert to the default settings, you can use the restore options from the pulley menu.")
             }
 
             LabelText {
-                visible: settings.showDensity
+                visible: settings.showDensity && settings.guimode !== 0
                 text: qsTr("An homescreen restart may be needed to apply your settings. You can do that from the <i>Options</i> page.")
             }
 
@@ -152,17 +152,11 @@ Page
                 text: qsTr("UI Themer customizations must be reverted before performing a system update. With <i>One-click restore</i> you can automate this process and restore icons, fonts and display density settings with just one click.")
             }
 
-            SectionHeader { visible: !settings.easygui; text: qsTr("Icon updater") }
+            SectionHeader { visible: settings.guimode === 0 ? false : true; text: qsTr("Icon updater") }
 
             LabelText {
-                visible: !settings.easygui
+                visible: settings.guimode === 0 ? false : true
                 text: qsTr("Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. <i>Icon updater</i> will automate this process, enabling automatic update of icons at a given time. You can choose between a pre-defined set of hours or a custom hour of the day.")
-            }
-
-            SectionHeader { visible: !settings.easygui; text: qsTr("Recovery") }
-
-            LabelText {
-                text: qsTr("Here you can find advanced settings for UI Themer, e.g. reinstall default icons or fonts if you forget to revert to default theme before a system update or if the applying fails.")
             }
 
             SectionHeader { text: qsTr("Keyboard shortcuts") }
@@ -176,7 +170,7 @@ Page
             }
 
             LabelText {
-                visible: settings.showDensity
+                visible: settings.showDensity && settings.guimode !== 0
                 text: qsTr("Press <b>D</b> for the display density page.")
             }
 
@@ -193,6 +187,7 @@ Page
             }
 
             LabelText {
+                visible: settings.guimode === 0 ? false : true
                 text: qsTr("Press <b>W</b> for restart the first run wizard.")
             }
 
@@ -208,10 +203,24 @@ Page
                 text: qsTr("You can cancel a countdown or a dialog by pressing <b>C</b>.")
             }
 
-            SectionHeader { visible: !settings.easygui; text: qsTr("CLI tool") }
+            SectionHeader { visible: settings.guimode === 0 ? false : true; text: qsTr("Recovery") }
 
             LabelText {
-                visible: !settings.easygui
+                 visible: settings.guimode === 0 ? false : true
+                text: qsTr("Here you can find advanced settings for UI Themer, e.g. reinstall default icons or fonts if you forget to revert to default theme before a system update or if the applying fails.")
+            }
+
+            SectionHeader { visible: settings.guimode === 2; text: qsTr("Backup & restore icons") }
+
+            LabelText {
+                visible: settings.guimode === 2
+                text: qsTr("If you are working on a theme or you want to have the default icons in a safe place, you can backup them. A compressed archive will be created and saved into <i>/home/nemo/</i>. You can also restore a previous backup.")
+            }
+
+            SectionHeader { visible: settings.guimode === 0 ? false : true; text: qsTr("CLI tool") }
+
+            LabelText {
+                visible: settings.guimode === 0 ? false : true
                 text: qsTr("If anything goes wrong or you want to manage all the options via terminal, you can recall the CLI tool by typing <b>themepacksupport</b> as root.")
             }
 

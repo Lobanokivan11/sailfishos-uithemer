@@ -6,9 +6,17 @@ You can change the defaults of UI Themer in your custom build.
 
 UI defaults are located in *scripts/sailfishos-uithemer.txt*:
 
-	showEasygui=bool
+	showGuimode=bool
 
-Show the option to enable/disable the easy mode in the UI.
+Show the option to enable/disable the different UI modes in the UI.
+
+	guimode=int
+
+Different UI modes:
+
+- *0* easy: less options and hassle-free experience.
+- *1* full: full control of the app settings.
+- *2* developer: enable theme developers-tailored options.
 
 	showDensity=bool
 

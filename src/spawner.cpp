@@ -42,7 +42,7 @@ void Spawner::execute(const QString &command, const QStringList &arguments, std:
 
     _callbackmap[p] = done;
     p->setProcessChannelMode(QProcess::ForwardedChannels);
-    p->start(command, arguments);
+    p->start(command.trimmed(), arguments);
 }
 
 void Spawner::execute(const QString &command, std::function<void()> done)

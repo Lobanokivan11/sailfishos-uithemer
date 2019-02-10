@@ -85,6 +85,16 @@ void ThemePackModel::recovery(bool icons, bool fonts)
     Spawner::execute("/usr/share/sailfishos-uithemer/scripts/recovery.sh", SPAWN_ARGS(QString::number(icons) << QString::number(fonts)), [this]() { emit recovered(); });
 }
 
+void ThemePackModel::toolsBackupIcons() const
+{
+    Spawner::execute("/usr/share/sailfishos-uithemer/scripts/tools-backupicons.sh", [this]() { emit toolsApplied(); });
+}
+
+void ThemePackModel::toolsRestoreIcons(const QString& filename)
+{
+    Spawner::execute("/usr/share/sailfishos-uithemer/scripts/tools-restoreicons.sh", SPAWN_ARGS(filename), [this]() { emit toolsApplied(); });
+}
+
 void ThemePackModel::uninstall(int index)
 {
     QString package = Spawner::executeSync("rpm -qf /usr/share/" + this->_packlist[index] + "/ --queryformat '%{NAME}\n'");

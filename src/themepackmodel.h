@@ -29,6 +29,8 @@ class ThemePackModel : public QAbstractListModel
         void restoreDpi(bool dpr, bool adpi);
         void ocr() const;
         void recovery(bool icons, bool fonts);
+        void toolsBackupIcons() const;
+        void toolsRestoreIcons(const QString& filename);
 
     public slots:
         QString packName(int index) const;
@@ -59,6 +61,7 @@ class ThemePackModel : public QAbstractListModel
         void dpiRestored();
         void ocrRestored();
         void recovered();
+        void toolsApplied();
 
     private:
         QStringList _packlist;

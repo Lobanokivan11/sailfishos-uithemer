@@ -1,5 +1,6 @@
 import QtQuick 2.0
 import Sailfish.Silica 1.0
+import Sailfish.Pickers 1.0
 import harbour.uithemer 1.0
 import org.nemomobile.notifications 1.0
 import "../components"
@@ -14,6 +15,8 @@ Page
     RemorsePopup { id: remorsepopup }
     BusyState { id: busyindicator }
     Notification { id: notification }
+    property string selectedBackupFile
+    property string selectedBackupFilePath
 
     Keys.onPressed: {
         handleKeyPressed(event);
@@ -62,7 +65,7 @@ Page
             event.accepted = true;
         }
 
-        if (event.key === Qt.Key_D && settings.showDensity === true) {
+        if (event.key === Qt.Key_D && settings.showDensity === true && settings.guimode !== 0) {
             pageStack.replace(Qt.resolvedUrl("DensityPage.qml"));
             event.accepted = true;
         }
@@ -72,7 +75,7 @@ Page
             event.accepted = true;
         }
 
-        if (event.key === Qt.Key_W) {
+        if (event.key === Qt.Key_W && settings.guimode !== 0) {
             settings.wizardDone = false
             pageStack.replaceAbove(null, Qt.resolvedUrl("WelcomePage.qml"));
             event.accepted = true;
@@ -124,6 +127,7 @@ SilicaFlickable
                 id: themepackmodel
                 onOcrRestored: applyDone()
                 onRecovered: applyDone()
+                onToolsApplied: applyDone()
             }
 
     PullDownMenu
@@ -138,6 +142,7 @@ SilicaFlickable
         }
         MenuItem {
             text: qsTr("Restart first run wizard")
+            visible: settings.guimode === 0 ? false : true
             onClicked: {
                 settings.wizardDone = false
                 pageStack.replaceAbove(null, Qt.resolvedUrl("WelcomePage.qml"))
@@ -202,7 +207,7 @@ SilicaFlickable
 
             IconTextSwitch {
                 id: itsservicesu
-                visible: !settings.easygui
+                visible: settings.guimode === 0 ? false : true
                 automaticCheck: true
                 text: qsTr("Run before system updates")
                 description: qsTr("Restore the default icons, fonts and display density settings before performing a system update, so you don't need to manually do it.")
@@ -219,7 +224,7 @@ SilicaFlickable
                 }
             }
 
-            SectionHeader { visible: !settings.easygui; text: qsTr("Icon updater") }
+            SectionHeader { visible: settings.guimode === 0 ? false : true; text: qsTr("Icon updater") }
 
             ComboBox {
                 function applyUpdater(setting, hours) {
@@ -237,7 +242,7 @@ SilicaFlickable
                 }
 
                 id: cbxupdate
-                visible: !settings.easygui
+                visible: settings.guimode === 0 ? false : true
                 width: parent.width
                 label: qsTr("Update icons")
                 description: qsTr("Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. <i>Icon updater</i> will automate this process, enabling automatic update of icons at a given time.")
@@ -255,17 +260,11 @@ SilicaFlickable
                 }
             }
 
-        }
-
-        Column
-        {
-            width: isLandscape ? parent.width/2 : parent.width
-
             SectionHeader { text: qsTr("Cover") }
-
 
             IconTextSwitch {
                 id: itscoveractivetheme
+                visible: settings.guimode === 0 ? false : true
                 automaticCheck: true
                 text: qsTr("Show active theme")
                 description: qsTr("Show the current theme on the cover.")
@@ -292,12 +291,19 @@ SilicaFlickable
                 }
             }
 
+        }
+
+        Column
+        {
+            width: isLandscape ? parent.width/2 : parent.width
+
             ComboBox {
                 function saveCoverAction(action) {
                     settings.coverAction2 = action;
                 }
 
                 id: cbxca2
+                visible: settings.guimode === 0 ? false : true
                 enabled: settings.coverAction1 !== 3
                 width: parent.width
                 label: qsTr("Second cover action")
@@ -312,38 +318,48 @@ SilicaFlickable
                 }
             }
 
-            SectionHeader { visible: settings.showEasygui; text: qsTr("Easy mode") }
+            SectionHeader { visible: settings.showGuimode; text: qsTr("UI mode") }
 
-            IconTextSwitch {
-                id: itseasygui
-                visible: settings.showEasygui
-                automaticCheck: true
-                text: qsTr("Enable easy mode")
-                description: qsTr("Enable an easy-to-use mode for beginners.")
-                checked: settings.easygui
-                onClicked: {
-                    if (!settings.easygui) {
-                        themepack.enableservicesu()
-                        themepack.disableserviceautoupdate()
-                        settings.homeRefresh = true
-                        settings.easygui = true
-                    } else {
-                        settings.easygui = false
+            ComboBox {
+                function saveGuiMode(mode) {
+                    settings.guimode = mode;
+                }
+
+                id: cbxguimode
+                width: parent.width
+                label: qsTr("UI mode")
+                visible: settings.showGuimode;
+                description: qsTr("Choose to see less options and have an hassle-free experience, have full control of the app settings or enable theme developers-tailored options.")
+                currentIndex: settings.guimode
+
+                menu: ContextMenu {
+                    MenuItem { text: qsTr("easy");
+                        onClicked: {
+                            cbxguimode.saveGuiMode(0)
+                            themepack.enableservicesu()
+                            themepack.disableserviceautoupdate()
+                            settings.coverAction2 = 3
+                            settings.homeRefresh = true
+                            themepack.disableddensity();
+                            settings.densityEnabled = false;
+                        }
                     }
+                    MenuItem { text: qsTr("full"); onClicked: cbxguimode.saveGuiMode(1) }
+                    MenuItem { text: qsTr("developer"); onClicked: cbxguimode.saveGuiMode(2) }
                 }
             }
 
-        SectionHeader { visible: !settings.easygui; text: qsTr("Recovery") }
+        SectionHeader { visible: settings.guimode === 0 ? false : true; text: qsTr("Recovery") }
 
         LabelText {
-            visible: !settings.easygui
+            visible: settings.guimode === 0 ? false : true
             text: qsTr("Here you can find advanced settings for UI Themer, e.g. reinstall default icons or fonts if you forget to revert to default theme before a system update or if the applying fails.")
         }
 
             LabelSpacer { }
 
         Button {
-            visible: !settings.easygui
+            visible: settings.guimode === 0 ? false : true
             anchors.horizontalCenter: parent.horizontalCenter
             text: qsTr("Recovery")
             onClicked: {
@@ -351,6 +367,62 @@ SilicaFlickable
                 dlgrecovery.accepted.connect(function() {
                     settings.isRunning = true;
                     themepackmodel.recovery(dlgrecovery.reinstallIcons, dlgrecovery.reinstallFonts);
+                });
+            }
+        }
+
+        SectionHeader { visible: settings.guimode === 2; text: qsTr("Backup icons") }
+
+        LabelText {
+            visible: settings.guimode === 2
+            text: qsTr("From here you can backup all the default icons into a compressed archive. The archive will be saved into <i>/home/nemo/</i>.")
+        }
+
+        LabelSpacer { }
+
+        Button {
+            visible: settings.guimode === 2
+            anchors.horizontalCenter: parent.horizontalCenter
+            text: qsTr("Backup")
+            onClicked: {
+                remorsepopup.execute(qsTr("Backuping"), function() {
+                    settings.isRunning = true;
+                    themepackmodel.toolsBackupIcons();
+                });
+            }
+        }
+
+        SectionHeader { visible: settings.guimode === 2; text: qsTr("Restore icons") }
+
+        ValueButton {
+            visible: settings.guimode === 2
+            label: qsTr("File")
+            description: qsTr("Select and restore an archive previously saved via UI Themer. You will still need to perform a <i>Restore theme</i> from the <i>Themes</i> page in order to restore the icons in your system.")
+            value: selectedBackupFile ? selectedBackupFile : "None"
+            onClicked: pageStack.push(backupFilePickerPage)
+        }
+
+        Component {
+            id: backupFilePickerPage
+            FilePickerPage {
+                nameFilters: [ '*tar.gz' ]
+                title: qsTr("Select backup")
+                onSelectedContentPropertiesChanged: {
+                    optionspage.selectedBackupFile = selectedContentProperties.fileName
+                    optionspage.selectedBackupFilePath = selectedContentProperties.filePath
+                }
+            }
+        }
+
+        Button {
+            visible: settings.guimode === 2
+            anchors.horizontalCenter: parent.horizontalCenter
+            text: qsTr("Restore")
+            enabled: selectedBackupFile ? true : false
+            onClicked: {
+                remorsepopup.execute(qsTr("Restoring backup"), function() {
+                    settings.isRunning = true;
+                    themepackmodel.toolsRestoreIcons(optionspage.selectedBackupFilePath);
                 });
             }
         }

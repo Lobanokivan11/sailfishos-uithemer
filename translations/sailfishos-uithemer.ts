@@ -328,6 +328,14 @@
         <source>Press &lt;b&gt;D&lt;/b&gt; for the display density page.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Backup &amp; restore icons</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>If you are working on a theme or you want to have the default icons in a safe place, you can backup them. A compressed archive will be created and saved into &lt;i&gt;/home/nemo/&lt;/i&gt;. You can also restore a previous backup.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>MainPage</name>
@@ -518,23 +526,67 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Easy mode</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Enable easy mode</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Enable an easy-to-use mode for beginners.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Show active theme</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Show the current theme on the cover.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>UI mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Choose to see less options and have an hassle-free experience, have full control of the app settings or enable theme developers-tailored options.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>easy</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>full</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>developer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Backup icons</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Backup</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Backuping</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Restore icons</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select backup</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Restoring backup</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>From here you can backup all the default icons into a compressed archive. The archive will be saved into &lt;i&gt;/home/nemo/&lt;/i&gt;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select and restore an archive previously saved via UI Themer. You will still need to perform a &lt;i&gt;Restore theme&lt;/i&gt; from the &lt;i&gt;Themes&lt;/i&gt; page in order to restore the icons in your system.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

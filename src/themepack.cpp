@@ -112,7 +112,7 @@ void ThemePack::applyHours(const QString& hours) const
 {
     Spawner::executeSync("/usr/share/sailfishos-uithemer/scripts/apply_hours.sh " + hours);
 }
- 
+
 void ThemePack::hideIcon() const
 {
     setuid_ex(0);

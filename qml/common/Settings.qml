@@ -7,9 +7,9 @@ Item
     ConfigurationGroup {
         id: conf
         path: "/desktop/lipstick/sailfishos-uithemer"
-        property bool showEasygui
+        property bool showGuimode
         property bool showDensity
-        property bool easygui
+        property int guimode
         property bool densityEnabled
         property bool wizardDone
         property string activeFontPack
@@ -21,9 +21,9 @@ Item
         property bool servicesu
     }
 
-    property alias showEasygui: conf.showEasygui
+    property alias showGuimode: conf.showGuimode
     property alias showDensity: conf.showDensity
-    property alias easygui: conf.easygui
+    property alias guimode: conf.guimode
     property alias densityEnabled: conf.densityEnabled
     property alias wizardDone: conf.wizardDone
     property alias activeFontPack: conf.activeFontPack
@@ -42,7 +42,7 @@ Item
 
     id: settings
 
-    onEasyguiChanged: conf.sync();
+    onGuimodeChanged: conf.sync();
     onDensityEnabledChanged: conf.sync();
     onWizardDoneChanged: conf.sync();
     onActiveFontPackChanged: conf.sync();

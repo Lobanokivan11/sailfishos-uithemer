@@ -1,7 +1,7 @@
 [desktop/lipstick/sailfishos-uithemer]
-showEasygui=true
+showGuimode=true
+guimode=0
 showDensity=true
-easygui=true
 densityEnabled=false
 wizardDone=false
 activeFontPack='default'

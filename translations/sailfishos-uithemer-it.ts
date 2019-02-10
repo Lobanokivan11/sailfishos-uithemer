@@ -328,6 +328,14 @@
         <source>Press &lt;b&gt;D&lt;/b&gt; for the display density page.</source>
         <translation>Premi &lt;b&gt;D&lt;/b&gt; per andare alla pagina della densità display.</translation>
     </message>
+    <message>
+        <source>Backup &amp; restore icons</source>
+        <translation>Backup &amp; ripristina icone</translation>
+    </message>
+    <message>
+        <source>If you are working on a theme or you want to have the default icons in a safe place, you can backup them. A compressed archive will be created and saved into &lt;i&gt;/home/nemo/&lt;/i&gt;. You can also restore a previous backup.</source>
+        <translation>Se stai lavorando ad un tema o vuoi tenere le icone predefinite in un luogo sicuro, puoi effettuare un backup. Un archivio compresso sarà creato e salvato in &lt;i&gt;/home/nemo/&lt;/i&gt;. Puoi anche ripristinare un backup precedente.</translation>
+    </message>
 </context>
 <context>
     <name>MainPage</name>
@@ -518,24 +526,68 @@
         <translation>Ripristina icone, font e impostazioni di densità del display prima di un aggiornamento di sistema, così da non doverlo fare manualmente.</translation>
     </message>
     <message>
-        <source>Easy mode</source>
-        <translation>Modalità semplice</translation>
-    </message>
-    <message>
-        <source>Enable easy mode</source>
-        <translation>Abilita modalità semplice</translation>
-    </message>
-    <message>
-        <source>Enable an easy-to-use mode for beginners.</source>
-        <translation>Abilita una modalità semplificata per utenti alle prime armi.</translation>
-    </message>
-    <message>
         <source>Show active theme</source>
         <translation>Mostra tema attivo</translation>
     </message>
     <message>
         <source>Show the current theme on the cover.</source>
         <translation>Mostra il tema corrente sulla cover.</translation>
+    </message>
+    <message>
+        <source>UI mode</source>
+        <translation>Modalità UI</translation>
+    </message>
+    <message>
+        <source>Choose to see less options and have an hassle-free experience, have full control of the app settings or enable theme developers-tailored options.</source>
+        <translation>Scegli se vedere meno opzioni e avere una esperienza senza problemi, avere controllo completo delle impostazioni dell&apos;app o abilitare opzioni su misura per sviluppatori di temi.</translation>
+    </message>
+    <message>
+        <source>easy</source>
+        <translation>facile</translation>
+    </message>
+    <message>
+        <source>full</source>
+        <translation>completa</translation>
+    </message>
+    <message>
+        <source>developer</source>
+        <translation>sviluppatore</translation>
+    </message>
+    <message>
+        <source>Backup icons</source>
+        <translation>Backup icone</translation>
+    </message>
+    <message>
+        <source>Backup</source>
+        <translation>Backup</translation>
+    </message>
+    <message>
+        <source>Backuping</source>
+        <translation>Backup in corso</translation>
+    </message>
+    <message>
+        <source>Restore icons</source>
+        <translation>Ripristina icone</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>File</translation>
+    </message>
+    <message>
+        <source>Select backup</source>
+        <translation>Seleziona backup</translation>
+    </message>
+    <message>
+        <source>Restoring backup</source>
+        <translation>Ripristino backup</translation>
+    </message>
+    <message>
+        <source>From here you can backup all the default icons into a compressed archive. The archive will be saved into &lt;i&gt;/home/nemo/&lt;/i&gt;.</source>
+        <translation>Da qui puoi effettuare il backup di tutte le icone predefinite in un archivio compresso. L&apos;archivio sarà salvato in &lt;i&gt;/home/nemo/&lt;/i&gt;.</translation>
+    </message>
+    <message>
+        <source>Select and restore an archive previously saved via UI Themer. You will still need to perform a &lt;i&gt;Restore theme&lt;/i&gt; from the &lt;i&gt;Themes&lt;/i&gt; page in order to restore the icons in your system.</source>
+        <translation>Seleziona e ripristina un archivio salvato precedentemente con UI Themer. Dovrai comunque effettuare un &lt;i&gt;Ripristina tema&lt;/i&gt; dalla pagina &lt;i&gt;Temi&lt;/i&gt; per ripristinare le icone nel tuo sistema.</translation>
     </message>
 </context>
 <context>

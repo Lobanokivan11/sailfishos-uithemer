@@ -170,7 +170,7 @@ Dialog
                 automaticCheck: true
                 text: qsTr("Apply icon overlay")
                 description: qsTr("Apply an overlay on icons not available in the theme.")
-                visible: hasIconOverlay && !settings.easygui
+                visible: hasIconOverlay && settings.guimode !== 0
                 checked: hasIconOverlay
                 enabled: hasIconOverlay && itsicons.checked
                 onClicked: {
@@ -287,18 +287,18 @@ Dialog
             } // grid
 
                 LabelText {
-                    visible: !settings.easygui
+                    visible: settings.guimode === 0 ? false : true
                     text: "<br>" + qsTr("Remember to restart the homescreen right after.")
                 }
 
                 TextSwitch { id: tshomerefresh
-                    visible: !settings.easygui
+                    visible: settings.guimode === 0 ? false : true
                     text: qsTr("Restart homescreen")
                     checked: settings.homeRefresh
                 }
 
                 LabelText {
-                    visible: settings.easygui
+                    visible: settings.guimode === 0
                     text: "<br>" + qsTr("After confirming, your device will restart. Your currently opened apps will be closed.")
                 }
 
