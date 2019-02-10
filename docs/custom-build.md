@@ -4,51 +4,49 @@ You can change the defaults of UI Themer in your custom build.
 
 ## dconf defaults
 
-UI defaults are located in *scripts/sailfishos-uithemer.txt*:
+UI defaults are located in *scripts/sailfishos-uithemer.txt*.
+
+#### Show the option to enable/disable the different UI modes in the UI.
 
 	showGuimode=bool
 
-Show the option to enable/disable the different UI modes in the UI.
+#### Different UI modes
 
 	guimode=int
-
-Different UI modes:
 
 - *0* easy: less options and hassle-free experience.
 - *1* full: full control of the app settings.
 - *2* developer: enable theme developers-tailored options.
 
+#### Show the display density settings in the UI.
+
 	showDensity=bool
 
-Show the display density settings in the UI.
-
-	easygui=bool
-
-Enable/disable the easy mode.
+#### Enable/disable the first-run wizard
 
 	wizardDone=bool
 
-Enable/disable the first-run wizard.
+#### Main cover action
 
 	coverAction1=int
 
-Main cover action:
 - *0* refresh icon theme.
 - *1* restart homescreen.
 - *2* one-click restore.
 - *3* disabled.
+
+#### (optional) Second cover action
 
 	coverAction2=int
 
-(optional) Second cover action:
 - *0* refresh icon theme.
 - *1* restart homescreen.
 - *2* one-click restore.
 - *3* disabled.
 
-	coverActiveTheme=bool
+#### Enable/disable active theme showing on the cover
 
-Enable/disable active theme showing on the cover.
+	coverActiveTheme=bool
 
 ## Post-install scripts
 
