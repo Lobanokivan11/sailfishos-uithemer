@@ -83,7 +83,7 @@ Page
             id: content
             width: parent.width
 
-            PageHeader { title: qsTr("About") }
+            PageHeader { title: qsTr("About UI Themer") }
 
             Grid {
                 width: parent.width

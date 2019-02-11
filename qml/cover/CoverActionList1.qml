@@ -20,8 +20,7 @@ CoverActionList {
             case 1:
                 return themepack.restartHomescreen();
             case 2:
-                themepackmodel.ocr();
-                break;
+                return themepackmodel.ocr();
             }
         }
     }

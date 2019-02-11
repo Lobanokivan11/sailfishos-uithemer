@@ -133,7 +133,7 @@ SilicaFlickable
     PullDownMenu
     {
         MenuItem {
-            text: qsTr("About")
+            text: qsTr("About UI Themer")
             onClicked: pageStack.push(Qt.resolvedUrl("AboutPage.qml"))
         }
         MenuItem {
@@ -329,7 +329,14 @@ SilicaFlickable
                 width: parent.width
                 label: qsTr("UI mode")
                 visible: settings.showGuimode;
-                description: qsTr("Choose to see less options and have an hassle-free experience, have full control of the app settings or enable theme developers-tailored options.")
+                description: switch(settings.guimode) {
+                    case 0:
+                        return qsTr("See less options and have an hassle-free experience.");
+                    case 1:
+                        return qsTr("Get full control of the app settings.");
+                    case 2:
+                        return qsTr("Enable advanced users and theme developers-tailored options.");
+                }
                 currentIndex: settings.guimode
 
                 menu: ContextMenu {
@@ -345,7 +352,7 @@ SilicaFlickable
                         }
                     }
                     MenuItem { text: qsTr("full"); onClicked: cbxguimode.saveGuiMode(1) }
-                    MenuItem { text: qsTr("developer"); onClicked: cbxguimode.saveGuiMode(2) }
+                    MenuItem { text: qsTr("advanced"); onClicked: cbxguimode.saveGuiMode(2) }
                 }
             }
 
@@ -398,7 +405,7 @@ SilicaFlickable
             visible: settings.guimode === 2
             label: qsTr("File")
             description: qsTr("Select and restore an archive previously saved via UI Themer. You will still need to perform a <i>Restore theme</i> from the <i>Themes</i> page in order to restore the icons in your system.")
-            value: selectedBackupFile ? selectedBackupFile : "None"
+            value: selectedBackupFile ? selectedBackupFile : qsTr("None")
             onClicked: pageStack.push(backupFilePickerPage)
         }
 

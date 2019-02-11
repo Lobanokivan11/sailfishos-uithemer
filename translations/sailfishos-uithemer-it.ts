@@ -64,10 +64,6 @@
         <translation>Icona app di</translation>
     </message>
     <message>
-        <source>About</source>
-        <translation>Info</translation>
-    </message>
-    <message>
         <source>Thanks to Dax89 for helping with C++ and QML code, this app would not exist without him.</source>
         <translation>Grazie a Dax89 per l&apos;aiuto con C++ e QML, quest&apos;app non esisterebbe senza di lui.</translation>
     </message>
@@ -82,6 +78,10 @@
     <message>
         <source>Keyboard navigation based on &lt;a href=&apos;https://github.com/Wunderfitz/harbour-piepmatz&apos;&gt;Piepmatz&lt;/a&gt; by Sebastian Wolf.</source>
         <translation>Navigazione via tastiera basata su &lt;a href=&apos;https://github.com/Wunderfitz/harbour-piepmatz&apos;&gt;Piepmatz&lt;/a&gt; di Sebastian Wolf.</translation>
+    </message>
+    <message>
+        <source>About UI Themer</source>
+        <translation>Info su UI Themer</translation>
     </message>
 </context>
 <context>
@@ -209,10 +209,6 @@
         <translation>UI Themer ti permette di personalizzare le icone, i font e la densità di pixel in Sailfish OS.</translation>
     </message>
     <message>
-        <source>UI Themer is divided into three main sections, which provide you icons, fonts and display density customization, alongside additional options.</source>
-        <translation>UI Themer è suddiviso in tre sezioni principali che permettono la personalizzaione di icone, font e densità del display, oltre a ulteriori opzioni.</translation>
-    </message>
-    <message>
         <source>Themes</source>
         <translation>Temi</translation>
     </message>
@@ -266,7 +262,7 @@
     </message>
     <message>
         <source>Remember to unapply themes and display density customizations before updating your system. In case you forgot, you may need to use the options provided in the &lt;i&gt;Recovery&lt;/i&gt; page or uninstall and reinstall Theme pack support e UI Themer.</source>
-        <translation>Ricorda di ripristinare le personalizzazioni dei temi e della densità del display prima di aggiornare il sistema. In caso lo abbia dimenticato, dovresti poter utilizzare le opzioni fornite nella pagina &lt;i&gt;Recovery&lt;/i&gt; o disinstallare e reinstallare Theme pack support e UI Themer.</translation>
+        <translation>Ricorda di ripristinare le personalizzazioni dei temi e della densità del display prima di aggiornare il sistema. In caso lo abbia dimenticato, potresti dover utilizzare le opzioni fornite nella pagina &lt;i&gt;Recovery&lt;/i&gt; o disinstallare e reinstallare Theme pack support e UI Themer.</translation>
     </message>
     <message>
         <source>Keyboard shortcuts</source>
@@ -514,10 +510,6 @@
         <translation>Eventualmente, puoi scegliere di mostrare sulla cover una seconda azione.</translation>
     </message>
     <message>
-        <source>About</source>
-        <translation>Info</translation>
-    </message>
-    <message>
         <source>Run before system updates</source>
         <translation>Esegui prima degli aggiornamenti di sistema</translation>
     </message>
@@ -538,20 +530,12 @@
         <translation>Modalità UI</translation>
     </message>
     <message>
-        <source>Choose to see less options and have an hassle-free experience, have full control of the app settings or enable theme developers-tailored options.</source>
-        <translation>Scegli se vedere meno opzioni e avere una esperienza senza problemi, avere controllo completo delle impostazioni dell&apos;app o abilitare opzioni su misura per sviluppatori di temi.</translation>
-    </message>
-    <message>
         <source>easy</source>
         <translation>facile</translation>
     </message>
     <message>
         <source>full</source>
         <translation>completa</translation>
-    </message>
-    <message>
-        <source>developer</source>
-        <translation>sviluppatore</translation>
     </message>
     <message>
         <source>Backup icons</source>
@@ -588,6 +572,30 @@
     <message>
         <source>Select and restore an archive previously saved via UI Themer. You will still need to perform a &lt;i&gt;Restore theme&lt;/i&gt; from the &lt;i&gt;Themes&lt;/i&gt; page in order to restore the icons in your system.</source>
         <translation>Seleziona e ripristina un archivio salvato precedentemente con UI Themer. Dovrai comunque effettuare un &lt;i&gt;Ripristina tema&lt;/i&gt; dalla pagina &lt;i&gt;Temi&lt;/i&gt; per ripristinare le icone nel tuo sistema.</translation>
+    </message>
+    <message>
+        <source>About UI Themer</source>
+        <translation>Info su UI Themer</translation>
+    </message>
+    <message>
+        <source>See less options and have an hassle-free experience.</source>
+        <translation>Vedi meno opzioni e ottieni una esperienza senza problemi.</translation>
+    </message>
+    <message>
+        <source>Get full control of the app settings.</source>
+        <translation>Ottieni controllo completo delle impostazioni dell&apos;app.</translation>
+    </message>
+    <message>
+        <source>Enable advanced users and theme developers-tailored options.</source>
+        <translation>Abilita opzioni su misura per utenti avanzati e sviluppatori di temi.</translation>
+    </message>
+    <message>
+        <source>advanced</source>
+        <translation>avanzata</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Nessuno</translation>
     </message>
 </context>
 <context>

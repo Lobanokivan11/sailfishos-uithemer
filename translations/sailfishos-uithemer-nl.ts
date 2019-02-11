@@ -64,10 +64,6 @@
         <translation>App-pictogram door</translation>
     </message>
     <message>
-        <source>About</source>
-        <translation>Over</translation>
-    </message>
-    <message>
         <source>Thanks to Dax89 for helping with C++ and QML code, this app would not exist without him.</source>
         <translation>Bedankt aan Dax89 voor de hulp met C++ en QML-code, zonder hem zou deze app niet bestaan.</translation>
     </message>
@@ -82,6 +78,10 @@
     <message>
         <source>Keyboard navigation based on &lt;a href=&apos;https://github.com/Wunderfitz/harbour-piepmatz&apos;&gt;Piepmatz&lt;/a&gt; by Sebastian Wolf.</source>
         <translation>Toetsenbordnavigatie gebaseerd op die van &lt;a href=&apos;https://github.com/Wunderfitz/harbour-piepmatz&apos;&gt;Piepmatz&lt;/a&gt; door Sebastian Wolf.</translation>
+    </message>
+    <message>
+        <source>About UI Themer</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -207,10 +207,6 @@
     <message>
         <source>UI Themer lets you customize icons, fonts and pixel density in Sailfish OS.</source>
         <translation>Met UI Themer kan je pictogrammen, lettertypen en pixeldichtheid in Sailfish OS aanpassen.</translation>
-    </message>
-    <message>
-        <source>UI Themer is divided into three main sections, which provide you icons, fonts and display density customization, alongside additional options.</source>
-        <translation>UI Themer is verdeeld in drie hoofddelen, die je toelaten je pictogrammen, lettertypen en pixeldichtheid aan te passen, evenals extra opties.</translation>
     </message>
     <message>
         <source>Themes</source>
@@ -514,10 +510,6 @@
         <translation>Je kan ook een tweede actie op de omslag weergeven.</translation>
     </message>
     <message>
-        <source>About</source>
-        <translation>Over</translation>
-    </message>
-    <message>
         <source>Run before system updates</source>
         <translation>Uitvoeren vóór systeemupdates</translation>
     </message>
@@ -538,19 +530,11 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Choose to see less options and have an hassle-free experience, have full control of the app settings or enable theme developers-tailored options.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>easy</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>full</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>developer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -587,6 +571,30 @@
     </message>
     <message>
         <source>Select and restore an archive previously saved via UI Themer. You will still need to perform a &lt;i&gt;Restore theme&lt;/i&gt; from the &lt;i&gt;Themes&lt;/i&gt; page in order to restore the icons in your system.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>About UI Themer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>See less options and have an hassle-free experience.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Get full control of the app settings.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enable advanced users and theme developers-tailored options.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>advanced</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>None</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

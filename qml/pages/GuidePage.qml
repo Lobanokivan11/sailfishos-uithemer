@@ -109,10 +109,6 @@ Page
                 text: qsTr("Remember to unapply themes and display density customizations before updating your system. In case you forgot, you may need to use the options provided in the <i>Recovery</i> page or uninstall and reinstall Theme pack support e UI Themer.")
             }
 
-            LabelText {
-                text: qsTr("UI Themer is divided into three main sections, which provide you icons, fonts and display density customization, alongside additional options.")
-            }
-
             SectionHeader { text: qsTr("Themes") }
 
             LabelText {
