@@ -39,15 +39,15 @@ UI Themer customizations must be reverted before performing a system update. Wit
 
 UI Themer can be navigated via a physical keyboard, using convenient shortcuts.
 
-Press **H** for the home page.
-Press **D** for the display density page.
-Press **O** for the options page.
-Press **G** for the usage guide.
-Press **A** for the about page.
-Press **W** for restart the first run wizard.
-Press **B** to go back to the previous page.
-You can quickly restart the homescreen after you applied a setting by pressing **R**.
-You can cancel a countdown or a dialog by pressing **C**.
+- Press **H** for the home page.
+- Press **D** for the display density page.
+- Press **O** for the options page.
+- Press **G** for the usage guide.
+- Press **A** for the about page.
+- Press **W** for restart the first run wizard.
+- Press **B** to go back to the previous page.
+- You can quickly restart the homescreen after you applied a setting by pressing **R**.
+- You can cancel a countdown or a dialog by pressing **C**.
 
 ## Recovery
 
