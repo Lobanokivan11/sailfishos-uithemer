@@ -82,7 +82,7 @@ Tack till Dax89, för hjälp med C++ och QML-kod, den här appen hade inte funni
     </message>
     <message>
         <source>About UI Themer</source>
-        <translation type="unfinished"></translation>
+        <translation>Om UI Themer</translation>
     </message>
 </context>
 <context>
@@ -327,11 +327,11 @@ Tack till Dax89, för hjälp med C++ och QML-kod, den här appen hade inte funni
     </message>
     <message>
         <source>Backup &amp; restore icons</source>
-        <translation type="unfinished"></translation>
+        <translation>Säkerhetskopiera &amp; återställ ikoner</translation>
     </message>
     <message>
         <source>If you are working on a theme or you want to have the default icons in a safe place, you can backup them. A compressed archive will be created and saved into &lt;i&gt;/home/nemo/&lt;/i&gt;. You can also restore a previous backup.</source>
-        <translation type="unfinished"></translation>
+        <translation>Om du arbetar på ett tema och vill ha standardikonerna på en säker plats, kan du säkerhetskopiera dem. Ett komprimerat arkiv skapas och sparas i &lt;i&gt;/home/nemo/&lt;/i&gt;. Du kan också återställa en tidigare säkerhetskopia.</translation>
     </message>
 </context>
 <context>
@@ -528,75 +528,75 @@ Tack till Dax89, för hjälp med C++ och QML-kod, den här appen hade inte funni
     </message>
     <message>
         <source>UI mode</source>
-        <translation type="unfinished"></translation>
+        <translation>UI-läge</translation>
     </message>
     <message>
         <source>easy</source>
-        <translation type="unfinished"></translation>
+        <translation>lätt</translation>
     </message>
     <message>
         <source>full</source>
-        <translation type="unfinished"></translation>
+        <translation>full</translation>
     </message>
     <message>
         <source>Backup icons</source>
-        <translation type="unfinished"></translation>
+        <translation>Säkerhetskopiera ikoner</translation>
     </message>
     <message>
         <source>Backup</source>
-        <translation type="unfinished"></translation>
+        <translation>Säkerhetskopiera</translation>
     </message>
     <message>
         <source>Backuping</source>
-        <translation type="unfinished"></translation>
+        <translation>Säkerhetskopiering</translation>
     </message>
     <message>
         <source>Restore icons</source>
-        <translation type="unfinished"></translation>
+        <translation>Återställ ikoner</translation>
     </message>
     <message>
         <source>File</source>
-        <translation type="unfinished"></translation>
+        <translation>File</translation>
     </message>
     <message>
         <source>Select backup</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj säkerhetskopia</translation>
     </message>
     <message>
         <source>Restoring backup</source>
-        <translation type="unfinished"></translation>
+        <translation>Återställer säkerhetskopia</translation>
     </message>
     <message>
         <source>From here you can backup all the default icons into a compressed archive. The archive will be saved into &lt;i&gt;/home/nemo/&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Här kan du säkerhetskopiera alla standardikoner till ett komprimerat arkiv. Arkivet sparas i &lt;i&gt;/home/nemo/&lt;/i&gt;.</translation>
     </message>
     <message>
         <source>Select and restore an archive previously saved via UI Themer. You will still need to perform a &lt;i&gt;Restore theme&lt;/i&gt; from the &lt;i&gt;Themes&lt;/i&gt; page in order to restore the icons in your system.</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj och återställ ett arkiv som tidigare sparats via UI Themer. Du måste fortfarande utföra en &lt;i&gt;återställning&lt;/i&gt; från &lt;i&gt;temasidan&lt;/i&gt;, för att återställa ikonerna i ditt system.</translation>
     </message>
     <message>
         <source>About UI Themer</source>
-        <translation type="unfinished"></translation>
+        <translation>Om UI Themer</translation>
     </message>
     <message>
         <source>See less options and have an hassle-free experience.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se färre alternativ och få en mer problemfri upplevelse.</translation>
     </message>
     <message>
         <source>Get full control of the app settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta full kontroll över app-inställningarna.</translation>
     </message>
     <message>
         <source>Enable advanced users and theme developers-tailored options.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivera avancerade användares och utvecklares anpassade alternativ.</translation>
     </message>
     <message>
         <source>advanced</source>
-        <translation type="unfinished"></translation>
+        <translation>avancerat</translation>
     </message>
     <message>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>Ingen</translation>
     </message>
 </context>
 <context>

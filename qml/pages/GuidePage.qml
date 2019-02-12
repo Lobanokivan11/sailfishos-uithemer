@@ -136,17 +136,17 @@ Page
                 text: qsTr("An homescreen restart may be needed to apply your settings. You can do that from the <i>Options</i> page.")
             }
 
-            }
-
-            Column
-            {
-                width: isLandscape ? parent.width/2 : parent.width
-
             SectionHeader { text: qsTr("One-click restore") }
 
             LabelText {
                 text: qsTr("UI Themer customizations must be reverted before performing a system update. With <i>One-click restore</i> you can automate this process and restore icons, fonts and display density settings with just one click.")
             }
+
+            }
+
+            Column
+            {
+                width: isLandscape ? parent.width/2 : parent.width
 
             SectionHeader { visible: settings.guimode === 0 ? false : true; text: qsTr("Icon updater") }
 

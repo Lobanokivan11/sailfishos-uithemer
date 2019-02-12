@@ -81,7 +81,7 @@
     </message>
     <message>
         <source>About UI Themer</source>
-        <translation type="unfinished"></translation>
+        <translation>O programu UI Themer</translation>
     </message>
 </context>
 <context>
@@ -214,7 +214,7 @@
     </message>
     <message>
         <source>The &lt;i&gt;Themes&lt;/i&gt; page lets you customize icons and fonts via thirdy party themes. The page lists the themes you have currently installed (e.g. from OpenRepos). To apply them, tap on a theme of your choice and then select what you want to use from that theme - if the theme contains different font weights, you can choose the default one to use for the UI. You can also combine different themes, so for example you can use icons from a theme and fonts from another. To revert to the default settings, you can use the restore option from the pulley menu.</source>
-        <translation>Na strani&lt;i&gt;Teme&lt;/i&gt; lahko s pomočjo dodatnih tem prilagodite ikone in pisave. Prikazane so trenutno nameščene teme, pridobljene (na primer) iz skladišča OpenRepos. Izberite temo in s klikom na njo se prikažejo možnosti - če tema vsebuje različne debeline pisav lahko izberete, katera naj bo privzeta za uporabniški vmesnik. Prav tako lahko kombinirate različne teme, na primer ikone iz ene in pisave iz druge. Za povrnitev na privzete nastavitve lahko uporabite možnost obnovitve iz poteznega menija.</translation>
+        <translation>Na strani &lt;i&gt;Teme&lt;/i&gt; lahko s pomočjo dodatnih tem prilagodite ikone in pisave. Prikazane so trenutno nameščene teme, pridobljene (na primer) iz skladišča OpenRepos. Izberite temo in s klikom na njo se prikažejo možnosti - če tema vsebuje različne debeline pisav lahko izberete, katera naj bo privzeta za uporabniški vmesnik. Prav tako lahko kombinirate različne teme, na primer ikone iz ene in pisave iz druge. Za povrnitev na privzete nastavitve lahko uporabite možnost obnovitve iz poteznega menija.</translation>
     </message>
     <message>
         <source>Display density</source>
@@ -234,11 +234,11 @@
     </message>
     <message>
         <source>Further help</source>
-        <translation>Nadalnja pomoč</translation>
+        <translation>Nadaljnja pomoč</translation>
     </message>
     <message>
         <source>If you still can&apos;t get the help you need, you can open an issue on &lt;a href=&apos;https://github.com/fravaccaro/sailfishos-uithemer/issues&apos;&gt;GitHub&lt;/a&gt;.</source>
-        <translation>Če vam vgrajena pomočn ne zadostuje, odprite razpravo na  &lt;a href=&apos;https://github.com/fravaccaro/sailfishos-uithemer/issues&apos;&gt;GitHub&lt;/a&gt;.</translation>
+        <translation>Če vam vgrajena pomoč ne zadostuje, odprite razpravo na &lt;a href=&apos;https://github.com/fravaccaro/sailfishos-uithemer/issues&apos;&gt;GitHub&lt;/a&gt;.</translation>
     </message>
     <message>
         <source>One-click restore</source>
@@ -262,11 +262,11 @@
     </message>
     <message>
         <source>UI Themer customizations must be reverted before performing a system update. With &lt;i&gt;One-click restore&lt;/i&gt; you can automate this process and restore icons, fonts and display density settings with just one click.</source>
-        <translation>Pred vsako nadgradnjo sistema je potrebno vse prilagoditve aplikacije UI Themer povrniti na privzete nastavitve. Z možnostjo&lt;i&gt;Obnovitev z enim klikom&lt;/i&gt; lahko ta proces poenostavite in obnovite nastavitve po meri za ikone,  pisave ter gostoto zaslona le z enim klikom.</translation>
+        <translation>Pred vsako nadgradnjo sistema je potrebno vse prilagoditve aplikacije UI Themer povrniti na privzete nastavitve. Z možnostjo &lt;i&gt;Obnovitev z enim klikom&lt;/i&gt; lahko ta proces poenostavite in obnovite nastavitve po meri za ikone,  pisave ter gostoto zaslona le z enim klikom.</translation>
     </message>
     <message>
         <source>Keyboard shortcuts</source>
-        <translation>Bližnjice na tipkovnici</translation>
+        <translation>Bližnjice na fizični tipkovnici</translation>
     </message>
     <message>
         <source>Press &lt;b&gt;A&lt;/b&gt; for the about page.</source>
@@ -278,7 +278,7 @@
     </message>
     <message>
         <source>You can cancel a countdown or a dialog by pressing &lt;b&gt;C&lt;/b&gt;.</source>
-        <translation>Odštevanje lahko prekličete s prtiskom na tipko&lt;b&gt;C&lt;/b&gt; ali preko dialoga.</translation>
+        <translation>Odštevanje lahko prekličete s prtiskom na tipko &lt;b&gt;C&lt;/b&gt; ali preko dialoga.</translation>
     </message>
     <message>
         <source>Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. &lt;i&gt;Icon updater&lt;/i&gt; will automate this process, enabling automatic update of icons at a given time. You can choose between a pre-defined set of hours or a custom hour of the day.</source>
@@ -286,7 +286,7 @@
     </message>
     <message>
         <source>Press &lt;b&gt;G&lt;/b&gt; for the usage guide.</source>
-        <translation>Za uporabniški priročnik pritisnite&lt;b&gt;G&lt;/b&gt;.</translation>
+        <translation>Za uporabniški priročnik pritisnite &lt;b&gt;G&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Press &lt;b&gt;W&lt;/b&gt; for restart the first run wizard.</source>
@@ -326,11 +326,11 @@
     </message>
     <message>
         <source>Backup &amp; restore icons</source>
-        <translation type="unfinished"></translation>
+        <translation>Varnostno kopiranje in obnovitev ikon</translation>
     </message>
     <message>
         <source>If you are working on a theme or you want to have the default icons in a safe place, you can backup them. A compressed archive will be created and saved into &lt;i&gt;/home/nemo/&lt;/i&gt;. You can also restore a previous backup.</source>
-        <translation type="unfinished"></translation>
+        <translation>Če ustvarjate novo temo ali pa le želite imeti shranjene privzete ikone na varnem mestu, ustvarite varnostno kopijo. Kompresirana datoteka se bo ustvarila v &lt;i&gt;/home/nemo/&lt;/i&gt;. Prav tako lahko obnovite datoteke iz obstoječe varnostne kopije.</translation>
     </message>
 </context>
 <context>
@@ -439,7 +439,7 @@
     </message>
     <message>
         <source>UI Themer customizations must be reverted before performing a system update. With &lt;i&gt;One-click restore&lt;/i&gt; you can automate this process and restore icons, fonts and display density settings with just one click.</source>
-        <translation>Pred vsako nadgradnjo sistema je potrebno vse prilagoditve aplikacije UI Themer povrniti na privzete nastavitve. Z možnostjo&lt;i&gt;Obnovitev z enim klikom&lt;/i&gt; lahko ta proces poenostavite in obnovite nastavitve po meri za ikone,  pisave ter gostoto zaslona z le enim klikom.</translation>
+        <translation>Pred vsako nadgradnjo sistema je potrebno vse prilagoditve aplikacije UI Themer povrniti na privzete nastavitve. Z možnostjo &lt;i&gt;Obnovitev z enim klikom&lt;/i&gt; lahko ta proces poenostavite in obnovite nastavitve po meri za ikone,  pisave ter gostoto zaslona z le enim klikom.</translation>
     </message>
     <message>
         <source>Restore</source>
@@ -527,75 +527,75 @@
     </message>
     <message>
         <source>UI mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Način delovanja programa</translation>
     </message>
     <message>
         <source>easy</source>
-        <translation type="unfinished"></translation>
+        <translation>preprost</translation>
     </message>
     <message>
         <source>full</source>
-        <translation type="unfinished"></translation>
+        <translation>napreden</translation>
     </message>
     <message>
         <source>Backup icons</source>
-        <translation type="unfinished"></translation>
+        <translation>Ustvari varnostno kopijo ikon</translation>
     </message>
     <message>
         <source>Backup</source>
-        <translation type="unfinished"></translation>
+        <translation>Varnostna kopija</translation>
     </message>
     <message>
         <source>Backuping</source>
-        <translation type="unfinished"></translation>
+        <translation>Ustvarjanje varnostne kopije</translation>
     </message>
     <message>
         <source>Restore icons</source>
-        <translation type="unfinished"></translation>
+        <translation>Obnovi ikone</translation>
     </message>
     <message>
         <source>File</source>
-        <translation type="unfinished"></translation>
+        <translation>Datoteka</translation>
     </message>
     <message>
         <source>Select backup</source>
-        <translation type="unfinished"></translation>
+        <translation>Izberi varnostno kopijo</translation>
     </message>
     <message>
         <source>Restoring backup</source>
-        <translation type="unfinished"></translation>
+        <translation>Obnavljanje varnostne kopije</translation>
     </message>
     <message>
         <source>From here you can backup all the default icons into a compressed archive. The archive will be saved into &lt;i&gt;/home/nemo/&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tu lahko ustvarite varnostno kopijo vseh privzetih ikon, ki se shranijo v arhivsko datoteko.  Arhiv bo shranjen v &lt;i&gt;/home/nemo/&lt;/i&gt;.</translation>
     </message>
     <message>
         <source>Select and restore an archive previously saved via UI Themer. You will still need to perform a &lt;i&gt;Restore theme&lt;/i&gt; from the &lt;i&gt;Themes&lt;/i&gt; page in order to restore the icons in your system.</source>
-        <translation type="unfinished"></translation>
+        <translation>Izberite in obnovite datoteke iz arhiva, katerega je predhodno ustvarila aplikacija UI Themer. Še vedno bo potrebno uporabiti ukaz &lt;i&gt;Obnovi temo&lt;/i&gt; na strani &lt;i&gt;Teme&lt;/i&gt;, da se obnovijo ikone.</translation>
     </message>
     <message>
         <source>About UI Themer</source>
-        <translation type="unfinished"></translation>
+        <translation>O programu UI Themer</translation>
     </message>
     <message>
         <source>See less options and have an hassle-free experience.</source>
-        <translation type="unfinished"></translation>
+        <translation>Prikaži manj možnosti</translation>
     </message>
     <message>
         <source>Get full control of the app settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pridobite popolen nadzor v nastavitvah</translation>
     </message>
     <message>
         <source>Enable advanced users and theme developers-tailored options.</source>
-        <translation type="unfinished"></translation>
+        <translation>Naprednim uporabnikom in razvijalcem omogoči dodatne možnosti programa</translation>
     </message>
     <message>
         <source>advanced</source>
-        <translation type="unfinished"></translation>
+        <translation>napredno</translation>
     </message>
     <message>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>Nič</translation>
     </message>
 </context>
 <context>

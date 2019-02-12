@@ -81,7 +81,7 @@
     </message>
     <message>
         <source>About UI Themer</source>
-        <translation type="unfinished"></translation>
+        <translation>Over UI Themer</translation>
     </message>
 </context>
 <context>
@@ -326,11 +326,11 @@
     </message>
     <message>
         <source>Backup &amp; restore icons</source>
-        <translation type="unfinished"></translation>
+        <translation>Back-up en herstel van pictogrammen</translation>
     </message>
     <message>
         <source>If you are working on a theme or you want to have the default icons in a safe place, you can backup them. A compressed archive will be created and saved into &lt;i&gt;/home/nemo/&lt;/i&gt;. You can also restore a previous backup.</source>
-        <translation type="unfinished"></translation>
+        <translation>Als ge aan een thema aan het werken zijt of als ge de standaardpictogrammen ergens veilig wilt opslaan, kunt ge der nen back-up van maken. Der gaat een gecomprimeerd archief worden aangemaakt in &lt;i&gt;/home/nemo/&lt;/i&gt;. Ge kunt ook ne vorigen back-up herstellen.</translation>
     </message>
 </context>
 <context>
@@ -527,75 +527,75 @@
     </message>
     <message>
         <source>UI mode</source>
-        <translation type="unfinished"></translation>
+        <translation>UI-modus</translation>
     </message>
     <message>
         <source>easy</source>
-        <translation type="unfinished"></translation>
+        <translation>eenvoudig</translation>
     </message>
     <message>
         <source>full</source>
-        <translation type="unfinished"></translation>
+        <translation>volledig</translation>
     </message>
     <message>
         <source>Backup icons</source>
-        <translation type="unfinished"></translation>
+        <translation>Back-up van pictogrammen maken</translation>
     </message>
     <message>
         <source>Backup</source>
-        <translation type="unfinished"></translation>
+        <translation>Back-up maken</translation>
     </message>
     <message>
         <source>Backuping</source>
-        <translation type="unfinished"></translation>
+        <translation>Bezig met maken van back-up</translation>
     </message>
     <message>
         <source>Restore icons</source>
-        <translation type="unfinished"></translation>
+        <translation>Pictogrammen herstellen</translation>
     </message>
     <message>
         <source>File</source>
-        <translation type="unfinished"></translation>
+        <translation>Bestand</translation>
     </message>
     <message>
         <source>Select backup</source>
-        <translation type="unfinished"></translation>
+        <translation>Selecteert nen back-up</translation>
     </message>
     <message>
         <source>Restoring backup</source>
-        <translation type="unfinished"></translation>
+        <translation>Back-up wordt hersteld</translation>
     </message>
     <message>
         <source>From here you can backup all the default icons into a compressed archive. The archive will be saved into &lt;i&gt;/home/nemo/&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Van hieruit kunt ge nen back-up van alle standaardpictogrammen maken in een gecomprimeerd archief. Dit archief gaat opgeslagen worden in &lt;i&gt;/home/nemo/&lt;/i&gt;.</translation>
     </message>
     <message>
         <source>Select and restore an archive previously saved via UI Themer. You will still need to perform a &lt;i&gt;Restore theme&lt;/i&gt; from the &lt;i&gt;Themes&lt;/i&gt; page in order to restore the icons in your system.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selecteert en herstelt een archief dat ge voordien met UI Themer hebt opgeslagen. Ge gaat nog altijd &lt;i&gt;Thema herstellen&lt;/i&gt; moeten uitvoeren op de pagina &lt;i&gt;Thema’s&lt;/i&gt; voor de pictogrammen in uw systeem te herstellen.</translation>
     </message>
     <message>
         <source>About UI Themer</source>
-        <translation type="unfinished"></translation>
+        <translation>Over UI Themer</translation>
     </message>
     <message>
         <source>See less options and have an hassle-free experience.</source>
-        <translation type="unfinished"></translation>
+        <translation>Voor minder opties en een eenvoudigere ervaring.</translation>
     </message>
     <message>
         <source>Get full control of the app settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Voor volledige controle over de appinstellingen.</translation>
     </message>
     <message>
         <source>Enable advanced users and theme developers-tailored options.</source>
-        <translation type="unfinished"></translation>
+        <translation>Voor geavanceerde gebruikers en thema-ontwikkelaars.</translation>
     </message>
     <message>
         <source>advanced</source>
-        <translation type="unfinished"></translation>
+        <translation>geavanceerd</translation>
     </message>
     <message>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>Geen</translation>
     </message>
 </context>
 <context>
