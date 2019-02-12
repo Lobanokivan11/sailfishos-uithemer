@@ -1,3 +1,10 @@
+---
+layout: default
+title: Usage guide
+nav_order: 2
+permalink: docs/guide
+---
+
 # Usage guide
 
 UI Themer lets you customize icons, fonts and pixel density in Sailfish OS.

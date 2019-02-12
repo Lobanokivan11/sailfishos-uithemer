@@ -1,3 +1,11 @@
+---
+layout: default
+title: Home
+nav_order: 1
+description: "Enables customization of icons, fonts and pixel density in Sailfish OS"
+permalink: /
+---
+
 # UI Themer
 
 UI Themer lets customize icons, fonts and pixel density in Sailfish OS. Graphical User Interface for [Theme pack support](https://fravaccaro.github.io/themepacksupport-sailfishos/).
@@ -17,9 +25,13 @@ UI Themer lets customize icons, fonts and pixel density in Sailfish OS. Graphica
 - Change icon size.
 - Recovery tools.
 
+## Usage guide
+
+A usage guide is available [here](docs/guide).
+
 ## Create custom theme packs
 
-Documentation on how to create theme packs available [here](https://fravaccaro.github.io/themepacksupport-sailfishos/docs/getstarted.html).
+Documentation on how to create theme packs available [here](https://fravaccaro.github.io/themepacksupport-sailfishos/docs/getstarted).
 
 ## Translate
 
@@ -35,11 +47,7 @@ Builds for armv7hl and i486 available on [OpenRepos](https://openrepos.net/conte
 
 ### Custom builds
 
-You can change the defaults of UI Themer in your custom build. More info [here](docs/custom-build.md).
-
-## Usage guide
-
-A usage guide is available [here](docs/guide.md).
+You can change the defaults of UI Themer in your custom build. More info [here](docs/custom-build).
 
 ## Roadmap
 

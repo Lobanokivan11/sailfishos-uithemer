@@ -1,3 +1,10 @@
+---
+layout: default
+title: Custom build
+nav_order: 3
+permalink: docs/custom-build
+---
+
 # Custom build
 
 You can change the defaults of UI Themer in your custom build.
