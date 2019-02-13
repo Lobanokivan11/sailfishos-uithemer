@@ -113,11 +113,6 @@ SilicaFlickable
     ThemePackModel {
                 function applyDone() {
                     notifyDone();
-//                    if(settings.homeRefresh === true) {
-//                        themepack.restartHomescreen();
-//                        console.log("homescreen restart");
-//                    } else
-//                        console.log("no homescreen restart");
                 }
                 function notifyDone() {
                     settings.isRunning = false;
@@ -126,7 +121,14 @@ SilicaFlickable
 
                 id: themepackmodel
                 onOcrRestored: applyDone()
-                onRecovered: applyDone()
+                onRecovered: {
+                    applyDone();
+                    if(settings.homeRefresh === true) {
+                        themepack.restartHomescreen();
+                        console.log("homescreen restart");
+                    } else
+                        console.log("no homescreen restart");
+                }
                 onToolsApplied: applyDone()
             }
 

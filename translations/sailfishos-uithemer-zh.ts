@@ -5,7 +5,7 @@
     <name>AboutPage</name>
     <message>
         <source>UI Themer lets you customize icons, fonts and pixel density in Sailfish OS.</source>
-        <translation>UI Themer让你定制旗鱼系统的图标、字体和像素密度。</translation>
+        <translation>UI Themer使你能够定制旗鱼系统的图标、字体和像素密度。</translation>
     </message>
     <message>
         <source>Sources</source>
@@ -57,7 +57,7 @@
     </message>
     <message>
         <source>Part of this app is based on &lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon pack support GUI&lt;/a&gt; by RikudouSennin.</source>
-        <translation>应用部分基于RikudouSennin开发的&lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;GUI图标支持&lt;/a&gt;。</translation>
+        <translation>应用部分基于RikudouSennin开发的&lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;GUI图标包支持&lt;/a&gt;。</translation>
     </message>
     <message>
         <source>App icon by</source>
@@ -77,12 +77,11 @@
     </message>
     <message>
         <source>Keyboard navigation based on &lt;a href=&apos;https://github.com/Wunderfitz/harbour-piepmatz&apos;&gt;Piepmatz&lt;/a&gt; by Sebastian Wolf.</source>
-        <translation>机械键盘导航基于Sebastian Wolf开发的&lt;a href=&apos;https://github.com/Wunderfitz/harbour-piepmatz&apos;&gt;Piepmatz&lt;/a&gt;。
-</translation>
+        <translation>机械键盘导航基于Sebastian Wolf开发的 &lt;a href=&apos;https://github.com/Wunderfitz/harbour-piepmatz&apos;&gt;Piepmatz&lt;/a&gt; 。</translation>
     </message>
     <message>
         <source>About UI Themer</source>
-        <translation type="unfinished"></translation>
+        <translation>关于 UI Themer</translation>
     </message>
 </context>
 <context>
@@ -101,7 +100,7 @@
     </message>
     <message>
         <source>Apply an overlay on icons not available in the theme.</source>
-        <translation>在主题中尚未适配的图标应用蒙版</translation>
+        <translation>为主题中尚未适配的图标应用蒙版</translation>
     </message>
     <message>
         <source>Apply fonts</source>
@@ -148,7 +147,7 @@
     <name>DensityPage</name>
     <message>
         <source>Usage guide</source>
-        <translation>使用指南</translation>
+        <translation>使用指导</translation>
     </message>
     <message>
         <source>Options</source>
@@ -203,7 +202,7 @@
     <name>GuidePage</name>
     <message>
         <source>Usage guide</source>
-        <translation>使用指</translation>
+        <translation>使用指导</translation>
     </message>
     <message>
         <source>UI Themer lets you customize icons, fonts and pixel density in Sailfish OS.</source>
@@ -327,11 +326,11 @@
     </message>
     <message>
         <source>Backup &amp; restore icons</source>
-        <translation type="unfinished"></translation>
+        <translation>备份及恢复图标</translation>
     </message>
     <message>
         <source>If you are working on a theme or you want to have the default icons in a safe place, you can backup them. A compressed archive will be created and saved into &lt;i&gt;/home/nemo/&lt;/i&gt;. You can also restore a previous backup.</source>
-        <translation type="unfinished"></translation>
+        <translation>如果你正在开发新的主题或是想要将默认图标储存到安全位置，你可以备份它们。将会创建一个压缩文档并储存到&lt;i&gt;home/nemo/&lt;/i&gt;，你也可以恢复之前的备份。</translation>
     </message>
 </context>
 <context>
@@ -384,7 +383,7 @@
     </message>
     <message>
         <source>Usage guide</source>
-        <translation>使用指南</translation>
+        <translation>使用指导</translation>
     </message>
     <message>
         <source>Recovery</source>
@@ -528,75 +527,75 @@
     </message>
     <message>
         <source>UI mode</source>
-        <translation type="unfinished"></translation>
+        <translation>UI 模式</translation>
     </message>
     <message>
         <source>easy</source>
-        <translation type="unfinished"></translation>
+        <translation>简易</translation>
     </message>
     <message>
         <source>full</source>
-        <translation type="unfinished"></translation>
+        <translation>完整</translation>
     </message>
     <message>
         <source>Backup icons</source>
-        <translation type="unfinished"></translation>
+        <translation>备份图标</translation>
     </message>
     <message>
         <source>Backup</source>
-        <translation type="unfinished"></translation>
+        <translation>备份</translation>
     </message>
     <message>
         <source>Backuping</source>
-        <translation type="unfinished"></translation>
+        <translation>备份中</translation>
     </message>
     <message>
         <source>Restore icons</source>
-        <translation type="unfinished"></translation>
+        <translation>恢复</translation>
     </message>
     <message>
         <source>File</source>
-        <translation type="unfinished"></translation>
+        <translation>文件</translation>
     </message>
     <message>
         <source>Select backup</source>
-        <translation type="unfinished"></translation>
+        <translation>选择备份</translation>
     </message>
     <message>
         <source>Restoring backup</source>
-        <translation type="unfinished"></translation>
+        <translation>正在恢复备份</translation>
     </message>
     <message>
         <source>From here you can backup all the default icons into a compressed archive. The archive will be saved into &lt;i&gt;/home/nemo/&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>在此处，你可以将所有的默认图标备份到一个压缩文档。压缩文档会保存到&lt;i&gt;/home/nemo/&lt;/i&gt;。</translation>
     </message>
     <message>
         <source>Select and restore an archive previously saved via UI Themer. You will still need to perform a &lt;i&gt;Restore theme&lt;/i&gt; from the &lt;i&gt;Themes&lt;/i&gt; page in order to restore the icons in your system.</source>
-        <translation type="unfinished"></translation>
+        <translation>选择并恢复一个之前使用UI Themer储存的备份。你还需要从&lt;i&gt;主题&lt;/i&gt;页执行&lt;i&gt;恢复主题&lt;/i&gt;操作以恢复到系统默认图标。</translation>
     </message>
     <message>
         <source>About UI Themer</source>
-        <translation type="unfinished"></translation>
+        <translation>关于 UI Themer</translation>
     </message>
     <message>
         <source>See less options and have an hassle-free experience.</source>
-        <translation type="unfinished"></translation>
+        <translation>显示更少的选项以拥有舒适体验</translation>
     </message>
     <message>
         <source>Get full control of the app settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>显示全部软件设置选项</translation>
     </message>
     <message>
         <source>Enable advanced users and theme developers-tailored options.</source>
-        <translation type="unfinished"></translation>
+        <translation>启用高级用户及开发者调试选项</translation>
     </message>
     <message>
         <source>advanced</source>
-        <translation type="unfinished"></translation>
+        <translation>高级选项</translation>
     </message>
     <message>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>无</translation>
     </message>
 </context>
 <context>
@@ -778,7 +777,7 @@
     </message>
     <message>
         <source>Usage guide</source>
-        <translation>使用指南</translation>
+        <translation>使用指导</translation>
     </message>
     <message>
         <source>Dependencies</source>
@@ -810,7 +809,7 @@
     </message>
     <message>
         <source>UI Themer DOES NOT send any data. Some essential info (e.g. the current theme) are collected and stored EXCLUSIVELY locally and used only for the proper functioning of the app (e.g. to display the current theme in the app).</source>
-        <translation>UI Themer不会发送任何数据。一些基本信息 (例如当前主题) 在本地收集和存储, 仅用于应用程序的正常运行 (例如, 在应用程序中显示当前主题)。</translation>
+        <translation>UI Themer不会发送任何数据。一些基本信息 (例如当前主题) 仅会收集和存储在本地, 以用于应用程序的正常运行 (例如, 在应用程序中显示当前主题)。</translation>
     </message>
 </context>
 </TS>
