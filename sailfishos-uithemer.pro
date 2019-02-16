@@ -32,9 +32,11 @@ OTHER_FILES += \
     qml/components/Notification.qml \
     qml/components/themepacklistview/ThemePackItem.qml \
     qml/cover/CoverPage.qml \
+    qml/cover/CoverConfirm.qml \
     qml/cover/CoverActionList1.qml \
     qml/cover/CoverActionList2.qml \
     qml/cover/CoverLabel.qml \
+    qml/cover/FontPreviewCover.qml \
     qml/pages/ConfirmPage.qml \
     qml/pages/DensityPage.qml \
     qml/pages/MainPage.qml \

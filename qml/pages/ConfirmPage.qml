@@ -21,6 +21,7 @@ Dialog
     property alias iconOverlaySelected: itsiconoverlay.checked
     property alias fontsSelected: itsfonts.checked
     property string selectedFont: ""
+    property string confirmheadername: "%1".arg(packDisplayName)
 
     id: dlgconfirm
     focus: true
@@ -30,6 +31,12 @@ Dialog
     showNavigationIndicator: !settings.isRunning
 
     BusyState { id: busyindicator }
+
+    onStatusChanged: {
+        if (status === PageStatus.Active) {
+            app.coverMode = "confirmDialog"
+        }
+    }
 
     onAccepted: {
         settings.homeRefresh = tshomerefresh.checked;
@@ -110,7 +117,7 @@ Dialog
 
             DialogHeader { id: header; cancelText: qsTr("Cancel"); acceptText: qsTr("Apply") }
 
-            ConfirmHeader { text: "%1".arg(packDisplayName) }
+            ConfirmHeader { text: dlgconfirm.confirmheadername }
 
             SectionHeader {
                 text: qsTr("Icons")

@@ -38,6 +38,12 @@ Page
                 onUninstallCompleted: notifyDone()
             }
 
+    onStatusChanged: {
+        if (status === PageStatus.Active) {
+            app.coverMode = "mainPage"
+        }
+    }
+
     Timer {
         id: timer
         interval: 10000

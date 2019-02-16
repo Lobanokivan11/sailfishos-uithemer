@@ -7,7 +7,7 @@ Item {
     property alias label: label.text
 
     width: parent.width
-    height: rect.height
+    height: label.height + Theme.paddingMedium
 
     Image {
         id: icon
@@ -15,8 +15,8 @@ Item {
             left: parent.left
             verticalCenter: parent.verticalCenter
         }
-        width: Theme.iconSizeSmallPlus
-        height: Theme.iconSizeSmallPlus
+        width: Theme.iconSizeMedium
+        height: Theme.iconSizeMedium
         visible: false
     }
 
@@ -26,27 +26,19 @@ Item {
         color: Theme.highlightColor
     }
 
-    Rectangle {
-        id: rect
+    Label {
+        id: label
         anchors {
             right: parent.right
             left: icon.right
             leftMargin: Theme.paddingSmall
             verticalCenter: parent.verticalCenter
         }
-        width: childrenRect.width
-        height: childrenRect.height
-        radius: Theme.paddingSmall/2
-        color: Theme.rgba(Theme.highlightBackgroundColor, 0.5)
-
-    Label {
-        id: label
         x: Theme.paddingSmall
         width: parent.width - (x * 2)
-        font.pixelSize: Theme.fontSizeSmall
+        font.pixelSize: Theme.fontSizeMedium
         color: Theme.highlightColor
         wrapMode: Text.Wrap
-    }
     }
 
 }

@@ -53,7 +53,7 @@ CoverBackground
         RotationAnimation on rotation {
             duration: 2000;
             loops: Animation.Infinite;
-            running : true
+            running : settings.isRunning ? true : false
             from: 0; to: 360
         }
     }
@@ -64,10 +64,10 @@ CoverBackground
         spacing: Theme.paddingSmall
         anchors.left: parent.left
         anchors.right: parent.right
-        anchors.leftMargin: Theme.paddingMedium
-        anchors.rightMargin: Theme.paddingMedium
+        anchors.leftMargin: Theme.paddingSmall
+        anchors.rightMargin: Theme.paddingSmall
         anchors.top: parent.top
-        anchors.topMargin: parent.height/7
+        anchors.topMargin: Theme.paddingLarge
         anchors.verticalCenter: parent.verticalCenter
         visible: (settings.coverActiveTheme && !settings.isRunning)
         CoverLabel {

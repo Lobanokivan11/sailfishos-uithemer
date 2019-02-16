@@ -6,6 +6,9 @@ import "common"
 
 ApplicationWindow
 {
+    id: app
+    property string coverMode
+
     Component {
         id: mainpage
         MainPage {}
@@ -20,7 +23,12 @@ ApplicationWindow
     property bool vIM: themepack.hasImageMagickInstalled()
 
     initialPage: (settings.wizardDone && vIM ) ? mainpage : welcomepage
-    cover: Qt.resolvedUrl("cover/CoverPage.qml")
+    cover: switch (app.coverMode) {
+           case "confirmDialog":
+               return Qt.resolvedUrl("cover/CoverConfirm.qml");
+           default:
+               return Qt.resolvedUrl("cover/CoverPage.qml")
+           }
 
     allowedOrientations: defaultAllowedOrientations
     _defaultPageOrientations: defaultAllowedOrientations
