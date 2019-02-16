@@ -49,13 +49,14 @@ CoverBackground
             anchors.top: parent.top
             anchors.topMargin: Theme.paddingSmall
             x: Theme.paddingLarge
-            font.pixelSize: Theme.fontSizeLarge
+            font.pixelSize: Theme.fontSizeMedium
             truncationMode: TruncationMode.Fade
             text: pageStack.currentPage.confirmheadername
         }
 
         Image {
             id: coverimg
+            opacity: 0.8
             fillMode: Image.PreserveAspectFit
             anchors.horizontalCenter: parent.horizontalCenter
             anchors.verticalCenter: parent.verticalCenter
