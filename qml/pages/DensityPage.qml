@@ -281,6 +281,11 @@ Page
                 LabelText {
                     text: "<br>" + qsTr("Remember to restart the homescreen (from the <i>Options</i> page) right after you have changed the settings in this page.")
                 }
+
+                LabelText {
+                    text: "<br>" + qsTr("If you have an Xperia XA2, a full device restart may be needed may be needed to apply your settings.")
+                }
+
             }
             } // grid
 

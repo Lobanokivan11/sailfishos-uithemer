@@ -197,6 +197,10 @@
         <source>Remember to restart the homescreen (from the &lt;i&gt;Options&lt;/i&gt; page) right after you have changed the settings in this page.</source>
         <translation>当你更改此页的设置之后，记得立即重启主屏幕（从&lt;i&gt;操作&lt;/i&gt;页）</translation>
     </message>
+    <message>
+        <source>If you have an Xperia XA2, a full device restart may be needed may be needed to apply your settings.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>GuidePage</name>
@@ -331,6 +335,10 @@
     <message>
         <source>If you are working on a theme or you want to have the default icons in a safe place, you can backup them. A compressed archive will be created and saved into &lt;i&gt;/home/nemo/&lt;/i&gt;. You can also restore a previous backup.</source>
         <translation>如果你正在开发新的主题或是想要将默认图标储存到安全位置，可以备份它们。这将会创建一个压缩文档并储存到&lt;i&gt;home/nemo/&lt;/i&gt;，你也可以恢复之前的备份。</translation>
+    </message>
+    <message>
+        <source>If you have an Xperia XA2, a full device restart may be needed may be needed to apply your settings.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -666,6 +674,10 @@
     <message>
         <source>After confirming, your device will restart. Your currently opened apps will be closed.</source>
         <translation>确认之后，你的设备将会重启。你目前打开的应用将会关闭。</translation>
+    </message>
+    <message>
+        <source>If you have an Xperia XA2, a full device restart may be needed may be needed to apply your settings.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

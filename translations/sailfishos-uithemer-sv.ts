@@ -198,6 +198,10 @@ Tack till Dax89, för hjälp med C++ och QML-kod, den här appen hade inte funni
         <source>Remember to restart the homescreen (from the &lt;i&gt;Options&lt;/i&gt; page) right after you have changed the settings in this page.</source>
         <translation>Kom ihåg att starta om hemskärmen (från &lt;i&gt;Alternativ&lt;/i&gt;-menyn), direkt efter att du har ändrat inställningarna på denna sida.</translation>
     </message>
+    <message>
+        <source>If you have an Xperia XA2, a full device restart may be needed may be needed to apply your settings.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>GuidePage</name>
@@ -332,6 +336,10 @@ Tack till Dax89, för hjälp med C++ och QML-kod, den här appen hade inte funni
     <message>
         <source>If you are working on a theme or you want to have the default icons in a safe place, you can backup them. A compressed archive will be created and saved into &lt;i&gt;/home/nemo/&lt;/i&gt;. You can also restore a previous backup.</source>
         <translation>Om du arbetar på ett tema och vill ha standardikonerna på en säker plats, kan du säkerhetskopiera dem. Ett komprimerat arkiv skapas och sparas i &lt;i&gt;/home/nemo/&lt;/i&gt;. Du kan också återställa en tidigare säkerhetskopia.</translation>
+    </message>
+    <message>
+        <source>If you have an Xperia XA2, a full device restart may be needed may be needed to apply your settings.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -667,6 +675,10 @@ Tack till Dax89, för hjälp med C++ och QML-kod, den här appen hade inte funni
     <message>
         <source>After confirming, your device will restart. Your currently opened apps will be closed.</source>
         <translation>Efter bekräftelse kommer din enhet att startas om. Alla öppna appar kommer att stängas.</translation>
+    </message>
+    <message>
+        <source>If you have an Xperia XA2, a full device restart may be needed may be needed to apply your settings.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

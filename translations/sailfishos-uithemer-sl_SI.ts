@@ -197,6 +197,10 @@
         <source>Remember to restart the homescreen (from the &lt;i&gt;Options&lt;/i&gt; page) right after you have changed the settings in this page.</source>
         <translation>Ne pozabite na ponovni zagon domačega zaslona (iz menija  &lt;i&gt;Možnosti&lt;/i&gt;) takoj, ko spremenite nastavitve na tej strani.</translation>
     </message>
+    <message>
+        <source>If you have an Xperia XA2, a full device restart may be needed may be needed to apply your settings.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>GuidePage</name>
@@ -331,6 +335,10 @@
     <message>
         <source>If you are working on a theme or you want to have the default icons in a safe place, you can backup them. A compressed archive will be created and saved into &lt;i&gt;/home/nemo/&lt;/i&gt;. You can also restore a previous backup.</source>
         <translation>Če ustvarjate novo temo ali pa le želite imeti shranjene privzete ikone na varnem mestu, ustvarite varnostno kopijo. Kompresirana datoteka se bo ustvarila v &lt;i&gt;/home/nemo/&lt;/i&gt;. Prav tako lahko obnovite datoteke iz obstoječe varnostne kopije.</translation>
+    </message>
+    <message>
+        <source>If you have an Xperia XA2, a full device restart may be needed may be needed to apply your settings.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -666,6 +674,10 @@
     <message>
         <source>After confirming, your device will restart. Your currently opened apps will be closed.</source>
         <translation>Po potrditvi se bo vaša naprava samodejno ponovno zagnala. Vse vaše trenutno zagnane aplikacije se bodo zaprle.</translation>
+    </message>
+    <message>
+        <source>If you have an Xperia XA2, a full device restart may be needed may be needed to apply your settings.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

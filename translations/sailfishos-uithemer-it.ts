@@ -197,6 +197,10 @@
         <source>Remember to restart the homescreen (from the &lt;i&gt;Options&lt;/i&gt; page) right after you have changed the settings in this page.</source>
         <translation>Ricorda di riavviare la schermata home (dalla pagina &lt;i&gt;Opzioni&lt;/i&gt;) subito dopo aver cambiato i settaggi in questa pagina.</translation>
     </message>
+    <message>
+        <source>If you have an Xperia XA2, a full device restart may be needed may be needed to apply your settings.</source>
+        <translation>Se hai un Xperia XA2, un riavvio completo del dispositivo potrebbe essere necessario per applicare le impostazioni.</translation>
+    </message>
 </context>
 <context>
     <name>GuidePage</name>
@@ -331,6 +335,10 @@
     <message>
         <source>If you are working on a theme or you want to have the default icons in a safe place, you can backup them. A compressed archive will be created and saved into &lt;i&gt;/home/nemo/&lt;/i&gt;. You can also restore a previous backup.</source>
         <translation>Se stai lavorando ad un tema o vuoi tenere le icone predefinite in un luogo sicuro, puoi effettuare un backup. Un archivio compresso sarà creato e salvato in &lt;i&gt;/home/nemo/&lt;/i&gt;. Puoi anche ripristinare un backup precedente.</translation>
+    </message>
+    <message>
+        <source>If you have an Xperia XA2, a full device restart may be needed may be needed to apply your settings.</source>
+        <translation>Se hai un Xperia XA2, un riavvio completo del dispositivo potrebbe essere necessario per applicare le impostazioni.</translation>
     </message>
 </context>
 <context>
@@ -666,6 +674,10 @@
     <message>
         <source>After confirming, your device will restart. Your currently opened apps will be closed.</source>
         <translation>Dopo la conferma, il tuo dispositivo si riavvierà. Le app aperte verranno chiuse.</translation>
+    </message>
+    <message>
+        <source>If you have an Xperia XA2, a full device restart may be needed may be needed to apply your settings.</source>
+        <translation>Se hai un Xperia XA2, un riavvio completo del dispositivo potrebbe essere necessario per applicare le impostazioni.</translation>
     </message>
 </context>
 <context>

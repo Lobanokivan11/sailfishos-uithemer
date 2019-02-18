@@ -148,6 +148,10 @@ Dialog
                 text: "<br>" + qsTr("After confirming, your device will restart. Your currently opened apps will be closed.")
             }
 
+            LabelText {
+                text: "<br>" + qsTr("If you have an Xperia XA2, a full device restart may be needed may be needed to apply your settings.")
+            }
+
             Item {
                 width: parent.width
                 height: Theme.paddingLarge

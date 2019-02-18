@@ -135,6 +135,10 @@ Page
                 visible: settings.showDensity && settings.guimode !== 0
                 text: qsTr("An homescreen restart may be needed to apply your settings. You can do that from the <i>Options</i> page.")
             }
+            LabelText {
+                visible: settings.showDensity && settings.guimode !== 0
+                text: "<br>" + qsTr("If you have an Xperia XA2, a full device restart may be needed may be needed to apply your settings.")
+            }
 
             SectionHeader { text: qsTr("One-click restore") }
 
