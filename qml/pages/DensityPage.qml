@@ -13,7 +13,13 @@ Page
 
 
     RemorsePopup { id: remorsepopup }
-    ThemePack { id: themepack; onServiceChanged: itsdensityenabled.busy = false; }
+    ThemePack {
+        id: themepack;
+        onServiceChanged: {
+            sladpi.value = themepack.droidDPI;
+            itsdensityenabled.busy = false;
+        }
+    }
     BusyState { id: busyindicator }
     Notification { id: notification }
 

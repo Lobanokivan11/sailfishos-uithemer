@@ -5,7 +5,7 @@
     <name>AboutPage</name>
     <message>
         <source>UI Themer lets you customize icons, fonts and pixel density in Sailfish OS.</source>
-        <translation>UI Themer使你能够定制旗鱼系统的图标、字体和像素密度。</translation>
+        <translation>UI Themer 让你定制旗鱼系统的图标、字体和像素密度。</translation>
     </message>
     <message>
         <source>Sources</source>
@@ -13,7 +13,7 @@
     </message>
     <message>
         <source>If you want to create a theme compatible with UI Themer, please read the documentation.</source>
-        <translation>如果你想制作一个兼容UI Themer的主题，请阅读参考资料。</translation>
+        <translation>如果你想制作一个兼容 UI Themer 的主题，请阅读参考资料。</translation>
     </message>
     <message>
         <source>Documentation</source>
@@ -53,23 +53,23 @@
     </message>
     <message>
         <source>Released under the &lt;a href=&apos;https://www.gnu.org/licenses/gpl-3.0&apos;&gt;GNU GPLv3&lt;/a&gt; license.</source>
-        <translation>在 &lt;a href=&apos;https://www.gnu.org/licenses/gpl-3.0&apos;&gt;GNU GPLv3&lt;/a&gt; 许可下发布。</translation>
+        <translation>在 &lt;a href=&apos;https://www.gnu.org/licenses/gpl-3.0&apos;&gt;GNU GPLv3&lt;/a&gt; 许可协议下发布。</translation>
     </message>
     <message>
         <source>Part of this app is based on &lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon pack support GUI&lt;/a&gt; by RikudouSennin.</source>
-        <translation>应用部分基于RikudouSennin开发的&lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;GUI图标包支持&lt;/a&gt;。</translation>
+        <translation>此软件部分基于 RikudouSennin 开发的&lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon pack support GUI&lt;/a&gt;。</translation>
     </message>
     <message>
         <source>App icon by</source>
-        <translation>图标制作者</translation>
+        <translation>图标制作者为</translation>
     </message>
     <message>
         <source>Thanks to Dax89 for helping with C++ and QML code, this app would not exist without him.</source>
-        <translation>感谢Dax89 在C++和 QML模式上对我的帮助，如果没有他就不会有此应用。</translation>
+        <translation>感谢 Dax89  在C++和 QML模式上对我的帮助，如果没有他就不会有此软件。</translation>
     </message>
     <message>
         <source>Thanks to Eugenio_g7 for helping with the &lt;i&gt;One-click restore&lt;/i&gt; service.</source>
-        <translation>感谢Eugenio_g7在&lt;i&gt;一键恢复&lt;/i&gt;功能上对我的帮助。</translation>
+        <translation>感谢 Eugenio_g7 在&lt;i&gt;一键恢复&lt;/i&gt;功能上对我的帮助。</translation>
     </message>
     <message>
         <source>Thanks to all the testers for being brave and patient.</source>
@@ -77,7 +77,7 @@
     </message>
     <message>
         <source>Keyboard navigation based on &lt;a href=&apos;https://github.com/Wunderfitz/harbour-piepmatz&apos;&gt;Piepmatz&lt;/a&gt; by Sebastian Wolf.</source>
-        <translation>机械键盘导航基于Sebastian Wolf开发的 &lt;a href=&apos;https://github.com/Wunderfitz/harbour-piepmatz&apos;&gt;Piepmatz&lt;/a&gt; 。</translation>
+        <translation>机械键盘导航功能受到 Sebastian Wolf 开发的 &lt;a href=&apos;https://github.com/Wunderfitz/harbour-piepmatz&apos;&gt;Piepmatz&lt;/a&gt; 启发。</translation>
     </message>
     <message>
         <source>About UI Themer</source>
@@ -112,7 +112,7 @@
     </message>
     <message>
         <source>Remember to restart the homescreen right after.</source>
-        <translation>记住之后立即重启主屏幕。</translation>
+        <translation>记住之后立即重启主屏幕</translation>
     </message>
     <message>
         <source>Restart homescreen</source>
@@ -136,11 +136,11 @@
     </message>
     <message>
         <source>Choose the main font weight for the UI.</source>
-        <translation>为UI选择主要的字体粗细</translation>
+        <translation>为 UI 选择主要字体粗细</translation>
     </message>
     <message>
         <source>After confirming, your device will restart. Your currently opened apps will be closed.</source>
-        <translation>确认之后，你的设备将会重启。你目前打开的应用将会关闭。</translation>
+        <translation>确认之后，你的设备将会重启，目前打开的软件将被关闭。</translation>
     </message>
 </context>
 <context>
@@ -171,7 +171,7 @@
     </message>
     <message>
         <source>Change the display pixel ratio. To a smaller value corresponds an higher density.</source>
-        <translation>改变显示像素比例，到更小的值、更高的密度。</translation>
+        <translation>更改显示像素比例。值越小，密度越大。</translation>
     </message>
     <message>
         <source>Android DPI</source>
@@ -183,7 +183,7 @@
     </message>
     <message>
         <source>Change the Android DPI value. To a smaller value corresponds an higher density.</source>
-        <translation>改变显示像素比例，到更小的值、更高的密度。</translation>
+        <translation>更改 Android DPI 值。值越小，密度越大。</translation>
     </message>
     <message>
         <source>Icon size</source>
@@ -191,7 +191,7 @@
     </message>
     <message>
         <source>Change the size of UI icons. To a greater value corresponds an huger size.</source>
-        <translation>改变UI图标的尺寸到一个更高的值、更大的尺寸。</translation>
+        <translation>更改图标大小。值越大图标也越大。</translation>
     </message>
     <message>
         <source>Remember to restart the homescreen (from the &lt;i&gt;Options&lt;/i&gt; page) right after you have changed the settings in this page.</source>
@@ -222,7 +222,7 @@
     </message>
     <message>
         <source>By increasing the display density, you can display more content on your screen - or less, if you prefer to have bigger UI elements. Android apps use a different setting than Sailfish OS ones. To revert to the default settings, you can use the restore options from the pulley menu.</source>
-        <translation>通过增加显示密度，你可以在屏幕显示更多的内容。如果你想要更大的UI元素，也可以显示更少的内容。Android应用和旗鱼应用使用不同的设置。如果想要恢复默认设置，你可以从滚轮菜单下选择恢复操作。</translation>
+        <translation>通过增加显示密度，你可以在屏幕显示更多的内容。如果你喜欢更大的UI 元素，也可以在你的屏幕上显示更少的内容。Android 软件和旗鱼系统软件使用不同的设置。如果想要恢复默认设置，你可以从滚轮菜单下选择恢复操作。</translation>
     </message>
     <message>
         <source>Icon updater</source>
@@ -230,19 +230,19 @@
     </message>
     <message>
         <source>Here you can find advanced settings for UI Themer, e.g. reinstall default icons or fonts if you forget to revert to default theme before a system update or if the applying fails.</source>
-        <translation> 如果你在系统更新前忘记恢复默认的主题或应用失败，你可以在此找到UI Themer的高级设置，例如重装默认的图标或字体。</translation>
+        <translation> 如果你在系统更新前忘记恢复默认的主题或应用主题失败，你可以在此处找到UI Themer 高级设置，例如重新应用默认的图标或字体。</translation>
     </message>
     <message>
         <source>Further help</source>
-        <translation>协助</translation>
+        <translation>更多帮助</translation>
     </message>
     <message>
         <source>If you still can&apos;t get the help you need, you can open an issue on &lt;a href=&apos;https://github.com/fravaccaro/sailfishos-uithemer/issues&apos;&gt;GitHub&lt;/a&gt;.</source>
-        <translation>如果你仍然不能找到你需要的帮助，可以在&lt;a href=&apos;https://github.com/fravaccaro/sailfishos-uithemer/issues&apos;&gt;GitHub&lt;/a&gt;报告一个问题。</translation>
+        <translation>如果仍然不能找到你需要的帮助，可以在&lt;a href=&apos;https://github.com/fravaccaro/sailfishos-uithemer/issues&apos;&gt;GitHub&lt;/a&gt;提问。</translation>
     </message>
     <message>
         <source>One-click restore</source>
-        <translation>一键式恢复</translation>
+        <translation>一键恢复</translation>
     </message>
     <message>
         <source>Recovery</source>
@@ -254,11 +254,11 @@
     </message>
     <message>
         <source>If anything goes wrong or you want to manage all the options via terminal, you can recall the CLI tool by typing &lt;b&gt;themepacksupport&lt;/b&gt; as root.</source>
-        <translation>如果有什么地方出现问题或你想通过terminal完成所有的操作，可以在root状态下通过输入&lt;b&gt;themepacksupport&lt;/b&gt;检索CLI 工具</translation>
+        <translation>如果有什么地方出现问题或你想通过 terminal 进行所有的操作，可以在root状态下通过输入&lt;b&gt;themepacksupport&lt;/b&gt;调用CLI工具。</translation>
     </message>
     <message>
         <source>Remember to unapply themes and display density customizations before updating your system. In case you forgot, you may need to use the options provided in the &lt;i&gt;Recovery&lt;/i&gt; page or uninstall and reinstall Theme pack support e UI Themer.</source>
-        <translation>记住在系统更新之前取消应用主题和显示密度的个性化定制。万一你忘记了，可能需要用到&lt;i&gt;恢复&lt;/i&gt;页面提供的操作或卸载重装主题支持甚至 UI Themer。</translation>
+        <translation>记住在系统更新之前取消应用主题和显示密度个性化定制。万一你忘记了，可能需要用到&lt;i&gt;恢复&lt;/i&gt;页面提供的操作或卸载重装Theme Pack support 甚至 UI Themer。</translation>
     </message>
     <message>
         <source>UI Themer customizations must be reverted before performing a system update. With &lt;i&gt;One-click restore&lt;/i&gt; you can automate this process and restore icons, fonts and display density settings with just one click.</source>
@@ -270,19 +270,19 @@
     </message>
     <message>
         <source>Press &lt;b&gt;A&lt;/b&gt; for the about page.</source>
-        <translation>按&lt;b&gt;A&lt;/b&gt; 打开关于页面、</translation>
+        <translation>按&lt;b&gt;A&lt;/b&gt; 打开关于页面。</translation>
     </message>
     <message>
         <source>You can quickly restart the homescreen after you applied a setting by pressing &lt;b&gt;R&lt;/b&gt;.</source>
-        <translation>当你通过按&lt;b&gt;R&lt;/b&gt;以应用设置之后，你可以快速重启主屏幕。</translation>
+        <translation>通过按&lt;b&gt;R&lt;/b&gt;以应用设置之后，你可以快速重启主屏幕。</translation>
     </message>
     <message>
         <source>You can cancel a countdown or a dialog by pressing &lt;b&gt;C&lt;/b&gt;.</source>
-        <translation>您可以通过按&lt;b&gt;C&lt;/b&gt; 取消倒计时或对话框。</translation>
+        <translation>你可以通过按&lt;b&gt;C&lt;/b&gt; 取消倒计时或对话框。</translation>
     </message>
     <message>
         <source>Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. &lt;i&gt;Icon updater&lt;/i&gt; will automate this process, enabling automatic update of icons at a given time. You can choose between a pre-defined set of hours or a custom hour of the day.</source>
-        <translation>每次更新应用时, 你都需要重新应用主题才能恢复自定义图标。&lt;i&gt;图标更新程序&lt;/i&gt;将自动执行此过程, 从而在给定时间自动更新图标。您可以在预定的时间或一天中的自定义时间之间进行选择。</translation>
+        <translation>每次更新应用之后, 你都需要重新应用主题才能重新应用自定义图标。&lt;i&gt;图标更新程序&lt;/i&gt;将会自动执行此过程,在指定的时间自动更新图标。你可以在预先设定的时间或一天中的任意时间之间进行选择。</translation>
     </message>
     <message>
         <source>Press &lt;b&gt;G&lt;/b&gt; for the usage guide.</source>
@@ -294,11 +294,11 @@
     </message>
     <message>
         <source>An homescreen restart may be needed to apply your settings. You can do that through the dialog or from the &lt;i&gt;Options&lt;/i&gt; page.</source>
-        <translation>如果要应用你的设置，或许需要一次主屏幕重启。你可以通过对话或&lt;i&gt;操作&lt;/i&gt;页达成此操作。</translation>
+        <translation>如果要应用你的设置，或许需要一次主屏幕重启。你可以通过对话或&lt;i&gt;操作&lt;/i&gt;页完成此项操作。</translation>
     </message>
     <message>
         <source>An homescreen restart may be needed to apply your settings. You can do that from the &lt;i&gt;Options&lt;/i&gt; page.</source>
-        <translation>如果要应用你的设置，或许需要一次主屏幕重启。你可以通过&lt;i&gt;操作&lt;/i&gt;页达成此操作。</translation>
+        <translation>如果要应用你的设置，或许需要一次主屏幕重启。你可以通过&lt;i&gt;操作&lt;/i&gt;页完成此项操作。</translation>
     </message>
     <message>
         <source>Press &lt;b&gt;O&lt;/b&gt; for the options page.</source>
@@ -306,15 +306,15 @@
     </message>
     <message>
         <source>UI Themer can be navigated via a physical keyboard, using convenient shortcuts.</source>
-        <translation>UI Themer可以通过机械键盘导航, 使用方便的快捷方式。</translation>
+        <translation>UI Themer 可以通过机械键盘导航, 使用更为便利的快捷方式。</translation>
     </message>
     <message>
         <source>Press &lt;b&gt;B&lt;/b&gt; to go back to the previous page.</source>
-        <translation>按&lt;b&gt;B&lt;/b&gt; 返回先前的页面。</translation>
+        <translation>按&lt;b&gt;B&lt;/b&gt; 返回之前的页面。</translation>
     </message>
     <message>
         <source>If you have Storeman installed, you can quickly look for compatible themes by using the &lt;i&gt;Download&lt;/i&gt; icon in the main page.</source>
-        <translation>如果你已安装Storeman, 则可以使用主页的&lt;i&gt;下载&lt;/i&gt;图标快速寻找兼容的主题。</translation>
+        <translation>如果你已安装 Storeman, 则可以使用主页的&lt;i&gt;下载&lt;/i&gt;图标快速查找兼容的主题。</translation>
     </message>
     <message>
         <source>Press &lt;b&gt;H&lt;/b&gt; for the home page.</source>
@@ -330,7 +330,7 @@
     </message>
     <message>
         <source>If you are working on a theme or you want to have the default icons in a safe place, you can backup them. A compressed archive will be created and saved into &lt;i&gt;/home/nemo/&lt;/i&gt;. You can also restore a previous backup.</source>
-        <translation>如果你正在开发新的主题或是想要将默认图标储存到安全位置，你可以备份它们。将会创建一个压缩文档并储存到&lt;i&gt;home/nemo/&lt;/i&gt;，你也可以恢复之前的备份。</translation>
+        <translation>如果你正在开发新的主题或是想要将默认图标储存到安全位置，可以备份它们。这将会创建一个压缩文档并储存到&lt;i&gt;home/nemo/&lt;/i&gt;，你也可以恢复之前的备份。</translation>
     </message>
 </context>
 <context>
@@ -341,7 +341,7 @@
     </message>
     <message>
         <source>Uninstalling %1</source>
-        <translation>卸载 %1</translation>
+        <translation>正在卸载 %1</translation>
     </message>
     <message>
         <source>No themes yet</source>
@@ -349,7 +349,7 @@
     </message>
     <message>
         <source>Install a compatible theme first</source>
-        <translation>首先安装一个兼容的主题</translation>
+        <translation>请先安装一个兼容的主题</translation>
     </message>
     <message>
         <source>Usage guide</source>
@@ -435,11 +435,11 @@
     </message>
     <message>
         <source>One-click restore</source>
-        <translation>一键式恢复</translation>
+        <translation>一键恢复</translation>
     </message>
     <message>
         <source>UI Themer customizations must be reverted before performing a system update. With &lt;i&gt;One-click restore&lt;/i&gt; you can automate this process and restore icons, fonts and display density settings with just one click.</source>
-        <translation>在系统更新之前必须将UI Themer 个性化定制恢复到默认。通过&lt;i&gt;一键式恢复&lt;/i&gt;你只需一点就能自动化此过程，恢复图标、字体和显示密度设置。</translation>
+        <translation>在系统更新之前必须将 UI Themer 个性化定制恢复到默认。通过&lt;i&gt;一键恢复&lt;/i&gt;你只需点击一次就能自动执行此项操作，恢复默认的图标、字体和显示密度设置。</translation>
     </message>
     <message>
         <source>Restore</source>
@@ -459,11 +459,11 @@
     </message>
     <message>
         <source>Here you can find advanced settings for UI Themer, e.g. reinstall default icons or fonts if you forget to revert to default theme before a system update or if the applying fails.</source>
-        <translation> 如果你在系统更新前忘记恢复默认的主题或应用失败，你可以在此找到UI Themer的高级设置，例如重装默认的图标或字体。</translation>
+        <translation> 如果你在系统更新前忘记恢复默认的主题或应用失败，你可以在此找到 UI Themer 的高级设置，例如重装默认的图标或字体。</translation>
     </message>
     <message>
         <source>refresh current theme</source>
-        <translation>刷新目前的主题</translation>
+        <translation>刷新当前主题</translation>
     </message>
     <message>
         <source>restart homescreen</source>
@@ -471,11 +471,11 @@
     </message>
     <message>
         <source>one-click restore</source>
-        <translation>一键式恢复</translation>
+        <translation>一键恢复</translation>
     </message>
     <message>
         <source>none</source>
-        <translation>无</translation>
+        <translation>无操作</translation>
     </message>
     <message>
         <source>Second cover action</source>
@@ -503,11 +503,11 @@
     </message>
     <message>
         <source>Choose the action to be shown on the UI Themer cover, for a quick access when the app is minimized on the homescreen.</source>
-        <translation>选择显示在 UI Themer封面上的操作，当应用以最小化形式显示在主屏幕上时，你可以进行快捷操作。</translation>
+        <translation>选择显示在 UI Themer 封面上的操作，当软件以最小化形式显示在主屏幕上时，你可以进行的快捷操作。</translation>
     </message>
     <message>
         <source>Optionally, you can choose to display a second action on the cover.</source>
-        <translation>可供选择：你可以选择显示在应用封面的间接操作。</translation>
+        <translation>可供选择：你可以选择显示在软件封面的间接操作。</translation>
     </message>
     <message>
         <source>Run before system updates</source>
@@ -523,7 +523,7 @@
     </message>
     <message>
         <source>Show the current theme on the cover.</source>
-        <translation>在应用封面显示当前主题</translation>
+        <translation>在软件封面显示当前使用的主题</translation>
     </message>
     <message>
         <source>UI mode</source>
@@ -571,7 +571,7 @@
     </message>
     <message>
         <source>Select and restore an archive previously saved via UI Themer. You will still need to perform a &lt;i&gt;Restore theme&lt;/i&gt; from the &lt;i&gt;Themes&lt;/i&gt; page in order to restore the icons in your system.</source>
-        <translation>选择并恢复一个之前使用UI Themer储存的备份。你还需要从&lt;i&gt;主题&lt;/i&gt;页执行&lt;i&gt;恢复主题&lt;/i&gt;操作以恢复到系统默认图标。</translation>
+        <translation>选择并恢复一个之前使用 UI Themer 储存的备份。你还需要从&lt;i&gt;主题&lt;/i&gt;页执行&lt;i&gt;恢复主题&lt;/i&gt;操作以恢复到系统默认图标。</translation>
     </message>
     <message>
         <source>About UI Themer</source>
@@ -606,7 +606,7 @@
     </message>
     <message>
         <source>If any error occurs during themes applying/restoring, you can end up with messed up icons. From here, you can reinstall default Jolla app icons while, for thirdy party apps, you may need to reinstall/update apps to restore the default look.</source>
-        <translation>如果在主题应用或还原过程中发生任何错误, 则最终可能会出现混乱的图标。你可以在此重新安装默认的 jolla 应用程序图标, 而对于第三方应用, 您可能需要重新安装/更新应用程序以恢复默认外观。</translation>
+        <translation>如果在应用或恢复主题过程中发生任何错误, 可能会发生图标混乱。你可以在此重新应用默认的 jolla 软件图标, 对于第三方应用, 你可能需要重新安装或更新软件以恢复默认图标</translation>
     </message>
     <message>
         <source>Reinstall icons</source>
@@ -614,7 +614,7 @@
     </message>
     <message>
         <source>Reinstall default fonts, if font applying/restoring fails.</source>
-        <translation>如果字体应用或恢复失败，重装默认的字体。</translation>
+        <translation>如果应用或恢复字体失败，请重装默认的字体。</translation>
     </message>
     <message>
         <source>Reinstall fonts</source>
@@ -703,7 +703,7 @@
     <name>ThemePackItem</name>
     <message>
         <source>Uninstall</source>
-        <translation>解除安装</translation>
+        <translation>卸载</translation>
     </message>
     <message>
         <source>fonts</source>
@@ -722,7 +722,7 @@
     </message>
     <message>
         <source>Request a new language or contribute to existing languages on the Transifex project page.</source>
-        <translation> 在Transifex项目页请求新的语言或翻译现有语言。</translation>
+        <translation> 在 Transifex 项目页请求新的语言或翻译现有语言。</translation>
     </message>
     <message>
         <source>Transifex</source>
@@ -733,15 +733,15 @@
     <name>WelcomePage</name>
     <message>
         <source>Welcome to UI Themer</source>
-        <translation>欢迎来到UI Theme</translation>
+        <translation>欢迎使用 UI Theme</translation>
     </message>
     <message>
         <source>Install dependencies</source>
-        <translation>安装附属应用</translation>
+        <translation>安装附属软件</translation>
     </message>
     <message>
         <source>I have already installed the dependencies</source>
-        <translation>我已经安装附属应用</translation>
+        <translation>我已经安装附属软件</translation>
     </message>
     <message>
         <source>Donate</source>
@@ -753,11 +753,11 @@
     </message>
     <message>
         <source>Start UI Themer</source>
-        <translation>开启UI Themer</translation>
+        <translation>开启 UI Themer</translation>
     </message>
     <message>
         <source>UI Themer lets you customize icons, fonts and pixel density in Sailfish OS.</source>
-        <translation>UI Themer让你定制旗鱼系统的图标、字体和像素密度。</translation>
+        <translation>UI Themer 让你定制旗鱼系统的图标、字体和像素密度。</translation>
     </message>
     <message>
         <source>If you like my work and want to buy me a beer, feel free to do it!</source>
@@ -769,7 +769,7 @@
     </message>
     <message>
         <source>UI Themer needs some additional dependencies in order to function properly. Install them now if you haven&apos;t already.</source>
-        <translation>UI Themer需要一些附属应用以正常工作。如果你还未安装，请立刻安装。</translation>
+        <translation>UI Themer 需要一些附属软件以正常工作。如果你还未安装，请立刻安装。</translation>
     </message>
     <message>
         <source>It may take a while, do not quit.</source>
@@ -781,7 +781,7 @@
     </message>
     <message>
         <source>Dependencies</source>
-        <translation>附属应用</translation>
+        <translation>附属软件</translation>
     </message>
     <message>
         <source>ImageMagick</source>
@@ -789,7 +789,7 @@
     </message>
     <message>
         <source>ImageMagick is required for UI Themer overlays to work. Overlays need to be supported by the theme.</source>
-        <translation>如果你想让 UI Themer的图标蒙版功能正常工作，必须安装 ImageMagick。蒙版需要得到主题支持。</translation>
+        <translation>如果你想让 UI Themer 的图标蒙版功能正常工作，必须安装  ImageMagick。图标蒙版需要得到主题支持。</translation>
     </message>
     <message>
         <source>Install ImageMagick</source>
@@ -797,7 +797,7 @@
     </message>
     <message>
         <source>ImageMagick installed</source>
-        <translation>已安装ImageMagick </translation>
+        <translation>已安装 ImageMagick </translation>
     </message>
     <message>
         <source>Terms and conditions</source>
@@ -809,7 +809,7 @@
     </message>
     <message>
         <source>UI Themer DOES NOT send any data. Some essential info (e.g. the current theme) are collected and stored EXCLUSIVELY locally and used only for the proper functioning of the app (e.g. to display the current theme in the app).</source>
-        <translation>UI Themer不会发送任何数据。一些基本信息 (例如当前主题) 仅会收集和存储在本地, 以用于应用程序的正常运行 (例如, 在应用程序中显示当前主题)。</translation>
+        <translation>UI Themer 不会发送任何数据。一些基本信息 (例如当前主题) 仅会收集和存储在本地, 以用于应用程序的正常运行 (例如, 在软件显示当前主题)。</translation>
     </message>
 </context>
 </TS>

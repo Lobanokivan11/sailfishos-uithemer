@@ -11,7 +11,10 @@ ThemePack::ThemePack(QObject* parent): QObject(parent)
 
 bool ThemePack::hasAndroidSupport() const
 {
-    return this->getDroidDPI(NULL);
+    bool res = QFileInfo("/vendor/build.prop").exists() || QFileInfo("/opt/alien/system/build.prop").exists();
+
+   qDebug("%d\n", res);
+   return res;
 }
 
 bool ThemePack::hasStoremanInstalled() const
