@@ -134,6 +134,11 @@ Dialog
                 text: "<br>" + qsTr("Remember to restart the homescreen right after.")
             }
 
+            LabelText {
+                visible: themepack.hasAndroidSupport && settings.isXA2
+                text: qsTr("If you have an Xperia XA2 series device, a full restart may be needed may be needed to apply your Android settings.")
+            }
+
             TextSwitch {
                 visible: settings.guimode === 0 ? false : true
                 text: qsTr("Restart homescreen")
@@ -146,10 +151,6 @@ Dialog
             LabelText {
                 visible: settings.guimode === 0
                 text: "<br>" + qsTr("After confirming, your device will restart. Your currently opened apps will be closed.")
-            }
-
-            LabelText {
-                text: "<br>" + qsTr("If you have an Xperia XA2, a full device restart may be needed may be needed to apply your settings.")
             }
 
             Item {

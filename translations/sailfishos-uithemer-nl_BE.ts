@@ -198,7 +198,7 @@
         <translation>Vergeet niet van het startscherm te herstarten (via de pagina &lt;i&gt;Opties&lt;/i&gt;) nadat ge de instellingen op deze pagina hebt gewijzigd.</translation>
     </message>
     <message>
-        <source>If you have an Xperia XA2, a full device restart may be needed may be needed to apply your settings.</source>
+        <source>If you have an Xperia XA2 series device, a full restart may be needed may be needed to apply your Android settings.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -337,7 +337,7 @@
         <translation>Als ge aan een thema aan het werken zijt of als ge de standaardpictogrammen ergens veilig wilt opslaan, kunt ge der nen back-up van maken. Der gaat een gecomprimeerd archief worden aangemaakt in &lt;i&gt;/home/nemo/&lt;/i&gt;. Ge kunt ook ne vorigen back-up herstellen.</translation>
     </message>
     <message>
-        <source>If you have an Xperia XA2, a full device restart may be needed may be needed to apply your settings.</source>
+        <source>If you have an Xperia XA2 series device, a full restart may be needed may be needed to apply your Android settings.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -676,7 +676,7 @@
         <translation>Na bevestiging gaat het apparaat herstarten. Uw geopende apps gaan gesloten worden.</translation>
     </message>
     <message>
-        <source>If you have an Xperia XA2, a full device restart may be needed may be needed to apply your settings.</source>
+        <source>If you have an Xperia XA2 series device, a full restart may be needed may be needed to apply your Android settings.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

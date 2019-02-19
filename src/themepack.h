@@ -14,6 +14,7 @@ class ThemePack : public QObject
         explicit ThemePack(QObject* parent = 0);
 
     public slots:
+        QString readDeviceModel() const;
         bool hasAndroidSupport() const;
         bool hasStoremanInstalled() const;
         bool hasImageMagickInstalled() const;

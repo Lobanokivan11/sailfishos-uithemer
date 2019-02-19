@@ -199,7 +199,7 @@ Tack till Dax89, för hjälp med C++ och QML-kod, den här appen hade inte funni
         <translation>Kom ihåg att starta om hemskärmen (från &lt;i&gt;Alternativ&lt;/i&gt;-menyn), direkt efter att du har ändrat inställningarna på denna sida.</translation>
     </message>
     <message>
-        <source>If you have an Xperia XA2, a full device restart may be needed may be needed to apply your settings.</source>
+        <source>If you have an Xperia XA2 series device, a full restart may be needed may be needed to apply your Android settings.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -338,7 +338,7 @@ Tack till Dax89, för hjälp med C++ och QML-kod, den här appen hade inte funni
         <translation>Om du arbetar på ett tema och vill ha standardikonerna på en säker plats, kan du säkerhetskopiera dem. Ett komprimerat arkiv skapas och sparas i &lt;i&gt;/home/nemo/&lt;/i&gt;. Du kan också återställa en tidigare säkerhetskopia.</translation>
     </message>
     <message>
-        <source>If you have an Xperia XA2, a full device restart may be needed may be needed to apply your settings.</source>
+        <source>If you have an Xperia XA2 series device, a full restart may be needed may be needed to apply your Android settings.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -677,7 +677,7 @@ Tack till Dax89, för hjälp med C++ och QML-kod, den här appen hade inte funni
         <translation>Efter bekräftelse kommer din enhet att startas om. Alla öppna appar kommer att stängas.</translation>
     </message>
     <message>
-        <source>If you have an Xperia XA2, a full device restart may be needed may be needed to apply your settings.</source>
+        <source>If you have an Xperia XA2 series device, a full restart may be needed may be needed to apply your Android settings.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

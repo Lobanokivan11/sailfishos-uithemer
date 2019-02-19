@@ -198,7 +198,7 @@
         <translation>Ne pozabite na ponovni zagon domačega zaslona (iz menija  &lt;i&gt;Možnosti&lt;/i&gt;) takoj, ko spremenite nastavitve na tej strani.</translation>
     </message>
     <message>
-        <source>If you have an Xperia XA2, a full device restart may be needed may be needed to apply your settings.</source>
+        <source>If you have an Xperia XA2 series device, a full restart may be needed may be needed to apply your Android settings.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -337,7 +337,7 @@
         <translation>Če ustvarjate novo temo ali pa le želite imeti shranjene privzete ikone na varnem mestu, ustvarite varnostno kopijo. Kompresirana datoteka se bo ustvarila v &lt;i&gt;/home/nemo/&lt;/i&gt;. Prav tako lahko obnovite datoteke iz obstoječe varnostne kopije.</translation>
     </message>
     <message>
-        <source>If you have an Xperia XA2, a full device restart may be needed may be needed to apply your settings.</source>
+        <source>If you have an Xperia XA2 series device, a full restart may be needed may be needed to apply your Android settings.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -676,7 +676,7 @@
         <translation>Po potrditvi se bo vaša naprava samodejno ponovno zagnala. Vse vaše trenutno zagnane aplikacije se bodo zaprle.</translation>
     </message>
     <message>
-        <source>If you have an Xperia XA2, a full device restart may be needed may be needed to apply your settings.</source>
+        <source>If you have an Xperia XA2 series device, a full restart may be needed may be needed to apply your Android settings.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

@@ -198,8 +198,8 @@
         <translation>Ricorda di riavviare la schermata home (dalla pagina &lt;i&gt;Opzioni&lt;/i&gt;) subito dopo aver cambiato i settaggi in questa pagina.</translation>
     </message>
     <message>
-        <source>If you have an Xperia XA2, a full device restart may be needed may be needed to apply your settings.</source>
-        <translation>Se hai un Xperia XA2, un riavvio completo del dispositivo potrebbe essere necessario per applicare le impostazioni.</translation>
+        <source>If you have an Xperia XA2 series device, a full restart may be needed may be needed to apply your Android settings.</source>
+        <translation>Se hai un dispositivo della serie Xperia XA2, un riavvio completo potrebbe essere necessario per applicare le impostazioni Android.</translation>
     </message>
 </context>
 <context>
@@ -337,16 +337,12 @@
         <translation>Se stai lavorando ad un tema o vuoi tenere le icone predefinite in un luogo sicuro, puoi effettuare un backup. Un archivio compresso sarà creato e salvato in &lt;i&gt;/home/nemo/&lt;/i&gt;. Puoi anche ripristinare un backup precedente.</translation>
     </message>
     <message>
-        <source>If you have an Xperia XA2, a full device restart may be needed may be needed to apply your settings.</source>
-        <translation>Se hai un Xperia XA2, un riavvio completo del dispositivo potrebbe essere necessario per applicare le impostazioni.</translation>
+        <source>If you have an Xperia XA2 series device, a full restart may be needed may be needed to apply your Android settings.</source>
+        <translation>Se hai un dispositivo della serie Xperia XA2, un riavvio completo potrebbe essere necessario per applicare le impostazioni Android.</translation>
     </message>
 </context>
 <context>
     <name>MainPage</name>
-    <message>
-        <source>Themes</source>
-        <translation>Temi</translation>
-    </message>
     <message>
         <source>Uninstalling %1</source>
         <translation>Disinstallazione: %1</translation>
@@ -374,6 +370,10 @@
     <message>
         <source>Restore theme</source>
         <translation>Ripristina tema</translation>
+    </message>
+    <message>
+        <source>Themes</source>
+        <translation>Temi</translation>
     </message>
 </context>
 <context>
@@ -676,8 +676,8 @@
         <translation>Dopo la conferma, il tuo dispositivo si riavvierà. Le app aperte verranno chiuse.</translation>
     </message>
     <message>
-        <source>If you have an Xperia XA2, a full device restart may be needed may be needed to apply your settings.</source>
-        <translation>Se hai un Xperia XA2, un riavvio completo del dispositivo potrebbe essere necessario per applicare le impostazioni.</translation>
+        <source>If you have an Xperia XA2 series device, a full restart may be needed may be needed to apply your Android settings.</source>
+        <translation>Se hai un dispositivo della serie Xperia XA2, un riavvio completo potrebbe essere necessario per applicare le impostazioni Android.</translation>
     </message>
 </context>
 <context>

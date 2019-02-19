@@ -283,7 +283,8 @@ Page
                 }
 
                 LabelText {
-                    text: "<br>" + qsTr("If you have an Xperia XA2, a full device restart may be needed may be needed to apply your settings.")
+                    visible: themepack.hasAndroidSupport && settings.isXA2
+                    text: qsTr("If you have an Xperia XA2 series device, a full restart may be needed may be needed to apply your Android settings.")
                 }
 
             }

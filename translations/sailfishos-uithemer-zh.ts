@@ -198,7 +198,7 @@
         <translation>当你更改此页的设置之后，记得立即重启主屏幕（从&lt;i&gt;操作&lt;/i&gt;页）</translation>
     </message>
     <message>
-        <source>If you have an Xperia XA2, a full device restart may be needed may be needed to apply your settings.</source>
+        <source>If you have an Xperia XA2 series device, a full restart may be needed may be needed to apply your Android settings.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -337,7 +337,7 @@
         <translation>如果你正在开发新的主题或是想要将默认图标储存到安全位置，可以备份它们。这将会创建一个压缩文档并储存到&lt;i&gt;home/nemo/&lt;/i&gt;，你也可以恢复之前的备份。</translation>
     </message>
     <message>
-        <source>If you have an Xperia XA2, a full device restart may be needed may be needed to apply your settings.</source>
+        <source>If you have an Xperia XA2 series device, a full restart may be needed may be needed to apply your Android settings.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -676,7 +676,7 @@
         <translation>确认之后，你的设备将会重启。你目前打开的应用将会关闭。</translation>
     </message>
     <message>
-        <source>If you have an Xperia XA2, a full device restart may be needed may be needed to apply your settings.</source>
+        <source>If you have an Xperia XA2 series device, a full restart may be needed may be needed to apply your Android settings.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

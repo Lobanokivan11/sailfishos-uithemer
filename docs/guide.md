@@ -27,6 +27,8 @@ By increasing the display density, you can display more content on your screen -
 
 An homescreen restart may be needed to apply your settings. You can do that through the dialog or from the *Options* page.
 
+If you have an Xperia XA2 series device, a full restart may be needed may be needed to apply your Android settings.
+
 ## Icon updater
 
 Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. *Icon updater* will automate this process, enabling automatic update of icons at a given time. You can choose between a pre-defined set of hours or a custom hour of the day.
