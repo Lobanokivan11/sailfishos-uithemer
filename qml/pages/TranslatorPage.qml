@@ -100,7 +100,7 @@ Page
 
                 DetailItem {
                     label: "Deutsch"
-                    value: "Sailfishman" + "\n" + "mosen"
+                    value: "Sailfishman" + "\n" + "mosen" + "\n" + "Jan Heinrich"
                 }
 
                 DetailItem {

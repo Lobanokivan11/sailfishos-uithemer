@@ -57,31 +57,31 @@
     </message>
     <message>
         <source>Part of this app is based on &lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon pack support GUI&lt;/a&gt; by RikudouSennin.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ein Teil dieser App basiert auf der &lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon Pack Benutzeroberfläche-Unterstützung&lt;/a&gt; von RikudouSennin.</translation>
     </message>
     <message>
         <source>App icon by</source>
-        <translation type="unfinished"></translation>
+        <translation>App-Symbol von</translation>
     </message>
     <message>
         <source>Thanks to Dax89 for helping with C++ and QML code, this app would not exist without him.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vielen Dank an Dax89 bei der Hilfe mit C++ und QML Code. Diese App würde es ohne ihn nicht geben.</translation>
     </message>
     <message>
         <source>Thanks to Eugenio_g7 for helping with the &lt;i&gt;One-click restore&lt;/i&gt; service.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vielen Dank an Eugenio_g7 für die Hilfe mit dem &lt;i&gt;One-click restore&lt;/i&gt; Dienst.</translation>
     </message>
     <message>
         <source>Thanks to all the testers for being brave and patient.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vielen Dank an alle Tester für ihren Mut und Geduld.</translation>
     </message>
     <message>
         <source>Keyboard navigation based on &lt;a href=&apos;https://github.com/Wunderfitz/harbour-piepmatz&apos;&gt;Piepmatz&lt;/a&gt; by Sebastian Wolf.</source>
-        <translation type="unfinished"></translation>
+        <translation>Die Tastaturnavigation basiert auf &lt;a href=&apos;https://github.com/Wunderfitz/harbour-piepmatz&apos;&gt;Piepmatz&lt;/a&gt; von Sebastian Wolf.</translation>
     </message>
     <message>
         <source>About UI Themer</source>
-        <translation type="unfinished"></translation>
+        <translation>Über UI Themer </translation>
     </message>
 </context>
 <context>
@@ -136,70 +136,70 @@
     </message>
     <message>
         <source>Choose the main font weight for the UI.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wählen Sie die Hauptschriftart für die Benutzeroberfläche.</translation>
     </message>
     <message>
         <source>After confirming, your device will restart. Your currently opened apps will be closed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nach der Bestätigung wird das Gerät neu starten. Alle zurzeit geöffneten Programme werden geschlossen.</translation>
     </message>
 </context>
 <context>
     <name>DensityPage</name>
     <message>
         <source>Usage guide</source>
-        <translation type="unfinished"></translation>
+        <translation>Anleitung</translation>
     </message>
     <message>
         <source>Options</source>
-        <translation type="unfinished"></translation>
+        <translation>Optionen</translation>
     </message>
     <message>
         <source>Restore display density</source>
-        <translation type="unfinished"></translation>
+        <translation>Pixeldichte wiederherstellen</translation>
     </message>
     <message>
         <source>Display density</source>
-        <translation type="unfinished">Pixeldichte</translation>
+        <translation>Pixeldichte</translation>
     </message>
     <message>
         <source>Enable display density settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktiviere Einstellungen zur Pixeldichte </translation>
     </message>
     <message>
         <source>Device pixel ratio</source>
-        <translation type="unfinished"></translation>
+        <translation>Device Pixel Ratio (DPR)</translation>
     </message>
     <message>
         <source>Change the display pixel ratio. To a smaller value corresponds an higher density.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ändert die DPR. Ein kleinerer Wert erhöht die Pixeldichte. </translation>
     </message>
     <message>
         <source>Android DPI</source>
-        <translation type="unfinished"></translation>
+        <translation>Android DPI</translation>
     </message>
     <message>
         <source>Android DPI value</source>
-        <translation type="unfinished"></translation>
+        <translation>Android DPI Wert</translation>
     </message>
     <message>
         <source>Change the Android DPI value. To a smaller value corresponds an higher density.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ändert die DPR. Ein kleinerer Wert erhöht die Pixeldichte. </translation>
     </message>
     <message>
         <source>Icon size</source>
-        <translation type="unfinished"></translation>
+        <translation>Icongröße</translation>
     </message>
     <message>
         <source>Change the size of UI icons. To a greater value corresponds an huger size.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ändert die Größe der Icons. Ein höherer Wert erhöht die Icongröße.</translation>
     </message>
     <message>
         <source>Remember to restart the homescreen (from the &lt;i&gt;Options&lt;/i&gt; page) right after you have changed the settings in this page.</source>
-        <translation type="unfinished"></translation>
+        <translation>Denke daran den Startbildschirm ( in der &lt;i&gt;Options&lt;/i&gt; Seite), direkt nach Änderungen in diesem Einstellungsdialog, neu zu starten</translation>
     </message>
     <message>
         <source>If you have an Xperia XA2 series device, a full restart may be needed may be needed to apply your Android settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wenn du ein Gerät der Xperia XA2 Serie verwendest, musst du, um die Androideinstellungen zu übernehmen, eventuell dein Gerät neu starten.</translation>
     </message>
 </context>
 <context>
@@ -270,340 +270,340 @@
     </message>
     <message>
         <source>Keyboard shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>Tastaturkürzel</translation>
     </message>
     <message>
         <source>Press &lt;b&gt;A&lt;/b&gt; for the about page.</source>
-        <translation type="unfinished"></translation>
+        <translation>Drücken &lt;b&gt;A&lt;/b&gt; für die Info-Seite.</translation>
     </message>
     <message>
         <source>You can quickly restart the homescreen after you applied a setting by pressing &lt;b&gt;R&lt;/b&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sie können den Startbildschirm nach der Übernahme einer Einstellung schnell neu starten, indem Sie die Taste &lt;b&gt;R&lt;/b&gt; drücken.</translation>
     </message>
     <message>
         <source>You can cancel a countdown or a dialog by pressing &lt;b&gt;C&lt;/b&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>You can cancel a countdown or a dialog by pressing &lt;b&gt;C&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. &lt;i&gt;Icon updater&lt;/i&gt; will automate this process, enabling automatic update of icons at a given time. You can choose between a pre-defined set of hours or a custom hour of the day.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nach jedem App Update muss du dein gewünschtes Theme neu installieren. Der &lt;i&gt;Icon Updater&lt;/i&gt; nimmt dir diese Arbeit ab. Aktiviere dazu einfach den Updater. Wähle dazu den gewünschten Zeitraum oder lege eine eigene Uhrzeit fest. </translation>
     </message>
     <message>
         <source>Press &lt;b&gt;G&lt;/b&gt; for the usage guide.</source>
-        <translation type="unfinished"></translation>
+        <translation>Drücken Sie &lt;b&gt;G&lt;/b&gt; für die Bedienungsanleitung.</translation>
     </message>
     <message>
         <source>Press &lt;b&gt;W&lt;/b&gt; for restart the first run wizard.</source>
-        <translation type="unfinished"></translation>
+        <translation>Drücken Sie &lt;b&gt;W&lt;/b&gt;, um den Assistenten für die Ersteinrichtung neu zu starten.</translation>
     </message>
     <message>
         <source>An homescreen restart may be needed to apply your settings. You can do that through the dialog or from the &lt;i&gt;Options&lt;/i&gt; page.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ein Neustart des Startbildschirms ist nötig, um die Änderungen vollständig zu übernehmen. Die Schaltfläche dazu findest du in der&lt;i&gt;Options&lt;/i&gt; Seite.</translation>
     </message>
     <message>
         <source>An homescreen restart may be needed to apply your settings. You can do that from the &lt;i&gt;Options&lt;/i&gt; page.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ein Neustart des Startbildschirms ist nötig, um die Änderungen vollständig zu übernehmen. Die Schaltfläche dazu findest du in derOptions Seite.</translation>
     </message>
     <message>
         <source>Press &lt;b&gt;O&lt;/b&gt; for the options page.</source>
-        <translation type="unfinished"></translation>
+        <translation>Drücken Sie &lt;b&gt;O&lt;/b&gt; für die Konfigurationsseite.</translation>
     </message>
     <message>
         <source>UI Themer can be navigated via a physical keyboard, using convenient shortcuts.</source>
-        <translation type="unfinished"></translation>
+        <translation>Der UI Themer kann über eine physische Tastatur mit Hilfe von praktischen Tastenkombinationen navigiert werden.</translation>
     </message>
     <message>
         <source>Press &lt;b&gt;B&lt;/b&gt; to go back to the previous page.</source>
-        <translation type="unfinished"></translation>
+        <translation>Drücken Sie &lt;b&gt;B&lt;/b&gt; um zur vorherigen Seite zu gelangen.</translation>
     </message>
     <message>
         <source>If you have Storeman installed, you can quickly look for compatible themes by using the &lt;i&gt;Download&lt;/i&gt; icon in the main page.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wenn du Storeman installiert hast, kannst du schnell nach kompatiblen Themes schauen indem du das &lt;i&gt;Download&lt;/i&gt; Icon auf der Hauptseite verwendest.</translation>
     </message>
     <message>
         <source>Press &lt;b&gt;H&lt;/b&gt; for the home page.</source>
-        <translation type="unfinished"></translation>
+        <translation>Drücke &lt;b&gt;H&lt;/b&gt; für die Hauptseite.</translation>
     </message>
     <message>
         <source>Press &lt;b&gt;D&lt;/b&gt; for the display density page.</source>
-        <translation type="unfinished"></translation>
+        <translation>Drücke &lt;b&gt;D&lt;/b&gt; für die Pixeldichte-Seite.</translation>
     </message>
     <message>
         <source>Backup &amp; restore icons</source>
-        <translation type="unfinished"></translation>
+        <translation>Icons sichern &amp; wiederherstellen</translation>
     </message>
     <message>
         <source>If you are working on a theme or you want to have the default icons in a safe place, you can backup them. A compressed archive will be created and saved into &lt;i&gt;/home/nemo/&lt;/i&gt;. You can also restore a previous backup.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wenn du an einem Theme arbeitest oder die Standardicons an einem sicheren Platz wissen möchtest, kannst du diese sichern. Ein komprimiertes Archiv wird erstellt und nach &lt;i&gt;/home/nemo&lt;/i&gt; gesichert. Du kannst genauso ein früheres erstelltes Backup wiederherstellen.</translation>
     </message>
     <message>
         <source>If you have an Xperia XA2 series device, a full restart may be needed may be needed to apply your Android settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wenn du ein Gerät der Xperia XA2 Serie verwendest, musst du, um die Androideinstellungen zu übernehmen, eventuell dein Gerät neu starten.</translation>
     </message>
 </context>
 <context>
     <name>MainPage</name>
     <message>
-        <source>Themes</source>
-        <translation type="unfinished">Themes</translation>
-    </message>
-    <message>
         <source>Uninstalling %1</source>
-        <translation type="unfinished">%1 wird deinstalliert</translation>
+        <translation>Deinstallation von %1</translation>
     </message>
     <message>
         <source>No themes yet</source>
-        <translation type="unfinished">Keine Themes vorhanden</translation>
+        <translation>Noch keine Themen</translation>
     </message>
     <message>
         <source>Install a compatible theme first</source>
-        <translation type="unfinished">Installiere zuerst ein kompatibles Theme</translation>
+        <translation>Installieren Sie zuerst ein kompatibles Thema.</translation>
     </message>
     <message>
         <source>Usage guide</source>
-        <translation type="unfinished"></translation>
+        <translation>Bedienungsanleitung</translation>
     </message>
     <message>
         <source>Options</source>
-        <translation type="unfinished"></translation>
+        <translation>Optionen</translation>
     </message>
     <message>
         <source>Display density</source>
-        <translation type="unfinished">Pixeldichte</translation>
+        <translation>Pixeldichte</translation>
     </message>
     <message>
         <source>Restore theme</source>
-        <translation type="unfinished"></translation>
+        <translation>Theme wiederherstellen</translation>
+    </message>
+    <message>
+        <source>Themes</source>
+        <translation>Themen</translation>
     </message>
 </context>
 <context>
     <name>Notification</name>
     <message>
         <source>Settings applied.</source>
-        <translation type="unfinished">Einstellungen angewendet.</translation>
+        <translation>Einstellungen übernommen.</translation>
     </message>
 </context>
 <context>
     <name>OptionsPage</name>
     <message>
         <source>Restart first run wizard</source>
-        <translation type="unfinished"></translation>
+        <translation>Start-Assistent neustarten</translation>
     </message>
     <message>
         <source>Usage guide</source>
-        <translation type="unfinished"></translation>
+        <translation>Anleitung</translation>
     </message>
     <message>
         <source>Recovery</source>
-        <translation type="unfinished">Wiederherstellung</translation>
+        <translation>Wiederherstellung</translation>
     </message>
     <message>
         <source>Icon updater</source>
-        <translation type="unfinished">Icon Updater</translation>
+        <translation>Symbol-Updater</translation>
     </message>
     <message>
         <source>Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. &lt;i&gt;Icon updater&lt;/i&gt; will automate this process, enabling automatic update of icons at a given time.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nach jedem App Update muss du dein gewünschtes Theme neu installieren. Der &lt;i&gt;Icon Updater&lt;/i&gt; nimmt dir diese Arbeit ab. Aktiviere dazu einfach den Updater. Wähle dazu den gewünschten Zeitraum oder lege eine eigene Uhrzeit fest. </translation>
     </message>
     <message>
         <source>Update icons</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktualisiere Icons </translation>
     </message>
     <message>
         <source>Disabled</source>
-        <translation type="unfinished"></translation>
+        <translation>Deaktiviert</translation>
     </message>
     <message>
         <source>30 minutes</source>
-        <translation type="unfinished"></translation>
+        <translation>30 Minuten</translation>
     </message>
     <message>
         <source>1 hour</source>
-        <translation type="unfinished"></translation>
+        <translation>1 Stunde</translation>
     </message>
     <message>
         <source>2 hours</source>
-        <translation type="unfinished"></translation>
+        <translation>2 Stunden</translation>
     </message>
     <message>
         <source>3 hours</source>
-        <translation type="unfinished"></translation>
+        <translation>3 Stunden</translation>
     </message>
     <message>
         <source>6 hours</source>
-        <translation type="unfinished"></translation>
+        <translation>6 Stunden</translation>
     </message>
     <message>
         <source>12 hours</source>
-        <translation type="unfinished"></translation>
+        <translation>12 Stunden</translation>
     </message>
     <message>
         <source>Daily</source>
-        <translation type="unfinished"></translation>
+        <translation>Täglich</translation>
     </message>
     <message>
         <source>One-click restore</source>
-        <translation type="unfinished">Schnell-Wiederherstellung</translation>
+        <translation>Sofort-Wiederherstellung</translation>
     </message>
     <message>
         <source>UI Themer customizations must be reverted before performing a system update. With &lt;i&gt;One-click restore&lt;/i&gt; you can automate this process and restore icons, fonts and display density settings with just one click.</source>
-        <translation type="unfinished">Die UI Themer Einstellungen sollten vor jedem System Update zurückgesetzt werden. Mit der &lt;i&gt;Sofort-Wiederherstellung&lt;/i&gt; setzt du mit einem Klick die Icons, Schriften und Pixeldichte auf die Standardwerte zurück. </translation>
+        <translation>Die UI Themer Einstellungen sollten vor jedem System Update zurückgesetzt werden. Mit der &lt;i&gt;One-click restore&lt;/i&gt; setzt du mit einem Klick die Icons, Schriften und Pixeldichte auf die Standardwerte zurück. </translation>
     </message>
     <message>
         <source>Restore</source>
-        <translation type="unfinished">Zurücksetzen</translation>
+        <translation>Wiederherstellen</translation>
     </message>
     <message>
         <source>Options</source>
-        <translation type="unfinished"></translation>
+        <translation>Optionen</translation>
     </message>
     <message>
         <source>Cover</source>
-        <translation type="unfinished"></translation>
+        <translation>Cover</translation>
     </message>
     <message>
         <source>Cover action</source>
-        <translation type="unfinished"></translation>
+        <translation>Coverbefehl</translation>
     </message>
     <message>
         <source>Here you can find advanced settings for UI Themer, e.g. reinstall default icons or fonts if you forget to revert to default theme before a system update or if the applying fails.</source>
-        <translation type="unfinished">Mit der Wiederherstellung kannst du Icons und Schriften auf die Standardeinstellungen zurücksetzen, falls bei einem Update oder bei der Installation etwas schiefgelaufen ist. </translation>
+        <translation>Hier finden Sie die erweiterten Optionen für den UI Theme. Zum Beispiel die Neuinstallation der Standardicons oder Schriftarten, falls Sie vergessen haben vor einem Systemupdate die vorgenommenen Änderungen zurückzusetzen oder wenn dies fehlgeschlagen ist.</translation>
     </message>
     <message>
         <source>refresh current theme</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktuelles Theme neu laden</translation>
     </message>
     <message>
         <source>restart homescreen</source>
-        <translation type="unfinished"></translation>
+        <translation>Startbildschirm neu starten</translation>
     </message>
     <message>
         <source>one-click restore</source>
-        <translation type="unfinished"></translation>
+        <translation>Schnell-Wiederherstellung</translation>
     </message>
     <message>
         <source>none</source>
-        <translation type="unfinished"></translation>
+        <translation>keine</translation>
     </message>
     <message>
         <source>Second cover action</source>
-        <translation type="unfinished"></translation>
+        <translation>Zweiter Coverbefehl</translation>
     </message>
     <message>
         <source>Restart homescreen</source>
-        <translation type="unfinished">Startbildschirm neu starten</translation>
+        <translation>Startbildschirm neu starten</translation>
     </message>
     <message>
         <source>Restart</source>
-        <translation type="unfinished"></translation>
+        <translation>Neustart</translation>
     </message>
     <message>
         <source>Restarting homescreen</source>
-        <translation type="unfinished"></translation>
+        <translation>Startbildschirm neu starten</translation>
     </message>
     <message>
         <source>Restart the homescreen, to make your modifications effective. Your currently opened apps will be closed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Starte den Startbildschirm neu, um die Änderungen anzuwenden. Alle offenen Apps werden geschlossen.</translation>
     </message>
     <message>
         <source>Restoring</source>
-        <translation type="unfinished"></translation>
+        <translation>Wiederherstellung</translation>
     </message>
     <message>
         <source>Choose the action to be shown on the UI Themer cover, for a quick access when the app is minimized on the homescreen.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wähle die Befehle aus, welche auf dem UI Themer Cover angezeigt werden sollen, wenn die App minimiert auf dem Startbildschirm liegt.</translation>
     </message>
     <message>
         <source>Optionally, you can choose to display a second action on the cover.</source>
-        <translation type="unfinished"></translation>
+        <translation>Optional kann ein zweiter Befehl auf dem Cover angezeigt werden.</translation>
     </message>
     <message>
         <source>Run before system updates</source>
-        <translation type="unfinished"></translation>
+        <translation>Vor Systemupdates ausführen</translation>
     </message>
     <message>
         <source>Restore the default icons, fonts and display density settings before performing a system update, so you don&apos;t need to manually do it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Stellt die Standardicons, Schriftarten, und Pixeldichte wieder her bevor ein Systemupdate durchgeführt wird, so dass du es nicht manuell machen musst.</translation>
     </message>
     <message>
         <source>Show active theme</source>
-        <translation type="unfinished"></translation>
+        <translation>Zeige aktives Theme</translation>
     </message>
     <message>
         <source>Show the current theme on the cover.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zeige das aktuelle Theme auf dem Cover.</translation>
     </message>
     <message>
         <source>UI mode</source>
-        <translation type="unfinished"></translation>
+        <translation>UI Modus</translation>
     </message>
     <message>
         <source>easy</source>
-        <translation type="unfinished"></translation>
+        <translation>Einfach</translation>
     </message>
     <message>
         <source>full</source>
-        <translation type="unfinished"></translation>
+        <translation>Alle</translation>
     </message>
     <message>
         <source>Backup icons</source>
-        <translation type="unfinished"></translation>
+        <translation>Backup Icons</translation>
     </message>
     <message>
         <source>Backup</source>
-        <translation type="unfinished"></translation>
+        <translation>Backup</translation>
     </message>
     <message>
         <source>Backuping</source>
-        <translation type="unfinished"></translation>
+        <translation>Sichere</translation>
     </message>
     <message>
         <source>Restore icons</source>
-        <translation type="unfinished"></translation>
+        <translation>Icons wiederherstellen</translation>
     </message>
     <message>
         <source>File</source>
-        <translation type="unfinished"></translation>
+        <translation>Datei</translation>
     </message>
     <message>
         <source>Select backup</source>
-        <translation type="unfinished"></translation>
+        <translation>Wähle Backup</translation>
     </message>
     <message>
         <source>Restoring backup</source>
-        <translation type="unfinished"></translation>
+        <translation>Backup wiederherstellen</translation>
     </message>
     <message>
         <source>From here you can backup all the default icons into a compressed archive. The archive will be saved into &lt;i&gt;/home/nemo/&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Von hier kannst du alle Standardicons in ein komprimiertes Archiv sichern. Das Archiv wird in &lt;i&gt;/home/nemo&lt;/i&gt; gespeichert.</translation>
     </message>
     <message>
         <source>Select and restore an archive previously saved via UI Themer. You will still need to perform a &lt;i&gt;Restore theme&lt;/i&gt; from the &lt;i&gt;Themes&lt;/i&gt; page in order to restore the icons in your system.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wähle und stelle ein Archiv wieder her welches vorher mittels UI Themer erstellt wurde. Du musst weiterhin  &lt;i&gt;Restore theme&lt;/i&gt; von der &lt;i&gt;Theme&lt;/i&gt; Seite ausführen um die Icons von deinem System wiederherzustellen.</translation>
     </message>
     <message>
         <source>About UI Themer</source>
-        <translation type="unfinished"></translation>
+        <translation>Über UI Themer </translation>
     </message>
     <message>
         <source>See less options and have an hassle-free experience.</source>
-        <translation type="unfinished"></translation>
+        <translation>Weniger Optionen für eine leichtere Benutzerführung</translation>
     </message>
     <message>
         <source>Get full control of the app settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zeige alle Optionen der App an.</translation>
     </message>
     <message>
         <source>Enable advanced users and theme developers-tailored options.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktiviere den Erweiterten Benutzermodus und Optionen für Theme-Entwickler.</translation>
     </message>
     <message>
         <source>advanced</source>
-        <translation type="unfinished"></translation>
+        <translation>Erweitert</translation>
     </message>
     <message>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>keine</translation>
     </message>
 </context>
 <context>
@@ -630,54 +630,54 @@
     </message>
     <message>
         <source>Continue</source>
-        <translation type="unfinished"></translation>
+        <translation>Fortfahren</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">Abbrechen</translation>
+        <translation>Abbrechen</translation>
     </message>
     <message>
         <source>Remember to restart the homescreen right after.</source>
-        <translation type="unfinished">Vergiss nicht, den Startbildschirm neu zu starten.</translation>
+        <translation>Denken Sie daran, den Startbildschirm sofort danach neu zu starten. </translation>
     </message>
     <message>
         <source>Restart homescreen</source>
-        <translation type="unfinished">Startbildschirm neu starten</translation>
+        <translation>Startbildschirm neu starten</translation>
     </message>
 </context>
 <context>
     <name>RestoreDDPage</name>
     <message>
         <source>Restore</source>
-        <translation type="unfinished">Zurücksetzen</translation>
+        <translation>Wiederherstellen</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">Abbrechen</translation>
+        <translation>Abbrechen</translation>
     </message>
     <message>
         <source>Default device pixel ratio</source>
-        <translation type="unfinished"></translation>
+        <translation>Standard DPI</translation>
     </message>
     <message>
         <source>Default Android DPI</source>
-        <translation type="unfinished"></translation>
+        <translation>Standard Android DPI</translation>
     </message>
     <message>
         <source>Remember to restart the homescreen right after.</source>
-        <translation type="unfinished">Vergiss nicht, den Startbildschirm neu zu starten.</translation>
+        <translation>Denken Sie daran, den Startbildschirm sofort danach neu zu starten.</translation>
     </message>
     <message>
         <source>Restart homescreen</source>
-        <translation type="unfinished">Startbildschirm neu starten</translation>
+        <translation>Startbildschirm neu starten</translation>
     </message>
     <message>
         <source>After confirming, your device will restart. Your currently opened apps will be closed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nach der Bestätigung wird das Gerät neu starten. Alle zurzeit geöffneten Programme werden geschlossen. </translation>
     </message>
     <message>
         <source>If you have an Xperia XA2 series device, a full restart may be needed may be needed to apply your Android settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wenn du ein Gerät der Xperia XA2 Serie verwendest, musst du, um die Androideinstellungen zu übernehmen, eventuell dein Gerät neu starten.</translation>
     </message>
 </context>
 <context>
@@ -708,7 +708,7 @@
     </message>
     <message>
         <source>After confirming, your device will restart. Your currently opened apps will be closed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nach der Bestätigung wird das Gerät neu starten. Alle zurzeit geöffneten Programme werden geschlossen. </translation>
     </message>
 </context>
 <context>
@@ -730,15 +730,15 @@
     <name>TranslatorPage</name>
     <message>
         <source>Translations</source>
-        <translation type="unfinished">Übersetzungen</translation>
+        <translation>Übersetzungen</translation>
     </message>
     <message>
         <source>Request a new language or contribute to existing languages on the Transifex project page.</source>
-        <translation type="unfinished">Hilf bei der Übersetzung mit, genaueres dazu findest du auf der Transifex Projektseite.</translation>
+        <translation>Fordern Sie auf der Projektseite von Transifex eine neue Sprache an oder tragen Sie zu bestehenden Sprachen bei.</translation>
     </message>
     <message>
         <source>Transifex</source>
-        <translation type="unfinished">Transifex</translation>
+        <translation>Transifex</translation>
     </message>
 </context>
 <context>
@@ -821,7 +821,7 @@
     </message>
     <message>
         <source>UI Themer DOES NOT send any data. Some essential info (e.g. the current theme) are collected and stored EXCLUSIVELY locally and used only for the proper functioning of the app (e.g. to display the current theme in the app).</source>
-        <translation type="unfinished"></translation>
+        <translation>UI Themer versendet KEINE Daten. Einige wichtige Informationen (z.Bsp. das aktuelle Theme) werden gesammelt und NUR lokal gespeichert. Diese Daten werden für das richtige funktionieren der App (z. Bsp. das aktuelle Theme in der App anzeigen) verwendet.</translation>
     </message>
 </context>
 </TS>

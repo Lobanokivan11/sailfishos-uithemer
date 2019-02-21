@@ -200,7 +200,7 @@ Tack till Dax89, för hjälp med C++ och QML-kod, den här appen hade inte funni
     </message>
     <message>
         <source>If you have an Xperia XA2 series device, a full restart may be needed may be needed to apply your Android settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Om du har en Xperia XA2, kanske du måste starta om telefonen för att tillämpa Android-inställningarna.</translation>
     </message>
 </context>
 <context>
@@ -339,15 +339,11 @@ Tack till Dax89, för hjälp med C++ och QML-kod, den här appen hade inte funni
     </message>
     <message>
         <source>If you have an Xperia XA2 series device, a full restart may be needed may be needed to apply your Android settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Om du har en Xperia XA2, kanske du måste starta om telefonen för att tillämpa Android-inställningarna.</translation>
     </message>
 </context>
 <context>
     <name>MainPage</name>
-    <message>
-        <source>Themes</source>
-        <translation>Teman</translation>
-    </message>
     <message>
         <source>Uninstalling %1</source>
         <translation>Avinstallerar %1</translation>
@@ -375,6 +371,10 @@ Tack till Dax89, för hjälp med C++ och QML-kod, den här appen hade inte funni
     <message>
         <source>Restore theme</source>
         <translation>Återställ tema</translation>
+    </message>
+    <message>
+        <source>Themes</source>
+        <translation>Teman</translation>
     </message>
 </context>
 <context>
@@ -678,7 +678,7 @@ Tack till Dax89, för hjälp med C++ och QML-kod, den här appen hade inte funni
     </message>
     <message>
         <source>If you have an Xperia XA2 series device, a full restart may be needed may be needed to apply your Android settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Om du har en Xperia XA2, kanske du måste starta om telefonen för att tillämpa Android-inställningarna.</translation>
     </message>
 </context>
 <context>

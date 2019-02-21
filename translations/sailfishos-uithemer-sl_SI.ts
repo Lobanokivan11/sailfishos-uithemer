@@ -199,7 +199,7 @@
     </message>
     <message>
         <source>If you have an Xperia XA2 series device, a full restart may be needed may be needed to apply your Android settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Če uporabljate Sony Xperia XA2 je po spremembah nastavitev za Android potreben ponoveni zagon.</translation>
     </message>
 </context>
 <context>
@@ -338,15 +338,11 @@
     </message>
     <message>
         <source>If you have an Xperia XA2 series device, a full restart may be needed may be needed to apply your Android settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Če uporabljate Sony Xperia XA2 je po spremembah nastavitev za Android potreben ponoveni zagon.</translation>
     </message>
 </context>
 <context>
     <name>MainPage</name>
-    <message>
-        <source>Themes</source>
-        <translation>Teme</translation>
-    </message>
     <message>
         <source>Uninstalling %1</source>
         <translation>Odstranjevanje %1</translation>
@@ -374,6 +370,10 @@
     <message>
         <source>Restore theme</source>
         <translation>Obnovi temo</translation>
+    </message>
+    <message>
+        <source>Themes</source>
+        <translation>Teme</translation>
     </message>
 </context>
 <context>
@@ -677,7 +677,7 @@
     </message>
     <message>
         <source>If you have an Xperia XA2 series device, a full restart may be needed may be needed to apply your Android settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Če uporabljate Sony Xperia XA2 je po spremembah nastavitev za Android potreben ponoveni zagon.</translation>
     </message>
 </context>
 <context>

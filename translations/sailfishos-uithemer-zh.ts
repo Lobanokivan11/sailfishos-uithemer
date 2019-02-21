@@ -199,7 +199,7 @@
     </message>
     <message>
         <source>If you have an Xperia XA2 series device, a full restart may be needed may be needed to apply your Android settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>如果你拥有一台索尼 Xperia  XA2 系列设备，可能需要一次完全重启以应用 Android 设置</translation>
     </message>
 </context>
 <context>
@@ -338,15 +338,11 @@
     </message>
     <message>
         <source>If you have an Xperia XA2 series device, a full restart may be needed may be needed to apply your Android settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>如果你拥有一台索尼 Xperia  XA2 系列设备，可能需要一次完全重启以应用 Android 设置</translation>
     </message>
 </context>
 <context>
     <name>MainPage</name>
-    <message>
-        <source>Themes</source>
-        <translation>主题</translation>
-    </message>
     <message>
         <source>Uninstalling %1</source>
         <translation>正在卸载 %1</translation>
@@ -374,6 +370,10 @@
     <message>
         <source>Restore theme</source>
         <translation>恢复主题</translation>
+    </message>
+    <message>
+        <source>Themes</source>
+        <translation>主题</translation>
     </message>
 </context>
 <context>
@@ -677,7 +677,7 @@
     </message>
     <message>
         <source>If you have an Xperia XA2 series device, a full restart may be needed may be needed to apply your Android settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>如果你拥有一台索尼 Xperia  XA2 系列设备，可能需要一次重启以应用 Android 设置</translation>
     </message>
 </context>
 <context>

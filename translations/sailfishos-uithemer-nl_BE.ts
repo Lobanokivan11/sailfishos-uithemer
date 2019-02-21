@@ -199,7 +199,7 @@
     </message>
     <message>
         <source>If you have an Xperia XA2 series device, a full restart may be needed may be needed to apply your Android settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Als ge nen Xperia XA2 gebruikt, moet ge het toestel mogelijks herstarten voor de Android-instellingen toe te passen.</translation>
     </message>
 </context>
 <context>
@@ -338,15 +338,11 @@
     </message>
     <message>
         <source>If you have an Xperia XA2 series device, a full restart may be needed may be needed to apply your Android settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Als ge nen Xperia XA2 gebruikt, moet ge het toestel mogelijks herstarten voor de Android-instellingen toe te passen.</translation>
     </message>
 </context>
 <context>
     <name>MainPage</name>
-    <message>
-        <source>Themes</source>
-        <translation>Thema’s</translation>
-    </message>
     <message>
         <source>Uninstalling %1</source>
         <translation>%1 wordt verwijderd</translation>
@@ -374,6 +370,10 @@
     <message>
         <source>Restore theme</source>
         <translation>Thema herstellen</translation>
+    </message>
+    <message>
+        <source>Themes</source>
+        <translation>Thema’s</translation>
     </message>
 </context>
 <context>
@@ -677,7 +677,7 @@
     </message>
     <message>
         <source>If you have an Xperia XA2 series device, a full restart may be needed may be needed to apply your Android settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Als ge nen Xperia XA2 gebruikt, moet ge het toestel mogelijks herstarten voor de Android-instellingen toe te passen.</translation>
     </message>
 </context>
 <context>
