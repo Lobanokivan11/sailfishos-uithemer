@@ -3,8 +3,9 @@ import Sailfish.Silica 1.0
 
 ListItem
 {
-    property bool fontInstalled: false
     property bool iconInstalled: false
+    property bool fontInstalled: false
+    property bool soundInstalled: false
 
     signal uninstallRequested()
 
@@ -31,16 +32,19 @@ ListItem
             var s = model.packDisplayName;
             var types = [];
 
+            if(iconInstalled)
+                types.push(qsTr("icons"));
+
             if(fontInstalled)
                 types.push(qsTr("fonts"));
 
-            if(iconInstalled)
-                types.push(qsTr("icons"));
+            if(soundInstalled)
+                types.push(qsTr("sounds"));
 
             if(types.length <= 0)
                 return s;
 
-            return s + "&nbsp;<font style='color:" + Theme.highlightColor  + ";background-color:" + Theme.rgba(Theme.highlightBackgroundColor, 0.5) +"'>&nbsp;" + types.join("&nbsp;</font>&nbsp;<font style='color:" + Theme.highlightColor  + ";background-color:" + Theme.rgba(Theme.highlightBackgroundColor, 0.5) +"'>&nbsp;") + "&nbsp;</font>";
+            return s + "&nbsp;&nbsp;<font style='color:" + Theme.highlightColor  + ";background-color:" + Theme.rgba(Theme.highlightBackgroundColor, 0.5) +"'>&nbsp;" + types.join("&nbsp;</font>&nbsp;<font style='color:" + Theme.highlightColor  + ";background-color:" + Theme.rgba(Theme.highlightBackgroundColor, 0.5) +"'>&nbsp;") + "&nbsp;</font>";
         }
     }
 

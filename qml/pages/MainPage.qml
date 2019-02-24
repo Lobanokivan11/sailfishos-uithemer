@@ -32,9 +32,8 @@ Page
                 }
 
                 id: themepackmodel
-                onIconApplied: applyDone()
-                onFontApplied: applyDone()
-                onRestoreCompleted: applyDone()
+                onThemeApplied: applyDone()
+                onThemeRestored: applyDone()
                 onUninstallCompleted: notifyDone()
             }
 
@@ -164,13 +163,16 @@ Page
 
                     dlgrestore.accepted.connect(function() {
                         settings.isRunning = true;
-                        themepackmodel.restore(dlgrestore.restoreIcons, dlgrestore.restoreFonts);
+                        themepackmodel.restoreTheme(dlgrestore.restoreIcons, dlgrestore.restoreFonts, dlgrestore.restoreSounds);
+
+                        if(dlgrestore.restoreIcons)
+                            settings.deactivateIcon();
 
                         if(dlgrestore.restoreFonts)
                             settings.deactivateFont();
 
-                        if(dlgrestore.restoreIcons)
-                            settings.deactivateIcon();
+                        if(dlgrestore.restoreSounds)
+                            settings.deactivateSound();
                     });
                 }
             }
@@ -187,7 +189,10 @@ Page
                                left: parent.left
                                leftMargin: Theme.paddingMedium
                            }
-                           icon.source: "image://theme/icon-m-cloud-download"
+                           icon.width: Theme.iconSizeSmallPlus
+                           icon.height: Theme.iconSizeSmallPlus
+                           icon.color: Theme.highlightColor
+                           icon.source: isLightTheme ? "../../images/download.png" : "../../images/download-light.png"
                            onClicked: openStore.call('openPage', ['SearchPage', {initialSearch: 'themepack'}])
                        }
         }
@@ -195,8 +200,9 @@ Page
         model: themepackmodel
 
         delegate: ThemePackItem {
-            fontInstalled: model.packName === settings.activeFontPack
             iconInstalled: model.packName === settings.activeIconPack
+            fontInstalled: model.packName === settings.activeFontPack
+            soundInstalled: model.packName === settings.activeSoundPack
 
             onClicked: {
                 timer.stop()
@@ -205,15 +211,16 @@ Page
                 dlgconfirm.accepted.connect(function() {
                     settings.isRunning = true;
 
-                    if(dlgconfirm.iconsSelected) {
-                        themepackmodel.applyIcons(model.index, !dlgconfirm.fontsSelected || !themepackmodel.hasFont(model.index), dlgconfirm.iconOverlaySelected);
-                        settings.activeIconPack = model.packName;
-                    }
+                    themepackmodel.applyTheme(model.index, dlgconfirm.iconsSelected, dlgconfirm.iconOverlaySelected, dlgconfirm.fontsSelected, dlgconfirm.selectedFont, dlgconfirm.soundsSelected)
 
-                    if(dlgconfirm.fontsSelected) {
-                        themepackmodel.applyFonts(model.index, dlgconfirm.selectedFont);
+                    if(dlgconfirm.iconsSelected)
+                        settings.activeIconPack = model.packName;
+
+                    if(dlgconfirm.fontsSelected)
                         settings.activeFontPack = model.packName;
-                    }
+
+                    if(dlgconfirm.soundsSelected)
+                        settings.activeSoundPack = model.packName;
                 });
             }
 
@@ -222,11 +229,14 @@ Page
                     settings.isRunning = true;
                     themepackmodel.uninstall(model.index);
 
+                    if(iconInstalled)
+                        settings.deactivateIcon();
+
                     if(fontInstalled)
                         settings.deactivateFont();
 
-                    if(iconInstalled)
-                        settings.deactivateIcon();
+                    if(soundInstalled)
+                        settings.deactivateSound();
                 });
             }
         }

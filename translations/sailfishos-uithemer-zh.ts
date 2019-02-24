@@ -4,10 +4,6 @@
 <context>
     <name>AboutPage</name>
     <message>
-        <source>UI Themer lets you customize icons, fonts and pixel density in Sailfish OS.</source>
-        <translation>UI Themer 让你定制旗鱼系统的图标、字体和像素密度。</translation>
-    </message>
-    <message>
         <source>Sources</source>
         <translation>源</translation>
     </message>
@@ -83,6 +79,18 @@
         <source>About UI Themer</source>
         <translation>关于 UI Themer</translation>
     </message>
+    <message>
+        <source>UI Themer lets you customize icons, fonts, sounds and pixel density in Sailfish OS.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Iconography by</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Thanks to LQS for helping with the Android DPI on the Xperia XA2.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ConfirmPage</name>
@@ -142,6 +150,18 @@
         <source>After confirming, your device will restart. Your currently opened apps will be closed.</source>
         <translation>确认之后，你的设备将会重启，目前打开的软件将被关闭。</translation>
     </message>
+    <message>
+        <source>Sounds</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Apply sounds</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>For sounds, a full restart may be needed to apply your settings.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>DensityPage</name>
@@ -198,8 +218,8 @@
         <translation>当你更改此页的设置之后，记得立即重启主屏幕（从&lt;i&gt;操作&lt;/i&gt;页）</translation>
     </message>
     <message>
-        <source>If you have an Xperia XA2 series device, a full restart may be needed may be needed to apply your Android settings.</source>
-        <translation>如果你拥有一台索尼 Xperia  XA2 系列设备，可能需要一次完全重启以应用 Android 设置</translation>
+        <source>If you have an Xperia XA2 series device, a full restart may be needed to apply your Android settings.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -231,10 +251,6 @@
     <message>
         <source>Icon updater</source>
         <translation>图标更新程序</translation>
-    </message>
-    <message>
-        <source>Here you can find advanced settings for UI Themer, e.g. reinstall default icons or fonts if you forget to revert to default theme before a system update or if the applying fails.</source>
-        <translation> 如果你在系统更新前忘记恢复默认的主题或应用主题失败，你可以在此处找到UI Themer 高级设置，例如重新应用默认的图标或字体。</translation>
     </message>
     <message>
         <source>Further help</source>
@@ -339,6 +355,10 @@
     <message>
         <source>If you have an Xperia XA2 series device, a full restart may be needed may be needed to apply your Android settings.</source>
         <translation>如果你拥有一台索尼 Xperia  XA2 系列设备，可能需要一次完全重启以应用 Android 设置</translation>
+    </message>
+    <message>
+        <source>Here you can find advanced settings for UI Themer, e.g. reinstall default icons, fonts or sounds if you forget to revert to default theme before a system update or if the applying fails.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -464,10 +484,6 @@
     <message>
         <source>Cover action</source>
         <translation>封面操作</translation>
-    </message>
-    <message>
-        <source>Here you can find advanced settings for UI Themer, e.g. reinstall default icons or fonts if you forget to revert to default theme before a system update or if the applying fails.</source>
-        <translation> 如果你在系统更新前忘记恢复默认的主题或应用失败，你可以在此找到 UI Themer 的高级设置，例如重装默认的图标或字体。</translation>
     </message>
     <message>
         <source>refresh current theme</source>
@@ -605,6 +621,10 @@
         <source>None</source>
         <translation>无</translation>
     </message>
+    <message>
+        <source>Here you can find advanced settings for UI Themer, e.g. reinstall default icons, fonts or sounds if you forget to revert to default theme before a system update or if the applying fails.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>RecoveryPage</name>
@@ -644,6 +664,14 @@
         <source>Restart homescreen</source>
         <translation>重启主屏幕</translation>
     </message>
+    <message>
+        <source>Reinstall sounds</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reinstall default sounds, if sounds applying/restoring fails.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>RestoreDDPage</name>
@@ -676,8 +704,8 @@
         <translation>确认之后，你的设备将会重启。你目前打开的应用将会关闭。</translation>
     </message>
     <message>
-        <source>If you have an Xperia XA2 series device, a full restart may be needed may be needed to apply your Android settings.</source>
-        <translation>如果你拥有一台索尼 Xperia  XA2 系列设备，可能需要一次重启以应用 Android 设置</translation>
+        <source>If you have an Xperia XA2 series device, a full restart may be needed to apply your Android settings.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -710,6 +738,14 @@
         <source>After confirming, your device will restart. Your currently opened apps will be closed.</source>
         <translation>确认之后，你的设备将会重启。你目前打开的应用将会关闭。</translation>
     </message>
+    <message>
+        <source>Default sounds</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>For sounds, a full restart may be needed to apply your settings.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ThemePackItem</name>
@@ -724,6 +760,10 @@
     <message>
         <source>icons</source>
         <translation>图标</translation>
+    </message>
+    <message>
+        <source>sounds</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

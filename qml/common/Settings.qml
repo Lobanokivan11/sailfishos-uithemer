@@ -13,8 +13,9 @@ Item
         property int guimode
         property bool densityEnabled
         property bool wizardDone
-        property string activeFontPack
         property string activeIconPack
+        property string activeFontPack
+        property string activeSoundPack
         property bool coverActiveTheme
         property int coverAction1
         property int coverAction2
@@ -27,8 +28,9 @@ Item
     property alias guimode: conf.guimode
     property alias densityEnabled: conf.densityEnabled
     property alias wizardDone: conf.wizardDone
-    property alias activeFontPack: conf.activeFontPack
     property alias activeIconPack: conf.activeIconPack
+    property alias activeFontPack: conf.activeFontPack
+    property alias activeSoundPack: conf.activeSoundPack
     property alias coverActiveTheme: conf.coverActiveTheme
     property alias coverAction1: conf.coverAction1
     property alias coverAction2: conf.coverAction2
@@ -38,16 +40,18 @@ Item
     property bool homeRefresh: true
     property bool isRunning: false
 
-    function deactivateFont() { activeFontPack = "default"; }
     function deactivateIcon() { activeIconPack = "default"; }
+    function deactivateFont() { activeFontPack = "default"; }
+    function deactivateSound() { activeSoundPack = "default"; }
 
     id: settings
 
     onGuimodeChanged: conf.sync();
     onDensityEnabledChanged: conf.sync();
     onWizardDoneChanged: conf.sync();
-    onActiveFontPackChanged: conf.sync();
     onActiveIconPackChanged: conf.sync();
+    onActiveFontPackChanged: conf.sync();
+    onActiveSoundPackChanged: conf.sync();
     onCoverActiveThemeChanged: conf.sync();
     onCoverAction1Changed: conf.sync();
     onCoverAction2Changed: conf.sync();

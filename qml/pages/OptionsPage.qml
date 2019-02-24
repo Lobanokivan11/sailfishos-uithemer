@@ -121,7 +121,7 @@ SilicaFlickable
 
                 id: themepackmodel
                 onOcrRestored: applyDone()
-                onRecovered: {
+                onThemeRecovered: {
                     applyDone();
                     if(settings.homeRefresh === true) {
                         themepack.restartHomescreen();
@@ -201,8 +201,9 @@ SilicaFlickable
                     remorsepopup.execute(qsTr("Restoring"), function() {
                         settings.isRunning = true;
                         themepackmodel.ocr();
-                        settings.deactivateFont();
                         settings.deactivateIcon();
+                        settings.deactivateFont();
+                        settings.deactivateSound();
                     });
                 }
             }
@@ -362,7 +363,7 @@ SilicaFlickable
 
         LabelText {
             visible: settings.guimode === 0 ? false : true
-            text: qsTr("Here you can find advanced settings for UI Themer, e.g. reinstall default icons or fonts if you forget to revert to default theme before a system update or if the applying fails.")
+            text: qsTr("Here you can find advanced settings for UI Themer, e.g. reinstall default icons, fonts or sounds if you forget to revert to default theme before a system update or if the applying fails.")
         }
 
             LabelSpacer { }
@@ -375,7 +376,16 @@ SilicaFlickable
                 var dlgrecovery = pageStack.push("RecoveryPage.qml", { "settings": settings });
                 dlgrecovery.accepted.connect(function() {
                     settings.isRunning = true;
-                    themepackmodel.recovery(dlgrecovery.reinstallIcons, dlgrecovery.reinstallFonts);
+                    themepackmodel.recoveryTheme(dlgrecovery.reinstallIcons, dlgrecovery.reinstallFonts, dlgrecovery.reinstallSounds);
+
+                    if(dlgrecovery.reinstallIcons)
+                        settings.deactivateIcon();
+
+                    if(dlgrecovery.reinstallFonts)
+                        settings.deactivateFont();
+
+                    if(dlgrecovery.reinstallSounds)
+                        settings.deactivateSound();
                 });
             }
         }

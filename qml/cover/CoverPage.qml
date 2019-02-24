@@ -41,19 +41,19 @@ CoverBackground
 
     Image {
         id: refreshimg
-        enabled: settings.isRunning ? true : false
-        visible: settings.isRunning ? true : false
-        source: "image://theme/graphic-busyindicator-medium"
+        enabled: settings.isRunning
+        visible: settings.isRunning
+        source: "image://theme/graphic-busyindicator-large"
         anchors.horizontalCenter: parent.horizontalCenter
         anchors.verticalCenter: parent.verticalCenter
         fillMode: Image.PreserveAspectFit
-        width: 100
-        height: 100
+        width: Theme.itemSizeLarge
+        height: Theme.itemSizeLarge
         opacity: 0.6
         RotationAnimation on rotation {
             duration: 2000;
             loops: Animation.Infinite;
-            running : settings.isRunning ? true : false
+            running: settings.isRunning
             from: 0; to: 360
         }
     }
@@ -72,13 +72,18 @@ CoverBackground
         visible: (settings.coverActiveTheme && !settings.isRunning)
         CoverLabel {
             visible: (settings.activeIconPack !== 'default')
-            icon: "image://theme/icon-m-file-image"
+            icon: isLightTheme ? "../../images/icon.png" : "../../images/icon-light.png"
             label: themepackmodel.readThemePackName("harbour-themepack-" + settings.activeIconPack)
         }
         CoverLabel {
             visible: (settings.activeFontPack !== 'default')
-            icon: "image://theme/icon-m-font-size"
+            icon: isLightTheme ? "../../images/font.png" : "../../images/font-light.png"
             label: themepackmodel.readThemePackName("harbour-themepack-" + settings.activeFontPack)
+        }
+        CoverLabel {
+            visible: (settings.activeSoundPack !== 'default')
+            icon: isLightTheme ? "../../images/sound.png" : "../../images/sound-light.png"
+            label: themepackmodel.readThemePackName("harbour-themepack-" + settings.activeSoundPack)
         }
     }
 

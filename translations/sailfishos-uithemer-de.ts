@@ -4,10 +4,6 @@
 <context>
     <name>AboutPage</name>
     <message>
-        <source>UI Themer lets you customize icons, fonts and pixel density in Sailfish OS.</source>
-        <translation>UI Themer verändert deine Icons, Schriftarten und die Pixeldichte nach deinen Wünschen.</translation>
-    </message>
-    <message>
         <source>Sources</source>
         <translation>Quellen</translation>
     </message>
@@ -83,6 +79,18 @@
         <source>About UI Themer</source>
         <translation>Über UI Themer </translation>
     </message>
+    <message>
+        <source>UI Themer lets you customize icons, fonts, sounds and pixel density in Sailfish OS.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Iconography by</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Thanks to LQS for helping with the Android DPI on the Xperia XA2.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ConfirmPage</name>
@@ -142,6 +150,18 @@
         <source>After confirming, your device will restart. Your currently opened apps will be closed.</source>
         <translation>Nach der Bestätigung wird das Gerät neu starten. Alle zurzeit geöffneten Programme werden geschlossen.</translation>
     </message>
+    <message>
+        <source>Sounds</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Apply sounds</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>For sounds, a full restart may be needed to apply your settings.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>DensityPage</name>
@@ -198,8 +218,8 @@
         <translation>Denke daran den Startbildschirm ( in der &lt;i&gt;Options&lt;/i&gt; Seite), direkt nach Änderungen in diesem Einstellungsdialog, neu zu starten</translation>
     </message>
     <message>
-        <source>If you have an Xperia XA2 series device, a full restart may be needed may be needed to apply your Android settings.</source>
-        <translation>Wenn du ein Gerät der Xperia XA2 Serie verwendest, musst du, um die Androideinstellungen zu übernehmen, eventuell dein Gerät neu starten.</translation>
+        <source>If you have an Xperia XA2 series device, a full restart may be needed to apply your Android settings.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -231,10 +251,6 @@
     <message>
         <source>Icon updater</source>
         <translation>Icon Updater</translation>
-    </message>
-    <message>
-        <source>Here you can find advanced settings for UI Themer, e.g. reinstall default icons or fonts if you forget to revert to default theme before a system update or if the applying fails.</source>
-        <translation>Mit der Wiederherstellung kannst du Icons und Schriften auf die Standardeinstellungen zurücksetzen, falls bei einem Update oder bei der Installation etwas schiefgelaufen ist. </translation>
     </message>
     <message>
         <source>Further help</source>
@@ -339,6 +355,10 @@
     <message>
         <source>If you have an Xperia XA2 series device, a full restart may be needed may be needed to apply your Android settings.</source>
         <translation>Wenn du ein Gerät der Xperia XA2 Serie verwendest, musst du, um die Androideinstellungen zu übernehmen, eventuell dein Gerät neu starten.</translation>
+    </message>
+    <message>
+        <source>Here you can find advanced settings for UI Themer, e.g. reinstall default icons, fonts or sounds if you forget to revert to default theme before a system update or if the applying fails.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -464,10 +484,6 @@
     <message>
         <source>Cover action</source>
         <translation>Coverbefehl</translation>
-    </message>
-    <message>
-        <source>Here you can find advanced settings for UI Themer, e.g. reinstall default icons or fonts if you forget to revert to default theme before a system update or if the applying fails.</source>
-        <translation>Hier finden Sie die erweiterten Optionen für den UI Theme. Zum Beispiel die Neuinstallation der Standardicons oder Schriftarten, falls Sie vergessen haben vor einem Systemupdate die vorgenommenen Änderungen zurückzusetzen oder wenn dies fehlgeschlagen ist.</translation>
     </message>
     <message>
         <source>refresh current theme</source>
@@ -605,6 +621,10 @@
         <source>None</source>
         <translation>keine</translation>
     </message>
+    <message>
+        <source>Here you can find advanced settings for UI Themer, e.g. reinstall default icons, fonts or sounds if you forget to revert to default theme before a system update or if the applying fails.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>RecoveryPage</name>
@@ -644,6 +664,14 @@
         <source>Restart homescreen</source>
         <translation>Startbildschirm neu starten</translation>
     </message>
+    <message>
+        <source>Reinstall sounds</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reinstall default sounds, if sounds applying/restoring fails.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>RestoreDDPage</name>
@@ -676,8 +704,8 @@
         <translation>Nach der Bestätigung wird das Gerät neu starten. Alle zurzeit geöffneten Programme werden geschlossen. </translation>
     </message>
     <message>
-        <source>If you have an Xperia XA2 series device, a full restart may be needed may be needed to apply your Android settings.</source>
-        <translation>Wenn du ein Gerät der Xperia XA2 Serie verwendest, musst du, um die Androideinstellungen zu übernehmen, eventuell dein Gerät neu starten.</translation>
+        <source>If you have an Xperia XA2 series device, a full restart may be needed to apply your Android settings.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -710,6 +738,14 @@
         <source>After confirming, your device will restart. Your currently opened apps will be closed.</source>
         <translation>Nach der Bestätigung wird das Gerät neu starten. Alle zurzeit geöffneten Programme werden geschlossen. </translation>
     </message>
+    <message>
+        <source>Default sounds</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>For sounds, a full restart may be needed to apply your settings.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ThemePackItem</name>
@@ -724,6 +760,10 @@
     <message>
         <source>icons</source>
         <translation>Icons</translation>
+    </message>
+    <message>
+        <source>sounds</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

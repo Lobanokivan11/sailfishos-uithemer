@@ -4,10 +4,6 @@
 <context>
     <name>AboutPage</name>
     <message>
-        <source>UI Themer lets you customize icons, fonts and pixel density in Sailfish OS.</source>
-        <translation>UI Themer ti permette di personalizzare le icone, i font e la densità di pixel in Sailfish OS.</translation>
-    </message>
-    <message>
         <source>Sources</source>
         <translation>Sorgenti</translation>
     </message>
@@ -83,6 +79,18 @@
         <source>About UI Themer</source>
         <translation>Info su UI Themer</translation>
     </message>
+    <message>
+        <source>UI Themer lets you customize icons, fonts, sounds and pixel density in Sailfish OS.</source>
+        <translation>UI Themer ti permette di personalizzare le icone, i font, i suoni e la densità di pixel in Sailfish OS.</translation>
+    </message>
+    <message>
+        <source>Thanks to LQS for helping with the Android DPI on the Xperia XA2.</source>
+        <translation>Grazie a LQS per l&apos;aiuto con il DPI Android su Xperia XA2.</translation>
+    </message>
+    <message>
+        <source>Iconography by</source>
+        <translation>Iconografia di</translation>
+    </message>
 </context>
 <context>
     <name>ConfirmPage</name>
@@ -142,6 +150,18 @@
         <source>After confirming, your device will restart. Your currently opened apps will be closed.</source>
         <translation>Dopo la conferma, il tuo dispositivo si riavvierà. Le app aperte verranno chiuse.</translation>
     </message>
+    <message>
+        <source>Sounds</source>
+        <translation>Suoni</translation>
+    </message>
+    <message>
+        <source>Apply sounds</source>
+        <translation>Applica suoni</translation>
+    </message>
+    <message>
+        <source>For sounds, a full restart may be needed to apply your settings.</source>
+        <translation>Per i suoni, un riavvio completo potrebbe essere necessario per applicare le impostazioni.</translation>
+    </message>
 </context>
 <context>
     <name>DensityPage</name>
@@ -198,7 +218,7 @@
         <translation>Ricorda di riavviare la schermata home (dalla pagina &lt;i&gt;Opzioni&lt;/i&gt;) subito dopo aver cambiato i settaggi in questa pagina.</translation>
     </message>
     <message>
-        <source>If you have an Xperia XA2 series device, a full restart may be needed may be needed to apply your Android settings.</source>
+        <source>If you have an Xperia XA2 series device, a full restart may be needed to apply your Android settings.</source>
         <translation>Se hai un dispositivo della serie Xperia XA2, un riavvio completo potrebbe essere necessario per applicare le impostazioni Android.</translation>
     </message>
 </context>
@@ -231,10 +251,6 @@
     <message>
         <source>Icon updater</source>
         <translation>Icon updater</translation>
-    </message>
-    <message>
-        <source>Here you can find advanced settings for UI Themer, e.g. reinstall default icons or fonts if you forget to revert to default theme before a system update or if the applying fails.</source>
-        <translation>Qui puoi trovare impostazioni avanzate per UI Themer, ad esempio la reinstallazione delle icone o dei font di default se dimentichi di ritornare al tema di default prima di un aggiornamento di sistema o se l&apos;applicazione di un tema fallisce.</translation>
     </message>
     <message>
         <source>Further help</source>
@@ -339,6 +355,10 @@
     <message>
         <source>If you have an Xperia XA2 series device, a full restart may be needed may be needed to apply your Android settings.</source>
         <translation>Se hai un dispositivo della serie Xperia XA2, un riavvio completo potrebbe essere necessario per applicare le impostazioni Android.</translation>
+    </message>
+    <message>
+        <source>Here you can find advanced settings for UI Themer, e.g. reinstall default icons, fonts or sounds if you forget to revert to default theme before a system update or if the applying fails.</source>
+        <translation>Qui puoi trovare impostazioni avanzate per UI Themer, ad esempio la reinstallazione delle icone, dei font o dei suoni di default se dimentichi di ritornare al tema di default prima di un aggiornamento di sistema o se l&apos;applicazione di un tema fallisce</translation>
     </message>
 </context>
 <context>
@@ -464,10 +484,6 @@
     <message>
         <source>Cover action</source>
         <translation>Azione cover</translation>
-    </message>
-    <message>
-        <source>Here you can find advanced settings for UI Themer, e.g. reinstall default icons or fonts if you forget to revert to default theme before a system update or if the applying fails.</source>
-        <translation>Qui puoi trovare impostazioni avanzate per UI Themer, ad esempio la reinstallazione delle icone o dei font di default se dimentichi di ritornare al tema di default prima di un aggiornamento di sistema o se l&apos;applicazione di un tema fallisce.</translation>
     </message>
     <message>
         <source>refresh current theme</source>
@@ -605,29 +621,13 @@
         <source>None</source>
         <translation>Nessuno</translation>
     </message>
+    <message>
+        <source>Here you can find advanced settings for UI Themer, e.g. reinstall default icons, fonts or sounds if you forget to revert to default theme before a system update or if the applying fails.</source>
+        <translation>Qui puoi trovare impostazioni avanzate per UI Themer, ad esempio la reinstallazione delle icone, dei font o dei suoni di default se dimentichi di ritornare al tema di default prima di un aggiornamento di sistema o se l&apos;applicazione di un tema fallisce</translation>
+    </message>
 </context>
 <context>
     <name>RecoveryPage</name>
-    <message>
-        <source>Recovery</source>
-        <translation>Recovery</translation>
-    </message>
-    <message>
-        <source>If any error occurs during themes applying/restoring, you can end up with messed up icons. From here, you can reinstall default Jolla app icons while, for thirdy party apps, you may need to reinstall/update apps to restore the default look.</source>
-        <translation>Se si verifica un errore durante l&apos;applicazione o il ripristino di temi, è possibile che alcune icone siano in disordine. Da qui puoi reinstallare le icone predefinite delle app Jolla mentre, per le applicazioni di terze parti, è necessario reinstallare o aggiornare le app per ripristinare l&apos;aspetto predefinito.</translation>
-    </message>
-    <message>
-        <source>Reinstall icons</source>
-        <translation>Reinstalla icone</translation>
-    </message>
-    <message>
-        <source>Reinstall default fonts, if font applying/restoring fails.</source>
-        <translation>Reinstalla i font predefiniti, se l&apos;applicazione o il ripristino dei font fallisce.</translation>
-    </message>
-    <message>
-        <source>Reinstall fonts</source>
-        <translation>Reinstalla font</translation>
-    </message>
     <message>
         <source>Continue</source>
         <translation>Continua</translation>
@@ -635,6 +635,34 @@
     <message>
         <source>Cancel</source>
         <translation>Annulla</translation>
+    </message>
+    <message>
+        <source>Recovery</source>
+        <translation>Recovery</translation>
+    </message>
+    <message>
+        <source>Reinstall icons</source>
+        <translation>Reinstalla icone</translation>
+    </message>
+    <message>
+        <source>If any error occurs during themes applying/restoring, you can end up with messed up icons. From here, you can reinstall default Jolla app icons while, for thirdy party apps, you may need to reinstall/update apps to restore the default look.</source>
+        <translation>Se si verifica un errore durante l&apos;applicazione o il ripristino di temi, è possibile che alcune icone siano in disordine. Da qui puoi reinstallare le icone predefinite delle app Jolla mentre, per le applicazioni di terze parti, è necessario reinstallare o aggiornare le app per ripristinare l&apos;aspetto predefinito.</translation>
+    </message>
+    <message>
+        <source>Reinstall fonts</source>
+        <translation>Reinstalla font</translation>
+    </message>
+    <message>
+        <source>Reinstall default fonts, if font applying/restoring fails.</source>
+        <translation>Reinstalla i font predefiniti, se l&apos;applicazione o il ripristino dei font fallisce.</translation>
+    </message>
+    <message>
+        <source>Reinstall sounds</source>
+        <translation>Reinstalla suoni</translation>
+    </message>
+    <message>
+        <source>Reinstall default sounds, if sounds applying/restoring fails.</source>
+        <translation>Reinstalla i suoni predefiniti, se l&apos;applicazione o il ripristino dei suoni fallisce.</translation>
     </message>
     <message>
         <source>Remember to restart the homescreen right after.</source>
@@ -676,7 +704,7 @@
         <translation>Dopo la conferma, il tuo dispositivo si riavvierà. Le app aperte verranno chiuse.</translation>
     </message>
     <message>
-        <source>If you have an Xperia XA2 series device, a full restart may be needed may be needed to apply your Android settings.</source>
+        <source>If you have an Xperia XA2 series device, a full restart may be needed to apply your Android settings.</source>
         <translation>Se hai un dispositivo della serie Xperia XA2, un riavvio completo potrebbe essere necessario per applicare le impostazioni Android.</translation>
     </message>
 </context>
@@ -710,6 +738,14 @@
         <source>After confirming, your device will restart. Your currently opened apps will be closed.</source>
         <translation>Dopo la conferma, il tuo dispositivo si riavvierà. Le app aperte verranno chiuse.</translation>
     </message>
+    <message>
+        <source>Default sounds</source>
+        <translation>Suoni predefiniti</translation>
+    </message>
+    <message>
+        <source>For sounds, a full restart may be needed to apply your settings.</source>
+        <translation>Per i suoni, un riavvio completo potrebbe essere necessario per applicare le impostazioni.</translation>
+    </message>
 </context>
 <context>
     <name>ThemePackItem</name>
@@ -718,12 +754,16 @@
         <translation>Disinstalla</translation>
     </message>
     <message>
+        <source>icons</source>
+        <translation>icone</translation>
+    </message>
+    <message>
         <source>fonts</source>
         <translation>font</translation>
     </message>
     <message>
-        <source>icons</source>
-        <translation>icone</translation>
+        <source>sounds</source>
+        <translation>suoni</translation>
     </message>
 </context>
 <context>

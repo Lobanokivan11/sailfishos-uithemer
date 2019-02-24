@@ -8,10 +8,11 @@ Dialog
     property Settings settings
     property alias restoreIcons: itsrestoreicons.checked
     property alias restoreFonts: itsrestorefonts.checked
+    property alias restoreSounds: itsrestoresounds.checked
 
     id: dlgrestore
     focus: true
-    canAccept: itsrestoreicons.checked || itsrestorefonts.checked
+    canAccept: itsrestoreicons.checked || itsrestorefonts.checked || itsrestoresounds.checked
     backNavigation: !settings.isRunning
     forwardNavigation: !settings.isRunning
     showNavigationIndicator: !settings.isRunning
@@ -95,18 +96,12 @@ Dialog
                 checked: true
 
                 onClicked: {
-                    if(!itsrestoreicons.checked && !itsrestorefonts.checked)
+                    if(!itsrestoreicons.checked && !itsrestorefonts.checked && !itsrestoresounds.checked)
                         dlgrestore.canAccept = false
                     else
                         dlgrestore.canAccept = true
                 }
             }
-
-            }
-
-            Column
-            {
-                width: isLandscape ? parent.width/2 : parent.width
 
             IconTextSwitch {
                 id: itsrestorefonts
@@ -115,7 +110,21 @@ Dialog
                 checked: true
 
                 onClicked: {
-                    if(!itsrestoreicons.checked && !itsrestorefonts.checked)
+                    if(!itsrestoreicons.checked && !itsrestorefonts.checked && !itsrestoresounds.checked)
+                        dlgrestore.canAccept = false
+                    else
+                        dlgrestore.canAccept = true
+                }
+            }
+
+            IconTextSwitch {
+                id: itsrestoresounds
+                automaticCheck: true
+                text: qsTr("Default sounds")
+                checked: true
+
+                onClicked: {
+                    if(!itsrestoreicons.checked && !itsrestorefonts.checked && !itsrestoresounds.checked)
                         dlgrestore.canAccept = false
                     else
                         dlgrestore.canAccept = true
@@ -142,6 +151,10 @@ Dialog
             LabelText {
                 visible: settings.guimode === 0
                 text: "<br>" + qsTr("After confirming, your device will restart. Your currently opened apps will be closed.")
+            }
+
+            LabelText {
+                text: qsTr("For sounds, a full restart may be needed to apply your settings.")
             }
 
             Item {

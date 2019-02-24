@@ -8,6 +8,7 @@ Dialog
     property Settings settings
     property alias reinstallIcons: itsicons.checked
     property alias reinstallFonts: itsfonts.checked
+    property alias reinstallSounds: itssounds.checked
 
     id: dlgrecovery
     focus: true
@@ -96,7 +97,7 @@ Dialog
                 checked: true
 
                 onClicked: {
-                    if(!itsicons.checked && !itsfonts.checked)
+                    if(!itsicons.checked && !itsfonts.checked && !itssounds.checked)
                         dlgrecovery.canAccept = false
                     else
                         dlgrecovery.canAccept = true
@@ -117,7 +118,7 @@ Dialog
                 checked: true
 
                 onClicked: {
-                    if(!itsicons.checked && !itsfonts.checked)
+                    if(!itsicons.checked && !itsfonts.checked && !itssounds.checked)
                         dlgrecovery.canAccept = false
                     else
                         dlgrecovery.canAccept = true
@@ -125,6 +126,27 @@ Dialog
             }
 
             }
+
+            Column
+            {
+                width: isLandscape ? parent.width/2 : parent.width
+
+                IconTextSwitch {
+                    id: itssounds
+                    automaticCheck: true
+                    text: qsTr("Reinstall sounds")
+                    description: qsTr("Reinstall default sounds, if sounds applying/restoring fails.")
+                    checked: true
+
+                    onClicked: {
+                        if(!itsicons.checked && !itsfonts.checked && !itssounds.checked)
+                            dlgrecovery.canAccept = false
+                        else
+                            dlgrecovery.canAccept = true
+                    }
+                }
+
+                }
             } // grid
 
             LabelText {

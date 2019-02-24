@@ -21,6 +21,7 @@ ApplicationWindow
 
     ThemePack { id: themepack }
     property bool vIM: themepack.hasImageMagickInstalled()
+    property bool isLightTheme: (Theme.colorScheme === Theme.LightOnDark) ? false : true
 
     initialPage: (settings.wizardDone && vIM ) ? mainpage : welcomepage
     cover: switch (app.coverMode) {

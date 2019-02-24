@@ -4,10 +4,6 @@
 <context>
     <name>AboutPage</name>
     <message>
-        <source>UI Themer lets you customize icons, fonts and pixel density in Sailfish OS.</source>
-        <translation>UI Themer vam omogoča prilagoditi ikone, pisave in gostoto pikslov sistema SailfishOS.</translation>
-    </message>
-    <message>
         <source>Sources</source>
         <translation>Viri</translation>
     </message>
@@ -83,6 +79,18 @@
         <source>About UI Themer</source>
         <translation>O programu UI Themer</translation>
     </message>
+    <message>
+        <source>UI Themer lets you customize icons, fonts, sounds and pixel density in Sailfish OS.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Iconography by</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Thanks to LQS for helping with the Android DPI on the Xperia XA2.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ConfirmPage</name>
@@ -142,6 +150,18 @@
         <source>After confirming, your device will restart. Your currently opened apps will be closed.</source>
         <translation>Po potrditvi se bo vaša naprava samodejno ponovno zagnala. Vse vaše trenutno zagnane aplikacije se bodo zaprle.</translation>
     </message>
+    <message>
+        <source>Sounds</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Apply sounds</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>For sounds, a full restart may be needed to apply your settings.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>DensityPage</name>
@@ -198,8 +218,8 @@
         <translation>Ne pozabite na ponovni zagon domačega zaslona (iz menija  &lt;i&gt;Možnosti&lt;/i&gt;) takoj, ko spremenite nastavitve na tej strani.</translation>
     </message>
     <message>
-        <source>If you have an Xperia XA2 series device, a full restart may be needed may be needed to apply your Android settings.</source>
-        <translation>Če uporabljate Sony Xperia XA2 je po spremembah nastavitev za Android potreben ponoveni zagon.</translation>
+        <source>If you have an Xperia XA2 series device, a full restart may be needed to apply your Android settings.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -231,10 +251,6 @@
     <message>
         <source>Icon updater</source>
         <translation>Posodobilnik ikon</translation>
-    </message>
-    <message>
-        <source>Here you can find advanced settings for UI Themer, e.g. reinstall default icons or fonts if you forget to revert to default theme before a system update or if the applying fails.</source>
-        <translation>Tu najdete napredne nastavitve aplikacije UI Themer kot na primer ponovna namestitev privzetih ikon ali pisav za primer, ko nič drugega ne deluje ali če pozabite povrniti privzete nastavitve pred nagradnjo sistema.</translation>
     </message>
     <message>
         <source>Further help</source>
@@ -339,6 +355,10 @@
     <message>
         <source>If you have an Xperia XA2 series device, a full restart may be needed may be needed to apply your Android settings.</source>
         <translation>Če uporabljate Sony Xperia XA2 je po spremembah nastavitev za Android potreben ponoveni zagon.</translation>
+    </message>
+    <message>
+        <source>Here you can find advanced settings for UI Themer, e.g. reinstall default icons, fonts or sounds if you forget to revert to default theme before a system update or if the applying fails.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -464,10 +484,6 @@
     <message>
         <source>Cover action</source>
         <translation>Primarno dejanje naslovnice</translation>
-    </message>
-    <message>
-        <source>Here you can find advanced settings for UI Themer, e.g. reinstall default icons or fonts if you forget to revert to default theme before a system update or if the applying fails.</source>
-        <translation>Tu najdete napredne nastavitve aplikacije UI Themer kot na primer ponovna namestitev privzetih ikon ali pisav za primer, ko nič drugega ne deluje ali če pozabite povrniti privzete nastavitve pred nagradnjo sistema.</translation>
     </message>
     <message>
         <source>refresh current theme</source>
@@ -605,6 +621,10 @@
         <source>None</source>
         <translation>Nič</translation>
     </message>
+    <message>
+        <source>Here you can find advanced settings for UI Themer, e.g. reinstall default icons, fonts or sounds if you forget to revert to default theme before a system update or if the applying fails.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>RecoveryPage</name>
@@ -644,6 +664,14 @@
         <source>Restart homescreen</source>
         <translation>Ponovni zagon domačega zaslona</translation>
     </message>
+    <message>
+        <source>Reinstall sounds</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reinstall default sounds, if sounds applying/restoring fails.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>RestoreDDPage</name>
@@ -676,8 +704,8 @@
         <translation>Po potrditvi se bo vaša naprava samodejno ponovno zagnala. Vse vaše trenutno zagnane aplikacije se bodo zaprle.</translation>
     </message>
     <message>
-        <source>If you have an Xperia XA2 series device, a full restart may be needed may be needed to apply your Android settings.</source>
-        <translation>Če uporabljate Sony Xperia XA2 je po spremembah nastavitev za Android potreben ponoveni zagon.</translation>
+        <source>If you have an Xperia XA2 series device, a full restart may be needed to apply your Android settings.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -710,6 +738,14 @@
         <source>After confirming, your device will restart. Your currently opened apps will be closed.</source>
         <translation>Po potrditvi se bo vaša naprava samodejno ponovno zagnala. Vse vaše trenutno zagnane aplikacije se bodo zaprle.</translation>
     </message>
+    <message>
+        <source>Default sounds</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>For sounds, a full restart may be needed to apply your settings.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ThemePackItem</name>
@@ -724,6 +760,10 @@
     <message>
         <source>icons</source>
         <translation>ikone</translation>
+    </message>
+    <message>
+        <source>sounds</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

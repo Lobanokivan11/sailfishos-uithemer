@@ -2,13 +2,13 @@
 layout: default
 title: Home
 nav_order: 1
-description: "Enables customization of icons, fonts and pixel density in Sailfish OS"
+description: "Enables customization of icons, fonts, sounds and pixel density in Sailfish OS"
 permalink: /
 ---
 
 # UI Themer
 
-UI Themer lets customize icons, fonts and pixel density in Sailfish OS. Graphical User Interface for [Theme pack support](https://fravaccaro.github.io/themepacksupport-sailfishos/).
+UI Themer lets customize icons, fonts, sounds and pixel density in Sailfish OS. Graphical User Interface for [Theme pack support](https://fravaccaro.github.io/themepacksupport-sailfishos/).
 
 [![GitHub license](https://img.shields.io/github/license/fravaccaro/sailfishos-uithemer.svg)](https://github.com/fravaccaro/sailfishos-uithemer/blob/master/LICENSE) [![GitHub issues](https://img.shields.io/github/issues/fravaccaro/sailfishos-uithemer.svg)](https://github.com/fravaccaro/sailfishos-uithemer/issues) [![GitHub releases](https://img.shields.io/github/release/fravaccaro/sailfishos-uithemer.svg)](https://github.com/fravaccaro/sailfishos-uithemer/releases/latest) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/fravaccaro)
 
@@ -20,6 +20,7 @@ UI Themer lets customize icons, fonts and pixel density in Sailfish OS. Graphica
 - Icon theming.
 - Icon overlay.
 - Font theming.
+- Sound theming.
 - Change device pixel ratio.
 - Change DPI for Alien Dalvik.
 - Change icon size.
@@ -57,7 +58,9 @@ Roadmap and features will be tracked on the [Trello dashboard](https://trello.co
 
 - Partially based on [Icon pack support GUI](https://github.com/RikudouSage/sailfish-iconpacksupport-gui).
 - App icon by [Free Vectors](http://www.freevectors.com/blue-painting-roller/).
+- Iconography by [Retinaicons](https://www.flaticon.com/authors/retinaicons).
 - Keyboard navigation based on [Piepmatz](https://github.com/Wunderfitz/harbour-piepmatz) by Sebastian Wolf.
 - Thanks to Dax89 for helping with C++ and QML code, this app would not exist without him.
 - Thanks to Eugenio_g7 for helping with the *One-click restore* service.
+- Thanks to LQS for helping with the Android DPI on the Xperia XA2.
 - Thanks to all the testers for being brave and patient.

@@ -2,6 +2,7 @@
 
 icons=$1
 fonts=$2
+sounds=$3
 
 main=/usr/share/harbour-themepacksupport
 
@@ -14,4 +15,9 @@ fi
 if [ "$fonts" = 1 ]; then
     echo "restoring fonts"
     $main/font-restore.sh
+fi
+
+if [ "$sounds" = 1 ]; then
+    echo "restoring sounds"
+    $main/sound-restore.sh
 fi

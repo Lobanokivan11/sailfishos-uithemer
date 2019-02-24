@@ -103,10 +103,10 @@ Page
                 anchors.horizontalCenter: parent.horizontalCenter
                 color: Theme.highlightColor
                 font.pixelSize: Theme.fontSizeSmall
-                text: "UI Themer 2.1.5" }
+                text: "UI Themer 2.2.0" }
 
             LabelText {
-                text: qsTr("UI Themer lets you customize icons, fonts and pixel density in Sailfish OS.")
+                text: qsTr("UI Themer lets you customize icons, fonts, sounds and pixel density in Sailfish OS.")
             }
 
             LabelText {
@@ -179,9 +179,12 @@ Page
                   text: qsTr("Keyboard navigation based on <a href='https://github.com/Wunderfitz/harbour-piepmatz'>Piepmatz</a> by Sebastian Wolf.")
                }
 
-
               LabelText {
                   text: qsTr("App icon by") + " <a href='http://www.freevectors.com/blue-painting-roller/'>Free Vectors</a>."
+               }
+
+              LabelText {
+                  text: qsTr("Iconography by") + " <a href='https://www.flaticon.com/authors/retinaicons'>Retinaicons</a>."
                }
 
               LabelText {
@@ -190,6 +193,10 @@ Page
 
               LabelText {
                   text: qsTr("Thanks to Eugenio_g7 for helping with the <i>One-click restore</i> service.")
+               }
+
+              LabelText {
+                  text: qsTr("Thanks to LQS for helping with the Android DPI on the Xperia XA2.")
                }
 
               LabelText {

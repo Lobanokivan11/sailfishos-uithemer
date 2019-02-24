@@ -7,16 +7,18 @@ Item {
     property alias label: label.text
 
     width: parent.width
-    height: label.height + Theme.paddingMedium
+    height: label.height + Theme.paddingSmall
 
     Image {
         id: icon
         anchors {
             left: parent.left
+            leftMargin: Theme.paddingMedium
+            rightMargin: Theme.paddingMedium
             verticalCenter: parent.verticalCenter
         }
-        width: Theme.iconSizeMedium
-        height: Theme.iconSizeMedium
+        width: Theme.iconSizeSmall
+        height: Theme.iconSizeSmall
         visible: false
     }
 
@@ -31,7 +33,8 @@ Item {
         anchors {
             right: parent.right
             left: icon.right
-            leftMargin: Theme.paddingSmall
+            leftMargin: Theme.paddingMedium
+            rightMargin: Theme.paddingMedium
             verticalCenter: parent.verticalCenter
         }
         x: Theme.paddingSmall

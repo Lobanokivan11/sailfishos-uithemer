@@ -4,10 +4,6 @@
 <context>
     <name>AboutPage</name>
     <message>
-        <source>UI Themer lets you customize icons, fonts and pixel density in Sailfish OS.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Sources</source>
         <translation type="unfinished"></translation>
     </message>
@@ -83,6 +79,18 @@
         <source>About UI Themer</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>UI Themer lets you customize icons, fonts, sounds and pixel density in Sailfish OS.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Thanks to LQS for helping with the Android DPI on the Xperia XA2.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Iconography by</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ConfirmPage</name>
@@ -142,6 +150,18 @@
         <source>After confirming, your device will restart. Your currently opened apps will be closed.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Sounds</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Apply sounds</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>For sounds, a full restart may be needed to apply your settings.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>DensityPage</name>
@@ -198,7 +218,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>If you have an Xperia XA2 series device, a full restart may be needed may be needed to apply your Android settings.</source>
+        <source>If you have an Xperia XA2 series device, a full restart may be needed to apply your Android settings.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -230,10 +250,6 @@
     </message>
     <message>
         <source>Icon updater</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Here you can find advanced settings for UI Themer, e.g. reinstall default icons or fonts if you forget to revert to default theme before a system update or if the applying fails.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -338,6 +354,10 @@
     </message>
     <message>
         <source>If you have an Xperia XA2 series device, a full restart may be needed may be needed to apply your Android settings.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Here you can find advanced settings for UI Themer, e.g. reinstall default icons, fonts or sounds if you forget to revert to default theme before a system update or if the applying fails.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -463,10 +483,6 @@
     </message>
     <message>
         <source>Cover action</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Here you can find advanced settings for UI Themer, e.g. reinstall default icons or fonts if you forget to revert to default theme before a system update or if the applying fails.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -605,15 +621,23 @@
         <source>None</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Here you can find advanced settings for UI Themer, e.g. reinstall default icons, fonts or sounds if you forget to revert to default theme before a system update or if the applying fails.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>RecoveryPage</name>
     <message>
-        <source>Recovery</source>
+        <source>Continue</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>If any error occurs during themes applying/restoring, you can end up with messed up icons. From here, you can reinstall default Jolla app icons while, for thirdy party apps, you may need to reinstall/update apps to restore the default look.</source>
+        <source>Cancel</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Recovery</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -621,7 +645,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Reinstall default fonts, if font applying/restoring fails.</source>
+        <source>If any error occurs during themes applying/restoring, you can end up with messed up icons. From here, you can reinstall default Jolla app icons while, for thirdy party apps, you may need to reinstall/update apps to restore the default look.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -629,11 +653,15 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Continue</source>
+        <source>Reinstall default fonts, if font applying/restoring fails.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Cancel</source>
+        <source>Reinstall sounds</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reinstall default sounds, if sounds applying/restoring fails.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -676,7 +704,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>If you have an Xperia XA2 series device, a full restart may be needed may be needed to apply your Android settings.</source>
+        <source>If you have an Xperia XA2 series device, a full restart may be needed to apply your Android settings.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -710,6 +738,14 @@
         <source>After confirming, your device will restart. Your currently opened apps will be closed.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Default sounds</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>For sounds, a full restart may be needed to apply your settings.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ThemePackItem</name>
@@ -718,11 +754,15 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>icons</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>fonts</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>icons</source>
+        <source>sounds</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
