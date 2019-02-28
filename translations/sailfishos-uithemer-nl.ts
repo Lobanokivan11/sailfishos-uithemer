@@ -81,15 +81,15 @@
     </message>
     <message>
         <source>UI Themer lets you customize icons, fonts, sounds and pixel density in Sailfish OS.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Iconography by</source>
-        <translation type="unfinished"></translation>
+        <translation>Met UI Themer kan je pictogrammen, lettertypen, geluiden en pixeldichtheid in Sailfish OS aanpassen.</translation>
     </message>
     <message>
         <source>Thanks to LQS for helping with the Android DPI on the Xperia XA2.</source>
-        <translation type="unfinished"></translation>
+        <translation>Met dank aan LQS voor de hulp met de Android-DPI op de Xperia XA2.</translation>
+    </message>
+    <message>
+        <source>Iconography by</source>
+        <translation>Pictogrammen door</translation>
     </message>
 </context>
 <context>
@@ -152,15 +152,15 @@
     </message>
     <message>
         <source>Sounds</source>
-        <translation type="unfinished"></translation>
+        <translation>Geluiden</translation>
     </message>
     <message>
         <source>Apply sounds</source>
-        <translation type="unfinished"></translation>
+        <translation>Geluiden toepassen</translation>
     </message>
     <message>
         <source>For sounds, a full restart may be needed to apply your settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Voor geluiden moet je het apparaat mogelijk opnieuw opstarten om de instellingen toe te passen.</translation>
     </message>
 </context>
 <context>
@@ -219,7 +219,7 @@
     </message>
     <message>
         <source>If you have an Xperia XA2 series device, a full restart may be needed to apply your Android settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Als je een Xperia XA2 gebruikt, moet je het apparaat mogelijk opnieuw opstarten om de Android-instellingen toe te passen.</translation>
     </message>
 </context>
 <context>
@@ -358,7 +358,7 @@
     </message>
     <message>
         <source>Here you can find advanced settings for UI Themer, e.g. reinstall default icons, fonts or sounds if you forget to revert to default theme before a system update or if the applying fails.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hier vind je geavanceerde instellingen voor UI Themer, bv. het opnieuw installeren van standaardpictogrammen, -lettertypen of -geluiden als je vergeet het standaardthema te herstellen vóór een systeemupdate, of als er een fout optreedt bij het toepassen.</translation>
     </message>
 </context>
 <context>
@@ -623,31 +623,11 @@
     </message>
     <message>
         <source>Here you can find advanced settings for UI Themer, e.g. reinstall default icons, fonts or sounds if you forget to revert to default theme before a system update or if the applying fails.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hier vind je geavanceerde instellingen voor UI Themer, bv. het opnieuw installeren van standaardpictogrammen, -lettertypen of -geluiden als je vergeet het standaardthema te herstellen vóór een systeemupdate, of als er een fout optreedt bij het toepassen.</translation>
     </message>
 </context>
 <context>
     <name>RecoveryPage</name>
-    <message>
-        <source>Recovery</source>
-        <translation>Herstel</translation>
-    </message>
-    <message>
-        <source>If any error occurs during themes applying/restoring, you can end up with messed up icons. From here, you can reinstall default Jolla app icons while, for thirdy party apps, you may need to reinstall/update apps to restore the default look.</source>
-        <translation>Indien er een fout optreedt bij het toepassen/herstellen van thema’s kunnen je pictogrammen verprutst worden. Van hieruit kan je de standaardpictogrammen van Jolla opnieuw installeren. Voor apps van derde partijen moet je mogelijk de apps bijwerken of opnieuw installeren om de standaardpictogrammen te herstellen.</translation>
-    </message>
-    <message>
-        <source>Reinstall icons</source>
-        <translation>Pictogrammen opnieuw installeren</translation>
-    </message>
-    <message>
-        <source>Reinstall default fonts, if font applying/restoring fails.</source>
-        <translation>Installeer standaardlettertypen opnieuw indien toepassen/herstellen van lettertypen mislukt.</translation>
-    </message>
-    <message>
-        <source>Reinstall fonts</source>
-        <translation>Lettertypen opnieuw installeren</translation>
-    </message>
     <message>
         <source>Continue</source>
         <translation>Verdergaan</translation>
@@ -655,6 +635,30 @@
     <message>
         <source>Cancel</source>
         <translation>Annuleren</translation>
+    </message>
+    <message>
+        <source>Recovery</source>
+        <translation>Herstel</translation>
+    </message>
+    <message>
+        <source>Reinstall icons</source>
+        <translation>Pictogrammen opnieuw installeren</translation>
+    </message>
+    <message>
+        <source>If any error occurs during themes applying/restoring, you can end up with messed up icons. From here, you can reinstall default Jolla app icons while, for thirdy party apps, you may need to reinstall/update apps to restore the default look.</source>
+        <translation>Indien er een fout optreedt bij het toepassen/herstellen van thema’s kunnen je pictogrammen verprutst worden. Van hieruit kan je de standaardpictogrammen van Jolla opnieuw installeren. Voor apps van derde partijen moet je mogelijk de apps bijwerken of opnieuw installeren om de standaardpictogrammen te herstellen.</translation>
+    </message>
+    <message>
+        <source>Reinstall fonts</source>
+        <translation>Lettertypen opnieuw installeren</translation>
+    </message>
+    <message>
+        <source>Reinstall sounds</source>
+        <translation>Geluiden opnieuw installeren</translation>
+    </message>
+    <message>
+        <source>Reinstall default sounds, if sounds applying/restoring fails.</source>
+        <translation>Installeer standaardgeluiden opnieuw indien toepassen/herstellen van geluiden mislukt.</translation>
     </message>
     <message>
         <source>Remember to restart the homescreen right after.</source>
@@ -665,12 +669,8 @@
         <translation>Startscherm herstarten</translation>
     </message>
     <message>
-        <source>Reinstall sounds</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Reinstall default sounds, if sounds applying/restoring fails.</source>
-        <translation type="unfinished"></translation>
+        <source>Reinstall default fonts, if fonts applying/restoring fails.</source>
+        <translation>Installeer standaardlettertypen opnieuw indien toepassen/herstellen van lettertypen mislukt.</translation>
     </message>
 </context>
 <context>
@@ -705,7 +705,7 @@
     </message>
     <message>
         <source>If you have an Xperia XA2 series device, a full restart may be needed to apply your Android settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Als je een Xperia XA2 gebruikt, moet je het apparaat mogelijk opnieuw opstarten om de Android-instellingen toe te passen.</translation>
     </message>
 </context>
 <context>
@@ -740,11 +740,11 @@
     </message>
     <message>
         <source>Default sounds</source>
-        <translation type="unfinished"></translation>
+        <translation>Standaardgeluiden</translation>
     </message>
     <message>
         <source>For sounds, a full restart may be needed to apply your settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Voor geluiden moet je het apparaat mogelijk opnieuw opstarten om de instellingen toe te passen.</translation>
     </message>
 </context>
 <context>
@@ -754,16 +754,16 @@
         <translation>Verwijderen</translation>
     </message>
     <message>
-        <source>fonts</source>
-        <translation>lettertypen</translation>
-    </message>
-    <message>
         <source>icons</source>
         <translation>pictogrammen</translation>
     </message>
     <message>
+        <source>fonts</source>
+        <translation>lettertypen</translation>
+    </message>
+    <message>
         <source>sounds</source>
-        <translation type="unfinished"></translation>
+        <translation>geluiden</translation>
     </message>
 </context>
 <context>

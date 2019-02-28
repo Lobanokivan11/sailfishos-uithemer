@@ -642,10 +642,6 @@ Tack till Dax89, för hjälp med C++ och QML-kod, den här appen hade inte funni
         <translation>Återinstallera ikoner</translation>
     </message>
     <message>
-        <source>Reinstall default fonts, if font applying/restoring fails.</source>
-        <translation>Återinstallera standardteckensnitt, om teckensnittstillämpning/-återställning misslyckas,</translation>
-    </message>
-    <message>
         <source>Reinstall fonts</source>
         <translation>Återinstallera teckensnitt</translation>
     </message>
@@ -671,6 +667,10 @@ Tack till Dax89, för hjälp med C++ och QML-kod, den här appen hade inte funni
     </message>
     <message>
         <source>Reinstall default sounds, if sounds applying/restoring fails.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reinstall default fonts, if fonts applying/restoring fails.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

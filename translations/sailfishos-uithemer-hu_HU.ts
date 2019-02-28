@@ -641,10 +641,6 @@
         <translation>Ikonok újratelepítése</translation>
     </message>
     <message>
-        <source>Reinstall default fonts, if font applying/restoring fails.</source>
-        <translation>Alapértelmezett betűk újratelepítése, ha a betű alkalmazás/visszaállítása nem sikerül.</translation>
-    </message>
-    <message>
         <source>Reinstall fonts</source>
         <translation>Betűk újratelepítése</translation>
     </message>
@@ -670,6 +666,10 @@
     </message>
     <message>
         <source>Reinstall default sounds, if sounds applying/restoring fails.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reinstall default fonts, if fonts applying/restoring fails.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

@@ -653,10 +653,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Reinstall default fonts, if font applying/restoring fails.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Reinstall sounds</source>
         <translation type="unfinished"></translation>
     </message>
@@ -670,6 +666,10 @@
     </message>
     <message>
         <source>Restart homescreen</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reinstall default fonts, if fonts applying/restoring fails.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

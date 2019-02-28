@@ -641,10 +641,6 @@
         <translation>Icons neu installieren</translation>
     </message>
     <message>
-        <source>Reinstall default fonts, if font applying/restoring fails.</source>
-        <translation>Sollte die Installation/Wiederherstellung fehlschlagen, installiere wieder die Standardschrift.</translation>
-    </message>
-    <message>
         <source>Reinstall fonts</source>
         <translation>Schriften neu installieren</translation>
     </message>
@@ -670,6 +666,10 @@
     </message>
     <message>
         <source>Reinstall default sounds, if sounds applying/restoring fails.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reinstall default fonts, if fonts applying/restoring fails.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

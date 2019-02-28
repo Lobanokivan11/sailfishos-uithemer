@@ -81,15 +81,15 @@
     </message>
     <message>
         <source>UI Themer lets you customize icons, fonts, sounds and pixel density in Sailfish OS.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Iconography by</source>
-        <translation type="unfinished"></translation>
+        <translation>UI Themer vam omogoča prilagoditi ikone, pisave in gostoto pikslov sistema SailfishOS.</translation>
     </message>
     <message>
         <source>Thanks to LQS for helping with the Android DPI on the Xperia XA2.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hvala LQS za pomoč pri Android DPI na napravah Xperia XA2.</translation>
+    </message>
+    <message>
+        <source>Iconography by</source>
+        <translation>Ikone je ustvaril</translation>
     </message>
 </context>
 <context>
@@ -152,15 +152,15 @@
     </message>
     <message>
         <source>Sounds</source>
-        <translation type="unfinished"></translation>
+        <translation>Zvoki</translation>
     </message>
     <message>
         <source>Apply sounds</source>
-        <translation type="unfinished"></translation>
+        <translation>Uveljavi zvoke</translation>
     </message>
     <message>
         <source>For sounds, a full restart may be needed to apply your settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Za uveljavitev sprememb zvokov potrebno ponoveno zagnati napravo.</translation>
     </message>
 </context>
 <context>
@@ -219,7 +219,7 @@
     </message>
     <message>
         <source>If you have an Xperia XA2 series device, a full restart may be needed to apply your Android settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Če uporabljate Sony Xperia XA2 je po spremembah nastavitev za Android potreben ponoveni zagon.</translation>
     </message>
 </context>
 <context>
@@ -358,7 +358,7 @@
     </message>
     <message>
         <source>Here you can find advanced settings for UI Themer, e.g. reinstall default icons, fonts or sounds if you forget to revert to default theme before a system update or if the applying fails.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tu najdete napredne nastavitve aplikacije UI Themer kot na primer ponovna namestitev privzetih ikon ali pisav za primer, ko nič drugega ne deluje ali če pozabite povrniti privzete nastavitve pred nagradnjo sistema.</translation>
     </message>
 </context>
 <context>
@@ -623,31 +623,11 @@
     </message>
     <message>
         <source>Here you can find advanced settings for UI Themer, e.g. reinstall default icons, fonts or sounds if you forget to revert to default theme before a system update or if the applying fails.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tu najdete napredne nastavitve aplikacije UI Themer kot na primer ponovna namestitev privzetih ikon ali pisav za primer, ko nič drugega ne deluje ali če pozabite povrniti privzete nastavitve pred nagradnjo sistema.</translation>
     </message>
 </context>
 <context>
     <name>RecoveryPage</name>
-    <message>
-        <source>Recovery</source>
-        <translation>Obnovitev</translation>
-    </message>
-    <message>
-        <source>If any error occurs during themes applying/restoring, you can end up with messed up icons. From here, you can reinstall default Jolla app icons while, for thirdy party apps, you may need to reinstall/update apps to restore the default look.</source>
-        <translation>Če med uveljavljanjem ali obnavljanjem sprememb pride do težav z ikonami, lahko tu ponovno namestite privzete Jolla ikone. Pri težavah z aplikacijami drugih ponudnikov poskusite le-te ponovno namestiti oziroma nadgraditi.</translation>
-    </message>
-    <message>
-        <source>Reinstall icons</source>
-        <translation>Ponovna namestitev ikon</translation>
-    </message>
-    <message>
-        <source>Reinstall default fonts, if font applying/restoring fails.</source>
-        <translation>Če je uveljavitev ali obnovitev pisav neuspešna, poskusite ponovno namestiti privzete pisave.</translation>
-    </message>
-    <message>
-        <source>Reinstall fonts</source>
-        <translation>Ponovno namesti pisave</translation>
-    </message>
     <message>
         <source>Continue</source>
         <translation>Nadaljuj</translation>
@@ -655,6 +635,30 @@
     <message>
         <source>Cancel</source>
         <translation>Prekliči</translation>
+    </message>
+    <message>
+        <source>Recovery</source>
+        <translation>Obnovitev</translation>
+    </message>
+    <message>
+        <source>Reinstall icons</source>
+        <translation>Ponovna namestitev ikon</translation>
+    </message>
+    <message>
+        <source>If any error occurs during themes applying/restoring, you can end up with messed up icons. From here, you can reinstall default Jolla app icons while, for thirdy party apps, you may need to reinstall/update apps to restore the default look.</source>
+        <translation>Če med uveljavljanjem ali obnavljanjem sprememb pride do težav z ikonami, lahko tu ponovno namestite privzete Jolla ikone. Pri težavah z aplikacijami drugih ponudnikov poskusite le-te ponovno namestiti oziroma nadgraditi.</translation>
+    </message>
+    <message>
+        <source>Reinstall fonts</source>
+        <translation>Ponovno namesti pisave</translation>
+    </message>
+    <message>
+        <source>Reinstall sounds</source>
+        <translation>Ponovno namesti zvoke</translation>
+    </message>
+    <message>
+        <source>Reinstall default sounds, if sounds applying/restoring fails.</source>
+        <translation>Če je uveljavitev ali obnovitev zvokov neuspešna, poskusite ponovno namestiti privzete zvoke.</translation>
     </message>
     <message>
         <source>Remember to restart the homescreen right after.</source>
@@ -665,12 +669,8 @@
         <translation>Ponovni zagon domačega zaslona</translation>
     </message>
     <message>
-        <source>Reinstall sounds</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Reinstall default sounds, if sounds applying/restoring fails.</source>
-        <translation type="unfinished"></translation>
+        <source>Reinstall default fonts, if fonts applying/restoring fails.</source>
+        <translation>Če je uveljavitev ali obnovitev pisav neuspešna, poskusite ponovno namestiti privzete pisave.</translation>
     </message>
 </context>
 <context>
@@ -705,7 +705,7 @@
     </message>
     <message>
         <source>If you have an Xperia XA2 series device, a full restart may be needed to apply your Android settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Če uporabljate Sony Xperia XA2 je po spremembah nastavitev za Android potreben ponoveni zagon.</translation>
     </message>
 </context>
 <context>
@@ -740,11 +740,11 @@
     </message>
     <message>
         <source>Default sounds</source>
-        <translation type="unfinished"></translation>
+        <translation>Privzeti zvoki</translation>
     </message>
     <message>
         <source>For sounds, a full restart may be needed to apply your settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Za uveljavitev sprememb zvokov potrebno ponoveno zagnati napravo. </translation>
     </message>
 </context>
 <context>
@@ -754,16 +754,16 @@
         <translation>Odstrani</translation>
     </message>
     <message>
-        <source>fonts</source>
-        <translation>pisave</translation>
-    </message>
-    <message>
         <source>icons</source>
         <translation>ikone</translation>
     </message>
     <message>
+        <source>fonts</source>
+        <translation>pisave</translation>
+    </message>
+    <message>
         <source>sounds</source>
-        <translation type="unfinished"></translation>
+        <translation>zvoki</translation>
     </message>
 </context>
 <context>

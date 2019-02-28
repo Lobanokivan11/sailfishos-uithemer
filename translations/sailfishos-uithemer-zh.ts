@@ -9,7 +9,7 @@
     </message>
     <message>
         <source>If you want to create a theme compatible with UI Themer, please read the documentation.</source>
-        <translation>如果你想制作一个兼容 UI Themer 的主题，请阅读参考资料。</translation>
+        <translation>如果你想制作一个兼容 UI Themer 的主题，请阅读参考资料</translation>
     </message>
     <message>
         <source>Documentation</source>
@@ -33,7 +33,7 @@
     </message>
     <message>
         <source>If you like my work and want to buy me a beer, feel free to do it!</source>
-        <translation>如果你喜欢我的作品并想为我买瓶啤酒，我将不胜荣幸。</translation>
+        <translation>如果你喜欢我的作品并想为我买瓶啤酒，我将不胜荣幸</translation>
     </message>
     <message>
         <source>Donate</source>
@@ -49,11 +49,11 @@
     </message>
     <message>
         <source>Released under the &lt;a href=&apos;https://www.gnu.org/licenses/gpl-3.0&apos;&gt;GNU GPLv3&lt;/a&gt; license.</source>
-        <translation>在 &lt;a href=&apos;https://www.gnu.org/licenses/gpl-3.0&apos;&gt;GNU GPLv3&lt;/a&gt; 许可协议下发布。</translation>
+        <translation>在 &lt;a href=&apos;https://www.gnu.org/licenses/gpl-3.0&apos;&gt;GNU GPLv3&lt;/a&gt; 许可协议下发布</translation>
     </message>
     <message>
         <source>Part of this app is based on &lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon pack support GUI&lt;/a&gt; by RikudouSennin.</source>
-        <translation>此软件部分基于 RikudouSennin 开发的&lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon pack support GUI&lt;/a&gt;。</translation>
+        <translation>此软件部分基于 RikudouSennin 开发的&lt;a href=&apos;https://github.com/RikudouSage/sailfish-iconpacksupport-gui&apos;&gt;Icon pack support GUI&lt;/a&gt;</translation>
     </message>
     <message>
         <source>App icon by</source>
@@ -61,11 +61,11 @@
     </message>
     <message>
         <source>Thanks to Dax89 for helping with C++ and QML code, this app would not exist without him.</source>
-        <translation>感谢 Dax89  在C++和 QML模式上对我的帮助，如果没有他就不会有此软件。</translation>
+        <translation>感谢 Dax89  在C++和 QML模式上对我的帮助，如果没有他就不会有此软件</translation>
     </message>
     <message>
         <source>Thanks to Eugenio_g7 for helping with the &lt;i&gt;One-click restore&lt;/i&gt; service.</source>
-        <translation>感谢 Eugenio_g7 在&lt;i&gt;一键恢复&lt;/i&gt;功能上对我的帮助。</translation>
+        <translation>感谢 Eugenio_g7 在&lt;i&gt;一键恢复&lt;/i&gt;功能上对我的帮助</translation>
     </message>
     <message>
         <source>Thanks to all the testers for being brave and patient.</source>
@@ -73,7 +73,7 @@
     </message>
     <message>
         <source>Keyboard navigation based on &lt;a href=&apos;https://github.com/Wunderfitz/harbour-piepmatz&apos;&gt;Piepmatz&lt;/a&gt; by Sebastian Wolf.</source>
-        <translation>机械键盘导航功能受到 Sebastian Wolf 开发的 &lt;a href=&apos;https://github.com/Wunderfitz/harbour-piepmatz&apos;&gt;Piepmatz&lt;/a&gt; 启发。</translation>
+        <translation>机械键盘导航功能受到 Sebastian Wolf 开发的 &lt;a href=&apos;https://github.com/Wunderfitz/harbour-piepmatz&apos;&gt;Piepmatz&lt;/a&gt; 启发</translation>
     </message>
     <message>
         <source>About UI Themer</source>
@@ -81,15 +81,15 @@
     </message>
     <message>
         <source>UI Themer lets you customize icons, fonts, sounds and pixel density in Sailfish OS.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Iconography by</source>
-        <translation type="unfinished"></translation>
+        <translation>UI Themer让你定制旗鱼系统的图标、字体、声音和像素密度</translation>
     </message>
     <message>
         <source>Thanks to LQS for helping with the Android DPI on the Xperia XA2.</source>
-        <translation type="unfinished"></translation>
+        <translation>感谢 LQS 帮助我解决 Xperia XA2 上的 Android  DPI 设置</translation>
+    </message>
+    <message>
+        <source>Iconography by</source>
+        <translation>图标展示</translation>
     </message>
 </context>
 <context>
@@ -148,19 +148,19 @@
     </message>
     <message>
         <source>After confirming, your device will restart. Your currently opened apps will be closed.</source>
-        <translation>确认之后，你的设备将会重启，目前打开的软件将被关闭。</translation>
+        <translation>确认之后，你的设备将会重启，目前打开的软件将被关闭</translation>
     </message>
     <message>
         <source>Sounds</source>
-        <translation type="unfinished"></translation>
+        <translation>声音</translation>
     </message>
     <message>
         <source>Apply sounds</source>
-        <translation type="unfinished"></translation>
+        <translation>应用声音</translation>
     </message>
     <message>
         <source>For sounds, a full restart may be needed to apply your settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>你可能需要一次设备重启以应用声音</translation>
     </message>
 </context>
 <context>
@@ -219,7 +219,7 @@
     </message>
     <message>
         <source>If you have an Xperia XA2 series device, a full restart may be needed to apply your Android settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>如果你拥有一台索尼 Xperia  XA2 系列设备，可能需要一次完全重启以应用 Android 设置</translation>
     </message>
 </context>
 <context>
@@ -322,15 +322,15 @@
     </message>
     <message>
         <source>Press &lt;b&gt;O&lt;/b&gt; for the options page.</source>
-        <translation>按 &lt;b&gt;O&lt;/b&gt; 打开操作页。</translation>
+        <translation>按 &lt;b&gt;O&lt;/b&gt; 打开操作页</translation>
     </message>
     <message>
         <source>UI Themer can be navigated via a physical keyboard, using convenient shortcuts.</source>
-        <translation>UI Themer 可以通过机械键盘导航, 使用更为便利的快捷方式。</translation>
+        <translation>UI Themer 可以通过机械键盘导航, 让操作更加便捷</translation>
     </message>
     <message>
         <source>Press &lt;b&gt;B&lt;/b&gt; to go back to the previous page.</source>
-        <translation>按&lt;b&gt;B&lt;/b&gt; 返回之前的页面。</translation>
+        <translation>按 &lt;b&gt;B&lt;/b&gt; 返回之前的页面</translation>
     </message>
     <message>
         <source>If you have Storeman installed, you can quickly look for compatible themes by using the &lt;i&gt;Download&lt;/i&gt; icon in the main page.</source>
@@ -338,11 +338,11 @@
     </message>
     <message>
         <source>Press &lt;b&gt;H&lt;/b&gt; for the home page.</source>
-        <translation>按 &lt;b&gt;H&lt;/b&gt; 打开主页。</translation>
+        <translation>按 &lt;b&gt;H&lt;/b&gt; 打开主页</translation>
     </message>
     <message>
         <source>Press &lt;b&gt;D&lt;/b&gt; for the display density page.</source>
-        <translation>按&lt;b&gt;D&lt;/b&gt; 打开显示密度页面。</translation>
+        <translation>按 &lt;b&gt;D&lt;/b&gt; 打开显示密度页面</translation>
     </message>
     <message>
         <source>Backup &amp; restore icons</source>
@@ -358,7 +358,7 @@
     </message>
     <message>
         <source>Here you can find advanced settings for UI Themer, e.g. reinstall default icons, fonts or sounds if you forget to revert to default theme before a system update or if the applying fails.</source>
-        <translation type="unfinished"></translation>
+        <translation> 如果你在系统更新前忘记恢复默认的主题或应用失败，你可以在此找到 UI Themer 的高级设置，例如重装默认的图标、声音或字体。</translation>
     </message>
 </context>
 <context>
@@ -623,31 +623,11 @@
     </message>
     <message>
         <source>Here you can find advanced settings for UI Themer, e.g. reinstall default icons, fonts or sounds if you forget to revert to default theme before a system update or if the applying fails.</source>
-        <translation type="unfinished"></translation>
+        <translation> 如果你在系统更新前忘记恢复默认的主题或应用失败，你可以在此找到 UI Themer 的高级设置，例如重装默认的图标、声音或字体。</translation>
     </message>
 </context>
 <context>
     <name>RecoveryPage</name>
-    <message>
-        <source>Recovery</source>
-        <translation>恢复</translation>
-    </message>
-    <message>
-        <source>If any error occurs during themes applying/restoring, you can end up with messed up icons. From here, you can reinstall default Jolla app icons while, for thirdy party apps, you may need to reinstall/update apps to restore the default look.</source>
-        <translation>如果在应用或恢复主题过程中发生任何错误, 可能会发生图标混乱。你可以在此重新应用默认的 jolla 软件图标, 对于第三方应用, 你可能需要重新安装或更新软件以恢复默认图标</translation>
-    </message>
-    <message>
-        <source>Reinstall icons</source>
-        <translation>重装图标</translation>
-    </message>
-    <message>
-        <source>Reinstall default fonts, if font applying/restoring fails.</source>
-        <translation>如果应用或恢复字体失败，请重装默认的字体。</translation>
-    </message>
-    <message>
-        <source>Reinstall fonts</source>
-        <translation>重装字体</translation>
-    </message>
     <message>
         <source>Continue</source>
         <translation>继续</translation>
@@ -655,6 +635,30 @@
     <message>
         <source>Cancel</source>
         <translation>取消</translation>
+    </message>
+    <message>
+        <source>Recovery</source>
+        <translation>恢复</translation>
+    </message>
+    <message>
+        <source>Reinstall icons</source>
+        <translation>重装图标</translation>
+    </message>
+    <message>
+        <source>If any error occurs during themes applying/restoring, you can end up with messed up icons. From here, you can reinstall default Jolla app icons while, for thirdy party apps, you may need to reinstall/update apps to restore the default look.</source>
+        <translation>如果在应用或恢复主题过程中发生任何错误, 可能会发生图标混乱。你可以在此重新应用默认的 jolla 软件图标, 对于第三方应用, 你可能需要重新安装或更新软件以恢复默认图标</translation>
+    </message>
+    <message>
+        <source>Reinstall fonts</source>
+        <translation>重装字体</translation>
+    </message>
+    <message>
+        <source>Reinstall sounds</source>
+        <translation>重装声音</translation>
+    </message>
+    <message>
+        <source>Reinstall default sounds, if sounds applying/restoring fails.</source>
+        <translation>如果应用或恢复声音失败，请重装默认的声音。</translation>
     </message>
     <message>
         <source>Remember to restart the homescreen right after.</source>
@@ -665,12 +669,8 @@
         <translation>重启主屏幕</translation>
     </message>
     <message>
-        <source>Reinstall sounds</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Reinstall default sounds, if sounds applying/restoring fails.</source>
-        <translation type="unfinished"></translation>
+        <source>Reinstall default fonts, if fonts applying/restoring fails.</source>
+        <translation>如果应用或恢复字体失败，请重装默认的字体。</translation>
     </message>
 </context>
 <context>
@@ -705,7 +705,7 @@
     </message>
     <message>
         <source>If you have an Xperia XA2 series device, a full restart may be needed to apply your Android settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>如果你拥有一台索尼 Xperia  XA2 系列设备，可能需要一次完全重启以应用 Android 设置</translation>
     </message>
 </context>
 <context>
@@ -724,7 +724,7 @@
     </message>
     <message>
         <source>Remember to restart the homescreen right after.</source>
-        <translation>记住之后立即重启主屏幕。</translation>
+        <translation>记住之后立即重启主屏幕</translation>
     </message>
     <message>
         <source>Default icons</source>
@@ -740,11 +740,11 @@
     </message>
     <message>
         <source>Default sounds</source>
-        <translation type="unfinished"></translation>
+        <translation>默认声音</translation>
     </message>
     <message>
         <source>For sounds, a full restart may be needed to apply your settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>你可能需要一次设备重启以应用声音</translation>
     </message>
 </context>
 <context>
@@ -754,16 +754,16 @@
         <translation>卸载</translation>
     </message>
     <message>
-        <source>fonts</source>
-        <translation>字体</translation>
-    </message>
-    <message>
         <source>icons</source>
         <translation>图标</translation>
     </message>
     <message>
+        <source>fonts</source>
+        <translation>字体</translation>
+    </message>
+    <message>
         <source>sounds</source>
-        <translation type="unfinished"></translation>
+        <translation>声音</translation>
     </message>
 </context>
 <context>
@@ -774,7 +774,7 @@
     </message>
     <message>
         <source>Request a new language or contribute to existing languages on the Transifex project page.</source>
-        <translation> 在 Transifex 项目页请求新的语言或翻译现有语言。</translation>
+        <translation> 在 Transifex 项目页请求新的语言或翻译现有语言</translation>
     </message>
     <message>
         <source>Transifex</source>
@@ -785,7 +785,7 @@
     <name>WelcomePage</name>
     <message>
         <source>Welcome to UI Themer</source>
-        <translation>欢迎使用 UI Theme</translation>
+        <translation>欢迎使用 UI Themer</translation>
     </message>
     <message>
         <source>Install dependencies</source>
@@ -801,7 +801,7 @@
     </message>
     <message>
         <source>I don&apos;t care donating</source>
-        <translation>我不关心捐赠</translation>
+        <translation>我不想捐赠</translation>
     </message>
     <message>
         <source>Start UI Themer</source>
@@ -809,11 +809,11 @@
     </message>
     <message>
         <source>UI Themer lets you customize icons, fonts and pixel density in Sailfish OS.</source>
-        <translation>UI Themer 让你定制旗鱼系统的图标、字体和像素密度。</translation>
+        <translation>UI Themer 让你定制旗鱼系统的图标、字体和像素密度</translation>
     </message>
     <message>
         <source>If you like my work and want to buy me a beer, feel free to do it!</source>
-        <translation>如果你喜欢我的作品并想为我买瓶啤酒，我将不胜荣幸。</translation>
+        <translation>如果你喜欢我的作品并想为我买瓶啤酒，我将不胜荣幸</translation>
     </message>
     <message>
         <source>Support</source>
@@ -825,7 +825,7 @@
     </message>
     <message>
         <source>It may take a while, do not quit.</source>
-        <translation>可能需要一会儿，别退出。</translation>
+        <translation>可能需要一会儿，请勿退出</translation>
     </message>
     <message>
         <source>Usage guide</source>
@@ -857,7 +857,7 @@
     </message>
     <message>
         <source>By using UI Themer, you agree to the &lt;a href=&apos;https://www.gnu.org/licenses/gpl-3.0&apos;&gt;GNU GPLv3&lt;/a&gt; terms and conditions.</source>
-        <translation>为了使用 UI Themer，你需要同意&lt;a href=&apos;https://www.gnu.org/licenses/gpl-3.0&apos;&gt;GNU GPLv3&lt;/a&gt; 条款。</translation>
+        <translation>使用 UI Themer，即意味着你接受&lt;a href=&apos;https://www.gnu.org/licenses/gpl-3.0&apos;&gt;GNU GPLv3&lt;/a&gt; 条款</translation>
     </message>
     <message>
         <source>UI Themer DOES NOT send any data. Some essential info (e.g. the current theme) are collected and stored EXCLUSIVELY locally and used only for the proper functioning of the app (e.g. to display the current theme in the app).</source>

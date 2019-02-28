@@ -641,10 +641,6 @@
         <translation type="unfinished">Reinstalar iconos</translation>
     </message>
     <message>
-        <source>Reinstall default fonts, if font applying/restoring fails.</source>
-        <translation type="unfinished">Reinstalar fuentes por defecto. Si falla la aplicación/restauración de la fuente.</translation>
-    </message>
-    <message>
         <source>Reinstall fonts</source>
         <translation type="unfinished">Reinstalar fuentes</translation>
     </message>
@@ -670,6 +666,10 @@
     </message>
     <message>
         <source>Reinstall default sounds, if sounds applying/restoring fails.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reinstall default fonts, if fonts applying/restoring fails.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

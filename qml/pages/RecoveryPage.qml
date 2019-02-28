@@ -114,7 +114,7 @@ Dialog
                 id: itsfonts
                 automaticCheck: true
                 text: qsTr("Reinstall fonts")
-                description: qsTr("Reinstall default fonts, if font applying/restoring fails.")
+                description: qsTr("Reinstall default fonts, if fonts applying/restoring fails.")
                 checked: true
 
                 onClicked: {

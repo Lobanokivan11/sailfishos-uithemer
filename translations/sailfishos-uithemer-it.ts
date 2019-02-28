@@ -653,10 +653,6 @@
         <translation>Reinstalla font</translation>
     </message>
     <message>
-        <source>Reinstall default fonts, if font applying/restoring fails.</source>
-        <translation>Reinstalla i font predefiniti, se l&apos;applicazione o il ripristino dei font fallisce.</translation>
-    </message>
-    <message>
         <source>Reinstall sounds</source>
         <translation>Reinstalla suoni</translation>
     </message>
@@ -671,6 +667,10 @@
     <message>
         <source>Restart homescreen</source>
         <translation>Riavvia schermata home</translation>
+    </message>
+    <message>
+        <source>Reinstall default fonts, if fonts applying/restoring fails.</source>
+        <translation>Reinstalla i font predefiniti, se l&apos;applicazione o il ripristino dei font fallisce.</translation>
     </message>
 </context>
 <context>
