@@ -118,7 +118,7 @@ Page
             Button {
                 anchors.horizontalCenter: parent.horizontalCenter
                 text: qsTr("Sources")
-                onClicked: Qt.openUrlExternally("https://fravaccaro.github.io/sailfishos-uithemer/")
+                onClicked: Qt.openUrlExternally("https://uithemer.github.io/sailfishos-uithemer/")
             }
 
             LabelSpacer { }
@@ -132,7 +132,7 @@ Page
               Button {
                   anchors.horizontalCenter: parent.horizontalCenter
                   text: qsTr("Documentation")
-                  onClicked: Qt.openUrlExternally("https://fravaccaro.github.io/themepacksupport-sailfishos/docs/getstarted.html")
+                  onClicked: Qt.openUrlExternally("https://uithemer.github.io/themepacksupport-sailfishos/docs/getstarted.html")
               }
 
               SectionHeader { text: qsTr("Feedback") }
@@ -146,7 +146,7 @@ Page
               Button {
                   anchors.horizontalCenter: parent.horizontalCenter
                   text: qsTr("Issues")
-                  onClicked: Qt.openUrlExternally("https://github.com/fravaccaro/sailfishos-uithemer/issues")
+                  onClicked: Qt.openUrlExternally("https://github.com/uithemer/sailfishos-uithemer/issues")
               }
 
         }

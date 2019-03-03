@@ -227,7 +227,7 @@ Page
             SectionHeader { text: qsTr("Further help") }
 
             LabelText {
-                text: qsTr("If you still can't get the help you need, you can open an issue on <a href='https://github.com/fravaccaro/sailfishos-uithemer/issues'>GitHub</a>.")
+                text: qsTr("If you still can't get the help you need, you can open an issue on <a href='https://github.com/uithemer/sailfishos-uithemer/issues'>GitHub</a>.")
             }
 
             }

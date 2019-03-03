@@ -18,7 +18,7 @@ Release:        2
 Group:          Qt/Qt
 License:        GPLv3
 Packager:       fravaccaro <fravaccaro@jollacommunity.it>
-URL:            https://github.com/fravaccaro/sailfishos-uithemer
+URL:            https://github.com/uithemer/sailfishos-uithemer
 Source0:        %{name}-%{version}.tar.bz2
 Source100:      sailfishos-uithemer.yaml
 Requires:       sailfish-version >= 2.1.4, harbour-themepacksupport >= 0.8.7-10

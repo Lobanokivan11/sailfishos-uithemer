@@ -4,8 +4,8 @@ description: Enables customization of icons, fonts and pixel density in Sailfish
 baseurl: ""
 exclude: ["appicons/", "images/", "qml/", "rpm/", "scripts/", "src/", "translations/", "LICENSE", "*.desktop", "*.pro"]
 
-url: "https://fravaccaro.github.io/sailfishos-uithemer"
+url: "https://uithemer.github.io/sailfishos-uithemer"
 search_enabled: true
 aux_links:
     "UI Themer on GitHub":
-      - "//github.com/fravaccaro/sailfishos-uithemer"
+      - "//github.com/uithemer/sailfishos-uithemer"

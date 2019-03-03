@@ -123,4 +123,4 @@ The auto-update service refreshes the current icon theme. The options are:
 
 ## Further customization
 
-If you need futher customization options [open an issue](https://github.com/fravaccaro/sailfishos-uithemer/issues).
+If you need futher customization options [open an issue](https://github.com/uithemer/sailfishos-uithemer/issues).

@@ -8,9 +8,9 @@ permalink: /
 
 # UI Themer
 
-UI Themer lets customize icons, fonts, sounds and pixel density in Sailfish OS. Graphical User Interface for [Theme pack support](https://fravaccaro.github.io/themepacksupport-sailfishos/).
+UI Themer lets customize icons, fonts, sounds and pixel density in Sailfish OS. Graphical User Interface for [Theme pack support](https://uithemer.github.io/themepacksupport-sailfishos/).
 
-[![GitHub license](https://img.shields.io/github/license/fravaccaro/sailfishos-uithemer.svg)](https://github.com/fravaccaro/sailfishos-uithemer/blob/master/LICENSE) [![GitHub issues](https://img.shields.io/github/issues/fravaccaro/sailfishos-uithemer.svg)](https://github.com/fravaccaro/sailfishos-uithemer/issues) [![GitHub releases](https://img.shields.io/github/release/fravaccaro/sailfishos-uithemer.svg)](https://github.com/fravaccaro/sailfishos-uithemer/releases/latest) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/fravaccaro)
+[![GitHub license](https://img.shields.io/github/license/uithemer/sailfishos-uithemer.svg)](https://github.com/uithemer/sailfishos-uithemer/blob/master/LICENSE) [![GitHub issues](https://img.shields.io/github/issues/uithemer/sailfishos-uithemer.svg)](https://github.com/uithemer/sailfishos-uithemer/issues) [![GitHub releases](https://img.shields.io/github/release/uithemer/sailfishos-uithemer.svg)](https://github.com/uithemer/sailfishos-uithemer/releases/latest) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/fravaccaro)
 
 ## Features
 
@@ -32,7 +32,7 @@ A usage guide is available [here](docs/guide).
 
 ## Create custom theme packs
 
-Documentation on how to create theme packs available [here](https://fravaccaro.github.io/themepacksupport-sailfishos/docs/getstarted).
+Documentation on how to create theme packs available [here](https://uithemer.github.io/themepacksupport-sailfishos/docs/getstarted).
 
 ## Translate
 

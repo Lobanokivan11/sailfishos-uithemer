@@ -61,4 +61,4 @@ If you are working on a theme or you want to have the default icons in a safe pl
 
 ## Further help
 
-If you still can't get the help you need, you can open an [issue on GitHub](https://github.com/fravaccaro/sailfishos-uithemer/issues).
+If you still can't get the help you need, you can open an [issue on GitHub](https://github.com/uithemer/sailfishos-uithemer/issues).
