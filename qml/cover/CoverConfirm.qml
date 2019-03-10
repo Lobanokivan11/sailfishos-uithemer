@@ -28,8 +28,8 @@ CoverBackground
      onStatusChanged: {
          if (status === Cover.Active || Cover.Activating || Cover.Deactivating) {
              if (pageStack.currentPage.hasIcons || pageStack.currentPage.hasIconOverlay) {
-                 coverimg.source = ""
-                 coverimg.source = "/usr/share/harbour-themepacksupport/tmp/iconspreview.png"
+                 coverimgpreview.source = ""
+                 coverimgpreview.source = "/usr/share/harbour-themepacksupport/tmp/iconspreview.png"
              }
              if (pageStack.currentPage.hasFont && pageStack.currentPage.selectedFont !== "") {
                  fontloader.visible = true
@@ -56,6 +56,16 @@ CoverBackground
 
         Image {
             id: coverimg
+            fillMode: Image.PreserveAspectFit
+            source: isLightTheme ? "../../images/coverbg.png" : "../../images/coverbg-light.png"
+            opacity: 0.1
+            anchors.horizontalCenter: parent.horizontalCenter
+            width: parent.width
+            height: sourceSize.height * width / sourceSize.width
+        }
+
+        Image {
+            id: coverimgpreview
             opacity: 0.8
             fillMode: Image.PreserveAspectFit
             anchors.horizontalCenter: parent.horizontalCenter

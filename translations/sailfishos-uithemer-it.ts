@@ -357,8 +357,8 @@
         <translation>Qui puoi trovare impostazioni avanzate per UI Themer, ad esempio la reinstallazione delle icone, dei font o dei suoni di default se dimentichi di ritornare al tema di default prima di un aggiornamento di sistema o se l&apos;applicazione di un tema fallisce</translation>
     </message>
     <message>
-        <source>If you still can&apos;t get the help you need, you can open an issue on &lt;a href=&apos;https://github.com/uithemer/sailfishos-uithemer/issues&apos;&gt;GitHub&lt;/a&gt;.</source>
-        <translation type="unfinished"></translation>
+        <source>If you still can&apos;t get the help you need, you can open an issue on</source>
+        <translation>Se non riesci comunque a trovare l&apos;aiuto di cui hai bisogno, puoi aprire un issue su</translation>
     </message>
 </context>
 <context>

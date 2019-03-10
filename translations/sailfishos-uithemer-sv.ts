@@ -358,7 +358,7 @@ Tack till Dax89, för hjälp med C++ och QML-kod, den här appen hade inte funni
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>If you still can&apos;t get the help you need, you can open an issue on &lt;a href=&apos;https://github.com/uithemer/sailfishos-uithemer/issues&apos;&gt;GitHub&lt;/a&gt;.</source>
+        <source>If you still can&apos;t get the help you need, you can open an issue on</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

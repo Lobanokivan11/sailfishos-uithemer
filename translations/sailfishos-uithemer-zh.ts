@@ -357,7 +357,7 @@
         <translation> 如果你在系统更新前忘记恢复默认的主题或应用失败，你可以在此找到 UI Themer 的高级设置，例如重装默认的图标、声音或字体。</translation>
     </message>
     <message>
-        <source>If you still can&apos;t get the help you need, you can open an issue on &lt;a href=&apos;https://github.com/uithemer/sailfishos-uithemer/issues&apos;&gt;GitHub&lt;/a&gt;.</source>
+        <source>If you still can&apos;t get the help you need, you can open an issue on</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

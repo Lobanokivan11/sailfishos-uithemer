@@ -357,7 +357,7 @@
         <translation>Tu najdete napredne nastavitve aplikacije UI Themer kot na primer ponovna namestitev privzetih ikon ali pisav za primer, ko nič drugega ne deluje ali če pozabite povrniti privzete nastavitve pred nagradnjo sistema.</translation>
     </message>
     <message>
-        <source>If you still can&apos;t get the help you need, you can open an issue on &lt;a href=&apos;https://github.com/uithemer/sailfishos-uithemer/issues&apos;&gt;GitHub&lt;/a&gt;.</source>
+        <source>If you still can&apos;t get the help you need, you can open an issue on</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

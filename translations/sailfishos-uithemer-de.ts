@@ -357,7 +357,7 @@
         <translation>Hier finden Sie die erweiterten Optionen für den UI Theme. Zum Beispiel die Neuinstallation der Standardicons Schriftarten oder Tönen, falls Sie vergessen haben vor einem Systemupdate die vorgenommenen Änderungen zurückzusetzen oder wenn dies fehlgeschlagen ist.</translation>
     </message>
     <message>
-        <source>If you still can&apos;t get the help you need, you can open an issue on &lt;a href=&apos;https://github.com/uithemer/sailfishos-uithemer/issues&apos;&gt;GitHub&lt;/a&gt;.</source>
+        <source>If you still can&apos;t get the help you need, you can open an issue on</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

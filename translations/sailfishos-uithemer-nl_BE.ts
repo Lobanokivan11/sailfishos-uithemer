@@ -357,7 +357,7 @@
         <translation>Hier vindt ge geavanceerde instellingen voor UI Themer, bv. het herinstalleren van standaardpictogrammen, -lettertypen of -geluiden als ge vergeten zijt van het standaardthema te herstellen vóór ne systeemupdate, of als er een fout is opgetreden bij het toepassen.</translation>
     </message>
     <message>
-        <source>If you still can&apos;t get the help you need, you can open an issue on &lt;a href=&apos;https://github.com/uithemer/sailfishos-uithemer/issues&apos;&gt;GitHub&lt;/a&gt;.</source>
+        <source>If you still can&apos;t get the help you need, you can open an issue on</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
