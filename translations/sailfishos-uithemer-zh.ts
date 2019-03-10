@@ -257,10 +257,6 @@
         <translation>更多帮助</translation>
     </message>
     <message>
-        <source>If you still can&apos;t get the help you need, you can open an issue on &lt;a href=&apos;https://github.com/fravaccaro/sailfishos-uithemer/issues&apos;&gt;GitHub&lt;/a&gt;.</source>
-        <translation>如果仍然不能找到你需要的帮助，可以在&lt;a href=&apos;https://github.com/fravaccaro/sailfishos-uithemer/issues&apos;&gt;GitHub&lt;/a&gt;提问。</translation>
-    </message>
-    <message>
         <source>One-click restore</source>
         <translation>一键恢复</translation>
     </message>
@@ -359,6 +355,10 @@
     <message>
         <source>Here you can find advanced settings for UI Themer, e.g. reinstall default icons, fonts or sounds if you forget to revert to default theme before a system update or if the applying fails.</source>
         <translation> 如果你在系统更新前忘记恢复默认的主题或应用失败，你可以在此找到 UI Themer 的高级设置，例如重装默认的图标、声音或字体。</translation>
+    </message>
+    <message>
+        <source>If you still can&apos;t get the help you need, you can open an issue on &lt;a href=&apos;https://github.com/uithemer/sailfishos-uithemer/issues&apos;&gt;GitHub&lt;/a&gt;.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

@@ -81,15 +81,15 @@
     </message>
     <message>
         <source>UI Themer lets you customize icons, fonts, sounds and pixel density in Sailfish OS.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Iconography by</source>
-        <translation type="unfinished"></translation>
+        <translation>Mithilfe des UI Themer kannst du Icons, Schriftarten und die Pixeldichte nach deinen Wünschen anpassen.</translation>
     </message>
     <message>
         <source>Thanks to LQS for helping with the Android DPI on the Xperia XA2.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vielen Dank an LQS bei der Hilfe der Android DPI beim Xperia XA2.</translation>
+    </message>
+    <message>
+        <source>Iconography by</source>
+        <translation>Symbole von</translation>
     </message>
 </context>
 <context>
@@ -152,15 +152,15 @@
     </message>
     <message>
         <source>Sounds</source>
-        <translation type="unfinished"></translation>
+        <translation>Töne</translation>
     </message>
     <message>
         <source>Apply sounds</source>
-        <translation type="unfinished"></translation>
+        <translation>Töne anwenden</translation>
     </message>
     <message>
         <source>For sounds, a full restart may be needed to apply your settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Um die Töne zu übernehmen muss ein kompletter Neustart durchgeführt werden.</translation>
     </message>
 </context>
 <context>
@@ -219,7 +219,7 @@
     </message>
     <message>
         <source>If you have an Xperia XA2 series device, a full restart may be needed to apply your Android settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wenn ein Gerät der Xperia XA2 Reihe verwendet wird ist ein kompletter Neustart notwendig um die Android Einstellungen zu übernehmen.</translation>
     </message>
 </context>
 <context>
@@ -255,10 +255,6 @@
     <message>
         <source>Further help</source>
         <translation>Weitere Hilfe</translation>
-    </message>
-    <message>
-        <source>If you still can&apos;t get the help you need, you can open an issue on &lt;a href=&apos;https://github.com/fravaccaro/sailfishos-uithemer/issues&apos;&gt;GitHub&lt;/a&gt;.</source>
-        <translation>Wenn dein Problem weiterhin besteht, berichte auf &lt;a href=&apos;https://github.com/fravaccaro/sailfishos-uithemer/issues&apos;&gt; GitHub &lt;/a&gt;darüber!</translation>
     </message>
     <message>
         <source>One-click restore</source>
@@ -358,6 +354,10 @@
     </message>
     <message>
         <source>Here you can find advanced settings for UI Themer, e.g. reinstall default icons, fonts or sounds if you forget to revert to default theme before a system update or if the applying fails.</source>
+        <translation>Hier finden Sie die erweiterten Optionen für den UI Theme. Zum Beispiel die Neuinstallation der Standardicons Schriftarten oder Tönen, falls Sie vergessen haben vor einem Systemupdate die vorgenommenen Änderungen zurückzusetzen oder wenn dies fehlgeschlagen ist.</translation>
+    </message>
+    <message>
+        <source>If you still can&apos;t get the help you need, you can open an issue on &lt;a href=&apos;https://github.com/uithemer/sailfishos-uithemer/issues&apos;&gt;GitHub&lt;/a&gt;.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -623,27 +623,11 @@
     </message>
     <message>
         <source>Here you can find advanced settings for UI Themer, e.g. reinstall default icons, fonts or sounds if you forget to revert to default theme before a system update or if the applying fails.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hier finden Sie die erweiterten Optionen für den UI Theme. Zum Beispiel die Neuinstallation der Standardicons Schriftarten oder Tönen, falls Sie vergessen haben vor einem Systemupdate die vorgenommenen Änderungen zurückzusetzen oder wenn dies fehlgeschlagen ist.</translation>
     </message>
 </context>
 <context>
     <name>RecoveryPage</name>
-    <message>
-        <source>Recovery</source>
-        <translation>Wiederherstellung</translation>
-    </message>
-    <message>
-        <source>If any error occurs during themes applying/restoring, you can end up with messed up icons. From here, you can reinstall default Jolla app icons while, for thirdy party apps, you may need to reinstall/update apps to restore the default look.</source>
-        <translation>Falls einmal alle Wiederherstellungsfunktionen im UI Themer versagen und deine Icons falsch dargestellt werden, bleibt dir nichts anderes übrig, als alle Apps neu zu installieren, um die Icons wieder korrekt anzuzeigen. </translation>
-    </message>
-    <message>
-        <source>Reinstall icons</source>
-        <translation>Icons neu installieren</translation>
-    </message>
-    <message>
-        <source>Reinstall fonts</source>
-        <translation>Schriften neu installieren</translation>
-    </message>
     <message>
         <source>Continue</source>
         <translation>Fortfahren</translation>
@@ -651,6 +635,30 @@
     <message>
         <source>Cancel</source>
         <translation>Abbrechen</translation>
+    </message>
+    <message>
+        <source>Recovery</source>
+        <translation>Wiederherstellung</translation>
+    </message>
+    <message>
+        <source>Reinstall icons</source>
+        <translation>Icons neu installieren</translation>
+    </message>
+    <message>
+        <source>If any error occurs during themes applying/restoring, you can end up with messed up icons. From here, you can reinstall default Jolla app icons while, for thirdy party apps, you may need to reinstall/update apps to restore the default look.</source>
+        <translation>Falls einmal alle Wiederherstellungsfunktionen im UI Themer versagen und deine Icons falsch dargestellt werden, bleibt dir nichts anderes übrig, als alle Apps neu zu installieren, um die Icons wieder korrekt anzuzeigen. </translation>
+    </message>
+    <message>
+        <source>Reinstall fonts</source>
+        <translation>Schriften neu installieren</translation>
+    </message>
+    <message>
+        <source>Reinstall sounds</source>
+        <translation>Töne neu installieren</translation>
+    </message>
+    <message>
+        <source>Reinstall default sounds, if sounds applying/restoring fails.</source>
+        <translation>Installiere die Standardtöne neu, falls das Zurücksetzen fehlschlägt.</translation>
     </message>
     <message>
         <source>Remember to restart the homescreen right after.</source>
@@ -661,16 +669,8 @@
         <translation>Startbildschirm neu starten</translation>
     </message>
     <message>
-        <source>Reinstall sounds</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Reinstall default sounds, if sounds applying/restoring fails.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Reinstall default fonts, if fonts applying/restoring fails.</source>
-        <translation type="unfinished"></translation>
+        <translation>Installiere die Default Schrift neu, falls das Zurücksetzen fehlschlägt.</translation>
     </message>
 </context>
 <context>
@@ -705,7 +705,7 @@
     </message>
     <message>
         <source>If you have an Xperia XA2 series device, a full restart may be needed to apply your Android settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wenn ein Gerät der Xperia XA2 Reihe verwendet wird ist ein kompletter Neustart notwendig um die Android Einstellungen zu übernehmen.</translation>
     </message>
 </context>
 <context>
@@ -740,11 +740,11 @@
     </message>
     <message>
         <source>Default sounds</source>
-        <translation type="unfinished"></translation>
+        <translation>Standardtöne</translation>
     </message>
     <message>
         <source>For sounds, a full restart may be needed to apply your settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Um die Töne zu übernehmen muss ein kompletter Neustart durchgeführt werden.</translation>
     </message>
 </context>
 <context>
@@ -754,16 +754,16 @@
         <translation>Deinstallieren</translation>
     </message>
     <message>
-        <source>fonts</source>
-        <translation>Schriftarten</translation>
-    </message>
-    <message>
         <source>icons</source>
         <translation>Icons</translation>
     </message>
     <message>
+        <source>fonts</source>
+        <translation>Schriftarten</translation>
+    </message>
+    <message>
         <source>sounds</source>
-        <translation type="unfinished"></translation>
+        <translation>Töne</translation>
     </message>
 </context>
 <context>

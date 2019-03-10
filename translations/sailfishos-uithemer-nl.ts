@@ -257,10 +257,6 @@
         <translation>Extra hulp</translation>
     </message>
     <message>
-        <source>If you still can&apos;t get the help you need, you can open an issue on &lt;a href=&apos;https://github.com/fravaccaro/sailfishos-uithemer/issues&apos;&gt;GitHub&lt;/a&gt;.</source>
-        <translation>Als je nog steeds geen antwoord op je probleem vindt, kan je dit melden op &lt;a href=&apos;https://github.com/fravaccaro/sailfishos-uithemer/issues&apos;&gt;GitHub&lt;/a&gt;.</translation>
-    </message>
-    <message>
         <source>One-click restore</source>
         <translation>Één-tik-herstel</translation>
     </message>
@@ -359,6 +355,10 @@
     <message>
         <source>Here you can find advanced settings for UI Themer, e.g. reinstall default icons, fonts or sounds if you forget to revert to default theme before a system update or if the applying fails.</source>
         <translation>Hier vind je geavanceerde instellingen voor UI Themer, bv. het opnieuw installeren van standaardpictogrammen, -lettertypen of -geluiden als je vergeet het standaardthema te herstellen vóór een systeemupdate, of als er een fout optreedt bij het toepassen.</translation>
+    </message>
+    <message>
+        <source>If you still can&apos;t get the help you need, you can open an issue on &lt;a href=&apos;https://github.com/uithemer/sailfishos-uithemer/issues&apos;&gt;GitHub&lt;/a&gt;.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

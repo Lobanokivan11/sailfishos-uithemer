@@ -7,7 +7,7 @@ Item {
     property alias label: label.text
 
     width: parent.width
-    height: label.height + Theme.paddingSmall
+    height: label.height + Theme.paddingMedium
 
     Image {
         id: icon
@@ -39,9 +39,11 @@ Item {
         }
         x: Theme.paddingSmall
         width: parent.width - (x * 2)
-        font.pixelSize: Theme.fontSizeMedium
+        font.pixelSize: Theme.fontSizeSmall
         color: Theme.highlightColor
         wrapMode: Text.Wrap
+        lineHeight: 0.8
+        maximumLineCount: 2
     }
 
 }

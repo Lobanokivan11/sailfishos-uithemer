@@ -2,6 +2,7 @@ import QtQuick 2.0
 import Sailfish.Silica 1.0
 
 CoverActionList {
+    iconBackground: true
     enabled: ((settings.activeIconPack === 'default') || (settings.isRunning) || (settings.coverAction1 === 3)) ? false : true
     CoverAction {
         iconSource: switch (settings.coverAction1) {

@@ -32,8 +32,13 @@ CoverBackground
     Image {
         id: coverimg
         fillMode: Image.PreserveAspectFit
-        source: "../../images/coverbg.png"
-        opacity: settings.isRunning ? 0.2 : 0.4
+        source: isLightTheme ? "../../images/coverbg.png" : "../../images/coverbg-light.png"
+        opacity: {
+            if (settings.isRunning)
+               0.1
+            else
+               (settings.coverActiveTheme) ? 0.1 : 0.3
+        }
         anchors.horizontalCenter: parent.horizontalCenter
         width: parent.width
         height: sourceSize.height * width / sourceSize.width
@@ -68,7 +73,6 @@ CoverBackground
         anchors.rightMargin: Theme.paddingSmall
         anchors.top: parent.top
         anchors.topMargin: Theme.paddingLarge
-        anchors.verticalCenter: parent.verticalCenter
         visible: (settings.coverActiveTheme && !settings.isRunning)
         CoverLabel {
             visible: (settings.activeIconPack !== 'default')
