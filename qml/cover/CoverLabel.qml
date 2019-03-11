@@ -42,7 +42,7 @@ Item {
         font.pixelSize: Theme.fontSizeSmall
         color: Theme.highlightColor
         wrapMode: Text.Wrap
-        lineHeight: 0.8
+        lineHeight: 1
         maximumLineCount: 2
     }
 

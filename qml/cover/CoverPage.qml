@@ -37,7 +37,7 @@ CoverBackground
             if (settings.isRunning)
                0.1
             else
-               (settings.coverActiveTheme) ? 0.1 : 0.3
+               (settings.coverActiveTheme) && ((settings.activeIconPack !== 'default') || (settings.activeFontPack !== 'default') || (settings.activeSoundPack !== 'default')) ? 0.1 : 0.3
         }
         anchors.horizontalCenter: parent.horizontalCenter
         width: parent.width

@@ -358,7 +358,7 @@
     </message>
     <message>
         <source>If you still can&apos;t get the help you need, you can open an issue on</source>
-        <translation type="unfinished"></translation>
+        <translation>Als je nog steeds geen antwoord op je probleem vindt, kan je dit melden op</translation>
     </message>
 </context>
 <context>

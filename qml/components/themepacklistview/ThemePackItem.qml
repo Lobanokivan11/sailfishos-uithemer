@@ -44,7 +44,7 @@ ListItem
             if(types.length <= 0)
                 return s;
 
-            return s + "&nbsp;&nbsp;<font style='color:" + Theme.highlightColor  + ";background-color:" + Theme.rgba(Theme.highlightBackgroundColor, 0.5) +"'>&nbsp;" + types.join("&nbsp;</font>&nbsp;<font style='color:" + Theme.highlightColor  + ";background-color:" + Theme.rgba(Theme.highlightBackgroundColor, 0.5) +"'>&nbsp;") + "&nbsp;</font>";
+            return s + "&nbsp;<font style='color:" + Theme.highlightColor  + ";background-color:" + Theme.rgba(Theme.highlightBackgroundColor, 0.5) +"'>&nbsp;" + types.join("&nbsp;</font>&nbsp;<font style='color:" + Theme.highlightColor  + ";background-color:" + Theme.rgba(Theme.highlightBackgroundColor, 0.5) +"'>&nbsp;") + "&nbsp;</font>";
         }
     }
 

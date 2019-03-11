@@ -358,7 +358,7 @@
     </message>
     <message>
         <source>If you still can&apos;t get the help you need, you can open an issue on</source>
-        <translation type="unfinished"></translation>
+        <translation>如果仍然不能找到你需要的帮助，可以提问</translation>
     </message>
 </context>
 <context>

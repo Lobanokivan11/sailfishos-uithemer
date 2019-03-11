@@ -358,7 +358,7 @@
     </message>
     <message>
         <source>If you still can&apos;t get the help you need, you can open an issue on</source>
-        <translation type="unfinished"></translation>
+        <translation>Če vam vgrajena pomoč ne zadostuje, odprite razpravo na</translation>
     </message>
 </context>
 <context>

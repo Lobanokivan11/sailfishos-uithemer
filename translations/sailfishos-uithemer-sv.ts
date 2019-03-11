@@ -82,15 +82,15 @@ Tack till Dax89, för hjälp med C++ och QML-kod, den här appen hade inte funni
     </message>
     <message>
         <source>UI Themer lets you customize icons, fonts, sounds and pixel density in Sailfish OS.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Iconography by</source>
-        <translation type="unfinished"></translation>
+        <translation>UI Themer låter dig anpassa ikoner, teckensnitt, ljud och skärmupplösning i Sailfish OS.</translation>
     </message>
     <message>
         <source>Thanks to LQS for helping with the Android DPI on the Xperia XA2.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tack till LQS för hjälp med Android DPI på Xperia XA2.</translation>
+    </message>
+    <message>
+        <source>Iconography by</source>
+        <translation>Ikonografi av</translation>
     </message>
 </context>
 <context>
@@ -153,15 +153,15 @@ Tack till Dax89, för hjälp med C++ och QML-kod, den här appen hade inte funni
     </message>
     <message>
         <source>Sounds</source>
-        <translation type="unfinished"></translation>
+        <translation>Ljud</translation>
     </message>
     <message>
         <source>Apply sounds</source>
-        <translation type="unfinished"></translation>
+        <translation>Tillämpa ljud</translation>
     </message>
     <message>
         <source>For sounds, a full restart may be needed to apply your settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>För att tillämpa dina ljudinställningar, kanske du måste starta om enheten.</translation>
     </message>
 </context>
 <context>
@@ -220,7 +220,7 @@ Tack till Dax89, för hjälp med C++ och QML-kod, den här appen hade inte funni
     </message>
     <message>
         <source>If you have an Xperia XA2 series device, a full restart may be needed to apply your Android settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Om du har en Xperia XA2, kanske du måste starta om telefonen för att tillämpa Android-inställningarna.</translation>
     </message>
 </context>
 <context>
@@ -355,11 +355,11 @@ Tack till Dax89, för hjälp med C++ och QML-kod, den här appen hade inte funni
     </message>
     <message>
         <source>Here you can find advanced settings for UI Themer, e.g. reinstall default icons, fonts or sounds if you forget to revert to default theme before a system update or if the applying fails.</source>
-        <translation type="unfinished"></translation>
+        <translation>Här hittar du avancerade inställningar för UI Themer, t.ex. ominstallation av ikoner, teckensnitt och ljud, om du glömmer att byta till standardtemat före en systemuppgradering eller om tillämpningen misslyckas.</translation>
     </message>
     <message>
         <source>If you still can&apos;t get the help you need, you can open an issue on</source>
-        <translation type="unfinished"></translation>
+        <translation>Om du fortfarande inte hittar den hjälp du behöver, kan du öppna ett ärende på</translation>
     </message>
 </context>
 <context>
@@ -624,27 +624,11 @@ Tack till Dax89, för hjälp med C++ och QML-kod, den här appen hade inte funni
     </message>
     <message>
         <source>Here you can find advanced settings for UI Themer, e.g. reinstall default icons, fonts or sounds if you forget to revert to default theme before a system update or if the applying fails.</source>
-        <translation type="unfinished"></translation>
+        <translation>Här hittar du avancerade inställningar för UI Themer, t.ex. ominstallation av ikoner, teckensnitt och ljud, om du glömmer att byta till standardtemat före en systemuppgradering eller om tillämpningen misslyckas.</translation>
     </message>
 </context>
 <context>
     <name>RecoveryPage</name>
-    <message>
-        <source>Recovery</source>
-        <translation>Återställning</translation>
-    </message>
-    <message>
-        <source>If any error occurs during themes applying/restoring, you can end up with messed up icons. From here, you can reinstall default Jolla app icons while, for thirdy party apps, you may need to reinstall/update apps to restore the default look.</source>
-        <translation>Om något fel inträffar när du tillämpar/återställer teman, kan det resultera i felaktiga ikoner. Härifrån kan du återinstallera Jollas app-ikoner, men tredjeparts appar kanske måste installeras om eller uppdateras för att återställa standardutseendet.</translation>
-    </message>
-    <message>
-        <source>Reinstall icons</source>
-        <translation>Återinstallera ikoner</translation>
-    </message>
-    <message>
-        <source>Reinstall fonts</source>
-        <translation>Återinstallera teckensnitt</translation>
-    </message>
     <message>
         <source>Continue</source>
         <translation>Fortsätt</translation>
@@ -652,6 +636,30 @@ Tack till Dax89, för hjälp med C++ och QML-kod, den här appen hade inte funni
     <message>
         <source>Cancel</source>
         <translation>Avbryt</translation>
+    </message>
+    <message>
+        <source>Recovery</source>
+        <translation>Återställning</translation>
+    </message>
+    <message>
+        <source>Reinstall icons</source>
+        <translation>Återinstallera ikoner</translation>
+    </message>
+    <message>
+        <source>If any error occurs during themes applying/restoring, you can end up with messed up icons. From here, you can reinstall default Jolla app icons while, for thirdy party apps, you may need to reinstall/update apps to restore the default look.</source>
+        <translation>Om något fel inträffar när du tillämpar/återställer teman, kan det resultera i felaktiga ikoner. Härifrån kan du återinstallera Jollas app-ikoner, men tredjeparts appar kanske måste installeras om eller uppdateras för att återställa standardutseendet.</translation>
+    </message>
+    <message>
+        <source>Reinstall fonts</source>
+        <translation>Återinstallera teckensnitt</translation>
+    </message>
+    <message>
+        <source>Reinstall sounds</source>
+        <translation>Återinstallera ljud</translation>
+    </message>
+    <message>
+        <source>Reinstall default sounds, if sounds applying/restoring fails.</source>
+        <translation>Återinstallera standardljud, om ljudtillämpning/-återställning misslyckas.</translation>
     </message>
     <message>
         <source>Remember to restart the homescreen right after.</source>
@@ -662,16 +670,8 @@ Tack till Dax89, för hjälp med C++ och QML-kod, den här appen hade inte funni
         <translation>Starta om hemskärmen</translation>
     </message>
     <message>
-        <source>Reinstall sounds</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Reinstall default sounds, if sounds applying/restoring fails.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Reinstall default fonts, if fonts applying/restoring fails.</source>
-        <translation type="unfinished"></translation>
+        <translation>Återinstallera standardteckensnitt, om teckensnittstillämpning/-återställning misslyckas.</translation>
     </message>
 </context>
 <context>
@@ -706,7 +706,7 @@ Tack till Dax89, för hjälp med C++ och QML-kod, den här appen hade inte funni
     </message>
     <message>
         <source>If you have an Xperia XA2 series device, a full restart may be needed to apply your Android settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Om du har en Xperia XA2, kanske du måste starta om telefonen för att tillämpa Android-inställningarna.</translation>
     </message>
 </context>
 <context>
@@ -741,11 +741,11 @@ Tack till Dax89, för hjälp med C++ och QML-kod, den här appen hade inte funni
     </message>
     <message>
         <source>Default sounds</source>
-        <translation type="unfinished"></translation>
+        <translation>Standardljud</translation>
     </message>
     <message>
         <source>For sounds, a full restart may be needed to apply your settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>För att tillämpa dina ljudinställningar, kanske du måste starta om enheten.</translation>
     </message>
 </context>
 <context>
@@ -755,16 +755,16 @@ Tack till Dax89, för hjälp med C++ och QML-kod, den här appen hade inte funni
         <translation>Avinstallera</translation>
     </message>
     <message>
-        <source>fonts</source>
-        <translation>teckensnitt</translation>
-    </message>
-    <message>
         <source>icons</source>
         <translation>ikoner</translation>
     </message>
     <message>
+        <source>fonts</source>
+        <translation>teckensnitt</translation>
+    </message>
+    <message>
         <source>sounds</source>
-        <translation type="unfinished"></translation>
+        <translation>ljud</translation>
     </message>
 </context>
 <context>
