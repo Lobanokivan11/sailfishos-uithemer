@@ -107,10 +107,6 @@
         <translation>应用图标蒙版</translation>
     </message>
     <message>
-        <source>Apply an overlay on icons not available in the theme.</source>
-        <translation>为主题中尚未适配的图标应用蒙版</translation>
-    </message>
-    <message>
         <source>Apply fonts</source>
         <translation>应用字体</translation>
     </message>
@@ -161,6 +157,10 @@
     <message>
         <source>For sounds, a full restart may be needed to apply your settings.</source>
         <translation>你可能需要一次设备重启以应用声音</translation>
+    </message>
+    <message>
+        <source>The theme supports overlays.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

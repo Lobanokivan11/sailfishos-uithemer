@@ -107,10 +107,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Apply an overlay on icons not available in the theme.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Apply fonts</source>
         <translation type="unfinished"></translation>
     </message>
@@ -160,6 +156,10 @@
     </message>
     <message>
         <source>For sounds, a full restart may be needed to apply your settings.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The theme supports overlays.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

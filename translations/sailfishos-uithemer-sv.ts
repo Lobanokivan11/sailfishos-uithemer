@@ -108,10 +108,6 @@ Tack till Dax89, för hjälp med C++ och QML-kod, den här appen hade inte funni
         <translation>App-ikonöverlager</translation>
     </message>
     <message>
-        <source>Apply an overlay on icons not available in the theme.</source>
-        <translation>Tillämpa ett överlager på ikoner som inte finns i temat.</translation>
-    </message>
-    <message>
         <source>Apply fonts</source>
         <translation>Tillämpa teckensnitt</translation>
     </message>
@@ -162,6 +158,10 @@ Tack till Dax89, för hjälp med C++ och QML-kod, den här appen hade inte funni
     <message>
         <source>For sounds, a full restart may be needed to apply your settings.</source>
         <translation>För att tillämpa dina ljudinställningar, kanske du måste starta om enheten.</translation>
+    </message>
+    <message>
+        <source>The theme supports overlays.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

@@ -107,10 +107,6 @@
         <translation>Applica overlay icone</translation>
     </message>
     <message>
-        <source>Apply an overlay on icons not available in the theme.</source>
-        <translation>Applica un overlay alle icone non disponibili nel tema.</translation>
-    </message>
-    <message>
         <source>Apply fonts</source>
         <translation>Applica font</translation>
     </message>
@@ -161,6 +157,10 @@
     <message>
         <source>For sounds, a full restart may be needed to apply your settings.</source>
         <translation>Per i suoni, un riavvio completo potrebbe essere necessario per applicare le impostazioni.</translation>
+    </message>
+    <message>
+        <source>The theme supports overlays.</source>
+        <translation>Il tema supporta gli overlay.</translation>
     </message>
 </context>
 <context>

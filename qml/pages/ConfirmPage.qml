@@ -174,12 +174,19 @@ Dialog
                         dlgconfirm.canAccept = true
                 }
             }
+
+            LabelText {
+                visible: hasIconOverlay
+                color: Theme.secondaryColor
+                font.pixelSize: Theme.fontSizeExtraSmall
+                text: qsTr("The theme supports overlays.")
+            }
+
             IconTextSwitch {
                 id: itsiconoverlay
                 automaticCheck: true
                 text: qsTr("Apply icon overlay")
-                description: qsTr("Apply an overlay on icons not available in the theme.")
-                visible: hasIconOverlay && settings.guimode !== 0
+                visible: hasIconOverlay && settings.guimode === 2
                 checked: hasIconOverlay
                 enabled: hasIconOverlay && itsicons.checked
                 onClicked: {

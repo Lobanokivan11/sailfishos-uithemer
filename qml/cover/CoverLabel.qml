@@ -7,7 +7,7 @@ Item {
     property alias label: label.text
 
     width: parent.width
-    height: label.height + Theme.paddingMedium
+    height: label.height + Theme.paddingSmall
 
     Image {
         id: icon

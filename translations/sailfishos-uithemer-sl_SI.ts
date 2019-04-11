@@ -107,10 +107,6 @@
         <translation>Uveljavi prekrivanje ikon</translation>
     </message>
     <message>
-        <source>Apply an overlay on icons not available in the theme.</source>
-        <translation>Prekrivanje ikon v tej temi ni omogočeno.</translation>
-    </message>
-    <message>
         <source>Apply fonts</source>
         <translation>Uveljavi pisave</translation>
     </message>
@@ -161,6 +157,10 @@
     <message>
         <source>For sounds, a full restart may be needed to apply your settings.</source>
         <translation>Za uveljavitev sprememb zvokov potrebno ponoveno zagnati napravo.</translation>
+    </message>
+    <message>
+        <source>The theme supports overlays.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

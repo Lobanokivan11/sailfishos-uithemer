@@ -107,10 +107,6 @@
         <translation>Pictogramoverlay toepassen</translation>
     </message>
     <message>
-        <source>Apply an overlay on icons not available in the theme.</source>
-        <translation>Pas een overlay toe op pictogrammen die niet beschikbaar zijn in het thema.</translation>
-    </message>
-    <message>
         <source>Apply fonts</source>
         <translation>Lettertypen toepassen</translation>
     </message>
@@ -161,6 +157,10 @@
     <message>
         <source>For sounds, a full restart may be needed to apply your settings.</source>
         <translation>Voor geluiden moet je het apparaat mogelijk opnieuw opstarten om de instellingen toe te passen.</translation>
+    </message>
+    <message>
+        <source>The theme supports overlays.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

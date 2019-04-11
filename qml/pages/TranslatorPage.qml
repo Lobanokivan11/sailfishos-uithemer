@@ -104,6 +104,11 @@ Page
                 }
 
                 DetailItem {
+                    label: "ελληνικά (Greek)"
+                    value: "memphisx"
+                }
+
+                DetailItem {
                     label: "Español"
                     value: "mad_soft"
                 }
