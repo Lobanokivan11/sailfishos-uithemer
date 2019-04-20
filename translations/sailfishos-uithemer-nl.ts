@@ -160,7 +160,7 @@
     </message>
     <message>
         <source>The theme supports overlays.</source>
-        <translation type="unfinished"></translation>
+        <translation>Het thema ondersteunt overlays.</translation>
     </message>
 </context>
 <context>

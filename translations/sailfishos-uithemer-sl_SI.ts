@@ -160,7 +160,7 @@
     </message>
     <message>
         <source>The theme supports overlays.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tema podpira prekrivanje.</translation>
     </message>
 </context>
 <context>

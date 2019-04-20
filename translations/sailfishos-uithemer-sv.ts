@@ -161,7 +161,7 @@ Tack till Dax89, för hjälp med C++ och QML-kod, den här appen hade inte funni
     </message>
     <message>
         <source>The theme supports overlays.</source>
-        <translation type="unfinished"></translation>
+        <translation>Temat stödjer överlager.</translation>
     </message>
 </context>
 <context>

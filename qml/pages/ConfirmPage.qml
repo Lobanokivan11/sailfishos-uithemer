@@ -176,7 +176,7 @@ Dialog
             }
 
             LabelText {
-                visible: hasIconOverlay
+                visible: hasIconOverlay && settings.guimode === 0
                 color: Theme.secondaryColor
                 font.pixelSize: Theme.fontSizeExtraSmall
                 text: qsTr("The theme supports overlays.")
@@ -186,7 +186,8 @@ Dialog
                 id: itsiconoverlay
                 automaticCheck: true
                 text: qsTr("Apply icon overlay")
-                visible: hasIconOverlay && settings.guimode === 2
+                description: qsTr("The theme supports overlays.")
+                visible: hasIconOverlay && settings.guimode !== 0
                 checked: hasIconOverlay
                 enabled: hasIconOverlay && itsicons.checked
                 onClicked: {

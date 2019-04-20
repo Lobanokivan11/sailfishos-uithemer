@@ -21,7 +21,7 @@
     </message>
     <message>
         <source>If you want to provide feedback or report an issue, please use GitHub.</source>
-        <translation>如果你想提供反馈或报告一个问题，请使用 GitHub。</translation>
+        <translation>如果你想提供反馈或报告一个问题，请使用 GitHub</translation>
     </message>
     <message>
         <source>Issues</source>
@@ -160,7 +160,7 @@
     </message>
     <message>
         <source>The theme supports overlays.</source>
-        <translation type="unfinished"></translation>
+        <translation>该主题支持图标蒙版。</translation>
     </message>
 </context>
 <context>

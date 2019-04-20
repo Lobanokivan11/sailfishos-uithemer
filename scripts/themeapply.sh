@@ -7,6 +7,7 @@ font=$4
 weight=$5
 sound=$6
 main=/usr/share/harbour-themepacksupport
+source $main/config.shlib
 
 function font-changer {
     if [ -d /usr/share/harbour-themepack-$theme/font ]; then
@@ -35,9 +36,11 @@ if [ "$icon" = 1 ]; then
     $main/icon-restore.sh
     $main/icon-backup.sh
     $main/icon-run.sh $theme
+    config_write iconoverlay 0
     if [ "$overlay" = 1 ]; then
         echo "applying overlay" $theme
         $main/icon-overlay.sh $theme
+	config_write iconoverlay 1
     fi
 fi
 

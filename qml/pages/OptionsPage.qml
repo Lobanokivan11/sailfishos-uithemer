@@ -227,7 +227,7 @@ SilicaFlickable
                 }
             }
 
-            SectionHeader { visible: settings.guimode === 0 ? false : true; text: qsTr("Icon updater") }
+            SectionHeader { visible: settings.guimode === 2; text: qsTr("Icon updater") }
 
             ComboBox {
                 function applyUpdater(setting, hours) {
@@ -245,7 +245,7 @@ SilicaFlickable
                 }
 
                 id: cbxupdate
-                visible: settings.guimode === 0 ? false : true
+                visible: settings.guimode === 2
                 width: parent.width
                 label: qsTr("Update icons")
                 description: qsTr("Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. <i>Icon updater</i> will automate this process, enabling automatic update of icons at a given time.")

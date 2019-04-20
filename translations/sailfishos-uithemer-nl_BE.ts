@@ -116,7 +116,7 @@
     </message>
     <message>
         <source>Remember to restart the homescreen right after.</source>
-        <translation>Vergeet niet van het startscherm nadien te herstarten.</translation>
+        <translation>Vergeet niet van ’t startscherm nadien te herstarten.</translation>
     </message>
     <message>
         <source>Restart homescreen</source>
@@ -140,11 +140,11 @@
     </message>
     <message>
         <source>Choose the main font weight for the UI.</source>
-        <translation>Kiest het standaardlettergewicht voor de gebruikersinterface.</translation>
+        <translation>Kiest ’t standaardlettergewicht voor de gebruikersinterface.</translation>
     </message>
     <message>
         <source>After confirming, your device will restart. Your currently opened apps will be closed.</source>
-        <translation>Na bevestiging gaat het apparaat herstarten. Uw geopende apps gaan gesloten worden.</translation>
+        <translation>Na bevestiging gaat ’t apparaat herstarten. Uw geopende apps gaan gesloten worden.</translation>
     </message>
     <message>
         <source>Sounds</source>
@@ -156,11 +156,11 @@
     </message>
     <message>
         <source>For sounds, a full restart may be needed to apply your settings.</source>
-        <translation>Voor geluiden moet ge het toestel mogelijks herstarten voor de instellingen toe te passen.</translation>
+        <translation>Voor geluiden moet ge ’t toestel mogelijks herstarten voor de instellingen toe te passen.</translation>
     </message>
     <message>
         <source>The theme supports overlays.</source>
-        <translation type="unfinished"></translation>
+        <translation>’t Thema ondersteunt overlays.</translation>
     </message>
 </context>
 <context>
@@ -215,11 +215,11 @@
     </message>
     <message>
         <source>Remember to restart the homescreen (from the &lt;i&gt;Options&lt;/i&gt; page) right after you have changed the settings in this page.</source>
-        <translation>Vergeet niet van het startscherm te herstarten (via de pagina &lt;i&gt;Opties&lt;/i&gt;) nadat ge de instellingen op deze pagina hebt gewijzigd.</translation>
+        <translation>Vergeet niet van ’t startscherm te herstarten (via de pagina &lt;i&gt;Opties&lt;/i&gt;) nadat ge de instellingen op deze pagina hebt gewijzigd.</translation>
     </message>
     <message>
         <source>If you have an Xperia XA2 series device, a full restart may be needed to apply your Android settings.</source>
-        <translation>Als ge nen Xperia XA2 gebruikt, moet ge het toestel mogelijks herstarten voor de Android-instellingen toe te passen.</translation>
+        <translation>Als ge nen Xperia XA2 gebruikt, moet ge ’t toestel mogelijks herstarten voor de Android-instellingen toe te passen.</translation>
     </message>
 </context>
 <context>
@@ -238,7 +238,7 @@
     </message>
     <message>
         <source>The &lt;i&gt;Themes&lt;/i&gt; page lets you customize icons and fonts via thirdy party themes. The page lists the themes you have currently installed (e.g. from OpenRepos). To apply them, tap on a theme of your choice and then select what you want to use from that theme - if the theme contains different font weights, you can choose the default one to use for the UI. You can also combine different themes, so for example you can use icons from a theme and fonts from another. To revert to the default settings, you can use the restore option from the pulley menu.</source>
-        <translation>De pagina &lt;i&gt;Thema’s&lt;/i&gt; laat u toe uw pictogrammen en lettertypen aan te passen via thema’s van derde partijen. Deze pagina geeft een lijst weer van de thema’s die dat ge momenteel hebt geïnstalleerd (bv. van OpenRepos). Voor deze toe te passen tikt ge op het thema dat ge wilt, en daarna welke elementen van dit thema dat ge wilt gebruiken - als het thema meerdere lettergewichten bevat, kunt ge kiezen hetwelk ge als standaardlettertype voor de gebruikersinterface wilt gebruiken. Ge kunt ook verschillende thema’s combineren, bijvoorbeeld door de pictogrammen van een bepaald thema te gebruiken in combinatie met de lettertypen van een ander. Voor terug te keren naar de standaardinstellingen, kunt ge de herstelopties in het uittrekmenu gebruiken.</translation>
+        <translation>De pagina &lt;i&gt;Thema’s&lt;/i&gt; laat u toe uw pictogrammen en lettertypen aan te passen via thema’s van derde partijen. Deze pagina geeft een lijst weer van de thema’s die dat ge momenteel hebt geïnstalleerd (bv. van OpenRepos). Voor deze toe te passen tikt ge op ’t thema dat ge wilt, en daarna welke elementen van dit thema dat ge wilt gebruiken - als ’t thema meerdere lettergewichten bevat, kunt ge kiezen ’twelk dat ge als standaardlettertype voor de gebruikersinterface wilt gebruiken. Ge kunt ook verschillende thema’s combineren, bijvoorbeeld door de pictogrammen van een bepaald thema te gebruiken in combinatie met de lettertypen van een ander. Voor terug te keren naar de standaardinstellingen, kunt ge de herstelopties in ’t uittrekmenu gebruiken.</translation>
     </message>
     <message>
         <source>Display density</source>
@@ -246,7 +246,7 @@
     </message>
     <message>
         <source>By increasing the display density, you can display more content on your screen - or less, if you prefer to have bigger UI elements. Android apps use a different setting than Sailfish OS ones. To revert to the default settings, you can use the restore options from the pulley menu.</source>
-        <translation>Door de pixeldichtheid te verhogen, kunt ge meer inhoud op uw scherm weergeven - of minder, als ge een grotere gebruikersinterface wilt. Android-apps gebruiken een aparte instelling. Voor terug te keren naar de standaardinstellingen, kunt ge de herstelopties in het uittrekmenu gebruiken.</translation>
+        <translation>Door de pixeldichtheid te verhogen, kunt ge meer inhoud op uw scherm weergeven - of minder, als ge een grotere gebruikersinterface wilt. Android-apps gebruiken een aparte instelling. Voor terug te keren naar de standaardinstellingen, kunt ge de herstelopties in ’t uittrekmenu gebruiken.</translation>
     </message>
     <message>
         <source>Icon updater</source>
@@ -270,7 +270,7 @@
     </message>
     <message>
         <source>If anything goes wrong or you want to manage all the options via terminal, you can recall the CLI tool by typing &lt;b&gt;themepacksupport&lt;/b&gt; as root.</source>
-        <translation>Als er iets fout gaat of als ge alle functies via den terminal wilt beheren kunt ge het CLI-programma oproepen door als root &lt;b&gt;themepacksupport&lt;/b&gt; in te geven.</translation>
+        <translation>Als er iets fout gaat of als ge alle functies via den terminal wilt beheren kunt ge ’t CLI-programma oproepen door als root &lt;b&gt;themepacksupport&lt;/b&gt; in te geven.</translation>
     </message>
     <message>
         <source>Remember to unapply themes and display density customizations before updating your system. In case you forgot, you may need to use the options provided in the &lt;i&gt;Recovery&lt;/i&gt; page or uninstall and reinstall Theme pack support e UI Themer.</source>
@@ -290,7 +290,7 @@
     </message>
     <message>
         <source>You can quickly restart the homescreen after you applied a setting by pressing &lt;b&gt;R&lt;/b&gt;.</source>
-        <translation>Ge kunt het startscherm rap herstarten nadat ge een instelling hebt toegepast door op &lt;b&gt;R&lt;/b&gt; te drukken.</translation>
+        <translation>Ge kunt ’t startscherm rap herstarten nadat ge een instelling hebt toegepast door op &lt;b&gt;R&lt;/b&gt; te drukken.</translation>
     </message>
     <message>
         <source>You can cancel a countdown or a dialog by pressing &lt;b&gt;C&lt;/b&gt;.</source>
@@ -298,7 +298,7 @@
     </message>
     <message>
         <source>Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. &lt;i&gt;Icon updater&lt;/i&gt; will automate this process, enabling automatic update of icons at a given time. You can choose between a pre-defined set of hours or a custom hour of the day.</source>
-        <translation>Telkens dat nen app wordt bijgewerkt moet ge het thema terug toepassen voor het aangepaste pictogram terug te krijgen. De &lt;i&gt;pictogrambijwerker&lt;/i&gt; automatiseert dit proces en laat u toe van uw pictogrammen op een gegeven tijdstip automatisch bij te werken. Ge kunt kiezen tussen vooraf bepaalde tijdstippen, of een tijdstip naar keuze invoeren.</translation>
+        <translation>Telkens dat nen app wordt bijgewerkt moet ge ’t thema terug toepassen voor ’t aangepast pictogram terug te krijgen. De &lt;i&gt;pictogrambijwerker&lt;/i&gt; automatiseert dit proces en laat u toe van uw pictogrammen op een gegeven tijdstip automatisch bij te werken. Ge kunt kiezen tussen vooraf bepaalde tijdstippen, of een tijdstip naar keuze invoeren.</translation>
     </message>
     <message>
         <source>Press &lt;b&gt;G&lt;/b&gt; for the usage guide.</source>
@@ -310,11 +310,11 @@
     </message>
     <message>
         <source>An homescreen restart may be needed to apply your settings. You can do that through the dialog or from the &lt;i&gt;Options&lt;/i&gt; page.</source>
-        <translation>Het is nodig van het startscherm te herstarten voor uw instellingen toe te passen. Ge kunt dit doen via den dialoog die dat verschijnt, of via de pagina &lt;i&gt;Opties&lt;/i&gt;.</translation>
+        <translation>’t Is nodig van ’t startscherm te herstarten voor uw instellingen toe te passen. Ge kunt dit doen via den dialoog dat verschijnt, of via de pagina &lt;i&gt;Opties&lt;/i&gt;.</translation>
     </message>
     <message>
         <source>An homescreen restart may be needed to apply your settings. You can do that from the &lt;i&gt;Options&lt;/i&gt; page.</source>
-        <translation>Het is nodig van het startscherm te herstarten voor uw instellingen toe te passen. Ge kunt dit doen via de pagina &lt;i&gt;Opties&lt;/i&gt;.</translation>
+        <translation>’t Is nodig van ’t startscherm te herstarten voor uw instellingen toe te passen. Ge kunt dit doen via de pagina &lt;i&gt;Opties&lt;/i&gt;.</translation>
     </message>
     <message>
         <source>Press &lt;b&gt;O&lt;/b&gt; for the options page.</source>
@@ -330,7 +330,7 @@
     </message>
     <message>
         <source>If you have Storeman installed, you can quickly look for compatible themes by using the &lt;i&gt;Download&lt;/i&gt; icon in the main page.</source>
-        <translation>Als Storeman geïnstalleerd is, kunt ge rap zoeken naar compatibele thema’s met behulp van het &lt;i&gt;Download&lt;/i&gt;-pictogram op de startpagina.</translation>
+        <translation>Als Storeman geïnstalleerd is, kunt ge rap zoeken naar compatibele thema’s met behulp van ’t &lt;i&gt;Download&lt;/i&gt;-pictogram op de startpagina.</translation>
     </message>
     <message>
         <source>Press &lt;b&gt;H&lt;/b&gt; for the home page.</source>
@@ -346,15 +346,15 @@
     </message>
     <message>
         <source>If you are working on a theme or you want to have the default icons in a safe place, you can backup them. A compressed archive will be created and saved into &lt;i&gt;/home/nemo/&lt;/i&gt;. You can also restore a previous backup.</source>
-        <translation>Als ge aan een thema aan het werken zijt of als ge de standaardpictogrammen ergens veilig wilt opslaan, kunt ge der nen back-up van maken. Der gaat een gecomprimeerd archief worden aangemaakt in &lt;i&gt;/home/nemo/&lt;/i&gt;. Ge kunt ook ne vorigen back-up herstellen.</translation>
+        <translation>Als ge aan een thema aan ’t werken zijt of als ge de standaardpictogrammen ergens veilig wilt opslaan, kunt ge der nen back-up van maken. Der gaat een gecomprimeerd archief worden aangemaakt in &lt;i&gt;/home/nemo/&lt;/i&gt;. Ge kunt ook ne vorigen back-up herstellen.</translation>
     </message>
     <message>
         <source>If you have an Xperia XA2 series device, a full restart may be needed may be needed to apply your Android settings.</source>
-        <translation>Als ge nen Xperia XA2 gebruikt, moet ge het toestel mogelijks herstarten voor de Android-instellingen toe te passen.</translation>
+        <translation>Als ge nen Xperia XA2 gebruikt, moet ge ’t toestel mogelijks herstarten voor de Android-instellingen toe te passen.</translation>
     </message>
     <message>
         <source>Here you can find advanced settings for UI Themer, e.g. reinstall default icons, fonts or sounds if you forget to revert to default theme before a system update or if the applying fails.</source>
-        <translation>Hier vindt ge geavanceerde instellingen voor UI Themer, bv. het herinstalleren van standaardpictogrammen, -lettertypen of -geluiden als ge vergeten zijt van het standaardthema te herstellen vóór ne systeemupdate, of als er een fout is opgetreden bij het toepassen.</translation>
+        <translation>Hier vindt ge geavanceerde instellingen voor UI Themer, bv. ’t herinstalleren van standaardpictogrammen, -lettertypen of -geluiden als ge vergeten zijt van ’t standaardthema te herstellen vóór ne systeemupdate, of als er een fout is opgetreden bij ’t toepassen.</translation>
     </message>
     <message>
         <source>If you still can&apos;t get the help you need, you can open an issue on</source>
@@ -423,7 +423,7 @@
     </message>
     <message>
         <source>Everytime an app is updated, you need to re-apply the theme in order to get the custom icon back. &lt;i&gt;Icon updater&lt;/i&gt; will automate this process, enabling automatic update of icons at a given time.</source>
-        <translation>Telkens dat nen app wordt bijgewerkt moet ge het thema terug toepassen voor het aangepaste pictogram terug te krijgen. De &lt;i&gt;pictogrambijwerker&lt;/i&gt; automatiseert dit proces en laat u toe van uw pictogrammen op een gegeven tijdstip automatisch bij te werken.</translation>
+        <translation>Telkens dat nen app wordt bijgewerkt moet ge ’t thema terug toepassen voor ’t aangepast pictogram terug te krijgen. De &lt;i&gt;pictogrambijwerker&lt;/i&gt; automatiseert dit proces en laat u toe van uw pictogrammen op een gegeven tijdstip automatisch bij te werken.</translation>
     </message>
     <message>
         <source>Update icons</source>
@@ -519,7 +519,7 @@
     </message>
     <message>
         <source>Restart the homescreen, to make your modifications effective. Your currently opened apps will be closed.</source>
-        <translation>Herstart het startscherm voor uw wijzigingen toe te passen. De apps die dat ge momenteel hebt geopend, gaan gesloten worden.</translation>
+        <translation>Herstart ’t startscherm voor uw wijzigingen toe te passen. De apps die dat ge momenteel hebt geopend, gaan gesloten worden.</translation>
     </message>
     <message>
         <source>Restoring</source>
@@ -539,7 +539,7 @@
     </message>
     <message>
         <source>Restore the default icons, fonts and display density settings before performing a system update, so you don&apos;t need to manually do it.</source>
-        <translation>Herstelt de standaardpictogrammen, lettertypen en pixeldichtheidsinstellingen voorafgaand aan een systeemupdate, zodat ge het niet meer handmatig moet doen.</translation>
+        <translation>Herstelt de standaardpictogrammen, lettertypen en pixeldichtheidsinstellingen voorafgaand aan een systeemupdate, zodat ge ’t niet meer handmatig moet doen.</translation>
     </message>
     <message>
         <source>Show active theme</source>
@@ -547,7 +547,7 @@
     </message>
     <message>
         <source>Show the current theme on the cover.</source>
-        <translation>Toont het huidig thema op den omslag.</translation>
+        <translation>Toont ’t huidig thema op den omslag.</translation>
     </message>
     <message>
         <source>UI mode</source>
@@ -623,7 +623,7 @@
     </message>
     <message>
         <source>Here you can find advanced settings for UI Themer, e.g. reinstall default icons, fonts or sounds if you forget to revert to default theme before a system update or if the applying fails.</source>
-        <translation>Hier vindt ge geavanceerde instellingen voor UI Themer, bv. het herinstalleren van standaardpictogrammen, -lettertypen of -geluiden als ge vergeten zijt van het standaardthema te herstellen vóór ne systeemupdate, of als er een fout is opgetreden bij het toepassen.</translation>
+        <translation>Hier vindt ge geavanceerde instellingen voor UI Themer, bv. ’t herinstalleren van standaardpictogrammen, -lettertypen of -geluiden als ge vergeten zijt van ’t standaardthema te herstellen vóór ne systeemupdate, of als er een fout is opgetreden bij ’t toepassen.</translation>
     </message>
 </context>
 <context>
@@ -646,7 +646,7 @@
     </message>
     <message>
         <source>If any error occurs during themes applying/restoring, you can end up with messed up icons. From here, you can reinstall default Jolla app icons while, for thirdy party apps, you may need to reinstall/update apps to restore the default look.</source>
-        <translation>Indien dat der een fout optreedt bij het toepassen/herstellen van thema’s kunnen uw pictogrammen verprutst worden. Van hieruit kunt ge de standaardpictogrammen van Jolla herinstalleren. Voor apps van derde partijen moet ge mogelijks de apps bijwerken of herinstalleren voor de standaardpictogrammen te herstellen.</translation>
+        <translation>Indien dat der een fout optreedt bij ’t toepassen/herstellen van thema’s kunnen uw pictogrammen verprutst worden. Van hieruit kunt ge de standaardpictogrammen van Jolla herinstalleren. Voor apps van derde partijen moet ge mogelijks de apps bijwerken of herinstalleren voor de standaardpictogrammen te herstellen.</translation>
     </message>
     <message>
         <source>Reinstall fonts</source>
@@ -658,11 +658,11 @@
     </message>
     <message>
         <source>Reinstall default sounds, if sounds applying/restoring fails.</source>
-        <translation>Herinstalleert de standaardgeluiden indien dat het toepassen/herstellen van geluiden mislukt.</translation>
+        <translation>Herinstalleert de standaardgeluiden indien dat ’t toepassen/herstellen van geluiden mislukt.</translation>
     </message>
     <message>
         <source>Remember to restart the homescreen right after.</source>
-        <translation>Vergeet niet van het startscherm nadien te herstarten.</translation>
+        <translation>Vergeet niet van ’t startscherm nadien te herstarten.</translation>
     </message>
     <message>
         <source>Restart homescreen</source>
@@ -670,7 +670,7 @@
     </message>
     <message>
         <source>Reinstall default fonts, if fonts applying/restoring fails.</source>
-        <translation>Herinstalleert de standaardlettertypen indien dat het toepassen/herstellen van lettertypen mislukt.</translation>
+        <translation>Herinstalleert de standaardlettertypen indien dat ’t toepassen/herstellen van lettertypen mislukt.</translation>
     </message>
 </context>
 <context>
@@ -693,7 +693,7 @@
     </message>
     <message>
         <source>Remember to restart the homescreen right after.</source>
-        <translation>Vergeet niet van het startscherm nadien te herstarten.</translation>
+        <translation>Vergeet niet van ’t startscherm nadien te herstarten.</translation>
     </message>
     <message>
         <source>Restart homescreen</source>
@@ -701,11 +701,11 @@
     </message>
     <message>
         <source>After confirming, your device will restart. Your currently opened apps will be closed.</source>
-        <translation>Na bevestiging gaat het apparaat herstarten. Uw geopende apps gaan gesloten worden.</translation>
+        <translation>Na bevestiging gaat ’t apparaat herstarten. Uw geopende apps gaan gesloten worden.</translation>
     </message>
     <message>
         <source>If you have an Xperia XA2 series device, a full restart may be needed to apply your Android settings.</source>
-        <translation>Als ge nen Xperia XA2 gebruikt, moet ge het toestel mogelijks herstarten voor de Android-instellingen toe te passen.</translation>
+        <translation>Als ge nen Xperia XA2 gebruikt, moet ge ’t toestel mogelijks herstarten voor de Android-instellingen toe te passen.</translation>
     </message>
 </context>
 <context>
@@ -724,7 +724,7 @@
     </message>
     <message>
         <source>Remember to restart the homescreen right after.</source>
-        <translation>Vergeet niet van het startscherm nadien te herstarten.</translation>
+        <translation>Vergeet niet van ’t startscherm nadien te herstarten.</translation>
     </message>
     <message>
         <source>Default icons</source>
@@ -736,7 +736,7 @@
     </message>
     <message>
         <source>After confirming, your device will restart. Your currently opened apps will be closed.</source>
-        <translation>Na bevestiging gaat het apparaat herstarten. Uw geopende apps gaan gesloten worden.</translation>
+        <translation>Na bevestiging gaat ’t apparaat herstarten. Uw geopende apps gaan gesloten worden.</translation>
     </message>
     <message>
         <source>Default sounds</source>
@@ -744,7 +744,7 @@
     </message>
     <message>
         <source>For sounds, a full restart may be needed to apply your settings.</source>
-        <translation>Voor geluiden moet ge het toestel mogelijks herstarten voor de instellingen toe te passen.</translation>
+        <translation>Voor geluiden moet ge ’t toestel mogelijks herstarten voor de instellingen toe te passen.</translation>
     </message>
 </context>
 <context>
@@ -841,7 +841,7 @@
     </message>
     <message>
         <source>ImageMagick is required for UI Themer overlays to work. Overlays need to be supported by the theme.</source>
-        <translation>ImageMagick is vereist voor de overlays van UI Themer te laten werken. Overlays moeten ook ondersteund worden door het thema.</translation>
+        <translation>ImageMagick is vereist voor de overlays van UI Themer te laten werken. Overlays moeten ook ondersteund worden door ’t thema.</translation>
     </message>
     <message>
         <source>Install ImageMagick</source>
@@ -861,7 +861,7 @@
     </message>
     <message>
         <source>UI Themer DOES NOT send any data. Some essential info (e.g. the current theme) are collected and stored EXCLUSIVELY locally and used only for the proper functioning of the app (e.g. to display the current theme in the app).</source>
-        <translation>UI Themer stuurt GEEN gegevens. Sommige essentiële informatie (bv. het huidig thema) wordt UITSLUITEND lokaal bewaard, en wordt enkel gebruikt voor het correct werken van den app (bv. voor het huidig thema in den app weer te geven).</translation>
+        <translation>UI Themer stuurt GEEN gegevens. Sommige essentiële informatie (bv. ’t huidig thema) wordt UITSLUITEND lokaal bewaard, en wordt enkel gebruikt voor ’t correct werken van den app (bv. voor ’t huidig thema in den app weer te geven).</translation>
     </message>
 </context>
 </TS>
