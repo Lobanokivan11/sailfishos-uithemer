@@ -154,6 +154,11 @@ Page
               }
 
               DetailItem {
+                  label: "русский (Russian)"
+                  value: "Oleh Ampilohov"
+              }
+
+              DetailItem {
                   label: "Svenska"
                   value: "Åke Engelbrektson"
               }
