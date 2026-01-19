@@ -64,29 +64,29 @@ QString ThemePack::whoami() const
 void ThemePack::restartHomescreen() const
 {
     setuid_ex(0);
-    Spawner::execute("/usr/share/sailfishos-uithemer/scripts/homescreen.sh", [this]() { emit homescreenRestarted(); });
+    Spawner::execute("/usr/share/sailfishos-uithemer/scripts/homescreen.sh", [this]() mutable { emit homescreenRestarted(); });
 }
 
 void ThemePack::installDependencies() const
 {
     setuid_ex(0);
-    Spawner::execute("/usr/share/sailfishos-uithemer/scripts/install_dependencies.sh", [this]() { emit dependenciesInstalled(); });
+    Spawner::execute("/usr/share/sailfishos-uithemer/scripts/install_dependencies.sh", [this]() mutable { emit dependenciesInstalled(); });
 }
 
 void ThemePack::installImageMagick() const
 {
     setuid_ex(0);
-    Spawner::execute("/usr/share/sailfishos-uithemer/scripts/install_imagemagick.sh", [this]() { emit imageMagickInstalled(); });
+    Spawner::execute("/usr/share/sailfishos-uithemer/scripts/install_imagemagick.sh", [this]() mutable { emit imageMagickInstalled(); });
 }
 
 void ThemePack::enableddensity() const
 {
-    Spawner::execute("/usr/share/sailfishos-uithemer/scripts/enable-dpi.sh", [this]() { emit serviceChanged(); });
+    Spawner::execute("/usr/share/sailfishos-uithemer/scripts/enable-dpi.sh", [this]() mutable { emit serviceChanged(); });
 }
 
 void ThemePack::disableddensity() const
 {
-    Spawner::execute("/usr/share/sailfishos-uithemer/scripts/disable-dpi.sh", [this]() { emit serviceChanged(); });
+    Spawner::execute("/usr/share/sailfishos-uithemer/scripts/disable-dpi.sh", [this]() mutable { emit serviceChanged(); });
 }
 
 void ThemePack::restoreIZ() const
@@ -107,12 +107,12 @@ void ThemePack::disableserviceautoupdate() const
 
 void ThemePack::enableservicesu() const
 {
-    Spawner::execute("/usr/share/sailfishos-uithemer/scripts/enable-servicesu.sh", [this]() { emit serviceChanged(); });
+    Spawner::execute("/usr/share/sailfishos-uithemer/scripts/enable-servicesu.sh", [this]() mutable { emit serviceChanged(); });
 }
 
 void ThemePack::disableservicesu() const
 {
-    Spawner::execute("/usr/share/sailfishos-uithemer/scripts/disable-servicesu.sh", [this]() { emit serviceChanged(); });
+    Spawner::execute("/usr/share/sailfishos-uithemer/scripts/disable-servicesu.sh", [this]() mutable { emit serviceChanged(); });
 }
 
 QString ThemePack::getTimer() const
