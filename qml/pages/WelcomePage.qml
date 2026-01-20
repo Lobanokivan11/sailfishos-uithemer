@@ -66,7 +66,7 @@ Page
         }
 
         onImageMagickInstalled: {
-            vIM = true
+            vIM = false
             imagemagick.enabled = false
             notify()
         }
