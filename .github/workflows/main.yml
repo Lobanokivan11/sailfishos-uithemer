@@ -22,13 +22,13 @@ jobs:
         release: ${{ env.RELEASE }}
         arch: aarch64
     - name: Build armv7hl
-      uses: coderus/github-sfos-build@master
+      uses: coderus/github-sfos-build@sfos5
       with:
         release: ${{ env.RELEASE }}
         arch: armv7hl
 
     - name: Build i486
-      uses: coderus/github-sfos-build@master
+      uses: coderus/github-sfos-build@sfos5
       with:
         release: ${{ env.RELEASE }}
         arch: i486
